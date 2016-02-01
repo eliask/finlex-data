@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+  <asi:IdentifiointiOsa>
+    <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
+    <asi:EduskuntaTunniste>
+      <met1:AsiakirjatyyppiKoodi>SDK</met1:AsiakirjatyyppiKoodi>
+      <asi1:AsiakirjaNroTeksti>357</asi1:AsiakirjaNroTeksti>
+      <asi1:ValtiopaivavuosiTeksti>2015</asi1:ValtiopaivavuosiTeksti>
+    </asi:EduskuntaTunniste>
+    <met:Nimeke>
+      <met1:NimekeTeksti>om beräkning av skadeförsäkringsbolags utjämningsbelopp</met1:NimekeTeksti>
+    </met:Nimeke>
+  </asi:IdentifiointiOsa>
+  <saa:SaadosOsa>
+    <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Asetus">
+      <saa:SaadosNimeke>
+        <saa:SaadostyyppiKooste>Social- och hälsovårdsministeriets förordning</saa:SaadostyyppiKooste>
+        <saa:SaadosNimekeKooste>om beräkning av skadeförsäkringsbolags utjämningsbelopp</saa:SaadosNimekeKooste>
+      </saa:SaadosNimeke>
+      <saa:Johtolause>
+        <saa:SaadosKappaleKooste>I enlighet med social- och hälsovårdsministeriets beslut föreskrivs med stöd av 9 kap. 12 § i försäkringsbolagslagen (521/2008), sådan den lyder i lag 303/2015:</saa:SaadosKappaleKooste>
+      </saa:Johtolause>
+      <saa:Pykalisto>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
+          <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Formel för överföring av utjämningsbelopp</saa:SaadosOtsikkoKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Utjämningsbeloppet i bokslutet U(t) år t beräknas genom överföringsformlerna</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>U(t) = (1+i)·U(t–1) + (f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti>–f(t))·B(t), när f(t) &lt; f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti>,</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>U(t) = (1+i)·U(t–1), när f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> ≤ f(t) ≤ f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti>,</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>U(t) = (1+i)·U(t–1) – (f(t) – f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti>)·B(t), när f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti>&lt; f(t).</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:MomenttiKooste>I 1 mom. är U(t–1) utjämningsbeloppet i bokslutet för år t–1, i den räntesats som ska användas, f(t) räkenskapsårets korrigerade skadekvot för egen räkning, f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti> skadekvot för minskning, f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> skadekvot för ökning och B(t) räkenskapsårets korrigerade premieintäkter för egen räkning.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Om beräkningen enligt 1 mom. resulterar i att U(t) underskrider utjämningsbeloppets minimibelopp, justeras utjämningsbeloppet till samma belopp som minimibeloppet. Om beräkningen enligt 1 mom. resulterar i att U(t) överskrider utjämningsbeloppets maximibelopp, justeras utjämningsbeloppet till samma belopp som maximibeloppet.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
+          <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Kalkylmodeller för storheterna i formeln för överföring av utjämningsbelopp</saa:SaadosOtsikkoKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Försäkringsbolagets korrigerade premieinkomster för egen räkning B(t) beräknas genom formeln</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>B(t) = B’(t) + V(t–1) – V(t),</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>där B’(t) avser premieinkomsten för egen räkning år t, till vilken den del som använts för bolagets vinstutdelning som premieåterbetalningar samt de arvoden och vinstandelar som betalats av återförsäkrare och som ingår i försäkringspremier har lagts och från vilken kreditförluster samt arvoden och vinstandelar som ingår i premier för mottagen återförsäkring har dragits av, samt där V(t) avser premieansvar enligt 9 kap. i försäkringsbolagslagen (521/2008) från vilket återförsäkrarnas andel enligt bokslutet år t har dragits av.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Försäkringsbolagets korrigerade skadekvot för egen räkning f(t) beräknas genom formeln</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>f(t) = X(t)/B(t),</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>där X(t) = X’(t) + K(t) – K(t–1). Här avser X’(t) avser ersättningar som bokförts som betalda år t, inklusive skaderegleringskostnader, från vilka återförsäkrarnas andel har dragits av, och K(t) avser annat ersättningsansvar enligt 9 kap. i försäkringsbolagslagen än det utjämningsbelopp i bokslutet år t från vilket återförsäkrarnas andel har dragits av.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
+          <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Parametrarna i formeln för överföring av utjämningsbelopp</saa:SaadosOtsikkoKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>I beräkningsgrunderna för försäkringsbolagets utjämningsbelopp fastställs minsknings- och ökningsskadekvoternas värden för f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti> och f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> separat för följande två fall:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>1) när utjämningsbeloppet vid utgången av föregående år är högst målbeloppet, och</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>2) när utjämningsbeloppet vid utgången av föregående år ligger mellan målbeloppet och maximibeloppet eller är lika stort som maximibeloppet.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:MomenttiKooste>I det fall som avses i 1 mom. 1 punkten ska minsknings- och ökningsskadekvoterna f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti> och f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> väljas så att de uppfyller det krav som fastställs i 9 kap. 5 b § 3 mom. i försäkringsbolagslagen.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>I det fall som avses i 1 mom. 2 punkten ska minsknings- och ökningsskadekvoterna f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti> och f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> väljas så att de är högst lika stora som parametrarna enligt 1 punkten.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
+          <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Parametrarna i överföringsformeln för ett litet försäkringsbolag</saa:SaadosOtsikkoKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Om ett litet försäkringsbolags minsknings- och ökningsskadekvoter i enlighet med 9 kap. 5 b § 4 mom. i försäkringsbolagslagen binds till den genomsnittliga korrigerade skadekvoten, är minsknings- och ökningsskadekvoterna följande:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti> = f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> = f¯ + a,</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>där f¯ är föregående års genomsnittliga korrigerade skadekvot och a är en ökningsparameter.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:MomenttiKooste>Ett litet försäkringsbolags föregående års genomsnittliga korrigerade skadekvot beräknas som ett genomsnitt av de korrigerade skadekvoterna utifrån minst fem års statistikmaterial. Om bolaget har statistikmaterial för en kortare period än fem år eller om bolagets verksamhet väsentligt har förändrats under denna period, ska ett förfaringssätt för beräkningen av den genomsnittliga korrigerade skadekvoten anges i beräkningsgrunderna för bolagets utjämningsbelopp.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>I det fall som avses i 1 mom. 1 punkten ska värdet på ett litet försäkringsbolags ökningsparameter a vara minst 2,5 procent och högst 6 procent. I det fall som avses i 1 mom. 2 punkten ska värdet på ökningsparameter a vara minst noll och högst lika stort som parametern enligt 1 mom. 1 punkten. Värdet på ökningsparameter a ska anges i beräkningsgrunderna för bolagets utjämningsbelopp.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
+          <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Ränta som ska krediteras på utjämningsbelopp</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Den ränta som ska krediteras på utjämningsbeloppet är 1,5 procent eller en sådan lägre fem års riskfri ränta på euron enligt 10 kap. 7 § i försäkringsbolagslagen som används vid solvensberäkningen då försäkringstekniska avsättningar diskonteras, utan beaktande av matchningsjustering eller volatilitetsjustering enligt 10 kap. 8 § i försäkringsbolagslagen.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
+          <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Ändring av beräkningsgrunder</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ett försäkringsbolag kan ansöka om fastställelse av nya beräkningsgrunder hos Finansinspektionen tidigast när de tidigare fastställda grunderna tillämpats minst fem räkenskapsperioder. Om försäkringsbolagets risker väsentligt har ändrats efter fastställelsen av beräkningsgrunderna, ska bolaget ändå ansöka om fastställelse av de nya beräkningsgrunderna hos Finansinspektionen.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Om Finansinspektionen anser att bolagets risker väsentligt har förändrats efter fastställelsen av beräkningsgrunderna eller om bolagets beräkningsgrunder inte uppfyller de krav som fastställs i 9 kap. 5 b § 3 mom. i försäkringsbolagslagen och i 3 § ovan, kan den ålägga bolaget att ansöka om fastställelse av nya beräkningsgrunder. I det fallet följs inte den tidsfrist som avses i 1 mom.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
+          <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Beräkning av utjämningsbeloppet under ett pågående år</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Vid beräkning av utjämningsbeloppet under ett pågående år ersätts vid beräkning av storheten B(t) storheten V(t) med beräkningstidpunktens premieansvar från vilket återförsäkrarnas andel dragits av, och vid beräkning av storheten X(t) storheten K(t) med beräkningstidpunktens ersättningsansvar från vilket återförsäkrarnas andel dragits av utan utjämningsbelopp. Vid beräkningstidpunkten används som ränta den proportionella andelen av årsräntan.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>I en situation som avses i 9 kap. 5 § 1 mom. i försäkringsbolagslagen grundar sig beräkningen av målbeloppet och maximibeloppet på det senast beräknade kapitalkravet enligt det primära solvenskapitalkravet och i en situation som avses i 9 kap. 5 § 2 mom. i försäkringsbolagslagen på det senast beräknade kapitalkravet enligt den modell bolaget tillämpar.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="8 §">
+          <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Ikraftträdande</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Denna förordning träder i kraft den 1 januari 2016.</saa:MomenttiKooste>
+        </saa:Pykala>
+      </saa:Pykalisto>
+    </saa:Saados>
+  </saa:SaadosOsa>
+  <asi:AllekirjoitusOsa>
+    <asi:PaivaysKooste>  Helsingfors den 20 mars 2015</asi:PaivaysKooste>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Social- och hälsovårdsminister</org1:AsemaTeksti>
+        <org1:SukuNimi>Laura Räty</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Övermatematiker</org1:AsemaTeksti>
+        <org1:SukuNimi>Pertti Pulkkinen</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+  </asi:AllekirjoitusOsa>
+</vah:VahvistettavaLaki>
