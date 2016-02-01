@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2013-02-26" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+  <asi:IdentifiointiOsa>
+    <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
+    <asi:EduskuntaTunniste>
+      <met1:AsiakirjatyyppiKoodi>SDK</met1:AsiakirjatyyppiKoodi>
+      <asi1:AsiakirjaNroTeksti>166</asi1:AsiakirjaNroTeksti>
+      <asi1:ValtiopaivavuosiTeksti>2013</asi1:ValtiopaivavuosiTeksti>
+    </asi:EduskuntaTunniste>
+    <met:Nimeke>
+      <met1:NimekeTeksti>aluksen miehityksestä ja laivaväen pätevyydestä</met1:NimekeTeksti>
+    </met:Nimeke>
+    <met:AsiakirjaViitteet>
+      <met:Muu1Viite>
+        <sis1:ViiteTeksti>Euroopan parlamentin ja neuvoston direktiivi 2008/106/EG (32008L0106); EYVL N:o L 323, 3.12.2008, s. 33,</sis1:ViiteTeksti>
+      </met:Muu1Viite>
+      <met:Muu2Viite>
+        <sis1:ViiteTeksti>Euroopan parlamentin ja neuvoston direktiivi 2012/35/EU (32012L0035); EYVL N:o L 343, 14.12.2012, s. 78</sis1:ViiteTeksti>
+      </met:Muu2Viite>
+    </met:AsiakirjaViitteet>
+  </asi:IdentifiointiOsa>
+  <saa:SaadosOsa>
+    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus">
+      <saa:SaadosNimeke>
+        <saa:SaadostyyppiKooste>Valtioneuvoston asetus</saa:SaadostyyppiKooste>
+        <saa:SaadosNimekeKooste>aluksen miehityksestä ja laivaväen pätevyydestä</saa:SaadosNimekeKooste>
+      </saa:SaadosNimeke>
+      <saa:Johtolause>
+        <saa:SaadosKappaleKooste>Valtioneuvoston päätöksen mukaisesti säädetään laivaväestä ja aluksen turvallisuusjohtamisesta annetun lain (1687/2009) nojalla:</saa:SaadosKappaleKooste>
+      </saa:Johtolause>
+      <saa:Pykalisto>
+        <saa:Luku saa1:identifiointiTunnus="1 luku">
+          <saa:LukuTunnusKooste>1 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Yleiset säännökset</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
+            <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Määritelmät</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Tässä asetuksessa tarkoitetaan:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) <saa:SaadosKursiiviKooste>GMDSS-järjestelmällä</saa:SaadosKursiiviKooste> merenkulun hätä- ja turvallisuusjärjestelmää;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) <saa:SaadosKursiiviKooste>merialueilla A1, A2, A3 ja A4</saa:SaadosKursiiviKooste> GMDSS-järjestelmään liittyviä merialueita;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) <saa:SaadosKursiiviKooste>koneteholla</saa:SaadosKursiiviKooste> katsastustodistukseen tai muuhun viralliseen asiakirjaan merkittyä kuljetuskoneistojen yhteenlaskettua suurinta jatkuvaa nimellistehoa kilowatteina;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) <saa:SaadosKursiiviKooste>teholuvulla</saa:SaadosKursiiviKooste> lukua joka saadaan laskemalla yhteen käytettävissä olevien höyrykattiloiden suurimman sallitun käyttöpaineen ja tehon lukuarvojen tulot, jolloin käyttöpaine tarkoittaa ylipainetta ilmoitettuna bar’eissa ja teho nesteen ja höyryn aikayksikössä siirtyvää lämpöenergiaa ilmoitettuna megawatteina;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>5) <saa:SaadosKursiiviKooste>koulualuksella</saa:SaadosKursiiviKooste> hyväksytyn koulutuksen järjestäjän ylläpitämää tai käyttämää alusta jota käytetään laivaväestä ja aluksen turvallisuusjohtamisesta annetun lain (1687/2009) tai tämän asetuksen tarkoittaman koulutuksen järjestämiseen;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>6) <saa:SaadosKursiiviKooste>hyväksytyllä koulutuksen järjestäjällä</saa:SaadosKursiiviKooste> STCW-yleissopimuksen mukaisesti arvioitua ja hyväksyttyä koulutuksen järjestäjää ja koulutuksen järjestäjää, jolla on opetus- ja kulttuuriministeriön myöntämä merenkulkualan koulutuksen järjestämislupa;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>7) <saa:SaadosKursiiviKooste>ohjatulla harjoittelulla</saa:SaadosKursiiviKooste> koulutukseen sisältyvää ja pätevyyskirjan antamisen edellytyksenä olevaa aluksella tai simulaattorissa suoritettua, hyväksyttyyn ohjatun harjoittelun seurantakirjaan dokumentoitua opiskelua, joka voidaan suorittaa myös laivaväkeen kuuluvana.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="2 luku">
+          <saa:LukuTunnusKooste>2 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Aluksen miehitys</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
+            <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Miehityksen vahvistamista koskeva hakemus</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Laivanisännän on miehityksen vahvistamista koskevassa hakemuksessa esitettävä selvitykset:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vahti- ja turvatoimijärjestelyistä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) työ- ja lepoaikojen järjestämisestä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) liikennealueista;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) satamakäyntien taajuuksista ja merimatkojen pituuksista;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>5) aluksen kiinnityksestä ja irrotuksesta;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>6) lastista, lastinkäsittelystä, ahtaamisesta sekä lastinkiinnittämisestä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>7) laivaväestä ja matkustajista huolehtimisesta mukaan lukien laivaväen ruokahuolto;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>8) aluksen käytöstä, huollosta ja kunnossapidosta;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>9) meriympäristön suojelusta;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>10) koneistojen lukumäärästä, koosta ja tyypistä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>11) aluksen koosta, tyypistä ja varustelusta;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>12) aluksella annettavasta koulutuksesta.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
+            <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Miehitystä vahvistettaessa huomioon otettavat seikat</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Liikenteen turvallisuusviraston on miehitystä vahvistaessaan otettava huomioon aluksen päällikön ja konepäällikön osallistuminen vahdinpitoon.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
+            <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Aluksen miehitystä koskevat laivanisännän velvollisuudet</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Laivanisännän on varmistettava ennen kuin merenkulkija ottaa vastaan toimen aluksella, että:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) merenkulkijalla on toimeen vaadittava pätevyys;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) merenkulkija on suorittanut tarvittavat kertauskurssit ja saattanut koulutuksensa ajan tasalle STCW-yleissopimuksen vaatimusten mukaisesti;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) merenkulkijan koulutukseen, pätevyyteen ja työkokemukseen liittyvät tietonsa ovat paikkansa pitäviä ja että hänellä on merimiesten terveydentilasta annettujen säännösten ja määräysten mukainen terveys sekä että kyseiset tiedot on tallennettu laivanisännän ylläpitämään rekisteriin, josta asianomaisella henkilöllä on mahdollisuus saada itseään koskevat tiedot nähtäväksi;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) merenkulkija perehdytetään laivanisännän laatimien aluskohtaisten ohjeiden mukaisesti hänen toimiensa edellyttämiin erityistehtäviin, alukseen ja sen laitteiden käyttöön, aluksella vallitseviin rutiineihin, turvallisuusjärjestelyihin, pelastuslaitteisiin sekä hätätilanteiden vaatimiin tehtäviin ja asiasta tehdään merkintä laivan asiakirjoihin;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>5) merenkulkija kykenee hätätilanteessa tehokkaaseen yhteistyöhön muiden kanssa ihmisten ja aluksen turvallisuuden varmistamiseksi, turvatoimitehtävien hoitamiseksi sekä ympäristön pilaantumisen ehkäisemiseksi.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Laivanisännän on varmistettava, että aluksen päällikkö, muu päällystö sekä miehistö, jolle on määrätty erityisiä tehtäviä ja vastuita ro-ro-matkustaja-aluksella, perehdytetään tehtäviinsä liittyviin vastuisiin ja velvollisuuksiin ottaen huomioon STCW-säännöstön B-I/14 säännön 2 kohtaan sisältyvä ohjeistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Laivanisännän on alusta miehitettäessä otettava huomioon, että yliperämies ja ensimmäinen konemestari voivat milloin tahansa joutua ottamaan joko koko aluksen tai koneosaston vastuulleen.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Laivanisännän on aluksen miehitystä suunnitellessaan arvioitava, ovatko aluksen sähköjärjestelmät sellaiset, että aluksen laivaväkeen kuuluvalla tulisi olla sähkömestarin pätevyys. Lisäksi laivanisännän on arvioitava, ovatko aluksen liikennöintiolosuhteet ja bruttovetoisuus sellaiset, että aluksen kansi- ja koneosastossa tulisi noudattaa kolmivahtijärjestelmää.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
+            <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Aluksen miehitystä koskevat päällikön velvollisuudet</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Päällikön on huolehdittava, että laivaväen lukumäärä, kokoonpano ja käyttö jokaisella matkalla mahdollistavat seuraavien toimintojen hoitamisen:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) aluksen kuljettaminen turvallisesti satamasta satamaan;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) aluksen käytön vaatima huolto siinä laajuudessa kuin aiottu matka vaatii;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) merenkulku-, pelastus-, palontorjunta- sekä muun turvallisuusvälineistön käyttö ja huolto;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) koneiston, automatiikan, valvonta-apuvälineiden ja viestintävälineiden käyttö ja huolto siinä laajuudessa, että alusta voidaan kuljettaa turvallisesti;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>5) hinauksen vaatimat toiminnot ottaen huomioon hinauksen laatu;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>6) aluksen turvallinen kiinnittäminen ja irrottaminen;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>7) laivaväen ja muiden aluksella asuvien henkilöiden huolto;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>8) turvatoimet ja ympäristön pilaantumisen ehkäisy.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Päällikön tulee valvoa, että laivaväellä on riittävä kielitaito turvallisuuteen liittyvien määräysten, ohjeiden ja suullisten viestien ymmärtämiseksi.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
+            <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Miehitystodistuksen voimassaolo ja miehityksen muuttaminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Miehitystodistus kansainväliseen liikenteeseen voidaan antaa enintään viideksi vuodeksi. Kotimaan liikennealueilla liikennöiville aluksille voidaan miehitystodistus antaa joko määräajaksi tai toistaiseksi.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Aluksen ensimmäistä miehitystä vahvistettaessa tai silloin kun miehityksessä on oleellisia muutoksia, Liikenteen turvallisuusvirasto vahvistaa miehityksen kuudeksi kuukaudeksi. Ennen kuuden kuukauden määräajaksi annetun miehitystodistuksen uusimista Liikenteen turvallisuusvirasto pyytää aluksen päälliköltä ja konepäälliköltä lausunnot miehityksen soveltuvuudesta.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Jos aluksella toistuvasti rikotaan laivaväen lepoaikoja koskevia säännöksiä, Liikenteen turvallisuusviraston on työsuojeluviranomaisen sitä pyytäessä arvioitava aluksen vähimmäismiehitys uudelleen.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="3 luku">
+          <saa:LukuTunnusKooste>3 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Aluksen päällystön pätevyysvaatimukset</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
+            <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Lasti- ja matkustaja-aluksen päällikön pätevyysvaatimukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen liikennealueen I nimetyllä ja rajatulla alueella toimivassa matkustaja-aluksessa, jonka bruttovetoisuus on alle 100, päälliköllä on oltava kuljettajankirja tai kalastusaluksen kuljettajankirja A.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen liikennealueella I lastialuksessa, jonka bruttovetoisuus on alle 100, päälliköllä on oltava kuljettajankirja tai kalastusaluksen kuljettajankirja B.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen liikennealueilla II ja III toimivalla lastialuksella, jonka bruttovetoisuus on alle 100, päälliköllä on oltava kotimaanliikenteen laivurin koulutus sekä neljä kuukautta meripalvelua. Kotimaanliikenteen laivurin koulutus ja meripalvelu on osoitettava Liikenteen turvallisuusviraston antamalla todistuksella ja ne voidaan korvata kalastusaluksen laivurinkirja B:llä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen lastialuksella, jonka bruttovetoisuus on vähintään 100 mutta alle 500, päälliköllä on oltava kotimaanliikenteen laivurinkirja tai kalastusaluksen laivurinkirja B.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen matkustaja-aluksessa, jonka bruttovetoisuus on alle 300, päälliköllä on oltava kotimaanliikenteen laivurinkirja tai kalastusaluksen laivurinkirja B. Kotimaanliikenteen liikennealueella III liikennöivän matkustaja-aluksen päälliköllä on lisäksi oltava vähintään 12 kuukautta meripalvelua perämiehenä tai päällikkönä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen matkustaja-aluksessa, jonka bruttovetoisuus on vähintään 300 mutta alle 500, päälliköllä on oltava kotimaanliikenteen laivurinkirja tai kalastusaluksen laivurinkirja B sekä 12 kuukautta meripalvelua perämiehenä tai päällikkönä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen aluksessa, jonka bruttovetoisuus on vähintään 500 mutta alle 1 000, päälliköllä on oltava vahtiperämiehenkirja tai kalastusaluksen laivurinkirja A. Matkustaja-aluksen päälliköllä on lisäksi oltava vähintään 12 kuukautta meripalvelua perämiehenä tai päällikkönä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen aluksessa, jonka bruttovetoisuus on vähintään 1 000 mutta alle 3 000, päälliköllä on oltava yliperämiehenkirja tai vahtiperämiehenkirja ja 36 kuukautta meripalvelua perämiehenä tai 24 kuukautta meripalvelua perämiehenä, joista vähintään 12 kuukautta meripalvelua yliperämiehenä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Itämerenliikenteen tai lähiliikenteen aluksessa, jonka bruttovetoisuus on alle 500, päälliköllä on oltava lähiliikenteen päällikkökirja.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Euroopan liikenteen ja kaukoliikenteen aluksessa, jonka bruttovetoisuus on alle 500, päälliköllä on oltava yliperämiehenkirja sekä 36 kuukautta meripalvelua perämiehenä tai 24 kuukautta meripalvelua perämiehenä, josta vähintään 12 kuukautta meripalvelua yliperämiehenä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kansainvälisen liikenteen aluksessa, jonka bruttovetoisuus on vähintään 500 mutta alle 3 000, päälliköllä on oltava yliperämiehenkirja sekä 36 kuukautta meripalvelua perämiehenä tai 24 kuukautta meripalvelua perämiehenä, josta vähintään 12 kuukautta meripalvelua yliperämiehenä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Aluksessa, jonka bruttovetoisuus on vähintään 3 000, päälliköllä on oltava merikapteeninkirja.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §">
+            <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Lasti- ja matkustaja-aluksen konepäällikön pätevyysvaatimukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Aluksessa, jonka koneteho on alle 350 kilowattia ja jossa koneiston hallintalaitteet on niin sijoitettu, että sitä voidaan ohjata ohjauspaikalta, aluksen päällikkö voi toimia konepäällikkönä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen aluksessa, jonka koneteho on vähintään 350 kilowattia mutta alle 750 kilowattia, konepäälliköllä on oltava koneenhoitajankirja.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen aluksessa, jonka koneteho on vähintään 750 kilowattia mutta alle 3000 kilowattia, konepäälliköllä on oltava vahtikonemestarinkirja sekä vähintään 12 kuukautta meripalvelua konemestarina.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Itämerenliikenteen ja lähiliikenteen aluksessa, jonka koneteho on vähintään 350 kilowattia mutta alle 750 kilowattia, konepäälliköllä on oltava koneenhoitajankirja sekä vähintään 12 kuukautta meripalvelua konemestarina.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Euroopan liikenteen ja kaukoliikenteen aluksessa, jonka koneteho on vähintään 350 kilowattia mutta alle 750 kilowattia, konepäälliköllä on oltava vahtikonemestarinkirja sekä vähintään 12 kuukautta meripalvelua konemestarina.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kansainvälisen liikenteen aluksessa, jonka koneteho on vähintään 750 kilowattia mutta alle 3 000 kilowattia, konepäälliköllä on oltava vähintään konepäällikön pätevyyskirja aluksille, joiden koneteho on alle 3000 kilowattia. </saa:MomenttiKooste>
+            <saa:MomenttiKooste>Aluksessa, jonka koneteho on vähintään 3 000 kilowattia, konepäälliköllä on oltava ylikonemestarinkirja.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Höyryaluksen konepäälliköllä on oltava aluksen höyrykattiloiden yhteenlaskettua teholukua vastaava pätevyyskirja 13 §:n mukaisesti.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">
+            <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kalastusaluksen päällystön pätevyysvaatimukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Luokkaan I kuuluvan kalastusaluksen päälliköllä on pyyntialueilla I ja II oltava kalastusaluksen kuljettajankirja B ja pyyntialueella III kalastusaluksen kuljettajankirja A.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Luokkaan II kuuluvan kalastusaluksen päälliköllä on oltava kalastusaluksen kuljettajankirja A.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Luokkaan III kuuluvan kalastusaluksen perämiehellä on oltava kalastusaluksen laivurinkirja B ja päälliköllä kalastusaluksen laivurinkirja A.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kalastusaluksessa, jonka koneteho on alle 350 kilowattia ja jossa koneiston hallintalaitteet on sijoitettu niin, että alusta voidaan ohjata ohjauspaikalta, aluksen päällikkö voi toimia konepäällikkönä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kalastusaluksessa, jonka koneteho on vähintään 350 kilowattia mutta alle 750 kilowattia, yhdellä laivaväkeen kuuluvalla on oltava koneenhoitajankirja.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Jos kalastusaluksen koneteho on vähintään 750 kilowattia, konepäälliköllä on oltava vahtikonemestarinkirja.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Henkilö, joka on suorittanut kalastusaluksella työskentelevän turvallisuuskoulutuksen ja jolla on tämän asetuksen mukainen:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vahtiperämiehenkirja, voi toimia luokkaan III kuuluvan kalastusaluksen perämiehenä Itämerellä; luokkaan III kuuluvan kalastusaluksen päälliköllä on lisäksi oltava 12 kuukautta meripalvelua perämiehenä, josta palvelusta vähintään kuusi kuukautta on oltava vähintään 12 metriä pitkän kalastusaluksen perämiehenä tai päällikkönä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) kotimaanliikenteen laivurinkirja, voi toimia sellaisen kalastusaluksen päällikkönä, jolla on oltava kalastusaluksen kuljettajankirja A;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) kuljettajankirja, voi toimia sellaisen kalastusaluksen päällikkönä, jolla on oltava kalastusaluksen kuljettajankirja B.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="4 luku">
+          <saa:LukuTunnusKooste>4 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Muut pätevyys- ja koulutusvaatimukset</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="10 §">
+            <saa:PykalaTunnusKooste>10 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Radiohenkilökunnan pätevyysvaatimukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen liikennealueella I on matkustaja-aluksessa jokaisella kansipäällystöön kuuluvalla ja lastialuksessa vähintään yhdellä henkilöllä oltava VHF-liikenteeseen oikeuttava pätevyystodistus.  Niissä aluksissa, joissa on oltava DSC-toiminnolla varustettu VHF-radiopuhelin, on edellä mainituilla henkilöillä oltava ROC- tai SRC-pätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen liikennealueella II matkustaja-aluksessa jokaisella kansipäällystöön kuuluvalla ja lastialuksessa vähintään yhdellä henkilöllä on oltava ROC- tai SRC-pätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotimaanliikenteen liikennealueella III matkustaja-aluksessa jokaisella kansipäällystöön kuuluvalla ja lastialuksessa vähintään yhdellä kansipäällystöön kuuluvalla on oltava ROC- tai SRC-pätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kansainvälisessä liikenteessä liikennöivässä aluksessa jokaisella kansipäällystöön kuuluvalla henkilöllä on oltava vähintään ROC-pätevyystodistus. Tämän lisäksi merialueilla A2, A3 ja A4 liikennöivässä aluksessa vähintään yhdellä kansipäällystöön kuuluvalla henkilöllä on oltava GOC-pätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kansainvälisessä liikenteessä liikennöivässä matkustaja-aluksessa yhdellä kansipäällystöön kuuluvalla on oltava Ilmailumääräyksen PEL M2-93 mukainen rajoitettu radiopuhelimenhoitajan kelpuutus. Ilmailumääräyksen mukainen ilmailuviestiliikennekoe on suoritettava englannin kielellä. Muussa aluksessa tulee yhdellä henkilöllä olla kyseinen kelpuutus, jos aluksessa käytetään ilmailuradiota.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Lossissa, jossa on ainoastaan VHF-radiopuhelin, lossinkuljettajalla on oltava ROC- tai SRC- pätevyystodistus tai Rajoitettu radiopuhelimenhoitajan todistus (vain VHF).</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Proomussa, jota käytetään kotimaanliikenteen liikennealueilla vesirakennustyömailla työntekijöiden asuntona, on vähintään yhdellä henkilöllä oltava ROC- tai SRC- pätevyystodistus tai Rajoitettu radiopuhelimenhoitajan todistus (vain VHF).</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Alle 45 metrin pituisessa kalastusaluksessa, johon ei sovelleta yhdenmukaistetun turvallisuusjärjestelmän luomisesta kalastusaluksille, joiden pituus on 24 metriä tai enemmän, annettua neuvoston direktiiviä 97/70/EY, vähintään yhdellä henkilöllä on oltava ROC- tai SRC-pätevyystodistus, jos alus liikennöi merialueella A1. Jos alus liikennöi merialueen A1 ulkopuolella, on vähintään yhdellä henkilöllä oltava GOC- tai LRC-pätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Vähintään 45 metrin pituisessa kalastusaluksessa sekä sellaisessa alle 45 metrin pituisessa kalastusaluksessa, johon sovelletaan 8 momentissa mainittua direktiiviä, vähintään yhdellä henkilöllä on oltava ROC- pätevyystodistus, jos alus liikennöi merialueella A1. Jos alus liikennöi merialueen A1 ulkopuolella, on vähintään yhdellä henkilöllä oltava GOC-pätevyystodistus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
+            <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Muun kuin kalastusaluksen taloushenkilökunnan pätevyysvaatimukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Ruoanvalmistuksesta vastaavalla ja ruoanvalmistukseen osallistuvalla henkilöllä on oltava hygieniaosaamistodistus. Lisäksi henkilöllä on oltava käytännön ruoanlaiton osaamista.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Aluksessa, jonka miehitys on seitsemästä yhdeksään henkilöä, yhdellä laivaväkeen kuuluvalla on oltava vähintään laivakokin pätevyyskirja.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Aluksessa, jonka miehitys on kymmenen henkilöä tai enemmän, on oltava erillinen, vähintään laivakokin pätevyyskirjan omaava ruoanvalmistuksesta vastaava henkilö.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Matkustaja-aluksella sekä matkustajille että laivaväelle ruokaa valmistavan kokin, jolla on ravintolakokin koulutus, katsotaan täyttävän 3 momentissa tarkoitetut pätevyysvaatimukset.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Laivanisäntä voi pakottavasta syystä kirjallisesti hakea erivapautta laivakokin pätevyysvaatimuksista. Erivapaus voidaan antaa seuraavaan satamaan, jossa toimeen on mahdollista saada pätevyysvaatimukset täyttävä henkilö. Erivapaus voidaan kuitenkin antaa enintään yhdeksi kuukaudeksi. Erivapauden antamisen edellytyksenä on, että henkilö, jolle erivapautta haetaan, on perehdytetty ja opastettu tehtäväänsä mukaan lukien hygienia-asioihin ja elintarvikkeiden säilytykseen.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
+            <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Painelaitteen käyttäjä</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Aluksen konepäällikön on painelaitelain (869/1999) 10 §:n mukaisesti nimettävä laivaväestä yksi tai useampi ammattitaitoinen painelaitteen käyttäjä, joka on perehdytettävä aluksen painelaitteen käyttöön.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Painelaitteen käyttäjän on hoidettava painelaitetta käytönvalvojan antamien määräysten ja ohjeiden mukaisesti.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">
+            <saa:PykalaTunnusKooste>13 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Aluksen painelaitteen käytönvalvoja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Aluksessa, jossa on höyrykattiloita, on käytönvalvojana toimivalla konepäällystöön kuuluvalla henkilöllä oltava:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) höyrykoneenhoitajankirja, johon voidaan rinnastaa kattilalaitosten käytön valvojien pätevyyskirjoista annetun asetuksen (891/1999) mukainen A-koneenhoitajankirja, jos höyrykattiloiden yhteenlaskettu teholuku on enintään 100 ja paine on enintään 25 bar;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) höyryvahtikonemestarinkirja, johon voidaan rinnastaa kattilalaitosten käytön valvojien pätevyyskirjoista annetun asetuksen mukainen alikonemestarinkirja, jos höyrykattiloiden yhteenlaskettu teholuku on yli 100 mutta enintään 500 ja paine on enintään 40 bar;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) höyrykonemestarinkirja, johon voidaan rinnastaa kattilalaitosten käytön valvojien pätevyyskirjoista annetun asetuksen mukainen konemestarinkirja, jos höyrykattiloiden yhteenlaskettu teholuku on yli 500 mutta enintään 5 000;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) höyry-ylikonemestarinkirja, johon voidaan rinnastaa kattilalaitosten käytön valvojien pätevyyskirjoista annetun asetuksen mukainen ylikonemestarinkirja, jos höyrykattiloiden yhteenlaskettu teholuku on yli 5 000.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="14 §">
+            <saa:PykalaTunnusKooste>14 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Matkustaja-aluksen laivaväen lisäpätevyydet</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Kansainvälisen liikenteen matkustaja-aluksen ja sellaisen kotimaanliikenteen matkustaja-aluksen, joka saa kuljettaa 400 matkustajaa tai enemmän, laivaväellä on oltava sen pätevyyskirjan lisäksi, mitä toimeen muuten vaaditaan, toimensa, tehtäviensä ja vastuidensa mukainen matkustaja-aluksiin perehdyttävä 2 – 5 momentin mukainen koulutus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Matkustaja-aluksen päälliköllä, päällystöllä sekä muulla laivaväkeen kuuluvalla, jolle on hälytysluettelossa määrätty vastuu matkustajien avustamisesta hätätilanteissa tai jolla on välitön vastuu matkustajien alukseen nousemisesta ja aluksesta poistumisesta, on oltava väkijoukkojen hallintaa koskevan STCW-säännöstön A-V/2.1 säännön mukainen koulutus. Koulutus on voimassa viisi vuotta.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Matkustaja-aluksen matkustajatiloissa suoraan matkustajille palveluja tarjoavalla henkilöstöllä on oltava sen pätevyyskirjan lisäksi, mitä toimeen muuten vaaditaan, STCW-säännöstön A-V/2.2 säännön mukainen turvallisuuskoulutus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Matkustaja-aluksen päälliköllä, yliperämiehellä, konepäälliköllä, ensimmäisellä. konemestarilla ja muulla laivaväkeen kuuluvalla, jolle on hälytysluettelossa määrätty vastuu matkustajien turvallisuudesta hätätilanteissa, on oltava kriisinhallintaa ja inhimillistä käyttäytymistä koskeva STCW-säännöstön A-V/2.3 säännön mukainen koulutus. Koulutus on voimassa viisi vuotta.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Matkustaja-aluksen päälliköllä, yliperämiehellä, konepäälliköllä, ensimmäisellä. konemestarilla ja muulla laivaväkeen kuuluvalla, jolla on välitön vastuu matkustajien alukseen nousemisesta ja aluksesta poistumisesta, lastauksesta, lastin purkamisesta tai kiinnittämisestä tai ro-ro-matkustaja-aluksen osalta luukkujen ja porttien sulkemisesta, on oltava sen pätevyyskirjan lisäksi, mitä toimeen muuten vaaditaan, hyväksytyn matkustaja- ja lastiturvallisuutta sekä rungon eheyttä koskeva STCW-säännöstön A-V/2.4 säännön mukainen koulutus. Koulutus on voimassa viisi vuotta.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Edellä 2, 3 ja 5 momentissa tarkoitettu koulutus voidaan antaa aluksella.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Edellä 4 momentissa tarkoitetun koulutuksen antaa hyväksytty merenkulkualan koulutuksen järjestäjä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Koulutuksen järjestäjän on annettava koulutuksen suorittamisesta todistus. Liikenteen turvallisuusvirasto voi hakemuksesta antaa lisäpätevyystodistuksen suoritetusta koulutuksesta.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="15 §">
+            <saa:PykalaTunnusKooste>15 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Öljy-, kemikaali- ja kaasusäiliöaluksen laivaväen lisäpätevyydet</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Laivaväellä, jolla on lastin käsittelyyn liittyviä tehtäviä öljy- ja kemikaalisäiliöaluksella, on oltava sen pätevyyskirjan lisäksi, mikä toimeen muuten vaaditaan, öljy- ja kemikaalisäiliöaluksen laivaväen peruskoulutuksesta annettava lisäpätevyystodistus ja hätätilanteiden peruskoulutuksesta annettava lisäpätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Öljysäiliöaluksen päälliköllä, yliperämiehellä, konepäälliköllä, ensimmäisellä. konemestarilla ja muulla laivaväkeen kuuluvalla, joka on välittömässä vastuussa lastin käsittelystä ja siihen liittyvistä toiminnoista, on oltava sen pätevyyskirjan lisäksi, mikä toimeen muuten vaaditaan, öljysäiliöaluksen lastitoimintojen hoitamisesta annettava lisäpätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kemikaalisäiliöaluksen päälliköllä, yliperämiehellä, konepäälliköllä, ensimmäisellä konemestarilla ja muulla laivaväkeen kuuluvalla, joka on välittömässä vastuussa lastin käsittelystä ja siihen liittyvistä toiminnoista, on oltava sen pätevyyskirjan lisäksi, mikä toimeen muuten vaaditaan, kemikaalisäiliöaluksen lastitoimintojen hoitamisesta annettava lisäpätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Laivaväeltä, jolla on lastin käsittelyyn liittyviä tehtäviä kaasusäiliöaluksella, on oltava sen pätevyyskirjan lisäksi, mikä toimeen muuten vaaditaan, kaasusäiliöaluksen laivaväen peruskoulutuksesta annettava lisäpätevyystodistus ja hätätilanteiden peruskoulutuksesta annettava lisäpätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kaasusäiliöaluksen päälliköllä, yliperämiehellä, konepäälliköllä, ensimmäisellä konemestarilla ja muulla laivaväkeen kuuluvalla, joka on välittömässä vastuussa lastin käsittelystä ja siihen liittyvistä toiminnoista, on oltava sen pätevyyskirjan lisäksi, mikä toimeen muuten vaaditaan, kaasusäiliöaluksen lastitoimintojen hoitamisesta annettava lisäpätevyystodistus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="16 §">
+            <saa:PykalaTunnusKooste>16 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Suurnopeusaluksen päällystön pätevyysvaatimukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Suurnopeusaluksen päälliköllä ja muulla päällystöllä on oltava sen pätevyyskirjan lisäksi, mitä toimeen muuten vaaditaan, suurnopeusaluksen päällystön lisäpätevyystodistus. Muulta laivaväeltä vaaditaan tehtävien mukainen koulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="17 §">
+            <saa:PykalaTunnusKooste>17 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Dynaamisesti kannatellun aluksen laivaväen pätevyysvaatimukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Dynaamisesti kannatellun aluksen laivaväellä tulee olla tehtäviensä mukainen koulutus Liikenteen turvallisuusviraston määräysten mukaisesti.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="18 §">
+            <saa:PykalaTunnusKooste>18 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Turvatoimiin liittyvä koulutus ja pätevyydet</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Laivaväkeen kuuluvalla henkilöllä on oltava STCW-säännöstön A-VI/6-1 säännön mukainen turva-toimiasioiden peruskoulutus. Koulutuksesta voidaan antaa lisäpätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Laivaväen on oltava aluskohtaisesti perehdytetty turvatoimiasioihin STCW-säännöstön A-VI/6 säännön mukaisesti. Perehdytyksen antaa aluksen turvapäällikkö tai henkilö, jolla on aluksen turvapäällikön pätevyys.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Laivaväkeen kuuluvalla henkilöllä, jolla on määrättyjä turvatoimitehtäviä, on oltava STCW-säännöstön A-VI/6-2 säännön mukainen turvatoimiasioiden lisäkoulutus. Koulutuksesta voidaan antaa lisäpätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Aluksen turvapäällikkönä toimivalla on oltava STCW-säännöstön A-VI/5 säännön mukainen turvapäällikön lisäpätevyystodistus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Edellä 1-4 momentissa tarkoitetut vaatimukset koskevat aluksia, joihin sovelletaan Euroopan unionin alusten ja satamarakenteiden turvatoimien parantamista koskevia säännöksiä.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="19 §">
+            <saa:PykalaTunnusKooste>19 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Laivaväkeen kuuluvien hätätilanne- ja terveydenhuoltokoulutus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Laivaväkeen kuuluvien henkilöiden on oltava aluskohtaisesti perehdytetty hätätilanteisiin STCW-säännöstön A-VI/1 säännön mukaisesti.</saa:MomenttiKooste>
+            <saa:MomenttiKooste> Muiden kuin kotimaanliikenteen alusten laivaväkeen kuuluvalla henkilöllä, joka kuuluu aluksen vähimmäismiehitykseen tai jolle on määrätty aluksen turvallisuuteen tai ympäristön pilaantumisen ehkäisyyn liittyviä tehtäviä, on oltava STCW-säännöstön A-VI/1 säännön mukainen hätätilanteiden peruskoulutus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kansimiehellä, joka palvelee sellaisessa kotimaanliikenteen aluksessa, jonka matkustajamäärä on 250 tai enemmän, on oltava STCW-säännöstön A-VI/1 säännön mukainen hätätilanteiden peruskoulutus. Muiden kotimaanliikenteen alusten osalta laivanisäntä voi harkintansa mukaan edellyttää laivaväeltä hätätilanteiden peruskoulutusta.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Laivaväellä on oltava tehtäviensä edellyttämä palokoulutus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Laivaväkeen kuuluvalla henkilöllä, joka vastaa ensiavun antamisesta, on oltava ensiapukoulutus.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Laivaväkeen kuuluvalla henkilöllä, joka vastaa lääkintähuollosta, on oltava laivaväen terveydenhuoltokoulutus. Koulutus on uusittava viiden vuoden välein.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="5 luku">
+          <saa:LukuTunnusKooste>5 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Pätevyyskirjat</saa:SaadosOtsikkoKooste>
+          <saa:SaadosValiotsikkoKooste>Pätevyyskirjan hakeminen</saa:SaadosValiotsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="20 §">
+            <saa:PykalaTunnusKooste>20 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Pätevyyskirjan hakeminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Pätevyyskirjaa koskevaan hakemukseen on liitettävä selvitys koulutuksesta ja työkokemuksesta. Hakemukseen on lisäksi liitettävä kopio aikaisemmin mahdollisesti myönnetystä pätevyyskirjasta. Hakemukseen on liitettävä myös passikuva, jos haettava pätevyyskirja on kuvallinen. Jos hakija hakee pätevyyskirjaa ensimmäistä kertaa, hänen on todistettava luotettavasti henkilöllisyytensä. Hakijan on lisäksi esitettävä selvitys siitä, että hänellä on merimiesten terveydentilasta annettujen säännösten ja määräysten mukainen terveys.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Kansipäällystön pätevyyskirjat</saa:SaadosValiotsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="21 §">
+            <saa:PykalaTunnusKooste>21 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kuljettajankirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Kuljettajankirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) kuljettajan koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) kolme kuukautta meripalvelua kansi- tai koneosastossa taikka kolme kuukautta palvelua huviveneellä tai huvialuksella, jonka pituus on yli kymmenen metriä ja koneteho yli 50 kilowattia.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="22 §">
+            <saa:PykalaTunnusKooste>22 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kotimaanliikenteen laivurinkirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Kotimaanliikenteen laivurinkirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) kotimaanliikenteen laivurin koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) kahdeksan kuukautta meripalvelua kansiosastossa, mihin saa sisältyä enintään kaksi kuukautta meripalvelua koneosastossa.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="23 §">
+            <saa:PykalaTunnusKooste>23 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Vahtiperämiehenkirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Vahtiperämiehenkirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-II/1 säännön mukainen vahtiperämiehen koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>3) meripalvelua:</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>a) osana 2 kohdassa tarkoitettua vahtiperämiehen koulutusta vähintään 12 kuukautta ohjattua harjoittelua kansainvälisen liikenteen aluksella, jonka bruttovetoisuus on vähintään 500; tai</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>b) vähintään 36 kuukautta sellaisen kansainvälisen liikenteen aluksen kansiosastossa, jonka bruttovetoisuus on vähintään 500.</saa:MomenttiAlakohtaKooste>
+              </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Edellä 1 momentin 3 kohdassa tarkoitettuun meripalveluun tulee sisältyä vähintään kuusi kuukautta vahdinpitoon liittyviä kansipäällystön valvonnassa suoritettavia tehtäviä komentosillalla.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Edellä 1 momentin 3 a kohdassa tarkoitettu ohjattu harjoittelu voidaan osittain suorittaa yhdellä tai useammalla seuraavalla tavalla kansiosastossa edellyttäen, että harjoittelu kirjataan hyväksyttyyn ohjatun harjoittelun seurantakirjaan:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) enintään kuukauden mittainen simulaattorissa saatu hyväksytty koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) enintään kahden kuukauden mittainen koulualuksella suoritettu harjoittelu;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) enintään kuukauden mittainen jäänmurtajalla kotimaanliikenteessä suoritettu harjoittelu;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) enintään kuukauden mittainen purjealuksella suoritettu harjoittelu;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>5) enintään kahden kuukauden mittainen koulutus varusmiesajalta.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="24 §">
+            <saa:PykalaTunnusKooste>24 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Lähiliikenteen perämiehenkirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Lähiliikenteen perämiehenkirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-II/3 säännön mukainen perämiehen tai päällikön koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>3) meripalvelua tai työharjoittelua, joiksi katsotaan:</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>a) osana 2 kohdassa tarkoitettua koulutusta vähintään kahdeksan kuukautta ohjattua harjoittelua aluksella; tai</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>b) vähintään 36 kuukautta hyväksyttyä meripalvelua kansiosastossa.</saa:MomenttiAlakohtaKooste>
+              </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="25 §">
+            <saa:PykalaTunnusKooste>25 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Lähiliikenteen päällikkökirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Lähiliikenteen päällikkökirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 20 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-II/3 säännön mukainen päällikön koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) vähintään 12 kuukautta hyväksyttyä meripalvelua perämiehenä.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="26 §">
+            <saa:PykalaTunnusKooste>26 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Yliperämiehenkirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Yliperämiehenkirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) STCW-säännöstön A-II/2 säännön mukainen merikapteenin koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) vahtiperämiehenkirja;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) 12 kuukautta meripalvelua perämiehenä aluksella, jonka bruttovetoisuus on vähintään 500.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Edellä 1 momentin 3 kohdassa tarkoitetusta meripalvelusta voidaan enintään kuusi kuukautta suorittaa kotimaanliikenteen aluksella.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Jos yliperämiehenkirja oikeuttaa toimimaan päällikkönä aluksella, jonka bruttovetoisuus on alle 3000, hakijalla on oltava STCW-säännöstön A-II/2 säännön 5 kohdan mukainen koulutus sekä 36 kuukautta hyväksyttyä meripalvelua vahtiperämiehenä tai 24 kuukautta vahtiperämiehenä, josta 12 kuukautta yliperämiehenä.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="27 §">
+            <saa:PykalaTunnusKooste>27 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Merikapteeninkirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Merikapteeninkirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) STCW-säännöstön A-II/2 säännön mukainen merikapteenin koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) vahtiperämiehenkirja;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>3) meripalvelua aluksella, jonka bruttovetoisuus on vähintään 500:</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>a) 36 kuukautta perämiehenä; tai</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>b) 24 kuukautta perämiehenä, joista vähintään 12 kuukautta meripalvelua yliperämiehenä.</saa:MomenttiAlakohtaKooste>
+              </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Edellä 1 momentin 3 kohdassa tarkoitetusta meripalvelusta 12 kuukautta on oltava palvelua kansainvälisen liikenteen aluksella, jonka bruttovetoisuus on vähintään 3000.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Edellä 1 momentin 3 kohdassa tarkoitetusta meripalvelusta voidaan enintään kuusi kuukautta suorittaa kotimaanliikenteen aluksella.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="28 §">
+            <saa:PykalaTunnusKooste>28 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kalastusaluksen kuljettajankirja B</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Kalastusaluksen kuljettajankirjan B saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>2) merenkulkualan koulutusta tarjoavan ammattikorkeakoulun tai oppilaitoksen tai oppilaitoksen, jolla on oikeus antaa kalatalouden perustutkintoon johtavaa opetusta, tai Liikenteen turvallisuusviraston antama todistus siitä, että hakija tuntee:</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>a) säännöt yhteentörmäämisen ehkäisemiseksi merellä ja sisäisillä kulkuvesillä, merimerkit, merikartan, kompassin, eksymän, suuntimisen, suuntien asettamisen, lokin ja luodin käytön ja laivapäiväkirjan pitämisen;</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>b) tarpeellisin osin alusten katsastusta ja aluksen päällikköä koskevat säännökset ja määräykset sekä pääpiirteittäin merenkulun sosiaalilainsäädännön;</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>c) riittävässä laajuudessa polttomoottorien rakenteen, hoidon ja käytön samoin kuin tärkeimmät niitä koskevat säännökset ja määräykset;</saa:MomenttiAlakohtaKooste>
+              </saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) 12 kuukautta meripalvelua kalastus- tai kauppa-aluksen kansiosastossa.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Edellä 1 momentin 2 kohdassa säädetyt vaatimukset voidaan täyttää 21 §:ssä tarkoitetulla kuljettajan koulutuksella.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Liikenteen turvallisuusvirasto voi hyväksyä 1 momentin 3 kohdassa tarkoitetuksi meripalveluksi muussa aluksessa kuin kalastus- tai kauppa-aluksessa suoritetun meripalvelun.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="29 §">
+            <saa:PykalaTunnusKooste>29 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kalastusaluksen kuljettajankirja A</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Kalastusaluksen kuljettajankirjan A saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) vähintään kalastusaluksen laivurin tai kotimaanliikenteen laivurin koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) kahdeksan kuukautta meripalvelua kansiosastossa kalastus- tai kauppa-aluksessa.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Liikenteen turvallisuusvirasto voi hyväksyä 1 momentin 3 kohdassa tarkoitetusta meripalvelusta enintään neljä kuukautta korvattavaksi ohjatulla harjoittelulla.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="30 §">
+            <saa:PykalaTunnusKooste>30 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kalastusaluksen laivurinkirja B</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Kalastusaluksen laivurinkirjan B saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) kalastusaluksen laivurin koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) 24 kuukautta meripalvelua kansiosastossa vähintään 12 metriä pitkässä kalastusaluksessa.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Edellä 1 momentin 2 kohdassa tarkoitettu koulutus voidaan korvata vahtiperämiehen koulutuksella.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Liikenteen turvallisuusvirasto voi hyväksyä 1 momentin 3 kohdassa tarkoitetusta meripalvelusta enintään 12 kuukautta korvattavaksi koulutuksella tai vahtiperämiehen koulutukseen kuuluvalla ohjatulla harjoittelulla.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="31 §">
+            <saa:PykalaTunnusKooste>31 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kalastusaluksen laivurinkirja A</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Kalastusaluksen laivurinkirjan A saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) kalastusaluksen laivurin koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) 12 kuukautta meripalvelua vähintään 12 metriä pitkän kalastusaluksen perämiehenä tai päällikkönä.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Edellä 1 momentin 2 kohdassa tarkoitettu koulutus voidaan korvata vahtiperämiehen koulutuksella.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Liikenteen turvallisuusvirasto voi hyväksyä 1 momentin 3 kohdassa tarkoitetusta meripalvelusta enintään kuusi kuukautta korvattavaksi meripalvelulla perämiehenä kauppa-aluksessa.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="32 §">
+            <saa:PykalaTunnusKooste>32 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Vuokraveneen kuljettajankirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Vuokraveneen kuljettajankirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) henkilöauton kuljettamiseen oikeuttavan ajokortin saamisen edellytyksenä oleva lääkärintodistus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) todistus hyväksytystä ensiapukoulutuksesta;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) soveltuva kokemus aluksen kuljettamisesta;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>5) vuokraveneen kuljettamiseen vaadittava ammattitaito.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Vuokraveneen kuljettajankirjaa hakevan on osoitettava 1 momentin 5 kohdassa tarkoitettu ammattitaito todistuksella, jonka on myöntänyt sellainen veneilyjärjestö, joka seuraa koulutustoimintaansa ja todistuksenantoaan laatujärjestelmän avulla ja jonka koulutustoimintaa sekä todistuksenantoa koskeva laatujärjestelmä on ulkoisesti arvioitu Liikenteen turvallisuusviraston hyväksymällä tavalla enintään viisi vuotta ennen todistuksen päiväystä.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="33 §">
+            <saa:PykalaTunnusKooste>33 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kansainvälinen huviveneenkuljettajankirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Kansainvälisen huviveneenkuljettajankirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) henkilöauton kuljettamiseen oikeuttavan ajokortin saamisen edellytyksenä oleva lääkärintodistus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) Yhdistyneiden kansakuntien Euroopan talouskomission sisävesiliikennetyöryhmän päätöslauselmassa nro 40 asetettujen tutkintovaatimusten täyttäminen.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Huviveneenkuljettajankirjaa hakevan on osoitettava täyttävänsä 1 momentin 3 kohdan tutkintovaatimukset todistuksella, jonka on myöntänyt sellainen veneilyjärjestö, joka seuraa koulutustoimintaansa ja todistuksenantoaan laatujärjestelmän avulla ja jonka koulutustoimintaa sekä todistuksenantoa koskeva laatujärjestelmä on ulkoisesti arvioitu Liikenteen turvallisuusviraston hyväksymällä tavalla enintään viisi vuotta ennen todistuksen päiväystä.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Konepäällystön pätevyyskirjat</saa:SaadosValiotsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="34 §">
+            <saa:PykalaTunnusKooste>34 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Koneenhoitajankirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Koneenhoitajankirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) koneenhoitajan koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) kahdeksan kuukautta meripalvelua koneosastossa haettavan koneenhoitajankirjan mukaan joko vähintään 75 kilowatin koneistolla varustetulla moottorialuksella tai höyryaluksella, jonka höyrykattiloiden teholuku on vähintään seitsemän. Konepalveluun voidaan sisällyttää enintään kaksi kuukautta palvelua kansiosastossa.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Höyrykoneenhoitajankirjan haltijalta edellytetään moottorikoneenhoitajankirjan saamiseksi neljä kuukautta konepalvelua moottorialuksella. Vastaavasti moottorikoneenhoitajankirjan haltijalta edellytetään höyrykoneenhoitajankirjan saamiseksi neljä kuukautta konepalvelua höyryaluksella tai neljä kuukautta palvelua höyrykattilan käyttäjänä moottorialuksella, jonka höyrykattiloiden teholuku on vähintään seitsemän, tai kuusi kuukautta höyrykattilan käyttäjänä maavoimalaitoksessa, jonka höyrykattiloiden teholuku on vähintään 80.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="35 §">
+            <saa:PykalaTunnusKooste>35 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Vahtikonemestarinkirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Vahtikonemestarinkirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW -säännöstön A-III/1 säännön mukainen vahtikonemestarin koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>3) työharjoittelua:</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>a) osana 2 kohdassa tarkoitettua koulutusta vähintään 12 kuukautta kestävä hyväksyttyyn harjoitteluohjelmaan sisältyvä konepajaharjoittelun ja hyväksytyn meripalvelun yhdistelmä, johon kuuluu hyväksyttyyn ohjatun harjoittelun seurantakirjaan kirjattua, STCW-säännöstön A-III/1 säännön vaatimukset täyttävää ohjattua harjoittelua aluksella, jonka koneteho on vähintään 750 kilowattia; tai</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>b) vähintään 36 kuukautta meripalvelua ja konepajaharjoittelua, josta vähintään 30 kuukautta on oltava meripalvelua koneosastossa haettavan vahtikonemestarinkirjan mukaan joko höyryaluksessa, jonka höyrykattiloiden teholuku on vähintään 100 tai moottorialuksessa, jonka koneteho on vähintään 750 kilowattia;</saa:MomenttiAlakohtaKooste>
+              </saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) meripalvelun aikana kuusi kuukautta konevahdinpitoon liittyviä tehtäviä konepäällikön tai pätevän konemestarin valvonnassa.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Edellä 1 momentin 3 kohdassa tarkoitetulla konepajaharjoittelulla tarkoitetaan oppilaitoksessa tai konepajassa tehtäviä kone- ja sähköteknisiä töitä, jotka kehittävät vahtikonemestarilta vaadittavaa ammattitaitoa.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Höyryaluksen vahtikonemestarinkirjan haltijalta edellytetään moottorialuksen vahtikonemestarinkirjan saamiseksi kuusi kuukautta konepalvelua moottorialuksella, jonka koneteho on vähintään 750 kilowattia. Vastaavasti moottorialuksen vahtikonemestarinkirjan haltijalta edellytetään höyryaluksen vahtikonemestarinkirjan saamiseksi kuusi kuukautta konepalvelua höyryaluksella tai kuusi kuukautta palvelua höyrykattilan käyttäjänä joko moottorialuksella, jonka höyrykattiloiden teholuku on vähintään 100, tai maavoimalaitoksessa, jonka höyrykattiloiden teholuku on vähintään 100.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Edellä 1 momentin 3 a kohdassa tarkoitettu meripalvelu voidaan osittain suorittaa yhdellä tai useammalla seuraavalla tavalla koneosastossa edellyttäen, että harjoittelu kirjataan hyväksyttyyn ohjatun harjoittelun seurantakirjaan:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) enintään kuukauden mittainen simulaattorissa saatu hyväksytty koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) enintään kahden kuukauden mittainen harjoittelu koulualuksella, jonka koneteho on alle 750 kilowattia;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) enintään kahden kuukauden mittainen harjoittelu varusmiesajalta aluksella, jonka koneteho on alle 750 kilowattia.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="36 §">
+            <saa:PykalaTunnusKooste>36 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Konemestarinkirja, alukset alle 3000 kilowattia</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Konemestarinkirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vahtikonemestarinkirja;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-III/3 säännön mukainen koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) vähintään 12 kuukautta meripalvelua konemestarina konepäällystötehtävissä moottorialuksessa, jonka koneteho on vähintään 750 kilowattia.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="37 §">
+            <saa:PykalaTunnusKooste>37 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Konepäällikönkirja, alukset alle 3000 kilowattia</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Konepäällikönkirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) konemestarinkirja, alukset alle 3000 kilowattia;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) vähintään 12 kuukautta meripalvelua konemestarina konepäällystötehtävissä alle 3000 kilowatin aluksille tarkoitetun konemestarinkirjan saamiseksi edellytettävän meripalvelun jälkeistä meripalvelua.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="38 §">
+            <saa:PykalaTunnusKooste>38 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Konemestarinkirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Konemestarinkirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vahtikonemestarinkirja;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-III/2 säännön mukainen ylikonemestarin koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) vähintään 12 kuukautta meripalvelua konemestarina konepäällystötehtävissä, haettavan pätevyyskirjan mukaan joko höyryaluksessa, jonka höyrykattiloiden teholuku on vähintään 500 tai moottorialuksessa, jonka koneteho on vähintään 3000 kilowattia.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Höyryaluksen konemestarinkirjan haltijalta edellytetään moottorialuksen konemestarinkirjan saamiseksi moottorialuksen vahtikonemestarinkirjaa. Tämän lisäksi edellytetään vähintään kuuden kuukauden mittaista, vahtikonemestarinkirjan saamiseksi edellytettävän meripalvelun jälkeistä työkokemusta konemestarina konepäällystötehtävissä moottorialuksessa, jonka koneteho on vähintään 3000 kilowattia.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Vastaavasti moottorialuksen konemestarinkirjan haltijalta edellytetään höyryaluksen konemestarinkirjan saamiseksi höyryaluksen vahtikonemestarinkirjaa. Tämän lisäksi edellytetään vähintään kuuden kuukauden mittaista, joko höyry- tai moottorialuksen vahtikonemestarinkirjan saamiseksi edellytettävän meripalvelun jälkeistä konepalvelua konemestarina konepäällystötehtävissä höyry- tai moottorialuksessa, jonka höyrykattiloiden teholuku on vähintään 500, tai maavoimalaitoksessa, jonka teholuku on vähintään 500.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="39 §">
+            <saa:PykalaTunnusKooste>39 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Ylikonemestarinkirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Ylikonemestarinkirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vahtikonemestarinkirja;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-III/2 säännön mukainen ylikonemestarin koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>3) meripalvelua ja työharjoittelua:</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>a) 36 kuukautta vähintään vahtikonemestarin pätevyyttä edellyttävässä toimessa haettavan ylikonemestarinkirjan mukaan joko höyryaluksessa, jonka höyrykattiloiden teholuku on vähintään 5000 tai moottorialuksessa, jonka koneteho on vähintään 1500 kilowattia; tai</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>b) vähintään 24 kuukautta meripalvelua vähintään vahtikonemestarin pätevyyttä edellyttävässä toimessa, haettavan ylikonemestarinkirjan mukaan joko höyryaluksessa, jonka höyrykattiloiden teholuku on vähintään 5000 tai moottorialuksessa, jonka koneteho on vähintään 1500 kilowattia.</saa:MomenttiAlakohtaKooste>
+              </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Edellä 1 momentin 3 kohdassa tarkoitetusta meripalvelusta 12 kuukautta on oltava palvelua aluksella, jonka koneteho on vähintään 3000 kilowattia.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Edellä 1 momentin 3 b kohdassa tarkoitetusta meripalvelusta on vähintään 12 kuukautta oltava palvelua ensimmäisenä konemestarina.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Höyryaluksen ylikonemestarinkirjan haltijalla on oltava moottorialuksen ylikonemestarinkirjan saamiseksi moottorialuksen vahtikonemestarinkirja. Tämän lisäksi edellytetään vähintään kuuden kuukauden mittaista, konemestarinkirjan saamiseksi edellytettävän meripalvelun jälkeistä meripalvelua konemestarina moottorialuksessa, jonka koneteho on vähintään 3000 kilowattia. Vastaavasti moottorialuksen ylikonemestarinkirjan haltijalla on oltava höyryaluksen ylikonemestarinkirjan saamiseksi höyryaluksen vahtikonemestarinkirja. Tämän lisäksi edellytetään vähintään kuuden kuukauden mittaista, höyryaluksen konemestarinkirjan saamiseksi edellytettävän meripalvelun jälkeistä konepalvelua höyry- tai moottorialuksessa, jonka höyrykattiloiden teholuku on vähintään 5000, tai maavoimalaitoksessa, jonka teholuku on vähintään 5000.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="40 §">
+            <saa:PykalaTunnusKooste>40 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Sähkömestarinkirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Sähkömestarinkirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön III/6 säännön mukainen sähkömestarin koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>3) työharjoittelua:</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>a) osana hyväksyttyä koulutusohjelmaa vähintään 12 kuukautta yhdistettyä sähköalan työharjoittelua ja hyväksyttyä meripalvelua, josta vähintään 6 kuukautta hyväksyttyyn ohjatun harjoittelun seurantakirjaan kirjattua, STCW-säännöstön A-III/6 säännön vaatimukset täyttävää ohjattua harjoittelua; tai</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>b) vähintään 36 kuukautta yhdistettyä meripalvelua ja sähköalan työharjoittelua, josta vähintään 30 kuukautta on oltava meripalvelua koneosastossa aluksessa, jonka koneteho on vähintään 750 kilowattia.</saa:MomenttiAlakohtaKooste>
+              </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Edellä 1 momentin 3 kohdassa tarkoitetulla sähköalan työharjoittelulla tarkoitetaan oppilaitoksessa tai työelämässä tehtäviä sähkötekniikkaan ja elektroniikkaan liittyviä töitä, jotka kehittävät sähkömestarilta vaadittavaa ammattitaitoa.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Miehistön pätevyyskirjat</saa:SaadosValiotsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="41 §">
+            <saa:PykalaTunnusKooste>41 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kansimiehen pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Kansimiehen pätevyyskirjan saamisen edellytyksenä on vähintään 16 vuoden ikä ja kansimiehen koulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="42 §">
+            <saa:PykalaTunnusKooste>42 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Vahtimies kansi -pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Vahtimies kansi -pätevyyskirjan saamisen edellytyksenä on vähintään 16 vuoden ikä ja  STCW-säännöstön A-II/4 säännön mukainen kansiosaston vahtimiehen koulutus, johon sisältyy vähintään kaksi kuukautta hyväksyttyä ohjattua harjoittelua sellaisen kansainvälisen liikenteen aluksen kansiosastossa, jonka bruttovetoisuus on vähintään 500. Ohjatun harjoittelun tulee liittyä vahdinpitoon kuuluviin ja kansipäällystön tai pätevän miehistönjäsenen valvonnassa suoritettaviin tehtäviin. Ohjattu harjoittelu voidaan suorittaa koulualuksessa, jonka bruttovetoisuus on alle 500.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="43 §">
+            <saa:PykalaTunnusKooste>43 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Vahtimies kone -pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Vahtimies kone -pätevyyskirjan saamisen edellytyksenä on vähintään 16 vuoden ikä ja STCW-säännöstön A-III/4 säännön mukainen koneosaston vahtimiehen koulutus, johon sisältyy vähintään kaksi kuukautta hyväksyttyä ohjattua harjoittelua sellaisen aluksen koneosastossa, jonka koneteho on vähintään 750 kilowattia. Ohjatun harjoittelun tulee liittyä konevahdinpitoon kuuluviin, konepäällystön tai pätevän miehistönjäsenen valvonnassa, suoritettaviin tehtäviin. Ohjattu harjoittelu voidaan suorittaa koulualuksessa, jonka koneteho on 350−750 kilowattia.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="44 §">
+            <saa:PykalaTunnusKooste>44 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Matruusin pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Matruusin pätevyyskirjan saamisen edellytyksenä on vähintään 18 vuoden ikä sekä vahtimiehen pätevyyskirja tai vahtimies kansi – pätevyyskirja. Lisäksi edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) STCW-säännöstön A-II/5 säännön mukainen matruusin koulutus ja 12 kuukautta meripalvelua kansiosastossa kauppa-aluksessa, jonka bruttovetoisuus on vähintään 500; tai</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) matruusin koulutuksen suorittaminen näyttötutkintona ja 18 kuukautta vahtimiehen tai vahtimies kansi -pätevyyskirjan saamiseksi edellytettävän meripalvelun jälkeistä meripalvelua kansiosastossa kauppa-aluksessa, jonka bruttovetoisuus on vähintään 500.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="45 §">
+            <saa:PykalaTunnusKooste>45 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Konemiehen pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Konemiehen pätevyyskirjan saamisen edellytyksenä on vähintään 18 vuoden ikä sekä vahtimiehen pätevyyskirja tai vahtimies kone – pätevyyskirja. Lisäksi edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) STCW-säännöstön A-III/5 säännön mukainen konemiehen koulutus; ja kuusi kuukautta meripalvelua koneosastossa aluksessa, jonka koneteho on vähintään 750 kilowattia, tai;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) konemiehen koulutuksen suorittaminen näyttötutkintona; ja 12 kuukautta vahtimiehen pätevyyskirjan tai vahtimies kone -pätevyyskirjan saamiseksi edellytettävän meripalvelun jälkeistä meripalvelua koneosastossa aluksessa, jonka koneteho on vähintään 750 kilowattia.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="46 §">
+            <saa:PykalaTunnusKooste>46 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Pursimiehen pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Pursimiehen pätevyyskirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) matruusin pätevyyskirja;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-II/5 säännön mukainen matruusin koulutus tai näyttötutkinto;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) 18 kuukautta matruusin pätevyyskirjan saamiseksi edellytettävän meripalvelun jälkeistä meripalvelua kansiosastossa kauppa-aluksessa, jonka bruttovetoisuus on vähintään 500.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="47 §">
+            <saa:PykalaTunnusKooste>47 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Korjausmiehen pätevyyskirja </saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Korjausmiehen pätevyyskirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) konemiehen pätevyyskirja;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-III/5 säännön mukainen konemiehen koulutus tai näyttötutkinto;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) 18 kuukautta konemiehen pätevyyskirjan saamiseksi edellytettävän meripalvelun jälkeistä meripalvelua koneosastossa kauppa-aluksessa, jonka koneteho on vähintään 350 kilowattia.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="48 §">
+            <saa:PykalaTunnusKooste>48 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Laivasähkömiehen pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Laivasähkömiehen pätevyyskirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-III/7 säännön mukainen laivasähkömiehen koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) kolme kuukautta hyväksyttyä meripalvelua kauppa-aluksessa, jonka koneteho on vähintään 750 kilowattia.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Talousosaston pätevyyskirjat</saa:SaadosValiotsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="49 §">
+            <saa:PykalaTunnusKooste>49 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Talousapulaisen pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Talousapulaisen pätevyyskirjan saamisen edellytyksenä on vähintään 17 vuoden ikä ja talousapulaisen koulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="50 §">
+            <saa:PykalaTunnusKooste>50 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Laivakokin pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Laivakokin pätevyyskirjan saamisen edellytyksenä on vähintään 18 vuoden ikä ja laivakokin koulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="51 §">
+            <saa:PykalaTunnusKooste>51 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kokkistuertin pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Kokkistuertin pätevyyskirjan saamisen edellytyksenä on vähintään 18 vuoden ikä sekä talousesimiehen koulutus tai laivakokin pätevyyskirja ja 12 kuukautta meripalvelua kokkina.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="52 §">
+            <saa:PykalaTunnusKooste>52 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Talousesimiehen pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Talousesimiehen pätevyyskirjan saamisen edellytyksenä on talousesimiehen koulutus ja 24 kuukautta työkokemusta keittiötehtävissä, joista 12 kuukautta meripalvelua kokkina.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="6 luku">
+          <saa:LukuTunnusKooste>6 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Vaihtoehtoiset pätevyyskirjat</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="53 §">
+            <saa:PykalaTunnusKooste>53 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Vahtimiehen pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Vahtimiehen pätevyyskirjan saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 16 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-II/4 ja A-III/4 säännön mukainen vahtimiehen koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) kaksi kuukautta hyväksytyn harjoitteluohjelman mukaista meripalvelua kansiosastossa kansainvälisen liikenteen aluksessa, jonka bruttovetoisuus on vähintään 500 ja kaksi kuukautta koneosastossa aluksessa, jonka koneteho on vähintään 750 kilowattia.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Edellä 1 momentissa tarkoitetun meripalvelun tulee liittyä sekä kansi- että konevahdinpitoon kuuluviin ja päällystönjäsenen tai pätevän miehistön jäsenen valvonnassa suoritettaviin tehtäviin.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="54 §">
+            <saa:PykalaTunnusKooste>54 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Matruusin – konemiehen pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Matruusin pätevyyskirjan saamisen edellytyksenä on vähintään 18 vuoden ikä ja vahtimiehen pätevyyskirja. Lisäksi edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) STCW-säännöstön A-II/5 säännön mukainen matruusin ja STCW-säännöstön A-III/5 säännön mukainen konemiehen koulutus ja 18 kuukautta hyväksyttyä meripalvelua, josta vähintään 12 kuukautta kansiosastossa kansainvälisen liikenteen kauppa-aluksessa, jonka bruttovetoisuus on vähintään 500 sekä vähintään kuusi kuukautta koneosastossa aluksella, jonka koneteho on vähintään 750 kilowattia; tai</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) yhdistetty matruusin ja konemiehen koulutus, johon sisältyy 12 kuukautta meripalvelua hyväksytyn harjoitusohjelman mukaisesti, josta kuusi kuukautta kansiosaston tehtävissä ja kuusi kuukautta koneosaston tehtävissä.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="55 §">
+            <saa:PykalaTunnusKooste>55 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Vahtiperämiehen – vahtikonemestarin pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Henkilölle, jolla on vähintään vahtiperämiehen pätevyys ja joka on suorittanut STCW-säännöstön A-III/1 säännön mukaisen vahtikonemestarin koulutuksen sekä laivakoneiden käyttöön ja huoltoon perehdyttävän vähintään kuuden kuukauden hyväksytyn ohjatun harjoittelun, voidaan antaa pätevyyskirja toimia yleistoimihenkilönä kansi- ja koneosaston vahtipäällystötehtävissä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Henkilölle, jolla on vähintään vahtikonemestarin pätevyys ja joka on suorittanut STCW-säännöstön A-II/1 säännön mukaisen vahtiperämiehen koulutuksen ja jolla on vähintään kuusi kuukautta harjoitteluohjelman mukaista meripalvelua komentosillan merivahdinpitoon liittyvissä tehtävissä, voidaan antaa pätevyyskirja toimia yleistoimihenkilönä kansi- ja koneosaston vahtipäällystötehtävissä.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="56 §">
+            <saa:PykalaTunnusKooste>56 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Yliperämiehen – konemestarin pätevyyskirja</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Henkilölle, jolla on vähintään yliperämiehen ja vahtikonemestarin pätevyys ja joka on suorittanut STCW-säännöstön A-III/2 säännön mukaisen koulutuksen ja jolla on 12 kuukautta meripalvelua konemestarina, voidaan antaa pätevyyskirja yliperämiehen tai konemestarin tehtävissä toimivaksi yleistoimihenkilöksi.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Henkilölle, jolla on vähintään konemestarin ja vahtiperämiehen pätevyys ja joka on suorittanut STCW-säännöstön A-II/2 säännön mukaisen koulutuksen ja jolla on 12 kuukautta meripalvelua perämiehenä komentosiltavahdissa, voidaan antaa pätevyyskirja yliperämiehen tai konemestarin tehtävissä toimivaksi yleistoimihenkilöksi.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Tätä pykälää sovellettaessa on otettava huomioon, mitä 7 §:ssä säädetään aluksen päällikön pätevyydestä ja 8 §:ssä konepäällikön pätevyydestä.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="7 luku">
+          <saa:LukuTunnusKooste>7 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Lisäpätevyystodistukset</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="57 §">
+            <saa:PykalaTunnusKooste>57 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Lisäpätevyystodistuksen hakeminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Lisäpätevyystodistuksen hakijan on ensimmäistä kertaa todistusta hakiessaan todistettava henkilöllisyytensä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Lisäpätevyystodistusta koskevaan hakemukseen on liitettävä selvitys koulutuksesta sekä työkokemuksesta tai meripalvelusta. Hakemukseen on lisäksi liitettävä kopio aikaisemmin myönnetystä lisäpätevyystodistuksesta. Hakijan on lisäksi esitettävä selvitys siitä, että hänellä on merimiesten terveydentilasta annettujen säännösten ja määräysten mukainen terveys.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="58 §">
+            <saa:PykalaTunnusKooste>58 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Hätätilanteiden peruskoulutuksesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Hätätilanteiden peruskoulutuksesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on seuraavien STCW-säännöstössä mainittujen kurssien suorittaminen:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) STCW-säännöstön A-VI/1-1 säännön mukainen pelastautumiskoulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STWC-säännöstön A-VI/1-2 säännön mukainen palokoulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) STCW-säännöstön A-VI/1-3 säännön mukainen ensiapukoulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) STCW-säännöstön A-VI/1-4 säännön mukainen työsuojelu ja alus sosiaalisena ympäristönä -koulutus.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="59 §">
+            <saa:PykalaTunnusKooste>59 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Pelastuslautta- ja pelastusvenemiehen lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Pelastuslautta- ja pelastusvenemiehen lisäpätevyystodistuksen saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) vähintään 18 vuoden ikä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-VI/2-1 säännön mukainen pelastuslautta- ja pelastusvenemieskoulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) kuusi kuukautta meripalvelua.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="60 §">
+            <saa:PykalaTunnusKooste>60 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Nopean valmiusveneen kuljettajan lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Nopean valmiusveneen kuljettajan lisäpätevyystodistuksen saamisen edellytyksenä on pelastuslautta- ja pelastusvenemiehen lisäpätevyystodistus ja STCW-säännöstön A-VI/2-2 säännön mukainen nopean valmiusveneen kuljettajan koulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="61 §">
+            <saa:PykalaTunnusKooste>61 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Ensiapukoulutuksesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Ensiapukoulutuksesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on STCW-säännöstön A-VI/4-1 säännön mukainen koulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="62 §">
+            <saa:PykalaTunnusKooste>62 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Laivaväen terveydenhuoltokoulutuksesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Laivaväen terveydenhuoltokoulutuksesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on STCW-säännöstön A-VI/4-2 säännön mukainen koulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="63 §">
+            <saa:PykalaTunnusKooste>63 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Päällystön palokoulutuksesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Päällystön palokoulutuksesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on STCW-säännöstön A-VI/3 säännön mukainen koulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="64 §">
+            <saa:PykalaTunnusKooste>64 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Turvatoimiasioiden peruskoulutuksesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Turvatoimiasioiden peruskoulutuksesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on STCW-säännöstön A-VI/6-1 säännön mukainen peruskoulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="65 §">
+            <saa:PykalaTunnusKooste>65 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Turvatoimiasioiden lisäkoulutuksesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Turvatoimiasioiden lisäkoulutuksesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on STCW-säännöstön A-VI/6-2 säännön mukainen lisäkoulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="66 §">
+            <saa:PykalaTunnusKooste>66 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Aluksen turvapäällikön lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Aluksen turvapäällikön lisäkoulutuksesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on STCW-säännöstön A-VI/5 säännön mukainen turvapäällikön koulutus ja 12 kuukautta meripalvelua tai meripalvelua ja tietämys aluksen toiminnoista.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="67 §">
+            <saa:PykalaTunnusKooste>67 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Matkustaja-aluksen laivaväen lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Matkustaja-aluksen laivaväen lisäpätevyystodistuksen saamisen edellytyksenä on vähintään yhden 14 §:n 2-5 momentissa tarkoitetun koulutuksen suorittaminen.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="68 §">
+            <saa:PykalaTunnusKooste>68 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Öljy- ja kemikaalisäiliöaluksen laivaväen peruskoulutuksesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Öljy- ja kemikaalisäiliöaluksen laivaväen peruskoulutuksesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on lisäpätevyystodistus hätätilanteiden peruskoulutuksesta ja STCW-säännöstön A-V/1-1 säännön 1 kohdan mukainen peruskoulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="69 §">
+            <saa:PykalaTunnusKooste>69 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Öljysäiliöaluksen lastitoimintojen hoitamisesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Öljysäiliöaluksen lastitoimintojen hoitamisesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) lisäpätevyystodistus öljy- ja kemikaalisäiliöaluksen peruskoulutuksesta;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A osan A-V/1-1 säännön 2 kohdan mukainen perehdyttävä koulutus; </saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>3) meripalvelua tai ohjattua harjoittelua seuraavasti:</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>a) vähintään kolme kuukautta meripalvelua öljysäiliöaluksessa; tai</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>b) vähintään yksi kuukausi ohjattua harjoittelua öljysäiliöaluksessa ylimääräisenä miehistön jäsenenä tai harjoittelijana; ohjatun harjoittelun tulee sisältää vähintään kolme lastaus- ja kolme purkausoperaatiota, jotka kirjataan hyväksyttyyn ohjatun harjoittelun seurantakirjaan.</saa:MomenttiAlakohtaKooste>
+              </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="70 §">
+            <saa:PykalaTunnusKooste>70 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kemikaalisäiliöaluksen lastitoimintojen hoitamisesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Kemikaalisäiliöaluksen lastitoimintojen hoitamisesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) lisäpätevyystodistus öljy- ja kemikaalisäiliöaluksen peruskoulutuksesta;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-V/1-1 säännön mukainen kemikaalisäiliöalusten lastitoimintoihin perehdyttävä koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>3) meripalvelua tai ohjattua harjoittelua seuraavasti:</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>a) vähintään kolme kuukautta meripalvelua kemikaalisäiliöaluksessa; tai</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>b) vähintään yksi kuukausi ohjattua harjoittelua kemikaalisäiliöaluksessa ylimääräisenä miehistön jäsenenä tai harjoittelijana; ohjatun harjoittelun tulee sisältää vähintään kolme lastaus- ja kolme purkausoperaatiota, jotka kirjataan hyväksyttyyn ohjatun harjoittelun seurantakirjaan.</saa:MomenttiAlakohtaKooste>
+              </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="71 §">
+            <saa:PykalaTunnusKooste>71 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kaasusäiliöaluksen laivaväen peruskoulutuksesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Kaasusäiliöaluksen laivaväen peruskoulutuksesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on lisäpätevyystodistus hätätilanteiden peruskoulutuksesta ja STCW-säännöstön A-V/1-2 säännön mukainen kaasusäiliöaluksen laivaväen peruskoulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="72 §">
+            <saa:PykalaTunnusKooste>72 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kaasusäiliöaluksen lastitoimintojen hoitamisesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Kaasusäiliöaluksen lastitoimintojen hoitamisesta annettavan lisäpätevyystodistuksen saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) lisäpätevyystodistus kaasusäiliöaluksen laivaväen peruskoulutuksesta;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) STCW-säännöstön A-V/1-2 säännön mukainen kaasusäiliöalusten lastitoimintoihin perehdyttävä koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>3) meripalvelua tai ohjattua harjoittelua seuraavasti:</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>a) vähintään kolme kuukautta meripalvelua kaasusäiliöaluksessa; tai</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>b) vähintään yksi kuukausi ohjattua harjoittelua kaasusäiliöaluksessa ylimääräisenä miehistön jäsenenä tai harjoittelijana; ohjatun harjoittelun tulee sisältää vähintään kolme lastaus- ja kolme purkausoperaatiota, jotka kirjataan hyväksyttyyn ohjatun harjoittelun seurantakirjaan.</saa:MomenttiAlakohtaKooste>
+              </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="73 §">
+            <saa:PykalaTunnusKooste>73 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Suurnopeusaluksen päällystön lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Suurnopeusaluksen päällystön lisäpätevyystodistuksen saamisen edellytyksenä on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) toimen edellyttämä pätevyyskirja;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) IMOn hyväksymän suurnopeusaluksia koskevan kansainvälisen turvallisuussäännöstön 18 luvun mukainen koulutus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) Liikenteen turvallisuusvirastolle hyväksytysti suoritettu suurnopeusalussäännöstön 18 luvussa edellytetty käytännön koe.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="74 §">
+            <saa:PykalaTunnusKooste>74 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Dynaamisesti kannatellun aluksen päällystön lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Dynaamisesti kannatellun aluksen päällystön lisäpätevyystodistuksen saamisen edellytyksenä on toimen edellyttämä pätevyyskirja ja IMOn dynaamisesti kannateltuja aluksia koskevan kansainvälisen turvallisuussäännöstön 17 luvun mukainen koulutus.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="75 §">
+            <saa:PykalaTunnusKooste>75 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Raakaöljypesuun osallistumisesta annettava lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Raakaöljypesuun osallistumista varten tarvittavan lisäpätevyystodistuksen saamisen edellytyksenä on toimeen muuten vaadittavan pätevyyskirjan lisäksi:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) raakaöljypesukurssin suorittaminen ja osallistuminen kahteen raakaöljypesuun; tai</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) kuusi kuukautta meripalvelua säiliöaluksella ja osallistuminen kahteen raakaöljypesuun.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="76 §">
+            <saa:PykalaTunnusKooste>76 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Raakaöljypesusta vastuussa olevan lisäpätevyystodistus</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Raakaöljypesusta vastuussa olevalle annettavan lisäpätevyystodistuksen saamisen edellytyksenä on toimeen muuten vaadittavan pätevyyskirjan lisäksi:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) raakaöljypesukurssin suorittaminen ja osallistuminen kahteen raakaöljypesuun; tai</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) 12 kuukautta meripalvelua säiliöaluksella, osallistuminen viiteen raakaöljypesuun sekä aluksen päällikön antama todistus siitä, että lisäpätevyystodistuksen hakija on perehtynyt raakaöljypesujärjestelmään ja sen käyttöön liittyvään käsikirjaan.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="8 luku">
+          <saa:LukuTunnusKooste>8 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Pätevyyskirjan ja lisäpätevyystodistuksen voimassaolo ja uusiminen</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="77 §">
+            <saa:PykalaTunnusKooste>77 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Pätevyyskirjan ja lisäpätevyystodistuksen voimassaolo</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Seuraavat pätevyyskirjat ja lisäpätevyystodistukset annetaan enintään viideksi vuodeksi kerrallaan:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) kansi- ja konepäällystön pätevyyskirjat, lukuun ottamatta kotimaanliikenteen pätevyyskirjoja;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) öljy-, kemikaali- ja kaasusäiliöaluksen lastitoimintojen hoitamisesta annettavat lisäpätevyystodistukset;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) matkustaja-aluksen laivaväen lisäpätevyystodistus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) hätätilanteiden peruskoulutuksesta annettava lisäpätevyystodistus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>5) pelastuslautta- ja pelastusvenemiehen lisäpätevyystodistus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>6) nopean valmiusveneen kuljettajan lisäpätevyystodistus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>7) päällystön palokoulutuksesta annettava lisäpätevyystodistus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>8) laivaväen terveydenhuoltokoulutuksesta annetta lisäpätevyystodistus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>9) kalastusaluksen laivurinkirja A ja kalastusaluksen laivurinkirja B.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Suurnopeusaluksen ja dynaamisesti kannatellun aluksen päällystön lisäpätevyystodistus annetaan kahdeksi vuodeksi kerrallaan.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Seuraavat pätevyyskirjat ja lisäpätevyystodistukset ovat voimassa toistaiseksi:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) kotimaanliikenteeseen oikeuttavat pätevyyskirjat;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) miehistön pätevyyskirjat;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) talousosaston pätevyyskirjat;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) kalastusaluksen kuljettajankirja A ja kalastusaluksen kuljettajankirja B;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>5) öljy-, kemikaali- ja kaasusäiliöaluksen laivaväen peruskoulutuksesta annettavat lisäpätevyystodistukset;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>6) aluksen turvapäällikön lisäpätevyystodistus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>7) ensiapukoulutuksesta annettava lisäpätevyystodistus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>8) raakaöljypesuun osallistumisesta annettava lisäpätevyystodistus;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>9) raakaöljypesusta vastuussa olevan lisäpätevyystodistus.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="78 §">
+            <saa:PykalaTunnusKooste>78 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Pätevyyskirjan ja lisäpätevyystodistuksen uusiminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Pätevyyskirjan tai lisäpätevyystodistuksen haltijan on kirjaa tai todistusta uusiessaan esitettävä selvitys siitä, että hän on säilyttänyt ammattipätevyytensä ja että hänen terveydentilansa täyttää merimiesten terveydentilaa koskevien säännösten ja määräysten mukaiset vaatimukset.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="79 §">
+            <saa:PykalaTunnusKooste>79 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kansi- ja konepäällystön pätevyyskirjan uusiminen</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Kansi- ja konepäällystön pätevyyskirjan haltijan katsotaan säilyttäneen ammattipätevyytensä, jos:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) hänellä on edeltävän viiden vuoden aikana vähintään vuosi uusittavan pätevyyskirjan kannalta tarkoituksenmukaista meripalvelua päällystötehtävissä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) hänellä on kolme kuukautta uusittavan pätevyyskirjan kannalta tarkoituksenmukaista meripalvelua päällystötehtävissä viimeisen kuuden kuukauden aikana välittömästi ennen pätevyyskirjan uusimista;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) hän on toiminut 1 kohdassa tarkoitettua meripalvelua vastaavissa tehtävissä; tai</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) hän on suorittanut erityisen hyväksytyn STCW-säännöstön A-I/11 säännön mukaisen kertauskoulutuksen.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="80 §">
+            <saa:PykalaTunnusKooste>80 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Säiliöaluksen laivaväen lisäpätevyystodistuksen uusiminen</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Säiliöaluksen laivaväen määräaikaisina myönnettyjen lisäpätevyystodistusten haltijan katsotaan säilyttäneen pätevyytensä, jos:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) hänellä on hakemuksen jättämistä edeltävän viiden vuoden aikana vähintään kolme kuukautta haettavan lisäpätevyystodistuksen kannalta tarkoituksenmukaista meripalvelua säiliöaluksella; tai</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) hän on suorittanut hakemuksen jättämistä edeltävän viiden vuoden aikana haettavaan lisäpätevyystodistukseen vaadittavan koulutuksen tai kertauskoulutuksen.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="81 §">
+            <saa:PykalaTunnusKooste>81 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Matkustaja-aluksen laivaväen lisäpätevyystodistuksen uusiminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Laivaväkeen kuuluvan, jolla on oltava STCW-säännöstön A-V/2 säännön mukainen väkijoukkojen hallintaa koskeva koulutus, kriisinhallintaa ja inhimillistä käyttäytymistä koskeva koulutus sekä matkustaja- ja lastiturvallisuutta sekä rungon eheyttä koskeva koulutus, on suoritettava hyväksytty kertauskoulutus vähintään viiden vuoden välein tai todistettava, että on säilyttänyt vaaditun pätevyyden viimeisen viiden vuoden aikana.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Edellä 1 momentissa tarkoitettu pätevyys säilyy, jos hakijalla todistettavasti on:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) meripalvelua matkustaja-aluksella 12 kuukautta viimeisen viiden vuoden aikana; tai</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) meripalvelua matkustaja-aluksella kolme kuukautta viimeisen kuuden kuukauden aikana välittömästi ennen lisäpätevyystodistuksen uusimista.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="82 §">
+            <saa:PykalaTunnusKooste>82 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Hätätilanteiden peruskoulutuksesta annettavan lisäpätevyystodistuksen uusiminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>STCW-säännöstön A-VI/1-1, A-VI/1-2, A-VI/1-3 ja A-VI/1-4 säännön mukaisen hätätilanteiden peruskoulutuksen suorittaneen merenkulkijan on joka viides vuosi todistettava, että hän on säilyttänyt vaaditun pätevyyden toimensa, tehtäviensä ja vastuidensa mukaisesti A-VI/1-1 säännön mukaisen pelastautumiskoulutuksen ja A-VI/1-2 säännön mukaisen miehistön palokoulutuksen osalta. Pätevyys voidaan osoittaa kertauskoulutuksesta tai käytännön kokeen hyväksytystä suorittamisesta myönnetyllä todistuksella.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="83 §">
+            <saa:PykalaTunnusKooste>83 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Pelastuslautta- ja pelastusvenemiehen lisäpätevyystodistuksen uusiminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>STCW-säännöstön A-VI/2-1 säännön mukaisen pelastuslautta- ja pelastusvenemiehen koulutuksen suorittaneen merenkulkijan on joka viides vuosi todistettava, että hän on säilyttänyt vaaditun pätevyyden toimensa, tehtäviensä ja vastuidensa mukaisesti. Pätevyys voidaan osoittaa kertauskoulutuksesta tai käytännön kokeen hyväksytystä suorittamisesta myönnetyllä todistuksella.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="84 §">
+            <saa:PykalaTunnusKooste>84 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Nopean valmiusveneen kuljettajan lisäpätevyystodistuksen uusiminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>STCW-säännöstön A-VI/2-2 säännön mukaisen nopean valmiusveneen kuljettamiseen oikeuttavan koulutuksen suorittaneen merenkulkijan on joka viides vuosi todistettava, että hän on säilyttänyt vaaditun pätevyyden toimensa, tehtäviensä ja vastuidensa mukaisesti. Pätevyyden säilyminen voidaan osoittaa kertauskoulutuksesta tai käytännön kokeen hyväksytystä suorittamisesta myönnetyllä todistuksella.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="85 §">
+            <saa:PykalaTunnusKooste>85 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Päällystön palokoulutuksesta annettavan lisäpätevyystodistuksen uusiminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>STCW-säännöstön A-VI/3 säännön mukaisen päällystön palokoulutuksen suorittaneen merenkulkijan on joka viides vuosi todistettava, että hän on säilyttänyt vaaditun pätevyyden toimensa, tehtäviensä ja vastuidensa mukaisesti. Pätevyyden säilyminen voidaan osoittaa kertauskoulutuksesta tai käytännön kokeen hyväksytystä suorittamisesta myönnetyllä todistuksella.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="86 §">
+            <saa:PykalaTunnusKooste>86 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kalastusaluksen laivaväen pätevyyskirjojen uusiminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Pätevyyskirjaa uusittaessa pätevyyskirjan haltijan on esitettävä selvitys siitä, että hänen terveydentilansa täyttää merimiesten terveydentilaa koskevien säännösten ja määräysten mukaiset vaatimukset ja että hän on säilyttänyt ammattipätevyytensä.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Pätevyyskirjan haltijan on katsottava säilyttäneen ammattipätevyytensä, jos:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) hänellä on edeltävän viiden vuoden aikana vähintään vuosi hyväksyttävää meripalvelua päällystötehtävissä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) hän on toiminut 1 kohdassa tarkoitettuihin päällystötehtäviin rinnastettavissa, pätevyyskirjaansa vastaavissa tehtävissä;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) hän on suorittanut hyväksyttävän kertauskuulustelun tai erityisen kalastusalusten päällystölle tarkoitetun kertauskoulutuskurssin; tai</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) hänellä on vähintään kolme kuukautta meripalvelua välittömästi ennen tehtävän vastaanottamista ylimääräisenä päällystön jäsenenä kalastusaluksella.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="9 luku">
+          <saa:LukuTunnusKooste>9 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Muiden valtioiden antamat pätevyyskirjat ja lisäpätevyystodistukset</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="87 §">
+            <saa:PykalaTunnusKooste>87 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Muun valtion toimivaltaisen viranomaisen antaman pätevyyskirjan ja lisäpätevyystodistuksen tunnustaminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Euroopan talousalueeseen (ETA) kuuluvan valtion toimivaltaisen viranomaisen ETA-valtion kansalaisille antama STCW-yleissopimuksen mukainen pätevyyskirja on tunnustettava. Kirjallisesta hakemuksesta Liikenteen turvallisuusvirasto antaa pätevyyskirjan tunnustamisesta kelpoisuustodistuksen.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Liikenteen turvallisuusvirasto voi myöntää muun kuin ETA-valtion toimivaltaisen viranomaisen antaman STCW-yleissopimuksen mukaisen pätevyyskirjan haltijalle kirjallisesta hakemuksesta luvan toimia suomalaisessa aluksessa tietyssä toimessa siten kuin mainitussa yleissopimuksessa määrätään. Hakemukseen on liitettävä kyseisen viranomaisen antama pätevyyskirja sekä selvitys hakijan koulutuksesta, työkokemuksesta ja terveydentilasta sekä passivalokuva. Liikenteen turvallisuusvirasto antaa pätevyyskirjan tunnustamisesta kelpoisuustodistuksen, josta käy ilmi sen voimassaoloaika.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Liikenteen turvallisuusvirasto voi antaa pyydettäessä kelpoisuustodistuksen hakijalle kirjallisen todistuksen hakemuksen vastaanottamisesta, jos hakijan pätevyyskirja kuuluu STCW-yleissopimuksen ja Euroopan unionin lainsäädännön mukaisen tunnustamismenettelyn piiriin. Hakemuksen vastaanottamistunnustuksen nojalla hakija voi toimia aluksella kunnes kelpoisuustodistus on myönnetty, kuitenkin enintään kolme kuukautta. Jos Liikenteen turvallisuusviraston lupapäätös on kielteinen, oikeus työskentelyyn lakkaa seuraavassa satamassa.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Liikenteen turvallisuusvirasto voi tunnustaa muun valtion toimivaltaisen viranomaisen myöntämän pätevyyskirjan tai lisäpätevyystodistuksen, jos</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) valtio on STCW-yleissopimuksen sopimuspuoli;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) valtio on osoittanut IMOn meriturvallisuuskomitealle, että se on toimeenpannut yleissopimuksen määräykset;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) Euroopan komissio on tunnustanut kyseisen valtion koulutus- ja pätevyyskirjojen myöntämisjärjestelmän;</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) Liikenteen turvallisuusvirastolla ja kyseisen valtion toimivaltaisella viranomaisella on, tai on tekeillä, kahdenvälinen sitoumus pätevyyskirjojen ja lisäpätevyystodistusten tunnustamisesta.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Edellä 2 momentissa tarkoitetut kelpoisuustodistukset on myönnettävä STCW-yleissopimuksen VI artiklan 2 säännön mukaisesti.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="88 §">
+            <saa:PykalaTunnusKooste>88 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Muun kuin ETA-valtion toimivaltaisen viranomaisen antaman pätevyyskirjan ja lisäpätevyystodistuksen tunnustamisen peruuttaminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Jos Liikenteen turvallisuusvirasto havaitsee, että muun kuin ETA-valtion toimivaltaisen viranomaisen antama pätevyyskirja tai lisäpätevyystodistus ei enää täytä STCW-yleissopimuksen asettamia vaatimuksia, sen on ilmoitettava asiasta viipymättä Euroopan komissiolle.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Pätevyyskirjan tunnustaminen ja kelpoisuustodistus voidaan peruuttaa merenkulkijoiden vähimmäiskoulutuksesta annetun Euroopan parlamentin ja neuvoston direktiivin 2008/106/EY mukaisesti.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="10 luku">
+          <saa:LukuTunnusKooste>10 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Erinäiset säännökset</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="89 §">
+            <saa:PykalaTunnusKooste>89 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Ilmoitukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Liikenteen turvallisuusviraston on ilmoitettava viipymättä IMOlle hyväksymästään STCW-yleissopimuksen artiklan IX mukaisesta vaihtoehtoisesta järjestelystä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kun Liikenteen turvallisuusvirasto on aikeissa tunnustaa muun valtion toimivaltaisen viranomaisen antamia pätevyyskirjoja ja lisäpätevyystodistuksia, viraston on raportoitava kuuden kuukauden kuluessa IMOlle siitä, miten se on varmistanut sen, että pätevyyskirja tai lisäpätevyystodistus tunnustetaan STCW-yleissopimuksen liitteen säännön I/10 mukaisesti. </saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kun Liikenteen turvallisuusvirasto hyväksyy vaihtoehtoisten pätevyyksien käytön, on sen toimitettava esimerkki tällaisesta miehitystodistuksesta IMOlle.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Liikenteen turvallisuusviraston on toimitettava vuosittain IMOlle tilasto myöntämistään pätevyyserivapauksista STCW-yleissopimuksen VIII artiklan 3 kohdan mukaisesti.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Liikenteen turvallisuusviraston on ilmoitettava IMOlle ja Euroopan komissiolle STCW-yleissopimuksen liitteen säännön I/8 mukaisen arvioinnin tulokset kuuden kuukauden kuluttua arviointikierroksen päättymisestä sekä toimenpiteet yleissopimukseen tehtyjen muutosten toimeenpanemiseksi.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Jos Liikenteen turvallisuusvirasto tekee sitoumuksia lähiliikennealueeseen kuuluvien valtioiden kanssa lähiliikennealueen rajoista ja kyseisellä liikennealueella vaadittavista pätevyyksistä sekä muista mahdollisista vaatimuksista, viraston on välitettävä STCW-yleissopimuksen liitteen säännön I/3 edellyttämät tiedot IMOlle ja Euroopan komissiolle lähiliikenteen määritelmästä sekä sitoumuksiin liittyvistä vaatimuksista.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Jos Liikenteen turvallisuusvirasto haluaa tunnustaa sellaisen muun valtion toimivaltaisen viranomaisen antaman pätevyyskirjan, jonka koulutus- ja pätevyyskirjojen myöntämisjärjestelmää Euroopan komissio ei ole tunnustanut, viraston on lähetettävä perusteltu pyyntö Euroopan komissiolle tämän maan tunnustamiseksi.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Jos Liikenteen turvallisuusvirasto aikoo peruuttaa kaikki muun valtion pätevyyskirjoille ja lisäpätevyystodistuksille myöntämänsä kelpoisuustodistukset, viraston on ilmoitettava päätöksestä perusteluineen viipymättä Euroopan komissiolle sekä muille Euroopan unionin jäsenvaltioille.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Liikenteen turvallisuusviraston on annettava tietoja pätevyyskirjoista, kelpoisuustodistuksista ja erivapauksista STCW-yleissopimuksen sopimuspuolille sekä laivanisännille viraston myöntämän pätevyyskirjan oikeellisuuden ja voimassaolon varmistamiseksi.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Liikenteen turvallisuusviraston on asetettava annettuja pätevyyskirjoja ja kelpoisuustodistuksia koskevat tiedot komission saataville merenkulkijoiden vähimmäiskoulutuksesta annetun Euroopan parlamentin ja neuvoston direktiivin 2008/106/EY mukaisesti.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="90 §">
+          <saa:PykalaTunnusKooste>90 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Voimaantulo</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Tämä asetus tulee voimaan 1 päivänä maaliskuuta 2013.</saa:MomenttiKooste>
+        </saa:Pykala>
+      </saa:Pykalisto>
+    </saa:Saados>
+  </saa:SaadosOsa>
+  <asi:AllekirjoitusOsa>
+    <asi:PaivaysKooste>  Helsingissä 21 päivänä helmikuuta 2013</asi:PaivaysKooste>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Liikenneministeri</org1:AsemaTeksti>
+        <org1:SukuNimi>Merja Kyllönen</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Hallitusneuvos</org1:AsemaTeksti>
+        <org1:SukuNimi>Anna Sotaniemi</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+  </asi:AllekirjoitusOsa>
+</vah:VahvistettavaLaki>
