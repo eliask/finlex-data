@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2015-04-10" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+  <asi:IdentifiointiOsa>
+    <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
+    <asi:EduskuntaTunniste>
+      <met1:AsiakirjatyyppiKoodi>SDK</met1:AsiakirjatyyppiKoodi>
+      <asi1:AsiakirjaNroTeksti>357</asi1:AsiakirjaNroTeksti>
+      <asi1:ValtiopaivavuosiTeksti>2015</asi1:ValtiopaivavuosiTeksti>
+    </asi:EduskuntaTunniste>
+    <met:Nimeke>
+      <met1:NimekeTeksti>vahinkovakuutusyhtiön tasoitusmäärän laskemisesta</met1:NimekeTeksti>
+    </met:Nimeke>
+  </asi:IdentifiointiOsa>
+  <saa:SaadosOsa>
+    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus">
+      <saa:SaadosNimeke>
+        <saa:SaadostyyppiKooste>Sosiaali- ja terveysministeriön asetus</saa:SaadostyyppiKooste>
+        <saa:SaadosNimekeKooste>vahinkovakuutusyhtiön tasoitusmäärän laskemisesta</saa:SaadosNimekeKooste>
+      </saa:SaadosNimeke>
+      <saa:Johtolause>
+        <saa:SaadosKappaleKooste>Sosiaali- ja terveysministeriön päätöksen mukaisesti säädetään vakuutusyhtiölain (521/2008) 9 luvun 12 §:n nojalla, sellaisena kuin se on laissa 303/2015:</saa:SaadosKappaleKooste>
+      </saa:Johtolause>
+      <saa:Pykalisto>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
+          <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Tasoitusmäärän siirtokaava</saa:SaadosOtsikkoKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Tasoitusmäärä vuoden t tilinpäätöksessä U(t) lasketaan siirtokaavoilla:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>U(t) = (1+i)·U(t–1) + (f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti>–f(t))·B(t), kun f(t) &lt; f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti>,</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>U(t) = (1+i)·U(t–1), kun f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> ≤ f(t) ≤ f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti>,</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>U(t) = (1+i)·U(t–1) – (f(t) – f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti>)·B(t), kun f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti>&lt; f(t).</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:MomenttiKooste>Edellä 1 momentissa U(t–1) on tasoitusmäärä vuoden t–1 tilinpäätöksessä, i käytettävä korko, f(t) tilivuoden omalla vastuulla oleva oikaistu vahinkosuhde, f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti> purkuvahinkosuhde, f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> kartutusvahinkosuhde ja B(t) tilivuoden omalla vastuulla olevat oikaistut vakuutusmaksutuotot.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Jos 1 momentin mukaisen laskennan tuloksena saatu U(t) alittaa tasoitusmäärän vähimmäismäärän, tasoitusmäärä asetetaan vähimmäismäärän suuruiseksi. Jos laskennan tuloksena saatu U(t) ylittää tasoitusmäärän enimmäismäärän, tasoitusmäärä asetetaan enimmäismäärän suuruiseksi.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
+          <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Tasoitusmäärän siirtokaavan suureissa tarvittavat laskentamallit</saa:SaadosOtsikkoKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Vakuutusyhtiön omalla vastuulla olevat oikaistut vakuutusmaksutuotot B(t) lasketaan kaavalla:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>B(t) = B’(t) + V(t–1) – V(t),</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>missä B’(t) tarkoittaa yhtiön omalla vastuulla olevaa vuoden t vakuutusmaksutuloa, johon on lisätty yhtiön voitonjakoon maksunpalautuksina käytetty osa ja jälleenvakuuttajien maksamat vakuutusmaksuihin sisältyvät palkkiot ja voitto-osuudet ja josta on vähennetty luottotappiot sekä vastaanotetun jälleenvakuutuksen maksuihin sisältyvät palkkiot ja voitto-osuudet, sekä V(t) tarkoittaa vakuutusyhtiölain (521/2008) 9 luvun mukaista vakuutusmaksuvastuuta vuoden t tilinpäätöksessä jälleenvakuuttajien osuudella vähennettynä.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Vakuutusyhtiön omalla vastuulla oleva oikaistu vahinkosuhde f(t) lasketaan kaavalla:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>f(t) = X(t)/B(t),</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>missä X(t) = X’(t) + K(t) – K(t–1). Tässä X’(t) tarkoittaa vuonna t maksetuiksi kirjattuja korvauksia, mukaan lukien vahingonselvittelykulut, vähennettynä jälleenvakuuttajien osuudella, ja K(t) tarkoittaa muuta vakuutusyhtiölain 9 luvun mukaista korvausvastuuta kuin tasoitusmäärää vuoden t tilinpäätöksessä jälleenvakuuttajien osuudella vähennettynä.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
+          <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Tasoitusmäärän siirtokaavan parametrit</saa:SaadosOtsikkoKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Vakuutusyhtiön tasoitusmäärän laskuperusteissa määritetään purku- ja kartutusvahinkosuhteiden f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti> ja f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> arvot erikseen seuraavaa kahta tapausta varten:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>1) kun edellisen vuoden lopun tasoitusmäärä on enintään tavoitemäärän suuruinen; ja</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>2) kun edellisen vuoden lopun tasoitusmäärä on tavoitemäärän ja enimmäismäärän välissä tai on enimmäismäärän suuruinen.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:MomenttiKooste>Edellä 1 momentin 1 kohdassa tarkoitetussa tapauksessa, purku- ja kartutusvahinkosuhteet f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti> ja f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> on valittava niin, että ne toteuttavat vakuutusyhtiölain 9 luvun 5 b §:n 3 momentissa määritetyn ehdon.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Edellä 1 momentin 2 kohdassa tarkoitetussa tapauksessa purku- ja kartutusvahinkosuhteet f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti> ja f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> on valittava niin, että ne ovat korkeintaan kohdan 1 mukaisten parametrien suuruiset.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
+          <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Pienen vakuutusyhtiön siirtokaavan parametrit</saa:SaadosOtsikkoKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Jos pienen vakuutusyhtiön purku- ja kartutusvahinkosuhteet sidotaan keskimääräiseen oikaistuun vahinkosuhteeseen vakuutusyhtiölain 9 luvun 5 b §:n 4 momentin mukaisesti, ovat purku- ja kartutusvahinkosuhteet seuraavat:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>f<sis1:AlaindeksiTeksti>p</sis1:AlaindeksiTeksti> = f<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> = f¯ + a,</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>missä f¯ on edeltävien vuosien keskimääräinen oikaistu vahinkosuhde ja a on kartutusparametri.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:MomenttiKooste>Pienen vakuutusyhtiön edeltävien vuosien keskimääräinen oikaistu vahinkosuhde lasketaan oikaistujen vahinkosuhteiden keskiarvona vähintään viiden vuoden tilastoaineiston perusteella. Jos yhtiöllä tilastoaineistoa lyhyemmältä kuin viiden vuoden ajalta tai jos yhtiön toiminta on oleellisesti muuttunut tänä aikana, yhtiön tasoitusmäärän laskuperusteissa on esitettävä menettely keskimääräisen oikaistun vahinkosuhteen laskemiseksi.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Edellä 1 momentin 1 kohdassa tarkoitetussa tapauksessa pienen vakuutusyhtiön kartutusparametrin a arvon on oltava vähintään 2,5 prosenttia ja korkeintaan 6 prosenttia. Edellä 1 momentin 2 kohdassa tarkoitetussa tapauksessa kartutusparametrin a arvon on oltava vähintään nolla ja korkeintaan 1 momentin 1 kohdan mukaisen parametrin suuruinen. Kartutusparametrin a arvo on esitettävä yhtiön tasoitusmäärän laskuperusteissa.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
+          <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Tasoitusmäärälle hyvitettävä korko</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Tasoitusmäärälle hyvitettävän koron suuruus on 1,5 prosenttia tai sitä alempi vakuutusyhtiölain 10 luvun 7 §:ssä tarkoitettu vakavaraisuuslaskennassa vastuuvelan diskonttauksessa käytettävä euron viiden vuoden riskitön korko, missä ei ole otettu huomioon mainitun luvun 8 §:ssä tarkoitettua vastaavuuskorjausta eikä volatiliteettikorjausta.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
+          <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Laskuperusteiden muuttaminen</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Vakuutusyhtiö voi hakea Finanssivalvonnalta uusien laskuperusteiden vahvistamista aikaisintaan, kun aiemmin vahvistettuja perusteita on käytetty vähintään viitenä tilikautena. Jos vakuutusyhtiön riskit ovat olennaisesti muuttuneet laskuperusteiden vahvistamisen jälkeen, yhtiön on kuitenkin haettava Finanssivalvonnalta vahvistus uusille laskuperusteille.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Jos Finanssivalvonta katsoo yhtiön riskien olennaisesti muuttuneen laskuperusteiden vahvistamisen jälkeen tai jos yhtiön laskuperusteet eivät toteuta vakuutusyhtiölain 9 luvun 5 b §:n 3 momentissa ja edellä 3 §:ssä asetettuja ehtoja, se voi määrätä yhtiön hakemaan uusien laskuperusteiden vahvistamista. Tällöin ei noudateta 1 momentissa tarkoitettua määräaikaa.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
+          <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Tasoitusmäärän laskeminen keskellä vuotta</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Laskettaessa tasoitusmäärä keskellä vuotta, suuretta B(t) laskettaessa käytetään suureen V(t) asemasta laskenta-ajankohdan vakuutusmaksuvastuuta jälleenvakuuttajien osuudella vähennettynä ja suuretta X(t) laskettaessa käytetään suureen K(t) asemasta laskenta-ajankohdan korvausvastuuta ilman tasoitusmäärää jälleenvakuuttajien osuudella vähennettynä. Korkona käytetään laskenta-ajankohdan mukaista suhteellista osuutta vuosikorosta.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Tavoitemäärän ja enimmäismäärän laskenta perustuu vakuutusyhtiölain 9 luvun 5 §:n 1 momentin tilanteessa perusvakavaraisuuspääomavaatimuksen mukaiseen viimeksi laskettuun pääomavaatimukseen ja vakuutusyhtiölain 9 luvun 5 §:n 2 momentin tilanteessa yhtiön käyttämän mallin mukaiseen viimeksi laskettuun pääomavaatimukseen.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="8 §">
+          <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Voimaantulo</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Tämä asetus tulee voimaan 1 päivänä tammikuuta 2016.</saa:MomenttiKooste>
+        </saa:Pykala>
+      </saa:Pykalisto>
+    </saa:Saados>
+  </saa:SaadosOsa>
+  <asi:AllekirjoitusOsa>
+    <asi:PaivaysKooste>Helsingissä 20 päivänä maaliskuuta 2015</asi:PaivaysKooste>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Sosiaali- ja terveysministeri</org1:AsemaTeksti>
+        <org1:SukuNimi>Laura Räty</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Ylimatemaatikko</org1:AsemaTeksti>
+        <org1:SukuNimi>Pertti Pulkkinen</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+  </asi:AllekirjoitusOsa>
+</vah:VahvistettavaLaki>
