@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+  <asi:IdentifiointiOsa>
+    <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
+    <asi:EduskuntaTunniste>
+      <met1:AsiakirjatyyppiKoodi>SDK</met1:AsiakirjatyyppiKoodi>
+      <asi1:AsiakirjaNroTeksti>886</asi1:AsiakirjaNroTeksti>
+      <asi1:ValtiopaivavuosiTeksti>1993</asi1:ValtiopaivavuosiTeksti>
+    </asi:EduskuntaTunniste>
+    <met:Nimeke>
+      <met1:NimekeTeksti>Väestötietoasetus</met1:NimekeTeksti>
+    </met:Nimeke>
+  </asi:IdentifiointiOsa>
+  <saa:SaadosOsa>
+    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus">
+      <saa:SaadosNimeke>
+        <saa:SaadostyyppiKooste>Väestötietoasetus</saa:SaadostyyppiKooste>
+      </saa:SaadosNimeke>
+      <saa:Johtolause>
+        <saa:SaadosKappaleKooste>Sisäasiainministerin esittelystä säädetään 11 päivänä kesäkuuta 1993 annetun väestötietolain (507/93) nojalla:</saa:SaadosKappaleKooste>
+      </saa:Johtolause>
+      <saa:Pykalisto>
+        <saa:Luku saa1:identifiointiTunnus="1 luku">
+          <saa:LukuTunnusKooste>1 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Henkilötiedot</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
+            <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Henkilötunnus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Rekisteritoimiston on annettava jokaiselle väestötietojärjestelmään otettavalle henkilölle henkilötunnus, kun hänet ensi kerran rekisteröidään.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
+            <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Henkilötunnuksen määräytyminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Henkilötunnus muodostuu syntymäajasta, yksilönumerosta ja tarkistusmerkistä mainitussa järjestyksessä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Syntymäaika merkitään kuudella numerolla, joista ensimmäinen ja toinen ilmaisevat päivän, kolmas ja neljäs kuukauden, viides vuosikymmenen ja kuudes vuoden. Syntymäajan jäljessä on 1900-luvulla syntyneillä yhdysmerkki (-) ja 1800-luvulla syntyneillä plusmerkki (+).</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Yksilönumerolla erotetaan toisistaan henkilöt, joilla on sama syntymäaika. Yksilönumeroksi annetaan kolminumeroinen luku, joka on miespuolisilla pariton ja naispuolisilla parillinen.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Tarkistusmerkki on numero tai kirjain. Se saadaan jakamalla syntymäajan ja yksilönumeron muodostama yhdeksännumeroinen luku 31:llä, jolloin tarkistusmerkki määräytyy jakojäännöksen mukaan seuraavasti:</saa:MomenttiKooste>
+            <te/>
+            <te>Jakojäännös        Tarkistusmerkki</te>
+            <te> 0                       0</te>
+            <te> 1                       1</te>
+            <te> 2                       2</te>
+            <te> 3                       3</te>
+            <te> 4                       4</te>
+            <te> 5                       5</te>
+            <te> 6                       6</te>
+            <te> 7                       7</te>
+            <te> 8                       8</te>
+            <te> 9                       9</te>
+            <te>10                       A</te>
+            <te>11                       B</te>
+            <te>12                       C</te>
+            <te>13                       D</te>
+            <te>14                       E</te>
+            <te>15                       F</te>
+            <te>16                       H</te>
+            <te>17                       J</te>
+            <te>18                       K</te>
+            <te>19                       L</te>
+            <te>20                       M</te>
+            <te>21                       N</te>
+            <te>22                       P</te>
+            <te>23                       R</te>
+            <te>24                       S</te>
+            <te>25                       T</te>
+            <te>26                       U</te>
+            <te>27                       V</te>
+            <te>28                       W</te>
+            <te>29                       X</te>
+            <te>30                       Y</te>
+            <te/>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
+            <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Henkilötunnuksen muuttaminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Jos henkilötunnus on virheellinen, rekisteritoimiston on annettava henkilölle viipymättä uusi henkilötunnus. Virheelliseksi todettua tunnusta ei saa antaa toiselle henkilölle.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
+            <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Tiedot Suomen kansalaisesta</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Suomen kansalaisesta talletetaan väestötietojärjestelmään henkilötunnuksen lisäksi:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) nimet;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) kotikunta ja sen yksilöimiseksi tarpeelliset tiedot;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) osoite ja muut kotipaikan yksilöimiseksi tarpeelliset tiedot sekä Suomesta muuttaneen osoite ulkomailla ja tieto siitä, onko oleskelu vakinaista vai tilapäistä;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) syntymäkotikunta tai erityisestä syystä syntymäpaikka;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+5) vanhempien nimet ja henkilötunnukset tai syntymäajat;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+6) siviilisääty sekä tiedot avioliiton solmimisesta ja purkautumisesta;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+7) perheoikeudellinen asema;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+8) aviopuolison nimi ja henkilötunnus tai syntymäaika;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+9) lasten nimet ja henkilötunnukset tai syntymäajat;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+10) alaikäisen huoltoa koskevat tiedot;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+11) kansalaisuus;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+12) holhousta koskevat tiedot;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+13) kuolinaika;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+14) äidinkieli;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+15) ammatti, jos henkilö on sen ilmoittanut;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+16) henkilörekisterilain (471/87) ja väestötietolain (507/93) nojalla ilmoitetut rajoitukset tietojen luovuttamiselle;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+17) tieto sosiaalilautakunnan huostaanotosta;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+18) tasavallan presidentin, kansanedustajien sekä kunnallisissa ja kirkollisissa vaaleissa tarvittavien vaaliluetteloiden samoin kuin neuvoa-antavissa kansanäänestyksissä käytettävien äänestysluetteloiden laatimista varten tarvittavat tiedot;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+19) avioliiton esteiden tutkintaa ja vihkimistä varten tieto kirkkokunnasta tai rekisteröidystä uskonnollisesta yhdyskunnasta, johon henkilö kuuluu;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+20) tiedot henkilön paikallisesta rekisteriviranomaisesta; sekä
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+21) väestötietojen ylläpidossa välttämättömät kirjaamismerkinnät.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Suomen kansalaisen perheenjäsenestä, jota ei ole otettu väestötietojärjestelmään, voidaan tallettaa lisäksi osoite ja kuolinaika, jos se on Suomea sitovan kansainvälisen sopimuksen tai muun erityisen syyn vuoksi tarpeen ja jos tiedoista on saatu luotettava selvitys.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Väestötietojärjestelmään voidaan merkitä myös tietopalvelussa tarpeelliset asiakasmerkinnät.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
+            <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Tiedot ulkomaalaisesta</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Ulkomaalaisesta, jolla on kotipaikka Suomessa, talletetaan väestötietojärjestelmään soveltuvin osin ne 4 §:ssä säädetyt tiedot, joista on saatu luotettava selvitys.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Muusta väestötietojärjestelmään otettavasta ulkomaalaisesta voidaan tallettaa sellaisia 4 §:ssä säädettyjä tietoja, jotka ovat Suomessa asumisen tai työskentelyn, Suomea sitovan kansainvälisen sopimuksen velvoitteiden täyttämisen tai muun erityisen syyn johdosta tarpeen ja joista on saatu luotettava selvitys.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="2 luku">
+          <saa:LukuTunnusKooste>2 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Henkilötietojen ilmoittaminen ja ylläpito</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
+            <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Muuttoilmoitus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Muuttoilmoitukseen on merkittävä muuttaneen henkilön nimi, henkilötunnus, muuttopäivä, tiedot asunnosta, johon on muutettu, sekä muut kotipaikkaa koskevan päätöksen tekemistä ja väestötietojärjestelmää varten tarpeelliset tiedot. Tiedot samalla kertaa muuttaneista perheenjäsenistä voidaan antaa yhteisellä ilmoituksella.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Muuttoilmoitus on annettava viimeistään kolmantena päivänä muutosta sen rakennuksen omistajalle tai haltijalle, johon henkilö on muuttanut, taikka näiden edustajalle. Jos näitä ei tavoiteta, ilmoitus on toimitettava rekisteritoimistoon. Rakennuksen omistajan tai haltijan taikka näiden edustajan on huolehdittava siitä, että muuttoilmoitus annetaan säädetyllä tavalla. Jos ilmoitusvelvollinen ei kehotuksestakaan anna muuttoilmoitusta, asiasta on ilmoitettava rekisteritoimistolle.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Jos henkilö muuttaa asunnosta eikä hänellä tämän jälkeen ole vakinaista asuntoa, hänen on tehtävä tästä muuttoilmoitus oleskelupaikkansa rekisteritoimistolle.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
+            <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Maastamuuttoilmoitus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Maastamuuttoilmoitukseen on merkittävä maasta muuttavan henkilön nimi, henkilötunnus, osoite ulkomailla, maastamuuton syy, ulkomailla oleskelun kesto sekä muut kotipaikkaa koskevan päätöksen tekemistä ja väestötietojärjestelmää varten tarpeelliset tiedot. Tiedot samalla kertaa muuttavista perheenjäsenistä voidaan antaa yhteisellä ilmoituksella.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Ilmoitus on annettava viimeistään muuttopäivänä sen rakennuksen omistajalle tai haltijalle, josta henkilö muuttaa ulkomaille, tai näiden edustajalle taikka rekisteritoimistoon. Ilmoituksen voi toimittaa ulkomailla Suomen edustustoon, kun henkilön tilapäinen oleskelu ulkomailla muuttuu pysyväksi.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §">
+            <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Muutto- ja maastamuuttoilmoituksen toimittaminen rekisteritoimistolle</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Rakennuksen omistajan tai haltijan taikka näiden edustajan on viimeistään seitsemäntenä päivänä muutosta toimitettava muuttoilmoitus sille rekisteritoimistolle, jonka virka-alueella henkilön uusi asuinpaikka on.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Rakennuksen omistajan tai haltijan taikka näiden edustajan on viimeistään seitsemäntenä päivänä muutosta toimitettava maastamuuttoilmoitus sille rekisteritoimistolle, jonka virka-alueella henkilö viimeksi asui.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Suomen edustuston on lähetettävä sille toimitettu maastamuuttoilmoitus viivytyksettä väestörekisterikeskukselle.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">
+            <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kotipaikkaa koskevat tiedot</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Rekisteritoimiston on tehtävä päätös kotipaikasta tai pyydettävä tarvittavat lisäselvitykset kolmen päivän kuluessa muuttoilmoituksen tai maastamuuttoilmoituksen saatuaan sekä tiedotettava siitä tarvittaessa rekisteritoimistolle, jonka virka-alueella henkilön edellinen kotipaikka oli.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Jos henkilöllä ei ole kunnassa asuntoa tai hänen osoitetietoaan ei voi pitää luotettavana, väestötietojärjestelmään voidaan merkitä osoite tuntemattomaksi.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kotipaikkaa koskevasta päätöksestä on ilmoitettava viipymättä henkilön edelliselle paikalliselle rekisteriviranomaiselle.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="10 §">
+            <saa:PykalaTunnusKooste>10 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Ulkomaalaisen rekisteröinti</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Ulkomaalaisen, jonka tiedot talletetaan väestötietojärjestelmään, on esitettävä rekisteritoimistolle Suomen viranomaisen antama oleskelulupa sekä ulkomaalaisen kotimaan tai oleskelumaan asianomaisen viranomaisen antama matkustusasiakirja, syntymätodistus, avioliittotodistus tai muu näihin verrattava luotettava selvitys talletettavista tiedoista.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
+            <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Sosiaalilautakunnan ilmoitukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Sosiaalilautakunnan on ilmoitettava viipymättä väestötietojärjestelmään lapsen ottamisesta sosiaalilautakunnan huostaan sekä huostassapidon lakkaamisesta. Samoin sosiaalilautakunnan on ilmoitettava vahvistamastaan lapsen huoltoa koskevasta sopimuksesta.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
+            <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Henkilötietojen tarkistaminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Henkilötietojen luotettavuus on varmistettava ensisijaisesti menetelmin, jotka eivät edellytä kansalaisilta toimenpiteitä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Tietoja, joita ei pidetä säännöllisesti ajantasalla tai joissa on perusteltua syytä olettaa olevan virheitä tai puutteita, voidaan tarkistaa henkilöille lähetettävin kyselyin.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">
+            <saa:PykalaTunnusKooste>13 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Tietojen poistaminen väestötietojärjestelmästä</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Ulkomaalaisen tietojen ylläpito väestötietojärjestelmässä lopetetaan, kun tietojen ylläpidon peruste on lakannut.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Edellä 4 §:n 1 momentin 17 kohdassa tarkoitettu tieto on poistettava viipymättä väestötietojärjestelmästä, kun sen tallettamisen peruste on lakannut.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="3 luku">
+          <saa:LukuTunnusKooste>3 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Kiinteistötiedot</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="14 §">
+            <saa:PykalaTunnusKooste>14 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kiinteistötunnus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Jokaisella väestötietojärjestelmään merkityllä kiinteistöllä ja kiinteistörekisterilaissa (392/85) tarkoitetulla yksiköllä on kiinteistörekisterilain mukainen kiinteistötunnus, johon voidaan lisätä tarkistusmerkki. Tarkistusmerkki lasketaan noudattaen soveltuvin osin 2 §:n 4 momentin säännöksiä. Väestörekisterikeskus antaa kuntanumeron.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="15 §">
+            <saa:PykalaTunnusKooste>15 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kiinteistötiedot</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Kiinteistöstä talletetaan väestötietojärjestelmään seuraavat tiedot:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) kiinteistötunnus sekä muut kiinteistön yksilöimiseksi tarpeelliset tiedot;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) omistajan nimi ja henkilötunnus tai liike- ja yhteisötunnus sekä tämän kotipaikka ja osoite; sekä
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) saannon laatu ja aika sekä lainhuudon antamispäivä.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="4 luku">
+          <saa:LukuTunnusKooste>4 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Kiinteistötietojen ilmoittaminen ja ylläpito</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="16 §">
+            <saa:PykalaTunnusKooste>16 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kiinteistöviranomaisen ilmoitukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Kiinteistörekisterin pitäjän on viipymättä ilmoitettava väestötietojärjestelmään virka-alueensa uudet kiinteistöt ja kiinteistöjä koskevat muutokset.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="17 §">
+            <saa:PykalaTunnusKooste>17 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Lainhuutoja koskevat ilmoitukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Tuomioistuimen on, jollei tietoja toimiteta oikeusministeriön ylläpitämästä tietojärjestelmästä, ilmoitettava väestötietojärjestelmään vuosineljänneksen aikana annetut lainhuudot kuukauden kuluessa vuosineljänneksen päättymisestä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Ilmoituksesta on käytävä ilmi kunkin huudatetun kiinteistön yksilöimiseksi tarpeelliset tiedot, kiinteistön omistajan ja luovuttajan nimi ja henkilötunnus tai liike- ja yhteisötunnus, saannon laatu ja aika sekä lainhuudon antamispäivä.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="18 §">
+            <saa:PykalaTunnusKooste>18 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kiinteistötietojen tarkistaminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Kiinteistötietojen luotettavuus on varmistettava menetelmin, jotka eivät edellytä kansalaisilta toimenpiteitä.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="5 luku">
+          <saa:LukuTunnusKooste>5 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Rakennus- ja huoneistotiedot</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="19 §">
+            <saa:PykalaTunnusKooste>19 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Rakennustunnus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Jokaisella rakennuksella on rakennustunnus, joka muodostuu rakennuksen sijaintikiinteistön kiinteistötunnuksesta ja rakennusnumerosta.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="20 §">
+            <saa:PykalaTunnusKooste>20 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Rekisteröitävät rakennukset ja huoneistot</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Väestötietojärjestelmään talletetaan tietoja rakennuslupaa edellyttävistä rakennuksista sekä niissä olevista asuinhuoneistoista ja toimitiloista lukuun ottamatta seuraavia rakennuksia:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) kokonaan vieraan valtion lähetystön, kaupallisen edustuston tai lähetetyn konsulin viraston käytössä olevat rakennukset ja hallinnassa olevat erilliset huoneistot;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) puolustusvoimien ja rajavartiolaitoksen hallinnassa olevat muut kuin henkilökunnan asuinrakennukset;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) maanalaiset rakennukset, joita käytetään pääasiassa varastotiloina tai muuhun vastaavaan tarkoitukseen;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) yksinomaan nesteiden säilyttämiseen tarkoitetut rakennukset; sekä
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+5) tilapäiset ja kevytrakenteiset rakennukset.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="21 §">
+            <saa:PykalaTunnusKooste>21 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Rakennustiedot</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Rakennuksesta talletetaan väestötietojärjestelmään:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) rakennuksen yksilöimiseksi tarpeelliset tiedot;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) osoite ja äänestysalue, johon rakennus kuuluu;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) omistajan nimi, henkilötunnus tai liike- ja yhteisötunnus ja osoite;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) omistajalaji;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+5) valmistumis-, perusparannus- ja käytöstäpoistumisvuosi;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+6) pääasiallinen käyttötarkoitus ja käytössäolotilanne;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+7) kerrosala ja kerrosluku;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+8) kantavien rakenteiden rakennusaine, pääasialliset varusteet ja väestösuoja;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+9) pääasiallinen lämmitystapa ja lämmitysaine; sekä
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+10) liittymät alueen vesi-, viemäri-, kaasu- ja sähköverkostoihin.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Rakennuksesta voidaan tallettaa lisäksi sen omistajan edustajan nimi ja osoite, julkinen rahoitus, tilavuus ja kokonaisala sekä kokonaisalan jakaantuminen käyttötarkoituksiin, jos niistä saadaan luotettava selvitys.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Rakennusluvan perusteella voidaan tallettaa lisäksi enintään viideksi vuodeksi:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) rakennustoimenpide;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) muutostyön laji;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) rakennusluvan myöntämispäivä, rakennustöiden aloittamispäivä, rakennushankkeen valmistumispäivä ja rakennusluvan raukeamispäivä;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) rakennusrungon pääasiallinen rakennustapa;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+5) pääasiallinen rakentaja, julkisivumateriaali ja kaavallinen valmiusaste; sekä
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+6) poikkeuslupa.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Talousrakennuksista, maatalouden tuotantorakennuksista ja muista niihin verrattavista rakennuksista talletetaan väestötietojärjestelmään kuitenkin vain rakennuksen yksilöimiseksi tarpeelliset tiedot, käyttötarkoitus, valmistumisvuosi, kerrosala, tilavuus, rakennusaine ja rakennustapa.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="22 §">
+            <saa:PykalaTunnusKooste>22 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Asuinhuoneistotunnus</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Asuinhuoneistolla, joka sijaitsee useamman kuin yhden huoneiston käsittävässä rakennuksessa, on huoneistotunnus. Se muodostuu rakennustunnuksesta sekä huoneiston tunnisteesta. Huoneiston tunnisteen muodostavat kirjainosa ja numero-osa tai toinen näistä. Lisäksi huoneiston tunnisteessa voi olla huoneiston jakamista osoittava kirjain.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="23 §">
+            <saa:PykalaTunnusKooste>23 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Asuinhuoneistotiedot</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Asuinhuoneistosta talletetaan väestötietojärjestelmään:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) huoneistotunnus ja muut huoneiston yksilöimiseksi tarpeelliset tiedot;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) huoneluku ja keittiötyyppi;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) huoneistoala;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) pääasialliset varusteet; sekä
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+5) hallintaperuste ja käytössäolotilanne.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="24 §">
+            <saa:PykalaTunnusKooste>24 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Toimitilatiedot</saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Toimitilasta voidaan tallettaa väestötietojärjestelmään:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) toimitilan yksilöimiseksi tarpeelliset tiedot;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) käyttötarkoitus;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) pinta-ala; sekä
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) toimitilan haltijan nimi ja liike- ja yhteisötunnus.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="25 §">
+            <saa:PykalaTunnusKooste>25 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Hallintoaluetiedot</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Väestötietojärjestelmässä on oltava kuntajako, kameraalinen jako, äänestysaluejako, seurakuntajako ja muu niihin verrattava tarpeellinen aluejako.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="6 luku">
+          <saa:LukuTunnusKooste>6 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Rakennus- ja huoneistotietojen ilmoittaminen ja ylläpito</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="26 §">
+            <saa:PykalaTunnusKooste>26 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kiinteistöviranomaisten ilmoitukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Kiinteistörekisterin pitäjän tai kunnan määräämän viranomaisen tulee ilmoittaa väestötietojärjestelmään uudet rakennustunnukset ja rakennustunnusten muutokset.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Rekisteritoimiston on toimitettava rakennustunnuksen antamiseksi tarvittavat tiedot, ellei niitä ole saatavissa suoraan väestötietojärjestelmästä.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="27 §">
+            <saa:PykalaTunnusKooste>27 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Rakennuslupaa ja rakennustoimintaa koskevat ilmoitukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Kunnan on ilmoitettava myönnetyistä rakennusluvista viipymättä väestötietojärjestelmään 21-23 §:ssä tarkoitetut tiedot, jotka ovat tällöin kunnan tiedossa.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Virallisen tilaston edellyttämät tiedot rakennusluvista ja rakennustoiminnasta väestörekisterikeskuksen on luovutettava viipymättä tilastokeskukselle.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="28 §">
+            <saa:PykalaTunnusKooste>28 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Rakennus- ja huoneistotietojen tarkistaminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Tietojen luotettavuus on varmistettava ensisijaisesti menetelmin, jotka eivät edellytä kansalaisilta toimenpiteitä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Tietoja, joita ei pidetä säännöllisesti ajantasalla tai joissa on perusteltua syytä olettaa olevan virheitä tai puutteita, voidaan tarkistaa rakennuksen omistajilta tai huoneistoihin lähetettävin kyselyin.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="29 §">
+            <saa:PykalaTunnusKooste>29 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Rakennuksen omistajan ja huoneiston haltijan ilmoitukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Rakennuksen omistajan tai tämän edustajan on annettava 21 ja 22 §:ssä ja huoneiston haltijan tai omistajan 23 ja 24 §:ssä tarkoitetut tiedot rakennus- ja huoneistotietojen tarkistamista varten. Jos 23 ja 24 §:ssä tarkoitettuja tietoja ei saada huoneiston haltijalta tai omistajalta, rakennuksen omistaja tai tämän edustaja on velvollinen antamaan ne.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Jollei tietoja saada 1 momentissa edellytetyllä tavalla, kunnan on annettava asianomaiset tiedot, jos ne ovat kunnan hallussa olevassa tietoaineistossa, tai muutoin avustettava tietojen hankkimisessa.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="7 luku">
+          <saa:LukuTunnusKooste>7 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Eräitä tietojen luovuttamista koskevia säännöksiä</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="30 §">
+            <saa:PykalaTunnusKooste>30 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Asiakirjapalvelu</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Todistukseen merkitään sen käyttötarkoitus ja tarvittavat tiedot väestötietolain 25-27 §:ssä säädetyin rajoituksin.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Henkilö on yksilöitävä todistuksessa henkilötunnuksen, syntymäajan tai muiden vastaavien tietojen avulla.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Todistukseen merkitään henkilön aikaisemmat suku- ja etunimet vain hakijan pyynnöstä. Jos nimi on muutettu henkilön täytettyä 15 vuotta, aikaisempi nimi on kuitenkin aina merkittävä todistukseen, joka annetaan:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) esitettäviksi tuomioistuimelle oikeudenkäyntiä tai hakemusasian käsittelyä varten;
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) sosiaali-, ulosotto-, syyttäjä-, poliisi- tai sotilasviranomaisia varten; taikka
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) yksityiselle henkilölle rikosrekisterin otteen hankkimista varten.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Aikaisemmat nimet on aina merkittävä todistukseen, joka annetaan liitettäväksi hakemukseen nimen muuttamisesta.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Väestötietojärjestelmästä annettava asiakirja voidaan allekirjoittaa koneellisesti. Tästä on oltava maininta asiakirjassa. Todistuksessa ei saa olla korjauksia tai lyhenteitä, jotka voivat aiheuttaa epäselvyyttä.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="31 §">
+            <saa:PykalaTunnusKooste>31 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Tietojen tutkiminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Valtion tai kunnan viranomaiselle, laissa säädettyä tehtävää hoitavalle yhteisölle ja tieteellistä tutkimusta, opinnäytettä tai sukututkimusta tekevälle henkilölle voidaan antaa lupa rekisteriviranomaisen valvonnassa tutkia väestötietojärjestelmän tietoja ja niihin liittyviä asiakirjoja. Tällöin on otettava huomioon, mitä väestötietolain 24-27 §:ssä on säädetty.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="32 §">
+            <saa:PykalaTunnusKooste>32 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Rakennustietojen käyttö otantaperusteena</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Luovutettaessa tietoja massaluovutuksena suoramainontaa tai muuta suoramarkkinointia, mielipide- ja markkinatutkimusta, osoitepalvelua sekä niihin verrattavaa toimintaa varten otantaperusteena saa käyttää väestötietolain 27 §:n 2 momentissa säädettyjen tietojen ohella rakennuslupaa, rakennuksen sijaintia, käyttötarkoitusta, valmistumisvuotta, kerrosalaa ja kerroslukua, pääasiallista lämmitystapaa ja lämmitysainetta sekä liittymää alueen vesi-, viemäri-, kaasu- ja sähköverkostoon.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="8 luku">
+          <saa:LukuTunnusKooste>8 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Erinäisiä säännöksiä</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="33 §">
+            <saa:PykalaTunnusKooste>33 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Ilmoitus huoltajan kuolemasta</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Rekisteritoimiston on viipymättä ilmoitettava sosiaalilautakunnalle siitä, että lapsi on huoltajan kuoleman johdosta jäänyt vaille huoltajaa.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="34 §">
+            <saa:PykalaTunnusKooste>34 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kirkollisen viranomaisen toimivalta</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Evankelis-luterilaisen kirkon ja ortodoksisen kirkkokunnan viranomaisen toimivalta väestökirjanpidossa määräytyy henkilön kotipaikan ja sitä vastaavan seurakunnan perusteella.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kirkkohallitus voi kuitenkin määrätä perusteista, joiden mukaan evankelis-luterilaiseen kirkkoon kuuluva henkilö saa olla jäsenenä kotikuntansa muussa seurakunnassa kuin siinä, jonka alueella hän asuu.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="35 §">
+            <saa:PykalaTunnusKooste>35 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Seurakuntien ilmoitukset</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Seurakunnan on viivytyksettä ilmoitettava väestötietojärjestelmään siihen kuuluva tieto, joka sille on ilmoitettu. Kun seurakunta on saanut tiedon jäsenensä muutosta, sen on kolmen päivän kuluessa tehtävä pitämäänsä rekisteriin merkintä muuttaneen uudesta seurakunnasta ja muutoksen ajankohdasta sekä toimitettava asiakirjat tälle seurakunnalle.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Henkilön erotessa evankelis-luterilaisesta kirkosta tai ortodoksisesta kirkkokunnasta häntä koskevat väestötiedot on ilmoitettava rekisteritoimistolle, jonka virka-alueella hän asuu.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Henkilön liittyessä evankelis-luterilaiseen kirkkoon tai ortodoksiseen kirkkokuntaan häntä koskevat asiakirjat lähetetään 34 §:ssä tarkoitetulle kirkollisen väestörekisterin pitäjälle.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="36 §">
+            <saa:PykalaTunnusKooste>36 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Lomakkeiden vahvistaminen</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Väestörekisterikeskus vahvistaa tämän asetuksen edellyttämien lomakkeiden kaavat, jollei erikseen toisin säädetä.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Lomakkeiden kaavoja vahvistettaessa on otettava huomioon tietosuojan ja virallisen tilaston vaatimukset.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="37 §">
+            <saa:PykalaTunnusKooste>37 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kiinteistörekisterin pitäjä</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Mitä tässä asetuksessa säädetään kiinteistörekisterin pitäjästä, koskee myös maarekisterin ja tonttikirjan pitäjää.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="9 luku">
+          <saa:LukuTunnusKooste>9 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Voimaantulo- ja siirtymäsäännökset</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="38 §">
+            <saa:PykalaTunnusKooste>38 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Voimaantulosäännös</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Tämä asetus tulee voimaan 1 päivänä marraskuuta 1993.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Tällä asetuksella kumotaan kielilain soveltamisesta henkikirjoituksessa 14 päivänä joulukuuta 1946 annettu asetus (857/46).</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Ennen tämän asetuksen voimaantuloa voidaan ryhtyä sen täytäntöönpanon edellyttämiin toimenpiteisiin.</saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+      </saa:Pykalisto>
+    </saa:Saados>
+  </saa:SaadosOsa>
+  <asi:AllekirjoitusOsa>
+    <asi:PaivaysKooste>Helsingissä 22 päivänä lokakuuta 1993</asi:PaivaysKooste>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Tasavallan Presidentti </org1:AsemaTeksti>
+        <org1:SukuNimi>MAUNO KOIVISTO</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Ministeri </org1:AsemaTeksti>
+        <org1:SukuNimi>Pirjo Rusanen</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+  </asi:AllekirjoitusOsa>
+</vah:VahvistettavaLaki>
