@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+  <asi:IdentifiointiOsa>
+    <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
+    <asi:EduskuntaTunniste>
+      <met1:AsiakirjatyyppiKoodi>SDK</met1:AsiakirjatyyppiKoodi>
+      <asi1:AsiakirjaNroTeksti>886</asi1:AsiakirjaNroTeksti>
+      <asi1:ValtiopaivavuosiTeksti>1993 </asi1:ValtiopaivavuosiTeksti>
+    </asi:EduskuntaTunniste>
+    <met:Nimeke>
+      <met1:NimekeTeksti>Befolkningsdataförordning</met1:NimekeTeksti>
+    </met:Nimeke>
+  </asi:IdentifiointiOsa>
+  <saa:SaadosOsa>
+    <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Asetus">
+      <saa:SaadosNimeke>
+        <saa:SaadostyyppiKooste>Befolkningsdataförordning</saa:SaadostyyppiKooste>
+      </saa:SaadosNimeke>
+      <saa:Johtolause>
+        <saa:SaadosKappaleKooste>På föredragning av inrikesministern stadgas med stöd av befolkningsdatalagen av den 11 juni 1993 (507/93): </saa:SaadosKappaleKooste>
+      </saa:Johtolause>
+      <saa:Pykalisto>
+        <saa:Luku saa1:identifiointiTunnus="1 kap.">
+          <saa:LukuTunnusKooste>1 kap. </saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Personuppgifter </saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
+            <saa:PykalaTunnusKooste>1 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Personbeteckning </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Registerbyråerna skall ge var och en som upptas i befolkningsdatasystemet en personbeteckning i samband med den första registreringen.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
+            <saa:PykalaTunnusKooste>2 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Bestämmande av personbeteckningen </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Personbeteckningen består av födelsetid, individuellt nummer och kontrollbeteckning, i nämnd ordning.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Födelsetiden betecknas med sex siffror, av vilka den första och den andra anger dagen, den tredje och den fjärde månaden, den femte årtiondet och den sjätte året. Efter födelsetiden finns ett bindestreck (-) för dem som är födda på 1900-talet och ett plustecken (+) för dem som är födda på 1800-talet.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Personer som har samma födelsetid skiljs från varandra med individuellt nummer. Det individuella numret fastställs som ett tresiffrigt tal, som är udda för män och jämnt för kvinnor.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kontrollbeteckningen utgörs av en siffra eller en bokstav. Den fås genom att det niosiffriga tal som bildas av födelsetiden och det individuella numret divideras med 31, varvid kontrollbeteckningen bestäms i enlighet med resten på följande sätt: </saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="1" colname="1" colwidth=""/>
+                <tau:colspec colnum="2" colname="2" colwidth=""/>
+                <tau:tbody valign="top">
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Rest 	</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Kontrollbeteckning </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>0 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0 </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>1 </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>2 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2 </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>3 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3 </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>10 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>A </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>11 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>B </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>12 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>C </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>13 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>D </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>14 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>E </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>F </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>16 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>H </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>17 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>J </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>18 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>K </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>19 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>L </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>20 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>M </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>21 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>N </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>22 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>P </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>23 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>R </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>24 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>S </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>25 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>T </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>26 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>U </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>27 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>V </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>28 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>W </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>29 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>X </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>30 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Y</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
+            <saa:PykalaTunnusKooste>3 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Ändring av personbeteckningen </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Är personbeteckningen oriktig, skall registerbyrån utan dröjsmål ge personen i fråga en ny personbeteckning. En personbeteckning som visat sig vara oriktig får inte ges någon annan. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
+            <saa:PykalaTunnusKooste>4 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Uppgifter om finska medborgare </saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Om finska medborgare registreras i befolkningsdatasystemet förutom personbeteckningen</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) namn,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) hemkommun och de uppgifter som behövs för identifiering av den,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) adress och övriga uppgifter som behövs för identifiering av hemorten samt adressen utomlands för en person som flyttat från Finland och uppgift om vistelsen är stadigvarande eller tillfällig,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) födelsehemkommun eller, av särskilda skäl, födelseort,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+5) föräldrarnas namn och personbeteckningar eller födelsetider,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+6) civilstånd samt uppgifter om ingående och upplösning av äktenskap,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+7) familjerättslig ställning,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+8) makes namn och personbeteckning eller födelsetid,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+9) barnens namn och personbeteckningar eller födelsetider,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+10) uppgifter om vårdnad om minderårig,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+11) medborgarskap,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+12) uppgifter om förmynderskap,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+13) dödstid,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+14) modersmål,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+15) yrke, om personen har uppgett detta,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+16) sådana begränsningar gällande utlämnandet av uppgifter som getts med stöd av personregisterlagen (471/87) och befolkningsdatalagen (507/93),
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+17) uppgifter om att en person omhändertagits av socialnämnden,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+18) uppgifter som är nödvändiga för uppgörande av de vallängder som behövs vid val av republikens president och riksdagsmännen samt vid kommunala och kyrkliga val och rådgivande folkomröstningar,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+19) för prövning av hinder mot äktenskap och för vigsel, uppgifter om medlemskap i kyrkosamfund eller registrerat religionssamfund,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+20) uppgifter om en persons lokala registermyndighet, samt
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+21) sådana inskrivningsanteckningar som är nödvändiga för upprätthållandet av befolkningsuppgifterna.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Om en sådan familjemedlem till en finsk medborgare som inte upptagits i befolkningsdatasystemet kan dessutom registreras adressen och dödstiden, om det är nödvändigt på grund av en internationell konvention som är bindande för Finland eller av något annat särskilt skäl och om det finns en tillförlitlig utredning om uppgifterna.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>I befolkningsdatasystemet kan också göras sådana kundanteckningar som behövs i samband med datatjänster. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
+            <saa:PykalaTunnusKooste>5 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Uppgifter om utlänningar </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Angående en utlänning med hemort i Finland registreras i befolkningsdatasystemet i tillämpliga delar de i 4 § stadgade uppgifter om vilka det finns tillförlitlig utredning.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Angående andra utlänningar som upptas i befolkningsdatasystemet kan registreras sådana i 4 § stadgade uppgifter som behövs på grund av boende eller arbete i Finland, för uppfyllande av förpliktelserna i någon internationell konvention som är bindande för Finland eller av något annat särskilt skäl, om det finns en tillförlitlig utredning om dessa uppgifter. </saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="2 kap.">
+          <saa:LukuTunnusKooste>2 kap. </saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Anmälning och upprätthållande av personuppgifter </saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
+            <saa:PykalaTunnusKooste>6 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Flyttningsanmälan </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>I flyttningsanmälan skall beträffande den som har flyttat antecknas namn, personbeteckning, flyttningsdag, uppgifter om den nya bostaden samt övriga uppgifter som behövs för beslutet om hemort och befolkningsdatasystemet. Uppgifter om familjemedlemmar som flyttat samtidigt kan ges i en gemensam anmälan.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Flyttningsanmälan skall senast den tredje dagen efter flyttningen ges till ägaren eller innehavaren av den byggnad till vilken personen har flyttat eller till dennes företrädare. Om ingen av dem är anträffbar skall anmälan tillställas registerbyrån. Ägaren eller innehavaren av byggnaden eller dennes företrädare skall se till att flyttningsanmälan görs enligt gällande stadganden. Om den anmälningsskyldige trots uppmaning inte gör flyttningsanmälan, skall registerbyrån underrättas om saken.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Om en person flyttar från en bostad och därefter inte har någon stadigvarande bostad, skall han göra flyttningsanmälan till registerbyrån på den ort där han vistas. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
+            <saa:PykalaTunnusKooste>7 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Utflyttningsanmälan </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>I utflyttningsanmälan skall antecknas den utflyttande personens namn, personbeteckning, adress utomlands, orsaken till utflyttningen, den tid vistelsen utomlands varar samt övriga uppgifter som behövs för beslutet om hemort och befolkningsdatasystemet. Uppgifter om familjemedlemmar som flyttar samtidigt kan ges i en gemensam anmälan.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Anmälan skall senast på flyttningsdagen ges till ägaren eller innehavaren av den byggnad från vilken personen flyttar till utlandet eller till dennes företrädare eller till registerbyrån. I utlandet kan anmälan tillställas en finsk beskickning när en tillfällig vistelse utomlands blir stadigvarande. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §">
+            <saa:PykalaTunnusKooste>8 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Inlämnande av flyttnings- och utflyttnings- anmälan till registerbyrån </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Ägaren eller innehavaren av en byggnad eller dennes företrädare skall senast den sjunde dagen efter flyttningen lämna in flyttningsanmälan till den registerbyrå inom vars ämbetsdistrikt personen i fråga har sin nya boningsort.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Ägaren eller innehavaren av en byggnad eller dennes företrädare skall senast den sjunde dagen efter flyttningen lämna in utflyttningsanmälan till den registerbyrå inom vars ämbetsdistrikt personen i fråga senast bodde.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>En finsk beskickning skall utan dröjsmål till befolkningsregistercentralen vidarebefordra en utflyttningsanmälan som tillställts den. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">
+            <saa:PykalaTunnusKooste>9 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Uppgifter om hemorten </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Registerbyrån skall inom tre dagar från det att den erhållit flyttningsanmälan eller utflyttningsanmälan fatta beslut om hemorten eller begära behövliga tilläggsuppgifter samt vid behov informera den registerbyrå inom vars ämbetsdistrikt personen i fråga hade sin tidigare hemort.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Om en person inte har någon bostad i kommunen eller om uppgiften om hans adress inte kan anses tillförlitlig, kan i befolkningsdatasystemet antecknas att hans adress är okänd. </saa:MomenttiKooste>
+            <saa:MomenttiKooste>Beslutet om hemort skall utan dröjsmål delges den tidigare lokala registermyndigheten för personen i fråga. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="10 §">
+            <saa:PykalaTunnusKooste>10 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Registrering av utlänningar </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>En utlänning vars uppgifter registreras i befolkningsdatasystemet skall för registerbyrån förete ett uppehållstillstånd som utfärdats av de finska myndigheterna samt ett resedokument, en födelseattest, ett äktenskapsbetyg eller någon annan tillförlitlig utredning om de för registrering avsedda uppgifterna vilken utfärdats av en behörig myndighet i hans hemland eller vistelselandet. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
+            <saa:PykalaTunnusKooste>11 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Socialnämndens anmälningar </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Socialnämnden skall utan dröjsmål till befolkningsdatasystemet anmäla att ett barn omhändertagits av nämnden och att omhändertagandet upphör. Likaså skall nämnden anmäla de avtal angående vårdnad om barn som den har fastställt. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
+            <saa:PykalaTunnusKooste>12 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kontroll av personuppgifter </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Personuppgifters tillförlitlighet skall i första hand säkerställas genom metoder som inte förutsätter åtgärder från medborgarnas sida.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Uppgifter som inte regelbundet àjourförs eller som av grundad anledning kan antas vara felaktiga eller bristfälliga kan kontrolleras genom förfrågningar som sänds till personerna i fråga. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">
+            <saa:PykalaTunnusKooste>13 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Avförande av uppgifter ur befolkningsdatasystemet </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Upprätthållandet av uppgifter om en utlänning i befolkningsdatasystemet upphör när det inte längre finns någon grund för upprätthållandet.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Uppgifter som avses i 4 § 1 mom. 17 punkten skall utan dröjsmål avföras ur befolkningsdatasystemet när det inte längre finns någon grund för registrering av dem. </saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="3 kap.">
+          <saa:LukuTunnusKooste>3 kap. </saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Fastighetsuppgifter </saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="14 §">
+            <saa:PykalaTunnusKooste>14 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Fastighetsbeteckning </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Varje i befolkningsdatasystemet antecknad fastighet och sådan enhet som avses i fastighetsregisterlagen (392/85) har en fastighetsbeteckning enligt fastighetsregisterlagen. Till beteckningen kan fogas en kontrollbeteckning. Kontrollbeteckningen beräknas med iakttagande i tillämpliga delar av stadgandena i 2 § 4 mom. Befolkningsregistercentralen ger ett kommunnummer. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="15 §">
+            <saa:PykalaTunnusKooste>15 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Fastighetsuppgifter </saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>I befolkningsdatasystemet registreras följande fastighetsuppgifter:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) fastighetsbeteckning samt andra uppgifter som behövs för identifiering av fastigheten,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) ägarens namn och personbeteckning eller affärs- och samfundssignum samt hans hemort och adress, samt
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) förvärvets art och tidpunkten för det samt dagen då lagfarten beviljats. 
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="4 kap.">
+          <saa:LukuTunnusKooste>4 kap. </saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Anmälning och upprätthållande av fastighetsuppgifter </saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="16 §">
+            <saa:PykalaTunnusKooste>16 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Fastighetsmyndighetens anmälningar </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Fastighetsregisterföraren skall utan dröjsmål till befolkningsdatasystemet anmäla nya fastigheter inom sitt ämbetsdistrikt och ändringar som gäller fastigheterna. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="17 §">
+            <saa:PykalaTunnusKooste>17 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Anmälningar om lagfart </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>En domstol skall, om uppgifterna inte tillhandahålls ur det datasystem som justitieministeriet upprätthåller, inom en månad från utgången av varje kvartal till befolkningsdatasystemet anmäla de lagfarter som beviljats under kvartalet.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Av anmälan skall framgå de uppgifter som behövs för identifiering av varje fastighet för vilken lagfart beviljats, namn och personbeteckning eller affärs- och samfundssignum för fastighetens ägare och överlåtare, förvärvets art och tidpunkten för det samt dagen då lagfarten beviljats. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="18 §">
+            <saa:PykalaTunnusKooste>18 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kontroll av fastighetsuppgifter </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Fastighetsuppgifters tillförlitlighet skall säkerställas genom metoder som inte förutsätter åtgärder från medborgarnas sida. </saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="5 kap.">
+          <saa:LukuTunnusKooste>5 kap. </saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Byggnads- och lägenhetsuppgifter </saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="19 §">
+            <saa:PykalaTunnusKooste>19 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Byggnadsbeteckning </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Varje byggnad har en byggnadsbeteckning, som består av fastighetsbeteckningen för den fastighet på vilken byggnaden finns och ett byggnadsnummer. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="20 §">
+            <saa:PykalaTunnusKooste>20 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Byggnader och lägenheter som skall registreras </saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>I befolkningsdatasystemet registreras uppgifter om byggnader för vilka krävs byggnadslov samt om bostadslägenheterna och lokalerna i dem, med undantag av följande byggnader:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) byggnader som i sin helhet används av en främmande stats legation, handelsrepresentation eller konsulat som förestås av en utsänd konsul och separata lägenheter som i sin helhet är i deras besittning,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) andra byggnader i försvarsmaktens och gränsbevakningsväsendets besittning än bostadsbyggnaderna för personalen,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) underjordiska byggnader som huvudsakligen används som lagerutrymmen eller för något annat motsvarande ändamål,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) byggnader avsedda enbart för förvaring av vätskor, samt
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+5) provisoriska byggnader och byggnader av lätt konstruktion. 
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="21 §">
+            <saa:PykalaTunnusKooste>21 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Byggnadsuppgifter </saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Om byggnader registreras i befolkningsdatasystemet</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) uppgifter som behövs för identifiering av en byggnad,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) adress samt det röstningsområde till vilket byggnaden hör,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) ägarens namn, personbeteckning eller affärs- och samfundssignum samt adress,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) ägartyp,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+5) det år då byggnaden färdigställts, byggts om och tagits ur bruk,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+6) huvudsakligt användningsändamål och användningssituationen,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+7) våningsyta och antal våningar,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+8) byggnadsmaterialet i de bärande konstruktionerna, huvudsaklig utrustning och skyddsrum,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+9) huvudsakligt uppvärmningssätt och huvudsaklig energikälla, samt
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+10) anslutningar till områdets vattenlednings-, avlopps-, gas- och elnät.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Om en byggnad kan dessutom registreras namn och adress för företrädaren för dess ägare, offentlig finansiering, volym och total area samt hur denna fördelar sig på olika användningsändamål, om tillförlitlig utredning kan fås om dessa.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>På basis av byggnadslov kan dessutom för högst fem år registreras</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) byggnadsåtgärder,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) arten av ett ändringsarbete,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) dagen för beviljande av byggnadslov, inledande av byggnadsarbete och slutförande av byggnadsprojekt samt den dag då byggnadslovet förfaller,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) det huvudsakliga byggnadssättet för byggnadsstommen,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+5) huvudsaklig byggare, fasadmaterial och planberedskap, samt
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+6) undantagslov.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Om ekonomibyggnader, produktionsbyggnader inom lantbruket och andra med dem jämförbara byggnader registreras i befolkningsdatasystemet dock endast uppgifter som behövs för identifiering av byggnaden, byggnadens användningsändamål och året då den färdigställdes samt dess våningsyta, volym, byggnadsmaterial och byggnadssätt. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="22 §">
+            <saa:PykalaTunnusKooste>22 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Bostadslägenhetsbeteckning </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>En bostadslägenhet som är belägen i en byggnad med flera lägenheter än en har en lägenhetsbeteckning. Den består av byggnadsbeteckningen samt lägenhetens identifieringsbeteckning. Lägenhetens identifieringsbeteckning består av en bokstavsdel och en sifferdel eller någondera. Dessutom kan i lägenhetens identifieringsbeteckning ingå en bokstav som anger delning av lägenheten. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="23 §">
+            <saa:PykalaTunnusKooste>23 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Uppgifter om bostadslägenheter </saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Om bostadslägenheter registreras i befolkningsdatasystemet</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) lägenhetsbeteckning och andra uppgifter som behövs för identifiering av lägenheten,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) antalet rum och typ av kök,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) lägenhetsyta,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) huvudsaklig utrustning, samt
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+5) grund för besittningen och användningssituationen. 
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="24 §">
+            <saa:PykalaTunnusKooste>24 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Uppgifter om lokaler </saa:SaadosOtsikkoKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Om en lokal kan i befolkningsdatasystemet registreras</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) uppgifter som behövs för identifiering av lokalen,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) användningsändamål,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) area, samt
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+4) namn och affärs- och samfundssignum för lokalens innehavare. 
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="25 §">
+            <saa:PykalaTunnusKooste>25 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Uppgifter om förvaltningsområden </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>I befolkningsdatasystemet skall finnas en kommunindelning, kameral indelning, indelning i röstningsområden, indelning i församlingar och annan med dessa jämförbar behövlig områdesindelning. </saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="6 kap.">
+          <saa:LukuTunnusKooste>6 kap. </saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Anmälning och upprätthållande av byggnads- och lägenhetsuppgifter </saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="26 §">
+            <saa:PykalaTunnusKooste>26 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Fastighetsmyndighetens anmälningar </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Fastighetsregisterföraren eller en myndighet som kommunen har bestämt skall till befolkningsdatasystemet anmäla nya byggnadsbeteckningar och ändringar i byggnadsbeteckningar.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Registerbyrån skall tillhandahålla de uppgifter som behövs för att byggnadsbeteckningen skall kunna ges, om dessa inte kan fås direkt ur befolkningsdatasystemet. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="27 §">
+            <saa:PykalaTunnusKooste>27 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Anmälningar som gäller byggnadslov och byggnadsverksamhet </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Kommunen skall i fråga om beviljade byggnadslov utan dröjsmål till befolkningsdatasystemet anmäla de uppgifter som nämns i 21-23 §§ och som kommunen härvid har kännedom om.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Befolkningsregistercentralen skall utan dröjsmål till statistikcentralen lämna ut sådana uppgifter om byggnadslov och byggnadsverksamhet som den officiella statistiken förutsätter. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="28 §">
+            <saa:PykalaTunnusKooste>28 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kontroll av byggnads- och lägenhetsuppgifter </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Tillförlitligheten hos uppgifterna skall i första hand säkerställas genom metoder som inte förutsätter åtgärder från medborgarnas sida.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Uppgifter som inte regelbundet àjourförs eller som av grundad anledning kan antas vara felaktiga eller bristfälliga kan kontrolleras hos byggnadens ägare eller genom förfrågningar som sänds till lägenheterna. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="29 §">
+            <saa:PykalaTunnusKooste>29 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Anmälningar som görs av byggnaders ägare och lägenhetsinnehavare </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Ägaren av en byggnad eller dennes företrädare skall för kontroll av byggnads- och lägenhetsuppgifter ge sådana uppgifter som nämns i 21 och 22 §§ och innehavaren eller ägaren av en lägenhet sådana uppgifter som nämns i 23 och 24 §§. Fås sådana uppgifter som nämns i 23 och 24 §§ inte av innehavaren eller ägaren av en lägenhet, är byggnadens ägare eller dennes företrädare skyldig att ge dem.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Fås uppgifter inte på det sätt som avses i 1 mom., skall kommunen ge uppgifterna, om de ingår i det informationsmaterial som finns i kommunens besittning, eller annars bistå vid anskaffningen av uppgifterna. </saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="7 kap.">
+          <saa:LukuTunnusKooste>7 kap. </saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Vissa stadganden om utlämnandet av uppgifter </saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="30 §">
+            <saa:PykalaTunnusKooste>30 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Tillhandahållande av handlingar </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>I ett intyg antecknas dess användningsändamål och behövliga uppgifter, med de begränsningar som stadgas i 25-27 §§ befolkningsdatalagen.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>En person skall i intyget identifieras med hjälp av personbeteckning, födelsetid eller andra motsvarande uppgifter.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>I ett intyg antecknas en persons tidigare släkt- och förnamn endast på begäran av den som anhåller om intyget. Har en persons namn ändrats efter att han fyllt 15 år, skall tidigare namn dock alltid antecknas i intyg som utfärdas</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
+1) för att företes vid domstol för rättegång eller behandling av ett ansökningsärende,
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+2) för social-, utsöknings-, åklagar-, polis- eller militärmyndighet, eller
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+3) för en enskild person för anskaffande av straffregisterutdrag.
+</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Tidigare namn skall alltid antecknas i ett intyg som utfärdas för att fogas till en ansökan om ändring av namn.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>En handling som ges ur befolkningsdatasystemet kan undertecknas maskinellt. Ett omnämnande om detta skall finnas i handlingen. I ett intyg får inte finnas rättelser eller förkortningar som kan föranleda oklarhet. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="31 §">
+            <saa:PykalaTunnusKooste>31 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Studerande av uppgifter </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Statliga och kommunala myndigheter, samfund som sköter lagstadgade uppgifter och personer som bedriver vetenskaplig forskning eller släktforskning eller avlägger lärdomsprov kan beviljas tillstånd att under registermyndighetens övervakning studera uppgifter i befolkningsdatasystemet och handlingar i anslutning till dem. Härvid skall beaktas vad som stadgas i 24-27 §§ befolkningsdatalagen. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="32 §">
+            <saa:PykalaTunnusKooste>32 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Användning av byggnadsuppgifter som grund för stickprov </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>När uppgifter lämnas ut i form av massutlämnande för direktreklam eller annan direkt marknadsföring, opinions- och marknadsundersökningar, adresstjänst samt därmed jämförbar verksamhet får som grund för stickprov, vid sidan av de uppgifter som stadgas i 27 § 2 mom. befolkningsdatalagen, användas byggnadslov, byggnadens läge, användningsändamål, året då byggnaden färdigställdes, våningsyta och antal våningar, huvudsakligt uppvärmningssätt och huvudsaklig energikälla samt anslutningar till områdets vattenlednings-, avlopps-, gas- och elnät. </saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="8 kap.">
+          <saa:LukuTunnusKooste>8 kap. </saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Särskilda stadganden </saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="33 §">
+            <saa:PykalaTunnusKooste>33 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Anmälan om vårdnadshavares dödsfall </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Registerbyrån skall utan dröjsmål till socialnämnden anmäla att ett barn på grund av vårdnadshavarens död har blivit utan vårdnadshavare. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="34 §">
+            <saa:PykalaTunnusKooste>34 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Kyrklig myndighets behörighet </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Behörigheten för den evangelisk-lutherska kyrkans och ortodoxa kyrkosamfundets myndigheter vid folkbokföringen bestäms enligt en persons hemort och motsvarande församling.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Kyrkostyrelsen kan dock bestämma om grunder enligt vilka en person som hör till den evangelisk-lutherska kyrkan får vara medlem i någon annan församling i sin hemkommun än den inom vars område han bor. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="35 §">
+            <saa:PykalaTunnusKooste>35 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Församlingarnas anmälningar </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>En församling skall utan dröjsmål till befolkningsdatasystemet anmäla en uppgift som hör till detta och som har anmälts till församlingen. Sedan en församling har underrättats om att en församlingsmedlem har flyttat, skall den inom tre dagar i sitt register göra en anteckning om personens nya församling och tidpunkten för flyttningen samt tillställa denna församling handlingarna.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>När en person utträder ur den evangelisk-lutherska kyrkan eller ortodoxa kyrkosamfundet skall de befolkningsuppgifter som gäller honom anmälas till den registerbyrå inom vars ämbetsdistrikt han bor.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>När en person inträder i den evangelisk-lutherska kyrkan eller i ortodoxa kyrkosamfundet skall de handlingar som gäller honom tillställas den som enligt 34 § för det kyrkliga befolkningsregistret. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="36 §">
+            <saa:PykalaTunnusKooste>36 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Fastställande av blanketter </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Befolkningsregistercentralen fastställer formuläret för de blanketter som denna förordning förutsätter, om inte något annat stadgas särskilt.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>När formuläret för blanketterna fastställs skall de krav som datasekretessen och den officiella statistiken ställer beaktas. </saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="37 §">
+            <saa:PykalaTunnusKooste>37 § </saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Fastighetsregisterförare </saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Vad som i denna förordning stadgas om fastighetsregisterförare gäller också jordregisterförare och tomtbokförare. </saa:MomenttiKooste>
+          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="9 kap.">
+          <saa:LukuTunnusKooste>9 kap. </saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Ikraftträdelse- och övergångsstadganden </saa:SaadosOtsikkoKooste>
+        </saa:Luku>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="38 §">
+          <saa:PykalaTunnusKooste>38 § </saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Ikraftträdelsestadgande </saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Denna förordning träder i kraft den 1 november 1993.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Genom denna förordning upphävs förordningen den 14 december 1946 angående språklagens tillämpning vid mantalsskrivningen (857/46).</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Åtgärder som verkställigheten av förordningen förutsätter får vidtas innan den träder i kraft. </saa:MomenttiKooste>
+        </saa:Pykala>
+      </saa:Pykalisto>
+    </saa:Saados>
+  </saa:SaadosOsa>
+  <asi:AllekirjoitusOsa>
+    <asi:PaivaysKooste>Helsingfors den 22 oktober 1993</asi:PaivaysKooste>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Republikens President </org1:AsemaTeksti>
+        <org1:SukuNimi>MAUNO KOIVISTO</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Minister </org1:AsemaTeksti>
+        <org1:SukuNimi>Pirjo Rusanen</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+  </asi:AllekirjoitusOsa>
+</vah:VahvistettavaLaki>
