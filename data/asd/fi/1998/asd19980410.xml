@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1998-06-17" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+  <asi:IdentifiointiOsa>
+    <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
+    <asi:EduskuntaTunniste>
+      <met1:AsiakirjatyyppiKoodi>SDK</met1:AsiakirjatyyppiKoodi>
+      <asi1:AsiakirjaNroTeksti>410</asi1:AsiakirjaNroTeksti>
+      <asi1:ValtiopaivavuosiTeksti>1998</asi1:ValtiopaivavuosiTeksti>
+    </asi:EduskuntaTunniste>
+    <met:Nimeke>
+      <met1:NimekeTeksti>Ilmailulaitoksen viranomaissuoritteiden maksullisuudesta</met1:NimekeTeksti>
+    </met:Nimeke>
+  </asi:IdentifiointiOsa>
+  <saa:SaadosOsa>
+    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
+      <saa:SaadosNimeke>
+        <saa:SaadostyyppiKooste>Liikenneministeriön päätös</saa:SaadostyyppiKooste>
+        <saa:SaadosNimekeKooste>Ilmailulaitoksen viranomaissuoritteiden maksullisuudesta</saa:SaadosNimekeKooste>
+      </saa:SaadosNimeke>
+      <saa:Johtolause>
+        <saa:SaadosKappaleKooste>Liikenneministeriö on päättänyt Ilmailulaitoksesta 14 päivänä joulukuuta 1990 annetun asetuksen (1124/1990) 5 §:n nojalla, sellaisena kuin se on asetuksessa 407/1994:</saa:SaadosKappaleKooste>
+      </saa:Johtolause>
+      <saa:Pykalisto>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
+          <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Soveltamisala</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ilmailulaitoksen viranomaissuoritteista peritään Ilmailulaitokselle tämän päätöksen mukaiset maksut.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
+          <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Lentokelpoisuuden valvonta ja tarkastuslennot</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ilma-alusten lentokelpoisuuden valvonnasta peritään lentokelpoisuuden valvontamaksuja, ensikatsastusmaksuja sekä kustannusten korvauksia siten kuin 3, 4 ja 6 §:ssä säädetään. Tarkastuslennoista peritään maksuja ja kustannusten korvauksia siten kuin 5 ja 6 §:ssä säädetään.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
+          <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Lentokelpoisuuden valvonta</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ilma-aluksen lentokelpoisuuden valvonnasta peritään maksu kalenterivuodelta. Valvontamaksun suuruus määräytyy ilma-aluksen suurimman sallitun lentoonlähtömassan mukaan seuraavasti:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+              <tau:colspec colnum="1" colname="1" colwidth=""/>
+              <tau:colspec colnum="2" colname="2" colwidth=""/>
+              <tau:tbody valign="top">
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Suurin sallittu lentoonlähtömassa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Maksu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> enintään 500 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 150 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> 501 kg ― 700 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 200 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> 701 kg ― 900 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 300 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> 901 kg ― 1 100 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 400 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> 1 101 kg ― 1 300 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 600 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> 1 301 kg ― 1 500 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 700 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> 1 501 kg ― 2 000 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 800 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> 2 001 kg ― 3 000 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 1 300 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> 3 001 kg ― 5 700 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 2 200 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> 5 701 kg ― 10 000 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 3 250 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 001 kg ― 20 000 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 5 450 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> yli 20 000 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 6 550 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
+          <saa:MomenttiKooste>Sen lisäksi, mitä 1 momentissa säädetään, peritään 650 markkaa jokaiselta alkavalta 10 000 kilolta, jolla suurin sallittu lentoonlähtömassa ylittää 30 000 kiloa.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
+          <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Ensikatsastus</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Edellä 3 §:ssä tarkoitetun lentokelpoisuuden valvontamaksun lisäksi ilma-aluksen ensikatsastuksesta peritään kertamaksu. Maksun suuruus määräytyy 3 §:n mukaan.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
+          <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Tarkastuslennot</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ilmailulaitoksen tarkastuslentäjän suorittamasta tarkastuslennosta, joka on ilmailulupakirjan tai kelpuutuksen myöntämisen tai uudistamisen edellytyksenä, peritään maksu tarkastuskerralta seuraavasti:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+              <tau:colspec colnum="1" colname="1" colwidth=""/>
+              <tau:colspec colnum="2" colname="2" colwidth=""/>
+              <tau:tbody valign="top">
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1) ansio- ja liikennelentäjän lupa-kirjaan ja kelpuutuksiin liittyvä tarkastuslento </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>870 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2) yksityislentäjän lupakirjaan ja kelpuutuksiin liittyvä tarkastus-lento </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>770 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
+          <saa:MomenttiKooste>Milloin tarkastuslentäjä ottaa samalla tarkastuskerralla vastaan kahden tai useamman eri lupakirjan tai kelpuutuksen myöntämiseen tai uudistamiseen liittyvän suorituksen, peritään maksu tarkastuskerralta puolitoistakertaisena.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Milloin tarkastuslentäjä on hylännyt tarkastuslentoon kuuluvan lentosuorituksen tai teoriaosan, hylätyn osasuorituksen uusinnasta peritään puolet 1 momentissa tarkoitetusta maksusta.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
+          <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Eräiden kustannusten korvaaminen</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ulkomailla tapahtuvasta katsastuksesta ja tarkastuslennosta peritään hakijalta Ilmailulaitokselle aiheutuneina kustannuksina katsastajalle ja tarkastuslentäjälle maksetut matkustamiskustannukset, päivärahat ja majoittumiskorvaukset.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Milloin kysymyksessä on uuden ilma-alustyypin maahantuonti tai käyttöönotto, Ilmailulaitos perii katsastajan ja tarkastuslentäjän tyyppikoulutuksesta aiheutuneet kustannukset. Tyyppikoulutuksesta aiheutuneita kustannuksia ovat katsastajien ja tarkastuslentäjien matkustamiskustannukset, päivärahat ja majoittumiskorvaukset sekä koulutuksen antajan koulutuksesta mahdollisesti perimät erilliskorvaukset.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
+          <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Lupakirjat ja kelpuutukset</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ilmailulaitoksen myöntämästä lupakirjasta ja kelpuutuksesta peritään maksu seuraavasti:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+              <tau:colspec colnum="1" colname="1" colwidth=""/>
+              <tau:colspec colnum="2" colname="2" colwidth=""/>
+              <tau:tbody valign="top">
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1) ansio- ja liikennelentäjän lupa-kirja kelpuutuksineen </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>660 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2) muu lupakirja kelpuutuksineen </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>440 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3) lupakirjan uudistaminen sekä kelpuutusten ja mahdollisten muutosten merkitseminen lupa-kirjaan uudistamisesta erillisenä toimenpiteenä </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>220 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4) ilmailun rajoitetun radiopuheli-menhoitajan kelpuutuksen myöntäminen muuten kuin 1―3 kohdassa tarkoitettuna lupakirjaan liittyvänä kelpuutuksena </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>220 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5) ulkomaisen lupakirjan hyväk-syminen (validation) </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>220 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §">
+          <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Koulutusluvat</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ilmailulaitoksen myöntämästä koulutusluvasta peritään maksu seuraavasti:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+              <tau:colspec colnum="1" colname="1" colwidth=""/>
+              <tau:colspec colnum="2" colname="2" colwidth=""/>
+              <tau:tbody valign="top">
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1) koulutus ansio- tai liikenne-lentäjäksi, huoltomekaanikoksi, lennonjohtajaksi tai lennontiedottajaksi </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2) koulutus IFR-kelpuutuksen myöntämiseksi </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3) muu koulutuslupa </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">
+          <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Lentotoimintaa koskevat luvat</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ilmailulaitoksen myöntämästä lentotoimintaa koskevasta luvasta peritään maksu seuraavasti:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+              <tau:colspec colnum="1" colname="1" colwidth=""/>
+              <tau:colspec colnum="2" colname="2" colwidth=""/>
+              <tau:tbody valign="top">
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1) liikennelupa ilma-aluksilla, joiden suurin sallittu lentoonlähtömassa ja/tai matkustajapaikkojen lukumäärä on: </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a) enintään 10 000 kg ja mat-kustajapaikkojen lukumäärä enintään 19 </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) yli 10 000 kg tai matkusta-japaikkojen lukumäärä vähintään 20 </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2) JAR-OPS ansiolentolupa ansiolentoyritykselle, jolla on käytössään enintään 10 ilma-alusta: </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a) yksimoottorisilla ilma-aluk-silla </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 6 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) monimoottorisilla ilma-aluksilla, joiden suurin sallittu lentoonlähtömassa on enintään 10 000 kg ja mat-kustajapaikkojen lukumäärä enintään 19 </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>c) monimoottorisilla ilma-aluk-silla, joiden suurin sallittu lentoonlähtömassa on yli 10 000 kg tai matkustaja-paikkojen lukumäärä vähintään 20 </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3) muu ansiolentolupa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a) säännöllinen lentoliikenne </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>22 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) muu ansiolentotoiminta monimoottorisilla ilma-aluksilla, joiden suurin sallittu lentoonlähtömassa on: enintään 5 700 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 5 700 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> yli 5 700 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>16 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>c) ansiolentotoiminta yksimoottorisilla ilma-aluksilla, ilmalaivoilla ja kuumailmapalloilla sekä ilma-alusten vuokraustoiminta </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 3 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4) lupa erityistyölentoihin </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 1 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
+          <saa:MomenttiKooste>Jos 1 momentin 2 kohdassa tarkoitetun JAR-OPS:n mukaisen ansiolentoyrityksen käytössä on 11―50 ilma-alusta, peritään kyseisen kohdan mukainen maksu kaksinkertaisena, ja jos ansiolentoyrityksen käytössä on yli 50 ilma-alusta, peritään maksu nelinkertaisena.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="10 §">
+          <saa:PykalaTunnusKooste>10 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Huolto-, tuotanto- ja suunnittelutoimintaa koskevat luvat</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ilmailulaitoksen myöntämästä huolto-, tuotanto- ja suunnittelutoimintaa koskevasta luvasta peritään maksu seuraavasti:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+              <tau:colspec colnum="1" colname="1" colwidth=""/>
+              <tau:colspec colnum="2" colname="2" colwidth=""/>
+              <tau:tbody valign="top">
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1) JAR-145 toimilupa huolto-organisaatiolle, jolla on teknillistä henkilökuntaa enintään 10: </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a) huollot (A-oikeudet) ilma-aluksille, joiden suurin sallittu lentoonlähtömassa on: enintään 10 000 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 400 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> yli 10 000 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20 800 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) huollot (B-oikeudet) turbiinimoottoreille tai apuvoi-malaitteille </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20 800 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>c) huollot (B- tai C-oikeudet) muille kuin b alakohdassa tarkoitetuille moottoreille tai laitteille </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 5 200 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>d) erikoistyöt (D-oikeudet) </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 5 200 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2) JAR-21 toimilupa tai hyväksyntä valmistus- tai tuotanto-organisaatiolle, jolla on teknillistä henkilökuntaa enintään 10: </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a) alaosan F mukainen hyväk-syntä </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) alaosan G mukainen toimi-lupa </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>30 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3) JAR-21 alaosien JA tai JB mukainen toimilupa suunnit-teluorganisaatiolle, jolla on teknillistä suunnittelua var-ten henkilökuntaa enintään 10 </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4) muu kuin 2 tai 3 kohdassa tarkoitettu lupa tai hyväk-syntä valmistus-, tuotanto- tai suunnitteluorganisaatiolle </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5) ilmailuvälinekorjaamon toi-milupa </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a) huollot ilma-aluksille, joiden suurin sallittu lentoonlähtö-massa on: enintään 10 000 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>16 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste> yli 10 000 kg </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>33 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) muu korjaamolupa </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 3 300 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>6) huoltoyrityksen toimilupa </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 2 200 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>7) lupa lentokoneen tai heli-kopterin yksittäiseen huol-totoimenpiteeseen </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 550 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
+          <saa:MomenttiKooste>Jos 1 momentin 1―3 kohdassa tarkoitetulla organisaatiolla on teknillistä henkilökuntaa 11―100, peritään kyseisen kohdan mukainen maksu kaksinkertaisena, ja jos teknillistä henkilökuntaa on yli 100, peritään maksu nelinkertaisena.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Jos 1 momentin 1 kohdassa tarkoitetulle huolto-organisaatiolle myönnetyt oikeudet on rajoitettu vain linjahuoltotoimintaan tai ilmalaivojen huoltoihin, peritään luvasta maksu, joka on puolet 1 kohdan a alakohdan mukaisesta tai 2 momentin nojalla määräytyvästä maksusta.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
+          <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Erityiset säännökset luvista perittävistä maksuista</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Milloin 8―10 §:ssä tarkoitettu lupa tai hyväksyntä myönnetään vuotta pidemmäksi ajaksi, luvasta tai hyväksynnästä peritään sen ensimmäisen voimassaolovuoden jälkeen vuosittain 8―10 §:ssä mainitun suuruinen maksu.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Milloin 8―10 §:ssä tarkoitettu lupa tai hyväksyntä myönnetään vuotta lyhyemmäksi ajaksi, luvasta tai hyväksynnästä perittävä maksu hyvitetään uuden luvan tai hyväksynnän myöntämisen yhteydessä niin monelta täydeltä kuukaudelta kuin ensiksi myönnetyn luvan tai hyväksynnän voimassaolokuukausien määrä jää alle yhden vuoden.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Milloin lupa sisältää oikeuden useampaan kuin yhteen 8―10 §:n kunkin kohdan alakohdassa tarkoitettuun toimintaan, luvasta peritään maksu yksittäisestä toiminnasta määrättävän suurimman maksun mukaan. Kustakin luvasta peritään eri maksu.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
+          <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Ulkomailla tapahtuva lupaa koskevan toiminnan tarkastus</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ulkomailla tapahtuvasta 8―10 §:ssä tarkoitetun luvan myöntämiseen, voimassaoloon tai uudistamiseen liittyvästä tarkastuksesta peritään luvan haltijalta tai hakijalta kustannusten korvauksena matkustamiskustannukset, päivärahat ja majoittumiskustannukset.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">
+          <saa:PykalaTunnusKooste>13 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Luvan muuttaminen</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Edellä 8―10 §:ssä tarkoitetun luvan tai sen liitteiden muuttamisesta peritään 350 markan maksu lukuun ottamatta tapauksia, joissa luvasta tai sen liitteistä poistetaan ilma-alusta, henkilöä tai toimintamuotoa koskevat tiedot. Jos 8―10 §:n kunkin kohdan alakohdassa tarkoitettu lupa muutetaan sen voimassaoloaikaa pidentämättä sellaiseksi saman kohdan alakohdassa tarkoitetuksi luvaksi, josta perittävä maksu on suurempi, peritään muutoksesta kuitenkin voimassa olevien maksujen erotus.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="14 §">
+          <saa:PykalaTunnusKooste>14 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Ilma-alusrekisterin pitoon liittyvät suoritteet</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ilma-alusrekisterin pitoon liittyvästä suoritteesta peritään maksu seuraavasti:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+              <tau:colspec colnum="1" colname="1" colwidth=""/>
+              <tau:colspec colnum="2" colname="2" colwidth=""/>
+              <tau:tbody valign="top">
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1) rekisteröimistodistus </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>340 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2) rekisteröimistodistus omistajan nimenmuutoksen vuoksi </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>120 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3) väliaikainen rekisteröimistodistus </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>120 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4) kiinnityksen vahvistaminen </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>220 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5) kiinnityksen uudistaminen ja kuolettaminen </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>120 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>6) rasitustodistus tai muu rekisteritietoja koskeva todistus </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>120 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>7) ote rekisteristä </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 60 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>8) henkilötietojen tarkistaminen väestörekisteristä </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste> 30 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="15 §">
+          <saa:PykalaTunnusKooste>15 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Lennonvarmistuslaitteiden toiminnan tarkastukset</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Lennonvarmistuslaitteiden toiminnan tarkastuksesta peritään maksu seuraavasti:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+              <tau:colspec colnum="1" colname="1" colwidth=""/>
+              <tau:colspec colnum="2" colname="2" colwidth=""/>
+              <tau:tbody valign="top">
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1) CAT I ILS-järjestelmän käyttöönottotarkastus </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>31 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2) CAT I ILS-järjestelmän kau-sitarkastus </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>61 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3) VOR- tai VOR/DME-järjes-telmän käyttöönottotarkastus </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>31 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4) VOR- tai VOR/DME-järjes-telmän kausitarkastus </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>13 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
+          <saa:MomenttiKooste>Edellä 1 momentissa tarkoitettu kausitarkastuksesta perittävä maksu kattaa kaikki kausitarkastukset, jotka tehdään vuoden pituisen tarkastuskauden aikana samaan lennonvarmistusjärjestelmään kuuluville laitteille.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="16 §">
+          <saa:PykalaTunnusKooste>16 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Eräät suoritteet</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ilma-alusten tyyppi- tai muutostyöhyväksyntään taikka ilmailuvälineiden valmistukseen liittyvästä valvonta- ja tarkastustoiminnasta peritään suoritteen tuottamisesta aiheutuneet välittömät työ- ja välinekustannukset, matkustamiskustannukset, päivärahat ja majoittumiskorvaukset sekä mahdolliset muut välittömät kustannukset. Suoritteesta perittävän maksun vähimmäismäärä on kuitenkin 550 markkaa.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Ilmailulaitos voi ilmailun edistämisen tarkoituksessa jättää harrasteilmailun osalta kokonaan tai osaksi perimättä 1 momentissa määrätyt maksut.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="17 §">
+          <saa:PykalaTunnusKooste>17 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Maksujen määräytyminen ja suoritustavat</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Tässä päätöksessä tarkoitetun valvonta- ja tarkastustoiminnan maksut ja kustannusten korvaukset peritään riippumatta valvonnan tai tarkastuksen lopputuloksesta.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Lentokelpoisuuden valvontamaksu peritään suomalaisesta ilma-aluksesta sekä sellaisesta ulkomaisesta ilma-aluksesta, jonka valvontavastuu on siirretty Ilmailulaitokselle ja joka on hyväksytty käytettäväksi suomalaisen ansiolentoluvan mukaisessa toiminnassa.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Lentokelpoisuuden valvontamaksu peritään kalenterivuosittain siltä, joka tammikuun 1 päivänä on ilma-aluksen omistaja, haltija tai käyttäjä. Jos ilma-alus hyväksytään käyttöön kalenterivuoden aikana, ensimmäisenä valvontamaksuna peritään 1/12 osa 3 §:ssä tarkoitetusta maksusta kerrottuna hyväksymistä seuraavien täysien kuukausien lukumäärällä. Jos 2 momentissa mainittu ulkomainen ilma-alus on suomalaisen ansiolentoluvan mukaisessa lentotoiminnassa enintään kuusi kuukautta, peritään lentokelpoisuuden valvontamaksuna puolet 3 §:ssä tarkoitetusta maksusta.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Ilmailulaitos määrää maksujen tarkemmasta suoritustavasta. Ilmailulaitos voi periä ennakko- ja osamaksuja sekä vaatia maksun suorittamisesta vakuuden. Ilmailulaitos voi sopia tämän päätöksen mukaisten maksujen perimisestä vuosittain kertakorvauksena.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="18 §">
+          <saa:PykalaTunnusKooste>18 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Maksusta vapauttaminen</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Edellä 3 §:ssä tarkoitettuja maksuja ei peritä yksinomaan yksityislentotoiminnassa käytettävistä purje- ja moottoripurjelentokoneista, ultrakevyistä lentokoneista, kuumailmapalloista ja harrasterakenteisista ilma-aluksista. Maksua ei myöskään peritä 10 §:n 1 momentin 7 kohdassa tarkoitetusta luvasta silloin, kun lupa myönnetään erillisenä lupana yksittäisen vuositarkastuksen suorittamiseen yksinomaan yksityislentotoiminnassa käytettävälle ilma-alukselle.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Ilmailulaitos voi hakemuksesta vapauttaa ilma-aluksen omistajan, haltijan tai käyttäjän lentokelpoisuuden valvontamaksusta, jos ilma-alusta ei koko kalenterivuoden aikana käytetä tai ole käytetty lentotoimintaan. Hakemus jo maksetusta lentokelpoisuuden valvontamaksusta vapauttamiseksi on jätettävä Ilmailulaitokselle viimeistään kolmen kuukauden kuluessa sen kalenterivuoden päättymisestä, jona maksu on maksettu.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="19 §">
+          <saa:PykalaTunnusKooste>19 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Viivästyskorko sekä käsittely- ja perintälisä</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Milloin Ilmailulaitoksen viranomaissuoritteesta peritään maksu laskulla ja laskunsaaja ei suorita maksua eräpäivänä, peritään korkolain (633/1982) mukainen viivästyskorko.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Ilmailulaitos perii jokaisesta samaa asiaa koskevasta maksukehotuksesta 100 markan käsittely- ja perintälisän.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="20 §">
+          <saa:PykalaTunnusKooste>20 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Maksujen periminen ulosottoteitse</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Tässä päätöksessä tarkoitettujen maksujen perimisestä ulosottoteitse säädetään Ilmailulaitoksesta annetun asetuksen (1124/1990) 12 §:ssä.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="21 §">
+          <saa:PykalaTunnusKooste>21 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Tarkemmat määräykset ja ohjeet</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Ilmailulaitos antaa tarvittaessa tarkempia määräyksiä ja ohjeita tämän päätöksen soveltamisesta.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="22 §">
+          <saa:PykalaTunnusKooste>22 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Voimaantulo</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Tämä päätös tulee voimaan 22 päivänä kesäkuuta 1998. Päätöksen 3 §:ää ja 18 §:n 1 momenttia sovelletaan kuitenkin 1 päivästä tammikuuta 1998.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Tällä päätöksellä kumotaan Ilmailulaitoksen viranomaissuoritteista perittävistä maksuista 4 päivänä maaliskuuta 1993 annettu valtioneuvoston päätös (243/1993).</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Ennen tämän päätöksen voimaantuloa voidaan ryhtyä päätöksen täytäntöönpanon edellyttämiin toimenpiteisiin.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:identifiointiTunnus="23 §">
+          <saa:PykalaTunnusKooste>23 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Siirtymäsäännös</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Tässä päätöksessä tarkoitetut maksut eivät koske sellaisia määräaikaisia lupia, hyväksyntöjä, lupakirjoja tai kelpuutuksia, jotka on myönnetty ennen tämän päätöksen voimaantuloa, lukuun ottamatta 8―10 §:ssä tarkoitettuja yhtä vuotta pidemmäksi ajaksi myönnettyjä lupia tai hyväksyntöjä, joista peritään 11 §:n 1 momentin mukainen maksu tämän päätöksen voimaantulosta alkaen.</saa:MomenttiKooste>
+        </saa:Pykala>
+      </saa:Pykalisto>
+    </saa:Saados>
+  </saa:SaadosOsa>
+  <asi:AllekirjoitusOsa>
+    <asi:PaivaysKooste>Helsingissä 9 päivänä kesäkuuta 1998</asi:PaivaysKooste>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Liikenneministeri </org1:AsemaTeksti>
+        <org1:SukuNimi>Matti Aura</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Hallitusneuvos </org1:AsemaTeksti>
+        <org1:SukuNimi>Jaakko Pohjola </org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+  </asi:AllekirjoitusOsa>
+</vah:VahvistettavaLaki>
