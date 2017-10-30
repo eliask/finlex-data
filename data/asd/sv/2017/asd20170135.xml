@@ -34,64 +34,6 @@
           <saa:SaadosOtsikkoKooste>Timfördelningen i undervisningen för personer som passerat läropliktsåldern </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>I inledningsskedet av den grundläggande utbildningen för personer som har passerat läropliktsåldern fördelas den tid som används på undervisning och handledning som följer:</saa:MomenttiKooste>
           <tau:table>
-            <tau:tgroup colsep="1" cols="2" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-              <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-              <tau:tbody>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Inledningsskede</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-            <tau:tgroup colsep="1" cols="3" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-              <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-              <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-              <tau:tbody>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Läskunnighetsskedet*</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-            <tau:tgroup colsep="1" cols="5" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="20*"/>
-              <tau:colspec colnum="2" colname="2" colwidth="20*"/>
-              <tau:colspec colnum="3" colname="3" colwidth="20*"/>
-              <tau:colspec colnum="4" colname="4" colwidth="20*"/>
-              <tau:colspec colnum="5" colname="5" colwidth="20*"/>
-              <tau:tbody>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Obligatoriska kurser </sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Valfria kurser</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Obligatoriska kurser </sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Valfria kurser</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
             <tau:tgroup colsep="1" cols="6" rowsep="1">
               <tau:colspec colnum="1" colname="1" colwidth="16*"/>
               <tau:colspec colnum="2" colname="2" colwidth="16*"/>
@@ -101,11 +43,71 @@
               <tau:colspec colnum="6" colname="6" colwidth="16*"/>
               <tau:tbody>
                 <tau:row>
-                  <tau:entry morerows="2">
-                    <sis:KappaleKooste>Språk</sis:KappaleKooste>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>Sammanlagt minst</sis:KappaleKooste>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry morerows="4">
+                    <sis:KappaleKooste>Inledningsskede</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry morerows="2">
+                    <sis:KappaleKooste>Läskunnighetsskedet*</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Obligatoriska kurser</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Valfria kurser</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Obligatoriska kurser</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Valfria kurser</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Språk</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Sammanlagt minst</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>15</sis:KappaleKooste>
@@ -121,6 +123,9 @@
                   </tau:entry>
                 </tau:row>
                 <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>Modersmål och litteratur</sis:KappaleKooste>
                   </tau:entry>
@@ -139,6 +144,9 @@
                 </tau:row>
                 <tau:row>
                   <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
                     <sis:KappaleKooste>Ett Främmande språk</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
@@ -154,18 +162,11 @@
                     <sis:KappaleKooste>----</sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-            <tau:tgroup colsep="1" cols="5" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="20*"/>
-              <tau:colspec colnum="2" colname="2" colwidth="20*"/>
-              <tau:colspec colnum="3" colname="3" colwidth="20*"/>
-              <tau:colspec colnum="4" colname="4" colwidth="20*"/>
-              <tau:colspec colnum="5" colname="5" colwidth="20*"/>
-              <tau:tbody>
                 <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Matematik</sis:KappaleKooste>
+                  <tau:entry morerows="2">
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Matematik</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>3</sis:KappaleKooste>
@@ -181,8 +182,10 @@
                   </tau:entry>
                 </tau:row>
                 <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Samhällskunskap och kulturkännedom</sis:KappaleKooste>
+                  <tau:entry morerows="2">
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Samhällskunskap och kulturkännedom</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>2</sis:KappaleKooste>
@@ -198,8 +201,10 @@
                   </tau:entry>
                 </tau:row>
                 <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Miljö- och naturkunskap</sis:KappaleKooste>
+                  <tau:entry morerows="2">
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Miljö- och naturkunskap</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>1</sis:KappaleKooste>
@@ -215,8 +220,10 @@
                   </tau:entry>
                 </tau:row>
                 <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Hälsokunskap</sis:KappaleKooste>
+                  <tau:entry morerows="2">
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Hälsokunskap</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste/>
@@ -232,8 +239,10 @@
                   </tau:entry>
                 </tau:row>
                 <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Studiehandledning och handledning i arbetslivsfärdigheter</sis:KappaleKooste>
+                  <tau:entry morerows="2">
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Studiehandledning och handledning i arbetslivsfärdigheter</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>2</sis:KappaleKooste>
@@ -249,8 +258,10 @@
                   </tau:entry>
                 </tau:row>
                 <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Andra för den grundläggande utbildningen lämpliga läroämnen och ämnesområden</sis:KappaleKooste>
+                  <tau:entry morerows="2">
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Andra för den grundläggande utbildningen lämpliga läroämnen och ämnesområden</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste/>
@@ -266,8 +277,10 @@
                   </tau:entry>
                 </tau:row>
                 <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Erbjudna valfria kurser, minst**</sis:KappaleKooste>
+                  <tau:entry morerows="2">
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Erbjudna valfria kurser, minst**</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste/>
@@ -282,41 +295,35 @@
                     <sis:KappaleKooste>10</sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-            <tau:tgroup colsep="1" cols="3" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-              <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-              <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-              <tau:tbody>
                 <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Sammanlagt minst</sis:KappaleKooste>
+                  <tau:entry morerows="2">
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Sammanlagt minst</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>27</sis:KappaleKooste>
+                  <tau:entry morerows="2">
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>27</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>38</sis:KappaleKooste>
+                  <tau:entry morerows="2">
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>38</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-            <tau:tgroup colsep="1" cols="1" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-              <tau:tbody>
                 <tau:row>
-                  <tau:entry>
+                  <tau:entry morerows="6">
                     <sis:KappaleKooste>---- Kurser kan ordnas, om så anges i läroplanen.</sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
                 <tau:row>
-                  <tau:entry>
+                  <tau:entry morerows="6">
                     <sis:KappaleKooste>* För dem som behöver grundläggande läs- och skrivkunnighet samt grundläggande numeriska färdigheter.</sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
                 <tau:row>
-                  <tau:entry>
+                  <tau:entry morerows="6">
                     <sis:KappaleKooste>** Kan i enlighet med vad som anges i läroplanen omfatta valfria kurser i olika läroämnen och ämnesgrupper, yrkesinriktade studier eller gymnasiestudier, möjligheter att bekanta sig med arbetslivet samt andra kurser som lämpar sig för grundläggande utbildning för personer som har passerat läropliktsåldern.</sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
@@ -335,21 +342,31 @@
                     <sis:KappaleKooste/>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>Obligatoriska kurser</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Obligatoriska kurser</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>Valfria kurser</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Valfria kurser</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
                 <tau:row>
                   <tau:entry>
-                    <sis:KappaleKooste>Språk, sammanlagt minst</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Språk, sammanlagt minst</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>20</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>20</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>----</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>----</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
                 <tau:row>
@@ -387,7 +404,9 @@
                 </tau:row>
                 <tau:row>
                   <tau:entry>
-                    <sis:KappaleKooste>Matematik</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Matematik</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>8</sis:KappaleKooste>
@@ -398,7 +417,9 @@
                 </tau:row>
                 <tau:row>
                   <tau:entry>
-                    <sis:KappaleKooste>Religion eller livsåskådningskunskap</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Religion eller livsåskådningskunskap</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>1</sis:KappaleKooste>
@@ -409,7 +430,9 @@
                 </tau:row>
                 <tau:row>
                   <tau:entry>
-                    <sis:KappaleKooste>Samhällsvetenskapliga läroämnen</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Samhällsvetenskapliga läroämnen</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste/>
@@ -442,7 +465,9 @@
                 </tau:row>
                 <tau:row>
                   <tau:entry>
-                    <sis:KappaleKooste>Naturvetenskapliga läroämnen</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Naturvetenskapliga läroämnen</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste/>
@@ -497,7 +522,9 @@
                 </tau:row>
                 <tau:row>
                   <tau:entry>
-                    <sis:KappaleKooste>Hälsokunskap</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Hälsokunskap</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>1**</sis:KappaleKooste>
@@ -508,7 +535,9 @@
                 </tau:row>
                 <tau:row>
                   <tau:entry>
-                    <sis:KappaleKooste>Studiehandledning och handledning i arbetslivsfärdigheter</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Studiehandledning och handledning i arbetslivsfärdigheter</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>2</sis:KappaleKooste>
@@ -519,7 +548,9 @@
                 </tau:row>
                 <tau:row>
                   <tau:entry>
-                    <sis:KappaleKooste>Andra för den grundläggande utbildningen lämpliga läroämnen och ämnesområden</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Andra för den grundläggande utbildningen lämpliga läroämnen och ämnesområden</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste/>
@@ -530,7 +561,9 @@
                 </tau:row>
                 <tau:row>
                   <tau:entry>
-                    <sis:KappaleKooste>Erbjudna valfria kurser, minst***</sis:KappaleKooste>
+                    <sis:KappaleKooste>
+                      <sis1:LihavaTeksti>Erbjudna valfria kurser, minst***</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste/>
@@ -539,42 +572,31 @@
                     <sis:KappaleKooste>10</sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-            <tau:tgroup colsep="1" cols="2" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-              <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-              <tau:tbody>
                 <tau:row>
                   <tau:entry>
                     <sis:KappaleKooste>Sammanlagt, minst</sis:KappaleKooste>
                   </tau:entry>
-                  <tau:entry>
+                  <tau:entry morerows="2">
                     <sis:KappaleKooste>46</sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-            <tau:tgroup colsep="1" cols="1" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-              <tau:tbody>
                 <tau:row>
-                  <tau:entry>
+                  <tau:entry morerows="3">
                     <sis:KappaleKooste>---- Kurser kan ordnas, om så anges i läroplanen</sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
                 <tau:row>
-                  <tau:entry>
+                  <tau:entry morerows="3">
                     <sis:KappaleKooste>* Kurser ska erbjudas. Antalet kurser som erbjuds anges i läroplanen, dock minst 4 kurser modersmål och litteratur. Studerandena ska studera minst ett språk enligt lärokursen för A-språket.</sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
                 <tau:row>
-                  <tau:entry>
+                  <tau:entry morerows="3">
                     <sis:KappaleKooste>** Obligatorisk kurs, om studier i hälsokunskap inte har ingått i den studerandes tidigare studier inom den grundläggande utbildningen.</sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>
                 <tau:row>
-                  <tau:entry>
+                  <tau:entry morerows="3">
                     <sis:KappaleKooste>*** Kan i enlighet med vad som anges i läroplanen omfatta valfria kurser i olika läroämnen och ämnesgrupper, yrkesinriktade studier eller gymnasiestudier, möjligheter att bekanta sig med arbetslivet samt andra kurser som lämpar sig för grundläggande utbildning för personer som har passerat läropliktsåldern.</sis:KappaleKooste>
                   </tau:entry>
                 </tau:row>

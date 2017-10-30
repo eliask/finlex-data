@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2015-06-30" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -122,7 +122,11 @@
                 <sis:KappaleKooste>Soliditetsgrad</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste> Primärt kapital</sis:KappaleKooste>
+                <sis:KappaleKooste>
+                  <sis:Kuva>
+                    <sis:KuvaAsemointi/>
+                  </sis:Kuva>
+                </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -133,18 +137,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Totala tillgångar</sis:KappaleKooste>
-              </tau:entry>
-            </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste>Definitionen i enlighet med artikel 429 i Europaparlamentets och rådets förordning (EU) nr 575/2013 om tillsynskrav för kreditinstitut och värdepappersföretag och om ändring av förordning (EU) nr 648/2012, nedan <saa:SaadosKursiiviKooste>EU:s tillsynsförordning</saa:SaadosKursiiviKooste>, och kommissionens delegerade förordning (EU) 2015/62 om ändring av Europaparlamentets och rådets förordning (EU) nr 575/2013 när det gäller bruttosoliditetsgraden.</sis:KappaleKooste>
+                <sis:KappaleKooste>Definitionen i enlighet med artikel 429 i Europaparlamentets och rådets förordning (EU) nr 575/2013 om tillsynskrav för kreditinstitut och värdepappersföretag och om ändring av förordning (EU) nr 648/2012, nedan <sis1:KursiiviTeksti>EU:s tillsynsförordning</sis1:KursiiviTeksti>, och kommissionens delegerade förordning (EU) 2015/62 om ändring av Europaparlamentets och rådets förordning (EU) nr 575/2013 när det gäller bruttosoliditetsgraden.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -155,18 +148,11 @@
                 <sis:KappaleKooste>Kapitaltäckningsgrad</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Kapitalbas</sis:KappaleKooste>
-              </tau:entry>
-            </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste>Kapitalbas som krävs</sis:KappaleKooste>
+                <sis:KappaleKooste>
+                  <sis:Kuva>
+                    <sis:KuvaAsemointi/>
+                  </sis:Kuva>
+                </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -210,18 +196,11 @@
                 <sis:KappaleKooste>Andel oreglerade fordringar</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Oreglerade fordringar</sis:KappaleKooste>
-              </tau:entry>
-            </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste>Totala krediter och skuldinstrument</sis:KappaleKooste>
+                <sis:KappaleKooste>
+                  <sis:Kuva>
+                    <sis:KuvaAsemointi/>
+                  </sis:Kuva>
+                </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -232,18 +211,11 @@
                 <sis:KappaleKooste>Riskvägda balansposter och åtaganden utanför balansräkningen i förhållande till de totala tillgångarna</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Riskvägda balansposter ochåtaganden utanför balansräkningen</sis:KappaleKooste>
-              </tau:entry>
-            </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste>Totala tillgångar</sis:KappaleKooste>
+                <sis:KappaleKooste>
+                  <sis:Kuva>
+                    <sis:KuvaAsemointi/>
+                  </sis:Kuva>
+                </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -265,18 +237,11 @@
                 <sis:KappaleKooste>Icke intecknade tillgångar</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Totala tillgångar – intecknade tillgångar</sis:KappaleKooste>
-              </tau:entry>
-            </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste>Garanterade insättningar</sis:KappaleKooste>
+                <sis:KappaleKooste>
+                  <sis:Kuva>
+                    <sis:KuvaAsemointi/>
+                  </sis:Kuva>
+                </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
           </tau:tbody>
@@ -301,7 +266,7 @@
                 <sis:KappaleKooste>Riskklass</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Riskvärde, <saa:SaadosKursiiviKooste>x<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti></saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>Riskvärde, <sis1:KursiiviTeksti>x<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti></sis1:KursiiviTeksti></sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -362,10 +327,10 @@
           <tau:tbody valign="top">
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Specifik riskindikator, <saa:SaadosKursiiviKooste>k</saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>Specifik riskindikator, <sis1:KursiiviTeksti>k</sis1:KursiiviTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Vikt, <saa:SaadosKursiiviKooste>A<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti></saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>Vikt, <sis1:KursiiviTeksti>A<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti></sis1:KursiiviTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>Tecken</sis:KappaleKooste>
