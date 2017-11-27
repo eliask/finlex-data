@@ -20,11 +20,16 @@ fi
     > sorted_archive_urls.list
 
 import_zip() {
-    if [[ $# != 1 ]]; then
-        echo "import_zip(): invalid args" >&2
+    if [[ $# != 2 ]]; then
+        echo "Usage: import_zip filename update_timestamp" >&2
         exit 1
     fi
     zipfile=$1
+    update_timestamp=$2
+    [[ -n $update_timestamp ]]
+    [[ -s $zipfile ]]
+
+    update_timestamp=$(date --rfc-3339=seconds -d "$update_timestamp")
 
     dir=$(mktemp -d)
     cleanup() { rm -rf "$dir"; }
@@ -40,55 +45,59 @@ import_zip() {
     git add data/
     GIT_COMMITTER_DATE=$timestamp \
     GIT_AUTHOR_DATE=$timestamp \
-    git commit --allow-empty -m "Import $(basename "$zipfile")"
+    git commit --allow-empty -m "Import $(basename "$zipfile") as of $update_timestamp"
 }
-
-if [[ -n $(git branch) ]]; then
-    git log --reverse --format=tformat:%s \
-        | grep '^Import ' \
-        | sed 's/^Import //' \
-        > imported_files.list
-else
-    true > imported_files.list
-fi
 
 mkdir -p data/
-
-# files_not_found_in_server=$(comm -2 imported_files.list <(sed 's#.*/##' sorted_archive_urls.list))
-
 mkdir -p archives/
 touch archives/.dummy
-grep -Fvf \
-    <(cat imported_files.list <(ls -A archives/) | sed 's#^#/#') \
-    sorted_archive_urls.list \
-    > archives_to_download.list || true
 
-if [[ -s imported_files.list ]]; then
-    if ! grep -Fvf \
-        <(< imported_files.list sed 's#^#/#') \
-        sorted_archive_urls.list
-    then
-        echo "Nothing new to import"
-        exit 0
+while read -r url; do
+    file=$(basename "$url")
+    file_path=archives/$file
+ 
+    if [[ -s "$file_path".metadata ]]; then
+        etag=$(grep -i ^ETag: "$file_path".metadata | sed 's/^ETag: //i')
+        timestamp=$(grep -i ^Last-Modified: "$file_path".metadata | sed 's/^Last-Modified: //i')
+    else
+        etag=
+        timestamp=
     fi
-else
-    cat sorted_archive_urls.list
-fi \
-    > archives_to_import.list
 
-{
-    cd archives/
-    [[ -s archives_to_download.list ]] && < archives_to_download.list xargs wget
-    cd ..
-}
+    curl -fsI "$url" |
+        grep -iE '^(ETag|Last-Modified): ' \
+        > "$file_path".metadata.new
 
-< archives_to_download.list sed 's#.*/#archives/#' \
-| while read -r file; do
-    [[ -f $file ]]
-    import_zip "$file"
-done
+    new_etag=$(grep -i ^ETag: "$file_path".metadata.new | sed 's/^ETag: //i')
+    new_timestamp=$(grep -i ^Last-Modified: "$file_path".metadata.new | sed 's/^Last-Modified: //i')
+    if [[ $new_etag = "$etag" ]] && [[ $new_timestamp = "$timestamp" ]]; then
+        echo "File has not changed from server: $file -- Skipping."
+        rm "$file_path".metadata.new
+        continue
+    fi
 
-sed 's#.*/#archives/#' archives_to_import.list | while read -r file; do
+    # NB: The origin server is buggy and crashes with 503
+    # so we opt to not use these headers in GET requests.
+    #    --header "If-None-Match: $etag" \
+    #    --header "If-Modified-Since: $timestamp" \
+
+    http_status_code=$(
+    curl -sL \
+        --write-out "%{http_code}" \
+        --output "$file_path" \
+        "$url"
+    )
+
+    if [[ $http_status_code -ge 400 ]]; then
+        echo "Failed to download $file: $http_status_code" >&2
+        exit 2
+    fi
+    if [[ $http_status_code = 304 ]]; then
+        continue
+    fi
+
     echo "Importing $file"
-    import_zip "$file"
-done
+    import_zip "$file_path" "$new_timestamp"
+    mv "$file_path".metadata.new "$file_path".metadata
+done \
+< sorted_archive_urls.list
