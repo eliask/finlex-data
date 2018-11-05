@@ -1,9 +1,9 @@
 #! /usr/bin/env bash
 set -euo pipefail
 
-base=http://data.finlex.fi
-curl -fs "$base"/data/xml/{asd,kho,kko}.html \
-     | pup 'a[href^=/data/xml] attr{href}' \
+base=https://data.finlex.fi
+curl -fsL "$base"/download/xml/{asd,kho,kko}.html \
+     | pup 'a[href^=/download/xml] attr{href}' \
      | sed "s#^#$base#" \
      > archives.list 
 
@@ -38,7 +38,8 @@ import_zip() {
 
     # NB. using GNU stat.
     # NB2. pipefail must be disabled since we don't read the whole output from sort.
-    newest_ctime=$(set +o pipefail; find "$dir" -type f -exec stat -c %W {} + | sort -rn | head -n1)
+    # NB3. stat -c %W is not available for Linux (always 0) so we're also using %Y
+    newest_ctime=$(set +o pipefail; find "$dir" -type f -exec stat -c %W/%Y {} + | tr / '\n' | sort -rn | head -n1)
     timestamp=$(TZ=Europe/Helsinki date -R -d "@${newest_ctime}")
     rsync -a "$dir"/ data/
 
