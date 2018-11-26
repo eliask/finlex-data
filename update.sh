@@ -1,27 +1,33 @@
 #! /usr/bin/env bash
-set -euo pipefail
+set -Eeuo pipefail
 
 base=https://data.finlex.fi
-curl -fsL "$base"/download/xml/{asd,kho,kko}.html \
-     | pup 'a[href^=/download/xml] attr{href}' \
-     | sed "s#^#$base#" \
-     > archives.list 
+cat > archives-xml.list <<EOF
+https://data.finlex.fi/download/xml/asd/asd-fi.zip
+https://data.finlex.fi/download/xml/asd/asd-sv.zip
+https://data.finlex.fi/download/xml/kho/kho-fi.zip
+https://data.finlex.fi/download/xml/kho/kko-sv.zip
+https://data.finlex.fi/download/xml/kko/kko-fi.zip
+https://data.finlex.fi/download/xml/kko/kko-sv.zip
+EOF
 
-if grep -F '|' archives.list; then
-     echo "No archives from server" >&2
-     exit 1
-fi
+cat > archives-jsonld.list <<EOF
+https://data.finlex.fi/download/rdf/sd-jsonld-fi.zip
+https://data.finlex.fi/download/rdf/kko-jsonld-fi.zip
+https://data.finlex.fi/download/rdf/kho-jsonld-fi.zip
+EOF
 
-# Sort by archive date
-< archives.list \
-    sed 's#^\(.*\)/\([^0-9]*\)\([^/.]*\)\(\..*\)$#\1/\2\3\4|\3#' \
-    | sort -t'|' -k2 \
-    | sed 's#|.*##' \
-    > sorted_archive_urls.list
+cat > archives-nq.list <<EOF
+https://data.finlex.fi/download/rdf/ajantasa-nq.zip
+https://data.finlex.fi/download/rdf/kko-nq.zip
+https://data.finlex.fi/download/rdf/kho-nq.zip
+https://data.finlex.fi/download/rdf/alkup-nq.zip
+EOF
+
 
 import_zip() {
-    if [[ $# != 2 ]]; then
-        echo "Usage: import_zip filename update_timestamp" >&2
+    if [[ $# != 3 ]]; then
+        echo "Usage: import_zip zipfile(filename) update_timestamp archive_type" >&2
         exit 1
     fi
     zipfile=$1
@@ -33,7 +39,7 @@ import_zip() {
 
     dir=$(mktemp -d)
     cleanup() { rm -rf "$dir"; }
-    trap cleanup EXIT
+    trap cleanup ERR
     unzip -qq -d "$dir" "$zipfile"
 
     # NB. using GNU stat.
@@ -41,18 +47,34 @@ import_zip() {
     # NB3. stat -c %W is not available for Linux (always 0) so we're also using %Y
     newest_ctime=$(set +o pipefail; find "$dir" -type f -exec stat -c %W/%Y {} + | tr / '\n' | sort -rn | head -n1)
     timestamp=$(TZ=Europe/Helsinki date -R -d "@${newest_ctime}")
-    rsync -a "$dir"/ data/
 
-    git add data/
+    if [[ $archive_type = xml ]]; then
+        output=data
+        # asd-fi.zip -> data/asd/fi
+        dest_dir=$output/$(basename "$zipfile" .zip | sed 's#-#/#')
+        rsync -a "$dir"/ "$output"/
+    else
+        output=data/$(basename "$zipfile" .zip)
+	dest_dir=$output
+        mv "$dir" "$output"
+    fi
+    git add "$dest_dir"
+
     GIT_COMMITTER_DATE=$timestamp \
     GIT_AUTHOR_DATE=$timestamp \
     git commit --allow-empty -m "Import $(basename "$zipfile") as of $update_timestamp"
+
+    # Micro-optimization: Save disk space by keeping the working directory empty
+    rm -rf "$dest_dir"
+    cleanup
 }
 
 mkdir -p data/
 mkdir -p archives/
 touch archives/.dummy
 
+for archive_type in xml jsonld nq; do
+cat archives-"$archive_type".list |
 while read -r url; do
     file=$(basename "$url")
     file_path=archives/$file
@@ -98,7 +120,7 @@ while read -r url; do
     fi
 
     echo "Importing $file"
-    import_zip "$file_path" "$new_timestamp"
+    import_zip "$file_path" "$new_timestamp" "$archive_type"
     mv "$file_path".metadata.new "$file_path".metadata
-done \
-< sorted_archive_urls.list
+done # /url
+done # /archive_type
