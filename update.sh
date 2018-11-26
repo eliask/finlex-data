@@ -73,7 +73,10 @@ mkdir -p data/
 mkdir -p archives/
 touch archives/.dummy
 
-for archive_type in xml jsonld nq; do
+# NB: disabled nq/nquads since there are files >100MB in there.
+# 100MB/file is the maximum limit for Github.
+#for archive_type in xml jsonld nq; do
+for archive_type in xml jsonld; do
 cat archives-"$archive_type".list |
 while read -r url; do
     file=$(basename "$url")
