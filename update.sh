@@ -39,7 +39,7 @@ import_zip() {
 
     dir=$(mktemp -d)
     cleanup() { rm -rf "$dir"; }
-    trap cleanup ERR
+    trap cleanup EXIT
     unzip -qq -d "$dir" "$zipfile"
 
     # NB. using GNU stat.
@@ -52,17 +52,17 @@ import_zip() {
         output=data
         # asd-fi.zip -> data/asd/fi
         dest_dir=$output/$(basename "$zipfile" .zip | sed 's#-#/#')
-        rsync -a "$dir"/ "$output"/
+        output=$(readlink -f "$output")
     else
         output=data/$(basename "$zipfile" .zip)
-	dest_dir=$output
-        mv "$dir" "$output"
+        dest_dir=$output
     fi
+    rsync -a "$dir"/ "$output"/
     git add "$dest_dir"
 
     GIT_COMMITTER_DATE=$timestamp \
     GIT_AUTHOR_DATE=$timestamp \
-    git commit --allow-empty -m "Import $(basename "$zipfile") as of $update_timestamp"
+    git commit -m "Import $(basename "$zipfile") as of $update_timestamp" || true # skip making empty commits
 
     # Micro-optimization: Save disk space by keeping the working directory empty
     rm -rf "$dest_dir"
@@ -90,16 +90,18 @@ while read -r url; do
         timestamp=
     fi
 
-    curl -fsI "$url" |
+    # We could get HTTP 503 Backend fetch failed. In that case, ignore metadata processing and try to download the file anyway.
+    if curl -fsI "$url" |
         grep -iE '^(ETag|Last-Modified): ' \
         > "$file_path".metadata.new
-
-    new_etag=$(grep -i ^ETag: "$file_path".metadata.new | sed 's/^ETag: //i')
-    new_timestamp=$(grep -i ^Last-Modified: "$file_path".metadata.new | sed 's/^Last-Modified: //i')
-    if [[ $new_etag = "$etag" ]] && [[ $new_timestamp = "$timestamp" ]]; then
-        echo "File has not changed from server: $file -- Skipping."
-        rm "$file_path".metadata.new
-        continue
+    then
+        new_etag=$(grep -i ^ETag: "$file_path".metadata.new | sed 's/^ETag: //i')
+        new_timestamp=$(grep -i ^Last-Modified: "$file_path".metadata.new | sed 's/^Last-Modified: //i')
+        if [[ $new_etag = "$etag" ]] && [[ $new_timestamp = "$timestamp" ]]; then
+            echo "File has not changed from server: $file -- Skipping."
+            rm "$file_path".metadata.new
+            continue
+        fi
     fi
 
     # NB: The origin server is buggy and crashes with 503
@@ -116,7 +118,7 @@ while read -r url; do
 
     if [[ $http_status_code -ge 400 ]]; then
         echo "Failed to download $file: $http_status_code" >&2
-        exit 2
+        continue
     fi
     if [[ $http_status_code = 304 ]]; then
         continue
