@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2016-05-26" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -334,7 +334,7 @@ hälsoeffekter och risker,</saa:MomenttiAlakohtaKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>1 Hz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 3 kHz </sis:KappaleKooste>
+                <sis:KappaleKooste>1 Hz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 3 kHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>1,1 Vm<sis1:YlaindeksiTeksti>–1</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
@@ -342,10 +342,10 @@ hälsoeffekter och risker,</saa:MomenttiAlakohtaKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>3 kHz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> ≤ 10 MHz </sis:KappaleKooste>
+                <sis:KappaleKooste>3 kHz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> ≤ 10 MHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>3,8 × 10<sis1:YlaindeksiTeksti>–4</sis1:YlaindeksiTeksti> <saa:SaadosKursiiviKooste>f </saa:SaadosKursiiviKooste>Vm<sis1:YlaindeksiTeksti>–1</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
+                <sis:KappaleKooste>3,8 × 10<sis1:YlaindeksiTeksti>–4</sis1:YlaindeksiTeksti> <sis1:KursiiviTeksti>f </sis1:KursiiviTeksti>Vm<sis1:YlaindeksiTeksti>–1</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
           </tau:tbody>
@@ -376,15 +376,15 @@ hälsoeffekter och risker,</saa:MomenttiAlakohtaKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>1 Hz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 10 Hz </sis:KappaleKooste>
+                <sis:KappaleKooste>1 Hz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 10 Hz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>0,7/ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> Vm<sis1:YlaindeksiTeksti>–1</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
+                <sis:KappaleKooste>0,7/ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> Vm<sis1:YlaindeksiTeksti>–1</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>10 Hz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 25 Hz </sis:KappaleKooste>
+                <sis:KappaleKooste>10 Hz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 25 Hz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>0,07 Vm<sis1:YlaindeksiTeksti>–1</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
@@ -392,10 +392,10 @@ hälsoeffekter och risker,</saa:MomenttiAlakohtaKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>25 Hz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> ≤ 400 Hz </sis:KappaleKooste>
+                <sis:KappaleKooste>25 Hz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> ≤ 400 Hz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>0,0028 <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> Vm<sis1:YlaindeksiTeksti>–1</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
+                <sis:KappaleKooste>0,0028 <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> Vm<sis1:YlaindeksiTeksti>–1</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
           </tau:tbody>
@@ -437,7 +437,7 @@ hälsoeffekter och risker,</saa:MomenttiAlakohtaKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>1 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 25 Hz </sis:KappaleKooste>
+                <sis:KappaleKooste>1 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 25 Hz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>2,0 × 10<sis1:YlaindeksiTeksti>4 </sis1:YlaindeksiTeksti></sis:KappaleKooste>
@@ -448,10 +448,10 @@ hälsoeffekter och risker,</saa:MomenttiAlakohtaKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>25 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 50 Hz </sis:KappaleKooste>
+                <sis:KappaleKooste>25 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 50 Hz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>5,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>5,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>2,0 × 10<sis1:YlaindeksiTeksti>4 </sis1:YlaindeksiTeksti></sis:KappaleKooste>
@@ -459,21 +459,21 @@ hälsoeffekter och risker,</saa:MomenttiAlakohtaKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>50 Hz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 1,64 kHz </sis:KappaleKooste>
+                <sis:KappaleKooste>50 Hz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 1,64 kHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>5,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>5,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>1,0 × 10<sis1:YlaindeksiTeksti>6</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>1,0 × 10<sis1:YlaindeksiTeksti>6</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti></sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>1,64 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 3 kHz </sis:KappaleKooste>
+                <sis:KappaleKooste>1,64 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 3 kHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>5,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>5,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>6,1 × 10<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
@@ -481,7 +481,7 @@ hälsoeffekter och risker,</saa:MomenttiAlakohtaKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>3 kHz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> ≤ 10 MHz </sis:KappaleKooste>
+                <sis:KappaleKooste>3 kHz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> ≤ 10 MHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>1,7 × 10<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
@@ -527,63 +527,63 @@ hälsoeffekter och risker,</saa:MomenttiAlakohtaKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>1 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 8 Hz </sis:KappaleKooste>
+                <sis:KappaleKooste>1 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 8 Hz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>2,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> <sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
+                <sis:KappaleKooste>2,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> <sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>3,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>3,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>9,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
-              </tau:entry>
-            </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste>8 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 25 Hz </sis:KappaleKooste>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste>2,5 × 10<sis1:YlaindeksiTeksti>4 </sis1:YlaindeksiTeksti>/ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste>3,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f </saa:SaadosKursiiviKooste></sis:KappaleKooste>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste>9,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>9,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>25 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 300 Hz </sis:KappaleKooste>
+                <sis:KappaleKooste>8 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 25 Hz </sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2,5 × 10<sis1:YlaindeksiTeksti>4 </sis1:YlaindeksiTeksti>/ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f </sis1:KursiiviTeksti></sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>9,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>25 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 300 Hz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>1,0 × 10<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>3,0 × 10<sis1:YlaindeksiTeksti>5 </sis1:YlaindeksiTeksti>/ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>3,0 × 10<sis1:YlaindeksiTeksti>5 </sis1:YlaindeksiTeksti>/ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>9,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
-              </tau:entry>
-            </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste>300 Hz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 3 kHz </sis:KappaleKooste>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste>3,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste>3,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste>9,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f </saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>9,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>3 kHz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> ≤ 10 MHz </sis:KappaleKooste>
+                <sis:KappaleKooste>300 Hz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 3 kHz </sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>9,0 × 10<sis1:YlaindeksiTeksti>5</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f </sis1:KursiiviTeksti></sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>3 kHz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> ≤ 10 MHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>1,0 × 10<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
@@ -631,15 +631,15 @@ hälsoeffekter och risker,</saa:MomenttiAlakohtaKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>2,5 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 100 kHz </sis:KappaleKooste>
+                <sis:KappaleKooste>2,5 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 100 kHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>0,4 <saa:SaadosKursiiviKooste>f </saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>0,4 <sis1:KursiiviTeksti>f </sis1:KursiiviTeksti></sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>100 kHz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> ≤ 10 000 kHz </sis:KappaleKooste>
+                <sis:KappaleKooste>100 kHz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> ≤ 10 000 kHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>40 </sis:KappaleKooste>
@@ -771,7 +771,7 @@ extremiteterna, uttryckt som lokal SAR i extremiteterna </sis:KappaleKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>0,3 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> ≤ 6 GHz</sis:KappaleKooste>
+                <sis:KappaleKooste>0,3 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> ≤ 6 GHz</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>10 mJkg<sis1:YlaindeksiTeksti>-1</sis1:YlaindeksiTeksti></sis:KappaleKooste>
@@ -800,7 +800,7 @@ extremiteterna, uttryckt som lokal SAR i extremiteterna </sis:KappaleKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>6 GHz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> ≤ 300 GHz </sis:KappaleKooste>
+                <sis:KappaleKooste>6 GHz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> ≤ 300 GHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>50 Wm<sis1:YlaindeksiTeksti>–2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
@@ -847,13 +847,13 @@ extremiteterna, uttryckt som lokal SAR i extremiteterna </sis:KappaleKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>100 kHz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 1 MHz </sis:KappaleKooste>
+                <sis:KappaleKooste>100 kHz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 1 MHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>6,1 × 10<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>2,0 × 10<sis1:YlaindeksiTeksti>6 </sis1:YlaindeksiTeksti>/ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>2,0 × 10<sis1:YlaindeksiTeksti>6 </sis1:YlaindeksiTeksti>/ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>— </sis:KappaleKooste>
@@ -861,13 +861,13 @@ extremiteterna, uttryckt som lokal SAR i extremiteterna </sis:KappaleKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>1 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 10 MHz </sis:KappaleKooste>
+                <sis:KappaleKooste>1 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 10 MHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>6,1 × 10<sis1:YlaindeksiTeksti>8</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>6,1 × 10<sis1:YlaindeksiTeksti>8</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>2,0 × 10<sis1:YlaindeksiTeksti>6</sis1:YlaindeksiTeksti> / <saa:SaadosKursiiviKooste>f </saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>2,0 × 10<sis1:YlaindeksiTeksti>6</sis1:YlaindeksiTeksti> / <sis1:KursiiviTeksti>f </sis1:KursiiviTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>— </sis:KappaleKooste>
@@ -875,7 +875,7 @@ extremiteterna, uttryckt som lokal SAR i extremiteterna </sis:KappaleKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>10 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 400 MHz </sis:KappaleKooste>
+                <sis:KappaleKooste>10 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 400 MHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>61 </sis:KappaleKooste>
@@ -889,13 +889,13 @@ extremiteterna, uttryckt som lokal SAR i extremiteterna </sis:KappaleKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>400 MHz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 2 GHz </sis:KappaleKooste>
+                <sis:KappaleKooste>400 MHz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 2 GHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>3 × 10<sis1:YlaindeksiTeksti>–3</sis1:YlaindeksiTeksti> <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> <sis1:YlaindeksiTeksti>½</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
+                <sis:KappaleKooste>3 × 10<sis1:YlaindeksiTeksti>–3</sis1:YlaindeksiTeksti> <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> <sis1:YlaindeksiTeksti>½</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>1,0 × 10<sis1:YlaindeksiTeksti>–5</sis1:YlaindeksiTeksti> <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> <sis1:YlaindeksiTeksti>½</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                <sis:KappaleKooste>1,0 × 10<sis1:YlaindeksiTeksti>–5</sis1:YlaindeksiTeksti> <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> <sis1:YlaindeksiTeksti>½</sis1:YlaindeksiTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>— </sis:KappaleKooste>
@@ -903,7 +903,7 @@ extremiteterna, uttryckt som lokal SAR i extremiteterna </sis:KappaleKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>2 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 6 GHz </sis:KappaleKooste>
+                <sis:KappaleKooste>2 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 6 GHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>1,4 × 10<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> </sis:KappaleKooste>
@@ -917,7 +917,7 @@ extremiteterna, uttryckt som lokal SAR i extremiteterna </sis:KappaleKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>6 ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> ≤ 300 GHz </sis:KappaleKooste>
+                <sis:KappaleKooste>6 ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> ≤ 300 GHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>1,4 × 10<sis1:YlaindeksiTeksti>2 </sis1:YlaindeksiTeksti></sis:KappaleKooste>
@@ -961,7 +961,7 @@ extremiteterna, uttryckt som lokal SAR i extremiteterna </sis:KappaleKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>100 kHz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> &lt; 10 MHz </sis:KappaleKooste>
+                <sis:KappaleKooste>100 kHz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> &lt; 10 MHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>40 </sis:KappaleKooste>
@@ -972,7 +972,7 @@ extremiteterna, uttryckt som lokal SAR i extremiteterna </sis:KappaleKooste>
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>10 MHz ≤ <saa:SaadosKursiiviKooste>f</saa:SaadosKursiiviKooste> ≤ 110 MHz </sis:KappaleKooste>
+                <sis:KappaleKooste>10 MHz ≤ <sis1:KursiiviTeksti>f</sis1:KursiiviTeksti> ≤ 110 MHz </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>40 </sis:KappaleKooste>

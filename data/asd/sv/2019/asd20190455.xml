@@ -56,7 +56,7 @@
                         <sis:KappaleKooste>Grundämne</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>Halt%</sis:KappaleKooste>
+                        <sis:KappaleKooste>Halt %</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
@@ -99,18 +99,20 @@
                   <tau:colspec colnum="5" colname="5" colwidth="20*"/>
                   <tau:tbody>
                     <tau:row>
-                      <tau:entry namest="1" nameend="2">
+                      <tau:entry>
                         <sis:KappaleKooste>Leveranstillstånd</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry morerows="1">
-                        <sis:KappaleKooste>Nominell
-ytterdiameterdmm</sis:KappaleKooste>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
                       </tau:entry>
-                      <tau:entry morerows="1">
-                        <sis:KappaleKooste>BrottgränsR<sis1:AlaindeksiTeksti>m</sis1:AlaindeksiTeksti>MPaminst</sis:KappaleKooste>
+                      <tau:entry>
+                        <sis:KappaleKooste>Nominell ytterdiameter</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry morerows="1">
-                        <sis:KappaleKooste>FörlängningA%minst</sis:KappaleKooste>
+                      <tau:entry>
+                        <sis:KappaleKooste>Brottgräns</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Förlängning</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
@@ -119,6 +121,15 @@ ytterdiameterdmm</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>Beskrivning</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>d mm</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>R<sis1:AlaindeksiTeksti>m</sis1:AlaindeksiTeksti> MPa minst</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>A % minst</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
@@ -139,16 +150,16 @@ ytterdiameterdmm</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
-                      <tau:entry morerows="1">
+                      <tau:entry>
                         <sis:KappaleKooste>R250</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry morerows="1">
+                      <tau:entry>
                         <sis:KappaleKooste>halvhårt</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>10–64</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry morerows="1">
+                      <tau:entry>
                         <sis:KappaleKooste>250</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
@@ -157,7 +168,16 @@ ytterdiameterdmm</sis:KappaleKooste>
                     </tau:row>
                     <tau:row>
                       <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
                         <sis:KappaleKooste>76,1–110</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>20</sis:KappaleKooste>
@@ -203,36 +223,59 @@ ytterdiameterdmm</sis:KappaleKooste>
                   <tau:colspec colnum="4" colname="4" colwidth="25*"/>
                   <tau:tbody>
                     <tau:row>
-                      <tau:entry namest="1" nameend="4">
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
                         <sis:KappaleKooste>Dimensioner i millimeter</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
-                      <tau:entry morerows="2">
-                        <sis:KappaleKooste>Nominell
-ytterdiameterd</sis:KappaleKooste>
+                      <tau:entry>
+                        <sis:KappaleKooste>Nominell ytterdiameter</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry namest="2" nameend="4">
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
                         <sis:KappaleKooste>Toleranser för den nominella diametern</sis:KappaleKooste>
                       </tau:entry>
-                    </tau:row>
-                    <tau:row>
                       <tau:entry>
-                        <sis:KappaleKooste>Genomsnittligytterdiameter</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry namest="3" nameend="4">
-                        <sis:KappaleKooste>Individuell ytterdiameter </sis:KappaleKooste>
+                        <sis:KappaleKooste/>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
                       <tau:entry>
-                        <sis:KappaleKooste>Allaleveranstillstånd</sis:KappaleKooste>
+                        <sis:KappaleKooste>d</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>R290hårt</sis:KappaleKooste>
+                        <sis:KappaleKooste>Genomsnittlig ytterdiameter</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>R250halvhårt</sis:KappaleKooste>
+                        <sis:KappaleKooste>Individuell ytterdiameter</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Alla leveranstillstånd</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>R290 hårt</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>R250 halvhårt</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
@@ -417,14 +460,32 @@ ytterdiameterd</sis:KappaleKooste>
                         <sis:KappaleKooste>± 0,30</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
-                  </tau:tbody>
-                </tau:tgroup>
-                <tau:tgroup colsep="1" cols="1" rowsep="1">
-                  <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-                  <tau:tbody>
                     <tau:row>
                       <tau:entry>
-                        <sis:KappaleKooste>Anmärkning: För rör med märkningen R220 (glödgade) gäller endast de toleranser som avser den genomsnittliga ytterdiametern.<sis1:YlaindeksiTeksti>a)</sis1:YlaindeksiTeksti>Inklusive rundhetsavvikelsen.</sis:KappaleKooste>
+                        <sis:KappaleKooste>Anmärkning: För rör med märkningen R220 (glödgade) gäller endast de toleranser som avser den genomsnittliga ytterdiametern.</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste><sis1:YlaindeksiTeksti>a)</sis1:YlaindeksiTeksti>Inklusive rundhetsavvikelsen.</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
                       </tau:entry>
                     </tau:row>
                   </tau:tbody>
@@ -440,19 +501,25 @@ ytterdiameterd</sis:KappaleKooste>
                   <tau:colspec colnum="3" colname="3" colwidth="33*"/>
                   <tau:tbody>
                     <tau:row>
-                      <tau:entry namest="1" nameend="3">
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
                         <sis:KappaleKooste>Dimensioner i millimeter</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
                       <tau:entry>
-                        <sis:KappaleKooste>Nominellytterdiameterd</sis:KappaleKooste>
+                        <sis:KappaleKooste>Nominell ytterdiameter d</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>Nominellväggtjockleke</sis:KappaleKooste>
+                        <sis:KappaleKooste>Nominell väggtjocklek e</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>Tolerans förväggtjocklek e</sis:KappaleKooste>
+                        <sis:KappaleKooste>Tolerans för väggtjocklek e</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
@@ -622,21 +689,20 @@ ytterdiameterd</sis:KappaleKooste>
                   <tau:tbody>
                     <tau:row>
                       <tau:entry>
-                        <sis:KappaleKooste>Nominell ytterdiameterdmm</sis:KappaleKooste>
+                        <sis:KappaleKooste>Nominell ytterdiameter d mm</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>Leveranstillstånd</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>Kvantitativ metod -
-högsta totalakolmängdmg/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                        <sis:KappaleKooste>Kvantitativ metod - högsta totala kolmängd mg/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>Kvalitativ metod</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
-                      <tau:entry morerows="2">
+                      <tau:entry>
                         <sis:KappaleKooste>10–54</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
@@ -645,28 +711,40 @@ högsta totalakolmängdmg/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></si
                       <tau:entry>
                         <sis:KappaleKooste>0,20</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry morerows="3">
+                      <tau:entry>
                         <sis:KappaleKooste>Krav: ingen kolfilm</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>R250 (halvhårt)</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>0,20</sis:KappaleKooste>
                       </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                     </tau:row>
                     <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>R290 (hårt)</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>0,20</sis:KappaleKooste>
                       </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                     </tau:row>
                     <tau:row>
-                      <tau:entry morerows="1">
+                      <tau:entry>
                         <sis:KappaleKooste>över 54</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
@@ -675,8 +753,14 @@ högsta totalakolmängdmg/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></si
                       <tau:entry>
                         <sis:KappaleKooste>0,20</sis:KappaleKooste>
                       </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                     </tau:row>
                     <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>R290 (hårt)</sis:KappaleKooste>
                       </tau:entry>

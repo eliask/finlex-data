@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2017-05-31" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -33,316 +33,332 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Beloppet av bidrag för mjölkkor</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Högst följande belopp per stödområde och djur beviljas i bidrag för mjölkkor:</saa:MomenttiKooste>
-          <tau:table>
-            <tau:tgroup colsep="1" cols="2" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-              <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-              <tau:tbody>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>område</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>euro</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Fasta Åland</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>602,50</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Stödområde AB, yttre skärgården</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>881,00</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Stödområde AB, övriga områden</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>543,40</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-          </tau:table>
-          <sis:Katkoviiva/>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Högst följande belopp per stödområde och djur beviljas i bidrag för mjölkkor:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
+              <tau:table>
+                <tau:tgroup colsep="1" cols="2" rowsep="1">
+                  <tau:colspec colnum="1" colname="1" colwidth="50*"/>
+                  <tau:colspec colnum="2" colname="2" colwidth="50*"/>
+                  <tau:tbody>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>område</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>euro</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>Fasta Åland</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>602,50</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>Stödområde AB, yttre skärgården</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>881,00</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>Stödområde AB, övriga områden</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>543,40</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                  </tau:tbody>
+                </tau:tgroup>
+              </tau:table>
+            </saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
           <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Beloppet per djur i fråga om bidrag för nötkreatur</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Följande belopp per stödområde och djur beviljas i bidrag för nötkreatur:</saa:MomenttiKooste>
-          <tau:table>
-            <tau:tgroup colsep="1" cols="5" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="20*"/>
-              <tau:colspec colnum="2" colname="2" colwidth="20*"/>
-              <tau:colspec colnum="3" colname="3" colwidth="20*"/>
-              <tau:colspec colnum="4" colname="4" colwidth="20*"/>
-              <tau:colspec colnum="5" colname="5" colwidth="20*"/>
-              <tau:tbody>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Stödområde AB, yttre skärgården euro</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Fasta Åland euro</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Stödområde AB, övriga områden euro</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Stödområde C euro</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>dikor och dikokvigor</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>553,00</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>399,50</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>399,50</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>173,70</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>tjurar och stutar</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>1008,00</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>451,70</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>481,50</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>156,50</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>slaktkvigor</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>-</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>203,30</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>203,30</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>-</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>skärgårdskvigor</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>552,00</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>-</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>-</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>-</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-          </tau:table>
-          <sis:Katkoviiva/>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Följande belopp per stödområde och djur beviljas i bidrag för nötkreatur:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
+              <tau:table>
+                <tau:tgroup colsep="1" cols="5" rowsep="1">
+                  <tau:colspec colnum="1" colname="1" colwidth="20*"/>
+                  <tau:colspec colnum="2" colname="2" colwidth="20*"/>
+                  <tau:colspec colnum="3" colname="3" colwidth="20*"/>
+                  <tau:colspec colnum="4" colname="4" colwidth="20*"/>
+                  <tau:colspec colnum="5" colname="5" colwidth="20*"/>
+                  <tau:tbody>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Stödområde AB, yttre skärgården euro</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Fasta Åland euro</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Stödområde AB, övriga områden euro</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Stödområde C euro</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>dikor och dikokvigor</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>553,00</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>399,50</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>399,50</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>173,70</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>tjurar och stutar</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>1008,00</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>451,70</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>481,50</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>156,50</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>slaktkvigor</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>-</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>203,30</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>203,30</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>-</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>skärgårdskvigor</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>552,00</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>-</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>-</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>-</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                  </tau:tbody>
+                </tau:tgroup>
+              </tau:table>
+            </saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="21 §">
           <saa:PykalaTunnusKooste>21 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Beloppet av bidrag för tackor, hongetter, slaktlamm och slaktkillingar</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Följande belopp per stödområde och djur beviljas i bidrag för tackor, hongetter, slaktlamm och slaktkillingar:</saa:MomenttiKooste>
-          <tau:table>
-            <tau:tgroup colsep="1" cols="5" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="20*"/>
-              <tau:colspec colnum="2" colname="2" colwidth="20*"/>
-              <tau:colspec colnum="3" colname="3" colwidth="20*"/>
-              <tau:colspec colnum="4" colname="4" colwidth="20*"/>
-              <tau:colspec colnum="5" colname="5" colwidth="20*"/>
-              <tau:tbody>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Stödområde AB, yttre skärgården euro</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Fasta Åland euro</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Stödområde AB, övriga områden euro</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Stödområde C euro</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>slaktlamm och slaktkillingar</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>33,80</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>33,80</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>33,80</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>33,80</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>tackor</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>113,00</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>86,70</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>53,40</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>-</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>hongetter</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>285,00</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>285,00</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>285,00</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>-</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-          </tau:table>
-          <sis:Katkoviiva/>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Följande belopp per stödområde och djur beviljas i bidrag för tackor, hongetter, slaktlamm och slaktkillingar:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
+              <tau:table>
+                <tau:tgroup colsep="1" cols="5" rowsep="1">
+                  <tau:colspec colnum="1" colname="1" colwidth="20*"/>
+                  <tau:colspec colnum="2" colname="2" colwidth="20*"/>
+                  <tau:colspec colnum="3" colname="3" colwidth="20*"/>
+                  <tau:colspec colnum="4" colname="4" colwidth="20*"/>
+                  <tau:colspec colnum="5" colname="5" colwidth="20*"/>
+                  <tau:tbody>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Stödområde AB, yttre skärgården euro</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Fasta Åland euro</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Stödområde AB, övriga områden euro</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Stödområde C euro</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>slaktlamm och slaktkillingar</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>33,80</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>33,80</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>33,80</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>33,80</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>tackor</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>113,00</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>86,70</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>53,40</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>-</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>hongetter</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>285,00</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>285,00</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>285,00</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>-</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                  </tau:tbody>
+                </tau:tgroup>
+              </tau:table>
+            </saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="25 §">
           <saa:PykalaTunnusKooste>25 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Beloppet av bidrag för jordbruksgrödor</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Följande belopp per stödområde och hektar beviljas i bidrag för jordbruksgrödor:</saa:MomenttiKooste>
-          <tau:table>
-            <tau:tgroup colsep="1" cols="3" rowsep="1">
-              <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-              <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-              <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-              <tau:tbody>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Stödområde AB euro</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Stödområde Ceuro</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>proteingrödor</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>68,40</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>68,40</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>råg</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>57,40</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>57,40</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>sockerbeta</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>86,60</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>86,60</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>stärkelsepotatis</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>584,20</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>584,20</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>frilandsgrönsaker</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>160,80</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>-</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-          </tau:table>
-          <sis:Katkoviiva/>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Följande belopp per stödområde och hektar beviljas i bidrag för jordbruksgrödor:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
+              <tau:table>
+                <tau:tgroup colsep="1" cols="3" rowsep="1">
+                  <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+                  <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+                  <tau:colspec colnum="3" colname="3" colwidth="33*"/>
+                  <tau:tbody>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Stödområde AB euro</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Stödområde Ceuro</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>proteingrödor</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>68,40</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>68,40</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>råg</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>57,40</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>57,40</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>sockerbeta</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>86,60</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>86,60</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>stärkelsepotatis</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>584,20</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>584,20</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>frilandsgrönsaker</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>160,80</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>-</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                  </tau:tbody>
+                </tau:tgroup>
+              </tau:table>
+            </saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
