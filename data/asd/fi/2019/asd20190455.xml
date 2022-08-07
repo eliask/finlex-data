@@ -56,7 +56,7 @@
                         <sis:KappaleKooste>Alkuaine</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>Pitoisuus%</sis:KappaleKooste>
+                        <sis:KappaleKooste>Pitoisuus %</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
@@ -99,17 +99,20 @@
                   <tau:colspec colnum="5" colname="5" colwidth="20*"/>
                   <tau:tbody>
                     <tau:row>
-                      <tau:entry namest="1" nameend="2">
+                      <tau:entry>
                         <sis:KappaleKooste>Toimitustila</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry morerows="1">
-                        <sis:KappaleKooste>Nimellinen ulkohalkaisijadmm</sis:KappaleKooste>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
                       </tau:entry>
-                      <tau:entry morerows="1">
-                        <sis:KappaleKooste>MurtolujuusR<sis1:AlaindeksiTeksti>m</sis1:AlaindeksiTeksti>MPavähintään</sis:KappaleKooste>
+                      <tau:entry>
+                        <sis:KappaleKooste>Nimellinen ulkohalkaisija</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry morerows="1">
-                        <sis:KappaleKooste>VenymäA%vähintään</sis:KappaleKooste>
+                      <tau:entry>
+                        <sis:KappaleKooste>Murtolujuus</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Venymä</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
@@ -118,6 +121,15 @@
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>Kuvaus</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>d mm</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>R<sis1:AlaindeksiTeksti>m</sis1:AlaindeksiTeksti> MPa vähintään</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>A % vähintään</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
@@ -138,16 +150,16 @@
                       </tau:entry>
                     </tau:row>
                     <tau:row>
-                      <tau:entry morerows="1">
+                      <tau:entry>
                         <sis:KappaleKooste>R250</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry morerows="1">
+                      <tau:entry>
                         <sis:KappaleKooste>puolikova</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>10–64</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry morerows="1">
+                      <tau:entry>
                         <sis:KappaleKooste>250</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
@@ -156,7 +168,16 @@
                     </tau:row>
                     <tau:row>
                       <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
                         <sis:KappaleKooste>76,1–110</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>20</sis:KappaleKooste>
@@ -202,36 +223,59 @@
                   <tau:colspec colnum="4" colname="4" colwidth="25*"/>
                   <tau:tbody>
                     <tau:row>
-                      <tau:entry namest="1" nameend="4">
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
                         <sis:KappaleKooste>Mitat millimetreinä</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
-                      <tau:entry morerows="2">
-                        <sis:KappaleKooste>Nimellinen
-ulkohalkaisijad</sis:KappaleKooste>
+                      <tau:entry>
+                        <sis:KappaleKooste>Nimellinen ulkohalkaisija</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry namest="2" nameend="4">
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
                         <sis:KappaleKooste>Nimellishalkaisijan toleranssit</sis:KappaleKooste>
                       </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                     </tau:row>
                     <tau:row>
                       <tau:entry>
-                        <sis:KappaleKooste>Keskimääräinenulkohalkaisija</sis:KappaleKooste>
+                        <sis:KappaleKooste>d</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry namest="3" nameend="4">
+                      <tau:entry>
+                        <sis:KappaleKooste>Keskimääräinen ulkohalkaisija</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
                         <sis:KappaleKooste>yksittäinen ulkohalkaisija </sis:KappaleKooste>
                       </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                     </tau:row>
                     <tau:row>
                       <tau:entry>
-                        <sis:KappaleKooste>Kaikkitoimitustilat</sis:KappaleKooste>
+                        <sis:KappaleKooste/>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>R290kova</sis:KappaleKooste>
+                        <sis:KappaleKooste>Kaikki toimitustilat</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>R250puolikova</sis:KappaleKooste>
+                        <sis:KappaleKooste>R290 kova</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>R250 puolikova</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
@@ -416,14 +460,32 @@ ulkohalkaisijad</sis:KappaleKooste>
                         <sis:KappaleKooste>± 0,30</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
-                  </tau:tbody>
-                </tau:tgroup>
-                <tau:tgroup colsep="1" cols="1" rowsep="1">
-                  <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-                  <tau:tbody>
                     <tau:row>
                       <tau:entry>
-                        <sis:KappaleKooste>Huomautus: Putkia R220 (hehkutettu) koskevat ainoastaan keskimääräistä ulkohalkaisijaa koskevat toleranssit.<sis1:YlaindeksiTeksti>a)</sis1:YlaindeksiTeksti> Sisältää ympyrämäisyyspoikkeaman.</sis:KappaleKooste>
+                        <sis:KappaleKooste>Huomautus: Putkia R220 (hehkutettu) koskevat ainoastaan keskimääräistä ulkohalkaisijaa koskevat toleranssit.</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste><sis1:YlaindeksiTeksti>a)</sis1:YlaindeksiTeksti> Sisältää ympyrämäisyyspoikkeaman.</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
                       </tau:entry>
                     </tau:row>
                   </tau:tbody>
@@ -439,19 +501,25 @@ ulkohalkaisijad</sis:KappaleKooste>
                   <tau:colspec colnum="3" colname="3" colwidth="33*"/>
                   <tau:tbody>
                     <tau:row>
-                      <tau:entry namest="1" nameend="3">
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
                         <sis:KappaleKooste>Mitat millimetreinä</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
                       <tau:entry>
-                        <sis:KappaleKooste>Nimellinenulkohalkaisijad</sis:KappaleKooste>
+                        <sis:KappaleKooste>Nimellinen ulkohalkaisija d</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>Nimellinenseinämänpaksuuse</sis:KappaleKooste>
+                        <sis:KappaleKooste>Nimellinen seinämänpaksuus e</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>Seinämän paksuuden etoleranssi</sis:KappaleKooste>
+                        <sis:KappaleKooste>Seinämän paksuuden e toleranssi</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
@@ -621,21 +689,20 @@ ulkohalkaisijad</sis:KappaleKooste>
                   <tau:tbody>
                     <tau:row>
                       <tau:entry>
-                        <sis:KappaleKooste>Nimellinen ulkohalkaisijadmm</sis:KappaleKooste>
+                        <sis:KappaleKooste>Nimellinen ulkohalkaisija d mm</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>Toimitustila</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>Kvantitatiivinen menetelmä - kokonaishiilimääräenintäänmg/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                        <sis:KappaleKooste>Kvantitatiivinen menetelmä - kokonaishiilimäärä enintään mg/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
-                        <sis:KappaleKooste>Kvalitatiivinen
-menetelmä</sis:KappaleKooste>
+                        <sis:KappaleKooste>Kvalitatiivinen menetelmä</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
-                      <tau:entry morerows="2">
+                      <tau:entry>
                         <sis:KappaleKooste>10–54</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
@@ -644,28 +711,40 @@ menetelmä</sis:KappaleKooste>
                       <tau:entry>
                         <sis:KappaleKooste>0,20</sis:KappaleKooste>
                       </tau:entry>
-                      <tau:entry morerows="3">
+                      <tau:entry>
                         <sis:KappaleKooste>Vaatimus: ei hiilikalvoa</sis:KappaleKooste>
                       </tau:entry>
                     </tau:row>
                     <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>R250 (puolikova)</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>0,20</sis:KappaleKooste>
                       </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                     </tau:row>
                     <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>R290 (kova)</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>0,20</sis:KappaleKooste>
                       </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                     </tau:row>
                     <tau:row>
-                      <tau:entry morerows="1">
+                      <tau:entry>
                         <sis:KappaleKooste>yli 54</sis:KappaleKooste>
                       </tau:entry>
                       <tau:entry>
@@ -674,8 +753,14 @@ menetelmä</sis:KappaleKooste>
                       <tau:entry>
                         <sis:KappaleKooste>0,20</sis:KappaleKooste>
                       </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                     </tau:row>
                     <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
                       <tau:entry>
                         <sis:KappaleKooste>R290 (kova)</sis:KappaleKooste>
                       </tau:entry>

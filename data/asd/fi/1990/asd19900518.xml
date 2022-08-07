@@ -23,118 +23,122 @@
       <saa:Pykalisto>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Kasvien ja kasvinosien maahan tuonnin yhteydessä suoritetusta kasvintarkastuksesta peritään jokaisesta erikseen tullattavaksi ilmoitetusta tavaraerästä maksu seuraavasti:</saa:MomenttiKooste>
-          <tau:table>
-            <tau:tgroup cols="4" colsep="0" rowsep="0" align="left">
-              <tau:colspec colnum="1" colname="1" colwidth=""/>
-              <tau:colspec colnum="2" colname="2" colwidth=""/>
-              <tau:colspec colnum="3" colname="3" colwidth=""/>
-              <tau:colspec colnum="4" colname="4" colwidth=""/>
-              <tau:tbody valign="top">
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Tullitariffin nimike</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Alanimike</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Tavara </sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Maksu jokaiselta alkavalta sadalta kilolta mk   </sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>07.11</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Kasvikset, väliaikaisesti (esim. rikkidioksidikaasulla tai suolavedessä, rikkihapoke- tai muussa säilöntäliuoksessa) säilöttynä, mutta siinä tilassa välittömään kulutukseen soveltumattomina:</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>90.00:stä</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>-muut kasvikset:</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>multaiset tai multaisessa liuoksessa olevat kuorimattomat ja pesemättömät perunat ja muut juurekset </sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>4,30  </sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Maksu jokaiselta alkavalta  100 kuutiometriltä mk   </sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>44.07</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Puu, sahattu tai veistetty (chipped) pituussuunnassa, tasoleikattu tai viiluksi sorvattu, myös höylätty, hiottu tai sormijatkettu, paksuus yli 6 mm:</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste/>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>10.11-10.90</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>-havupuuta </sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>42,00  </sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-          </tau:table>
-          <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
-            <saa:MomenttiKooste>Tämä asetus tulee voimaan 1 päivänä heinäkuuta 1990.</saa:MomenttiKooste>
-          </saa:Pykala>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Kasvien ja kasvinosien maahan tuonnin yhteydessä suoritetusta kasvintarkastuksesta peritään jokaisesta erikseen tullattavaksi ilmoitetusta tavaraerästä maksu seuraavasti:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
+              <tau:table>
+                <tau:tgroup cols="4" colsep="0" rowsep="0" align="left">
+                  <tau:colspec colnum="1" colname="1" colwidth=""/>
+                  <tau:colspec colnum="2" colname="2" colwidth=""/>
+                  <tau:colspec colnum="3" colname="3" colwidth=""/>
+                  <tau:colspec colnum="4" colname="4" colwidth=""/>
+                  <tau:tbody valign="top">
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>Tullitariffin nimike</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Alanimike</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Tavara </sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Maksu jokaiselta alkavalta sadalta kilolta mk   </sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>07.11</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Kasvikset, väliaikaisesti (esim. rikkidioksidikaasulla tai suolavedessä, rikkihapoke- tai muussa säilöntäliuoksessa) säilöttynä, mutta siinä tilassa välittömään kulutukseen soveltumattomina:</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>90.00:stä</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>-muut kasvikset:</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>multaiset tai multaisessa liuoksessa olevat kuorimattomat ja pesemättömät perunat ja muut juurekset </sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>4,30  </sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Maksu jokaiselta alkavalta  100 kuutiometriltä mk   </sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>44.07</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Puu, sahattu tai veistetty (chipped) pituussuunnassa, tasoleikattu tai viiluksi sorvattu, myös höylätty, hiottu tai sormijatkettu, paksuus yli 6 mm:</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste/>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>10.11-10.90</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>-havupuuta </sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>42,00  </sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                  </tau:tbody>
+                </tau:tgroup>
+              </tau:table>
+            </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+        </saa:Pykala>
+        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
+          <saa:MomenttiKooste>Tämä asetus tulee voimaan 1 päivänä heinäkuuta 1990.</saa:MomenttiKooste>
         </saa:Pykala>
       </saa:Pykalisto>
     </saa:Saados>

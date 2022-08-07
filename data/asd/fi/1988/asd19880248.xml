@@ -23,57 +23,61 @@
       <saa:Pykalisto>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1§">
           <saa:PykalaTunnusKooste>1§</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Kuntien yleisistä rahoitusavustuksista annetun lain (1077/77) 2§:n 1 momentissa, sellaisena kuin se on 20 päivänä joulukuuta 1985 annetussa laissa (1034/85), tarkoitettu tasoitusraja määrätään seuraavasti:</saa:MomenttiKooste>
-          <tau:table>
-            <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
-              <tau:colspec colnum="1" colname="1" colwidth=""/>
-              <tau:colspec colnum="2" colname="2" colwidth=""/>
-              <tau:tbody valign="top">
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>Tasoitusraja</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>Asukastiheys</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>77,5 %</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>alle 0.9 asukasta maaneliökilometriä kohti tai saaristokunta</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>75  %</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>1.0-1.9 asukasta maaneliökilometriä kohti</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>72  %</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>2.0-6.9 asukasta maaneliökilometriä kohti</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-                <tau:row>
-                  <tau:entry>
-                    <sis:KappaleKooste>70  %</sis:KappaleKooste>
-                  </tau:entry>
-                  <tau:entry>
-                    <sis:KappaleKooste>vähintään 7.0 asukasta maaneliökilometriä kohti</sis:KappaleKooste>
-                  </tau:entry>
-                </tau:row>
-              </tau:tbody>
-            </tau:tgroup>
-          </tau:table>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Kuntien yleisistä rahoitusavustuksista annetun lain (1077/77) 2§:n 1 momentissa, sellaisena kuin se on 20 päivänä joulukuuta 1985 annetussa laissa (1034/85), tarkoitettu tasoitusraja määrätään seuraavasti:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
+              <tau:table>
+                <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+                  <tau:colspec colnum="1" colname="1" colwidth=""/>
+                  <tau:colspec colnum="2" colname="2" colwidth=""/>
+                  <tau:tbody valign="top">
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>Tasoitusraja</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>Asukastiheys</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>77,5 %</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>alle 0.9 asukasta maaneliökilometriä kohti tai saaristokunta</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>75  %</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>1.0-1.9 asukasta maaneliökilometriä kohti</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>72  %</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>2.0-6.9 asukasta maaneliökilometriä kohti</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>70  %</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>vähintään 7.0 asukasta maaneliökilometriä kohti</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                  </tau:tbody>
+                </tau:tgroup>
+              </tau:table>
+            </saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+          </saa:KohdatMomentti>
         </saa:Pykala>
-        <sis:Katkoviiva/>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
           <saa:MomenttiKooste>Tämä asetus tulee voimaan 30 päivänä maaliskuuta 1988.</saa:MomenttiKooste>

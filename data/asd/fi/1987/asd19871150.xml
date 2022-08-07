@@ -23,11 +23,13 @@
       <saa:Pykalisto>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Laitoksen jäätiedotuspalveluksista peritään seuraavat maksut:</saa:MomenttiKooste>
-          <te> 1)jäätiedotukset talvikaudelta		600mk</te>
-          <te> 2)jääkartat talvikaudelta			600mk</te>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Laitoksen jäätiedotuspalveluksista peritään seuraavat maksut:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste> 1)jäätiedotukset talvikaudelta		600mk</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste> 2)jääkartat talvikaudelta			600mk</saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+          </saa:KohdatMomentti>
         </saa:Pykala>
-        <sis:Katkoviiva/>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
           <saa:MomenttiKooste>Tämä asetus tulee voimaan 1 päivänä tammikuuta 1988.</saa:MomenttiKooste>

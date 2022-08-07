@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2016-08-30" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -83,7 +83,7 @@
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>A. Lyijy seosaineena</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>A. Lyijy seosaineena</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -211,7 +211,7 @@
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>B. Lyijy ja lyijy-yhdisteet osissa</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>B. Lyijy ja lyijy-yhdisteet osissa</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -365,8 +365,9 @@
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry>8f. b)<sis:KappaleKooste><sis1:LihavaTeksti> </sis1:LihavaTeksti></sis:KappaleKooste>
-Lyijy compliant pin -tyyppisissä nastaliitinjärjestelmissä, muualla kuin ajoneuvojen johdinsarjojen liittimien kytkentäalueella</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>8f. b)<sis1:LihavaTeksti> </sis1:LihavaTeksti>Lyijy compliant pin -tyyppisissä nastaliitinjärjestelmissä, muualla kuin ajoneuvojen johdinsarjojen liittimien kytkentäalueella</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:YlaindeksiTeksti>2)</sis1:YlaindeksiTeksti>
@@ -507,7 +508,7 @@ Lyijy compliant pin -tyyppisissä nastaliitinjärjestelmissä, muualla kuin ajon
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>C. Kuudenarvoinen kromi</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>C. Kuudenarvoinen kromi</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -576,7 +577,7 @@ Lyijy compliant pin -tyyppisissä nastaliitinjärjestelmissä, muualla kuin ajon
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>D. Elohopea</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>D. Elohopea</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -634,7 +635,7 @@ Lyijy compliant pin -tyyppisissä nastaliitinjärjestelmissä, muualla kuin ajon
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>E. Kadmium</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>E. Kadmium</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
