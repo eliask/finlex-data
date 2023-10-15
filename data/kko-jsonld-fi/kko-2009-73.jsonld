@@ -20,33 +20,15 @@
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
-  "isVersionOf": [
-    "ECLI:FI:KKO:2009:73"
+  "issued": [
+    "2009-09-24"
   ],
   "contributor": [
-    "http://data.finlex.fi/person/dbf4bd37",
-    "http://data.finlex.fi/person/a54db943",
-    "http://data.finlex.fi/person/8eaa72fe",
     "http://data.finlex.fi/person/4d2a5e3a",
-    "http://data.finlex.fi/person/c83c8e17"
-  ],
-  "referenceToLegislation": [
-    "http://data.finlex.fi/eli/sd/1889/39/luku/50/pykala/2a",
-    "http://data.finlex.fi/eli/sd/1889/39/luku/23/pykala/3/momentti/2"
-  ],
-  "description": [
-    "http://data.finlex.fi/voc/kko/fin/3943fa61",
-    "http://data.finlex.fi/voc/kko/swe/c8659a16",
-    "http://data.finlex.fi/voc/kko/fin/413ae370",
-    "http://data.finlex.fi/voc/kko/swe/af42abe4",
-    "http://data.finlex.fi/voc/kko/swe/0a3d75d5",
-    "http://data.finlex.fi/voc/kko/fin/14b800e9",
-    "http://data.finlex.fi/voc/kko/fin/0cfef34a",
-    "http://data.finlex.fi/voc/kko/swe/0280ab9d",
-    "http://data.finlex.fi/voc/kko/swe/d777a6b6",
-    "http://data.finlex.fi/voc/kko/fin/8c60c4b2",
-    "http://data.finlex.fi/voc/kko/fin/2864d7ed",
-    "http://data.finlex.fi/voc/kko/swe/9c7e22d8"
+    "http://data.finlex.fi/person/8eaa72fe",
+    "http://data.finlex.fi/person/a54db943",
+    "http://data.finlex.fi/person/c83c8e17",
+    "http://data.finlex.fi/person/dbf4bd37"
   ],
   "judgmentNumber": [
     "73"
@@ -54,17 +36,35 @@
   "date": [
     "2009-06-25"
   ],
-  "issued": [
-    "2009-09-24"
+  "subject": [
+    "http://data.finlex.fi/common/Siviiliasia"
+  ],
+  "referenceToLegislation": [
+    "http://data.finlex.fi/eli/sd/1889/39/luku/50/pykala/2a",
+    "http://data.finlex.fi/eli/sd/1889/39/luku/23/pykala/3/momentti/2"
   ],
   "creator": [
     "http://data.finlex.fi/common/KKO"
   ],
+  "isVersionOf": [
+    "ECLI:FI:KKO:2009:73"
+  ],
   "year": [
     "2009"
   ],
-  "subject": [
-    "http://data.finlex.fi/common/Siviiliasia"
+  "description": [
+    "http://data.finlex.fi/voc/kko/fin/0cfef34a",
+    "http://data.finlex.fi/voc/kko/swe/0280ab9d",
+    "http://data.finlex.fi/voc/kko/fin/3943fa61",
+    "http://data.finlex.fi/voc/kko/swe/af42abe4",
+    "http://data.finlex.fi/voc/kko/fin/14b800e9",
+    "http://data.finlex.fi/voc/kko/swe/0a3d75d5",
+    "http://data.finlex.fi/voc/kko/swe/d777a6b6",
+    "http://data.finlex.fi/voc/kko/fin/8c60c4b2",
+    "http://data.finlex.fi/voc/kko/swe/9c7e22d8",
+    "http://data.finlex.fi/voc/kko/fin/2864d7ed",
+    "http://data.finlex.fi/voc/kko/swe/c8659a16",
+    "http://data.finlex.fi/voc/kko/fin/413ae370"
   ],
   "@context": {
     "languageVersion": {
@@ -97,28 +97,28 @@
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
+    },
+    "issued": {
+      "@id": "dcterms:issued",
+      "@type": "xsd:date"
     },
     "contributor": {
       "@id": "dcterms:contributor",
-      "@type": "@id"
-    },
-    "referenceToLegislation": {
-      "@id": "http://data.finlex.fi/schema/sfcl/referenceToLegislation",
-      "@type": "@id"
-    },
-    "description": {
-      "@id": "dcterms:description",
       "@type": "@id"
     },
     "date": {
       "@id": "dcterms:date",
       "@type": "xsd:date"
     },
-    "issued": {
-      "@id": "dcterms:issued",
-      "@type": "xsd:date"
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
+    },
+    "referenceToLegislation": {
+      "@id": "http://data.finlex.fi/schema/sfcl/referenceToLegislation",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -128,20 +128,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }

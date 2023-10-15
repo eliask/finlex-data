@@ -7,19 +7,15 @@
         "KKO:1989:79"
       ],
       "abstract_fi": [
-        "\n    Kauppa-aluksen ollessa satamassa aluksen palveluksessa oleva merimies oli kansiluukkuja avattaessa pudonnut ruumaan seurauksin, että hän oli kuollut.\n    Virallisen syyttäjän varustamon edustajia ja aluksen päällystöön kuuluvia henkilöitä vastaan nostama, kuolemantuottamusta ynnä muuta koskeva syyteasia oli käsiteltävä merioikeudessa eikä yleisessä tuomioistuimessa, kun asiaa ratkaistaessa oli otettava huomioon myös siihen vaikuttavat merilain ja merimieslain säännökset.\n    Koko oikeustapaus on ruotsinkielisenä FHDR-tietokannassa.\n  "
+        "\n    Kauppa-aluksen ollessa satamassa aluksen palveluksessa oleva merimies oli kansiluukkuja avattaessa pudonnut ruumaan seurauksin, että hän oli kuollut.\n    Virallisen syyttäjän varustamon edustajia ja aluksen päällystöön kuuluvia henkilöitä vastaan nostama, kuolemantuottamusta ynnä muuta koskeva syyteasia oli käsiteltävä merioikeudessa eikä yleisessä tuomioistuimessa, kun asiaa ratkaistaessa oli otettava huomioon myös siihen vaikuttavat merilain ja merimieslain säännökset.\n    Koko oikeustapaus on julkaistu ruotsinkielisenä. Ks. HD:1989:79\n  "
       ]
     }
   ],
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
-  "isVersionOf": [
-    "ECLI:FI:KKO:1989:79"
-  ],
-  "description": [
-    "http://data.finlex.fi/voc/kko/fin/044d7126",
-    "http://data.finlex.fi/voc/kko/swe/4abf5a55"
+  "issued": [
+    "1989-06-29"
   ],
   "judgmentNumber": [
     "79"
@@ -27,17 +23,21 @@
   "date": [
     "1988-11-24"
   ],
-  "issued": [
-    "1989-06-29"
+  "subject": [
+    "http://data.finlex.fi/common/Siviiliasia"
   ],
   "creator": [
     "http://data.finlex.fi/common/KKO"
   ],
+  "isVersionOf": [
+    "ECLI:FI:KKO:1989:79"
+  ],
   "year": [
     "1989"
   ],
-  "subject": [
-    "http://data.finlex.fi/common/Siviiliasia"
+  "description": [
+    "http://data.finlex.fi/voc/kko/fin/044d7126",
+    "http://data.finlex.fi/voc/kko/swe/4abf5a55"
   ],
   "@context": {
     "languageVersion": {
@@ -66,24 +66,24 @@
       "@language": "sv"
     },
     "content_fi": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
     },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
+    "issued": {
+      "@id": "dcterms:issued",
+      "@type": "xsd:date"
     },
     "date": {
       "@id": "dcterms:date",
       "@type": "xsd:date"
     },
-    "issued": {
-      "@id": "dcterms:issued",
-      "@type": "xsd:date"
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -93,20 +93,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }

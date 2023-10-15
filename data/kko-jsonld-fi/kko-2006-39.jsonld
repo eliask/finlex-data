@@ -20,26 +20,15 @@
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
-  "isVersionOf": [
-    "ECLI:FI:KKO:2006:39"
+  "issued": [
+    "2006-05-11"
   ],
   "contributor": [
-    "http://data.finlex.fi/person/9012f386",
-    "http://data.finlex.fi/person/dbf4bd37",
-    "http://data.finlex.fi/person/4d1032ba",
     "http://data.finlex.fi/person/b7a35d25",
+    "http://data.finlex.fi/person/9012f386",
+    "http://data.finlex.fi/person/4d1032ba",
+    "http://data.finlex.fi/person/dbf4bd37",
     "http://data.finlex.fi/person/4d18703f"
-  ],
-  "referenceToLegislation": [
-    "http://data.finlex.fi/eli/sd/1889/39/luku/32/pykala/2",
-    "http://data.finlex.fi/eli/sd/1889/39/luku/3/pykala/2/momentti/1",
-    "http://data.finlex.fi/eli/sd/1889/39/luku/32/pykala/7"
-  ],
-  "description": [
-    "http://data.finlex.fi/voc/kko/swe/acee66dc",
-    "http://data.finlex.fi/voc/kko/fin/b154771e",
-    "http://data.finlex.fi/voc/kko/swe/eeef8a5c",
-    "http://data.finlex.fi/voc/kko/fin/3e5ed50b"
   ],
   "judgmentNumber": [
     "39"
@@ -47,17 +36,28 @@
   "date": [
     "2005-12-15"
   ],
-  "issued": [
-    "2006-05-11"
+  "subject": [
+    "http://data.finlex.fi/common/Siviiliasia"
+  ],
+  "referenceToLegislation": [
+    "http://data.finlex.fi/eli/sd/1889/39/luku/32/pykala/2",
+    "http://data.finlex.fi/eli/sd/1889/39/luku/3/pykala/2/momentti/1",
+    "http://data.finlex.fi/eli/sd/1889/39/luku/32/pykala/7"
   ],
   "creator": [
     "http://data.finlex.fi/common/KKO"
   ],
+  "isVersionOf": [
+    "ECLI:FI:KKO:2006:39"
+  ],
   "year": [
     "2006"
   ],
-  "subject": [
-    "http://data.finlex.fi/common/Siviiliasia"
+  "description": [
+    "http://data.finlex.fi/voc/kko/fin/b154771e",
+    "http://data.finlex.fi/voc/kko/swe/acee66dc",
+    "http://data.finlex.fi/voc/kko/swe/eeef8a5c",
+    "http://data.finlex.fi/voc/kko/fin/3e5ed50b"
   ],
   "@context": {
     "languageVersion": {
@@ -90,28 +90,28 @@
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
+    },
+    "issued": {
+      "@id": "dcterms:issued",
+      "@type": "xsd:date"
     },
     "contributor": {
       "@id": "dcterms:contributor",
-      "@type": "@id"
-    },
-    "referenceToLegislation": {
-      "@id": "http://data.finlex.fi/schema/sfcl/referenceToLegislation",
-      "@type": "@id"
-    },
-    "description": {
-      "@id": "dcterms:description",
       "@type": "@id"
     },
     "date": {
       "@id": "dcterms:date",
       "@type": "xsd:date"
     },
-    "issued": {
-      "@id": "dcterms:issued",
-      "@type": "xsd:date"
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
+    },
+    "referenceToLegislation": {
+      "@id": "http://data.finlex.fi/schema/sfcl/referenceToLegislation",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -121,20 +121,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }

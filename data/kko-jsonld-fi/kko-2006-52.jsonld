@@ -7,29 +7,15 @@
         "KKO:2006:52"
       ],
       "abstract_fi": [
-        "\n    A oli käräjäoikeudessa tuomittu rangaistukseen vesiliikennerikkomuksesta, koska hän oli tahallaan tai huolimattomuudesta rikkonut vesiliikennelakia kuljettamalla alusta, josta oli puuttunut hyväksytty käsisammutin. Kysymys siitä, ilmenikö tämän laiminlyönnin rangaistavuus laista sillä tavoin kuin rikosoikeudellinen laillisuusperiaate edellyttää.\n    Kysymys myös seulontamenettelyn edellytyksistä hovioikeudessa.\n    VesiliikenneL 24 § 1 mom\nPL 8 §\nRL 3 luku 1 §\nOK 26 luku 2 § 1 mom 2 kohta\n    Ruotsiksi HD:2006:52\n  "
+        "\n    A oli käräjäoikeudessa tuomittu rangaistukseen vesiliikennerikkomuksesta, koska hän oli tahallaan tai huolimattomuudesta rikkonut vesiliikennelakia kuljettamalla alusta, josta oli puuttunut hyväksytty käsisammutin. Kysymys siitä, ilmenikö tämän laiminlyönnin rangaistavuus laista sillä tavoin kuin rikosoikeudellinen laillisuusperiaate edellyttää.\n    Kysymys myös seulontamenettelyn edellytyksistä hovioikeudessa.\n    VesiliikenneL 24 § 1 mom\nPL 8 §\nRL 3 luku 1 §\nOK 26 luku 2 § 1 mom 2 kohta\n    Koko oikeustapaus on julkaistu ruotsinkielisenä. Ks. HD:2006:52\n  "
       ]
     }
   ],
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
-  "isVersionOf": [
-    "ECLI:FI:KKO:2006:52"
-  ],
-  "referenceToLegislation": [
-    "http://data.finlex.fi/eli/sd/1999/731/luku/2/pykala/8",
-    "http://data.finlex.fi/eli/sd/1996/463/luku/5/pykala/24/momentti/1",
-    "http://data.finlex.fi/eli/sd/1734/4/luku/26/pykala/24/momentti/1/kohta/2",
-    "http://data.finlex.fi/eli/sd/1889/39/luku/3/pykala/1"
-  ],
-  "description": [
-    "http://data.finlex.fi/voc/kko/swe/01902de2",
-    "http://data.finlex.fi/voc/kko/fin/2053e90e",
-    "http://data.finlex.fi/voc/kko/swe/c4de781b",
-    "http://data.finlex.fi/voc/kko/fin/bc7ec948",
-    "http://data.finlex.fi/voc/kko/fin/c3afc134",
-    "http://data.finlex.fi/voc/kko/swe/e1bc559e"
+  "issued": [
+    "2006-06-13"
   ],
   "judgmentNumber": [
     "52"
@@ -37,17 +23,31 @@
   "date": [
     "2006-02-16"
   ],
-  "issued": [
-    "2006-06-13"
+  "subject": [
+    "http://data.finlex.fi/common/Siviiliasia"
+  ],
+  "referenceToLegislation": [
+    "http://data.finlex.fi/eli/sd/1996/463/luku/5/pykala/24/momentti/1",
+    "http://data.finlex.fi/eli/sd/1999/731/luku/2/pykala/8",
+    "http://data.finlex.fi/eli/sd/1889/39/luku/3/pykala/1",
+    "http://data.finlex.fi/eli/sd/1734/4/luku/26/pykala/24/momentti/1/kohta/2"
   ],
   "creator": [
     "http://data.finlex.fi/common/KKO"
   ],
+  "isVersionOf": [
+    "ECLI:FI:KKO:2006:52"
+  ],
   "year": [
     "2006"
   ],
-  "subject": [
-    "http://data.finlex.fi/common/Siviiliasia"
+  "description": [
+    "http://data.finlex.fi/voc/kko/fin/2053e90e",
+    "http://data.finlex.fi/voc/kko/swe/c4de781b",
+    "http://data.finlex.fi/voc/kko/swe/01902de2",
+    "http://data.finlex.fi/voc/kko/fin/bc7ec948",
+    "http://data.finlex.fi/voc/kko/fin/c3afc134",
+    "http://data.finlex.fi/voc/kko/swe/e1bc559e"
   ],
   "@context": {
     "languageVersion": {
@@ -76,28 +76,28 @@
       "@language": "sv"
     },
     "content_fi": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
     },
-    "referenceToLegislation": {
-      "@id": "http://data.finlex.fi/schema/sfcl/referenceToLegislation",
-      "@type": "@id"
-    },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
+    "issued": {
+      "@id": "dcterms:issued",
+      "@type": "xsd:date"
     },
     "date": {
       "@id": "dcterms:date",
       "@type": "xsd:date"
     },
-    "issued": {
-      "@id": "dcterms:issued",
-      "@type": "xsd:date"
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
+    },
+    "referenceToLegislation": {
+      "@id": "http://data.finlex.fi/schema/sfcl/referenceToLegislation",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -107,20 +107,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }

@@ -20,26 +20,26 @@
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
-  "isVersionOf": [
-    "ECLI:FI:KKO:1984:I2"
-  ],
-  "description": [
-    "http://data.finlex.fi/voc/kko/fin/2053e90e"
+  "issued": [
+    "1984-06-26"
   ],
   "judgmentNumber": [
     "I2"
   ],
-  "issued": [
-    "1984-06-26"
+  "subject": [
+    "http://data.finlex.fi/common/Siviiliasia"
   ],
   "creator": [
     "http://data.finlex.fi/common/KKO"
   ],
+  "isVersionOf": [
+    "ECLI:FI:KKO:1984:I2"
+  ],
   "year": [
     "1984"
   ],
-  "subject": [
-    "http://data.finlex.fi/common/Siviiliasia"
+  "description": [
+    "http://data.finlex.fi/voc/kko/fin/2053e90e"
   ],
   "@context": {
     "languageVersion": {
@@ -72,16 +72,16 @@
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
-    },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
     },
     "issued": {
       "@id": "dcterms:issued",
       "@type": "xsd:date"
+    },
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -91,20 +91,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }

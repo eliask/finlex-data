@@ -7,21 +7,15 @@
         "KKO:2012:37"
       ],
       "abstract_fi": [
-        "\n    Suomalaista yhtiötä edustaneen A:n vuonna 1997 tekemän sopimuksen perusteella yhtiö oli maksanut ulkomaiselle virkamiehelle 2.1.1998 ja 19.10.2001 välisenä aikana viidessä erässä yhteensä kolme miljoonaa Iso-Britannian puntaa. Syyttäjä vaati A:n tuomitsemista rangaistukseen törkeästä lahjuksen antamisesta 1.1.1999 jälkeen suoritettujen maksuerien osalta. Kysymys lahjuksen antamista koskevien säännösten soveltamisesta, kun lahjuksen antaminen ulkomaiselle virkamiehelle on säädetty rangaistavaksi 1.1.1999 voimaan tulleella lailla. (Ään.)\n    På svenska HD:2012:37\n  "
+        "\n    Suomalaista yhtiötä edustaneen A:n vuonna 1997 tekemän sopimuksen perusteella yhtiö oli maksanut ulkomaiselle virkamiehelle 2.1.1998 ja 19.10.2001 välisenä aikana viidessä erässä yhteensä kolme miljoonaa Iso-Britannian puntaa. Syyttäjä vaati A:n tuomitsemista rangaistukseen törkeästä lahjuksen antamisesta 1.1.1999 jälkeen suoritettujen maksuerien osalta. Kysymys lahjuksen antamista koskevien säännösten soveltamisesta, kun lahjuksen antaminen ulkomaiselle virkamiehelle on säädetty rangaistavaksi 1.1.1999 voimaan tulleella lailla. (Ään.)\n    Koko oikeustapaus on julkaistu ruotsinkielisenä. Ks. HD:2012:37\n  "
       ]
     }
   ],
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
-  "isVersionOf": [
-    "ECLI:FI:KKO:2012:37"
-  ],
-  "description": [
-    "http://data.finlex.fi/voc/kko/swe/0a3d75d5",
-    "http://data.finlex.fi/voc/kko/fin/14b800e9",
-    "http://data.finlex.fi/voc/kko/fin/8e1c279b",
-    "http://data.finlex.fi/voc/kko/swe/24585835"
+  "issued": [
+    "2012-03-29"
   ],
   "judgmentNumber": [
     "37"
@@ -29,17 +23,23 @@
   "date": [
     "2011-11-15"
   ],
-  "issued": [
-    "2012-03-29"
+  "subject": [
+    "http://data.finlex.fi/common/Siviiliasia"
   ],
   "creator": [
     "http://data.finlex.fi/common/KKO"
   ],
+  "isVersionOf": [
+    "ECLI:FI:KKO:2012:37"
+  ],
   "year": [
     "2012"
   ],
-  "subject": [
-    "http://data.finlex.fi/common/Siviiliasia"
+  "description": [
+    "http://data.finlex.fi/voc/kko/swe/24585835",
+    "http://data.finlex.fi/voc/kko/fin/8e1c279b",
+    "http://data.finlex.fi/voc/kko/fin/14b800e9",
+    "http://data.finlex.fi/voc/kko/swe/0a3d75d5"
   ],
   "@context": {
     "languageVersion": {
@@ -68,24 +68,24 @@
       "@language": "sv"
     },
     "content_fi": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
     },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
+    "issued": {
+      "@id": "dcterms:issued",
+      "@type": "xsd:date"
     },
     "date": {
       "@id": "dcterms:date",
       "@type": "xsd:date"
     },
-    "issued": {
-      "@id": "dcterms:issued",
-      "@type": "xsd:date"
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -95,20 +95,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }

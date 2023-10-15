@@ -14,21 +14,8 @@
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
-  "isVersionOf": [
-    "ECLI:FI:KKO:2008:114"
-  ],
-  "referenceToLegislation": [
-    "http://data.finlex.fi/eli/sd/1734/4/luku/15/pykala/2"
-  ],
-  "description": [
-    "http://data.finlex.fi/voc/kko/swe/afb85dce",
-    "http://data.finlex.fi/voc/kko/fin/3309a185",
-    "http://data.finlex.fi/voc/kko/fin/3dfe4329",
-    "http://data.finlex.fi/voc/kko/swe/f028e85f",
-    "http://data.finlex.fi/voc/kko/fin/e72bcabb",
-    "http://data.finlex.fi/voc/kko/fin/d13d4005",
-    "http://data.finlex.fi/voc/kko/swe/14ef4a86",
-    "http://data.finlex.fi/voc/kko/fin/054af12b"
+  "issued": [
+    "2008-12-19"
   ],
   "judgmentNumber": [
     "114"
@@ -36,14 +23,27 @@
   "date": [
     "2008-12-17"
   ],
-  "issued": [
-    "2008-12-19"
+  "referenceToLegislation": [
+    "http://data.finlex.fi/eli/sd/1734/4/luku/15/pykala/2"
   ],
   "creator": [
     "http://data.finlex.fi/common/KKO"
   ],
+  "isVersionOf": [
+    "ECLI:FI:KKO:2008:114"
+  ],
   "year": [
     "2008"
+  ],
+  "description": [
+    "http://data.finlex.fi/voc/kko/fin/3309a185",
+    "http://data.finlex.fi/voc/kko/fin/d13d4005",
+    "http://data.finlex.fi/voc/kko/swe/14ef4a86",
+    "http://data.finlex.fi/voc/kko/swe/afb85dce",
+    "http://data.finlex.fi/voc/kko/fin/3dfe4329",
+    "http://data.finlex.fi/voc/kko/swe/f028e85f",
+    "http://data.finlex.fi/voc/kko/fin/e72bcabb",
+    "http://data.finlex.fi/voc/kko/fin/054af12b"
   ],
   "@context": {
     "languageVersion": {
@@ -72,28 +72,24 @@
       "@language": "sv"
     },
     "content_fi": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
     },
-    "referenceToLegislation": {
-      "@id": "http://data.finlex.fi/schema/sfcl/referenceToLegislation",
-      "@type": "@id"
-    },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
+    "issued": {
+      "@id": "dcterms:issued",
+      "@type": "xsd:date"
     },
     "date": {
       "@id": "dcterms:date",
       "@type": "xsd:date"
     },
-    "issued": {
-      "@id": "dcterms:issued",
-      "@type": "xsd:date"
+    "referenceToLegislation": {
+      "@id": "http://data.finlex.fi/schema/sfcl/referenceToLegislation",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -103,16 +99,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    "description": {
+      "@id": "dcterms:description",
+      "@type": "@id"
+    }
   }
 }

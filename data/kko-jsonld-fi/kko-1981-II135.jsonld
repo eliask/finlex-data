@@ -20,14 +20,8 @@
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
-  "isVersionOf": [
-    "ECLI:FI:KKO:1981:II135"
-  ],
-  "description": [
-    "http://data.finlex.fi/voc/kko/swe/1d9db1eb",
-    "http://data.finlex.fi/voc/kko/fin/044d7126",
-    "http://data.finlex.fi/voc/kko/swe/4abf5a55",
-    "http://data.finlex.fi/voc/kko/fin/faa807dc"
+  "issued": [
+    "1981-10-20"
   ],
   "judgmentNumber": [
     "II135"
@@ -35,14 +29,20 @@
   "date": [
     "1981-07-06"
   ],
-  "issued": [
-    "1981-10-20"
-  ],
   "creator": [
     "http://data.finlex.fi/common/KKO"
   ],
+  "isVersionOf": [
+    "ECLI:FI:KKO:1981:II135"
+  ],
   "year": [
     "1981"
+  ],
+  "description": [
+    "http://data.finlex.fi/voc/kko/fin/044d7126",
+    "http://data.finlex.fi/voc/kko/swe/4abf5a55",
+    "http://data.finlex.fi/voc/kko/swe/1d9db1eb",
+    "http://data.finlex.fi/voc/kko/fin/faa807dc"
   ],
   "@context": {
     "languageVersion": {
@@ -75,19 +75,15 @@
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
-    },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
-    },
-    "date": {
-      "@id": "dcterms:date",
-      "@type": "xsd:date"
     },
     "issued": {
       "@id": "dcterms:issued",
+      "@type": "xsd:date"
+    },
+    "date": {
+      "@id": "dcterms:date",
       "@type": "xsd:date"
     },
     "creator": {
@@ -98,16 +94,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    "description": {
+      "@id": "dcterms:description",
+      "@type": "@id"
+    }
   }
 }

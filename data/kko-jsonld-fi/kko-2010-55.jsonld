@@ -7,23 +7,15 @@
         "KKO:2010:55"
       ],
       "abstract_fi": [
-        "\n    G:ltä oli leikattu suonikohjut kummastakin alaraajasta. Toisen alaraajan leikkaushaava tulehtui, mutta parani noin kahden kuukauden kuluessa, minä aikana G oli saanut antibioottihoitoa ja ollut sairauslomalla. G oli sittemmin tuntenut särkyä, turvotusta ja voimattomuuden tunnetta alaraajassa. Kysymys siitä, oliko G oikeutettu korvaukseen potilasvahinkolain nojalla.\n    PotilasvahinkoL 2 § 1 mom 3 kohta\n    Ruotsiksi HD:2010:55\n  "
+        "\n    A:lta oli leikattu suonikohjut kummastakin alaraajasta. Toisen alaraajan leikkaushaava tulehtui, mutta parani noin kahden kuukauden kuluessa, minä aikana A oli saanut antibioottihoitoa ja ollut sairauslomalla. A oli sittemmin tuntenut särkyä, turvotusta ja voimattomuuden tunnetta alaraajassa. Kysymys siitä, oliko A oikeutettu korvaukseen potilasvahinkolain nojalla.\n    PotilasvahinkoL 2 § 1 mom 3 kohta\n    Koko oikeustapaus on julkaistu ruotsinkielisenä. Ks. HD:2010:55\n  "
       ]
     }
   ],
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
-  "isVersionOf": [
-    "ECLI:FI:KKO:2010:55"
-  ],
-  "description": [
-    "http://data.finlex.fi/voc/kko/swe/19c0955e",
-    "http://data.finlex.fi/voc/kko/fin/1f17e678",
-    "http://data.finlex.fi/voc/kko/swe/1a9031db",
-    "http://data.finlex.fi/voc/kko/fin/ca8245ad",
-    "http://data.finlex.fi/voc/kko/fin/c2e658b5",
-    "http://data.finlex.fi/voc/kko/swe/c27365d8"
+  "issued": [
+    "2010-08-18"
   ],
   "judgmentNumber": [
     "55"
@@ -31,17 +23,25 @@
   "date": [
     "2010-03-22"
   ],
-  "issued": [
-    "2010-08-18"
+  "subject": [
+    "http://data.finlex.fi/common/Rikosasia"
   ],
   "creator": [
     "http://data.finlex.fi/common/KKO"
   ],
+  "isVersionOf": [
+    "ECLI:FI:KKO:2010:55"
+  ],
   "year": [
     "2010"
   ],
-  "subject": [
-    "http://data.finlex.fi/common/Rikosasia"
+  "description": [
+    "http://data.finlex.fi/voc/kko/fin/1f17e678",
+    "http://data.finlex.fi/voc/kko/swe/1a9031db",
+    "http://data.finlex.fi/voc/kko/fin/ca8245ad",
+    "http://data.finlex.fi/voc/kko/fin/c2e658b5",
+    "http://data.finlex.fi/voc/kko/swe/19c0955e",
+    "http://data.finlex.fi/voc/kko/swe/c27365d8"
   ],
   "@context": {
     "languageVersion": {
@@ -70,24 +70,24 @@
       "@language": "sv"
     },
     "content_fi": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
     },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
+    "issued": {
+      "@id": "dcterms:issued",
+      "@type": "xsd:date"
     },
     "date": {
       "@id": "dcterms:date",
       "@type": "xsd:date"
     },
-    "issued": {
-      "@id": "dcterms:issued",
-      "@type": "xsd:date"
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -97,20 +97,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }
