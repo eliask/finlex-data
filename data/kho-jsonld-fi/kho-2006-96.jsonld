@@ -20,32 +20,32 @@
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
+  "issued": [
+    "2006-12-19"
+  ],
+  "judgmentNumber": [
+    "96"
+  ],
+  "subject": [
+    "http://data.finlex.fi/common/Hallinto-oikeus"
+  ],
+  "creator": [
+    "http://data.finlex.fi/common/KHO"
+  ],
   "isVersionOf": [
     "ECLI:FI:KHO:2006:96"
   ],
+  "year": [
+    "2006"
+  ],
   "description": [
-    "http://data.finlex.fi/voc/kho/fin/99f557bc",
     "http://data.finlex.fi/voc/kho/fin/bfcd9b3d",
+    "http://data.finlex.fi/voc/kho/fin/99f557bc",
     "http://data.finlex.fi/voc/kho/fin/8764a5b8",
     "http://data.finlex.fi/voc/kho/fin/75878769",
     "http://data.finlex.fi/voc/kho/fin/0a910194",
     "http://data.finlex.fi/voc/kho/fin/50ae2ffc",
     "http://data.finlex.fi/voc/kho/fin/4eb2444f"
-  ],
-  "judgmentNumber": [
-    "96"
-  ],
-  "issued": [
-    "2006-12-19"
-  ],
-  "creator": [
-    "http://data.finlex.fi/common/KHO"
-  ],
-  "year": [
-    "2006"
-  ],
-  "subject": [
-    "http://data.finlex.fi/common/Hallinto-oikeus"
   ],
   "@context": {
     "languageVersion": {
@@ -78,16 +78,16 @@
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
-    },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
     },
     "issued": {
       "@id": "dcterms:issued",
       "@type": "xsd:date"
+    },
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -97,20 +97,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }

@@ -20,33 +20,33 @@
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
+  "issued": [
+    "2011-03-29"
+  ],
+  "judgmentNumber": [
+    "30"
+  ],
+  "subject": [
+    "http://data.finlex.fi/common/Hallinto-oikeus"
+  ],
+  "creator": [
+    "http://data.finlex.fi/common/KHO"
+  ],
   "isVersionOf": [
     "ECLI:FI:KHO:2011:30"
   ],
+  "year": [
+    "2011"
+  ],
   "description": [
-    "http://data.finlex.fi/voc/kho/fin/faad41b7",
     "http://data.finlex.fi/voc/kho/fin/edd0479e",
+    "http://data.finlex.fi/voc/kho/fin/faad41b7",
     "http://data.finlex.fi/voc/kho/fin/a313e4f9",
     "http://data.finlex.fi/voc/kho/fin/c0818fff",
     "http://data.finlex.fi/voc/kho/fin/da84da5d",
     "http://data.finlex.fi/voc/kho/fin/d20f60eb",
     "http://data.finlex.fi/voc/kho/fin/9aedfb88",
     "http://data.finlex.fi/voc/kho/fin/00e8c4b1"
-  ],
-  "judgmentNumber": [
-    "30"
-  ],
-  "issued": [
-    "2011-03-29"
-  ],
-  "creator": [
-    "http://data.finlex.fi/common/KHO"
-  ],
-  "year": [
-    "2011"
-  ],
-  "subject": [
-    "http://data.finlex.fi/common/Hallinto-oikeus"
   ],
   "@context": {
     "languageVersion": {
@@ -79,16 +79,16 @@
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
-    },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
     },
     "issued": {
       "@id": "dcterms:issued",
       "@type": "xsd:date"
+    },
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -98,20 +98,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }

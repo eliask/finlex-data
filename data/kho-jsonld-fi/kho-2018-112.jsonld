@@ -20,36 +20,51 @@
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
-  "isVersionOf": [
-    "ECLI:FI:KHO:2018:112"
-  ],
-  "description": [
-    "http://data.finlex.fi/voc/kho/fin/fe9df89d",
-    "http://data.finlex.fi/voc/kho/fin/0f88ecd2",
-    "http://data.finlex.fi/voc/kho/swe/65e8aad5",
-    "http://data.finlex.fi/voc/kho/swe/1b9a45af",
-    "http://data.finlex.fi/voc/kho/fin/66a6c26e",
-    "http://data.finlex.fi/voc/kho/fin/c7d10ade",
-    "http://data.finlex.fi/voc/kho/swe/c2c4a3a5",
-    "http://data.finlex.fi/voc/kho/swe/f6bb6dd3",
-    "http://data.finlex.fi/voc/kho/fin/9335f2b4",
-    "http://data.finlex.fi/voc/kho/swe/548ca752",
-    "http://data.finlex.fi/voc/kho/fin/228bc2ee"
+  "issued": [
+    "2018-08-17"
   ],
   "judgmentNumber": [
     "112"
   ],
-  "issued": [
-    "2018-08-17"
+  "subject": [
+    "http://data.finlex.fi/common/Hallinto-oikeus"
   ],
   "creator": [
     "http://data.finlex.fi/common/KHO"
   ],
+  "isVersionOf": [
+    "ECLI:FI:KHO:2018:112"
+  ],
   "year": [
     "2018"
   ],
-  "subject": [
-    "http://data.finlex.fi/common/Hallinto-oikeus"
+  "description": [
+    "http://data.finlex.fi/voc/kho/fin/66a6c26e",
+    "http://data.finlex.fi/voc/kho/fin/9335f2b4",
+    "http://data.finlex.fi/voc/kho/fin/c7d10ade",
+    "http://data.finlex.fi/voc/kho/swe/f6bb6dd3",
+    "http://data.finlex.fi/voc/kho/fin/fe9df89d",
+    "http://data.finlex.fi/voc/kho/swe/65e8aad5",
+    "http://data.finlex.fi/voc/kho/swe/1b9a45af",
+    "http://data.finlex.fi/voc/kho/fin/0f88ecd2",
+    "http://data.finlex.fi/voc/kho/swe/785ffd2a",
+    "http://data.finlex.fi/voc/kho/swe/548ca752",
+    "http://data.finlex.fi/voc/kho/swe/c2c4a3a5",
+    "http://data.finlex.fi/voc/kho/fin/9ead59e9",
+    "http://data.finlex.fi/voc/kho/fin/029ad13c",
+    "http://data.finlex.fi/voc/kho/fin/88f24329",
+    "http://data.finlex.fi/voc/kho/swe/7ae5be55",
+    "http://data.finlex.fi/voc/kho/swe/64e99b33",
+    "http://data.finlex.fi/voc/kho/fin/228bc2ee",
+    "http://data.finlex.fi/voc/kho/fin/81c512e7",
+    "http://data.finlex.fi/voc/kho/swe/4e005356",
+    "http://data.finlex.fi/voc/kho/swe/b8d75dab",
+    "http://data.finlex.fi/voc/kho/fin/5ab7b8f0",
+    "http://data.finlex.fi/voc/kho/swe/ab4e10e3",
+    "http://data.finlex.fi/voc/kho/fin/e1e595dd",
+    "http://data.finlex.fi/voc/kho/swe/a301ecd2",
+    "http://data.finlex.fi/voc/kho/fin/0a134f54",
+    "http://data.finlex.fi/voc/kho/swe/cd34db8e"
   ],
   "@context": {
     "languageVersion": {
@@ -82,16 +97,16 @@
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
-    },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
     },
     "issued": {
       "@id": "dcterms:issued",
       "@type": "xsd:date"
+    },
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -101,20 +116,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }

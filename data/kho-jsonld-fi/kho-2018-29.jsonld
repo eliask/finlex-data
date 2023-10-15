@@ -20,47 +20,47 @@
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
-  "isVersionOf": [
-    "ECLI:FI:KHO:2018:29"
-  ],
-  "description": [
-    "http://data.finlex.fi/voc/kho/swe/b24b2e6a",
-    "http://data.finlex.fi/voc/kho/swe/97b2f071",
-    "http://data.finlex.fi/voc/kho/fin/733a6ddb",
-    "http://data.finlex.fi/voc/kho/fin/9f757d63",
-    "http://data.finlex.fi/voc/kho/fin/e7fd2e24",
-    "http://data.finlex.fi/voc/kho/swe/245659c9",
-    "http://data.finlex.fi/voc/kho/fin/74c4bdd0",
-    "http://data.finlex.fi/voc/kho/fin/0bd00c9d",
-    "http://data.finlex.fi/voc/kho/swe/136c0ab6",
-    "http://data.finlex.fi/voc/kho/swe/f779998d",
-    "http://data.finlex.fi/voc/kho/fin/269efb2e",
-    "http://data.finlex.fi/voc/kho/swe/f112c23b",
-    "http://data.finlex.fi/voc/kho/fin/dce26428",
-    "http://data.finlex.fi/voc/kho/swe/0d8aa773",
-    "http://data.finlex.fi/voc/kho/swe/e10658ed",
-    "http://data.finlex.fi/voc/kho/swe/99cd87bb",
-    "http://data.finlex.fi/voc/kho/fin/0143cf30",
-    "http://data.finlex.fi/voc/kho/fin/01970133",
-    "http://data.finlex.fi/voc/kho/fin/364f6da1",
-    "http://data.finlex.fi/voc/kho/fin/4e148ce0",
-    "http://data.finlex.fi/voc/kho/swe/f8d37547",
-    "http://data.finlex.fi/voc/kho/swe/5dd15a25"
+  "issued": [
+    "2018-02-16"
   ],
   "judgmentNumber": [
     "29"
   ],
-  "issued": [
-    "2018-02-16"
+  "subject": [
+    "http://data.finlex.fi/common/Hallinto-oikeus"
   ],
   "creator": [
     "http://data.finlex.fi/common/KHO"
   ],
+  "isVersionOf": [
+    "ECLI:FI:KHO:2018:29"
+  ],
   "year": [
     "2018"
   ],
-  "subject": [
-    "http://data.finlex.fi/common/Hallinto-oikeus"
+  "description": [
+    "http://data.finlex.fi/voc/kho/fin/733a6ddb",
+    "http://data.finlex.fi/voc/kho/fin/9f757d63",
+    "http://data.finlex.fi/voc/kho/swe/97b2f071",
+    "http://data.finlex.fi/voc/kho/fin/74c4bdd0",
+    "http://data.finlex.fi/voc/kho/fin/dce26428",
+    "http://data.finlex.fi/voc/kho/fin/0bd00c9d",
+    "http://data.finlex.fi/voc/kho/swe/0d8aa773",
+    "http://data.finlex.fi/voc/kho/fin/e7fd2e24",
+    "http://data.finlex.fi/voc/kho/swe/245659c9",
+    "http://data.finlex.fi/voc/kho/swe/136c0ab6",
+    "http://data.finlex.fi/voc/kho/swe/f779998d",
+    "http://data.finlex.fi/voc/kho/fin/269efb2e",
+    "http://data.finlex.fi/voc/kho/swe/f112c23b",
+    "http://data.finlex.fi/voc/kho/swe/e10658ed",
+    "http://data.finlex.fi/voc/kho/swe/99cd87bb",
+    "http://data.finlex.fi/voc/kho/fin/0143cf30",
+    "http://data.finlex.fi/voc/kho/fin/01970133",
+    "http://data.finlex.fi/voc/kho/swe/b24b2e6a",
+    "http://data.finlex.fi/voc/kho/fin/364f6da1",
+    "http://data.finlex.fi/voc/kho/fin/4e148ce0",
+    "http://data.finlex.fi/voc/kho/swe/f8d37547",
+    "http://data.finlex.fi/voc/kho/swe/5dd15a25"
   ],
   "@context": {
     "languageVersion": {
@@ -93,16 +93,16 @@
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
-    },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
     },
     "issued": {
       "@id": "dcterms:issued",
       "@type": "xsd:date"
+    },
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -112,20 +112,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }

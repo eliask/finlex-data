@@ -20,55 +20,55 @@
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
+  "issued": [
+    "2007-05-08"
+  ],
+  "judgmentNumber": [
+    "T1159"
+  ],
+  "subject": [
+    "http://data.finlex.fi/common/Hallinto-oikeus"
+  ],
+  "creator": [
+    "http://data.finlex.fi/common/KHO"
+  ],
   "isVersionOf": [
     "ECLI:FI:KHO:2007:T1159"
   ],
+  "year": [
+    "2007"
+  ],
   "description": [
+    "http://data.finlex.fi/voc/kho/fin/5598f5f0",
     "http://data.finlex.fi/voc/kho/fin/009f4803",
     "http://data.finlex.fi/voc/kho/fin/6f4725ac",
     "http://data.finlex.fi/voc/kho/fin/62923c83",
-    "http://data.finlex.fi/voc/kho/fin/5598f5f0",
+    "http://data.finlex.fi/voc/kho/fin/8764a5b8",
+    "http://data.finlex.fi/voc/kho/swe/6a16272b",
+    "http://data.finlex.fi/voc/kho/swe/626e12ed",
+    "http://data.finlex.fi/voc/kho/swe/bbdd1d60",
+    "http://data.finlex.fi/voc/kho/fin/3932a1e5",
+    "http://data.finlex.fi/voc/kho/fin/31c9572f",
+    "http://data.finlex.fi/voc/kho/fin/f12408de",
     "http://data.finlex.fi/voc/kho/fin/da4a3544",
     "http://data.finlex.fi/voc/kho/swe/8e83c159",
     "http://data.finlex.fi/voc/kho/fin/5be8fefd",
     "http://data.finlex.fi/voc/kho/swe/6ecef37b",
     "http://data.finlex.fi/voc/kho/fin/24b83f89",
-    "http://data.finlex.fi/voc/kho/swe/626e12ed",
     "http://data.finlex.fi/voc/kho/swe/fbf73d80",
     "http://data.finlex.fi/voc/kho/swe/e30cfab1",
-    "http://data.finlex.fi/voc/kho/fin/3932a1e5",
     "http://data.finlex.fi/voc/kho/fin/b7a832cd",
     "http://data.finlex.fi/voc/kho/swe/739cd269",
     "http://data.finlex.fi/voc/kho/fin/f947e1bc",
     "http://data.finlex.fi/voc/kho/swe/57bc1211",
-    "http://data.finlex.fi/voc/kho/swe/6a16272b",
     "http://data.finlex.fi/voc/kho/swe/07c0a9c3",
     "http://data.finlex.fi/voc/kho/fin/89c0f9f1",
     "http://data.finlex.fi/voc/kho/swe/0a875a49",
     "http://data.finlex.fi/voc/kho/swe/30148800",
     "http://data.finlex.fi/voc/kho/swe/1325672e",
-    "http://data.finlex.fi/voc/kho/fin/f12408de",
-    "http://data.finlex.fi/voc/kho/fin/31c9572f",
-    "http://data.finlex.fi/voc/kho/fin/8764a5b8",
     "http://data.finlex.fi/voc/kho/swe/d60a43dc",
-    "http://data.finlex.fi/voc/kho/swe/bbdd1d60",
     "http://data.finlex.fi/voc/kho/swe/8196b381",
     "http://data.finlex.fi/voc/kho/fin/e6f7017e"
-  ],
-  "judgmentNumber": [
-    "T1159"
-  ],
-  "issued": [
-    "2007-05-08"
-  ],
-  "creator": [
-    "http://data.finlex.fi/common/KHO"
-  ],
-  "year": [
-    "2007"
-  ],
-  "subject": [
-    "http://data.finlex.fi/common/Hallinto-oikeus"
   ],
   "@context": {
     "languageVersion": {
@@ -101,16 +101,16 @@
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
-    },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
     },
     "issued": {
       "@id": "dcterms:issued",
       "@type": "xsd:date"
+    },
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -120,20 +120,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }

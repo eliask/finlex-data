@@ -20,36 +20,36 @@
   "@type": [
     "http://data.finlex.fi/schema/sfcl/Judgment"
   ],
+  "issued": [
+    "2016-05-25"
+  ],
+  "judgmentNumber": [
+    "80"
+  ],
+  "subject": [
+    "http://data.finlex.fi/common/Hallinto-oikeus"
+  ],
+  "creator": [
+    "http://data.finlex.fi/common/KHO"
+  ],
   "isVersionOf": [
     "ECLI:FI:KHO:2016:80"
   ],
+  "year": [
+    "2016"
+  ],
   "description": [
-    "http://data.finlex.fi/voc/kho/fin/3309a185",
     "http://data.finlex.fi/voc/kho/fin/f6652275",
+    "http://data.finlex.fi/voc/kho/fin/3309a185",
+    "http://data.finlex.fi/voc/kho/fin/90e10f1e",
     "http://data.finlex.fi/voc/kho/fin/7d4dfc33",
     "http://data.finlex.fi/voc/kho/fin/12e8c124",
     "http://data.finlex.fi/voc/kho/fin/6b752d9d",
     "http://data.finlex.fi/voc/kho/fin/67f6a3b0",
     "http://data.finlex.fi/voc/kho/fin/08af549b",
-    "http://data.finlex.fi/voc/kho/fin/90e10f1e",
     "http://data.finlex.fi/voc/kho/fin/94b170b0",
     "http://data.finlex.fi/voc/kho/fin/21a8738f",
     "http://data.finlex.fi/voc/kho/fin/feca4ae6"
-  ],
-  "judgmentNumber": [
-    "80"
-  ],
-  "issued": [
-    "2016-05-25"
-  ],
-  "creator": [
-    "http://data.finlex.fi/common/KHO"
-  ],
-  "year": [
-    "2016"
-  ],
-  "subject": [
-    "http://data.finlex.fi/common/Hallinto-oikeus"
   ],
   "@context": {
     "languageVersion": {
@@ -82,16 +82,16 @@
       "@language": "fi"
     },
     "content_sv": {
-      "@id": "sfcl:text",
+      "@id": "sfcl:undefined",
       "@language": "sv"
-    },
-    "description": {
-      "@id": "dcterms:description",
-      "@type": "@id"
     },
     "issued": {
       "@id": "dcterms:issued",
       "@type": "xsd:date"
+    },
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
     },
     "creator": {
       "@id": "dcterms:creator",
@@ -101,20 +101,9 @@
       "@id": "http://data.finlex.fi/schema/sfcl/year",
       "@type": "xsd:gYear"
     },
-    "subject": {
-      "@id": "dcterms:subject",
+    "description": {
+      "@id": "dcterms:description",
       "@type": "@id"
-    },
-    "dcterms": "http://purl.org/dc/terms/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "common": "http://data.finlex.fi/common/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sfcl": "http://data.finlex.fi/schema/scfl/",
-    "sfl": "http://data.finlex.fi/schema/sfl/",
-    "sfecli": "http://data.finlex.fi/ecli/",
-    "sfsd": "http://data.finlex.fi/eli/sd/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "text": "http://jena.apache.org/text#",
-    "eli": "http://data.europa.eu/eli/ontology#"
+    }
   }
 }
