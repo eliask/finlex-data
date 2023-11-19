@@ -412,12 +412,8 @@ Muu 4 §:ssä mainitun viranomaisen todistus leimataan niin kuin saman viranomai
             <saa:MomenttiKohtaKooste><saa:SaadosKursiiviKooste>Valokopiosta,</saa:SaadosKursiiviKooste> joka annetaan fotostaattikoneella otettuna negatiivina tai filmirainasta suurennettuna positiivina, on leimaveroa suoritettava edellisessä kappaleessa mainitusta valokopiosta suoritettavan leimaveron kaksinkertainen määrä.
 </saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste><saa:SaadosKursiiviKooste>Valokopiokartta,</saa:SaadosKursiiviKooste> muun kuin maanmittaushallituksen, maanmittauskonttorin tai maanmittaustoimiston antama, kun se on
-<te>  ........ standardikokoa........mk</te>
-<te>1).............. A4............ 19,–</te>
-<te>2).............. A3............ 24,–</te>
-<te>3).............. A2............ 43,–</te>
-<te>4).............. A1............ 68,–</te>
-<te>5)suurempi kuin. A1............. 1,20</te>
+
+<tau:table><tau:tgroup cols="1" colsep="1" rowsep="1"><tau:tbody><tau:row><tau:entry><sis:KappaleKooste colname="1">........ standardikokoa........mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">1).............. A4............ 19,–</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">2).............. A3............ 24,–</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">3).............. A2............ 43,–</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">4).............. A1............ 68,–</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">5)suurempi kuin. A1............. 1,20</sis:KappaleKooste></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
@@ -429,10 +425,44 @@ Muu 4 §:ssä mainitun viranomaisen todistus leimataan niin kuin saman viranomai
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">
           <saa:PykalaTunnusKooste>13 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Asiakirja, jonka asianosainen antaa tai esittää korkeimmalle oikeudelle, korkeimmalle hallinto-oikeudelle, hovioikeudelle, maaoikeudelle taikka riita-asiassa vesiylioikeudelle tai vesioikeudelle, on sikäli kuin 14 ja 15 §:ssä sekä 4 ja 7 luvussa ei toisin säädetä, laveuteen tai sivulukuun katsomatta, varustettava leimalla seuraavin määrin:</saa:MomenttiKooste>
-          <te>                     mk</te>
-          <te>1 ryhmässä           15,–</te>
-          <te>2 "                  10,–</te>
-          <te>5 "                   6,–</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1 ryhmässä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">15,–</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">2 "</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">10,–</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">5 "</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">6,–</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="14 §">
           <saa:PykalaTunnusKooste>14 §</saa:PykalaTunnusKooste>

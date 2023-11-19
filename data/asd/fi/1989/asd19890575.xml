@@ -25,20 +25,82 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Laboratoriotutkimuksesta kannetaan maksu kultakin tavaraerältä seuraavasti:</saa:MomenttiKooste>
-          <te>1) elintarvikeasetuksen (408/52) </te>
-          <te>1§:ssä tarkoitetut elintarvikkeet    1 200 mk</te>
-          <te>2) muut tavarat                        900 mk</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>1) elintarvikeasetuksen (408/52)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1§:ssä tarkoitetut elintarvikkeet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 200 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">2) muut tavarat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">900 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Pyynnöstä suoritetusta laboratoriotutkimuksesta maksu määrätään 7§:ssä säädettyjen perusteiden mukaan, kuitenkin vähintään 1 momentissa säädetyn suuruiseksi.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Tavaraerällä tarkoitetaan laboratoriotutkimusmaksua määrättäessä samalla tullausilmoituksella tulliselvitettäviä tavaroita tai, jollei ole kysymys tulliselvityksestä, sitä tavaraa, jota tutkimus koskee. Jos tavaraerässä on sekä tutkittavia elintarvikkeita että muita tavaroita, määrätään maksu elintarvikkeille säädetyn suuruisena.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Tullivarastoon tai verottomien tavaroiden myymälään kohdistuvista erityisistä valvontatoimenpiteistä, kuten tullaamattoman tavaran varastoinnin tarkkailusta, kannetaan maksuja kultakin tavaraerältä seuraavasti:</saa:MomenttiKooste>
-          <te>1) otto yleisestä tullivarastosta         38mk</te>
-          <te>2) otto yksityisestä tullivarastosta      67mk</te>
-          <te>3) toimitus muonitusvarastosta            25mk</te>
-          <te>4) siirto verottomien tavaroiden </te>
-          <te>myymälään                                118mk</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1) otto yleisestä tullivarastosta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">38 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">2) otto yksityisestä tullivarastosta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">67 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3) toimitus muonitusvarastosta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">25 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>4) siirto verottomien tavaroiden</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">myymälään</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">118 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Tavaraerällä tarkoitetaan samalla kertaa otettua, toimitettua tai siirrettyä tavaramäärää.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Virka-ajan ulkopuolella annetusta tuontitavaran luovutusmääräyksestä peritään 36 markkaa.</saa:MomenttiKooste>
         </saa:Pykala>

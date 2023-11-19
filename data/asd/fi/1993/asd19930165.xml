@@ -24,65 +24,520 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Opetus- ja kirjastotoimen perustamishankkeiden yksikköhintojen määräämiseksi toimitilat jaetaan kalleusluokkiin seuraavasti:</saa:MomenttiKooste>
-          <te>Toimitila         Kalleus-    Täydentävä selitys</te>
-          <te>                    luokka</te>
-          <te>1) Hallinto-, työ-,</te>
-          <te>   neuvottelu- ja</te>
-          <te>   kirjastotilat       110</te>
-          <te>2) Opetustilat</te>
-          <te>a) luokkatila          110</te>
-          <te>b) erikoisvarustettu</te>
-          <te>   luokkatila          130    fysiikka, kemia, kotitalous</te>
-          <te>                              (peruskoulu ja lukio),</te>
-          <te>                              tekninen työ</te>
-          <te>c) auditorio,</te>
-          <te>   luentosali          155</te>
-          <te>d) työnopetustila 1    110    vaatetusala, sähkötekniikka,</te>
-          <te>                              kauppa ja hallinto, maan-</te>
-          <te>                              mittaustekniikka, piirtäjät</te>
-          <te>e) työnopetustila 2    130    kodinhoito pesulalaitteineen,</te>
-          <te>                              parturi-kampaaja, terveyden-</te>
-          <te>                              hoito</te>
-          <te>f) työnopetustila 3    155    ammatillisen koulutuksen koti-</te>
-          <te>                              talous- ja perhekeittiö keittiö-</te>
-          <te>                              laitteineen, prosessi- ja</te>
-          <te>                              laboratoriotekniikka</te>
-          <te>g) työnopetustila 4    180    elintarviketeollisuus</te>
-          <te>h) työnopetustila 5    230    laitoskeittiö, sisältää</te>
-          <te>                              ruokailutilan ja keittiö-</te>
-          <te>                              laitteet</te>
-          <te>i) työnopetushalli     110</te>
-          <te>j) liikunta-, juhla-</te>
-          <te>   ja kuntosali        110</te>
-          <te>3) Varastotilat</te>
-          <te>a) varasto 1, auto-</te>
-          <te>   talli                80    työnopetushallien yhteydessä</te>
-          <te>                              sekä kiinteistönhoito</te>
-          <te>b) varasto 2           110    kalustettu varasto muiden</te>
-          <te>                              tilojen yhteydessä</te>
-          <te>c) kylmä varasto,</te>
-          <te>   lämmittämätön halli  40</te>
-          <te>4) Sosiaalitilat</te>
-          <te>a) puku-, pesu-, WC-</te>
-          <te>   ja saunatilat       130</te>
-          <te>b) terveydenhoitotilat 130</te>
-          <te>c) lepohuone           110</te>
-          <te>d) oppilastilat        110    luku-, kerho- ja oleskelutilat,</te>
-          <te>                              aula sekä oppilaskunnan huone</te>
-          <te>e) päällysvaatetilat   110    sisältää naulakot ja kaapit</te>
-          <te>5) Ruokailutilat</te>
-          <te>a) keittiö             130    henkilöstökahvion ja vastaavan</te>
-          <te>                              yhteydessä</te>
-          <te>b) suurkeittiö apu-</te>
-          <te>   tiloineen, varastot</te>
-          <te>   mukaanluettuina     230    sisältää keittiölaitteet</te>
-          <te>c) ruokasali           110</te>
-          <te>6) Asunnot ja asuntolat</te>
-          <te>a) asunnot ja</te>
-          <te>   asuntolahuoneet      80</te>
-          <te>b) pesula, kuivaus-</te>
-          <te>   huone, märkäeteinen 155    sisältää pesulalaitteet</te>
-          <te>7) Siivoustoimen tilat 155</te>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Toimitila</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Kalleus-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">Täydentävä selitys</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">luokka</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>1) Hallinto-, työ-,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>neuvottelu- ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kirjastotilat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>110</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>2) Opetustilat</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">a) luokkatila</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>110</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>b) erikoisvarustettu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">luokkatila</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">130</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">fysiikka, kemia, kotitalous</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">(peruskoulu ja lukio),</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">tekninen työ</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>c) auditorio,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">luentosali</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>155</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">d) työnopetustila 1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">110</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">vaatetusala, sähkötekniikka,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">kauppa ja hallinto, maan-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">mittaustekniikka, piirtäjät</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">e) työnopetustila 2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">130</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">kodinhoito pesulalaitteineen,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">parturi-kampaaja, terveyden-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">hoito</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">f) työnopetustila 3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">155</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">ammatillisen koulutuksen koti-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">talous- ja perhekeittiö keittiö-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">laitteineen, prosessi- ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">laboratoriotekniikka</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">g) työnopetustila 4</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">180</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">elintarviketeollisuus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">h) työnopetustila 5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">230</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">laitoskeittiö, sisältää</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">ruokailutilan ja keittiö-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">laitteet</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">i) työnopetushalli</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>110</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>j) liikunta-, juhla-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ja kuntosali</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>110</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>3) Varastotilat</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>a) varasto 1, auto-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">talli</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">80</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">työnopetushallien yhteydessä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">sekä kiinteistönhoito</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">b) varasto 2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">110</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">kalustettu varasto muiden</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">tilojen yhteydessä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>c) kylmä varasto,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">lämmittämätön halli</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>40</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>4) Sosiaalitilat</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>a) puku-, pesu-, WC-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ja saunatilat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>130</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>b) terveydenhoitotilat 130</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">c) lepohuone</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>110</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">d) oppilastilat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">110</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">luku-, kerho- ja oleskelutilat,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">aula sekä oppilaskunnan huone</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">e) päällysvaatetilat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">110</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">sisältää naulakot ja kaapit</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>5) Ruokailutilat</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">a) keittiö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">130</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">henkilöstökahvion ja vastaavan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">yhteydessä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>b) suurkeittiö apu-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>tiloineen, varastot</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">mukaanluettuina</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">230</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">sisältää keittiölaitteet</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">c) ruokasali</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>110</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>6) Asunnot ja asuntolat</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>a) asunnot ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">asuntolahuoneet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>80</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>b) pesula, kuivaus-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">huone, märkäeteinen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">155</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">sisältää pesulalaitteet</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">7) Siivoustoimen tilat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>155</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste/>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
@@ -92,29 +547,156 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Toimitilojen yksikköhintoja korotetaan keskimääräistä korkeampien rakennuskustannusten vuoksi seuraavilla alueilla:</saa:MomenttiKooste>
-          <te>Yksikköhinnan</te>
-          <te>korotus</te>
-          <te>prosenttia    Kunnat ja niiden osat</te>
-          <te/>
-          <te>10            Helsinki, Espoo, Vantaa, Kauniainen,</te>
-          <te>              Enontekiö, Inari, Muonio ja Utsjoki</te>
-          <te/>
-          <te>5             Hyvinkää, Järvenpää, Kerava, Kirkkonummi,</te>
-          <te>              Nurmijärvi, Sipoo, Tuusula, Vihti, Houtskari,</te>
-          <te>              Iniö, Korppoo, Kustavi, Nauvo, Velkua, Hai-</te>
-          <te>              luoto, Kemijärvi, Kittilä, Kolari, Pelkosen-</te>
-          <te>              niemi, Posio, Salla, Savukoski ja Sodankylä</te>
-          <te>              sekä Dragsfjärdin kunnan saaristo-osa</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Yksikköhinnan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>korotus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Kunnat ja niiden osat</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">10</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Helsinki, Espoo, Vantaa, Kauniainen,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Enontekiö, Inari, Muonio ja Utsjoki</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Hyvinkää, Järvenpää, Kerava, Kirkkonummi,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Nurmijärvi, Sipoo, Tuusula, Vihti, Houtskari,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Iniö, Korppoo, Kustavi, Nauvo, Velkua, Hai-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">luoto, Kemijärvi, Kittilä, Kolari, Pelkosen-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">niemi, Posio, Salla, Savukoski ja Sodankylä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">sekä Dragsfjärdin kunnan saaristo-osa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Tämän päätöksen 2 ja 3 §:n mukaisesti laskettua yksikköhintaa korotetaan toimitilojen varustamisen perusteella seuraavasti:</saa:MomenttiKooste>
-          <te>                                     mk</te>
-          <te>a) peruskoulu, lukio ja iltalukio   750</te>
-          <te>b) ammattioppilaitos              1 580</te>
-          <te>c) yleinen kirjasto               1 280</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">a) peruskoulu, lukio ja iltalukio</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">750</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">b) ammattioppilaitos</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 580</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">c) yleinen kirjasto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 280</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Edellä 1 momentissa tarkoitettua yksikköhinnan korotusta ei sovelleta asuntoihin, asuntoloihin ja kirjastoautojen talleihin.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Varustamisesta johtuva yksikköhinnan korotus ei sisällä erityisoppilaitoksen ja -luokan vaikeavammaisia oppilaita varten tarvittavan erityisvarustuksen hankinnasta aiheutuvia lisäkustannuksia.</saa:MomenttiKooste>
         </saa:Pykala>

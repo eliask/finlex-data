@@ -94,55 +94,93 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Julkisoikeudellisista suoritteista perittävät kiinteät maksut ovat:</saa:MomenttiKooste>
-          <te/>
-          <te> 1) maarekisterinote arkilta                65 mk</te>
-          <te> 2) maanmittaushallituksen päätös muusta </te>
-          <te>    valituksesta kuin julkista maksua </te>
-          <te>    koskevasta perustevalituksesta 	 300 mk</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1) maarekisterinote arkilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>65 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">2) maanmittaushallituksen päätös muusta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">valituksesta kuin julkista maksua</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>koskevasta perustevalituksesta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>300 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
           <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Muut maksulliset suoritteet, jotka maanmittaushallitus hinnoittelee liiketaloudellisin perustein ovat:</saa:MomenttiKooste>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Muut maksulliset suoritteet, jotka maanmittaushallitus hinnoittelee liiketaloudellisin perustein ovat:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
 1) kiintopisteaineistot;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 2) ilma- ja satelliittikuva-aineistot sekä niiden julkaisuluvat;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 3) maastokartta-aineistot ja kartastot sekä niiden käyttöoikeuksien luovutukset;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 4) paikkatietojen yhteiskäytön palvelut;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 5) ohjelmistojen ja niiden käyttöoikeuksien luovutukset;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 6) koulutuspalvelut;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 7) konsultointipalvelut ja selvitykset;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 8) todistukset;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 9) otteet ja jäljennökset;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 10) asiakirjojen ja muun aineiston lähettäminen ja postitus;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 11) tilauksesta suoritettavat toimialaan kuuluvat suoritteet, jotka ovat muita kuin 1-10 kohdassa mainittuja suoritteita;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 12) julkaisut; sekä
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 13) muut edellä mainittuihin verrattavat suoritteet.
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="6 §">
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>

@@ -12,56 +12,130 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Opetusministeriön päätös</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>lunastuksesta, joka suoritetaan kirkonkirjoista ja seurakunnan muista asiakirjoista annettavista virkatodistuksista ja otteista</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Opetusministeriö on kirkkohallituksen esityksestä kirkkolain 127 §:n 3 momentin (392/90) nojalla määrännyt kirkonkirjoista ja seurakunnan muista asiakirjoista annettavista virkatodistuksista ja otteista suoritettavasta lunastuksesta. Seurakunnalla on oikeus periä lunastukseen kuuluvina kuluina virkatodistuksen ja otteen laatimisesta aiheutuva kustannus sekä tietoja postitse lähetettäessä aiheutuvat postikulut, lähetysmaksu ja suorituksen vastaanottavan pankin mahdollisesti perimät kustannukset.</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>Virkatodistuksen ja otteen laatimisesta aiheutuvina kustannuksina suoritetaan:</te>
-        <te/>
-        <te>Virkatodistus, johon on merkitty</te>
-        <te>yhtä henkilöä, tämän aviopuolisoa,</te>
-        <te>vanhempia ja lapsia koskevia tietoja             7 mk</te>
-        <te>sekä jokaiselta näiden lisäksi</te>
-        <te>merkittävältä sukupolvelta                       7 mk</te>
-        <te>Muu todistus tai kirkkoherran-</te>
-        <te>virastolle toimitettuun asiakirjaan</te>
-        <te>merkitty tieto                                   7 mk/henkilö</te>
-        <te>Väestökirjalain 11 §:n 2 momentin</te>
-        <te>(141/69) perusteella tieteellistä</te>
-        <te>tutkimusta ja muuta siihen</te>
-        <te>verrattavaa tarkoitusta varten</te>
-        <te>luovutetut tiedot                                2 mk/yksikkö</te>
-        <te/>
-        <te>Edellä mainituista kustannuksista määrätty lunastus merkitään toimituskirjaan.</te>
-        <te>Yksikkö sisältää ne tiedot tai osan niistä tiedoista, jotka väestökirja-asetuksen 7 §:n nojalla (198/70; 694/77 ja 850/83) yhdestä henkilöstä merkitään kirkonkirjaan.</te>
-        <te>Pöytäkirjanotteesta päätöksineen tai ilman päätöstä tai jäljennöksestä ja sen oikeaksi todistamisesta, minkälaisesta asiakirjasta tahansa, suoritetaan sama lunastus kuin on säädetty alioikeuksien toimituskirjoista.</te>
-        <te>Sukuselvityksestä sukututkimusta varten on asianomaisen suoritettava korvaus kirkkohallituksen vahvistaman tuntipalkkion mukaan.</te>
-        <te>Milloin kirkkoherranvirasto lähettää pyydetyt tiedot postitse se on oikeutettu edellä mainittujen kustannusten lisäksi perimään kulloinkin voimassa olevan postimaksun, lähetysmaksuna 3 markkaa sekä suorituksen vastaanottavan pankin mahdollisesti perimän tilillevienti- tai kirjaamismaksun.</te>
-        <te>Lunastusta ei suoriteta</te>
-        <te>muuttokirjasta;</te>
-        <te>eikä todistuksesta</te>
-        <te>jonka julkinen viranomainen pyytää virkansa puolesta;</te>
-        <te>joka annetaan tiettävästi varattomalle henkilölle; tai</te>
-        <te>joka annetaan avioliiton esteiden tutkimista varten ja vihkimisen suorittamisesta.</te>
-        <te>Lunastusta ei myöskään suoriteta todistuksesta, joka tarvitaan:</te>
-        <te>koulunkäyntiä tai opintoja varten;</te>
-        <te>lapsen tai nuoren henkilön ottamiseen työhön;</te>
-        <te>eläkkeen, elinkoron tahi apurahan hakemiseen ja nostamiseen, henki-, pääoma- tai elinkorkovakuutuksen hakemiseen ja vakuutussumman nostamiseen yleisistä varoista taikka yleisistä ja yksityisistä eläke- ja avustusrahastoista sekä vakuutuslaitoksista;</te>
-        <te>verovalitukseen;</te>
-        <te>sairaalaan tai hoitolaitokseen ottamista varten;</te>
-        <te>asevelvollisuutta, asevelvollisen työlomaa ja avustusta asevelvollisen omaisille koskevissa asioissa; eikä</te>
-        <te>sairausvakuutusta, äitiysavustusta ynnä muuta sosiaaliturvaa koskevissa asioissa ja lapsilisälain mukaista lapsilisää varten.</te>
+        <saa:SaadosKappaleKooste>Virkatodistuksen ja otteen laatimisesta aiheutuvina kustannuksina suoritetaan:</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="2" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">Virkatodistus, johon on merkitty</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">yhtä henkilöä, tämän aviopuolisoa,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>vanhempia ja lapsia koskevia tietoja</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>7 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">sekä jokaiselta näiden lisäksi</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>merkittävältä sukupolvelta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>7 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">Muu todistus tai kirkkoherran-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">virastolle toimitettuun asiakirjaan</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>merkitty tieto</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>7 mk/henkilö</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">Väestökirjalain 11 §:n 2 momentin</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">(141/69) perusteella tieteellistä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">tutkimusta ja muuta siihen</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">verrattavaa tarkoitusta varten</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>luovutetut tiedot</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>2 mk/yksikkö</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>Edellä mainituista kustannuksista määrätty lunastus merkitään toimituskirjaan.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Yksikkö sisältää ne tiedot tai osan niistä tiedoista, jotka väestökirja-asetuksen 7 §:n nojalla (198/70; 694/77 ja 850/83) yhdestä henkilöstä merkitään kirkonkirjaan.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Pöytäkirjanotteesta päätöksineen tai ilman päätöstä tai jäljennöksestä ja sen oikeaksi todistamisesta, minkälaisesta asiakirjasta tahansa, suoritetaan sama lunastus kuin on säädetty alioikeuksien toimituskirjoista.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Sukuselvityksestä sukututkimusta varten on asianomaisen suoritettava korvaus kirkkohallituksen vahvistaman tuntipalkkion mukaan.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Milloin kirkkoherranvirasto lähettää pyydetyt tiedot postitse se on oikeutettu edellä mainittujen kustannusten lisäksi perimään kulloinkin voimassa olevan postimaksun, lähetysmaksuna 3 markkaa sekä suorituksen vastaanottavan pankin mahdollisesti perimän tilillevienti- tai kirjaamismaksun.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Lunastusta ei suoriteta</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>muuttokirjasta;</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>eikä todistuksesta</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>jonka julkinen viranomainen pyytää virkansa puolesta;</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>joka annetaan tiettävästi varattomalle henkilölle; tai</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>joka annetaan avioliiton esteiden tutkimista varten ja vihkimisen suorittamisesta.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Lunastusta ei myöskään suoriteta todistuksesta, joka tarvitaan:</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>koulunkäyntiä tai opintoja varten;</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>lapsen tai nuoren henkilön ottamiseen työhön;</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>eläkkeen, elinkoron tahi apurahan hakemiseen ja nostamiseen, henki-, pääoma- tai elinkorkovakuutuksen hakemiseen ja vakuutussumman nostamiseen yleisistä varoista taikka yleisistä ja yksityisistä eläke- ja avustusrahastoista sekä vakuutuslaitoksista;</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>verovalitukseen;</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>sairaalaan tai hoitolaitokseen ottamista varten;</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>asevelvollisuutta, asevelvollisen työlomaa ja avustusta asevelvollisen omaisille koskevissa asioissa; eikä</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>sairausvakuutusta, äitiysavustusta ynnä muuta sosiaaliturvaa koskevissa asioissa ja lapsilisälain mukaista lapsilisää varten.</saa:SaadosKappaleKooste>
         <sis:Palstaviiva/>
-        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
-          <saa:MomenttiKooste>Tätä päätöstä sovelletaan 1 päivästä syyskuuta 1992, ja sillä kumotaan valtioneuvoston 11 päivänä joulukuuta 1975 antama päätös (957/75).</saa:MomenttiKooste>
-        </saa:Pykala>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Tätä päätöstä sovelletaan 1 päivästä syyskuuta 1992, ja sillä kumotaan valtioneuvoston 11 päivänä joulukuuta 1975 antama päätös (957/75).</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 10 päivänä kesäkuuta 1992</asi:PaivaysKooste>

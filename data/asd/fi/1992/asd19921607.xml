@@ -230,13 +230,77 @@
             <saa:SaadosOtsikkoKooste>Laskennallinen korvaus pakolaisten vastaanotosta</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Kunnalle maksetaan valtion varoista laskennallisena korvauksena 11 §:ssä tarkoitetun sopimuksen perusteella pakolaisten sosiaali- ja terveydenhuollon palvelujen järjestämisestä kunnalle aiheutuvat kustannukset samoin kuin palvelujen järjestämisen yleishallinnon kustannukset, jollei 13 §:ssä tarkoitetusta sopimuksesta muuta johdu.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Laskennalliset korvaukset ovat ensimmäiseltä, toiselta ja kolmannelta maassaolovuodelta seuraavat:</saa:MomenttiKooste>
-            <te/>
-            <te>Ennen peruskoulun     0-7-vuotiaat        Muut henkilöt</te>
-            <te>aloittamista              mk                  mk</te>
-            <te>Ensimmäinen vuosi         55 500              17 000</te>
-            <te>Toinen vuosi              37 000              11 300</te>
-            <te>Kolmas vuosi              18 500               5 600</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="3" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Ennen peruskoulun</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0-7-vuotiaat</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Muut henkilöt</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>aloittamista</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>mk</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Ensimmäinen vuosi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>55 500</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>17 000</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Toinen vuosi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>37 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>11 300</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Kolmas vuosi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>18 500</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 600</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="15 §">
             <saa:PykalaTunnusKooste>15 §</saa:PykalaTunnusKooste>

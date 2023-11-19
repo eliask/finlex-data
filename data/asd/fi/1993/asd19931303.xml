@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>valmistuksen apuaineista elintarvikkeissa</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite II: neuvoston direktiivit (88/344/ETY ja 92/115/ETY).</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -100,6 +95,9 @@ f) erityiset varastointi- tai käyttöohjeet tarvittaessa.
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>ETA-sopimuksen liite II: neuvoston direktiivit (<sis:YleinenViite sis1:viiteURL="388L0344"><sis1:ViiteTeksti>88/344/ETY</sis1:ViiteTeksti></sis:YleinenViite> ja <sis:YleinenViite sis1:viiteURL="392L0115"><sis1:ViiteTeksti>92/115/ETY</sis1:ViiteTeksti></sis:YleinenViite>).</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 20 päivänä joulukuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -133,48 +131,369 @@ f) erityiset varastointi- tai käyttöohjeet tarvittaessa.
       <sis:KappaleKooste>(1) Uuttoliuotinta katsotaan käytetyn hyvän valmistustavan mukaisesti, jos sen käytön seurauksena on vain kuluttajan terveydelle haitattomia teknisiä jäämiä tai niiden johdannaisia.</sis:KappaleKooste>
       <sis:KappaleKooste>(2) Asetonin käyttö oliivin jäännösöljyn puhdistukseen on kielletty.</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>II. Uuttoliuottimet, joita saa käyttää seuraavilla ehdoilla:</sis1:ValiotsikkoTeksti>
-      <te>Uuttoliuotin	Käyttö					Enimmäismäärä elintarvikkeessa</te>
-      <te>Heksaani(1)	Rasvojen ja öljyjen fraktioiden ja </te>
-      <te>			kaakaovoin valmistaminen		5 mg/kg rasvassa, öljyssä tai kaakaovoissa</te>
-      <te>			Proteiinivalmisteiden ja rasvattomien </te>
-      <te>			jauhojen valmistaminen			10 mg/kg lopullisessa elintarvikkeessa, </te>
-      <te>								joka sisältää proteiinivalmistetta </te>
-      <te>								ja rasvatonta jauhoa</te>
-      <te>			Rasvattomien viljan </te>
-      <te>			itujen valmistaminen			5 mg/kg rasvattomissa iduissa</te>
-      <te>			Rasvattomien soijatuotteiden</te>
-      <te>			valmistaminen				30 mg/kg kuluttajalle myytävässä soijavalmisteessa</te>
-      <te>Metyyliasetaatti	Kofeiinin sekä ärsyttävien ja katkeran </te>
-      <te>			makuisten aineiden poistaminen </te>
-      <te>			kahvista ja teestä			20 mg/kg kahvissa tai teessä</te>
-      <te>			Sokerin valmistaminen siirapista	1 mg/kg sokerissa</te>
-      <te>Etyylimetyyli-</te>
-      <te>ketoni(2)		Rasvojen ja öljyjen fraktiointi		5 mg/kg rasvassa tai öljyssä</te>
-      <te>			Kofeiinin sekä ärsyttävien ja katkeran</te>
-      <te>			makuisten aineiden poistaminen </te>
-      <te>			kahvista ja teestä			20 mg/kg kahvissa tai teessä</te>
-      <te>Dikloorimetaani	Kofeiinin sekä ärsyttävien ja katkeran </te>
-      <te>			makuisten aineiden poistaminen </te>
-      <te>			kahvista ja teestä			2 mg/kg paahdetussa kahvissa ja 5 mg/kg teessä</te>
-      <te>Metanoli		Kaikkiin elintarvikkeisiin		10 mg/kg</te>
-      <te>Propan-2-oli	Kaikkiin elintarvikkeisiin		10 mg/kg</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Uuttoliuotin</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Käyttö</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Enimmäismäärä elintarvikkeessa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Heksaani(1)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Rasvojen ja öljyjen fraktioiden ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">kaakaovoin valmistaminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">5 mg/kg rasvassa, öljyssä tai kaakaovoissa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Proteiinivalmisteiden ja rasvattomien</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">jauhojen valmistaminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">10 mg/kg lopullisessa elintarvikkeessa,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">joka sisältää proteiinivalmistetta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ja rasvatonta jauhoa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Rasvattomien viljan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">itujen valmistaminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">5 mg/kg rasvattomissa iduissa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Rasvattomien soijatuotteiden</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">valmistaminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">30 mg/kg kuluttajalle myytävässä soijavalmisteessa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Metyyliasetaatti</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Kofeiinin sekä ärsyttävien ja katkeran</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>makuisten aineiden poistaminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">kahvista ja teestä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">20 mg/kg kahvissa tai teessä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Sokerin valmistaminen siirapista</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">1 mg/kg sokerissa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste>Etyylimetyyli-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">ketoni(2)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Rasvojen ja öljyjen fraktiointi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">5 mg/kg rasvassa tai öljyssä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Kofeiinin sekä ärsyttävien ja katkeran</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>makuisten aineiden poistaminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">kahvista ja teestä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">20 mg/kg kahvissa tai teessä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Dikloorimetaani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Kofeiinin sekä ärsyttävien ja katkeran</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>makuisten aineiden poistaminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">kahvista ja teestä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2 mg/kg paahdetussa kahvissa ja 5 mg/kg teessä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Metanoli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Kaikkiin elintarvikkeisiin</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">10 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Propan-2-oli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Kaikkiin elintarvikkeisiin</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">10 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste> (1) Heksaanilla tarkoitetaan kaupallista valmistetta, joka koostuu ensisijassa asyklisistä tyydyttyneistä hiilivedyistä, jotka sisältävät kuusi hiiliatomia ja jotka tislautuvat lämpötilavälillä 64 ... 70 °C. Heksaanin käyttö yhdessä etyylimetyyliketonin kanssa on kielletty.</sis:KappaleKooste>
       <sis:KappaleKooste>(2) n-Heksaanin määrä liuottimessa saa olla enintään 50 mg/kg. Etyylimetyyliketonin käyttö yhdessä heksaanin kanssa on kielletty.</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>III. Uuttoliuottimet, joita saa käyttää seuraavilla ehdoilla:</sis1:ValiotsikkoTeksti>
-      <te>Uuttoliuotin	Uuttoliuottimen enimmäismäärä elintarvikkeessa, </te>
-      <te>			johon sitä on joutunut sellaisten aromien mukana,</te>
-      <te>			joiden valmistamiseen luonnon aromilähteistä</te>
-      <te>			on käytetty uuttoliuotinta</te>
-      <te>Dietyylieetteri	 	2 mg/kg</te>
-      <te>Heksaani(1)	 	1 mg/kg</te>
-      <te>Metyyliasetaatti	 	1 mg/kg</te>
-      <te>Butan-1-oli	 	1 mg/kg</te>
-      <te>Butan-2-oli	 	1 mg/kg</te>
-      <te>Etyylimetyyliketoni(1)	1 mg/kg</te>
-      <te>Dikloorimetaani		0,02 mg/kg</te>
-      <te>Metyylipropan-1-oli	1 mg/kg</te>
-      <te>Propan-1-oli	 	1 mg/kg</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Uuttoliuotin</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Uuttoliuottimen enimmäismäärä elintarvikkeessa,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">johon sitä on joutunut sellaisten aromien mukana,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">joiden valmistamiseen luonnon aromilähteistä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">on käytetty uuttoliuotinta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Dietyylieetteri</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Heksaani(1)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Metyyliasetaatti</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Butan-1-oli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Butan-2-oli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Etyylimetyyliketoni(1)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Dikloorimetaani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,02 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Metyylipropan-1-oli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Propan-1-oli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>(1) Heksaanin ja etyylimetyyliketonin käyttö yhdessä on kielletty.</sis:KappaleKooste>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>

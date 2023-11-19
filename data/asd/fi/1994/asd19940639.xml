@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>valtion perhe-eläkelain 6 §:n muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 69/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>StVM 15/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -34,15 +26,78 @@
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>Myönnettäessä perhe-eläke sellaisen edunjättäjän jälkeen, joka oli valtion eläkelain 12 §:n 2 momentissa tarkoitettu edunsaaja, on yhteensovitusraja kuitenkin seuraavan taulukon mukainen prosenttimäärä, joka määräytyy vuoden 1994 loppuun mennessä eläkeajaksi luettavan palvelusajan perusteella:</saa:MomenttiKooste>
-          <te/>
-          <te>Eläkeaika               Prosenttia</te>
-          <te>vähintään 16 vuotta     66</te>
-          <te>vähintään 13 vuotta     65</te>
-          <te>vähintään 10 vuotta     64</te>
-          <te>vähintään  7 vuotta     63</te>
-          <te>vähintään  3 vuotta     62</te>
-          <te>alle 3 vuotta           61</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Eläkeaika</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>vähintään 16 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>66</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>vähintään 13 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>65</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>vähintään 10 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>64</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>vähintään 7 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>63</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>vähintään 3 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>62</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>alle 3 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>61</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <sis:Palstaviiva/>
@@ -53,6 +108,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940069.he">
+        <sis1:ViiteTeksti>HE 69/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940015.stvm">
+        <sis1:ViiteTeksti>StVM 15/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Naantalissa 15 päivänä heinäkuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

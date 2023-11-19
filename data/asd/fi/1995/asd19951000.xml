@@ -10,23 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>kolmansista maista tuotavasta lihasta ja lihatuotteista</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Neuvoston direktiivi 72/462/ETY; EYVL N:o L 302, 31.12.1972, s. 28,</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>neuvoston direktiivi 77/96/ETY; EYVL N:o L 26, 31.01.1977, s. 67,</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>neuvoston direktiivi 91/494/ETY; EYVL N:o L 268, 24.9.1991, s. 35,</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-      <met:Muu4Viite>
-        <sis1:ViiteTeksti>neuvoston direktiivi 91/495/ETY; EYVL N:o L 268, 24.9.1991, s. 41,</sis1:ViiteTeksti>
-      </met:Muu4Viite>
-      <met:Muu5Viite>
-        <sis1:ViiteTeksti>neuvoston direktiivi 92/45/ETY; EYVL N:o L 268, 14.9.1992, s. 35,</sis1:ViiteTeksti>
-      </met:Muu5Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -310,7 +293,14 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
-  <sis1:ViiteTeksti>neuvoston direktiivi 71/118/ETY, muut. 92/116/ETY; EYVL N:o L 62, 15.3.1993, s. 1</sis1:ViiteTeksti>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="372L0462"><sis1:ViiteTeksti>72/462/ETY</sis1:ViiteTeksti></sis:YleinenViite>; EYVL N:o L 302, 31.12.1972, s. 28,</sdk:EsityoViite>
+    <sdk:EsityoViite>neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="377L0096"><sis1:ViiteTeksti>77/96/ETY</sis1:ViiteTeksti></sis:YleinenViite>; EYVL N:o L 26, 31.01.1977, s. 67,</sdk:EsityoViite>
+    <sdk:EsityoViite>neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="391L0494"><sis1:ViiteTeksti>91/494/ETY</sis1:ViiteTeksti></sis:YleinenViite>; EYVL N:o L 268, 24.9.1991, s. 35,</sdk:EsityoViite>
+    <sdk:EsityoViite>neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="391L0495"><sis1:ViiteTeksti>91/495/ETY</sis1:ViiteTeksti></sis:YleinenViite>; EYVL N:o L 268, 24.9.1991, s. 41,</sdk:EsityoViite>
+    <sdk:EsityoViite>neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="392L0045"><sis1:ViiteTeksti>92/45/ETY</sis1:ViiteTeksti></sis:YleinenViite>; EYVL N:o L 268, 14.9.1992, s. 35,</sdk:EsityoViite>
+    <sdk:EsityoViite>neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="371L0118"><sis1:ViiteTeksti>71/118/ETY</sis1:ViiteTeksti></sis:YleinenViite>, muut. <sis:YleinenViite sis1:viiteURL="392L0116"><sis1:ViiteTeksti>92/116/ETY</sis1:ViiteTeksti></sis:YleinenViite>; EYVL N:o L 62, 15.3.1993, s. 1</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 28 päivänä heinäkuuta 1995</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -347,7 +337,7 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>Erä (pakkausten lukumäärä)   Niiden pakkausten määrä, joista näyte on otettava</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <sis:KappaleKooste>1― 24sama kuin pakkausten määrä, enintään 20 25― 2920 30― 3925 40― 4930 50― 5935 60― 8940 90―19950200―49955500 tai enemmän60</sis:KappaleKooste>
+      <sis:KappaleKooste>1― 24 sama kuin pakkausten määrä, enintään 20 25―29 20 30―39 25 40―49 30 50―59 35 60―89 40 90―199 50 200―499 55 500 tai enemmän 60</sis:KappaleKooste>
       <sis:KappaleKooste>Pakkausyksiköiden painon perusteella niiden pakkausyksiköiden määrää, joista näyte on otettava, voidaan vähentää seuraavia kertoimia käyttäen:</sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="4" colsep="0" rowsep="0" align="left">
@@ -390,24 +380,23 @@
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>II NAUDAN JA SIAN LIHA</sis1:LihavaTeksti>
       </sis:KappaleKooste>
-      <sis:KappaleKooste>A. NÄYTTEENOTTO- JA TUTKIMUSMENETELMÄT1. <sis1:KursiiviTeksti>Suoraan teurastamosta tulevat ruhot, puoliruhot ja neljännesruhot(pintakäsittelytekniikka: swab-tekniikka)</sis1:KursiiviTeksti></sis:KappaleKooste>
+      <sis:KappaleKooste>A. NÄYTTEENOTTO- JA TUTKIMUSMENETELMÄT 1. <sis1:KursiiviTeksti>Suoraan teurastamosta tulevat ruhot, puoliruhot ja neljännesruhot(pintakäsittelytekniikka: swab-tekniikka)</sis1:KursiiviTeksti></sis:KappaleKooste>
       <sis:KappaleKooste>Näytteet otetaan pintasivelytekniikalla saastuneiksi epäiltyjen alueiden pinnalta. Tämä pintasively käsittää ruhojen avauskohdat ja leikkauspinnat. Lisäksi naudan ruhot sivellään ainakin kolmella alueella (reisi, kuve, kaula); sen sijaan sianruhot sivellään ainakin kahdella alueella (reisi ja rinta). Ristikontaminaation välttämiseksi näytteet otetaan koskematta lihaa ja käyttäen steriilejä näytemuotteja ja taitoksia. Näytteenottoalueet (20 x 20 cm) sivellään kahdella steriilillä puuvillataitoksella. Ensimmäinen taitos kostutetaan steriilillä peptonivedellä ja sillä sivellään voimakkaasti useita kertoja näytteenottoaluetta. Samaa näytteenottoaluetta hangataan toisella kuivalla taitoksella. Sen jälkeen taitokset laitetaan 100 ml:aan peptonivettä ja niitä inkuboidaan 37°C lämpötilassa 16―20 tuntia. Sen jälkeen esirikastusliuoserät tutkitaan salmonellabakteerin varalta tämän päätöksen 6 §:ssä määrättyä menetelmää käyttäen. Enintään 10 esirikastusliuoserää voidaan yhdistää rikastusta varten. Näytteeet on merkittävä ja yksilöitävä asianmukaisesti.</sis:KappaleKooste>
       <sis:KappaleKooste>2. <sis1:KursiiviTeksti>Ruhoneljännekset, jotka on saatu muusta laitoksesta kuin siitä teurastamosta, josta ruho on peräisin, leikattu ja paloiteltu liha</sis1:KursiiviTeksti></sis:KappaleKooste>
-      <sis:KappaleKooste>Kudoksesta otetaan noin 25 cm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>:n kokoinen viipale työntämällä steriili näytteenottoholkki lihan pintaan tai leikkaamalla viipale steriileillä välineillä. Nämä näytteet siirretään steriilisti näyteastiaan tai muoviseen liuospussiin ja sitten homogenisoidaan Stomacher- tai Blender-</sis:KappaleKooste>
-      <sis:KappaleKooste>tyyppisellä homogenisaattorilla. Analyysiä varten näytteet laimennetaan kymmenkertaiseksi puskuroidulla peptonivedellä ja niitä inkuboidaan 37°C lämpötilassa 16―20 tuntia. Sen jälkeen esirikastusliuokset tutkitaan salmonellabakteerin varalta tämän päätöksen 6 §:ssä määrättyä menetelmää käyttäen. Enintään 10 esirikastusliuoserää voidaan yhdistää rikastusta varten. Näytteet on merkittävä ja yksilöitävä asianmukaisesti.</sis:KappaleKooste>
+      <sis:KappaleKooste>Kudoksesta otetaan noin 25 cm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>:n kokoinen viipale työntämällä steriili näytteenottoholkki lihan pintaan tai leikkaamalla viipale steriileillä välineillä. Nämä näytteet siirretään steriilisti näyteastiaan tai muoviseen liuospussiin ja sitten homogenisoidaan Stomacher- tai Blender-tyyppisellä homogenisaattorilla. Analyysiä varten näytteet laimennetaan kymmenkertaiseksi puskuroidulla peptonivedellä ja niitä inkuboidaan 37°C lämpötilassa 16―20 tuntia. Sen jälkeen esirikastusliuokset tutkitaan salmonellabakteerin varalta tämän päätöksen 6 §:ssä määrättyä menetelmää käyttäen. Enintään 10 esirikastusliuoserää voidaan yhdistää rikastusta varten. Näytteet on merkittävä ja yksilöitävä asianmukaisesti.</sis:KappaleKooste>
       <sis:KappaleKooste>Pakastetut lihanäytteet pidetään pakastettuina laboratorioon kuljetuksen aikana. Jäähdytettyjä lihanäytteitä ei pakasteta vaan ne säilytetään jäähdytettyinä. Saman erän eri näytteet voidaan koota yhteen.</sis:KappaleKooste>
-      <sis:KappaleKooste>B. OTETTAVIEN NÄYTTEIDEN MÄÄRÄ1. <sis1:KursiiviTeksti>A-jakson 1. kohdassa tarkoitetut ruhot, puoliruhot, enintään kolmeen palaan paloitellut puoliruhot ja neljännesruhot</sis1:KursiiviTeksti></sis:KappaleKooste>
+      <sis:KappaleKooste>B. OTETTAVIEN NÄYTTEIDEN MÄÄRÄ 1. <sis1:KursiiviTeksti>A-jakson 1. kohdassa tarkoitetut ruhot, puoliruhot, enintään kolmeen palaan paloitellut puoliruhot ja neljännesruhot</sis1:KursiiviTeksti></sis:KappaleKooste>
       <sis:KappaleKooste>Ruhojen tai puoliruhojen (yksiköt) määrä erässä, josta yksittäiset otantanäytteet otetaan, on seuraava:</sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>Erä (yksiköiden määrä)   Yksiköiden määrä, joista on otettava näyte</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <sis:KappaleKooste>1― 24sama kuin yksiköiden määrä, enintään 20 25― 2920 30― 3925 40― 4930 50― 5935 60― 8940 90―19950200―49955500 tai enemmän60</sis:KappaleKooste>
+      <sis:KappaleKooste>1― 24 sama kuin yksiköiden määrä, enintään 20 25―29 20 30―39 25 40―49 30 50―59 35 60―89 40 90―199 50 200―499 55 500 tai enemmän 60</sis:KappaleKooste>
       <sis:KappaleKooste>2. <sis1:KursiiviTeksti>A-jakson 2. kohdassa tarkoitetut neljännesruhot, leikattu ja paloiteltu liha</sis1:KursiiviTeksti></sis:KappaleKooste>
       <sis:KappaleKooste>Pakkausyksiköiden määrä erässä, josta yksittäiset otantanäytteet otetaan, on seuraava:</sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>Erä (pakkausyksiköiden määrä)   Pakkausyksiköiden määrä, joista on otettava näyte</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <sis:KappaleKooste>1― 24sama kuin pakkausten määrä, enintään 20 25― 2920 30― 3925 40― 4930 50― 5935 60― 8940 90―19950200―49955500 tai enemmän60</sis:KappaleKooste>
+      <sis:KappaleKooste>1― 24 sama kuin pakkausten määrä, enintään 20 25―29 20 30―39 25 40―49 30 50―59 35 60―89 40 90―199 50 200―499 55 500 tai enemmän 60</sis:KappaleKooste>
       <sis:KappaleKooste>Pakkausyksiköiden painon mukaan pakkausyksiköiden määrää, josta näyte on otettava, voidaan vähentää seuraavia kertoimia käyttäen:</sis:KappaleKooste>
       <sis:KappaleKooste/>
       <tau:table>
@@ -473,7 +462,7 @@
         <sis1:KursiiviTeksti>Liite 8</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste/>
-      <ete>LIITTEET PUUTTUUVAT</ete>
+      <sis1:ValiotsikkoTeksti>LIITTEET PUUTTUVAT</sis1:ValiotsikkoTeksti>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

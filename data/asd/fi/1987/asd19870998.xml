@@ -24,9 +24,39 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Verokuutiometrin keskimääräiset raha-arvot ovat seuraavat:</saa:MomenttiKooste>
-          <te>					Verokuutiometrin</te>
-          <te>					 keskimääräinen</te>
-          <te>					 raha-arvo,  mk</te>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">Verokuutiometrin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">keskimääräinen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>raha-arvo,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <tau:table>
             <tau:tgroup cols="4" colsep="0" rowsep="0" align="left">
               <tau:colspec colnum="1" colname="1" colwidth=""/>

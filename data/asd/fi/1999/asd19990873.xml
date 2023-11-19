@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1999-09-03" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -32,41 +32,45 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Kiinteistörekisteriin merkittävät tiedot</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Kiinteistörekisterilain (392/1985) 7 §:ssä mainittujen tietojen lisäksi kiinteistörekisteriin merkitään kiinteistönmuodostamisviranomaisten tuottamina kutakin rekisteriyksikköä koskevina tietoina:</saa:MomenttiKooste>
-          <sis:Katkoviiva/>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Kiinteistörekisterilain (392/1985) 7 §:ssä mainittujen tietojen lisäksi kiinteistörekisteriin merkitään kiinteistönmuodostamisviranomaisten tuottamina kutakin rekisteriyksikköä koskevina tietoina:</saa:MomenttiJohdantoKooste>
+            <sis:Katkoviiva/>
+            <saa:MomenttiKohtaKooste>
 7) kiinteistönmuodostamislain (554/1995) 21 §:n 2 momentissa tarkoitettu merkintä kantakiinteistöstä;
 </saa:MomenttiKohtaKooste>
-          <sis:Katkoviiva/>
+            <sis:Katkoviiva/>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
           <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Muut kiinteistörekisteriin merkittävät tiedot</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Kiinteistörekisteriin merkitään 6 §:ssä mainittujen tietojen lisäksi rekisteriyksikköä koskevina tietoina:</saa:MomenttiKooste>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Kiinteistörekisteriin merkitään 6 §:ssä mainittujen tietojen lisäksi rekisteriyksikköä koskevina tietoina:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
 1) yksikön tai sen osan sijaitseminen voimassa olevan oikeusvaikutteisen yleiskaavan alueella;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 2) yksikön tai sen osan sijaitseminen voimassa olevan asemakaavan alueella;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 3) tontin ja yleisen alueen osalta asemakaavan mukainen käyttötarkoitus;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 4) asemakaavan mukaisen muun kuin 3 kohdassa mainitun kiinteistön osalta sen kaavassa määrätty käyttötarkoitus kiinteistön muodostamisajankohtana;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 5) yksikön tai sen osan sijaitseminen alueella, jolla on maankäyttö- ja rakennuslain 53 §:n mukainen rakennuskielto;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 6) tonttia koskeva erillinen tonttijako; sekä 
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 7) muita tietoja sen mukaan kuin muualla laissa tai sen nojalla merkittäväksi säädetään.
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
         </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 a">
-          <saa:PykalaTunnusKooste>11 a</saa:PykalaTunnusKooste>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 a §">
+          <saa:PykalaTunnusKooste>11 a §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Kiinteistörekisterin pitoon liittyvät ilmoitukset</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Jos kunta tekee kiinteistörekisterin pitämistä koskevan päätöksen, kunnan on ilmoitettava siitä asianomaiselle maanmittaustoimistolle ja kunnan kiinteistörekisterin pitäjälle.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Viranomaisen päätöksestä, joka saa aikaan muutoksen kiinteistörekisteriin merkittävään tietoon, viranomaisen on ilmoitettava asianomaiselle kiinteistörekisterin pitäjälle.</saa:MomenttiKooste>

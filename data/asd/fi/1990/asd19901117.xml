@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>kansanterveyslain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Hallituksen esitys 202/89</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Talousvaliok. miet. 3/90</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>Suuren valiok. miet. 134/90</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -60,10 +49,7 @@
           <saa:PykalaTunnusKooste>28 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Yksikielisen kunnan tai kuntainliiton terveyskeskuksen terveydenhuoltopalvelut järjestetään kunnan tai kuntainliiton kielellä.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kaksikielisen kunnan taikka kaksikielisiä tai sekä suomen- että ruotsinkielisiä kuntia käsittävän kuntainliiton terveyskeskuksen terveydenhuoltopalvelut järjestetään kunnan tai kuntainliiton molemmilla kielillä siten, että potilas saa palvelut omalla kielellään.</saa:MomenttiKooste>
-          <saa:MomenttiKooste>Kunnan tai kansanterveystyön kuntainliiton tulee lisäksi huolehtia siitä, että pohjoismaiden kansalaiset voivat terveydenhuoltopalveluja</saa:MomenttiKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="käyttäessään tarvittaessa käyttää omaa kieltään, suomen, islannin, norjan, ruotsin ja tanskan kieltä. Kunnan tai kansanterveystyön kuntainliiton on tällöin mikäli mahdollista huolehdittava siitä, että Pohjoismaiden kansalaiset saavat tarvittavan tulkitsemis- ja kääntämisavun.">
-          <saa:PykalaTunnusKooste> käyttäessään tarvittaessa käyttää omaa kieltään, suomen, islannin, norjan, ruotsin ja tanskan kieltä. Kunnan tai kansanterveystyön kuntainliiton on tällöin mikäli mahdollista huolehdittava siitä, että Pohjoismaiden kansalaiset saavat tarvittavan tulkitsemis- ja kääntämisavun.</saa:PykalaTunnusKooste>
+          <saa:MomenttiKooste>Kunnan tai kansanterveystyön kuntainliiton tulee lisäksi huolehtia siitä, että pohjoismaiden kansalaiset voivat terveydenhuoltopalveluja käyttäessään tarvittaessa käyttää omaa kieltään, suomen, islannin, norjan, ruotsin ja tanskan kieltä. Kunnan tai kansanterveystyön kuntainliiton on tällöin mikäli mahdollista huolehdittava siitä, että Pohjoismaiden kansalaiset saavat tarvittavan tulkitsemis- ja kääntämisavun.</saa:MomenttiKooste>
         </saa:Pykala>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
@@ -72,6 +58,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Hallituksen esitys 202/89</sdk:EsityoViite>
+    <sdk:EsityoViite>Talousvaliok. miet. 3/90</sdk:EsityoViite>
+    <sdk:EsityoViite>Suuren valiok. miet. 134/90</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 14 päivänä joulukuuta 1990</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

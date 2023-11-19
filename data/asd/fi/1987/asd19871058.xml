@@ -24,11 +24,52 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Merenkulkulaitoksen jäänmurtajan suorittamasta hinauksesta peritään seuraavat maksut:</saa:MomenttiKooste>
-          <te>Hinattavan aluksen				Jokaiselta alkaneelta</te>
-          <te>nettovetoisuutta				  puolelta tunnilta </te>
-          <te>osoittava luku				   	  mk</te>
-          <te>    0-  500					1 135</te>
-          <te>  501-1 000					1 420</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Hinattavan aluksen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Jokaiselta alkaneelta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>nettovetoisuutta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>puolelta tunnilta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>osoittava luku</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>0- 500</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 135</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>501-1 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 420</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>1 001-2 000					1 700</saa:MomenttiKooste>
           <saa:MomenttiKooste>2 001-4 000					2 270</saa:MomenttiKooste>
           <saa:MomenttiKooste>4 001-						2 840</saa:MomenttiKooste>

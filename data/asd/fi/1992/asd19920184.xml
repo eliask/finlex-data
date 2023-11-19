@@ -24,84 +24,577 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
           <saa:PykalaTunnusKooste>1 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Opetushallitus </saa:SaadosOtsikkoKooste>
-          <ete>Lakkautetaan: </ete>
-          <te/>
-          <te>Luku-   Viran             Palkkaus- </te>
-          <te>määrä   nimi              luokka</te>
-          <te>1       kielenkääntäjä    A 19 </te>
-          <te>2       kirjanpitäjä      A 10 </te>
-          <te>1       apulaiskirjan-</te>
-          <te>        pitäjä            A 10 </te>
-          <te>2       virastomestari    A 10 </te>
-          <te>3       toimistosihteeri  A  9  </te>
-          <te>9       konekirjoittaja   A  5 </te>
-          <te> </te>
+          <saa:MomenttiKooste>Lakkautetaan: </saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Luku-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Viran</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">Palkkaus-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">määrä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">nimi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">luokka</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kielenkääntäjä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">A 19</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kirjanpitäjä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">A 10</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>apulaiskirjan-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">pitäjä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">A 10</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">virastomestari</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">A 10</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">toimistosihteeri</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">A 9</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">9</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">konekirjoittaja</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">A 5</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Valtion ammatilliset oppilaitokset </saa:SaadosOtsikkoKooste>
-          <ete>Lakkautetaan: </ete>
-          <te/>
-          <te>Luku-   Viran             Palkkaus- </te>
-          <te>määrä   nimi              luokka </te>
-          <saa:MomenttiKooste>
-            <saa:SaadosKursiiviKooste>Ammattioppilaitokset</saa:SaadosKursiiviKooste>
-          </saa:MomenttiKooste>
-          <te>1       lehtori ammatilliset</te>
-          <te>        aineet)           C 48</te>
-          <te>1       lehtori (ammatilliset</te>
-          <te>        aineet)           C 40</te>
-          <te>6       lehtori (ammatilliset</te>
-          <te>        aineet)           C 37</te>
-          <saa:MomenttiKooste>
-            <saa:SaadosKursiiviKooste>Koti- ja laitostalousoppilaitokset</saa:SaadosKursiiviKooste>
-          </saa:MomenttiKooste>
-          <te>1       lehtori (ammatti-</te>
-          <te>        aineet)           C 48</te>
-          <te>1       lehtori (ammatti-</te>
-          <te>        aineet)           C 47</te>
-          <te>1       lehtori (ammatin-</te>
-          <te>        opetus)           C 40</te>
-          <te>4       lehtori (ammatin-</te>
-          <te>        opetus)           C 38</te>
-          <saa:MomenttiKooste>
-            <saa:SaadosKursiiviKooste>Maatalousalan oppilaitokset</saa:SaadosKursiiviKooste>
-          </saa:MomenttiKooste>
-          <te>9       lehtori (ammatti-</te>
-          <te>        aineet)           C 47</te>
-          <te>1       lehtori (äidinkieli,</te>
-          <te>        toinen kotimainen kieli,</te>
-          <te>        vieraat kielet,</te>
-          <te>        kansalaistieto,</te>
-          <te>        matematiikka,</te>
-          <te>        fysiikka, kemia</te>
-          <te>        ja tieto-</te>
-          <te>        tekniikka)        C 46</te>
-          <te>6       lehtori (ammatin-</te>
-          <te>        opetus)           C 40</te>
-          <te>1       talonmies-</te>
-          <te>        lämmittäjä        A 10</te>
-          <te>1       talonmies-</te>
-          <te>        lämmittäjä        A  9 </te>
-          <saa:MomenttiKooste>
-            <saa:SaadosKursiiviKooste>Metsä- ja puutalousoppilaitokset</saa:SaadosKursiiviKooste>
-          </saa:MomenttiKooste>
-          <te>1       lehtori (ammatilliset</te>
-          <te>        aineet)           C 55</te>
-          <te>1       lehtori (ammatilliset</te>
-          <te>        aineet)           C 50</te>
-          <saa:MomenttiKooste>
-            <saa:SaadosKursiiviKooste>Terveydenhuolto-oppilaitokset</saa:SaadosKursiiviKooste>
-          </saa:MomenttiKooste>
-          <te> 1      lehtori (lääketieteelliset</te>
-          <te>        aineet)           C 51</te>
-          <te> 1      lehtori (optikko-</te>
-          <te>        ala)              C 51</te>
-          <te> 1      siivoustyön</te>
-          <te>        ohjaaja           A  9</te>
-          <te>20      sairaala-</te>
-          <te>        apulainen         A  5 </te>
-          <te> </te>
+          <saa:MomenttiKooste>Lakkautetaan: </saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Luku-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Viran</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">Palkkaus-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">määrä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">nimi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">luokka</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Ammattioppilaitokset</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori ammatilliset</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aineet)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 48</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (ammatilliset</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aineet)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 40</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">6</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (ammatilliset</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aineet)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 37</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Koti- ja laitostalousoppilaitokset</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (ammatti-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aineet)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 48</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (ammatti-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aineet)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 47</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (ammatin-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">opetus)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 40</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">4</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (ammatin-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">opetus)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 38</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Maatalousalan oppilaitokset</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">9</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (ammatti-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aineet)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 47</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (äidinkieli,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>toinen kotimainen kieli,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>vieraat kielet,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>kansalaistieto,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>matematiikka,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>fysiikka, kemia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>ja tieto-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">tekniikka)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 46</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">6</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (ammatin-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">opetus)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 40</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>talonmies-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">lämmittäjä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">A 10</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>talonmies-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">lämmittäjä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">A 9</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Metsä- ja puutalousoppilaitokset</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (ammatilliset</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aineet)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 55</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (ammatilliset</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aineet)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Terveydenhuolto-oppilaitokset</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (lääketieteelliset</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aineet)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 51</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>lehtori (optikko-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">ala)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">C 51</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>siivoustyön</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">ohjaaja</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">A 9</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">20</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>sairaala-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">apulainen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">A 5</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>

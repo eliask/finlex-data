@@ -12,22 +12,17 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Työministeriön päätös</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>käyttöturvallisuustiedotteesta annetun työministeriön päätöksen liitteen muuttamisesta</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
-        <sis:Tyhja/>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>Työministeriö on muuttanut käyttöturvallisuustiedotteesta 20 päivänä elokuuta 1993 annetun työministeriön päätöksen (779/93) liitteenä olevan ohjeen käyttöturvallisuustiedotteen laatimiseksi jäljempänä olevan liitteen mukaiseksi.</te>
+      <saa:SisaltoMuuSaados>
+        <saa:SaadosKappaleKooste>Työministeriö on muuttanut käyttöturvallisuustiedotteesta 20 päivänä elokuuta 1993 annetun työministeriön päätöksen (779/93) liitteenä olevan ohjeen käyttöturvallisuustiedotteen laatimiseksi jäljempänä olevan liitteen mukaiseksi.</saa:SaadosKappaleKooste>
         <sis:Palstaviiva/>
-        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
-          <saa:MomenttiKooste>Tämä päätös tulee voimaan 15 päivänä kesäkuuta 1994.</saa:MomenttiKooste>
-        </saa:Pykala>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Tämä päätös tulee voimaan 15 päivänä kesäkuuta 1994.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 3 päivänä kesäkuuta 1994</asi:PaivaysKooste>
@@ -124,39 +119,194 @@
         <sis1:KursiiviTeksti>Henkilönsuojaimia suositeltaessa tulisi viitata mahdollisuuksien mukaan CEN-standardeihin.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>9. Fysikaaliset ja kemialliset ominaisuudet Seuraavat kemikaaleja koskevat tiedot ilmoitetaan:</sis:KappaleKooste>
-      <te/>
-      <te>Ulkonäkö:     ilmoitetaan toimitettavan aineen tai</te>
-      <te>              valmisteen fysikaalinen tila (kiinteä,</te>
-      <te>              neste, kaasu) ja väri.</te>
-      <te>Haju:         jos haju on selvä, annetaan lyhyt kuvaus siitä.</te>
-      <te>pH:           ilmoitetaan toimitettavan tai vesiliuoksessa</te>
-      <te>              olevan aineen tai valmisteen pH-arvo;</te>
-      <te>              viimeksi mainitussa tapauksessa,</te>
-      <te>              ilmoitetaan väkevyys.</te>
-      <te>Kiehumispiste/kiehumisalue: 2</te>
-      <te>Sulamispiste/sulamisalue:</te>
-      <te>Leimahduspiste:</te>
-      <te>Syttyvyys (kiinteä/kaasu):</te>
-      <te>Itsesyttyvyys:</te>
-      <te>Räjähdysominaisuudet:</te>
-      <te>Hapettavat ominaisuudet:</te>
-      <te>Höyrynpaine:</te>
-      <te>Suhteellinen tiheys:</te>
-      <te>Liukoisuus:</te>
-      <te>- vesiliukoisuus</te>
-      <te>- rasvaliukoisuus (liuotin Ä</te>
-      <te>öljy eriteltävä)</te>
-      <te>Jakaantumiskerroin:</te>
-      <te>n-oktanoli/vesi</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ulkonäkö:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">ilmoitetaan toimitettavan aineen tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">valmisteen fysikaalinen tila (kiinteä,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">neste, kaasu) ja väri.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Haju:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">jos haju on selvä, annetaan lyhyt kuvaus siitä.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">pH:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">ilmoitetaan toimitettavan tai vesiliuoksessa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">olevan aineen tai valmisteen pH-arvo;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">viimeksi mainitussa tapauksessa,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">ilmoitetaan väkevyys.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Kiehumispiste/kiehumisalue: 2</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Sulamispiste/sulamisalue:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Leimahduspiste:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Syttyvyys (kiinteä/kaasu):</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Itsesyttyvyys:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Räjähdysominaisuudet:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Hapettavat ominaisuudet:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Höyrynpaine:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Suhteellinen tiheys:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Liukoisuus:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>- vesiliukoisuus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>- rasvaliukoisuus (liuotin Ä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>öljy eriteltävä)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Jakaantumiskerroin:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>n-oktanoli/vesi</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>2 Fysikaalis-kemiallisilla ominaisuuksilla tarkoitetaan vaarallisten aineiden luokitusta, pakkaamista ja merkitsemistä koskevien lakien, asetusten ja hallinnollisten määräysten lähentämistä koskevan neuvoston direktiivin (67/548/ETY) testiohjeiden (liite V) mukaisesti määritettyjä ominaisuuksia.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <te/>
-      <te>Muut tiedot:  esim. seuraavat turvallisuuteen vaikuttavat</te>
-      <te>              tekijät kuten höyryn tiheys, sekoittuvuus,</te>
-      <te>              höyrystymisnopeus, johtavuus, viskositeetti jne.</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Muut tiedot:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">esim. seuraavat turvallisuuteen vaikuttavat</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">tekijät kuten höyryn tiheys, sekoittuvuus,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">höyrystymisnopeus, johtavuus, viskositeetti jne.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>Edellä kuvatut tiedot tulisi määrittää käyttäen kemikaalien luokitusperusteista ja merkintöjen tekemisestä annetussa sosiaali- ja terveysministeriön päätöksessä tarkoitettuja testimenetelmiä.</sis:KappaleKooste>
       <sis:KappaleKooste>10. Stabiilisuus ja reaktiivisuus</sis:KappaleKooste>
       <sis:KappaleKooste>Ilmoitetaan kemikaalin stabiilisuus ja haitalliset reaktiot, joita voi ilmetä tunnetuissa olosuhteissa.</sis:KappaleKooste>
@@ -185,30 +335,184 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>Seuraavassa esitetään esimerkkejä kemikaalien ympäristölle vaarallisuuteen liittyvistä tiedoista:</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <te/>
-      <te>kulkeutuvuus: - tunnettu tai arvioitu jakautuminen ympäristön</te>
-      <te>                osa-alueisiin,</te>
-      <te>              - pintajännitys</te>
-      <te>              - adsorptio/desorptio</te>
-      <te>              - muut fysikaalis-kemialliset ominaisuudet,</te>
-      <te>                katso kohta 9;</te>
-      <te>hajoavuus:    - bioottinen ja abioottinen hajoavuus,</te>
-      <te>              - aerobinen ja anaerobinen hajoavuus,</te>
-      <te>              - pysyvyys;</te>
-      <te>kertyvyys:    - kertyvyys eliöihin,</te>
-      <te>              - rikastuminen;</te>
-      <te>Välittömät ja pitkäaikaiset vaikutukset:</te>
-      <te>myrkyllisyys: - vesieliöille,</te>
-      <te>              - maaperäeliöille,</te>
-      <te>              - kasveille ja eläimille maaympäristössä;</te>
-      <te>muut</te>
-      <te>haitalliset</te>
-      <te>vaikutukset:  - vaikutus otsonikerroksen ohentumiseen,</te>
-      <te>              - vaikutus valokemialliseen otsonin</te>
-      <te>                muodostumiseen,</te>
-      <te>              - vaikutus ilmakehän lämpenemiseen,</te>
-      <te>              - vaikutukset jätevedenpuhdistamoon.</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kulkeutuvuus:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- tunnettu tai arvioitu jakautuminen ympäristön</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">osa-alueisiin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- pintajännitys</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- adsorptio/desorptio</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- muut fysikaalis-kemialliset ominaisuudet,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">katso kohta 9;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">hajoavuus:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- bioottinen ja abioottinen hajoavuus,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- aerobinen ja anaerobinen hajoavuus,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- pysyvyys;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kertyvyys:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- kertyvyys eliöihin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- rikastuminen;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Välittömät ja pitkäaikaiset vaikutukset:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">myrkyllisyys:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- vesieliöille,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- maaperäeliöille,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- kasveille ja eläimille maaympäristössä;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>muut</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>haitalliset</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">vaikutukset:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- vaikutus otsonikerroksen ohentumiseen,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- vaikutus valokemialliseen otsonin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">muodostumiseen,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- vaikutus ilmakehän lämpenemiseen,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- vaikutukset jätevedenpuhdistamoon.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>Huomautuksia: </sis1:KursiiviTeksti>
       </sis:KappaleKooste>

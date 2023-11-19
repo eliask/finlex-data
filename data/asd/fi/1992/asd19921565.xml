@@ -21,63 +21,537 @@
         <saa:SaadosKappaleKooste>Valtioneuvosto on kustannustason nousun ehkäisemisestä eräissä tapauksissa 5 päivänä huhtikuuta 1974 annetun lain (284/74) 2 §:n 1 momentin nojalla valtiovarainministeriön esittelystä muuttanut alempana mainitun tullitariffin nimikkeisiin kuuluvien tavaroiden tullit väliaikaisesti seuraavasti:</saa:SaadosKappaleKooste>
       </saa:Johtolause>
       <saa:Pykalisto>
-        <te/>
-        <te>Nimike     Tavara                                    Tulli</te>
-        <te>0.7.03:sta Valkosipuli                                 0 %</te>
-        <te>07.09:stä  Parsa ja munakoiso (aubergiini)             0 %</te>
-        <te>07.11:sta  Sienet                                      0 %</te>
-        <te>08.02      Muut tuoreet ja kuivatut pähkinät,</te>
-        <te>           myös kuorettomat                            0 %</te>
-        <te>08.03      Tuoreet ja kuivatut banaanit,</te>
-        <te>           myös jauhobanaanit                          0 %</te>
-        <te>08.04:stä  Tuoreet ja kuivatut taatelit ja viikunat    0 %</te>
-        <te>08.05      Tuoreet ja kuivatut sitrushedelmät          0 %</te>
-        <te>08.06      Tuoreet tai kuivatut viinirypäleet          0 %</te>
-        <te>08.07:stä  Tuoreet melonit (myös vesimelonit)          0 %</te>
-        <te>08.08:sta  Tuoreet päärynät tullattaessa aikana</te>
-        <te>           1.1.Ä31.7.1993                              0 %</te>
-        <te>08.09:stä  Tuoreet aprikoosit, kirsikat, persikat</te>
-        <te>           (myös nektariinit), luumut ja</te>
-        <te>           oratuomenmarjat tullattaessa aikana</te>
-        <te>           1.1.Ä31.5.1993                              0 %</te>
-        <te>08.13      Kuivatut hedelmät, nimikkeisiin</te>
-        <te>           08.01-08.06 kuulumattomat;</te>
-        <te>           tämän ryhmän pähkinöiden ja/tai</te>
-        <te>           kuivattujen hedelmien sekoitukset           0 %</te>
-        <te>08.14      Sitrushedelmien ja melonien (myös</te>
-        <te>           vesimelonin) kuoret, tuoreet, jäädytetyt,</te>
-        <te>           kuivatut tai väliaikaisesti suolavedessä,</te>
-        <te>           rikkihapoke- tai muussa säilöntäliuoksessa</te>
-        <te>           säilöttyinä                                 0 %</te>
-        <te>09.01:stä  Muut kuin paahdettu kahvi                   0 %</te>
-        <te>18.01      Kaakaopavut, kokonaiset tai rouhitut,</te>
-        <te>           raa'at tai paahdetut                        0 %</te>
-        <te>18.03      Kaakaomassa, myös sellainen, josta</te>
-        <te>           rasva on poistettu                          0 %</te>
-        <te>18.04      Kaakaovoi, -rasva ja -öljy                  0 %</te>
-        <te>18.05      Kaakaojauhe, lisättynä sokeria tai</te>
-        <te>           muuta makeuttamisainetta sisältämätön       0 %</te>
-        <te>20.02      Muulla tavalla kuin etikan tai etikka-</te>
-        <te>           hapon avulla valmistetut tai</te>
-        <te>           säilötyt tomaatit                           0 %</te>
-        <te>20.03:sta  Muut sienet kuin multasienet                0 %</te>
-        <te>20.05:stä  Parsa                                       0 %</te>
-        <te>20.08      Muulla tavalla valmistetut tai</te>
-        <te>           säilötyt hedelmät, pähkinät ja muut</te>
-        <te>           syötävät kasvinosat, myös lisättyä</te>
-        <te>           sokeria, muuta makeutusainetta tai</te>
-        <te>           alkoholia sisältävät, muualle</te>
-        <te>           kuulumattomat                               0 %</te>
-        <te>20.09:stä  Sitrushedelmämehuista muut kuin</te>
-        <te>           greippimehu ja sekamehut; viinirypälemehu   0 %</te>
-        <te>21.01      Kahvi-, tee ja mateeuutteet, -esanssit</te>
-        <te>           ja -tiivisteet sekä näihin tuotteisiin</te>
-        <te>           tai kahviin, teehen tai mateehen</te>
-        <te>           perustuvat valmisteet, paahdettu</te>
-        <te>           sikurijuuri ja muut paahdetut</te>
-        <te>           kahvinkorvikkeet sekä niiden uutteet,</te>
-        <te>           esanssit ja tiivisteet                      0 %</te>
-        <te/>
+        <tau:table>
+          <tau:tgroup cols="3" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Nimike</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tavara</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tulli</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>0.7.03:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Valkosipuli</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>07.09:stä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Parsa ja munakoiso (aubergiini)</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>07.11:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Sienet</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>08.02</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Muut tuoreet ja kuivatut pähkinät,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>myös kuorettomat</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>08.03</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Tuoreet ja kuivatut banaanit,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>myös jauhobanaanit</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>08.04:stä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tuoreet ja kuivatut taatelit ja viikunat</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>08.05</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tuoreet ja kuivatut sitrushedelmät</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>08.06</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tuoreet tai kuivatut viinirypäleet</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>08.07:stä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tuoreet melonit (myös vesimelonit)</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>08.08:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Tuoreet päärynät tullattaessa aikana</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>1.1.-31.7.1993</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>08.09:stä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Tuoreet aprikoosit, kirsikat, persikat</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">(myös nektariinit), luumut ja</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">oratuomenmarjat tullattaessa aikana</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>1.1.-31.5.1993</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>08.13</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Kuivatut hedelmät, nimikkeisiin</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">08.01-08.06 kuulumattomat;</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">tämän ryhmän pähkinöiden ja/tai</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>kuivattujen hedelmien sekoitukset</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>08.14</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Sitrushedelmien ja melonien (myös</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">vesimelonin) kuoret, tuoreet, jäädytetyt,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">kuivatut tai väliaikaisesti suolavedessä,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">rikkihapoke- tai muussa säilöntäliuoksessa</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>säilöttyinä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>09.01:stä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Muut kuin paahdettu kahvi</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>18.01</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Kaakaopavut, kokonaiset tai rouhitut,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>raa'at tai paahdetut</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>18.03</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Kaakaomassa, myös sellainen, josta</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>rasva on poistettu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>18.04</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Kaakaovoi, -rasva ja -öljy</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>18.05</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Kaakaojauhe, lisättynä sokeria tai</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>muuta makeuttamisainetta sisältämätön</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>20.02</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Muulla tavalla kuin etikan tai etikka-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">hapon avulla valmistetut tai</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>säilötyt tomaatit</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>20.03:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Muut sienet kuin multasienet</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>20.05:stä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Parsa</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>20.08</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Muulla tavalla valmistetut tai</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">säilötyt hedelmät, pähkinät ja muut</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">syötävät kasvinosat, myös lisättyä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">sokeria, muuta makeutusainetta tai</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">alkoholia sisältävät, muualle</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>kuulumattomat</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>20.09:stä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Sitrushedelmämehuista muut kuin</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>greippimehu ja sekamehut; viinirypälemehu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>21.01</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Kahvi-, tee ja mateeuutteet, -esanssit</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">ja -tiivisteet sekä näihin tuotteisiin</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">tai kahviin, teehen tai mateehen</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">perustuvat valmisteet, paahdettu</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">sikurijuuri ja muut paahdetut</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">kahvinkorvikkeet sekä niiden uutteet,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>esanssit ja tiivisteet</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
           <saa:MomenttiKooste>Tämä päätös tulee voimaan 1 päivänä tammikuuta 1993. Sitä sovelletaan vuoden 1993 aikana tai taulukossa erikseen mainittuina ajanjaksoina tullattuihin tavaroihin.</saa:MomenttiKooste>

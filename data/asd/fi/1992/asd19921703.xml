@@ -569,20 +569,118 @@ punaisella värillä valkoisella, heijastavalla pohjalla.</saa:MomenttiKooste>
             <saa:MomenttiKooste>5. Koenumerokilvessä on sana KOE, läänintunnus ja enintään kolminumeroinen luku mustin merkein keltaisella, heijastavalla pohjalla.</saa:MomenttiKooste>
             <saa:MomenttiKooste>6. Ajoneuvon rekisteröintiasioiden hoitajan antamassa siirtokilvessä on läänintunnus ja enintään nelinumeroinen luku punaisin merkein valkealla, heijastavalla pohjalla.</saa:MomenttiKooste>
             <saa:MomenttiKooste>7. Tulli-, koenumero- ja siirtokilpien läänintunnukset ovat:</saa:MomenttiKooste>
-            <te/>
-            <te>Helsingin kaupungissa       A ja B</te>
-            <te>muualla Uudenmaan läänissä  U ja Z</te>
-            <te>Turun ja Porin läänissä     T ja E</te>
-            <te>Hämeen läänissä             H ja I</te>
-            <te>Kymen läänissä              R</te>
-            <te>Mikkelin läänissä           M</te>
-            <te>Kuopion läänissä            K</te>
-            <te>Pohjois-Karjalan läänissä   S</te>
-            <te>Keski-Suomen läänissä       X</te>
-            <te>Vaasan                      V ja Y</te>
-            <te>Oulun läänissä              O</te>
-            <te>Lapin läänissä              L</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Helsingin kaupungissa</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>A ja B</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>muualla Uudenmaan läänissä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>U ja Z</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Turun ja Porin läänissä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>T ja E</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Hämeen läänissä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>H ja I</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Kymen läänissä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>R</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Mikkelin läänissä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>M</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Kuopion läänissä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>K</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Pohjois-Karjalan läänissä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>S</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Keski-Suomen läänissä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>X</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Vaasan</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>V ja Y</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Oulun läänissä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>O</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Lapin läänissä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>L</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="37 §">
             <saa:PykalaTunnusKooste>37 §</saa:PykalaTunnusKooste>

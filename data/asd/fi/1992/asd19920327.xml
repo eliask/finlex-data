@@ -34,11 +34,55 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 § </saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Rahojen halkaisijat ja painot sekä sallitut mittapoikkeamat ovat seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>               Halkaisija mm     Paino g </te>
-          <te>1 000 markkaa  22,1 ± 0,1        9,00 ± 0,15</te>
-          <te>  100 markkaa  35,0 ± 0,1       24,00 ± 0,30</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Halkaisija mm</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Paino g</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 000 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>22,1 ± 0,1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>9,00 ± 0,15</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>100 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>35,0 ± 0,1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>24,00 ± 0,30</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Enintään viisi prosenttia rahoista saa poiketa halkaisijaltaan tai painoltaan enemmän kuin 1 momentissa on sallittu. </saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
@@ -51,11 +95,11 @@
           <saa:MomenttiKooste>Rahojen leimat ovat oheisten selitelmien ja kuvien mukaiset.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Tuhannen markan rahan tunnuspuolella on tyylitelty järvimaisema. Yläosassa on vaakasuorassa vuosiluvut 1917-1992 ja alaosassa allekkain vaakasuorassa tekstit SUOMI ja FINLAND. Arvopuolella on aaltomaisen pohjakuvion päällä veden kimallusta kuvaavia nelikulmioita ja alhaalla vaakasuorassa arvomerkintä 1 000 MK.</saa:MomenttiKooste>
           <sis:Kuva>
-            <sis:KuvaAsemointi ID="0405"/>
+            <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/raha/0405.gif"/>
           </sis:Kuva>
           <saa:MomenttiKooste>Sadan markan rahan tunnuspuolen pohjakuviona on tyyliteltyä kuusimetsää aaltomaista taustaa vasten. Vasemmalla on pystysuorassa alhaalta ylös teksti SUOMI FINLAND ja oikealla pystysuorassa ylhäältä alas vuosiluvut 1917-1992. Arvopuolella on aaltomaisen pohjakuvion päällä veden kimallusta kuvaavia nelikulmioita ja alhaalla vaakasuorassa arvomerkintä 100 MK. </saa:MomenttiKooste>
           <sis:Kuva>
-            <sis:KuvaAsemointi ID="0406"/>
+            <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/raha/0406.gif"/>
           </sis:Kuva>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">

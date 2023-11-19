@@ -70,10 +70,35 @@
         <sis1:KursiiviTeksti>Kiinteämaksuiset julkisoikeudelliset suoritteet</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
       <sis:Katkoviiva/>
-      <te>VIII Muu asiakirjapalvelu               <saa:SaadosKursiiviKooste>mk/asiakirja</saa:SaadosKursiiviKooste></te>
-      <sis:Katkoviiva/>
-      <te>Perintökaaressa tarkoitettu perukirjan</te>
-      <te>osakastietojen vahvistaminen                    200</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">VIII Muu asiakirjapalvelu</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">
+                  <sis1:KursiiviTeksti>mk/asiakirja</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Perintökaaressa tarkoitettu perukirjan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">osakastietojen vahvistaminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">200</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:Katkoviiva/>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>

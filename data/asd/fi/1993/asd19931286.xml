@@ -40,20 +40,107 @@
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Pätevyysluokat ja -alueet</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Vastuuhenkilöiden pätevyydet jaetaan luokkiin A (laaja), C (rajoitettu) ja P (pienasennukset). Eri luokkien pätevyysalueet ovat seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>Luokka 		Pätevyys</te>
-          <te>Luokka A 		Nestekaasun asennus- ja huoltotyöt.</te>
-          <te>Laaja		Maakaasun käyttöputkiston ja käyttölaitteiden asennus- ja huoltotyöt.</te>
-          <te>Luokka C </te>
-          <te>Rajoitettu		Kaasumaisen nestekaasun putkistojen ja käyttölaitteiden asennus- ja huoltotyöt, </te>
-          <te>			kun käyttölaitteiden yhteinen nimellinen polttoaineteho on enintään 500 kW sekä </te>
-          <te>			kaikki nestekaasupulloasennukset.</te>
-          <te>			Maakaasun käyttöputkistojen ja käyttölaitteiden asennus- ja huoltotyöt, </te>
-          <te>			kun käyttölaitteiden yhteinen nimellinen polttoaineteho on enintään 500 kW.</te>
-          <te>Luokka P </te>
-          <te>Pienasennukset	Nestekaasun kiinteät asennukset ja niihin liittyvät huoltotyöt, </te>
-          <te>			kun käyttölaitteistoon liitetyissä nestekaasupulloissa nestekaasun määrä on enintään 25 kg.</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Luokka</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Pätevyys</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Luokka A</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Nestekaasun asennus- ja huoltotyöt.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Laaja</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Maakaasun käyttöputkiston ja käyttölaitteiden asennus- ja huoltotyöt.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Luokka C</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Rajoitettu</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Kaasumaisen nestekaasun putkistojen ja käyttölaitteiden asennus- ja huoltotyöt,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kun käyttölaitteiden yhteinen nimellinen polttoaineteho on enintään 500 kW sekä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kaikki nestekaasupulloasennukset.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Maakaasun käyttöputkistojen ja käyttölaitteiden asennus- ja huoltotyöt,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kun käyttölaitteiden yhteinen nimellinen polttoaineteho on enintään 500 kW.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Luokka P</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Pienasennukset</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Nestekaasun kiinteät asennukset ja niihin liittyvät huoltotyöt,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kun käyttölaitteistoon liitetyissä nestekaasupulloissa nestekaasun määrä on enintään 25 kg.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
           <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
@@ -88,19 +175,96 @@
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Koulutus ja työkokemus</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Vastuuhenkilöltä edellytetään eri luokkien osalta seuraavaa vähimmäiskoulutusta ja -työkokemusta:</saa:MomenttiKooste>
-          <te/>
-          <te>Luokka 		Vähimmäiskoulutus ja -työkokemus</te>
-          <te>Luokka A</te>
-          <te>Laaja 		Teknillisessä oppilaitoksessa suoritettu tehtävään soveltuva tutkinto </te>
-          <te>			ja kahden vuoden työkokemus kaasuasennuksista.</te>
-          <te>Luokka C</te>
-          <te>Rajoitettu  	Teknillisessä oppilaitoksessa suoritettu tehtävään soveltuva tutkinto </te>
-          <te>			ja yhden vuoden työkokemus kaasuasennuksista tai vastaavista asennuksista; </te>
-          <te>			taikka ammatillinen peruskoulutus ja kahden vuoden työkokemus kaasuasennuksista </te>
-          <te>			tai vastaavista asennuksista.</te>
-          <te>Luokka P </te>
-          <te>Pienasennukset	Yhden vuoden työkokemus kaasuasennuksista tai vastaavista asennuksista.</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Luokka</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Vähimmäiskoulutus ja -työkokemus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Luokka A</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Laaja</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Teknillisessä oppilaitoksessa suoritettu tehtävään soveltuva tutkinto</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">ja kahden vuoden työkokemus kaasuasennuksista.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Luokka C</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Rajoitettu</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Teknillisessä oppilaitoksessa suoritettu tehtävään soveltuva tutkinto</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">ja yhden vuoden työkokemus kaasuasennuksista tai vastaavista asennuksista;</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">taikka ammatillinen peruskoulutus ja kahden vuoden työkokemus kaasuasennuksista</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">tai vastaavista asennuksista.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Luokka P</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Pienasennukset</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Yhden vuoden työkokemus kaasuasennuksista tai vastaavista asennuksista.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="7 §">
           <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>

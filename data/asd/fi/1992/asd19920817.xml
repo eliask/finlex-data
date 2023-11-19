@@ -103,24 +103,130 @@ e) sellaisten jarrujärjestelmän venttiilien vaihtaminen, jotka eivät vaadi s�
             <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Laitteet ja varusteet</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>1. Lupaluokasta riippuen korjaamolla tulee olla seuraavat laitteet ja varusteet tai vastaava pysyvä käyttöoikeus:</saa:MomenttiKooste>
-            <te/>
-            <te>Laitteet ja varusteet:                                   Lupa:</te>
-            <te>a) jarrurumpujen koneistukseen tarvittavat työstökoneet  A ja B</te>
-            <te>b) jarrurumpujen ja kitkapalojen keskinäiseen</te>
-            <te>   sovittamiseen tarvittavat laitteet                    A ja B</te>
-            <te>c) jarrutushidastuvuuden mittauslaite                    A</te>
-            <te>d) jarrudynamometri                                      A</te>
-            <te>e) lukkiutumattoman jarrujärjestelmän testaukseen</te>
-            <te>   soveltuva laite                                       A</te>
-            <te>f) jarruviiveiden mittauslaite                           A</te>
-            <te>g) kitkapalojen niittauslaite                            A ja B</te>
-            <te>h) pyörä- tai akselipainovaaka                           A</te>
-            <te>i) riittävät mittausvälineet, sisältäen myös</te>
-            <te>   paineilmajärjestelmän jarrupaineiden mittauslaitteet  A ja B</te>
-            <te>j) riittävät jarrujen korjauksessa tarvittavat muut</te>
-            <te>   yleis- ja erikoistyökalut sekä tarpeelliset</te>
-            <te>   nostolaitteet                                         A ja B</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Laitteet ja varusteet:</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Lupa:</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">a) jarrurumpujen koneistukseen tarvittavat työstökoneet</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A ja B</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>b) jarrurumpujen ja kitkapalojen keskinäiseen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">sovittamiseen tarvittavat laitteet</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A ja B</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">c) jarrutushidastuvuuden mittauslaite</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">d) jarrudynamometri</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>e) lukkiutumattoman jarrujärjestelmän testaukseen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">soveltuva laite</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">f) jarruviiveiden mittauslaite</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">g) kitkapalojen niittauslaite</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A ja B</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">h) pyörä- tai akselipainovaaka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>i) riittävät mittausvälineet, sisältäen myös</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">paineilmajärjestelmän jarrupaineiden mittauslaitteet</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A ja B</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>j) riittävät jarrujen korjauksessa tarvittavat muut</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>yleis- ja erikoistyökalut sekä tarpeelliset</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">nostolaitteet</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A ja B</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>2. Kun jarrurumpujen koneistus, kitkapalojen sovitus, jarrudynamometrimittaukset tai akselipainomittaukset suoritetaan alihankintatöinä, voidaan alihankinnan toimeksiantajalle sallia 1 momentin a, b, d ja h kohdan vaatimuksista soveltuvin osin poikkeuksia.</saa:MomenttiKooste>
             <saa:MomenttiKooste>3. Alihankintana suoritettavaan jarrukomponentin koneistukseen ja kompressorin korjaukseen ei tarvita edellä tarkoitettua lupaa. Vastuu kaikkien alihankintana tehtyjen töiden asianmukaisuudesta on sillä luvan omaavalla korjaamolla, joka on alihankinnan toimeksiantajana.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -207,21 +313,109 @@ b) B-luvan haltijalla on edellä luetellut valtuudet, ei kuitenkaan lupaa suorit
             <saa:PykalaTunnusKooste>16 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Laitteet ja varusteet</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Lupaluokasta riippuen ajopiirtureiden asennuksiin ja korjauksiin oikeuttavan luvan hakijalla tulee olla seuraavat varusteet:</saa:MomenttiKooste>
-            <te/>
-            <te>Laitteet ja varusteet:                                   Lupa:</te>
-            <te>a) piirturin valmistajan hyväksymät testaus-</te>
-            <te>   laitteet piirturin ja sen kellon tarkistamiseksi      A</te>
-            <te>b) piirturin kotelon sinetöimiseksi tarvittavat</te>
-            <te>   välineet ja tarvikkeet                                A</te>
-            <te>c) piirturin valmistajan toimittamat tekniset</te>
-            <te>   tiedot piirturista ja sen asennuksesta,</te>
-            <te>   säädöstä ja korjauksesta                              A</te>
-            <te>d) tiekierrosluvun laskin                                A ja B</te>
-            <te>e) tarpeelliset asennustyökalut                          A ja B</te>
-            <te>f) rengaspaineen mittari                                 A ja B</te>
-            <te>g) sekuntikello                                          A ja B</te>
-            <te>h) sinetöintipihdit                                      A ja B</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Laitteet ja varusteet:</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Lupa:</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) piirturin valmistajan hyväksymät testaus-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">laitteet piirturin ja sen kellon tarkistamiseksi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>b) piirturin kotelon sinetöimiseksi tarvittavat</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">välineet ja tarvikkeet</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>c) piirturin valmistajan toimittamat tekniset</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>tiedot piirturista ja sen asennuksesta,</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">säädöstä ja korjauksesta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">d) tiekierrosluvun laskin</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A ja B</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">e) tarpeelliset asennustyökalut</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A ja B</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">f) rengaspaineen mittari</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A ja B</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">g) sekuntikello</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A ja B</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">h) sinetöintipihdit</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">A ja B</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="17 §">
             <saa:PykalaTunnusKooste>17 §</saa:PykalaTunnusKooste>

@@ -58,24 +58,150 @@
             <saa:PykalaTunnusKooste>6 § </saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Vaarallisten aineiden luokitus</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Tätä asetusta sovellettaessa vaaralliset aineet luokitellaan seuraavasti:</saa:MomenttiKooste>
-            <te/>
-            <te>1 a luokka  Räjähdysaineet ja niistä tehdyt esineet     </te>
-            <te>1 b luokka  Räjähdysaineita sisältävät esineet ja välineet</te>
-            <te>1 c luokka  Pyroteknilliset valmisteet</te>
-            <te>2   luokka  Puristetut, nesteytetyt ja paineen alaisina</te>
-            <te>            liuotetut kaasut</te>
-            <te>3   luokka  Palavat nesteet</te>
-            <te>4.1 luokka  Helposti syttyvät kiinteät aineet</te>
-            <te>4.2 luokka  Helposti itsestään syttyvät aineet</te>
-            <te>4.3 luokka  Aineet, jotka veden kanssa kosketukseen</te>
-            <te>            joutuessaan kehittävät palavia kaasuja</te>
-            <te>5.1 luokka  Sytyttävästi vaikuttavat (hapettavat) aineet</te>
-            <te>5.2 luokka  Orgaaniset peroksidit</te>
-            <te>6.1 luokka  Myrkylliset aineet</te>
-            <te>6.2 luokka  Tympäisevät ja infektiota aiheuttavat aineet</te>
-            <te>7   luokka  Radioaktiiviset aineet</te>
-            <te>8   luokka  Syövyttävät aineet</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1 a luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Räjähdysaineet ja niistä tehdyt esineet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1 b luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Räjähdysaineita sisältävät esineet ja välineet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1 c luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Pyroteknilliset valmisteet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>2 luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Puristetut, nesteytetyt ja paineen alaisina</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>liuotetut kaasut</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>3 luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Palavat nesteet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>4.1 luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Helposti syttyvät kiinteät aineet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>4.2 luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Helposti itsestään syttyvät aineet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>4.3 luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Aineet, jotka veden kanssa kosketukseen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>joutuessaan kehittävät palavia kaasuja</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>5.1 luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Sytyttävästi vaikuttavat (hapettavat) aineet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>5.2 luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Orgaaniset peroksidit</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>6.1 luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Myrkylliset aineet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>6.2 luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Tympäisevät ja infektiota aiheuttavat aineet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Radioaktiiviset aineet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 luokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Syövyttävät aineet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Tarkemmat määräykset ja ohjeet vaarallisten aineiden luokituksesta antaa liikenneministeriö.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Teknillinen tarkastuskeskus määrää epäselvissä tapauksissa räjähdystarvikkeiden ADR-määräysten mukaisen luokituksen. Tarkastuskeskus voi edellyttää, että räjähdystarvikkeen lähettäjän on esitettävä testaustulokset testeistä luokituksen selvittämiseksi. </saa:MomenttiKooste>
           </saa:Pykala>

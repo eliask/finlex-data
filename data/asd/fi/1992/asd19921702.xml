@@ -407,48 +407,280 @@ g) ajoneuvon osista yli 30 prosenttia on vaihdettu rekisteröinnin tai edellisen
             <saa:PykalaTunnusKooste>31 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Vuosikatsastusvelvollisuus</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>1. Auto ja muu kuin 2 momentissa tarkoitettu perävaunu on tuotava vuosikatsastukseen seuraavasti:</saa:MomenttiKooste>
-            <te/>
-            <te>ajoneuvoluokka                  vuosikatsastus on</te>
-            <te>                                suoritettava:</te>
-            <te>a) kuorma- ja linja-autot,</te>
-            <te>erikoisautot ja perävaunut,</te>
-            <te>joiden kokonaismassa on</te>
-            <te>suurempi kuin 3,5 tonnia,</te>
-            <te>luvanvaraiseen liikenteeseen</te>
-            <te>käytettävät henkilöautot ja</te>
-            <te>M1-luokan ajoneuvot, sairas-</te>
-            <te>autot sekä M2-, M3-, N2-, N3-,</te>
-            <te>O3- ja O4-luokan ajoneuvot      ensimmäisen kerran ajo-</te>
-            <te>                                neuvon käyttöönottoa seuraa-</te>
-            <te>                                vana vuonna ja sen jälkeen</te>
-            <te>                                vuosittain</te>
-            <te>b) perävaunut, joiden kokonais-</te>
-            <te>massa on suurempi kuin 0,75</te>
-            <te>tonnia mutta enintään 3,5</te>
-            <te>tonnia, O2-luokan ajoneuvot</te>
-            <te>ja museoautot                   ensimmäisen kerran toisena</te>
-            <te>                                ajoneuvon käyttöönottoa</te>
-            <te>                                seuraavana vuonna ja sen</te>
-            <te>                                jälkeen kahden vuoden välein</te>
-            <te>c) pakettiautot, sairasautoja</te>
-            <te>lukuun ottamatta erikoisautot,</te>
-            <te>joiden kokonaismassa on</te>
-            <te>enintään 3,5 tonnia sekä</te>
-            <te>N1-luokan ajoneuvot             ensimmäisen kerran kolmantena</te>
-            <te>                                ajoneuvon käyttöönottoa</te>
-            <te>                                seuraavana vuonna ja sen</te>
-            <te>                                jälkeen vuosittain</te>
-            <te>d) yksityiseen liikenteeseen</te>
-            <te>käytettävät henkilöautot ja</te>
-            <te>muut M1-luokan ajoneuvot</te>
-            <te>kuin sairasautot                ensimmäisen kerran kolmantena</te>
-            <te>                                ajoneuvon käyttöönottoa</te>
-            <te>                                seuraavana vuonna, toisen</te>
-            <te>                                kerran viidentenä ajoneuvon</te>
-            <te>                                käyttöönottoa seuraavana</te>
-            <te>                                vuonna ja sen jälkeen</te>
-            <te>                                vuosittain</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">ajoneuvoluokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">vuosikatsastus on</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">suoritettava:</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) kuorma- ja linja-autot,</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>erikoisautot ja perävaunut,</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>joiden kokonaismassa on</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>suurempi kuin 3,5 tonnia,</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>luvanvaraiseen liikenteeseen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>käytettävät henkilöautot ja</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>M1-luokan ajoneuvot, sairas-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>autot sekä M2-, M3-, N2-, N3-,</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">O3- ja O4-luokan ajoneuvot</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">ensimmäisen kerran ajo-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">neuvon käyttöönottoa seuraa-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">vana vuonna ja sen jälkeen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">vuosittain</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>b) perävaunut, joiden kokonais-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>massa on suurempi kuin 0,75</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>tonnia mutta enintään 3,5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>tonnia, O2-luokan ajoneuvot</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">ja museoautot</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">ensimmäisen kerran toisena</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">ajoneuvon käyttöönottoa</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">seuraavana vuonna ja sen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">jälkeen kahden vuoden välein</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>c) pakettiautot, sairasautoja</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>lukuun ottamatta erikoisautot,</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>joiden kokonaismassa on</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>enintään 3,5 tonnia sekä</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">N1-luokan ajoneuvot</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">ensimmäisen kerran kolmantena</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">ajoneuvon käyttöönottoa</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">seuraavana vuonna ja sen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">jälkeen vuosittain</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>d) yksityiseen liikenteeseen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>käytettävät henkilöautot ja</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>muut M1-luokan ajoneuvot</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">kuin sairasautot</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">ensimmäisen kerran kolmantena</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">ajoneuvon käyttöönottoa</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">seuraavana vuonna, toisen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">kerran viidentenä ajoneuvon</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">käyttöönottoa seuraavana</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">vuonna ja sen jälkeen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">vuosittain</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>2. Kevytperävaunua ja O1-luokan perävaunua ei tarvitse esittää vuosikatsastukseen.</saa:MomenttiKooste>
             <saa:MomenttiKooste>3. Ajoneuvoa ei tarvitse esittää vuosikatsastukseen sinä vuonna, jona ajoneuvon maahantuonti- tai rekisteröintikatsastus tai ensirekisteröinti on suoritettu.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -456,21 +688,118 @@ g) ajoneuvon osista yli 30 prosenttia on vaihdettu rekisteröinnin tai edellisen
             <saa:PykalaTunnusKooste>32 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Vuosikatsastuksen ajankohta</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>1. Muu auto kuin museoauto on esitettävä vuosikatsastukseen auton rekisteritunnuksen viimeisen numeron mukaan määräytyvänä katsastusaikana, joka käsittää varsinaisen katsastuskuukauden ja sitä seuraavat kaksi kuukautta seuraavasti:</saa:MomenttiKooste>
-            <te/>
-            <te>Rekisteritunnuksen    Varsinainen</te>
-            <te>viimeinen             katsastuskuukausi</te>
-            <te>numero</te>
-            <te>1                     Tammikuu</te>
-            <te>2                     Helmikuu</te>
-            <te>3                     Maaliskuu</te>
-            <te>4                     Huhtikuu</te>
-            <te>5                     Kesäkuu</te>
-            <te>6                     Elokuu</te>
-            <te>7                     Syyskuu</te>
-            <te>8                     Lokakuu</te>
-            <te>9                     Marraskuu</te>
-            <te>0                     Joulukuu</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Rekisteritunnuksen</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Varsinainen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">viimeinen</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">katsastuskuukausi</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>numero</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Tammikuu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Helmikuu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Maaliskuu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Huhtikuu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Kesäkuu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">6</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Elokuu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">7</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Syyskuu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">8</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Lokakuu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">9</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Marraskuu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Joulukuu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>2. Perävaunu on tuotava katsastukseen ennen sen vuoden loppua, jona katsastus on 31 §:n 1 momentin mukaan suoritettava.</saa:MomenttiKooste>
             <saa:MomenttiKooste>3. Museoauto on tuotava katsastukseen heinäkuun loppuun mennessä sinä vuonna, jona katsastus on suoritettava.</saa:MomenttiKooste>
             <saa:MomenttiKooste>4. Ajoneuvo voidaan ottaa vuosikatsastukseen ennen katsastusaikaa, jos maahantuonti- tai rekisteröintikatsastuksesta taikka edellisestä vuosikatsastuksesta on kulunut vähintään kahdeksan kuukautta.</saa:MomenttiKooste>
@@ -516,20 +845,161 @@ g) ajoneuvon osista yli 30 prosenttia on vaihdettu rekisteröinnin tai edellisen
             <saa:SaadosOtsikkoKooste>Pakokaasupäästöjen tarkastus</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>1. Autolle, joka on otettu käyttöön vuonna 1978 tai myöhemmin, suoritetaan pakokaasupäästöjen tarkastus 37 §:ssä tarkoitetun direktiivin muuttamisesta annetun neuvoston direktiivin (92/55/ETY) mukaisesti tässä pykälässä säädetyin poikkeuksin. Pakokaasupäästöjen tarkastusta ei kuitenkaan tarvitse suorittaa kaksitahtimoottorilla varustetulle tai moottoripetrolia polttoaineena käyttävälle autolle.</saa:MomenttiKooste>
             <saa:MomenttiKooste>2. Ottomoottorilla varustettujen autojen pakokaasupäästöjen raja-arvot ovat seuraavat:</saa:MomenttiKooste>
-            <te/>
-            <te>ajoneuvon       joutokäynnillä             vähintään 2000 rpm</te>
-            <te>moottorityyppi                             kierrosnopeudella</te>
-            <te>ja käyttöön-</te>
-            <te>ottoaika</te>
-            <te>                CO[%]    HC[ppm]    CO[%]    HC[ppm]   lambda</te>
-            <te>ennen 1.1.1986   4,5     1 000        -         -           -</te>
-            <te>1.1.1986 tai</te>
-            <te>sen jälkeen      3,5       600        -         -           -</te>
-            <te>vähäpäästöinen</te>
-            <te>auto käyttöönotto-</te>
-            <te>ajasta</te>
-            <te>riippumatta      0,3       100      0,3       100    1 ± 0,03</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="6" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">ajoneuvon</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">joutokäynnillä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3"/>
+                    </tau:entry>
+                    <tau:entry namest="4" nameend="5">
+                      <sis:KappaleKooste>vähintään 2000 rpm</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry namest="6" nameend="6">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">moottorityyppi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3"/>
+                    </tau:entry>
+                    <tau:entry namest="4" nameend="5">
+                      <sis:KappaleKooste>kierrosnopeudella</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry namest="6" nameend="6">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="6">
+                      <sis:KappaleKooste>ja käyttöön-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="6">
+                      <sis:KappaleKooste>ottoaika</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">ennen 1.1.1986</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">CO[%]</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">HC[ppm]</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">CO[%]</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">HC[ppm]</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">lambda</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">4,5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="6">
+                      <sis:KappaleKooste>1.1.1986 tai</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">sen jälkeen</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">3,5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">600</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="6">
+                      <sis:KappaleKooste>vähäpäästöinen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="6">
+                      <sis:KappaleKooste>auto käyttöönotto-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="6">
+                      <sis:KappaleKooste>ajasta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">riippumatta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">0,3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">100</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">0,3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">100</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">1 ± 0,03</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="6">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>3. Vähäpäästöisen auton joutokäynnin hiilimonoksidipäästöjen raja-arvoina voidaan käyttää auton valmistajan ajoneuvomallille ilmoittamia 2 momentin säännöksistä poikkeavia raja-arvoja.</saa:MomenttiKooste>
             <saa:MomenttiKooste>4. Dieselkäyttöisten autojen pakokaasupäästöjen valvonta suoritetaan vuoden 1994 loppuun saakka vain jos siihen silmämääräisen arvion perusteella on aihetta. Valvonnassa raja-arvona on 7,0 Bosch-yksikköä, kuitenkin 1 päivänä tammikuuta 1990 tai sen jälkeen käyttöön otetulle autolle 3,5 Bosch-yksikköä. Vuoden 1995 alusta alkaen sovelletaan dieselkäyttöisten autojen tarkastuksessa 37 §:n 1 momentissa tarkoitetun direktiivin mittaustapaa ja raja-arvoja.</saa:MomenttiKooste>
           </saa:Pykala>

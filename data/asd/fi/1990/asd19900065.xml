@@ -1111,12 +1111,60 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
           <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Laajuuden vaikutus rakennuskustannuksiin otetaan huomioon koulurakennuksen huonetilaohjelman mukaista normaalihintaa korottavana tai alentavana tekijänä seuraavan taulukon mukaisesti:</saa:MomenttiKooste>
-          <te>   ≥500 brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>   4 %</te>
-          <te>  1 000 brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>   2 %</te>
-          <te>  1 500 brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>   1 %</te>
-          <te>  3 000 brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>   0 %</te>
-          <te>  6 000 brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>   1 %</te>
-          <te>≤12 000brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>   2 %</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>≥500 brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 000 brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 500 brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>6 000 brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>≤12 000brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Väliarvot interpoloidaan. Jos lisärakennukseen liittyy samaan urakkaan kuuluva muutos- ja perusparannustyö, otetaan sen vaikutus huomioon hanketta suurentavana tekijänä.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Jos koulurakennuksen vaikeat perustamisolosuhteet aiheuttavat oleellisia lisäkustannuksia eikä niitä voida kohtuudella välttää, voi kouluhallitus korottaa koulurakennukselle laskettua normaalihintaa enintään 5 %:lla.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Seuraavien kuntien osalta, joissa rakennustöiden kustannustaso on pysyvästi yleistä rakennustöiden kustannustasoa korkeampi, saadaan koulurakennukselle laskettua normaalihintaa korottaa seuraavasti:</saa:MomenttiKooste>

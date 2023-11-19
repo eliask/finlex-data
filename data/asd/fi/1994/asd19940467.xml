@@ -86,14 +86,67 @@
           <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Laitteiston on oltava rakenteeltaan sellainen, että ruokajäte kuumenee laitteistossa niin, että lämpötila ruokajätteen sisäosissakin saavuttaa vähintään 100 °C. Tarvittaessa on suuret lihapalat pienennettävä riittävän kuumenemisen varmistamiseksi. Kuumennuslaitteisto on varustettava lämpömittarilla, joka mittaa kuumennetun ruokajätteen sisälämpötilan.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kunnaneläinlääkäri voi antaa luvan 1 momentissa mainittua alemman kuumennuslämpötilan käyttöön edellyttäen, että kuumennusaikaa pidentämällä saavutetaan 100 °C vastaava kuumennusteho noudattamalla seuraavia lämpötila-aikayhdistelmiä:</saa:MomenttiKooste>
-          <te/>
-          <te>lämpötila/°C            aika/minuuttia</te>
-          <te/>
-          <te>95                            5</te>
-          <te>90                           10</te>
-          <te>85                           15</te>
-          <te>80                           20</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>lämpötila/°C</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>aika/minuuttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>95</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>90</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>85</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>15</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>80</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §">
           <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>

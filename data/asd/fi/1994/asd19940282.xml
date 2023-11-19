@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>puhdistamolietteen käytöstä maanviljelyksessä</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite 20: neuvoston direktiivi (86/278/ETY)</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -124,6 +119,9 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>ETA-sopimuksen liite 20: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="386L0278"><sis1:ViiteTeksti>(86/278/ETY)</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 14 päivänä huhtikuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -144,51 +142,350 @@
       <sis:KappaleKooste>Liite 1</sis:KappaleKooste>
       <sis:KappaleKooste>LIETTEEN, LIETESEOKSEN JA VILJELYMAAN SUURIMMAT SALLITUT RASKAS-METALLIPITOISUUDET SEKÄ RASKASMETALLIKUORMITUSRAJOITUKSET</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>Taulukko 1.</sis1:KursiiviTeksti> Maanviljelyksessä käytettävän lietteen ja lieteseoksen suurimmat sallitut raskasmetallipitoisuudet *). Sulkeisiin merkityt pitoisuudet on pyrittävä saavuttamaan vuoden 1998 alkuun mennessä.</sis:KappaleKooste>
-      <te/>
-      <te>                                        mg/kg kuiva-ainetta</te>
-      <te>Kadmium                                3,0               (1,5)</te>
-      <te>Kromi                                300</te>
-      <te>Kupari                               600**</te>
-      <te>Elohopea                               2,0               (1,0)</te>
-      <te>Nikkeli                              100</te>
-      <te>Lyijy                                150                 (100)</te>
-      <te>Sinkki                              1500**</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>mg/kg kuiva-ainetta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kadmium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">3,0</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(1,5)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kromi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kupari</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>600**</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Elohopea</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2,0</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(1,0)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Nikkeli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>100</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lyijy</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">150</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(100)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Sinkki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>1500**</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste><sis1:KursiiviTeksti>Taulukko 2.</sis1:KursiiviTeksti> Lieteseoksen raaka-aineeksi soveltuvan lietteen suurimmat sallitut raskasmetallipitoisuudet *). Sulkeisiin merkityt pitoisuudet on pyrittävä saavuttamaan vuoden 1998 alkuun mennessä.</sis:KappaleKooste>
-      <te/>
-      <te>                                        mg/kg kuiva-ainetta</te>
-      <te>Kadmium                                5,0               (3,0)</te>
-      <te>Kromi                               1000                 (300)</te>
-      <te>Kupari                              3000                 (600)</te>
-      <te>Elohopea                              25                 (2,0)</te>
-      <te>Nikkeli                              500                 (100)</te>
-      <te>Lyijy                               1200                 (150)</te>
-      <te>Sinkki                              5000                (1500)</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>mg/kg kuiva-ainetta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kadmium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">5,0</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(3,0)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kromi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(300)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kupari</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">3000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(600)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Elohopea</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">25</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(2,0)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Nikkeli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(100)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lyijy</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1200</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(150)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Sinkki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">5000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(1500)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>*) Lietteen ja lieteseoksen kadmiumpitoisuusrajoitukset saa tilapäisesti ylittää korkeintaan 20 prosentilla. Muiden raskasmetallien pitoisuusrajoituksia voidaan ylittää tilapäisesti, mutta ylitysten merkitys on arvioitava jokaisessa tapauksessa erikseen.</sis:KappaleKooste>
       <sis:KappaleKooste>**) Lietteessä ja lieteseoksessa saa olla kasvinravinteiksi katsottavia kuparia ja sinkkiä enintään kaksinkertaiset pitoisuudet, milloin näistä ravinteista on puutetta siinä maaperässä, jolla lietettä tai lieteseosta on tarkoitus käyttää. Tämä ei saa kuitenkaan johtaa maaperässä suurempiin pitoisuuksiin kuin tämän liitteen taulukossa 3 on määrätty.</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>Taulukko 3.</sis1:KursiiviTeksti> Viljelymaan, jolla käytetään lietettä tai lieteseosta, suurimmat sallitut raskasmetallipitoisuudet.</sis:KappaleKooste>
-      <te/>
-      <te>                    mg/kg kuiva-ainetta</te>
-      <te>Kadmium                                                     0,5</te>
-      <te>Kromi                                                       200</te>
-      <te>Kupari                                                      100</te>
-      <te>Elohopea                                                    0,2</te>
-      <te>Nikkeli                                                      60</te>
-      <te>Lyijy                                                        60</te>
-      <te>Sinkki                                                      150</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">mg/kg kuiva-ainetta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kadmium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,5</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kromi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">200</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kupari</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">100</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Elohopea</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,2</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Nikkeli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">60</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lyijy</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">60</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Sinkki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">150</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste><sis1:KursiiviTeksti>Taulukko 4.</sis1:KursiiviTeksti> Suurin sallittu lietteen tai lieteseoksen käytöstä aiheutuva keskimääräinen vuotuinen raskasmetallikuormitus maanviljelyksessä. Sulkeisiin merkityt kuormitusarvot on pyrittävä saavuttamaan vuoden 1998 alkuun mennessä.</sis:KappaleKooste>
-      <te/>
-      <te>                                         g/ha vuodessa</te>
-      <te>Kadmium                              3,0                 (1,5)</te>
-      <te>Kromi                              300</te>
-      <te>Kupari                             600**</te>
-      <te>Elohopea                             2,0                 (1,0)</te>
-      <te>Nikkeli                            100</te>
-      <te>Lyijy                              150                   (100)</te>
-      <te>Sinkki                            1500**</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>g/ha vuodessa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kadmium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">3,0</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(1,5)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kromi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kupari</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>600**</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Elohopea</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2,0</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(1,0)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Nikkeli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>100</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lyijy</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">150</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(100)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Sinkki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>1500**</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>**) Kasvinravinteiksi katsottavien kuparin ja sinkin kuormitukset saavat olla enintään kaksinkertaiset, milloin näistä ravinteista on puutetta siinä maaperässä, jolla lietettä tai lieteseosta on tarkoitus käyttää. Tämä ei saa kuitenkaan johtaa maaperässä suurempiin pitoisuuksiin kuin tämän liitteen taulukossa 3 on määrätty.</sis:KappaleKooste>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
@@ -198,17 +495,116 @@
       <sis:KappaleKooste>LIETTEEN JA LIETESEOKSEN ANALYSOINTI</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>Lietenäytteiden</sis1:KursiiviTeksti> on vastattava ominaisuuksiltaan käyttäjälle toimitettavaa lietettä. Näytteiden tulee olla kyseisen jätevedenpuhdistamon lietetuotantoa edustavia, ja ne on suositeltavaa ottaa kokoomanäytteinä vähintään 3-5 päivän ajalta. Näytteet otetaan viranomaisen läsnä ollessa tämän niin halutessa.</sis:KappaleKooste>
       <sis:KappaleKooste>Lietteen laadun vaihtelun seuraamiseksi lietenäytteitä otetaan aluksi lyhyin väliajoin. Jos määritystulokset eivät vaihtele merkittävästi ensimmäisen vuoden aikana, analysointikertoja voidaan vähentää. Analysointitiheydet määräytyvät puhdistamon koon mukaan seuraavasti:</sis:KappaleKooste>
-      <te/>
-      <te>Asukasvastine-             Analysointitiheys</te>
-      <te>luku                       kertaa/vuosi</te>
-      <te>                           Ensimmäinen       Muut vuodet</te>
-      <te>                           vuosi</te>
-      <te>      &gt;100 000             &gt; 12              &gt; 4</te>
-      <te>40 000-100 000             &gt;  6              &gt; 3</te>
-      <te> 5 000- 40 000             &gt;  4              &gt; 2</te>
-      <te>     200-5 000             &gt;  1              &gt; 1</te>
-      <te>         &lt; 200             &gt;  1              väh. joka 2. vuosi</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Asukasvastine-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Analysointitiheys</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">luku</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">kertaa/vuosi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Ensimmäinen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Muut vuodet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">vuosi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">&gt;100 000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">&gt; 12</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">&gt; 4</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">40 000-100 000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">&gt; 6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">&gt; 3</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5 000- 40 000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">&gt; 4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">&gt; 2</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">200-5 000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">&gt; 1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">&gt; 1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">&lt; 200</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">&gt; 1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">väh. joka 2. vuosi</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>Aina kun tulevan jäteveden laadun tiedetään muuttuneen merkittävästi, analysointikertoja lisätään vähintään sellaiselle tasolle, jota edellytetään ensimmäisenä vuonna.</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>Lieteseoksen</sis1:KursiiviTeksti> laatu on selvitettävä ottamalla vähintään yksi kokoomanäyte jokaisesta tuotetusta 5000 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>:n suuruisesta lieteseoserästä. Kokoomanäytteen tulee olla riittävän edustava.</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>Lieteseoksen raaka-aineena käytettävän lietteen</sis1:KursiiviTeksti> laatu on selvitettävä siten kuin edellä on lietteeltä edellytetty. Vaadittava analysointitiheys on kuitenkin puolet edellä esitetystä vaatimuksesta.</sis:KappaleKooste>

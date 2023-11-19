@@ -24,31 +24,272 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Lämminveristen ravihevosten maahantuonnista annetun asetuksen 1 ja 2§:ssä tarkoitetut tulosvaatimukset ovat seuraavat:</saa:MomenttiKooste>
-          <te>                                   Tulosvaatimukset </te>
-          <te>                             Euroopassa      Muualla kuin Euroopassa</te>
-          <te>                         Ori        Tamma        Ori         Tamma</te>
-          <te> A. KILPAILUHEVOSET</te>
-          <te>2-vuotias              1.19,0      1.20         2.03        2.05</te>
-          <te>3-4-vuotias            1.16,0      1.17,0 tai   2.00        2.03 tai</te>
-          <te>                                   100 000 mk               25 000 $</te>
-          <te>5-6-vuotias            1.14,0      1.16,0 tai   1.58 ja     2.01 tai</te>
-          <te>                       600 000 mk  200 000 mk   150 000 $  50 000 $</te>
-          <te/>
-          <te/>
-          <te> B. JALOSTUSHEVOSET</te>
-          <te> oriit</te>
-          <te> - oma tulos                     täyttää 5-6-vuotiaan kilpailuhevosen tulosvaatimukset</te>
-          <te>   tai</te>
-          <te> - vähintään 10 jälkeläisen tulos </te>
-          <te>   tai voittosumma                   1.16,0 tai                       2.00</te>
-          <te>                                    200 000 mk</te>
-          <te/>
-          <te> tammat</te>
-          <te> -oma tulos                        täyttää 3-4-vuotiaan kilpailuhevosen tulosvaatimukset</te>
-          <te> - yhden jälkeläisen tai emän taik-</te>
-          <te>   ka emän 2 jälkeläisen tulos tai </te>
-          <te>   voittosumma                       1.16,0 tai                         2.01 tai</te>
-          <te>                                    200 000 mk                          50 000 $</te>
+          <tau:table>
+            <tau:tgroup cols="5" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">Tulosvaatimukset</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Euroopassa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">Muualla kuin Euroopassa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Ori</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Tamma</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Ori</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Tamma</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">A. KILPAILUHEVOSET</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2-vuotias</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1.19,0</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1.20</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2.03</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2.05</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3-4-vuotias</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1.16,0</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1.17,0 tai</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2.00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2.03 tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>25 000 $</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5-6-vuotias</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1.14,0</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1.16,0 tai</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1.58 ja</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2.01 tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>200 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>150 000 $</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50 000 $</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">B. JALOSTUSHEVOSET</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">oriit</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>- oma tulos</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">täyttää 5-6-vuotiaan kilpailuhevosen tulosvaatimukset</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">- vähintään 10 jälkeläisen tulos</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>tai voittosumma</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1.16,0 tai</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">2.00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>200 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">tammat</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>-oma tulos</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">täyttää 3-4-vuotiaan kilpailuhevosen tulosvaatimukset</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">- yhden jälkeläisen tai emän taik-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">ka emän 2 jälkeläisen tulos tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>voittosumma</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1.16,0 tai</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">2.01 tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>200 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">50 000 $</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Tulosvaatimuksissa ajat ovat Euroopassa minuutteina ja sekuntteina kilometriä kohden ja muualla kuin Euroopassa mailia kohden raviaskellajilla sekä voittosummat Euroopassa Suomen markkoina tuontihetken vaihtokurssin mukaan laskettuna ja muualla kuin Euroopassa USA:n dollareina. Volttilähetyksellä saavutettu tulos oikeuttaa yhden sekunnin hyvitykseen kilometriä kohden. Lisäksi puolen mailin tai sitä lyhyemmällä radalla saavutettu tulos oikeuttaa yhden sekunnin hyvitykseen kilometriä kohden.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">

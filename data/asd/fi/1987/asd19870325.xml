@@ -34,17 +34,108 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Kehruutarkoituksiin kelpaavasta villaerästä, jonka paino on hankintaliikkeen punnituksen mukaan vähintään 2 kiloa, suoritetaan laadunmukainen tuotantopalkkio hankintaliikkeessä suoritetun punnituksen ja lajittelun perusteella. Tällaisesta villasta voidaan suorittaa tuotantopalkkiota villakiloa kohti enintään seuraavat määrät:</saa:MomenttiKooste>
-          <te/>
-          <te> Laatuluokka                          Hienousaste            Keskipituus                  Tuotanto-  </te>
-          <te>                                                                                                                     palkkio  </te>
-          <te>                                                                                                                      mk/kg   </te>
-          <te>I    puhdasvärinen</te>
-          <te>     villa                                   alle 33 μm       yli 55 mm                       19,00  </te>
-          <te>II  puhdasvärinen</te>
-          <te>     villa                                   33-38 μm         35-55 mm                       15,00   </te>
-          <te>III kirjava, sekavärinen tai vähintään II laatuluokan vaatimukset</te>
-          <te>täyttämätön tai haittaavasti vanunut taikka muuten vahingoittunut, </te>
-          <te>mutta käyttökelpoinen puhdasvärinen villa.                                                      -  </te>
+          <tau:table>
+            <tau:tgroup cols="4" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Laatuluokka</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Hienousaste</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Keskipituus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Tuotanto-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>palkkio</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk/kg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>I puhdasvärinen villa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>alle 33 μm</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>yli 55 mm</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>19,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>II puhdasvärinen villa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>33-38 μm</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>35-55 mm</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>15,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top">III kirjava, sekavärinen tai vähintään II laatuluokan vaatimukset</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top">täyttämätön tai haittaavasti vanunut taikka muuten vahingoittunut,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>mutta käyttökelpoinen puhdasvärinen villa.</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Tuotantopalkkiota alennetaan 5 markkaa kilolta likaisen villan osalta.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">

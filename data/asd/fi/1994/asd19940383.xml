@@ -108,52 +108,238 @@
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
       <sis:KappaleKooste>Liite</sis:KappaleKooste>
-      <te>MAKSUTAULUKKO</te>
-      <te>verohallinnon maksullisista julkisoikeudellisista suoritteista</te>
-      <te>Suorite</te>
-      <te>
-        <saa:SaadosKursiiviKooste>1) Keskusverolautakunnan ennakkotietopäätös</saa:SaadosKursiiviKooste>
-      </te>
-      <te>- valmistelutyöstä laskutetaan sen työmäärän mukaan, mikä kyseisen asian kanssa samanlaajuisen asian käsittelyyn keskimäärin käytetään, seuraavasti:</te>
-      <te>
-        <saa:SaadosKursiiviKooste>Asia                                           mk/h</saa:SaadosKursiiviKooste>
-      </te>
-      <te>- hakijana on luonnollinen henkilö, kuolinpesä tai yhteisetuus ja ennakkotietopäätös koskee tulo- ja varallisuusverotusta, kiinteistöveroa, lähdeveroa, korkotulon lähdeveroa, ennakkoperintää tai muuta kuin jäljempänä tarkoitettua luonnollisen henkilön verotusta</te>
-      <te>							350 mk/h</te>
-      <te>- luonnollisen henkilön maatalouden verotusta, arvonlisäverotusta tai elinkeinotulon verotusta koskeva päätös</te>
-      <te>							450 mk/h</te>
-      <te>- muu keskusverolautakunnan ennakkotietopäätös     </te>
-      <te>							550 mk/h</te>
-      <te>Asiassa, jossa keskusverolautakunta päättää olla antamatta ennakkotietoa, jättää hakemuksen tutkimatta tai asian sillensä peritään käsittelymaksu</te>
-      <te>							200 mk</te>
-      <te>
-        <saa:SaadosKursiiviKooste>2) Muu verohallinnon viranomaisen antama ennakkotietopäätös</saa:SaadosKursiiviKooste>
-      </te>
-      <te>- perintö- ja lahjaverolain 21 a §:n, liikevaihtoverolain 106 §:n tai arvonlisäverolain 190 §:n mukainen ennakkotietopäätös</te>
-      <te>							500 mk</te>
-      <te>- muu ennakkotietopäätös                           </te>
-      <te>							400 mk</te>
-      <te>Asiassa, jossa verohallinnon viranomainen päättää olla antamatta ennakkotietoa, jättää hakemuksen tutkimatta tai asian sillensä, peritään käsittelymaksu</te>
-      <te>							100 mk</te>
-      <te>
-        <saa:SaadosKursiiviKooste>3) Tuloveroasetuksen 2 ja 3 §:ssä tarkoitettu nimeämispäätös</saa:SaadosKursiiviKooste>
-      </te>
-      <te>							400 mk</te>
-      <te>
-        <saa:SaadosKursiiviKooste>4) Verotustietojen käyttölupaa koskeva verohallituksen päätös</saa:SaadosKursiiviKooste>
-      </te>
-      <te>							600 mk</te>
-      <te>
-        <saa:SaadosKursiiviKooste>5) Valtiovarainministeriön päätöksen 1 §:n 4 kohdassa tarkoitettujen verotustietojen luovuttaminen asiakirjoilta</saa:SaadosKursiiviKooste>
-      </te>
-      <te>- todistus, jäljennös tai ote verotustiedoista    	</te>
-      <te>							1 mk/sivu</te>
-      <te>kuitenkin vähintään                                </te>
-      <te>							30 mk</te>
-      <te>- jos tietojen luovuttaminen vaatii yli 1/2 tunnin työn, peritään tietojen luovuttamisesta</te>
-      <te>							130 mk/h</te>
-      <te>- aikaperusteisen työveloituksen lisäksi peritään valokopiona annettavissa tietojen massaluovutuksissa korvausta</te>
-      <te>							25 penniä/sivu</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">MAKSUTAULUKKO</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">verohallinnon maksullisista julkisoikeudellisista suoritteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Suorite</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">
+                  <sis1:KursiiviTeksti>1) Keskusverolautakunnan ennakkotietopäätös</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">- valmistelutyöstä laskutetaan sen työmäärän mukaan, mikä kyseisen asian kanssa samanlaajuisen asian käsittelyyn keskimäärin käytetään, seuraavasti:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>
+                  <sis1:KursiiviTeksti>Asia</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>
+                  <sis1:KursiiviTeksti>mk/h</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">- hakijana on luonnollinen henkilö, kuolinpesä tai yhteisetuus ja ennakkotietopäätös koskee tulo- ja varallisuusverotusta, kiinteistöveroa, lähdeveroa, korkotulon lähdeveroa, ennakkoperintää tai muuta kuin jäljempänä tarkoitettua luonnollisen henkilön verotusta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350 mk/h</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">- luonnollisen henkilön maatalouden verotusta, arvonlisäverotusta tai elinkeinotulon verotusta koskeva päätös</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>450 mk/h</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">- muu keskusverolautakunnan ennakkotietopäätös</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>550 mk/h</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Asiassa, jossa keskusverolautakunta päättää olla antamatta ennakkotietoa, jättää hakemuksen tutkimatta tai asian sillensä peritään käsittelymaksu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>200 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">
+                  <sis1:KursiiviTeksti>2) Muu verohallinnon viranomaisen antama ennakkotietopäätös</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">- perintö- ja lahjaverolain 21 a §:n, liikevaihtoverolain 106 §:n tai arvonlisäverolain 190 §:n mukainen ennakkotietopäätös</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">- muu ennakkotietopäätös</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>400 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Asiassa, jossa verohallinnon viranomainen päättää olla antamatta ennakkotietoa, jättää hakemuksen tutkimatta tai asian sillensä, peritään käsittelymaksu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>100 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">
+                  <sis1:KursiiviTeksti>3) Tuloveroasetuksen 2 ja 3 §:ssä tarkoitettu nimeämispäätös</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>400 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">
+                  <sis1:KursiiviTeksti>4) Verotustietojen käyttölupaa koskeva verohallituksen päätös</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>600 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">
+                  <sis1:KursiiviTeksti>5) Valtiovarainministeriön päätöksen 1 §:n 4 kohdassa tarkoitettujen verotustietojen luovuttaminen asiakirjoilta</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">- todistus, jäljennös tai ote verotustiedoista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 mk/sivu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">kuitenkin vähintään</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>30 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">- jos tietojen luovuttaminen vaatii yli 1/2 tunnin työn, peritään tietojen luovuttamisesta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>130 mk/h</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">- aikaperusteisen työveloituksen lisäksi peritään valokopiona annettavissa tietojen massaluovutuksissa korvausta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>25 penniä/sivu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

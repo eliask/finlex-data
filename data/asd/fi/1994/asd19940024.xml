@@ -68,36 +68,187 @@
       </sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>MAKSUTAULUKKO</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Arkistolaitoksen kiinteämaksuiset julkisoikeudelliset suoritteet</sis:KappaleKooste>
-      <te/>
-      <te>
-        <saa:SaadosKursiiviKooste>Selvitykset viralliseen tarkoitukseen</saa:SaadosKursiiviKooste>
-      </te>
-      <te>1. Todistus käytettäessä yhden arkistonmuodostajan</te>
-      <te>   asiakirjoja                                     75 mk/sivu</te>
-      <te>   käytettäessä useamman arkistonmuodostajan</te>
-      <te>   asiakirjoja                                    120 mk/sivu</te>
-      <te>2. Kopioimalla otettu, oikeaksi todistettava</te>
-      <te>   jäljennös ensimmäinen sivu                      50 mk</te>
-      <te>   kultakin seuraavalta sivulta                    10 mk</te>
-      <te>3. Oikeaksi todistettava, uudelleen kirjoitettava</te>
-      <te>   jäljennös, ote tai lyhennysote vuotta 1900</te>
-      <te>   vanhemmista asiakirjoista ensimmäinen sivu     150 mk</te>
-      <te>   kultakin seuraavalta sivulta                   100 mk</te>
-      <te>   vuoden 1900 ja sitä nuoremmista asiakirjoista</te>
-      <te>   ensimmäinen sivu                               110 mk</te>
-      <te>   kultakin seuraavalta sivulta                    80 mk</te>
-      <te>   Muista kuin suomen- tai ruotsinkielisistä</te>
-      <te>   asiakirjoista veloitetaan kaksinkertainen maksu.</te>
-      <te>   Lisäsivujen osalta uudeksi sivuksi lasketaan</te>
-      <te>   vähintään 10 riviä</te>
-      <te>4. Seurakuntien asiakirjoista annettavat selvitykset</te>
-      <te>   sukuselvitykset, jotka koskevat yhtä henkilöä,</te>
-      <te>   tämän aviopuolisoa, vanhempia ja lapsia</te>
-      <te>   koskevia tietoja                                50 mk</te>
-      <te>   sekä jokaiselta näiden lisäksi merkittävältä</te>
-      <te>   sukupolvelta                                    30 mk</te>
-      <te>   yhtä henkilöä koskeva yksittäinen tieto         30 mk</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">
+                  <sis1:KursiiviTeksti>Selvitykset viralliseen tarkoitukseen</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">1. Todistus käytettäessä yhden arkistonmuodostajan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>asiakirjoja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>75 mk/sivu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">käytettäessä useamman arkistonmuodostajan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>asiakirjoja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>120 mk/sivu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">2. Kopioimalla otettu, oikeaksi todistettava</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>jäljennös ensimmäinen sivu</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>50 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>kultakin seuraavalta sivulta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>10 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">3. Oikeaksi todistettava, uudelleen kirjoitettava</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">jäljennös, ote tai lyhennysote vuotta 1900</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>vanhemmista asiakirjoista ensimmäinen sivu</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>150 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>kultakin seuraavalta sivulta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>100 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">vuoden 1900 ja sitä nuoremmista asiakirjoista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>ensimmäinen sivu</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>110 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>kultakin seuraavalta sivulta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>80 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Muista kuin suomen- tai ruotsinkielisistä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">asiakirjoista veloitetaan kaksinkertainen maksu.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Lisäsivujen osalta uudeksi sivuksi lasketaan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">vähintään 10 riviä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">4. Seurakuntien asiakirjoista annettavat selvitykset</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">sukuselvitykset, jotka koskevat yhtä henkilöä,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">tämän aviopuolisoa, vanhempia ja lapsia</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>koskevia tietoja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>50 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">sekä jokaiselta näiden lisäksi merkittävältä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>sukupolvelta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>30 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>yhtä henkilöä koskeva yksittäinen tieto</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>30 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>Asiakirjatietojen mahdollisen puutteellisuuden vuoksi tai muusta merkittävästä lisätyötä aiheuttavasta syystä veloitetaan lisäksi omakustannusarvon mukainen maksu.</sis:KappaleKooste>
       <sis:KappaleKooste>Lähetettäessä selvitys postitse asiakkaalle kotimaassa ei peritä posti-, lähetys- tai pankkipalvelumaksuja.</sis:KappaleKooste>
     </asi:SisaltoLiite>

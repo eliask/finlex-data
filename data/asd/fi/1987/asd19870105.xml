@@ -29,14 +29,76 @@
             <saa:MomenttiKooste>Maksettaessa eläkettä tai 7, 8 ja 10§:ssä tarkoitettuja korvauksia aikaisemmin maksettujen eläkkeiden ja korvausten lisäksi tahi useammalta maksukaudelta taikka kertasuorituksena, ennakonpidätys toimitetaan 13§:n 1 tai 2 momentissa määrätyllä tavalla tai korvauksen yhteismäärästä siten kuin 3§:ssä on määrätty.</saa:MomenttiKooste>
             <sis:Katkoviiva/>
             <saa:MomenttiKooste>Maksettaessa työttömyysturvalaissa (602/84) tarkoitettuja työttömyysturvaetuuksia ja työllisyyskoulutuksesta annetussa laissa (31/76) tarkoitettua koulutustukea aikaisemmin maksettujen suoritusten lisäksi tai useammalta maksukaudelta taikka kertasuorituksena ennakonpidätys toimitetaan 2§:n 1 momentissa tarkoitetun henkilökohtaisen prosenttiluvun mukaan, kuitenkin enintään seuraavan taulukon osoittaman prosenttiluvun suuruisena:</saa:MomenttiKooste>
-            <te> Päiväraha mk/päivä                            Pidätys %  </te>
-            <te>        1,00-80,00                                           20  </te>
-            <te>    80,01-112,00                                           25  </te>
-            <te>  112,01-140,00                                           30  </te>
-            <te>  140,01-167,00                                           35  </te>
-            <te>  167,01-207,00                                           40  </te>
-            <te>  207,01-340,00                                           45  </te>
-            <te>  340,01-                                                      50  </te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Päiväraha mk/päivä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Pidätys %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1,00-80,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>20</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>80,01-112,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>112,01-140,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>30</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>140,01-167,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>35</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>167,01-207,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>40</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>207,01-340,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>45</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>340,01-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>50</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Siltä osin kuin suoritus kohdistuu samaan kalenterivuoteen, jona se maksetaan, ennakonpidätys voidaan kuitenkin toimittaa 1§:ssä tarkoitettua pidätystaulukkoa osoittavaa pidätystunnusta käyttäen siten, että kunkin maksukauden suoritukseen lisätään siihen kohdistuva osa maksettavasta kokonaissuorituksesta, ja yhteismääristä lasketuista ennakonpidätyksistä vähennetään mahdollisesti aikaisemmin samalta ajalta toimitettujen ennakonpidätysten määrä.</saa:MomenttiKooste>
           </saa:Pykala>
         </saa:Luku>

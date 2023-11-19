@@ -26,13 +26,57 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="28 §">
           <saa:PykalaTunnusKooste>28 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Asuntotuotantolain 6 §:n 1 momentin 5 ja 6 kohdassa mainittua tarkoitusta varten myönnetyn asuntolainan ensimmäisen vuosimaksun suuruus määräytyy prosenttiosuutena lainan määrästä asuntotuotantolain 5 §:ssä tarkoitettujen perusteiden mukaan seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>Vuosimaksun      Ensimmäinen vuosimaksu</te>
-          <te>taso             (prosentteina asuntolainasta)</te>
-          <te>Alin taso                   5,75</te>
-          <te>Keskimmäinen taso           7,00</te>
-          <te>Ylin taso                   8,25</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Vuosimaksun</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Ensimmäinen vuosimaksu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">taso</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">(prosentteina asuntolainasta)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Alin taso</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5,75</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Keskimmäinen taso</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">7,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Ylin taso</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">8,25</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="28 a §">
@@ -44,14 +88,89 @@
           <saa:PykalaTunnusKooste>28 b §</saa:PykalaTunnusKooste>
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>Edellä 1 momentissa mainitun ajan jälkeiseltä ajalta perittävä vuotuinen korko kunkin maaliskuun 1 päivästä seuraavan maaliskuun 1 päivään saakka vastaa 28 a §:ssä tarkoitettua kuluttajahintaindeksin muutosta lisättynä seuraavan taulukon mukaisella prosenttiyksiköllä riippuen siitä, onko asuntolainan vuosimaksu asuntotuotantolain 11 b §:n 3 momentin, 11 e §:n 1 momentin tai 15 c §:n 3 momentin nojalla alimmalla, keskimmäisellä vai ylimmällä tasolla:</saa:MomenttiKooste>
-          <te/>
-          <te>Vuosimaksun                        Aika (vuosina)</te>
-          <te>taso                        1-10      11-15       16–</te>
-          <te/>
-          <te>Alin taso                   2,30</te>
-          <te>Keskimmäinen taso           3,80       5,70</te>
-          <te>Ylin taso                   5,50       6,00       6,00</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="4" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Vuosimaksun</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>Aika (vuosina)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="4">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">taso</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1-10</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">11-15</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4">16–</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Alin taso</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2,30</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Keskimmäinen taso</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3,80</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">5,70</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Ylin taso</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5,50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">6,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4">6,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">

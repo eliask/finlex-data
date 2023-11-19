@@ -26,26 +26,119 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §">
           <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Suomessa kaupan pidettäväksi tai käytettäväksi tarkoitetusta Suomessa valmistetusta tai Suomeen tulliselvitetystä luvasta vapaasta radiolähettimestä peritään sen valmistajalta tai siltä, joka tuo lähettimen maahan, valvontamaksua seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>1) pienoismallin radio-ohjauslaite taikka valvonta-,</te>
-          <te>   hälytys-, kaukomittaus-, kauko-ohjaus- tai</te>
-          <te>   datasiirtolaite, jonka lähetysteho on enintään</te>
-          <te>   10 mW ja joka toimii 26,825 - 27,255 MHz:n,</te>
-          <te>   40,665 - 40,785 MHz:n tai 433,050 - 434,790</te>
-          <te>   MHz:n taajuusalueella taikka ohjaus-,</te>
-          <te>   valvonta- tai hälytystutka, jonka lähetysteho</te>
-          <te>   on enintään 10 mW ja joka toimii</te>
-          <te>   2400,00 - 2483,500 MHz:n taajuusalueella             25 mk</te>
-          <te>2) johdoton puhelin                                     35 mk</te>
-          <te>3) LA-puhelin, PR-27-puhelin, radiomikrofoni,</te>
-          <te>   DSRR-järjestelmän lähetin, langattoman</te>
-          <te>   lähiverkon (RLAN) lähetin taikka muu luvasta</te>
-          <te>   vapaa kuin 1 kohdassa tarkoitettu valvonta-,</te>
-          <te>   hälytys-, kaukomittaus-, kauko-ohjaus- tai</te>
-          <te>   datasiirtolaite taikka muu luvasta vapaa</te>
-          <te>   kuin 1 kohdassa tarkoitettu ohjaus-,</te>
-          <te>   valvonta- tai hälytystutka                           55 mk</te>
-          <te>4) henkilöhakulähetin tai matkaviestin                  95 mk</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>1) pienoismallin radio-ohjauslaite taikka valvonta-,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>hälytys-, kaukomittaus-, kauko-ohjaus- tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>datasiirtolaite, jonka lähetysteho on enintään</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>10 mW ja joka toimii 26,825 - 27,255 MHz:n,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>40,665 - 40,785 MHz:n tai 433,050 - 434,790</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>MHz:n taajuusalueella taikka ohjaus-,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>valvonta- tai hälytystutka, jonka lähetysteho</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>on enintään 10 mW ja joka toimii</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">2400,00 - 2483,500 MHz:n taajuusalueella</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">25 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">2) johdoton puhelin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">35 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>3) LA-puhelin, PR-27-puhelin, radiomikrofoni,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>DSRR-järjestelmän lähetin, langattoman</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>lähiverkon (RLAN) lähetin taikka muu luvasta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>vapaa kuin 1 kohdassa tarkoitettu valvonta-,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>hälytys-, kaukomittaus-, kauko-ohjaus- tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>datasiirtolaite taikka muu luvasta vapaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>kuin 1 kohdassa tarkoitettu ohjaus-,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">valvonta- tai hälytystutka</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">55 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">4) henkilöhakulähetin tai matkaviestin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">95 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">
@@ -56,16 +149,69 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
           <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Radiolähettimen käyttöön tarvittavan erityisen kelpoisuuden osoittamiseksi suoritettavasta pätevyystutkinnosta tai sen osatutkinnosta peritään tutkintomaksua osallistumiskerralta seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>1) merenkulun yleinen radioasemanhoitajan</te>
-          <te>   tutkinto (General Operator's Certificate GOC)</te>
-          <te>   tai yleinen radiopuhelimenhoitajan tutkinto         500 mk</te>
-          <te>2) merenkulun rajoitettu radioasemanhoitajan</te>
-          <te>   tutkinto (Restricted Operator's Certificate ROC)</te>
-          <te>   tai rajoitettu radiopuhelimenhoitajan tutkinto      400 mk</te>
-          <te>3) Meri-VHF-radiopuhelimen hoitajan tutkinto           270 mk</te>
-          <te>4) radioamatööritutkinnon osatutkinto                   77 mk</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>1) merenkulun yleinen radioasemanhoitajan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>tutkinto (General Operator's Certificate GOC)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">tai yleinen radiopuhelimenhoitajan tutkinto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>2) merenkulun rajoitettu radioasemanhoitajan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>tutkinto (Restricted Operator's Certificate ROC)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">tai rajoitettu radiopuhelimenhoitajan tutkinto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">400 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3) Meri-VHF-radiopuhelimen hoitajan tutkinto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">270 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">4) radioamatööritutkinnon osatutkinto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">77 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>1-3 kohdassa tarkoitetun pätevyystutkinnon osatutkinnosta peritään osallistumiskerralta puolet siitä tutkintomaksusta, joka peritään pätevyystutkinnosta.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Muusta kuin 1 momentissa mainitusta pätevyystutkinnosta tai osatutkinnosta peritään tutkintomaksua samoin kuin peritään tutkintomaksua sitä lähinnä vastaavasta pätevyystutkinnosta tai osatutkinnosta 1 momentin mukaan.</saa:MomenttiKooste>
         </saa:Pykala>

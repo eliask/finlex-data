@@ -30,9 +30,45 @@
           <saa:MomenttiKooste>
             <saa:SaadosKursiiviKooste>Konepäällystö</saa:SaadosKursiiviKooste>
           </saa:MomenttiKooste>
-          <te>Koneteho kW    350-750          751-1 500        yli 1 500 </te>
-          <te>konepäällikkö  koneenhoitaja<sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti>  alikonemestari<sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti> konemestari</te>
-          <te>  </te>
+          <tau:table>
+            <tau:tgroup cols="4" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Koneteho kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">350-750</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">751-1 500</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4">yli 1 500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">konepäällikkö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">koneenhoitaja<sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">alikonemestari<sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4">konemestari</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="18 §">
           <saa:PykalaTunnusKooste>18 §</saa:PykalaTunnusKooste>
@@ -46,34 +82,235 @@
           <saa:MomenttiKooste>
             <saa:SaadosKursiiviKooste>Kansipäällystö</saa:SaadosKursiiviKooste>
           </saa:MomenttiKooste>
-          <te>Brutto-</te>
-          <te>vetoisuus</te>
-          <te>brt        enintään 80   81-150         151-250   251-500</te>
-          <te>päällikkö  kuljettaja I  kuljettaja I<sis1:YlaindeksiTeksti>1)</sis1:YlaindeksiTeksti> laivuri<sis1:YlaindeksiTeksti>2)</sis1:YlaindeksiTeksti> perä-</te>
-          <te>                                                  mies<sis1:YlaindeksiTeksti>2)</sis1:YlaindeksiTeksti> </te>
-          <te>perämies   kuljettaja I  kuljettaja I   kuljettaja I laivuri</te>
-          <te>
-            <sis1:YlaindeksiTeksti>2a)</sis1:YlaindeksiTeksti>
-            <sis1:YlaindeksiTeksti>2a)</sis1:YlaindeksiTeksti>
-            <sis1:YlaindeksiTeksti>2a)</sis1:YlaindeksiTeksti>
-            <sis1:YlaindeksiTeksti>2b)</sis1:YlaindeksiTeksti>
-          </te>
-          <te>
-            <saa:SaadosKursiiviKooste>Konepäällystö</saa:SaadosKursiiviKooste>
-          </te>
-          <te>Koneteho</te>
-          <te>kW         350-750       751-1 500      yli 1 500 </te>
-          <te>kone-      koneen-       alikone-       kone-</te>
-          <te>päällikkö  hoitaja<sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti>     mestari<sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti>      mestari</te>
+          <tau:table>
+            <tau:tgroup cols="5" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste>Brutto-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste>vetoisuus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">brt</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">enintään 80</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">81-150</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4">151-250</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="5">251-500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">päällikkö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kuljettaja I</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">kuljettaja I<sis1:YlaindeksiTeksti>1)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4">laivuri<sis1:YlaindeksiTeksti>2)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="5">perä-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="5">mies<sis1:YlaindeksiTeksti>2)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">perämies</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kuljettaja I</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">kuljettaja I</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4">kuljettaja I</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="5">laivuri</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">
+                      <sis1:YlaindeksiTeksti>2a)</sis1:YlaindeksiTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">
+                      <sis1:YlaindeksiTeksti>2a)</sis1:YlaindeksiTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4">
+                      <sis1:YlaindeksiTeksti>2a)</sis1:YlaindeksiTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="5">
+                      <sis1:YlaindeksiTeksti>2b)</sis1:YlaindeksiTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Konepäällystö</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste>Koneteho</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">350-750</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">751-1 500</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste>yli 1 500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kone-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">koneen-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">alikone-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste>kone-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">päällikkö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">hoitaja<sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">mestari<sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste>mestari</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>
             <saa:SaadosKursiiviKooste>Kansi- ja konemiehistö</saa:SaadosKursiiviKooste>
           </saa:MomenttiKooste>
-          <te>Brutto-</te>
-          <te>vetoisuus</te>
-          <te>brt</te>
-          <te>           enintään 150  151-250       251-500 <sis1:YlaindeksiTeksti>4)</sis1:YlaindeksiTeksti> </te>
-          <te>kansimies     2 <sis1:YlaindeksiTeksti>5)</sis1:YlaindeksiTeksti>       2 <sis1:YlaindeksiTeksti>5)</sis1:YlaindeksiTeksti>          2 </te>
-          <te>konevahtimies                          1</te>
+          <tau:table>
+            <tau:tgroup cols="4" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste>Brutto-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste>vetoisuus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste>brt</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">enintään 150</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">151-250</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4">251-500 <sis1:YlaindeksiTeksti>4)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kansimies</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2 <sis1:YlaindeksiTeksti>5)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">2 <sis1:YlaindeksiTeksti>5)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4">2</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">konevahtimies</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="4">1</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>1) Kotimaanliikenteessä vaaditaan lisäksi 12 kuukauden meripalvelu perämiehenä tai päällikkönä.</saa:MomenttiKooste>
           <saa:MomenttiKooste>2) Kotimaanliikenteessä tulee lisäksi olla merenkulkuhallituksen antama päällikkötodistus.  </saa:MomenttiKooste>
         </saa:Pykala>

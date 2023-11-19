@@ -12,28 +12,101 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Ilmoitus">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Maa- ja metsätalousministeriön ilmoitus</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>eräistä päätöksistä</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Maa- ja metsätalousministeriö ilmoittaa Suomen säädöskokoelmasta 17 päivänä lokakuuta 1980 annetun asetuksen (696/80) 2 §:n ja 2 b §:n sekä maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) 10 §:n nojalla:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>Valtioneuvosto on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavan päätöksen:</te>
-        <te/>
-        <te>Päätöksen nimike   MMM:n määräys-    antopäivä       voimaan-</te>
-        <te>                   kokoelman                        tulopäivä</te>
-        <te>                   n:o</te>
-        <te>VNp rehuksi</te>
-        <te>myytävän vehnän</te>
-        <te>hinnanalennus-</te>
-        <te>korvauksesta       25/94             14.4.1994      20.4.1994</te>
-        <te/>
-        <te>Edellä mainittu päätös on julkaistu maa- ja metsätalousministeriön määräyskokoelmassa. Päätös on saatavissa maa- ja metsätalousministeriön tietopalvelukeskuksesta, osoite Liisankatu 8, PL 250, 00171 Helsinki, puh. (90) 134 211.</te>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Valtioneuvosto on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavan päätöksen:</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="4" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Päätöksen nimike</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>MMM:n määräys-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>antopäivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>voimaan-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>kokoelman</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>tulopäivä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">n:o</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top">VNp rehuksi</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top">myytävän vehnän</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top">hinnanalennus-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>korvauksesta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>25/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>14.4.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>20.4.1994</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>Edellä mainittu päätös on julkaistu maa- ja metsätalousministeriön määräyskokoelmassa. Päätös on saatavissa maa- ja metsätalousministeriön tietopalvelukeskuksesta, osoite Liisankatu 8, PL 250, 00171 Helsinki, puh. (90) 134 211.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 14 päivänä huhtikuuta 1994</asi:PaivaysKooste>

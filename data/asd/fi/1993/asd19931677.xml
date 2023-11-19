@@ -293,16 +293,135 @@
       <sis:KappaleKooste>- tarvittaessa suurpakkaustyypin laatua tarkentavan arabialaisen numeron.</sis:KappaleKooste>
       <sis:KappaleKooste>Yhdistetyille suurpakkauksille on käytettävä kahta isoa kirjainta. Ensimmäinen kirjain osoittaa suurpakkauksen sisäastian aineksen ja toinen ulkopakkauksen aineksen.</sis:KappaleKooste>
       <sis:KappaleKooste>a)</sis:KappaleKooste>
-      <te>Suurpakkaus Kiinteät aineet,       Nesteet</te>
-      <te>tyypit      täytetään ja/tai </te>
-      <te>            tyhjennetään</te>
-      <te>            omalla    yli 10 kPa</te>
-      <te>            painolla  (0,1 bar)</te>
-      <te>                      paineella	   </te>
-      <te>Jäykkä	        11	21	31</te>
-      <te>Puolijäykkä	12	22	32</te>
-      <te>Taipuisa	        13	Ä	Ä</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="4" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Suurpakkaus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Kiinteät aineet,</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="3" nameend="4">
+                <sis:KappaleKooste>Nesteet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">tyypit</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">täytetään ja/tai</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">tyhjennetään</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">omalla</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">yli 10 kPa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">painolla</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">(0,1 bar)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">paineella</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Jäykkä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">11</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">21</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">31</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Puolijäykkä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">12</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">22</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">32</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Taipuisa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">13</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>b) Pakkauksen laatu A. Teräs (kaikki tyypit ja pinnoitteet) B. Alumiini C. Puu D. Vaneri F. Muut puupohjaiset levyt G. Pahvi H. Muovi L. Tekstiilikudos M. Paperi, monikerroksinen N. Metalli (muut kuin teräs tai alumiini)</sis:KappaleKooste>
       <sis:KappaleKooste>(2) Suurpakkauksen tunnusnumeron jälkeen tulee olla kirjain osoittamassa aineryhmää, minkä aineiden kuljetukseen pakkaus on hyväksytty.</sis:KappaleKooste>
       <sis:KappaleKooste>Y aineille, jotka kuuluvat pakkausryhmiin II tai III.</sis:KappaleKooste>
@@ -663,15 +782,39 @@
       <sis:KappaleKooste>Nesteiden kuljetukseen tarkoitetut metalliset suurpakkaukset tai jäykät, muoviset suurpakkaukset vähintään 98 prosenttia tilavuudestaan, yhdistetyt suurpakkaukset (muovinen sisäastia) vähintään 90 prosenttia tilavuudestaan.</sis:KappaleKooste>
       <sis:KappaleKooste>Suurpakkaus on lisäksi täytettävä rakennetyypin suurimmalla sallitulla kuormalla.</sis:KappaleKooste>
       <sis:KappaleKooste>Metallisilla suurpakkauksilla, jäykillä, muovisilla suurpakkauksilla ja yhdistetyillä suurpakkauksilla (muovinen sisäastia) paineentasauslaitteet on kytkettävä pois käytöstä tai irrotettava ja syntyneet aukot suljettava.</sis:KappaleKooste>
-      <sis:KappaleKooste>Jäykkien, muovisten suurpakkausten ja yhdistettyjen suurpakkausten (muovinen sisäastia) testaus tulee tehdä siten, että polyeteenistä valmistetun koekappaleen ja sen sisällön lämpötila on Ä18 °C tai alempi ja muusta muovista valmistetun koekappaleen ja sen sisällön lämpötila on Ä40 °C. Mikäli koekappaleet on valmisteltu edellä mainitusti, voidaan rn 3651 (2) mukaisista toimenpiteistä luopua.</sis:KappaleKooste>
+      <sis:KappaleKooste>Jäykkien, muovisten suurpakkausten ja yhdistettyjen suurpakkausten (muovinen sisäastia) testaus tulee tehdä siten, että polyeteenistä valmistetun koekappaleen ja sen sisällön lämpötila on -18 °C tai alempi ja muusta muovista valmistetun koekappaleen ja sen sisällön lämpötila on -40 °C. Mikäli koekappaleet on valmisteltu edellä mainitusti, voidaan rn 3651 (2) mukaisista toimenpiteistä luopua.</sis:KappaleKooste>
       <sis:KappaleKooste>Koenesteet on pidettävä nestemäisenä lisäämällä tarvittaessa jäänestoaineita.</sis:KappaleKooste>
-      <sis:KappaleKooste>Tästä toimenpiteestä voidaan luopua, mikäli kyseessä olevan materiaalin venymä ja murtolujuus eivät polyeteenillä oleellisesti heikkene Ä18 °C tai alemmassa lämpötilassa ja muulla muovilla Ä40 °C tai alemmassa lämpötilassa.</sis:KappaleKooste>
+      <sis:KappaleKooste>Tästä toimenpiteestä voidaan luopua, mikäli kyseessä olevan materiaalin venymä ja murtolujuus eivät polyeteenillä oleellisesti heikkene -18 °C tai alemmassa lämpötilassa ja muulla muovilla -40 °C tai alemmassa lämpötilassa.</sis:KappaleKooste>
       <sis:KappaleKooste>(3) Koemenetelmä</sis:KappaleKooste>
       <sis:KappaleKooste>Suurpakkaukset on pudotettava jäykälle, joustamattomalle, sileälle, tasaiselle ja vaakasuoralle pinnalle siten, että suurpakkauksen pohjapinta (suursäkeillä) tai suurpakkauksen pohjapinnan vaurioille alttein kohta (kaikille muille suurpakkaustyypeille) iskeytyy siihen.</sis:KappaleKooste>
       <sis:KappaleKooste>(4) Pudotuskorkeus</sis:KappaleKooste>
-      <te>Pakkausryhmä II	Pakkausryhmä III</te>
-      <te>1,2 m	        0,8 m</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Pakkausryhmä II</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pakkausryhmä III</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2 m</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,8 m</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>(5) Kokeen hyväksyminen</sis:KappaleKooste>
       <sis:KappaleKooste>Kaikki suurpakkaukset:</sis:KappaleKooste>
       <sis:KappaleKooste>Suurpakkauksesta ei saa vuotaa täytösainetta.</sis:KappaleKooste>
@@ -686,9 +829,33 @@
       <sis:KappaleKooste>(3) Koemenetelmä</sis:KappaleKooste>
       <sis:KappaleKooste>Suursäkki on kumottava siten, että jokin sen yläosan kohta kaatuu jäykälle, joustamattomalle, sileälle, tasaiselle ja vaakasuoralle pinnalle.</sis:KappaleKooste>
       <sis:KappaleKooste>(4) Kumoamiskorkeus</sis:KappaleKooste>
-      <te>Pakkausryhmä II	Pakkausryhmä III</te>
-      <te>1,2 m	        0,8 m</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Pakkausryhmä II</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pakkausryhmä III</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2 m</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,8 m</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>(5) Kokeen hyväksyminen</sis:KappaleKooste>
       <sis:KappaleKooste>Suursäkistä ei saa vuotaa täytösainetta. Pientä vuotoa esim. sulkimista tai saumakohdista pudotusiskun yhteydessä ei pidetä suurpakkauksen virheellisyytenä edellyttäen, että muita vuotoja ei ilmene.</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>3660</sis1:ValiotsikkoTeksti>

@@ -93,74 +93,363 @@
       <sis:KappaleKooste><sis1:KursiiviTeksti>1. maksuluokka: </sis1:KursiiviTeksti>1,2 promillea tiliviraston palkkasummasta</sis:KappaleKooste>
       <sis:KappaleKooste>Muut kuin jäljempänä mainitut virastot ja laitokset lukuunottamatta valtion hankintakeskusta, valtion pukutehdasta, metsähallitusta, siemenperunakeskusta ja Jokioisten siemenkeskusta, joiden osalta on erilliset määräykset.</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2. maksuluokka: </sis1:KursiiviTeksti>1,7 promillea tiliviraston palkkasummasta</sis:KappaleKooste>
-      <te>Tilivirasto</te>
-      <te>Rajavartiolaitos</te>
-      <te>Lääninhallitukset (nimismiespiirit, rekisteritoimistot ja paikallispoliisilaitokset ml.)</te>
-      <te>Helsingin poliisilaitos</te>
-      <te>Keskusrikospoliisi</te>
-      <te>Suojelupoliisi</te>
-      <te>Liikkuva poliisi</te>
-      <te><saa:SaadosKursiiviKooste>3. maksuluokka: </saa:SaadosKursiiviKooste>2,6 promillea tiliviraston palkkasummasta</te>
-      <te>Tilivirasto</te>
-      <te>Metsäntutkimuslaitos</te>
-      <te>Maatalouden tutkimuskeskus</te>
-      <te>Riista- ja kalatalouden tutkimuslaitos</te>
-      <te>Ilmatieteen laitos</te>
-      <te>Valtion teknillinen tutkimuskeskus</te>
-      <te>Teknillinen tarkastuskeskus</te>
-      <te>Geologian tutkimuskeskus</te>
-      <te>Merentutkimuslaitos</te>
-      <te>Teknologian kehittämiskeskus</te>
-      <te>Kansanterveyslaitos</te>
-      <te>Säteilyturvakeskus</te>
-      <te>Helsingin yliopisto</te>
-      <te>Jyväskylän yliopisto</te>
-      <te>Oulun yliopisto</te>
-      <te>Turun yliopisto</te>
-      <te>Tampereen yliopisto</te>
-      <te>Åbo Akademi</te>
-      <te>Joensuun yliopisto</te>
-      <te>Kuopion yliopisto</te>
-      <te>Eläinlääketieteellinen korkeakoulu</te>
-      <te>Teknillinen korkeakoulu</te>
-      <te>Tampereen teknillinen korkeakoulu</te>
-      <te>Lappeenrannan teknillinen korkeakoulu</te>
-      <te>Helsingin kauppakorkeakoulu</te>
-      <te>Svenska handelshögskolan</te>
-      <te>Turun kauppakorkeakoulu</te>
-      <te>Vaasan yliopisto</te>
-      <te>Sibelius-Akatemia</te>
-      <te>Lapin yliopisto</te>
-      <te>Teatterikorkeakoulu</te>
-      <te>Taideteollinen korkeakoulu</te>
-      <te><saa:SaadosKursiiviKooste>4. maksuluokka: </saa:SaadosKursiiviKooste>3,8 promillea tiliviraston palkkasummasta</te>
-      <te>Tilivirasto</te>
-      <te>Opetushallitus (oppilaitokset ml.)</te>
-      <te><saa:SaadosKursiiviKooste>5. maksuluokka: </saa:SaadosKursiiviKooste>5,2 promillea tiliviraston palkkasummasta</te>
-      <te>Tilivirasto</te>
-      <te>Puolustusministeriö</te>
-      <te>Tullihallitus</te>
-      <te>Maa- ja metsätalousministeriö</te>
-      <te>Maanmittaushallitus</te>
-      <te>Vesi- ja ympäristöhallitus</te>
-      <te>Maatilahallitus</te>
-      <te>Työministeriö</te>
-      <te>Työsuojeluhallitus</te>
-      <te><saa:SaadosKursiiviKooste>6. maksuluokka: </saa:SaadosKursiiviKooste>12,7 promillea tiliviraston palkkasummasta</te>
-      <te>Tilivirasto</te>
-      <te>Rakennushallitus</te>
-      <te>Tiehallitus</te>
-      <te>Merenkulkuhallitus</te>
+      <tau:table>
+        <tau:tgroup cols="1" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Tilivirasto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Rajavartiolaitos</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Lääninhallitukset (nimismiespiirit, rekisteritoimistot ja paikallispoliisilaitokset ml.)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Helsingin poliisilaitos</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Keskusrikospoliisi</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Suojelupoliisi</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Liikkuva poliisi</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste><sis1:KursiiviTeksti>3. maksuluokka: </sis1:KursiiviTeksti>2,6 promillea tiliviraston palkkasummasta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Tilivirasto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Metsäntutkimuslaitos</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Maatalouden tutkimuskeskus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Riista- ja kalatalouden tutkimuslaitos</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Ilmatieteen laitos</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Valtion teknillinen tutkimuskeskus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Teknillinen tarkastuskeskus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Geologian tutkimuskeskus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Merentutkimuslaitos</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Teknologian kehittämiskeskus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Kansanterveyslaitos</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Säteilyturvakeskus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Helsingin yliopisto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Jyväskylän yliopisto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Oulun yliopisto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Turun yliopisto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Tampereen yliopisto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Åbo Akademi</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Joensuun yliopisto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Kuopion yliopisto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Eläinlääketieteellinen korkeakoulu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Teknillinen korkeakoulu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Tampereen teknillinen korkeakoulu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Lappeenrannan teknillinen korkeakoulu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Helsingin kauppakorkeakoulu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Svenska handelshögskolan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Turun kauppakorkeakoulu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Vaasan yliopisto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Sibelius-Akatemia</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Lapin yliopisto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Teatterikorkeakoulu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Taideteollinen korkeakoulu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste><sis1:KursiiviTeksti>4. maksuluokka: </sis1:KursiiviTeksti>3,8 promillea tiliviraston palkkasummasta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Tilivirasto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Opetushallitus (oppilaitokset ml.)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste><sis1:KursiiviTeksti>5. maksuluokka: </sis1:KursiiviTeksti>5,2 promillea tiliviraston palkkasummasta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Tilivirasto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Puolustusministeriö</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Tullihallitus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Maa- ja metsätalousministeriö</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Maanmittaushallitus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Vesi- ja ympäristöhallitus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Maatilahallitus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Työministeriö</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Työsuojeluhallitus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste><sis1:KursiiviTeksti>6. maksuluokka: </sis1:KursiiviTeksti>12,7 promillea tiliviraston palkkasummasta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Tilivirasto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Rakennushallitus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Tiehallitus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="1">
+                <sis:KappaleKooste>Merenkulkuhallitus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis1:ValiotsikkoTeksti>Maksut liikennevahinkokorvauksista ja niiden hoitamisesta</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Maksu on vuosimaksu, joka määräytyy kunkin varainhoitovuoden aikana viraston tai laitoksen omistuksessa tai pysyvässä hallinnassa olevaa ajoneuvoa kohden. Vuosimaksun suuruudet ovat ajoneuvoittain seuraavat:</sis:KappaleKooste>
-      <te/>
-      <te>Asuntovaunu, kevyt perävaunu                         30 mk</te>
-      <te>Mopo, moottorikelkka, muu kuin kevyt perävaunu      150 mk</te>
-      <te>Traktori                                            225 mk</te>
-      <te>Henkilöauto, pakettiauto, moottorityökone           750 mk</te>
-      <te>Linja-auto, erikoisauto, moottoripyörä            1 500 mk</te>
-      <te>Kuorma-auto                                       1 875 mk</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Asuntovaunu, kevyt perävaunu</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">30 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Mopo, moottorikelkka, muu kuin kevyt perävaunu</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">150 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Traktori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">225 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Henkilöauto, pakettiauto, moottorityökone</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">750 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Linja-auto, erikoisauto, moottoripyörä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kuorma-auto</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 875 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis1:ValiotsikkoTeksti>Maksu ryhmähenkivakuutusta vastaavan taloudellisen tuen järjestämisestä ja sen hoidosta</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Vuosimaksu 155 mk/palvelussuhteessa oleva</sis:KappaleKooste>
     </asi:SisaltoLiite>

@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Tulo- ja varallisuusverolaki </met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Hallituksen esitys 109/88</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Valtiovarainvaliok. miet. 81 ja 81 a/88</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>Suuren valiok. miet. 203/88</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -531,13 +520,15 @@
 </saa:MomenttiKohtaKooste>
             </saa:KohdatMomentti>
             <saa:MomenttiKooste>Vahvistaessaan ulkomaille tehdystä työmatkasta suoritettavien päivärahojen perusteet ja määrät verovuodeksi verohallituksen on noudatettava ennen tätä lakia voimassa olleita säännöksiä.</saa:MomenttiKooste>
-            <saa:MomenttiKooste>Veronalaista tuloa ei ole:</saa:MomenttiKooste>
-            <saa:MomenttiKohtaKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Veronalaista tuloa ei ole:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
 1)työmatkasta saatu, ennen tätä lakia voimassa olleiden säännösten ja 4 momentin 2 kohdassa tarkoitetun verohallituksen päätöksen 13§:n mukainen ateriakorvaus;
 </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 2)työnantajalta päivittäisistä asunnon ja erityisen työntekemispaikan välisistä matkoista saatu, enintään 4 momentin 2 kohdassa tarkoitetussa verohallituksen päätöksessä vahvistetun suuruinen matkustamiskustannusten korvaus toimialoilla, joilla erityistä työntekemispaikkaa alalle tunnusomaisen työn lyhytaikaisuuden vuoksi joudutaan usein vaihtamaan.
 </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="51 §">
             <saa:PykalaTunnusKooste>51 §</saa:PykalaTunnusKooste>
@@ -1188,10 +1179,7 @@
             <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="95 §">
               <saa:PykalaTunnusKooste>95 §</saa:PykalaTunnusKooste>
               <saa:MomenttiKooste>Kokonaistulosta valtionverotuksessa myönnettävän merityötulovähennyksen määrä on 18 prosenttia merityötulon kokonaismäärästä, kuitenkin enintään 38 000 markkaa.</saa:MomenttiKooste>
-              <saa:MomenttiKooste>Kokonaistulosta kunnallisverotuksessa myönnettävän </saa:MomenttiKooste>
-            </saa:Pykala>
-            <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="merityötulovähennyksen määrä on 30 prosenttia merityötulon kokonaismäärästä, kuitenkin enintään 65 000 markkaa.">
-              <saa:PykalaTunnusKooste>merityötulovähennyksen määrä on 30 prosenttia merityötulon kokonaismäärästä, kuitenkin enintään 65 000 markkaa.</saa:PykalaTunnusKooste>
+              <saa:MomenttiKooste>Kokonaistulosta kunnallisverotuksessa myönnettävän merityötulovähennyksen määrä on 30 prosenttia merityötulon kokonaismäärästä, kuitenkin enintään 65 000 markkaa.</saa:MomenttiKooste>
               <saa:MomenttiKooste>Sen estämättä, mitä 2 momentissa on säädetty, korotetaan merityötulovähennystä kunnallisverotuksessa 1 000 markalla jokaiselta täydeltä kalenterikuukaudelta, jonka aikana alus ei käy Suomen satamassa tai muutoin Suomen rajojen sisäpuolella ja jonka ajan verovelvollinen työskentelee aluksessa. Korotukseen oikeuttavan ajanjakson päättyessä korotus myönnetään kuitenkin myös vajaalta kalenterikuukaudelta.</saa:MomenttiKooste>
             </saa:Pykala>
             <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="96 §">
@@ -1904,6 +1892,11 @@ puinen 5 % ja kivinen 4 %;
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Hallituksen esitys 109/88</sdk:EsityoViite>
+    <sdk:EsityoViite>Valtiovarainvaliok. miet. 81 ja 81 a/88</sdk:EsityoViite>
+    <sdk:EsityoViite>Suuren valiok. miet. 203/88</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 23 päivänä joulukuuta 1988</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

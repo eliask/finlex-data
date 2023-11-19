@@ -12,32 +12,90 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Kuluttajaviraston päätös</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>kulutustavaran yksikköhinnan ilmoittamisesta markkinoinnissa annetun elinkeinohallituksen päätöksen muuttamisesta</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Kuluttajavirasto on muuttanut kulutustavaran yksikköhinnan ilmoittamisesta markkinoinnissa 5 päivänä huhtikuuta 1990 annetun elinkeinohallituksen päätöksen (342/90) liitteen kohdan 13. näin kuuluvaksi:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>
+        <saa:SaadosKappaleKooste>
           <saa:SaadosKursiiviKooste>Liite</saa:SaadosKursiiviKooste>
-        </te>
+        </saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>YKSIKKÖHINNAN ILMOITTAMISVELVOLLISUUDEN ALAAN KUULUVAT KULUTUSTAVARAT JA KULUTUSTAVARARYHMÄT </saa:SaadosValiotsikkoKooste>
-        <te>Tavara tai tavararyhmä	Muut ilmoittamista koskevat määräykset	Mittayksikkö, jota kohden </te>
-        <te>				Pakkauskoot, joiden osalta yksikkö-     yksikköhinta ilmoitetaan</te>
-        <te>				hintaa ei tarvitse ilmoittaa</te>
+        <tau:table>
+          <tau:tgroup cols="3" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Tavara tai tavararyhmä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Muut ilmoittamista koskevat määräykset</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">Mittayksikkö, jota kohden</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Pakkauskoot, joiden osalta yksikkö-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">yksikköhinta ilmoitetaan</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">hintaa ei tarvitse ilmoittaa</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <sis:Katkoviiva/>
-        <te>13.Pyykinpesuaineet, nestemäiset   1 000 ml			litra</te>
-        <te>                     jauhemaiset   1 000 g				kg</te>
+        <tau:table>
+          <tau:tgroup cols="3" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">13.Pyykinpesuaineet, nestemäiset</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">1 000 ml</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">litra</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">jauhemaiset</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">1 000 g</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">kg</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <sis:Katkoviiva/>
         <sis:Palstaviiva/>
-        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
-          <saa:MomenttiKooste>Tämä päätös tulee voimaan 1 päivänä maaliskuuta 1991 ja on voimassa vuoden 1992 loppuun.</saa:MomenttiKooste>
-        </saa:Pykala>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Tämä päätös tulee voimaan 1 päivänä maaliskuuta 1991 ja on voimassa vuoden 1992 loppuun.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 22 päivänä marraskuuta 1990</asi:PaivaysKooste>

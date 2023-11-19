@@ -34,11 +34,44 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="18 a §">
           <saa:PykalaTunnusKooste>18 a §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>1. Henkilöauton otto- ja dieselmoottorin pakokaasupäästöjen raja-arvot ovat:</saa:MomenttiKooste>
-          <te/>
-          <te>hiilimonoksidi            2,1  g/km</te>
-          <te>hiilivedyt                0,25 g/km</te>
-          <te>typen oksidit             0,62 g/km</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiilimonoksidi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2,1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">g/km</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiilivedyt</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>0,25 g/km</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">typen oksidit</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>0,62 g/km</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>2. Henkilöauton ottomoottorin kampikammion ja sen tuuletusjärjestelmän tulee olla siten suunniteltu ja rakennettu sekä siten kunnossa pidettävissä, ettei kampikammiosta pääse haitallisia kaasuja ulkoilmaan.</saa:MomenttiKooste>
           <saa:MomenttiKooste>3. Ottomoottorilla varustetun henkilöauton polttoainejärjestelmästä haihtuvien hiilivetyjen raja-arvo on 2,0 g.</saa:MomenttiKooste>
           <saa:MomenttiKooste>4. Dieselmoottorilla varustetun henkilöauton hiukkaspäästöjen raja-arvo on 0,124 g/km.</saa:MomenttiKooste>
@@ -48,11 +81,50 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="18 b §">
           <saa:PykalaTunnusKooste>18 b §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>1. Pakettiauton otto- ja dieselmoottorin pakokaasupäästöjen raja-arvot ovat:</saa:MomenttiKooste>
-          <te/>
-          <te>hiilimonoksidi            6,2  g/km</te>
-          <te>hiilivedyt                0,5  g/km</te>
-          <te>typen oksidit             1,1  g/km</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiilimonoksidi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">6,2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">g/km</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiilivedyt</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">0,5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">g/km</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">typen oksidit</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1,1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">g/km</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>2. Pakettiauton ottomoottorin kampikammion ja sen tuuletusjärjestelmän tulee olla siten suunniteltu ja rakennettu sekä siten kunnossa pidettävissä, ettei kampikammiosta pääse haitallisia kaasuja ulkoilmaan.</saa:MomenttiKooste>
           <saa:MomenttiKooste>3. Ottomoottorilla varustetun pakettiauton polttoainejärjestelmästä haihtuvien hiilivetyjen raja-arvo on 2,0 g.</saa:MomenttiKooste>
           <saa:MomenttiKooste>4. Dieselmoottorilla varustetun pakettiauton hiukkaspäästöjen raja-arvo on 0,162 g/km.</saa:MomenttiKooste>
@@ -62,22 +134,148 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="18 c §">
           <saa:PykalaTunnusKooste>18 c §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>1. Kuorma- ja linja-auton sekä kokonaispainoltaan yli 3 500 kg:n erikoisauton dieselmoottorin pakokaasu- ja hiukkaspäästöjen raja-arvot moottorin tyyppihyväksymistä ja tuotannon laadunvalvontaa varten suoritettavassa päästötestissä ovat:</saa:MomenttiKooste>
-          <te/>
-          <te>päästö          tyyppi-hyväksymisen     tuotannon laadunval-</te>
-          <te>                raja-arvo               vonnan raja-arvo </te>
-          <te>                g/kWh                   g/kWh</te>
-          <te>hiilimonoksidi    4,5                    4,9 </te>
-          <te>hiilivedyt        1,1                    1,23 </te>
-          <te>typen oksidit     8,0                    9,0 </te>
-          <te>hiukkaset         0,36                   0,4</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">päästö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">tyyppi-hyväksymisen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">tuotannon laadunval-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">raja-arvo</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">vonnan raja-arvo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">g/kWh</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">g/kWh</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiilimonoksidi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">4,5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">4,9</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiilivedyt</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1,1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">1,23</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">typen oksidit</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">8,0</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">9,0</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiukkaset</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">0,36</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">0,4</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>2. Jos moottorin teho on enintään 85 kW, kerrotaan 1 momentissa hiukkaspäästöille asetettu raja-arvo luvulla 1,7.</saa:MomenttiKooste>
           <saa:MomenttiKooste>3. Edellä 1 ja 2 momentissa tarkoitettujen raja-arvojen sijasta sovelletaan 1 päivänä lokakuuta 1995 tai sen jälkeen tyyppihyväksyttäviin moottoreihin ja 1 päivänä lokakuuta 1996 tai sen jälkeen käyttöön otettaviin autoihin sekä tyyppihyväksymisessä että tuotannon laadunvalvonnassa seuraavia raja-arvoja:</saa:MomenttiKooste>
-          <te>hiilimonoksidi            4,0  g/kWh</te>
-          <te>hiilivedyt                1,1  g/kWh</te>
-          <te>typen oksidit             7,0  g/kWh</te>
-          <te>hiukkaset                 0,15 g/kWh</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiilimonoksidi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">4,0</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">g/kWh</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiilivedyt</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1,1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">g/kWh</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">typen oksidit</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">7,0</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">g/kWh</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiukkaset</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>0,15 g/kWh</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>4. Auton katsotaan täyttävän 1-3 momentin raja-arvot, jos siinä käytetty dieselmoottori täyttää EY-direktiivin 88/77/ETY vaatimukset, sellaisina kuin ne ovat muutettuina direktiivillä 91/542/ETY.</saa:MomenttiKooste>
           <saa:MomenttiKooste>5. Auton katsotaan täyttävän 1 ja 2 momentin raja-arvot myös, jos se täyttää auton käytön ensimmäisten 160 000 km:n tai viiden vuoden aikana, näistä ensin saavutettavan ollessa määräävä, Yhdysvaltojen liittovaltion mallivuoden 1991 tai sitä myöhemmän mallivuoden raskaille dieselkäyttöisille autoille asettamat vaatimukset (Code of Federal Regulations, § 86.091-11). </saa:MomenttiKooste>
         </saa:Pykala>

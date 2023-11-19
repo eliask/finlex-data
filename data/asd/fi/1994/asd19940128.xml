@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Suomen Hallitusmuodon muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 138/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>PeVM 17/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -30,8 +22,9 @@
         <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>lisätään</saa:SaadosKursiiviKooste> Suomen Hallitusmuotoon uusi IV a luku seuraavasti:</saa:SaadosKappaleKooste>
       </saa:Johtolause>
       <saa:Pykalisto>
-        <saa:Luku saa1:identifiointiTunnus="IV a Ahvenanmaan itsehallinto">
-          <saa:LukuTunnusKooste>IV a Ahvenanmaan itsehallinto</saa:LukuTunnusKooste>
+        <saa:Luku saa1:identifiointiTunnus="IV a">
+          <saa:LukuTunnusKooste>IV a</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Ahvenanmaan itsehallinto</saa:SaadosOtsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="52 a §">
             <saa:PykalaTunnusKooste>52 a §</saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Ahvenanmaan maakunnalla on itsehallinto sen mukaan kuin siitä erikseen säädetään.</saa:MomenttiKooste>
@@ -44,6 +37,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930138.he">
+        <sis1:ViiteTeksti>HE 138/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930017.pevm">
+        <sis1:ViiteTeksti>PeVM 17/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 18 päivänä helmikuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

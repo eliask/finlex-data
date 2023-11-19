@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>ajoneuvojen katsastuksesta annetun asetuksen muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite XIII: neuvoston direktiivi (77/143/ETY)</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>ETA-sekakomitean päätös N:o 7/94: neuvoston direktiivi (92/55/ETY)</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus">
@@ -78,20 +70,187 @@ f) perävaunua.
           <saa:PykalaTunnusKooste>38 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Pakokaasupäästöjen tarkastus</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>1. Ottomoottorilla varustetulle autolle, joka on otettu käyttöön vuonna 1978 tai myöhemmin, sekä dieselmoottorilla varustelulle autolle, joka on otettu käyttöön vuonna 1980 tai myöhemmin, suoritetaan pakokaasupäästöjen tarkastus 37 §:ssä tarkoitetun direktiivin muuttamisesta annetun neuvoston direktiivin (92/55/ETY) mukaisesti tässä pykälässä säädetyin poikkeuksin. Pakokaasupäästöjen tarkastusta ei kuitenkaan tarvitse suorittaa kaksitahtimoottorilla varustetulle tai moottoripetrolia polttoaineena käyttävälle autolle.</saa:MomenttiKooste>
-          <te>2. Ottomoottorilla varustettujen autojen pakokaasupäästöjen raja-arvot ovat seuraavat:</te>
-          <te/>
-          <te>ajoneuvon moottori-    joutokäynnillä      vähintään 2000 rpm</te>
-          <te>tyyppi ja                                   kierrosnopeudella</te>
-          <te>käyttöönottoaika</te>
-          <te>                         CO       HC        CO   HC    lambda</te>
-          <te>                        [%]     [ppm]      [%]  [ppm]</te>
-          <te>ennen 1.10.1986         4,5     1 000       -     -         -</te>
-          <te>1.10.1986 tai</te>
-          <te>sen jälkeen             3,5       600       -     -         -</te>
-          <te>vähäpäästöinen auto</te>
-          <te>käyttöönottoajasta</te>
-          <te>riippumatta             0,5       100     0,3   100  1 ± 0,03</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="6" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top">2. Ottomoottorilla varustettujen autojen pakokaasupäästöjen raja-arvot ovat seuraavat:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>ajoneuvon moottori-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>joutokäynnillä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">vähintään 2000 rpm</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="6" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>tyyppi ja</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">kierrosnopeudella</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="6" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>käyttöönottoaika</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                  <tau:entry namest="4" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>CO</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>HC</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>CO</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>HC</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>lambda</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>[%]</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>[ppm]</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>[%]</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>[ppm]</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>ennen 1.10.1986</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4,5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top">1.10.1986 tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>sen jälkeen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3,5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top">vähäpäästöinen auto</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top">käyttöönottoajasta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>riippumatta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 ± 0,03</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>3. Jos auton valmistaja on ilmoittanut vähäpäästöisen auton joutokäynnin hiilimonoksidi- ja hiilivetypäästöjen ja korotetun joutokäyntinopeuden lambdan raja-arvot 2 momentin säännöksistä poikkeavasti, käytetään raja-arvoina valmistajan ilmoittamia arvoja. Lambda-arvoa ei mitata, jos valmistaja ilmoittaa lambdan säätyvän automaattisesti siten, että kaikissa ajo-oloissa päästöt ovat mahdollisimman vähäiset.</saa:MomenttiKooste>
           <saa:MomenttiKooste>4. Dieselkäyttöisten autojen pakokaasupäästöjen valvonta suoritetaan vuoden 1994 loppuun saakka vain jos siihen silmämääräisen arvion perusteella on aihetta. Valvonnassa raja-arvona on 7,0 Bosch-yksikköä, kuitenkin 1 päivänä tammikuuta 1990 tai sen jälkeen käyttöön otetulle autolle 3,5 Bosch-yksikköä. Vuoden 1995 alusta alkaen sovelletaan dieselkäyttöisten autojen tarkastuksessa 1 momentissa tarkoitetun direktiivin mittaustapaa ja raja-arvoja.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -102,6 +261,10 @@ f) perävaunua.
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>ETA-sopimuksen liite XIII: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="377L0143"><sis1:ViiteTeksti>(77/143/ETY)</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+    <sdk:EsityoViite>ETA-sekakomitean päätös N:o 7/94: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="392L0055"><sis1:ViiteTeksti>(92/55/ETY)</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 8 päivänä huhtikuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

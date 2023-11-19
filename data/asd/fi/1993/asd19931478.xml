@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>yksinkertaisista painesäiliöistä</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite II: neuvoston direktiivi (87/404/ETY)</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -98,10 +93,7 @@
         <saa:Luku saa1:identifiointiTunnus="2 luku">
           <saa:LukuTunnusKooste>2 luku</saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Varmentamismenettelyt</saa:SaadosOtsikkoKooste>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="">
-            <saa:PykalaTunnusKooste/>
-            <saa:SaadosOtsikkoKooste>Varmentamismenettelyjen määräytyminen</saa:SaadosOtsikkoKooste>
-          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Varmentamismenettelyjen määräytyminen</saa:SaadosValiotsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">
             <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Painesäiliön vaatimustenmukaisuus on osoitettava käyttämällä ennen säiliön valmistuksen aloittamista 10 §:n mukaista ja valmiille säiliölle ennen sen myyntiin laskemista 11 §:n mukaista varmentamismenettelyä.</saa:MomenttiKooste>
@@ -355,6 +347,9 @@ l) valmistajan tai tämän edustajan nimi ja osoite;
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>ETA-sopimuksen liite II: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="387L0404"><sis1:ViiteTeksti>(87/404/ETY)</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 22 päivänä joulukuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -393,21 +388,177 @@ l) valmistajan tai tämän edustajan nimi ja osoite;
       <sis:KappaleKooste>h) Valmistuksen katsotaan olevan sarjamaista, jos vähintään kaksi samantyyppistä painesäiliötä valmistetaan samalla valmistusmenetelmällä jatkuvana valmistustoimintana.</sis:KappaleKooste>
       <sis:KappaleKooste>i) Ainestodistuksessa valmistaja vakuuttaa, että toimitetut tuotteet ovat tilauksen mukaiset, sekä esittää tavanomaisten tuotantotestien tulokset, erityisesti kemiallisten analyysien ja mekaanisten ominaisuuksien osalta. Tulosten ei tarvitse olla peräisin toimitetusta erästä, mutta valmistusmenetelmän on oltava sama.</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>1.2. Suureet ja niiden yksiköt</sis1:ValiotsikkoTeksti>
-      <te>A	        %	murtovenymä(L<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti> = 5,65 sqrt(S<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti>))</te>
-      <te>A<sis1:AlaindeksiTeksti>80 mm</sis1:AlaindeksiTeksti>	%	murtovenymä (Lo = 80 mm)</te>
-      <te>KCV	J/cm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>	iskuenergia</te>
-      <te>P	        bar	suunnittelupaine</te>
-      <te>Ph	        bar	neste- tai kaasupainekokeen koepaine</te>
-      <te>PS	        bar	suurin käyttöpaine</te>
-      <te>REh	N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>	ylempi myötöraja</te>
-      <te>RET	N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>	myötöraja korkeimmassa käyttölämpötilassa</te>
-      <te>Rm	        N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>	murtolujuus</te>
-      <te>Rm,max	N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>	enimmäismurtolujuus</te>
-      <te>Rp0,2	N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>	0,2-rajan vähimmäisarvo</te>
-      <te>Rp1,0	N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>	1,0-rajan vähimmäisarvo</te>
-      <te>Tmax	°C	korkein käyttölämpötila</te>
-      <te>Tmin	°C	alin käyttölämpötila</te>
-      <te>V	        l	painesäiliön tilavuus</te>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>A</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>%</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>murtovenymä(L<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti> = 5,65 sqrt(S<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti>))</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>A<sis1:AlaindeksiTeksti>80 mm</sis1:AlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>%</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>murtovenymä (Lo = 80 mm)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>KCV</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>J/cm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>iskuenergia</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>P</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>bar</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>suunnittelupaine</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Ph</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>bar</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>neste- tai kaasupainekokeen koepaine</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>PS</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>bar</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>suurin käyttöpaine</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>REh</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>ylempi myötöraja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>RET</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>myötöraja korkeimmassa käyttölämpötilassa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Rm</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>murtolujuus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Rm,max</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>enimmäismurtolujuus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Rp0,2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>0,2-rajan vähimmäisarvo</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Rp1,0</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>N/mm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1,0-rajan vähimmäisarvo</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Tmax</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>°C</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>korkein käyttölämpötila</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Tmin</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>°C</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>alin käyttölämpötila</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>V</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>l</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>painesäiliön tilavuus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis1:ValiotsikkoTeksti>2 RAKENNEAINEVAATIMUKSET</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Rakenneaineet on valittava painesäiliöiden käyttötarkoituksen ja kohtien 2.1-2.4 mukaisesti.</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>2.1. Paineen kuormittamat osat</sis1:ValiotsikkoTeksti>
@@ -430,7 +581,7 @@ l) valmistajan tai tämän edustajan nimi ja osoite;
       <sis:KappaleKooste>jos koesauvat on otettu kohtisuoraan valssaussuuntaan nähden:</sis:KappaleKooste>
       <sis:KappaleKooste>paksuus ≥ 3 mm: A ≥ 20 %</sis:KappaleKooste>
       <sis:KappaleKooste>paksuus &lt; 3 mm: A80 mm ≥ 15 %</sis:KappaleKooste>
-      <sis:KappaleKooste>- keskimääräisen iskuenergian (KCV) on kolmelle pituussuuntaiselle koesauvalle alimmassa käyttölämpötilassa oltava vähintään 35 J/cm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>. Vain yksi arvoista saa alittaa arvon 35 J/cm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>, eikä tämäkään arvoa 25 J/cm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>. Tämä ominaisuus on tarkistettava, jos painesäiliön alin käyttölämpötila on alle Ä10 °C ja seinämänpaksuus ylittää 5 mm.</sis:KappaleKooste>
+      <sis:KappaleKooste>- keskimääräisen iskuenergian (KCV) on kolmelle pituussuuntaiselle koesauvalle alimmassa käyttölämpötilassa oltava vähintään 35 J/cm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>. Vain yksi arvoista saa alittaa arvon 35 J/cm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>, eikä tämäkään arvoa 25 J/cm<sis1:YlaindeksiTeksti>2&gt;</sis1:YlaindeksiTeksti>. Tämä ominaisuus on tarkistettava, jos painesäiliön alin käyttölämpötila on alle -10 °C ja seinämänpaksuus ylittää 5 mm.</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>2.1.2. Alumiiniset painesäiliöt</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Seostamattoman alumiinin alumiinipitoisuuden on oltava vähintään 99,5 % ja alumiiniseoksilla on oltava riittävä kestävyys raerajakorroosiota vastaan korkeimmassa käyttölämpötilassa.</sis:KappaleKooste>
       <sis:KappaleKooste>Näiden rakenneaineiden on lisäksi täytettävä seuraavat vaatimukset:</sis:KappaleKooste>
@@ -451,7 +602,7 @@ l) valmistajan tai tämän edustajan nimi ja osoite;
       <sis:KappaleKooste>- alin käyttölämpötila Tmin;</sis:KappaleKooste>
       <sis:KappaleKooste>- korkein käyttölämpötila Tmax; sekä</sis:KappaleKooste>
       <sis:KappaleKooste>- suurin käyttöpaine PS.</sis:KappaleKooste>
-      <sis:KappaleKooste>Jos valitaan alimmaksi käyttölämpötilaksi yli Ä10 °C, on rakenneaineen vaadittujen ominaisuuksien kuitenkin täytyttävä lämpötilassa Ä10 °C.</sis:KappaleKooste>
+      <sis:KappaleKooste>Jos valitaan alimmaksi käyttölämpötilaksi yli -10 °C, on rakenneaineen vaadittujen ominaisuuksien kuitenkin täytyttävä lämpötilassa -10 °C.</sis:KappaleKooste>
       <sis:KappaleKooste>Valmistajan on otettava lisäksi huomioon seuraavaa:</sis:KappaleKooste>
       <sis:KappaleKooste>- painesäiliö on voitava tarkastaa sisäpuolelta;</sis:KappaleKooste>
       <sis:KappaleKooste>- painesäiliö on voitava tyhjentää nesteestä;</sis:KappaleKooste>

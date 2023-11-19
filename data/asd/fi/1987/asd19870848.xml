@@ -40,22 +40,24 @@
 
 </saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
-          <saa:MomenttiKooste>minkä lisäksi 380 markkaa jokaiselta alkavalta 10 000 kilolta, jolla suurin sallittu lentoonlähtömassa ylittää 30 000 kiloa</saa:MomenttiKooste>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>minkä lisäksi 380 markkaa jokaiselta alkavalta 10 000 kilolta, jolla suurin sallittu lentoonlähtömassa ylittää 30 000 kiloa</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
 2) 
 <tau:table><tau:tgroup cols="3" colsep="0" rowsep="0" align="left"><tau:colspec colnum="1" colname="1" colwidth=""/><tau:colspec colnum="2" colname="2" colwidth=""/><tau:tbody valign="top"><tau:row><tau:entry><sis:KappaleKooste>moottoripurjelentokoneesta </sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste>200 mk</sis:KappaleKooste></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 3)
 <tau:table><tau:tgroup cols="3" colsep="0" rowsep="0" align="left"><tau:colspec colnum="1" colname="1" colwidth=""/><tau:colspec colnum="2" colname="2" colwidth=""/><tau:tbody valign="top"><tau:row><tau:entry><sis:KappaleKooste>purjelentokoneesta </sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste>170 mk</sis:KappaleKooste></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 4) 
 <tau:table><tau:tgroup cols="3" colsep="0" rowsep="0" align="left"><tau:colspec colnum="1" colname="1" colwidth=""/><tau:colspec colnum="2" colname="2" colwidth=""/><tau:tbody valign="top"><tau:row><tau:entry><sis:KappaleKooste>muusta kuin edellä mainitusta ilma-aluksesta </sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste>150 mk</sis:KappaleKooste></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
           <saa:MomenttiKooste>Kausimaksua peritään 4§:ssä tarkoitettua ensikatsastusta seuraavilta maksukausilta.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
@@ -136,17 +138,100 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
           <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Kausimaksut katsastustoiminnasta peritään siltä, joka maksukuukauden 1 päivänä on ilma-alusrekisterissä merkitty ilma-aluksen omistajaksi tai haltijaksi. Maksukuukausi määräytyy ilma-aluksen rekisterinumeron viimeisen numeron mukaan seuraavasti:</saa:MomenttiKooste>
-          <te> numero  maksukuukausi</te>
-          <te> 1	      tammikuu</te>
-          <te> 2       helmikuu</te>
-          <te> 3       maaliskuu</te>
-          <te> 4       huhtikuu</te>
-          <te> 5       toukokuu</te>
-          <te> 6       kesäkuu</te>
-          <te> 7       heinäkuu</te>
-          <te> 8       elokuu</te>
-          <te> 9       syyskuu</te>
-          <te> 0       lokakuu</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>numero</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>maksukuukausi</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>tammikuu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>helmikuu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>maaliskuu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>huhtikuu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>toukokuu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>6</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>kesäkuu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>7</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>heinäkuu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>8</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>elokuu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>9</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>syyskuu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>0</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>lokakuu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Ansiolentotoimintaan käytettävien ilma-alusten osalta kausimaksut peritään kalenterivuosittain ja yksityislentotoimintaan käytettävien ilma-alusten osalta maksut peritään kerran kahdessa vuodessa jälkimmäisenä kalenterivuonna edellä mainittuina maksukuukausina. Ilma-alusrekisteriin merkittävän ilma-aluksen ensikatsastuksesta peritään maksu ensikatsastuksen yhteydessä. Tällöin ensikatsastusta seuraavan maksukauden maksua alennetaan siinä suhteessa, kuin ensikatsastuksesta alkanut katsastusjakso kattaa tätä maksukautta.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">

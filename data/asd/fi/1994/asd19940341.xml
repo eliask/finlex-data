@@ -25,43 +25,292 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Kauppasieneksi hyväksyttyjä ruokasieniä ovat:</saa:MomenttiKooste>
-          <te/>
-          <te>I 		                II</te>
-          <te>Herkkutatit 		<saa:SaadosKursiiviKooste>Boletus edulis, B. pinophilus</saa:SaadosKursiiviKooste> ja </te>
-          <te>
-            <saa:SaadosKursiiviKooste>B. reticulatus</saa:SaadosKursiiviKooste>
-          </te>
-          <te>Kangastatti 		<saa:SaadosKursiiviKooste>Suillus variegatus</saa:SaadosKursiiviKooste></te>
-          <te>Punikkitatit 		<saa:SaadosKursiiviKooste>Leccinum versipelle, L. aurantiacum</saa:SaadosKursiiviKooste> ja </te>
-          <te>
-            <saa:SaadosKursiiviKooste>L. vulpinum</saa:SaadosKursiiviKooste>
-          </te>
-          <te>Voitatti			<saa:SaadosKursiiviKooste>Suillus luteus</saa:SaadosKursiiviKooste></te>
-          <te>Haaparouskut 		<saa:SaadosKursiiviKooste>Lactarius trivialis</saa:SaadosKursiiviKooste> ja <saa:SaadosKursiiviKooste>L. utilis</saa:SaadosKursiiviKooste></te>
-          <te>Kangasrousku 		<saa:SaadosKursiiviKooste>Lactarius rufus</saa:SaadosKursiiviKooste></te>
-          <te>Karvarousku 		<saa:SaadosKursiiviKooste>Lactarius torminosus</saa:SaadosKursiiviKooste></te>
-          <te>Leppärouskut 		<saa:SaadosKursiiviKooste>Lactarius deliciosus</saa:SaadosKursiiviKooste> ja </te>
-          <te>
-            <saa:SaadosKursiiviKooste>L. deterrimus</saa:SaadosKursiiviKooste>
-          </te>
-          <te>Isohapero 		        <saa:SaadosKursiiviKooste>Russula paludosa</saa:SaadosKursiiviKooste></te>
-          <te>Kangashapero 		<saa:SaadosKursiiviKooste>Russula decolorans</saa:SaadosKursiiviKooste></te>
-          <te>Keltahapero 		<saa:SaadosKursiiviKooste>Russula claroflava</saa:SaadosKursiiviKooste></te>
-          <te>Viinihapero 		<saa:SaadosKursiiviKooste>Russula vinosa</saa:SaadosKursiiviKooste></te>
-          <te>Mustavahakas 		<saa:SaadosKursiiviKooste>Hygrophorus camarophyllus</saa:SaadosKursiiviKooste></te>
-          <te>Kehnäsieni 		<saa:SaadosKursiiviKooste>Rozites caperatus</saa:SaadosKursiiviKooste></te>
-          <te>Mesisienet 		<saa:SaadosKursiiviKooste>Armillaria mellea ryhmä</saa:SaadosKursiiviKooste></te>
-          <te>Keltavahvero l. kantarelli <saa:SaadosKursiiviKooste>Cantharellus cibarius</saa:SaadosKursiiviKooste></te>
-          <te>Suppilovahvero 		<saa:SaadosKursiiviKooste>Cantharellus tubaeformis,</saa:SaadosKursiiviKooste> mukana saa </te>
-          <te>                           olla kosteikkovahveroa <saa:SaadosKursiiviKooste>C. lutescens</saa:SaadosKursiiviKooste></te>
-          <te>Mustatorvisieni 		<saa:SaadosKursiiviKooste>Craterellus cornucopioides</saa:SaadosKursiiviKooste></te>
-          <te>Lampaankääpä 		<saa:SaadosKursiiviKooste>Albatrellus ovinus</saa:SaadosKursiiviKooste></te>
-          <te>Vaaleaorakas 		<saa:SaadosKursiiviKooste>Hydnum repandum,</saa:SaadosKursiiviKooste> mukana saa olla </te>
-          <te>                           rusko-orakasta <saa:SaadosKursiiviKooste>H. rufescens</saa:SaadosKursiiviKooste></te>
-          <te>Korvasieni 		<saa:SaadosKursiiviKooste>Gyromitra esculenta</saa:SaadosKursiiviKooste></te>
-          <te>Huhtasienet 		<saa:SaadosKursiiviKooste>Morchella spp.</saa:SaadosKursiiviKooste></te>
-          <te>Viljellyt ruokasienet  		Ä</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>I</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>II</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Herkkutatit</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>Boletus edulis, B. pinophilus</sis1:KursiiviTeksti> ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>B. reticulatus</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kangastatti</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Suillus variegatus</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Punikkitatit</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>Leccinum versipelle, L. aurantiacum</sis1:KursiiviTeksti> ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>L. vulpinum</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Voitatti</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Suillus luteus</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Haaparouskut</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>Lactarius trivialis</sis1:KursiiviTeksti> ja <sis1:KursiiviTeksti>L. utilis</sis1:KursiiviTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kangasrousku</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Lactarius rufus</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Karvarousku</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Lactarius torminosus</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Leppärouskut</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>Lactarius deliciosus</sis1:KursiiviTeksti> ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>L. deterrimus</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Isohapero</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Russula paludosa</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kangashapero</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Russula decolorans</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Keltahapero</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Russula claroflava</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Viinihapero</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Russula vinosa</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Mustavahakas</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Hygrophorus camarophyllus</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kehnäsieni</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Rozites caperatus</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Mesisienet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Armillaria mellea ryhmä</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Keltavahvero l. kantarelli</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Cantharellus cibarius</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Suppilovahvero</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>Cantharellus tubaeformis,</sis1:KursiiviTeksti> mukana saa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>olla kosteikkovahveroa <sis1:KursiiviTeksti>C. lutescens</sis1:KursiiviTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Mustatorvisieni</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Craterellus cornucopioides</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Lampaankääpä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Albatrellus ovinus</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Vaaleaorakas</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>Hydnum repandum,</sis1:KursiiviTeksti> mukana saa olla</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>rusko-orakasta <sis1:KursiiviTeksti>H. rufescens</sis1:KursiiviTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Korvasieni</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Gyromitra esculenta</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Huhtasienet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Morchella spp.</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Viljellyt ruokasienet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:SaadosValiotsikkoKooste>Ruokasienten sekoittaminen</saa:SaadosValiotsikkoKooste>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">

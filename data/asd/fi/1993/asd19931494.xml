@@ -83,35 +83,208 @@
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
       <sis1:ValiotsikkoTeksti>MAKSUTAULUKKO</sis1:ValiotsikkoTeksti>
-      <te>Suorite 									Perusmaksu</te>
-      <te> 1.Vientilupa 								1 500,Ä</te>
-      <te> 2.Tuontilupa 								1 500,Ä</te>
-      <te>  Ydinaineiden tuonnista perittävät lisämaksut:</te>
-      <te>  2.1.  Rikastettu uraani ja plutonium 3,75 mk/kg (U tai Pu)</te>
-      <te>  2.2.  Luonnonuraani, köyhdytetty uraani ja torium 0,375 mk/kg (U tai Th)</te>
-      <te> 3.Kuljetuslupa 								1 500,Ä</te>
-      <te> 4.Lupa tietoaineiston hallussapitoon 					1 500,Ä</te>
-      <te> 5.Lupa tietoaineiston luovutukseen 					1 500,Ä</te>
-      <te> 6.Lupa yksityisoikeudellisen sopimuksen tekemiseen ja toteuttamiseen 	1 500,Ä</te>
-      <te> 7.Lupa kulkuvälineessä olevan ydinlaitoksen tilapäiseen käyttöön Suomen </te>
-      <te>   alueella 								7 000,Ä</te>
-      <te> 8.Lupahakemuksen käsitteleminen taikka tutkimatta jättäminen 		1 000,Ä</te>
-      <te> 9.Ennakkotieto 								1 000,Ä</te>
-      <te>10.Ydinjätehuolto</te>
-      <te>  10.1. Ydinjätehuollon vuotuinen valvontamaksu</te>
-      <te>  10.1.1. Jätehuoltovelvolliset, joiden huolehtimisvelvollisuus käsittää </te>
-      <te>          yleiseltä merkitykseltään huomattavan </te>
-      <te>          ydinlaitoksen käytöstä poistamisen 				25 000,Ä</te>
-      <te>  10.1.2. Muut jätehuoltovelvolliset 					7 000,Ä</te>
-      <te>  10.2. Päätös huolehtimisvelvollisuuden siirtämisestä 			36 000,Ä</te>
-      <te>  10.3. Päätös huolehtimisvelvollisuuden lakkaamisesta 			36 000,Ä</te>
-      <te>  10.4. Päätös pakollisesta jätehuoltoyhteistyöstä 			50 000,Ä</te>
-      <te>11.Varautuminen ydinjätehuollon kustannuksiin</te>
-      <te>  11.1. Varautumisvelvollisuuden vuotuinen valvontamaksu</te>
-      <te>  11.1.1. Jätehuoltovelvolliset, joiden huolehtimisvelvollisuus </te>
-      <te>           käsittää yleiseltä merkitykseltään huomattavan </te>
-      <te>           ydinlaitoksen käytöstä poistamisen 				32 000,Ä</te>
-      <te>  11.1.2. Muut jätehuoltovelvolliset 					7 000,Ä</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Suorite</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Perusmaksu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>1. Vientilupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 500,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>2. Tuontilupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 500,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Ydinaineiden tuonnista perittävät lisämaksut:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">2.1. Rikastettu uraani ja plutonium 3,75 mk/kg (U tai Pu)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">2.2. Luonnonuraani, köyhdytetty uraani ja torium 0,375 mk/kg (U tai Th)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>3. Kuljetuslupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 500,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>4. Lupa tietoaineiston hallussapitoon</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 500,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>5. Lupa tietoaineiston luovutukseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 500,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>6. Lupa yksityisoikeudellisen sopimuksen tekemiseen ja toteuttamiseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 500,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">7. Lupa kulkuvälineessä olevan ydinlaitoksen tilapäiseen käyttöön Suomen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>alueella</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>7 000,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>8. Lupahakemuksen käsitteleminen taikka tutkimatta jättäminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 000,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>9. Ennakkotieto</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 000,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">10. Ydinjätehuolto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">10.1. Ydinjätehuollon vuotuinen valvontamaksu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">10.1.1. Jätehuoltovelvolliset, joiden huolehtimisvelvollisuus käsittää</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">yleiseltä merkitykseltään huomattavan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>ydinlaitoksen käytöstä poistamisen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>25 000,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>10.1.2. Muut jätehuoltovelvolliset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>7 000,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>10.2. Päätös huolehtimisvelvollisuuden siirtämisestä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>36 000,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>10.3. Päätös huolehtimisvelvollisuuden lakkaamisesta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>36 000,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>10.4. Päätös pakollisesta jätehuoltoyhteistyöstä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>50 000,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">11.Varautuminen ydinjätehuollon kustannuksiin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">11.1. Varautumisvelvollisuuden vuotuinen valvontamaksu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">11.1.1. Jätehuoltovelvolliset, joiden huolehtimisvelvollisuus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">käsittää yleiseltä merkitykseltään huomattavan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>ydinlaitoksen käytöstä poistamisen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>32 000,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>11.1.2. Muut jätehuoltovelvolliset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>7 000,-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

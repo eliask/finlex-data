@@ -165,17 +165,89 @@ Alastaro, Anjalankoski, Artjärvi, Asikkala, Askainen, Askola, Aura, Elimäki, E
             <saa:SaadosOtsikkoKooste>Aloittamisavustuksen määrä </saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Aloittamisavustuksen määrä on enintään 75 000 markkaa.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Aloittamisavustuksen määrä riippuu hankitusta maatilasta tai sen osasta sovitun vastikkeen ja kyseisen omaisuuden perintökaaren 25 luvun 2§:n mukaisen arvon keskinäisestä suhteesta seuraavasti:</saa:MomenttiKooste>
-            <te/>
-            <te> vastike/         aloittamisavustus enintään</te>
-            <te> PK 25:2 arvo</te>
-            <te>     -0,45        50 000 mk</te>
-            <te> 0,45-0,70        suhdeluvun alarajalla 50 000 </te>
-            <te>                  mk, mistä tuki nousee tasaisesti </te>
-            <te>                  ylärajalle 75 000 mk:aan</te>
-            <te> 0,70-1,00        75 000 mk</te>
-            <te> 1,00-1,75        suhdeluvun alarajalla 75 000 </te>
-            <te>                  mk, mistä tuki alenee tasaisesti </te>
-            <te>                  ylärajalle 25 000 mk:aan</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">vastike/</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">aloittamisavustus enintään</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>PK 25:2 arvo</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">-0,45</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">50 000 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">0,45-0,70</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">suhdeluvun alarajalla 50 000</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">mk, mistä tuki nousee tasaisesti</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">ylärajalle 75 000 mk:aan</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">0,70-1,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">75 000 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">1,00-1,75</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">suhdeluvun alarajalla 75 000</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">mk, mistä tuki alenee tasaisesti</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">ylärajalle 25 000 mk:aan</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Edellä 2 momentissa tarkoitettua vastiketta laskettaessa otetaan huomioon maatilasta tai sen osasta maatalousirtaimistoineen rahana maksettava kauppahinta sekä poismaksettavat ja siirtyvät velat. Perintökaaren 25 luvun 2§:n mukaista arvoa määriteltäessä irtaimiston arvo lasketaan elottoman maatalousirtaimiston osalta verotuksessa luovutusajankohtana poistamattoman ja elollisen irtaimiston osalta käyvän arvon mukaan.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Mikäli 2 momentissa tarkoitettu suhdeluku on suurempi kuin 1,75, voidaan aloittamisavustusta myöntää vain, jos hakija ei ole hankkinut maatilaansa vanhemmiltaan tai toiselta heistä taikka heistä toisen kuoleman jälkeen suoritetun perinnönjaon tai osituksen yhteydessä. Aloittamisavustuksen määrä on tällöin enintään 25 000 markkaa. Aloittamisavustusta ei kuitenkaan makseta, jos suhdeluku on suurempi kuin 3,00. Aloittamisavustus myönnetään täysinä tuhansina markkoina.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -227,12 +299,49 @@ Alastaro, Anjalankoski, Artjärvi, Asikkala, Askainen, Askola, Aura, Elimäki, E
             <saa:PykalaTunnusKooste>20§</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Investointilainan enimmäismäärät </saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Investointilainaa voidaan myöntää 6§:ssä tarkoitetuilla vyöhykkeillä asianomaisen käyttö- tai vaihto-omaisuuden hyväksyttävistä hankintakustannuksista enintään seuraavasti:</saa:MomenttiKooste>
-            <te/>
-            <te>vyöhyke</te>
-            <te>ensimmäinen                   80 %</te>
-            <te>toinen                        70 %</te>
-            <te>kolmas                        65 %</te>
-            <te>neljäs                        60 %</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>vyöhyke</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">ensimmäinen</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">80 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">toinen</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">70 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">kolmas</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">65 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">neljäs</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">60 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Aluepolitiikasta annetun lain 11§:ssä tarkoitetuilla erityisalueilla, jotka sijaitsevat tämän asetuksen 6§:n mukaisella toisella, kolmannella ja neljännellä vyöhykkeellä, voidaan edellä 1 momentissa säädetyt enimmäismäärät ylittää enintään viidellä prosenttiyksiköllä.</saa:MomenttiKooste>
           </saa:Pykala>
         </saa:Luku>
@@ -251,31 +360,157 @@ Alastaro, Anjalankoski, Artjärvi, Asikkala, Askainen, Askola, Aura, Elimäki, E
             <saa:PykalaTunnusKooste>22§</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Investointiavustuksen määrä </saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Investointiavustusta maaseudun pienyritystoimintaan voidaan myöntää 6§:ssä tarkoitetuilla vyöhykkeillä hyväksyttävistä hankintakustannuksista enintään seuraavasti:</saa:MomenttiKooste>
-            <te/>
-            <te>vyöhyke</te>
-            <te>ensimmäinen                    50 %</te>
-            <te>toinen                         45 %</te>
-            <te>kolmas                         35 %</te>
-            <te>neljäs                         30 %</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>vyöhyke</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">ensimmäinen</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">50 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">toinen</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">45 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">kolmas</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">35 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">neljäs</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">30 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Aluepolitiikasta annetun lain 11§:ssä tarkoitetuilla erityisalueilla voidaan 1 momentissa säädetyt enimmäismäärät ylittää enintään viidellä prosenttiyksiköllä.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="23§">
             <saa:PykalaTunnusKooste>23§</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Käynnistysavustus </saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Käynnistysavustusta voidaan myöntää maaseudun pienyritystoiminnasta aiheutuviin kustannuksiin yhdeltä, kahdelta tai kolmelta tuotantotoiminnan tai laajennetun tuotantotoiminnan aloittamista seuraavalta käynnistysvuodelta. Käynnistysavustuksen määrä hyväksyttävistä palkkakustannuksista voi 6§:n mukaisilla vyöhykkeillä olla enintään seuraava:</saa:MomenttiKooste>
-            <te/>
-            <te>vyöhyke</te>
-            <te>ensimmäinen vyöhyke</te>
-            <te>1.käynnistysvuosi              50 %</te>
-            <te>2.käynnistysvuosi              45 %</te>
-            <te>3.käynnistysvuosi              40 %</te>
-            <te>toinen vyöhyke</te>
-            <te>1.käynnistysvuosi              35 %</te>
-            <te>2.käynnistysvuosi              30 %</te>
-            <te>3.käynnistysvuosi              25 %</te>
-            <te>kolmas ja neljäs vyöhyke</te>
-            <te>1.käynnistysvuosi              30 %</te>
-            <te>2.käynnistysvuosi              25 %</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>vyöhyke</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>ensimmäinen vyöhyke</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">1.käynnistysvuosi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">50 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">2.käynnistysvuosi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">45 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">3.käynnistysvuosi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">40 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>toinen vyöhyke</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">1.käynnistysvuosi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">35 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">2.käynnistysvuosi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">30 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">3.käynnistysvuosi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">25 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>kolmas ja neljäs vyöhyke</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">1.käynnistysvuosi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">30 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">2.käynnistysvuosi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">25 %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Aluepolitiikasta annetun lain 11§:ssä tarkoitetuilla erityisalueilla voidaan 1 momentissa säädetyt enimmäismäärät ylittää enintään viidellä prosenttiyksiköllä.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="24§">
@@ -461,17 +696,60 @@ Alastaro, Anjalankoski, Artjärvi, Asikkala, Askainen, Askola, Aura, Elimäki, E
             <saa:PykalaTunnusKooste>45§</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Laina-aika </saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Valtionlainojen laina-aika porrastetaan investointikohteesta riippuen seuraavasti:</saa:MomenttiKooste>
-            <te/>
-            <te> 1) maatilan hankinta           10-25vuotta </te>
-            <te> 2) maatilan osan ja lisäalueen </te>
-            <te>    hankinta                    5-25vuotta </te>
-            <te> 3) kotieläintuotantorakennus   5-25vuotta </te>
-            <te> 4) muu maatilan investointi, </te>
-            <te>    yhteismetsän osakaskunnan </te>
-            <te>    lisämaan ja osuuden osto </te>
-            <te>    sekä pienyritystoiminta     5-15vuotta </te>
-            <te> 5) asuntolainoitus             10-25vuotta </te>
-            <te> 6) asuntotilan hankinta        5-15vuotta </te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">1) maatilan hankinta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">10-25vuotta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">2) maatilan osan ja lisäalueen hankinta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">5-25vuotta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">3) kotieläintuotantorakennus</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">5-25vuotta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">4) muu maatilan investointi, yhteismetsän osakaskunnan lisämaan ja osuuden osto sekä pienyritystoiminta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">5-15vuotta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">5) asuntolainoitus</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">10-25vuotta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">6) asuntotilan hankinta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">5-15vuotta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Edellä 1 momentin 1-3 kohdassa tarkoitetuissa tapauksissa valtionlainan laina-aika on 6§:n mukaisella ensimmäisellä vyöhykkeellä kuitenkin vähintään 12 vuotta.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Korkotukilainan laina-aika sovitaan luottolaitoksen ja lainansaajan kesken.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Vuokra-alueelle rakennettaessa laina on maksettava takaisin jäljellä olevan vuokra-ajan kuluessa.</saa:MomenttiKooste>
@@ -692,17 +970,89 @@ Alastaro, Anjalankoski, Artjärvi, Asikkala, Askainen, Askola, Aura, Elimäki, E
           <saa:SaadosOtsikkoKooste>Voimaantulo </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Tämä asetus tulee voimaan 18 päivänä helmikuuta 1991.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Aloittamisavustuksen enimmäismäärä on 14§:n 1 ja 2 momentissa säädetystä poiketen vuonna 1991 kuitenkin enintään 62 500 markkaa ja se myönnetään täysinä viisinäsatoina markkoina. Aloittamisavustusta saadaan vuonna 1991 myöntää seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te> vastike/            aloittamisavustus enintään</te>
-          <te> PK 25:2 arvo</te>
-          <te>     -0,45           50 000 mk</te>
-          <te> 0,45-0,70           suhdeluvun alarajalla 50 000 </te>
-          <te>                     mk, mistä tuki nousee tasaisesti </te>
-          <te>                     ylärajalle 62 500 mk:aan</te>
-          <te> 0,70-1,00           62 500 mk</te>
-          <te> 1,00-1,75           suhdeluvun alarajalla 62 500 </te>
-          <te>                     mk, mistä tuki alenee tasaisesti </te>
-          <te>                     ylärajalle 25 000 mk:aan.</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vastike/</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aloittamisavustus enintään</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>PK 25:2 arvo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">-0,45</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">50 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">0,45-0,70</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">suhdeluvun alarajalla 50 000</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">mk, mistä tuki nousee tasaisesti</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">ylärajalle 62 500 mk:aan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">0,70-1,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">62 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1,00-1,75</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">suhdeluvun alarajalla 62 500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">mk, mistä tuki alenee tasaisesti</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">ylärajalle 25 000 mk:aan.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
       </saa:Pykalisto>
     </saa:Saados>

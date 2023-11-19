@@ -66,13 +66,68 @@
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Menot</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Ruokakunnan tuloista vähennetään perusmenoina seuraavat ruokakunnan henkilöluvun mukaiset markkamäärät:</saa:MomenttiKooste>
-          <te>Henkilöluku     mk/kk</te>
-          <te>1               2 700</te>
-          <te>2               4 400</te>
-          <te>3               5 900</te>
-          <te>4               7 200</te>
-          <te>5               8 500</te>
-          <te>6               9 600</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Henkilöluku</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">mk/kk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2 700</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">4 400</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5 900</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">4</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">7 200</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">8 500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">6</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">9 600</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Yli kuuden hengen ruokakunnissa lisätään kutakin seuraavaa henkilöä kohden markkamäärään 1 000 markkaa. Todistettu raskaus otetaan huomioon ruokakunnan henkilöluvussa.</saa:MomenttiKooste>
           <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Ruokakunnan tuloista vähennetään muina kuukausittaisina menoina:</saa:MomenttiJohdantoKooste>
@@ -91,13 +146,53 @@
           <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Korkotukilainan suuruus</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Jos korkotuen tarve on pienempi kuin koko asuntolainalle maksettava tuki, lasketaan korkotukilainan määrä seuraavan kaavan mukaisesti:</saa:MomenttiKooste>
-          <te>R/100 x K-12 x I</te>
-          <te>----------------</te>
-          <te>   5/100</te>
-          <te>jossa R = asuntolainan vuotuinen korkoprosentti</te>
-          <te>          ennen korkotukea</te>
-          <te>      K = jäljellä oleva asuntolainan kokonaispääoma</te>
-          <te>      I = jäännöstulot.</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="0" rowsep="0">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>R/100 x K-12 x I</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>----------------</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>5/100</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>jossa R = asuntolainan vuotuinen korkoprosentti</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste> ennen korkotukea</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">K = jäljellä oleva asuntolainan kokonaispääoma</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">I = jäännöstulot.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Jos lainalle maksetaan korkohyvitystä oman asunnon hankintaan myönnettävien lainojen korkotuesta annetun lain (639/82) nojalla, asuntolainan korkona otetaan huomioon velallisen maksettavaksi jäävä osuus korosta. Samoin menetellään, jos korkohyvitystä maksetaan lainalle muista kuin valtion varoista.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Korkohyvitystä maksetaan enintään 900 000 markan suuruiselle lainalle tai lainan osuudelle. Korkohyvitystä ei makseta, jos korkotukilainan määrä on vähemmän kuin 150 000 markkaa. Milloin lainoja on useita, enimmäis- ja vähimmäissuuruus koskee lainojen yhteismäärää.</saa:MomenttiKooste>
         </saa:Pykala>

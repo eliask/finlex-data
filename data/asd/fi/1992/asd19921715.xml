@@ -150,11 +150,50 @@ c) jarrujen suoritusarvoja koskevan 7 luvun määräyksiä ehdolla, että peräv
 </saa:MomenttiKohtaKooste>
             </saa:KohdatMomentti>
             <saa:MomenttiKooste>2. Perävaunun laskennallisen jarrutusvoiman (B) tulee olla perävaunulle sallittavaan nopeuteen (V) verrattuna vähintään seuraavan taulukon mukainen:</saa:MomenttiKooste>
-            <te/>
-            <te>V (km/h)                                25    40    60</te>
-            <te>B (% perävaunun massaan kohdistuvasta</te>
-            <te>painovoimasta)                          26    32    40</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="4" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">V (km/h)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">25</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">40</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">60</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="4">
+                      <sis:KappaleKooste>B (% perävaunun massaan kohdistuvasta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">painovoimasta)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">26</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">32</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">40</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="4">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>3. Perävaunun seisontajarrun tulee täyttää 1 momentissa tarkoitetun päätöksen 78 §:n 1 momentin vaatimus.</saa:MomenttiKooste>
             <saa:MomenttiKooste>4. Perävaunun jarrujärjestelmästä mitattu jarrujen kytkentäviive saa olla enintään 0,8 sekuntia ja vapautusviive enintään 1,1 sekuntia.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -383,23 +422,107 @@ b) kahdeksalla renkaalla varustettuun akseliin kohdistuva massa on suurempi kuin
             <saa:PykalaTunnusKooste>29 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Erikoiskuljetuksessa sallitut mitat</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>1. Tämän päätöksen 2-4 §:ssä tarkoitetussa kuljetuksessa saavat kuljetuksen enimmäismitat olla seuraavat:</saa:MomenttiKooste>
-            <te/>
-            <te>a) kuljetuksen suurin korkeus maasta</te>
-            <te>   mitattuna                                  4,4 m</te>
-            <te>b) kuljetuksen enimmäisleveys muussa kuin</te>
-            <te>   konttikuljetuksessa                        4,0 m</te>
-            <te>c) kuorma-auton ja puoliperävaunun tai</te>
-            <te>   hinattavan laitteen yhdistelmän</te>
-            <te>   enimmäispituus muussa kuin</te>
-            <te>   konttikuljetuksessa                         30 m</te>
-            <te>d) kuorma-auton ja erikoiskuljetukseen</te>
-            <te>   hyväksytyn varsinaisen perävaunun</te>
-            <te>   yhdistelmän enimmäispituus                  27 m</te>
-            <te>e) enimmäispituus kuljetettaessa henkilö-</te>
-            <te>   tai pakettiauton perävaunulla purje-</te>
-            <te>   konetta, purjevenettä mastoineen tai</te>
-            <te>   muuta venettä                               20 m</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) kuljetuksen suurin korkeus maasta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">mitattuna</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">4,4 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>b) kuljetuksen enimmäisleveys muussa kuin</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">konttikuljetuksessa</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">4,0 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>c) kuorma-auton ja puoliperävaunun tai</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>hinattavan laitteen yhdistelmän</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>enimmäispituus muussa kuin</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">konttikuljetuksessa</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">30 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>d) kuorma-auton ja erikoiskuljetukseen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>hyväksytyn varsinaisen perävaunun</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">yhdistelmän enimmäispituus</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">27 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>e) enimmäispituus kuljetettaessa henkilö-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>tai pakettiauton perävaunulla purje-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>konetta, purjevenettä mastoineen tai</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">muuta venettä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">20 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>2. Kuljetettaessa traktorin perävaunulla venettä tai maatalouskonetta saavat kuljetuksen korkeus ja leveys olla enintään 1 momentin a ja b kohdissa määrätyn suuruiset sekä yhdistelmän pituus enintään 1 momentin e kohdassa määrätyn suuruinen. Pylväitä traktorin perävaunulla kuljetettaessa saa vain kuljetuksen pituus olla edellä sanotun suuruinen.</saa:MomenttiKooste>
             <saa:MomenttiKooste>3. Kuljetettaessa kuormaamatonta traktoria, moottorityökonetta, konetta tai laitetta 4 §:n 1 momentin c kohdassa tarkoitetulla kuorma-autolla, saa kuljetuksen korkeus olla enintään 4,4 metriä, leveys enintään 3,2 metriä ja pituus enintään 16 metriä.</saa:MomenttiKooste>
             <saa:MomenttiKooste>4. Kuljetettaessa moottorityökonetta sen omalla voimanlähteellä ja kuljetettaessa muissa kuin tämän pykälän 3 momentissa tarkoitetuissa tapauksissa kuorma-autolla jakamatonta esinettä saa kuljetuksen korkeus ja leveys olla enintään 1 momentin a ja b kohdassa määrätyn suuruinen ja pituus enintään 14 metriä.</saa:MomenttiKooste>

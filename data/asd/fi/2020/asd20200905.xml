@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>ympäristönsuojelulain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 59/2020</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>YmVM 8/2020</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>EV 124/2020</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -98,6 +87,19 @@ Lupa-asian ja ilmoituksen käsittely on kokonaisuudessaan järjestettävä siten
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20200059.he">
+        <sis1:ViiteTeksti>HE 59/2020</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20200008.ymvm">
+        <sis1:ViiteTeksti>YmVM 8/2020</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>EV 124/2020</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 27 päivänä marraskuuta 2020</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -347,7 +349,7 @@ Lupa-asian ja ilmoituksen käsittely on kokonaisuudessaan järjestettävä siten
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>a) Epäorgaanisten kemikaalien valmistus, kuten:– kaasut, kuten ammoniakki, kloori tai kloorivety, fluori tai fluorivety, hiilen oksidit, rikkiyhdisteet, typen oksidit, vety, rikkidioksidi, karbonyylikloridi– hapot, kuten kromihappo, fluorivetyhappo, fosforihappo, typpihappo, kloorivetyhappo, rikkihappo, oleum, rikkihapokkeet– emäkset, kuten ammoniumhydroksidi, kaliumhydroksidi, natriumhydroksidi– suolat, kuten ammoniumkloridi, kaliumkloraatti, kaliumkarbonaatti, natriumkarbonaatti, perboraatti, hopeanitraatti– epämetallit, metallioksidit tai muut epäorgaaniset yhdisteet, kuten kalsiumkarbidi, pii, piikarbidi</sis:KappaleKooste>
+                <sis:KappaleKooste>a) Epäorgaanisten kemikaalien valmistus, kuten: – kaasut, kuten ammoniakki, kloori tai kloorivety, fluori tai fluorivety, hiilen oksidit, rikkiyhdisteet, typen oksidit, vety, rikkidioksidi, karbonyylikloridi– hapot, kuten kromihappo, fluorivetyhappo, fosforihappo, typpihappo, kloorivetyhappo, rikkihappo, oleum, rikkihapokkeet– emäkset, kuten ammoniumhydroksidi, kaliumhydroksidi, natriumhydroksidi– suolat, kuten ammoniumkloridi, kaliumkloraatti, kaliumkarbonaatti, natriumkarbonaatti, perboraatti, hopeanitraatti– epämetallit, metallioksidit tai muut epäorgaaniset yhdisteet, kuten kalsiumkarbidi, pii, piikarbidi</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -358,7 +360,7 @@ Lupa-asian ja ilmoituksen käsittely on kokonaisuudessaan järjestettävä siten
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>b) Orgaanisten kemikaalien valmistus, kuten:– yksinkertaiset hiilivedyt (suoraketjuiset tai rengasrakenteiset, tyydyttyneet tai tyydyttämättömät, alifaattiset tai aromaattiset)– happea sisältävät hiilivedyt, erityisesti alkoholit, aldehydit, ketonit, karboksyylihapot, esterit ja esterien seokset, asetaatit, eetterit, peroksidit ja epoksihartsit– rikin hiilivedyt– typen hiilivedyt, erityisesti amiinit, amidit, typpipitoiset yhdisteet tai nitraatit, nitriilit, syanaatit, isosyanaatit– fosforia sisältävät hiilivedyt– halogenoidut hiilivedyt– organometalliyhdisteet– muovit (polymeerit, synteettiset kuidut, selluloosapohjaiset kuidut)– synteettiset kumit– väriaineet ja pigmentit– pinta-aktiiviset aineet</sis:KappaleKooste>
+                <sis:KappaleKooste>b) Orgaanisten kemikaalien valmistus, kuten: – yksinkertaiset hiilivedyt (suoraketjuiset tai rengasrakenteiset, tyydyttyneet tai tyydyttämättömät, alifaattiset tai aromaattiset)– happea sisältävät hiilivedyt, erityisesti alkoholit, aldehydit, ketonit, karboksyylihapot, esterit ja esterien seokset, asetaatit, eetterit, peroksidit ja epoksihartsit– rikin hiilivedyt– typen hiilivedyt, erityisesti amiinit, amidit, typpipitoiset yhdisteet tai nitraatit, nitriilit, syanaatit, isosyanaatit– fosforia sisältävät hiilivedyt– halogenoidut hiilivedyt– organometalliyhdisteet– muovit (polymeerit, synteettiset kuidut, selluloosapohjaiset kuidut)– synteettiset kumit– väriaineet ja pigmentit– pinta-aktiiviset aineet</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -584,7 +586,7 @@ Lupa-asian ja ilmoituksen käsittely on kokonaisuudessaan järjestettävä siten
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>a1) Pintojen puhdistus orgaanisilla liuottimilla, jotka sisältävät vaaralausekkeella H340, H341, H350, H350i, H351, H360D tai H360F merkittyjä aineita ja seoksia, kun liuottimien kulutus on yli 1 tonni vuodessa, mutta enintään 200 tonnia vuodessaa2) Toiminnat, joissa orgaanisten liuottimien kulutus on yli 50 tonnia vuodessa, mutta enintään 200 tonnia vuodessa:– muu kuin kohdassa a1 tarkoitettu pintojen puhdistus– ajoneuvojen alkuperäinen maalaus sekä tuotantolaitoksessa että sen ulkopuolella– metallin, muovin, tekstiilien, folion ja paperin pinnoitus tai maalaus– puupintojen maalaus– nahan viimeistely– lankalakkaus– jalkineiden valmistus– puun ja muovin laminointi– liimaus– seuraavat painatustoiminnat: heatset-rainaoffset-painatus, julkaisusyväpainot, muu syväpaino, fleksopaino, rotaatioseripaino mukaan lukien tekstiilien ja kartongin rotaatioseripaino, laminointi- ja lakkausyksiköt– kumin jalostusa3) Toiminnat, joissa orgaanisten liuottimien kulutus on yli 25 tonnia vuodessa, mutta enintään 200 tonnia vuodessa– jatkuvatoiminen nauhapinnoitus– puun kyllästäminen</sis:KappaleKooste>
+                <sis:KappaleKooste>a1) Pintojen puhdistus orgaanisilla liuottimilla, jotka sisältävät vaaralausekkeella H340, H341, H350, H350i, H351, H360D tai H360F merkittyjä aineita ja seoksia, kun liuottimien kulutus on yli 1 tonni vuodessa, mutta enintään 200 tonnia vuodessaa2) Toiminnat, joissa orgaanisten liuottimien kulutus on yli 50 tonnia vuodessa, mutta enintään 200 tonnia vuodessa: – muu kuin kohdassa a1 tarkoitettu pintojen puhdistus– ajoneuvojen alkuperäinen maalaus sekä tuotantolaitoksessa että sen ulkopuolella– metallin, muovin, tekstiilien, folion ja paperin pinnoitus tai maalaus– puupintojen maalaus– nahan viimeistely– lankalakkaus– jalkineiden valmistus– puun ja muovin laminointi– liimaus– seuraavat painatustoiminnat: heatset-rainaoffset-painatus, julkaisusyväpainot, muu syväpaino, fleksopaino, rotaatioseripaino mukaan lukien tekstiilien ja kartongin rotaatioseripaino, laminointi- ja lakkausyksiköt– kumin jalostusa3) Toiminnat, joissa orgaanisten liuottimien kulutus on yli 25 tonnia vuodessa, mutta enintään 200 tonnia vuodessa– jatkuvatoiminen nauhapinnoitus– puun kyllästäminen</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -595,7 +597,7 @@ Lupa-asian ja ilmoituksen käsittely on kokonaisuudessaan järjestettävä siten
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>b) Toiminnat, joissa orgaanisten liuottimien kulutus on yli 50 tonnia vuodessa:– kylmäoffset- painatustoiminta– kasviöljyjen sekä eläinrasvojen uutto ja kasviöljyjen jalostustoiminnat– maalien, lakkojen, liimojen ja painovärien valmistus– lääketeollisuus</sis:KappaleKooste>
+                <sis:KappaleKooste>b) Toiminnat, joissa orgaanisten liuottimien kulutus on yli 50 tonnia vuodessa: – kylmäoffset- painatustoiminta– kasviöljyjen sekä eläinrasvojen uutto ja kasviöljyjen jalostustoiminnat– maalien, lakkojen, liimojen ja painovärien valmistus– lääketeollisuus</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -875,13 +877,13 @@ Lupa-asian ja ilmoituksen käsittely on kokonaisuudessaan järjestettävä siten
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Elintarvikkeiden tai rehujen tuotantoon tarkoitettujen seuraavien raaka-aineiden käsittely ja jalostus, riippumatta siitä, onko niitä aikaisemmin jalostettu vai ei, pelkkää pakkaamista lukuun ottamatta:d) Eläin- ja kasviperäiset raaka-aineet sekä yhdistettyinä että erillisinä tuotteina valmiiden tuotteiden tuotantokapasiteetin ylittäessä vuorokaudessa:75 tonnia, jos A yhtä suuri tai suurempi kuin 10 tai300 - (22,5 A), jos A on pienempi kuin 10joissa "A" on valmiiden tuotteiden tuotantokapasiteetin eläinperäisen raaka-aineen osuus painoprosentteina.Pakkauksen painoa ei saa sisällyttää tuotteen lopulliseen painoon. Tätä kohtaa ei sovelleta tapauksiin, joissa ainoa raaka-aine on maito.Kohtaan liittyvä kuva on taulukon jälkeen<sis1:YlaindeksiTeksti>1</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                <sis:KappaleKooste>Elintarvikkeiden tai rehujen tuotantoon tarkoitettujen seuraavien raaka-aineiden käsittely ja jalostus, riippumatta siitä, onko niitä aikaisemmin jalostettu vai ei, pelkkää pakkaamista lukuun ottamatta:d) Eläin- ja kasviperäiset raaka-aineet sekä yhdistettyinä että erillisinä tuotteina valmiiden tuotteiden tuotantokapasiteetin ylittäessä vuorokaudessa:75 tonnia, jos A yhtä suuri tai suurempi kuin 10 tai 300 - (22,5 A), jos A on pienempi kuin 10 joissa "A" on valmiiden tuotteiden tuotantokapasiteetin eläinperäisen raaka-aineen osuus painoprosentteina.Pakkauksen painoa ei saa sisällyttää tuotteen lopulliseen painoon. Tätä kohtaa ei sovelleta tapauksiin, joissa ainoa raaka-aine on maito.Kohtaan liittyvä kuva on taulukon jälkeen<sis1:YlaindeksiTeksti>1</sis1:YlaindeksiTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>d1) Margariinia tai muita kasvi- ja eläinperäisiä rasvoja tai öljyjä valmistava laitos, jonka valmiiden tuotteiden tuotantokapasiteetti on vähintään 15, mutta enintään 75 tonnia vuorokaudessa, jos valmiiden tuotteiden tuotantokapasiteetin eläinperäisen raaka-aineen osuus on vähintään 10 painoprosenttia; muuten enintään 300 - (22,5 x A) tonnia vuorokaudessa, kun A on valmiiden tuotteiden eläinperäisen raaka-aineen osuus painoprosentteinad2) Muu kuin liitteen 4 kohdassa 4 i tarkoitettu ilmoituksenvarainen rehua tai rehuvalkuaista valmistava tai sekoittava teollinen laitos, jonka valmiiden tuotteiden tuotantokapasiteetti on vähintään 15, mutta enintään 75 tonnia vuorokaudessa, jos valmiiden tuotteiden tuotantokapasiteetin eläinperäisen raaka-aineen osuus on vähintään 10 painoprosenttia; muuten enintään 300 - (22,5 x A) tonnia vuorokaudessa, kun A on valmiiden tuotteiden eläinperäisen raaka-aineen osuus painoprosentteinad3) Muu kuin liitteen 4 kohdassa 4 j tarkoitettu ilmoituksenvarainen jäätelötehdas tai juustomeijeri, jonka valmiiden tuotteiden tuotantokapasiteetti on vähintään 1 000 tonnia vuodessa, mutta enintään 75 tonnia vuorokaudessa, jos valmiiden tuotteiden tuotantokapasiteetin eläinperäisen raaka-aineen osuus on vähintään 10 painoprosenttia; muuten 300 - (22,5 x A) tonnia vuorokaudessa, kun A on valmiiden tuotteiden eläinperäisen raaka-aineen osuus painoprosentteinad4) Muu kuin liitteen 4 kohdassa 4 k tarkoitettu ilmoituksenvarainen eineksiä valmistava laitos, jonka valmiiden tuotteiden tuotantokapasiteetti on vähintään 5 000 tonnia vuodessa, mutta enintään 75 tonnia vuorokaudessa, jos valmiiden tuotteiden tuotantokapasiteetin eläinperäisen raaka-aineen osuus on vähintään 10 painoprosenttia; muuten 300 - (22,5 x A) tonnia vuorokaudessa, kun A on valmiiden tuotteiden eläinperäisen raaka-aineen osuus painoprosentteina</sis:KappaleKooste>
+                <sis:KappaleKooste>d1) Margariinia tai muita kasvi- ja eläinperäisiä rasvoja tai öljyjä valmistava laitos, jonka valmiiden tuotteiden tuotantokapasiteetti on vähintään 15, mutta enintään 75 tonnia vuorokaudessa, jos valmiiden tuotteiden tuotantokapasiteetin eläinperäisen raaka-aineen osuus on vähintään 10 painoprosenttia; muuten enintään 300 - (22,5 x A) tonnia vuorokaudessa, kun A on valmiiden tuotteiden eläinperäisen raaka-aineen osuus painoprosentteina d2) Muu kuin liitteen 4 kohdassa 4 i tarkoitettu ilmoituksenvarainen rehua tai rehuvalkuaista valmistava tai sekoittava teollinen laitos, jonka valmiiden tuotteiden tuotantokapasiteetti on vähintään 15, mutta enintään 75 tonnia vuorokaudessa, jos valmiiden tuotteiden tuotantokapasiteetin eläinperäisen raaka-aineen osuus on vähintään 10 painoprosenttia; muuten enintään 300 - (22,5 x A) tonnia vuorokaudessa, kun A on valmiiden tuotteiden eläinperäisen raaka-aineen osuus painoprosentteinad3) Muu kuin liitteen 4 kohdassa 4 j tarkoitettu ilmoituksenvarainen jäätelötehdas tai juustomeijeri, jonka valmiiden tuotteiden tuotantokapasiteetti on vähintään 1 000 tonnia vuodessa, mutta enintään 75 tonnia vuorokaudessa, jos valmiiden tuotteiden tuotantokapasiteetin eläinperäisen raaka-aineen osuus on vähintään 10 painoprosenttia; muuten 300 - (22,5 x A) tonnia vuorokaudessa, kun A on valmiiden tuotteiden eläinperäisen raaka-aineen osuus painoprosentteinad4) Muu kuin liitteen 4 kohdassa 4 k tarkoitettu ilmoituksenvarainen eineksiä valmistava laitos, jonka valmiiden tuotteiden tuotantokapasiteetti on vähintään 5 000 tonnia vuodessa, mutta enintään 75 tonnia vuorokaudessa, jos valmiiden tuotteiden tuotantokapasiteetin eläinperäisen raaka-aineen osuus on vähintään 10 painoprosenttia; muuten 300 - (22,5 x A) tonnia vuorokaudessa, kun A on valmiiden tuotteiden eläinperäisen raaka-aineen osuus painoprosentteina</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1073,7 +1075,7 @@ Lupa-asian ja ilmoituksen käsittely on kokonaisuudessaan järjestettävä siten
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>d) Vaarallisten jätteiden käsittely, kun kapasiteetti ylittää 10 tonnia vuorokaudessa ja joka sisältää yhden tai useamman seuraavista toiminnoista:– biologinen käsittely– fysikaalis-kemiallinen käsittely– yhdistäminen tai sekoittaminen ennen taulukon 1 kohdissa 13 a ja d lueteltuja muita toimintoja– uudelleenpakkaaminen ennen taulukon 1 kohdissa 13 a ja d lueteltuja muita toimintoja– liuottimien talteenotto tai regenerointi– muun epäorgaanisen materiaalin kuin metallien tai metalliyhdisteiden kierrätys tai talteenotto– happojen tai emästen regenerointi– pilaantumisen torjumiseksi käytettyjen aineiden hyödyntäminen– katalyyttien ainesosien hyödyntäminen– öljyn uudelleenjalostaminen tai muu uudelleenkäyttö– maanvarainen allastaminen</sis:KappaleKooste>
+                <sis:KappaleKooste>d) Vaarallisten jätteiden käsittely, kun kapasiteetti ylittää 10 tonnia vuorokaudessa ja joka sisältää yhden tai useamman seuraavista toiminnoista: – biologinen käsittely– fysikaalis-kemiallinen käsittely– yhdistäminen tai sekoittaminen ennen taulukon 1 kohdissa 13 a ja d lueteltuja muita toimintoja– uudelleenpakkaaminen ennen taulukon 1 kohdissa 13 a ja d lueteltuja muita toimintoja– liuottimien talteenotto tai regenerointi– muun epäorgaanisen materiaalin kuin metallien tai metalliyhdisteiden kierrätys tai talteenotto– happojen tai emästen regenerointi– pilaantumisen torjumiseksi käytettyjen aineiden hyödyntäminen– katalyyttien ainesosien hyödyntäminen– öljyn uudelleenjalostaminen tai muu uudelleenkäyttö– maanvarainen allastaminen</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -1084,7 +1086,7 @@ Lupa-asian ja ilmoituksen käsittely on kokonaisuudessaan järjestettävä siten
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>e) Muiden kuin vaarallisten jätteiden loppukäsittely, kun kapasiteetti ylittää 50 tonnia vuorokaudessa, mukaan luettuna yksi tai useampi seuraavista toiminnoista ja lukuun ottamatta yhdyskuntajätevesien käsittelystä annettuun neuvoston direktiiviin 91/271/ETY kuuluvia toimintoja:– biologinen käsittely– fysikaalis-kemiallinen käsittely– jätteen esikäsittely polttoa tai rinnakkaispolttoa varten– kuonan ja tuhkan käsittely– metallijätteen käsittely leikkureilla, mukaan lukien sähkö- ja elektroniikkalaiteromu sekä romuajoneuvot ja niiden osat</sis:KappaleKooste>
+                <sis:KappaleKooste>e) Muiden kuin vaarallisten jätteiden loppukäsittely, kun kapasiteetti ylittää 50 tonnia vuorokaudessa, mukaan luettuna yksi tai useampi seuraavista toiminnoista ja lukuun ottamatta yhdyskuntajätevesien käsittelystä annettuun neuvoston direktiiviin 91/271/ETY kuuluvia toimintoja: – biologinen käsittely– fysikaalis-kemiallinen käsittely– jätteen esikäsittely polttoa tai rinnakkaispolttoa varten– kuonan ja tuhkan käsittely– metallijätteen käsittely leikkureilla, mukaan lukien sähkö- ja elektroniikkalaiteromu sekä romuajoneuvot ja niiden osat</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -1095,7 +1097,7 @@ Lupa-asian ja ilmoituksen käsittely on kokonaisuudessaan järjestettävä siten
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>f) Muiden kuin vaarallisten jätteiden hyödyntäminen tai hyödyntämisen ja loppukäsittelyn yhdistelmä, kun kapasiteetti ylittää 75 tonnia vuorokaudessa, mukaan luettuna yksi tai useampi seuraavista toiminnoista ja lukuun ottamatta yhdyskuntajätevesien käsittelystä annettuun neuvoston direktiiviin 91/271/ETY kuuluvia toimintoja:– biologinen käsittely– jätteen esikäsittely polttoa tai rinnakkaispolttoa varten– kuonan ja tuhkan käsittely– metallijätteen käsittely leikkureilla, mukaan lukien sähkö- ja elektroniikkalaiteromu sekä romuajoneuvot ja niiden osatJos ainoa jätteidenkäsittelytoiminta on anaerobinen käsittely (mädätys), tämän toiminnan kapasiteettia koskeva raja-arvo on 100 tonnia vuorokaudessa</sis:KappaleKooste>
+                <sis:KappaleKooste>f) Muiden kuin vaarallisten jätteiden hyödyntäminen tai hyödyntämisen ja loppukäsittelyn yhdistelmä, kun kapasiteetti ylittää 75 tonnia vuorokaudessa, mukaan luettuna yksi tai useampi seuraavista toiminnoista ja lukuun ottamatta yhdyskuntajätevesien käsittelystä annettuun neuvoston direktiiviin 91/271/ETY kuuluvia toimintoja: – biologinen käsittely– jätteen esikäsittely polttoa tai rinnakkaispolttoa varten– kuonan ja tuhkan käsittely– metallijätteen käsittely leikkureilla, mukaan lukien sähkö- ja elektroniikkalaiteromu sekä romuajoneuvot ja niiden osatJos ainoa jätteidenkäsittelytoiminta on anaerobinen käsittely (mädätys), tämän toiminnan kapasiteettia koskeva raja-arvo on 100 tonnia vuorokaudessa</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -1243,7 +1245,8 @@ Lupa-asian ja ilmoituksen käsittely on kokonaisuudessaan järjestettävä siten
         <sis1:KursiiviTeksti>Kuva: Taulukko 1 (direktiivilaitokset) kohta 10 d, elintarvikkeiden tai rehujen valmistus</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/7686.gif"/>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/7686.gif">7686</sis:KuvaAsemointi>
+        <saa:SaadosKappaleKooste>7686</saa:SaadosKappaleKooste>
       </sis:Kuva>
       <sis:KappaleKooste>(A) Eläinperäisen raaka-aineen osuus (% valmiiden tuotteiden tuotantokapasiteetista)</sis:KappaleKooste>
     </asi:SisaltoLiite>

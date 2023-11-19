@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>valtion pelastusoppilaitoksista annetun lain 4 §:n muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 132/92</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>HaVM 11/92</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -35,20 +27,118 @@
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Rahoitus</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Ammatillisessa peruskoulutuksessa olevan opiskelijan kotikunta on velvollinen suorittamaan maksuosuuden opiskelijasta aiheutuvista käyttökustannuksista, jotka lasketaan sisäasiainministeriön vuosittain valtion pelastusoppilaitosten keskimääräisten todennäköisten kustannusten perusteella opiskelijaa kohti vahvistamasta markkamäärästä. Markkamäärää vahvistettaessa otetaan huomioon valtion pelastusoppilaitosten vuotuiset kulutusmenot sekä kone-, kalusto- ja laitehankinnoista aiheutuvat menot, joista on vähennetty muusta kuin ammatillisesta peruskoulutuksesta aiheutuvat menot ja työtoiminnan tulot. Kotikunnan on suoritettava opiskelijaa kohti vahvistetusta markkamäärästä seuraavan taulukon osoittama osuus:</saa:MomenttiKooste>
-          <te/>
-          <te>Kantokykyluokka         Kunnan maksuosuus</te>
-          <te>                        prosentteina</te>
-          <te> 1                      14</te>
-          <te> 2                      18</te>
-          <te> 3                      22</te>
-          <te> 4                      26</te>
-          <te> 5                      30</te>
-          <te> 6                      34</te>
-          <te> 7                      38</te>
-          <te> 8                      41</te>
-          <te> 9                      45</te>
-          <te>10                      49</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kantokykyluokka</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kunnan maksuosuus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>prosentteina</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>14</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>18</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>22</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>26</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>30</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>6</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>34</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>7</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>38</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>8</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>41</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>9</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>45</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>10</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>49</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Maksuosuus on suoritettava valtiolle saman suuruisina erinä kaksi kertaa vuodessa, ensimmäinen erä helmikuun ja toinen erä lokakuun loppuun mennessä.</saa:MomenttiKooste>
           <sis:Katkoviiva/>
         </saa:Pykala>
@@ -59,6 +149,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920132.he">
+        <sis1:ViiteTeksti>HE 132/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920011.havm">
+        <sis1:ViiteTeksti>HaVM 11/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 4 päivänä joulukuuta 1992</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

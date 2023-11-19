@@ -12,48 +12,138 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Kauppa- ja teollisuusministeriön päätös</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>patentti- ja rekisterihallituksen maksullisista suoritteista annetun kauppa- ja teollisuusministeriön päätöksen muuttamisesta</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Kauppa- ja teollisuusministeriö on</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>muuttanut</saa:SaadosKursiiviKooste> patentti- ja rekisterihallituksen maksullisista suoritteista 29 päivänä heinäkuuta 1993 annetun kauppa- ja teollisuusministeriön päätöksen (729/93) 3 §:n 2 momentin 4 kohdan ja</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>lisännyt</saa:SaadosKursiiviKooste> päätöksen liitteenä olevaan maksutaulukkoon uuden 2 a §:n seuraavasti:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
-          <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
-          <saa:SaadosOtsikkoKooste>Hinnaltaan omakustannusarvosta poikkeavat suoritteet</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>4) patentti- ja rekisterihallituksen hakemuslomakkeet ja kirjalliset ohjeet;</saa:MomenttiKooste>
-        </saa:Pykala>
+        <saa:SaadosKappaleKooste>3 §</saa:SaadosKappaleKooste>
+        <ot>Hinnaltaan omakustannusarvosta poikkeavat suoritteet</ot>
+        <saa:SaadosKappaleKooste>4) patentti- ja rekisterihallituksen hakemuslomakkeet ja kirjalliset ohjeet;</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>MAKSUTAULUKKO</saa:SaadosValiotsikkoKooste>
         <saa:SaadosValiotsikkoKooste>Kiinteämaksuiset julkisoikeudelliset suoritteet</saa:SaadosValiotsikkoKooste>
-        <te>2 a §</te>
-        <te/>
-        <te>
-          <saa:SaadosKursiiviKooste>Lääkkeiden lisäsuojatodistukset</saa:SaadosKursiiviKooste>
-        </te>
-        <te>Hakemusmaksu                                         1 100 mk</te>
-        <te>Uudelleenkäsittelymaksu                                300 mk</te>
-        <te>Maksu rekisteriin tehtävästä merkinnästä, kultakin</te>
-        <te>merkinnältä                                            200 mk</te>
-        <te>Ratkaisumaksu patenttilain 71 a §:n mukaan           1 100 mk</te>
-        <te>Vuosimaksu jokaiselta alkavalta vuodelta             4 400 mk</te>
-        <te>Muutoksenhakumaksut</te>
-        <te> patenttilain 25 §:ssä tarkoitetut asiat             1 000 mk</te>
-        <te> muut asiat                                            700 mk</te>
-        <te>Diaaritodistus                                          48 mk</te>
-        <te>Oikeaksi todistaminen                       48 mk + 5 mk/sivu</te>
-        <te>Rekisteriote                                            70 mk</te>
-        <te/>
+        <saa:SaadosKappaleKooste>2 a §</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="2" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">
+                    <sis1:KursiiviTeksti>Lääkkeiden lisäsuojatodistukset</sis1:KursiiviTeksti>
+                  </sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Hakemusmaksu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>1 100 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Uudelleenkäsittelymaksu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>300 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">Maksu rekisteriin tehtävästä merkinnästä, kultakin</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>merkinnältä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>200 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Ratkaisumaksu patenttilain 71 a §:n mukaan</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>1 100 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Vuosimaksu jokaiselta alkavalta vuodelta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>4 400 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top">Muutoksenhakumaksut</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>patenttilain 25 §:ssä tarkoitetut asiat</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>1 000 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>muut asiat</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>700 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Diaaritodistus</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>48 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Oikeaksi todistaminen</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>48 mk + 5 mk/sivu</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Rekisteriote</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>70 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <sis:Palstaviiva/>
-        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
-          <saa:MomenttiKooste>Tämä päätös tulee voimaan 1 päivänä heinäkuuta 1994.</saa:MomenttiKooste>
-        </saa:Pykala>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Tämä päätös tulee voimaan 1 päivänä heinäkuuta 1994.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 23 päivänä kesäkuuta 1994</asi:PaivaysKooste>

@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>polttoaineverosta annetun lain 2 ja 13 §:n muuttamisesta ja verotaulukon väliaikaisesta muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 187/92</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>VaVM 88/92</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -37,23 +29,110 @@
           <saa:MomenttiKooste>Tässä laissa tarkoitetaan:</saa:MomenttiKooste>
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>6) reformuloidulla moottoribensiinillä tuotetta, joka alla mainittujen ominaisuuksien osalta vastaa asianomaista raja-arvoa:</saa:MomenttiKooste>
-          <te/>
-          <te>Ominaisuus                          Raja-arvo</te>
-          <te>Happipitoisuus                      2 &lt; 0<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> &lt; 2,7 %</te>
-          <te>Bentseenipitoisuus                  Enintään 3</te>
-          <te>                                    tilavuus-%</te>
-          <te>Höyrynpaine:</te>
-          <te>- tuote, joka on luovutettu</te>
-          <te>  verolliseen kulutukseen</te>
-          <te>  1.6.Ä31.8. välisenä aikana,</te>
-          <te>  sanotut päivät mukaan</te>
-          <te>  luettuina                         Enintään 70 kPa</te>
-          <te>- tuote, joka on luovutettu</te>
-          <te>  verolliseen kulutukseen</te>
-          <te>  1.9.Ä31.5. välisenä aikana,</te>
-          <te>  sanotut päivät mukaan</te>
-          <te>  luettuina                         Enintään 90 kPa</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Ominaisuus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Raja-arvo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Happipitoisuus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2 &lt; 0<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> &lt; 2,7 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Bentseenipitoisuus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Enintään 3</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">tilavuus-%</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Höyrynpaine:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>- tuote, joka on luovutettu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>verolliseen kulutukseen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>1.6.-31.8. välisenä aikana,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>sanotut päivät mukaan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">luettuina</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Enintään 70 kPa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>- tuote, joka on luovutettu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>verolliseen kulutukseen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>1.9.-31.5. välisenä aikana,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>sanotut päivät mukaan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">luettuina</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Enintään 90 kPa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>7) rikittömällä dieselöljyllä tuotetta, jonka rikkipitoisuus on enintään 0,005 paino-%, aromaattipitoisuus enintään 20 tilavuus-% ja setaani-indeksi vähintään 47, luonnollinen setaaniluku.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">
@@ -62,65 +141,821 @@
           <sis:Katkoviiva/>
         </saa:Pykala>
         <saa:SaadosValiotsikkoKooste>VEROTAULUKKO N:O 1</saa:SaadosValiotsikkoKooste>
-        <te/>
-        <te>Tullita-   Tuote              Tuote-  Perus-         Lisä-</te>
-        <te>riffin                        ryhmä   vero           vero</te>
-        <te>nimike</te>
-        <te/>
-        <te>27.01 ja</te>
-        <te>27.02      Kivihiili; kivihiili-</te>
-        <te>           briketit ja niiden</te>
-        <te>           kaltaiset kivihiilestä</te>
-        <te>           valmistetut kiinteät</te>
-        <te>           polttoaineet,</te>
-        <te>           ruskohiili            1.     -     33,38 mk/ton</te>
-        <te>27.03:sta  Jyrsinpolttoturve     2.     -      4,17 mk/MWh</te>
-        <te>27.10:sta  Lyijytön moottoribensiini</te>
-        <te>           - peruslaatu          3.   235 p/l     5 p/l</te>
-        <te>           - reformuloitu        4.   235 p/l     Ä</te>
-        <te>27.10:sta  Lyijyllinen moottoribensiini</te>
-        <te>           - peruslaatu          5.   235 p/l    50 p/l</te>
-        <te>           - reformuloitu        6.   235 p/l    45 p/l</te>
-        <te>27.10:sta  Moottoribensiinin sekoitus</te>
-        <te>           - peruslaatu          7.   235 p/l  27,5 p/l</te>
-        <te>           - reformuloitu        8.   235 p/l  22,5 p/l</te>
-        <te>27.10:sta  Dieselöljy            9.    87 p/l    27 p/l</te>
-        <te>27.10:sta  Kevyt polttoöljy     10.     4,2 p/l   4,17 p/l</te>
-        <te>27.10:sta  Raskas polttoöljy    11.     2,5 p/kg  4,17 p/kg</te>
-        <te>27.11:sta  Maakaasu,</te>
-        <te>           kaasumainen          12.       -       2,09 p/nm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></te>
-        <te/>
+        <tau:table>
+          <tau:tgroup cols="5" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Tullita-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Tuote</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">Tuote-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">Perus-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">Lisä-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">riffin</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">ryhmä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">vero</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">vero</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>nimike</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>27.01 ja</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.02</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Kivihiili; kivihiili-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">briketit ja niiden</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">kaltaiset kivihiilestä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">valmistetut kiinteät</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">polttoaineet,</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">ruskohiili</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">1.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">33,38 mk/ton</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.03:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Jyrsinpolttoturve</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">2.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">4,17 mk/MWh</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste>Lyijytön moottoribensiini</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- peruslaatu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">3.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">5 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- reformuloitu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">4.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste>Lyijyllinen moottoribensiini</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- peruslaatu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">5.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">50 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- reformuloitu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">6.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">45 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste>Moottoribensiinin sekoitus</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- peruslaatu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">7.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">27,5 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- reformuloitu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">8.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">22,5 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Dieselöljy</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">9.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">87 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">27 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Kevyt polttoöljy</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">10.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">4,2 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">4,17 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Raskas polttoöljy</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">11.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">2,5 p/kg</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">4,17 p/kg</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.11:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste>Maakaasu,</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">kaasumainen</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">12.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">2,09 p/nm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <saa:SaadosValiotsikkoKooste>VEROTAULUKKO N:O 2</saa:SaadosValiotsikkoKooste>
-        <te/>
-        <te>Tullita-   Tuote              Tuote-  Perus-         Lisä-</te>
-        <te>riffin                        ryhmä   vero           vero</te>
-        <te>nimike</te>
-        <te/>
-        <te>27.01 ja</te>
-        <te>27.02      Kivihiili; kivihiili-</te>
-        <te>           briketit ja niiden</te>
-        <te>           kaltaiset kivihiilestä</te>
-        <te>           valmistetut kiinteät</te>
-        <te>           polttoaineet,</te>
-        <te>           ruskohiili            1.     -     33,38 mk/ton</te>
-        <te>27.03:sta  Jyrsinpolttoturve     2.     -      4,17 mk/MWh</te>
-        <te>27.10:sta  Lyijytön moottoribensiini</te>
-        <te>           - peruslaatu          3.   235 p/l     5 p/l</te>
-        <te>           - reformuloitu        4.   235 p/l     Ä</te>
-        <te>27.10:sta  Lyijyllinen moottoribensiini</te>
-        <te>           - peruslaatu          5.   235 p/l    50 p/l</te>
-        <te>           - reformuloitu        6.   235 p/l    45 p/l</te>
-        <te>27.10:sta  Moottoribensiinin sekoitus</te>
-        <te>           - peruslaatu          7.   235 p/l  27,5 p/l</te>
-        <te>           - reformuloitu        8.   235 p/l  22,5 p/l</te>
-        <te>27.10:sta  Dieselöljy</te>
-        <te>           - peruslaatu          9.    87 p/l    27 p/l</te>
-        <te>           - rikitön laatu      10.    87 p/l    12 p/l</te>
-        <te>27.10:sta  Kevyt polttoöljy     11.     4,2 p/l   4,17 p/l</te>
-        <te>27.10:sta  Raskas polttoöljy    12.     2,5 p/kg  4,17 p/kg</te>
-        <te>27.11:sta  Maakaasu,</te>
-        <te>           kaasumainen          13.       -       2,09 p/nm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></te>
-        <te/>
+        <tau:table>
+          <tau:tgroup cols="5" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Tullita-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Tuote</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">Tuote-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">Perus-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">Lisä-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">riffin</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">ryhmä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">vero</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">vero</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>nimike</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>27.01 ja</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.02</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Kivihiili; kivihiili-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">briketit ja niiden</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">kaltaiset kivihiilestä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">valmistetut kiinteät</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">polttoaineet,</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">ruskohiili</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">1.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">33,38 mk/ton</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.03:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Jyrsinpolttoturve</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">2.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">4,17 mk/MWh</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste>Lyijytön moottoribensiini</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- peruslaatu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">3.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">5 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- reformuloitu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">4.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste>Lyijyllinen moottoribensiini</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- peruslaatu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">5.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">50 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- reformuloitu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">6.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">45 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste>Moottoribensiinin sekoitus</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- peruslaatu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">7.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">27,5 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- reformuloitu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">8.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">235 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">22,5 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste>Dieselöljy</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- peruslaatu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">9.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">87 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">27 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">- rikitön laatu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">10.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">87 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">12 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Kevyt polttoöljy</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">11.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">4,2 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">4,17 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.10:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">Raskas polttoöljy</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">12.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">2,5 p/kg</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">4,17 p/kg</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">27.11:sta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste>Maakaasu,</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">kaasumainen</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">13.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">2,09 p/nm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
           <saa:MomenttiKooste>Tämä laki tulee voimaan 1 päivänä tammikuuta 1993. Verotaulukko n:o 1 on voimassa siihen saakka, kun verotaulukko n:o 2 tulee voimaan. Verotaulukko n:o 2 tulee voimaan 1 päivänä heinäkuuta 1993 ja on voimassa vuoden 1993 loppuun.</saa:MomenttiKooste>
@@ -128,6 +963,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920187.he">
+        <sis1:ViiteTeksti>HE 187/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920088.vavm">
+        <sis1:ViiteTeksti>VaVM 88/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 30 päivänä joulukuuta 1992</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

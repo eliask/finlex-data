@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>kuntien yhdistymisavustuksista</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 285/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>HaVM 25/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -41,14 +33,70 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Yhdistymisavustuksen määrä kuntajaon muutoksen voimaantulovuonna on liitokseen osallisten kuntien asukasluku kerrottuna avustuksen määrällä seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>                        avustus,</te>
-          <te>asukkaita            markkaa/asukas</te>
-          <te>enintään  1 000          1 500</te>
-          <te>   1 001- 4 000          1 200</te>
-          <te>   4 001- 8 000            900</te>
-          <te>     yli  8 000            600</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>asukkaita</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>avustus,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>enintään</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>markkaa/asukas</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 001- 4 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 200</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4 001- 8 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>900</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>yli 8 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Yhdistymisavustusta ei kuitenkaan suoriteta asukasluvultaan suurimman kunnan osalta, jos sen asukasluku on yli 10 000.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kuntajaon muutoksen voimaantulovuotta seuraavana vuonna avustuksen määrä on 80 prosenttia ja sitä seuraavana vuotena 60 prosenttia ensimmäisen vuoden määrästä.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Yhteenlaskettu avustuksen enimmäismäärä on kolmelta vuodelta 25 miljoonaa markkaa.</saa:MomenttiKooste>
@@ -66,6 +114,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930285.he">
+        <sis1:ViiteTeksti>HE 285/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930025.havm">
+        <sis1:ViiteTeksti>HaVM 25/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 31 päivänä tammikuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

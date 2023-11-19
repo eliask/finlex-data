@@ -145,19 +145,113 @@ b) arkit, kalvot ja muut materiaalit, joita ei voi täyttää tai joille on käy
       <sis:KappaleKooste>Yleiset määräykset </sis:KappaleKooste>
       <sis:KappaleKooste>1. Verrattaessa päätöksen 261/92 liitteessä määriteltyjen migraatiotestien tuloksia, tulisi tavallisesti olettaa kaikkien simulanttien ominaispainon olevan 1. Milligramma siirtynyttä ainetta per litra simulanttia (mg/l) vastaa näin numeerisesti milligrammaa siirtynyttä ainetta per kilogramma simulanttia, ja ottaen huomioon päätöksen 262/92 määräykset, milligrammaa siirtynyttä ainetta per kilogrammma elintarviketta.</sis:KappaleKooste>
       <sis:KappaleKooste>2. Jos migraatiotestit suoritetaan tarvikkeesta otetuilla näytteillä tai näytteillä, jotka on valmistettu tätä tarkoitusta varten, ja näytteen kanssa kosketukseen saatettu elintarvikkeen tai simulantin määrä poikkeaa siitä määrästä, joka todellisissa olosuhteissa joutuu tarvikkeen kanssa kosketukseen tarviketta käytettäessä, saadut tulokset tulisi korjata käyttäen seuraavaa kaavaa:</sis:KappaleKooste>
-      <te>m x a<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> =  x 1 000 / a <sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> x q</te>
-      <te>missä: M = migraatio mg/kg,</te>
-      <te>       m = näytteestä siirtyneen aineen määrä milli-</te>
-      <te>           grammoina migraatiotestillä määritettynä,</te>
-      <te>       a1= näytteen neliödesimetreinä ilmoitettu</te>
-      <te>           pinta-ala, joka on migraatiotestin aikana</te>
-      <te>           kosketuksessa elintarvikkeen tai</te>
-      <te>           simulantin kanssa,</te>
-      <sis:KappaleKooste>       a2= tarvikkeen pinta-ala neliödesimetreinä</sis:KappaleKooste>
-      <te>           todellisissa käyttöolosuhteissa,</te>
-      <sis:KappaleKooste>       q = tarvikkeen kanssa kosketuksessa oleva elin-</sis:KappaleKooste>
-      <te>           tarvikkeen määrä grammoina todellisissa</te>
-      <te>           käyttöolosuhteissa.</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">m x a<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> =</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">x 1 000 / a <sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> x q</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>missä: M = migraatio mg/kg,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">m = näytteestä siirtyneen aineen määrä milli-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">grammoina migraatiotestillä määritettynä,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">a1= näytteen neliödesimetreinä ilmoitettu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">pinta-ala, joka on migraatiotestin aikana</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">kosketuksessa elintarvikkeen tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">simulantin kanssa,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">a2= tarvikkeen pinta-ala neliödesimetreinä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">todellisissa käyttöolosuhteissa,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">q = tarvikkeen kanssa kosketuksessa oleva elin-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">tarvikkeen määrä grammoina todellisissa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">käyttöolosuhteissa.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>3. Migraatio määritetään tarvikkeesta, tai jos tämä on käytännössä mahdotonta, tarvikkeesta otetuista näytteistä, tai silloin kuin se on tarkoituksenmukaista, kyseessä olevaa tarviketta edustavista näytteistä.</sis:KappaleKooste>
       <sis:KappaleKooste>Näyte tulee asettaa elintarvikkeen tai simulantin kanssa kosketukseen tavalla, joka edustaa kosketusolosuhteita todellisessa käytössä. Tässä tarkoituksessa testi tulee suorittaa siten, että pelkästään näytteen ne osat, jotka todellisessa käytössä joutuvat elintarvikkeen kanssa kosketukseen, ovat kosketuksessa elintarvikkeen tai simulantin kanssa. Tämä ehto on erityisen tärkeä sellaisten tarvikkeiden osalta, joissa on useampia kerroksia, sulkimia, jne.</sis:KappaleKooste>
       <sis:KappaleKooste>Sulkemiseen tarkoitettujen kansien, tiivisteiden, tulppien ja vastaavien tarvikkeiden migraatiotestit tulee suorittaa siten, että mainitut tarvikkeet sijoitetaan astioihin, joihin ne on tarkoitettu, tavalla, joka vastaa sulkemisolosuhteita tavanomaisessa tai ennalta arvattavassa käytössä.</sis:KappaleKooste>
@@ -206,14 +300,69 @@ b) arkit, kalvot ja muut materiaalit, joita ei voi täyttää tai joille on käy
       <sis:KappaleKooste>6. Jos luettelossa yksittäisenä yhdisteenä esiintyvä aine kuuluu myös yleisen termin alle, aineelle sovelletaan samoja rajoituksia kuin mainitulle yksittäiselle yhdisteelle.</sis:KappaleKooste>
       <sis:KappaleKooste>7. Jos CAS numero ja kemiallinen nimi eivät vastaa toisiaan, sovelletaan kemiallista nimeä. Jos EINECS:ssä raportoitu CAS numero ja CAS rekisterissä ilmoitettu CAS numero eivät vastaa toisiaan, noudatetaan CAS rekisterissä ilmoitettua CAS numeroa.</sis:KappaleKooste>
       <sis:KappaleKooste>8. Taulukon sarakkeessa 4 käytetyt lyhenteet ovat seuraavat:</sis:KappaleKooste>
-      <te>DL     = analyysimenetelmän määritysraja,</te>
-      <te>FP     = lopullinen tarvike,</te>
-      <te>NCO    = isosyanaattiryhmä,</te>
-      <te>QM     = aineen jäämän enimmäismäärä tarvikkeessa,</te>
-      <te>QM(T)  = aineen jäämän enimmäismäärä tarvikkeessa ilmaistuna mainitun ryhmän, aineen tai aineiden kokonaismääränä,</te>
-      <te>SML    = ainekohtainen (spesifinen) migraatioraja elintarvikkeessa tai simulantissa, jollei toisin ole ilmoitettu,</te>
-      <te>SML(T) = ainekohtainen (spesifinen) migraatioraja elintarvikkeessa tai simulantissa ilmaistuna mainitun ryhmän, aineen tai aineiden kokonaismääränä.</te>
-      <ete>Taulukoita</ete>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">DL</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">= analyysimenetelmän määritysraja,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">FP</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">= lopullinen tarvike,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">NCO</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">= isosyanaattiryhmä,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">QM</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">= aineen jäämän enimmäismäärä tarvikkeessa,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">QM(T)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">= aineen jäämän enimmäismäärä tarvikkeessa ilmaistuna mainitun ryhmän, aineen tai aineiden kokonaismääränä,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">SML</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">= ainekohtainen (spesifinen) migraatioraja elintarvikkeessa tai simulantissa, jollei toisin ole ilmoitettu,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">SML(T)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">= ainekohtainen (spesifinen) migraatioraja elintarvikkeessa tai simulantissa ilmaistuna mainitun ryhmän, aineen tai aineiden kokonaismääränä.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
+      <sis1:ValiotsikkoTeksti>Taulukoita</sis1:ValiotsikkoTeksti>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

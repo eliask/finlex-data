@@ -118,30 +118,151 @@
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Radiolähettimien lupamaksut</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Oikeudesta pitää hallussa ja käyttää luvanvaraista radiolähetintä peritään vuosittain lupamaksua seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>1) radioamatöörilähettimet                    80 mk</te>
-          <te>2) maaliikenteen liikkuva VHF/ UHF-lähetin,</te>
-          <te>   aluksen tai ilma-aluksen VHF/UHF-asema</te>
-          <te>   tai kaukomittaus-, kauko-ohjaus-</te>
-          <te>   tai valvontalähetin                        95 mk</te>
-          <te>3) aluksen satelliittimaa-asema tai</te>
-          <te>   MF/HF-asema tai ilma-aluksen satelliitti-</te>
-          <te>   maa-asema tai MF/HF-asema                 200 mk</te>
-          <te>4) VHF/UHF-majakkalähetin                    300 mk</te>
-          <te>5) kiinteän liikenteen koordinoimaton</te>
-          <te>   satelliittimaa-aseman lähetin tai</te>
-          <te>   maaliikenteen muu kiinteä VHF/UHF</te>
-          <te>   -lähetin kuin GSM-tukiasemalähetin        360 mk</te>
-          <te>6) pienitehoinen yleisradiolähetin</te>
-          <te>   (teho enintään 300 W), radiolinkki-</te>
-          <te>   lähetin tai LF/MF-majakkalähetin          530 mk</te>
-          <te>7) kiinteä MF/HF-lähetin, keski- tai</te>
-          <te>   suuritehoinen yleisradiolähetin</te>
-          <te>   (teho yli 300 W) tai muu kuin</te>
-          <te>   aluksen tai ilma-aluksen tutkalähetin     770 mk</te>
-          <te>8) kiinteän liikenteen koordinoidun</te>
-          <te>   satelliittimaa-aseman lähetin             880 mk</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1) radioamatöörilähettimet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">80 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>2) maaliikenteen liikkuva VHF/ UHF-lähetin,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>aluksen tai ilma-aluksen VHF/UHF-asema</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>tai kaukomittaus-, kauko-ohjaus-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">tai valvontalähetin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">95 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>3) aluksen satelliittimaa-asema tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>MF/HF-asema tai ilma-aluksen satelliitti-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">maa-asema tai MF/HF-asema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">200 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">4) VHF/UHF-majakkalähetin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">300 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>5) kiinteän liikenteen koordinoimaton</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>satelliittimaa-aseman lähetin tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>maaliikenteen muu kiinteä VHF/UHF-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">lähetin kuin GSM-tukiasemalähetin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">360 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>6) pienitehoinen yleisradiolähetin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>(teho enintään 300 W), radiolinkki-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">lähetin tai LF/MF-majakkalähetin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">530 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>7) kiinteä MF/HF-lähetin, keski- tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>suuritehoinen yleisradiolähetin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>(teho yli 300 W) tai muu kuin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">aluksen tai ilma-aluksen tutkalähetin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">770 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>8) kiinteän liikenteen koordinoidun</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">satelliittimaa-aseman lähetin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">880 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Oikeudesta pitää hallussa ja käyttää muuta kuin 1 momentissa tai 7 §:ssä tarkoitettua luvanvaraista radiolähetintä peritään lupamaksua samoin kuin peritään lupamaksua sitä lähinnä vastaavasta laitteesta 1 momentin mukaan.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
@@ -153,28 +274,112 @@
           <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Radiolähettimien valvontamaksut</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Suomessa kaupan pidettäväksi tai käytettäväksi tarkoitetusta Suomessa valmistetusta tai Suomeen tulliselvitetystä luvasta vapaasta radiolähettimestä peritään sen valmistajalta tai siltä, joka tuo lähettimen maahan, valvontamaksua seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>1) pienoismallin radio-ohjauslaite            25 mk</te>
-          <te>2) LA-puhelin, PR-27-puhelin, telemetria-</te>
-          <te>   laite, radio-ohjauslaite, johdoton puhelin,</te>
-          <te>   radiomikrofoni, hälytyslaite tai</te>
-          <te>   pienitehoinen tutka                        55 mk</te>
-          <te>3) henkilöhakulähetin tai matkaviestin        95 mk</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1) pienoismallin radio-ohjauslaite</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">25 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>2) LA-puhelin, PR-27-puhelin, telemetria-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>laite, radio-ohjauslaite, johdoton puhelin,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>radiomikrofoni, hälytyslaite tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">pienitehoinen tutka</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">55 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3) henkilöhakulähetin tai matkaviestin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">95 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Muusta luvasta vapaasta radiolähettimestä kuin 1 momentissa tarkoitetusta tai GSM-matkaviestimestä peritään sama valvontamaksu kuin sitä lähinnä vastaavasta luvasta vapaasta radiolähettimestä peritään 1-3 kohdan mukaan.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">
           <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Radiolaitteiden hyväksyntämaksut</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Radiolaitteen tyyppihyväksynnästä tai yksittäisen laitteen hyväksynnästä peritään hyväksyntämaksua seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>1) radiolaitteen kansallinen tyyppi-</te>
-          <te>   hyväksyntä                              1 500 mk</te>
-          <te>2) radiolaitetuoteperheen tai vaativa</te>
-          <te>   ja aikaavievä kansallinen</te>
-          <te>   tyyppihyväksyntä                        3 000 mk</te>
-          <te>3) yksittäisen radiolaitteen hyväksyntä      200 mk</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>1) radiolaitteen kansallinen tyyppi-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hyväksyntä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>2) radiolaitetuoteperheen tai vaativa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>ja aikaavievä kansallinen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">tyyppihyväksyntä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3) yksittäisen radiolaitteen hyväksyntä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">200 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Jos 1 momentissa määrätty hyväksyntämaksu on tyyppihyväksynnän Telehallintokeskukselle aiheuttamiin kustannuksiin verrattuna kohtuuttoman korkea, peritään 1 momentissa määrätyn hyväksyntämaksun sijasta suoritteen omakustannusarvon mukainen maksu.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="10 §">
@@ -186,68 +391,433 @@
           <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Alusten radioasemien katsastusmaksut</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Alusten radioasemien tai alusten radiolaitteiden katsastuksista peritään katsastusmaksua seuraavasti:</saa:MomenttiKooste>
-          <te>Alus                                  Suomen       Muualla</te>
-          <te>                                    alueella</te>
-          <te>
-            <saa:SaadosKursiiviKooste>Peruskatsastus:</saa:SaadosKursiiviKooste>
-          </te>
-          <te>1) kotimaanliikenteessä olevan</te>
-          <te>   aluksen radioasema               1 400 mk      2 500 mk</te>
-          <te>2) kansainvälisessä liikenteessä</te>
-          <te>   olevan alle 300 brt:n</te>
-          <te>   aluksen radioasema               2 400 mk      4 300 mk</te>
-          <te>3) vain radiopuhelinlaitteilla</te>
-          <te>   varustettu radioasema            3 450 mk      6 200 mk</te>
-          <te>4) radio-, puhelin- tai radio-</te>
-          <te>   lennätinlaitteilla varustettu</te>
-          <te>   radioasema tai vastaava          4 300 mk      7 050 mk</te>
-          <te>5) GMDSS:n merialueella A1</te>
-          <te>   toimivan aluksen radioasema      1 900 mk      3 800 mk</te>
-          <te>6) GMDSS:n merialueella A2 toimivan</te>
-          <te>   aluksen radioasema               3 450 mk      6 200 mk</te>
-          <te>7) GMDSS:n merialueella A3 tai A4</te>
-          <te>   toimivan aluksen radioasema      4 550 mk      7 400 mk</te>
-          <te/>
-          <te>
-            <saa:SaadosKursiiviKooste>Määräaikainen katsastus:</saa:SaadosKursiiviKooste>
-          </te>
-          <te>1) kotimaanliikenteessä olevan</te>
-          <te>   aluksen radioasema                 950 mk      1 700 mk</te>
-          <te>2) kansainvälisessä liikenteessä</te>
-          <te>   olevan alle 300 brt:n aluksen</te>
-          <te>   radioasema                       1 900 mk      3 800 mk</te>
-          <te>3) vain radiopuhelinlaitteilla</te>
-          <te>   varustettu radioasema            2 750 mk      5 500 mk</te>
-          <te>4) radio-, puhelin- tai radio-</te>
-          <te>   lennätinlaitteilla varustettu</te>
-          <te>   radioasema tai vastaava          3 300 mk      6 050 mk</te>
-          <te>5) GMDSS:n merialueella Al toimivan</te>
-          <te>   aluksen radioasema               1 400 mk      3 325 mk</te>
-          <te>6) GMDSS:n merialueella A2 toimivan</te>
-          <te>   aluksen radioasema               2 750 mk      5 500 mk</te>
-          <te>7) GMDSS:n merialueella A3 tai A4</te>
-          <te>   toimivan aluksen radioasema      3 500 mk      6 300 mk</te>
-          <te/>
-          <te>
-            <saa:SaadosKursiiviKooste>Ylimääräinen katsastus ja katsastuksessa todetun puutteen korjauksen katsastus:</saa:SaadosKursiiviKooste>
-          </te>
-          <te>1) kotimaanliikenteessä olevan</te>
-          <te>   aluksen radioasema                 550 mk      1 000 mk</te>
-          <te>2) kansainvälisessä liikenteessä</te>
-          <te>   olevan alle 300 brt:n aluksen</te>
-          <te>   radioasema                       1 200 mk      2 550 mk</te>
-          <te>3) vain radiopuhelinlaitteilla</te>
-          <te>   varustettu radioasema            1 700 mk      3 050 mk</te>
-          <te>4) radio-, puhelin- tai radio-</te>
-          <te>   lennätinlaitteilla varustettu</te>
-          <te>   radioasema tai vastaava          2 050 mk      3 600 mk</te>
-          <te>5) GMDSS:n merialueella Al</te>
-          <te>   toimivan aluksen radioasema        850 mk      1 550 mk</te>
-          <te>6) GMDSS:n merialueella A2 toimivan</te>
-          <te>   aluksen radioasema               1 700 mk      3 000 mk</te>
-          <te>7) GMDSS:n merialueella A3 tai A4</te>
-          <te>   toimivan aluksen radioasema      2 150 mk      3 900 mk</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Alus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Suomen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">Muualla</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste>alueella</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Peruskatsastus:</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>1) kotimaanliikenteessä olevan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 400 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">2 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>2) kansainvälisessä liikenteessä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>olevan alle 300 brt:n</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2 400 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">4 300 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>3) vain radiopuhelinlaitteilla</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">varustettu radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3 450 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">6 200 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>4) radio-, puhelin- tai radio-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>lennätinlaitteilla varustettu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">radioasema tai vastaava</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">4 300 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">7 050 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>5) GMDSS:n merialueella A1</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">toimivan aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 900 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">3 800 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>6) GMDSS:n merialueella A2 toimivan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3 450 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">6 200 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>7) GMDSS:n merialueella A3 tai A4</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">toimivan aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">4 550 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">7 400 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Määräaikainen katsastus:</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>1) kotimaanliikenteessä olevan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">950 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">1 700 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>2) kansainvälisessä liikenteessä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>olevan alle 300 brt:n aluksen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 900 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">3 800 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>3) vain radiopuhelinlaitteilla</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">varustettu radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2 750 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">5 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>4) radio-, puhelin- tai radio-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>lennätinlaitteilla varustettu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">radioasema tai vastaava</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3 300 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">6 050 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>5) GMDSS:n merialueella Al toimivan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 400 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">3 325 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>6) GMDSS:n merialueella A2 toimivan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2 750 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">5 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>7) GMDSS:n merialueella A3 tai A4</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">toimivan aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">6 300 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Ylimääräinen katsastus ja katsastuksessa todetun puutteen korjauksen katsastus:</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>1) kotimaanliikenteessä olevan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">550 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">1 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>2) kansainvälisessä liikenteessä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>olevan alle 300 brt:n aluksen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 200 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">2 550 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>3) vain radiopuhelinlaitteilla</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">varustettu radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 700 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">3 050 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>4) radio-, puhelin- tai radio-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>lennätinlaitteilla varustettu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">radioasema tai vastaava</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2 050 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">3 600 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>5) GMDSS:n merialueella Al</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">toimivan aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">850 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">1 550 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>6) GMDSS:n merialueella A2 toimivan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 700 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">3 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>7) GMDSS:n merialueella A3 tai A4</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">toimivan aluksen radioasema</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2 150 mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">3 900 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Muualla kuin Suomen alueella tehtävien katsastusten kiinteiden maksujen suuruutta määrättäessä ei ole otettu huomioon näitä katsastuksia varten muualle kuin Suomeen tehtävistä matkoista aiheutuvia kustannuksia. Tällaisesta katsastuksesta peritään 1 momentissa määrätyn kiinteän maksun lisäksi siihen sisältymättömät matkakustannukset täysimääräisinä.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Jos katsastusta ei voida laivanisännän tai aluksen päällikön syystä toimittaa sovittuna aikana, peritään puolet 1 momentissa määrätystä kiinteästä maksusta sekä 2 momentissa perittäviksi määrätyt matkakustannukset kokonaisuudessaan.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -255,16 +825,69 @@
           <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Radioviestinnän tutkintomaksut</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Radiolähettimen käyttöön tarvittavan erityisen kelpoisuuden osoittamiseksi suoritettavasta pätevyystutkinnosta peritään tutkintomaksua osallistumiskerralta seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>1) merenkulun yleinen radiopuhelimen-</te>
-          <te>   hoitajan tutkinto tai aluksen</te>
-          <te>   radioasemanhoitajan tutkinto             500 mk</te>
-          <te>2) merenkulun rajoitettu radiopuhelimen-</te>
-          <te>   hoitajan tutkinto                        400 mk</te>
-          <te>3) radioamatööritutkinnot                   170 mk</te>
-          <te>4) muu kuin edellisissä kohdissa</te>
-          <te>   mainittu tutkinto                        270 mk</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>1) merenkulun yleinen radiopuhelimen-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>hoitajan tutkinto tai aluksen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">radioasemanhoitajan tutkinto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>2) merenkulun rajoitettu radiopuhelimen-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hoitajan tutkinto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">400 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3) radioamatööritutkinnot</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">170 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>4) muu kuin edellisissä kohdissa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">mainittu tutkinto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">270 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">
           <saa:PykalaTunnusKooste>13 §</saa:PykalaTunnusKooste>
@@ -286,20 +909,89 @@
           <saa:PykalaTunnusKooste>16 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Teleurakoinnin valvontamaksut</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Teleurakoitsijalta peritään teleurakoinnin valvontamaksua vuosittain seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>1) puhelinsisäjohtoverkkojen</te>
-          <te>   urakointiin valtuutettu tele-</te>
-          <te>   urakoitsija                            1 800 mk</te>
-          <te>2) yhteisantennijärjestelmien</te>
-          <te>   urakointiin valtuutettu tele-</te>
-          <te>   urakoitsija                            1 800 mk</te>
-          <te>3) puhelinsisäjohtoverkkojen ja yhteis-</te>
-          <te>   antennijärjestelmien urakointiin</te>
-          <te>   valtuutettu teleurakoitsija            3 000 mk</te>
-          <te>4) vain omien telesisäverkkojen tele-</te>
-          <te>   urakointiin valtuutettu tele-</te>
-          <te>   urakoitsija                              300 mk</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>1) puhelinsisäjohtoverkkojen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>urakointiin valtuutettu tele-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">urakoitsija</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 800 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>2) yhteisantennijärjestelmien</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>urakointiin valtuutettu tele-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">urakoitsija</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 800 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>3) puhelinsisäjohtoverkkojen ja yhteis-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>antennijärjestelmien urakointiin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">valtuutettu teleurakoitsija</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>4) vain omien telesisäverkkojen tele-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>urakointiin valtuutettu tele-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">urakoitsija</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">300 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Kertaurakointiin valtuutetulta teleurakoitsijalta peritään teleurakoinnin valvontamaksua 300 mk.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="17 §">

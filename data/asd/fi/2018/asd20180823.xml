@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>meluselvityksistä ja meluntorjunnan toimintasuunnitelmista</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Euroopan parlamentin ja neuvoston direktiivi 2002/49/EY ympäristömelun arvioinnista ja hallinnasta (32002L0049), EUVL L 189, 18.7.2002, s. 12–25</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>komission direktiivi 2015/996 Euroopan parlamentin ja neuvoston direktiivin 2002/49/EY mukaisista melun arvioinnin yhteisistä menetelmistä (32015L0996), EUVL L 168, 1.7.2015, s. 1–823</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus">
@@ -65,7 +57,8 @@
           <saa:SaadosOtsikkoKooste>Meluselvityksissä käytettävät melun tunnusluvut</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Meluselvityksissä melun yleistä häiritsevyyttä kuvaavana tunnuslukuna on käytettävä päivä-ilta-yöajan äänitasoa <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>den</sis1:AlaindeksiTeksti> (dB):</saa:MomenttiKooste>
           <sis:Kuva>
-            <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6920.gif"/>
+            <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6920.gif">6920</sis:KuvaAsemointi>
+            <saa:SaadosKappaleKooste>6920</saa:SaadosKappaleKooste>
           </sis:Kuva>
           <saa:MomenttiKooste>Melun häiritsevyyden tunnuslukuina ovat A-taajuuspainotetut keskiäänitasot <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>päivä</sis1:AlaindeksiTeksti> päiväajalta, <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>ilta</sis1:AlaindeksiTeksti> ilta-ajalta ja <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>yö</sis1:AlaindeksiTeksti> yöajalta. Tunnusluvut on määritettävä kalenterivuoden kaikkien päivä-, ilta- ja yöaikojen sekä sään kannalta keskimääräisen vuoden perusteella.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Meluselvityksissä yöajan unihäiriötä kuvaava tunnusluku on yöäänitaso <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>yö</sis1:AlaindeksiTeksti>.</saa:MomenttiKooste>
@@ -81,90 +74,95 @@
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Meluselvityksissä tehtävät arviot melutilanteesta ja altistuneiden määrästä</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Meluselvityksissä on arvioitava ympäristönsuojelulain 151 §:n 1 momentin mukaisista kohteista päivä-ilta-yöajan äänitaso <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>den</sis1:AlaindeksiTeksti> ja yöajan äänitaso <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>yö</sis1:AlaindeksiTeksti> erikseen tieliikenteestä, raideliikenteestä, lentoliikenteestä ja teollisuudesta.</saa:MomenttiKooste>
-          <saa:KohdatMomentti>
-            <saa:MomenttiJohdantoKooste>Meluselvityksissä on lisäksi esitettävä päivä-ilta-yöajan äänitason <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>den</sis1:AlaindeksiTeksti> ja yöajan äänitason <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>yö</sis1:AlaindeksiTeksti> seuraavat meluvyöhykkeet:</saa:MomenttiJohdantoKooste>
-            <saa:MomenttiKohtaKooste>
-              <tau:table>
-                <tau:tgroup colsep="1" cols="2" rowsep="1">
-                  <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-                  <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-                  <tau:tbody>
-                    <tau:row>
-                      <tau:entry>
-                        <sis:KappaleKooste>Melun tunnusluku</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>Meluvyöhyke (dB)</sis:KappaleKooste>
-                      </tau:entry>
-                    </tau:row>
-                  </tau:tbody>
-                </tau:tgroup>
-                <tau:tgroup colsep="1" cols="7" rowsep="1">
-                  <tau:colspec colnum="1" colname="1" colwidth="14*"/>
-                  <tau:colspec colnum="2" colname="2" colwidth="14*"/>
-                  <tau:colspec colnum="3" colname="3" colwidth="14*"/>
-                  <tau:colspec colnum="4" colname="4" colwidth="14*"/>
-                  <tau:colspec colnum="5" colname="5" colwidth="14*"/>
-                  <tau:colspec colnum="6" colname="6" colwidth="14*"/>
-                  <tau:colspec colnum="7" colname="7" colwidth="14*"/>
-                  <tau:tbody>
-                    <tau:row>
-                      <tau:entry>
-                        <sis:KappaleKooste>
-                          <sis1:KursiiviTeksti>L</sis1:KursiiviTeksti>
-                          <sis1:AlaindeksiTeksti>den</sis1:AlaindeksiTeksti>
-                        </sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>–</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>55–59</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>60–64</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>65–69</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>70–74</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>≥ 75</sis:KappaleKooste>
-                      </tau:entry>
-                    </tau:row>
-                    <tau:row>
-                      <tau:entry>
-                        <sis:KappaleKooste>
-                          <sis1:KursiiviTeksti>L</sis1:KursiiviTeksti>
-                          <sis1:AlaindeksiTeksti>yö</sis1:AlaindeksiTeksti>
-                        </sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>50–54</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>55–59</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>60–64</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>65–69</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>≥ 70</sis:KappaleKooste>
-                      </tau:entry>
-                      <tau:entry>
-                        <sis:KappaleKooste>–</sis:KappaleKooste>
-                      </tau:entry>
-                    </tau:row>
-                  </tau:tbody>
-                </tau:tgroup>
-              </tau:table>
-            </saa:MomenttiKohtaKooste>
-          </saa:KohdatMomentti>
+          <saa:MomenttiKooste>Meluselvityksissä on lisäksi esitettävä päivä-ilta-yöajan äänitason <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>den</sis1:AlaindeksiTeksti> ja yöajan äänitason <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>yö</sis1:AlaindeksiTeksti> seuraavat meluvyöhykkeet:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup colsep="1" cols="7" rowsep="1">
+              <tau:colspec colnum="1" colname="1" colwidth="14*"/>
+              <tau:colspec colnum="2" colname="2" colwidth="14*"/>
+              <tau:colspec colnum="3" colname="3" colwidth="14*"/>
+              <tau:colspec colnum="4" colname="4" colwidth="14*"/>
+              <tau:colspec colnum="5" colname="5" colwidth="14*"/>
+              <tau:colspec colnum="6" colname="6" colwidth="14*"/>
+              <tau:colspec colnum="7" colname="7" colwidth="14*"/>
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Melun tunnusluku</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Meluvyöhyke (dB)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>L</sis1:KursiiviTeksti>
+                      <sis1:AlaindeksiTeksti>den</sis1:AlaindeksiTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>–</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>55–59</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>60–64</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>65–69</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>70–74</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>≥ 75</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>L</sis1:KursiiviTeksti>
+                      <sis1:AlaindeksiTeksti>yö</sis1:AlaindeksiTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50–54</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>55–59</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>60–64</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>65–69</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>≥ 70</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>–</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Meluselvityksissä on ilmoitettava 2 momentissa tarkoitetuilla meluvyöhykkeillä:</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>1) melulle altistuvissa rakennuksissa asuvien henkilöiden määrät pyöristettynä lähimpään sataan ja ilmoitettuna erikseen päivä-ilta-yöäänitason <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>den</sis1:AlaindeksiTeksti> ja yöäänitason <saa:SaadosKursiiviKooste>L</saa:SaadosKursiiviKooste><sis1:AlaindeksiTeksti>yö</sis1:AlaindeksiTeksti> mukaisesti sekä erikseen tie-, raide- ja lentoliikenteestä sekä teollisuudesta;</saa:MomenttiKohtaKooste>
@@ -224,6 +222,10 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Euroopan parlamentin ja neuvoston direktiivi 2002/49/EY ympäristömelun arvioinnista ja hallinnasta <sis:YleinenViite sis1:viiteURL="32002L0049"><sis1:ViiteTeksti>(32002L0049)</sis1:ViiteTeksti></sis:YleinenViite>, EUVL L 189, 18.7.2002, s. 12–25</sdk:EsityoViite>
+    <sdk:EsityoViite>komission direktiivi 2015/996 Euroopan parlamentin ja neuvoston direktiivin 2002/49/EY mukaisista melun arvioinnin yhteisistä menetelmistä <sis:YleinenViite sis1:viiteURL="32015L0996"><sis1:ViiteTeksti>(32015L0996)</sis1:ViiteTeksti></sis:YleinenViite>, EUVL L 168, 1.7.2015, s. 1–823</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 11 päivänä lokakuuta 2018</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

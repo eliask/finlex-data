@@ -70,9 +70,36 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 § </saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Vuonna 1988 kertyvistä, vuoteen 1987 ja sitä aikaisempiin vuosiin kohdistuvista työnantajan sosiaaliturvamaksuista on katsottava olevan:</saa:MomenttiKooste>
-          <te>1)työnantajan lapsilisämaksua        0,5 %</te>
-          <te>2)työnantajan kansaneläkemaksua     79,9 %</te>
-          <te>3)työnantajan sairausvakuutusmaksua 19,6 %</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1)työnantajan lapsilisämaksua</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,5 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2)työnantajan kansaneläkemaksua</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>79,9 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3)työnantajan sairausvakuutusmaksua</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>19,6 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>

@@ -34,19 +34,21 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Maksulliset liiketaloudelliset suoritteet</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Valtion maksuperustelain 7 §:ssä tarkoitettuja suoritteita, jotka ministeriö hinnoittelee liiketaloudellisin perustein, ovat:</saa:MomenttiKooste>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Valtion maksuperustelain 7 §:ssä tarkoitettuja suoritteita, jotka ministeriö hinnoittelee liiketaloudellisin perustein, ovat:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
 1) ministeriön ne julkaisut, lehdet, äänitteet, esitteet ja videonauhoitteet, joista peritään maksu;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 2) asiakirjojen kopiointi, muu jäljentäminen sekä lähettäminen;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 3) ministeriön hallinnassa olevien tilojen käyttö; sekä
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 4) ministeriössä tuotettujen tai ministeriön johdolla valmisteltujen tietojärjestelmien, rekisterien, ohjelmien ja muiden vastaavien myynti ja käyttöoikeuden luovuttaminen.
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
@@ -76,53 +78,334 @@
     <asi:SisaltoLiite>
       <sis:KappaleKooste>Liite</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>Maksutaulukko</sis1:ValiotsikkoTeksti>
-      <te>Suorite                                              maksu mk</te>
-      <te>Henkilötilausliikennelupa (joukkoliikennelupa)            800</te>
-      <te>Henkilölinjaliikennelupa tai luvan uudistaminen</te>
-      <te>Vakiovuoroliikenne                                        800</te>
-      <te>Pikavuoroliikenne                                       1 000</te>
-      <te>Kansainvälisen henkilölinjaliikenteen lupa              1 200</te>
-      <te>Aikataulumuutos tai tilausajotodistus                     500</te>
-      <te>Reittimuutos                                              500</te>
-      <te>Liikenteestä vastaavan henkilön muutos, kuolinpesän</te>
-      <te>oikeus jatkaa liikennettä, liikennelupaehtojen</te>
-      <te>muuttaminen tai liikennöintiin liittyvä muu lupa</te>
-      <te>tai hyväksyminen                                          500</te>
-      <te>Pyynnöstä annettu todistus liikennelupiin liittyvistä</te>
-      <te>asioista                                                   50</te>
-      <te>Poikkeuslupa tieliikenteen ajo- ja lepoajoista            350</te>
-      <te>Päätös lääninhallituksen liikennelupapäätöksestä</te>
-      <te>tehtyyn valitukseen                                       400</te>
-      <te>Päätös lääninhallituksen päätöksestä autokouluasioissa</te>
-      <te>tehtyyn valitukseen                                       400</te>
-      <te>Liikenteenohjauslaitteen vahvistaminen kokeilu-</te>
-      <te>tarkoituksessa käytettäväksi                              500</te>
-      <te>Poikkeuslupa liikenteenohjauslaitteen käyttöä</te>
-      <te>koskevista yleismääräyksistä                              500</te>
-      <te>Päätös ajoneuvon luokittelusta                          1 000</te>
-      <te>Päätös ajoneuvon rakenteesta tai varusteista annetusta</te>
-      <te>liikenneministeriön päätöksestä poikkeamisesta            800</te>
-      <te>Päätös katsastustoimen harjoittamista koskevaan</te>
-      <te>lupahakemukseen                                         4 000</te>
-      <te>Poikkeus ajoneuvon rakennetta ja varusteita koskevista</te>
-      <te>määräyksistä                                            1 000</te>
-      <te>Poikkeus ajoneuvon suurimmista sallituista massoista</te>
-      <te>ja mitoista                                             1 000</te>
-      <te>Vaarallisten aineiden reittirajoituspäätös              1 500</te>
-      <te>- laaja                                                 3 000</te>
-      <te>Vaarallisten aineiden kuljetuksiin liittyvät</te>
-      <te>poikkeusluvat                                           1 500</te>
-      <te>Alennus ja vapautus luotsausmaksusta                      350</te>
-      <te>Poikkeuslupa merimieskatselmuslain (1005/86)</te>
-      <te>tarkoittaman katselmuksen toimittamisesta                 350</te>
-      <te>Merenkulun kabotaasilupa                                  350</te>
-      <te>Poikkeuslupa laivanisännistöyhtiön pääisännän</te>
-      <te>kotipaikkavaatimuksesta                                   350</te>
-      <te>Alennus tai vapautus väylämaksun suorittamisesta          350</te>
-      <te>Merilain 1 §:n 2 mom:n mukainen lupa                      600</te>
-      <te>Erivapaus ansiotarkoituksessa harjoitettuun</te>
-      <te>lentotoimintaan                                           350</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Suorite</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>maksu mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Henkilötilausliikennelupa (joukkoliikennelupa)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>800</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Henkilölinjaliikennelupa tai luvan uudistaminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Vakiovuoroliikenne</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>800</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Pikavuoroliikenne</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Kansainvälisen henkilölinjaliikenteen lupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 200</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Aikataulumuutos tai tilausajotodistus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Reittimuutos</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Liikenteestä vastaavan henkilön muutos, kuolinpesän</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">oikeus jatkaa liikennettä, liikennelupaehtojen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">muuttaminen tai liikennöintiin liittyvä muu lupa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tai hyväksyminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Pyynnöstä annettu todistus liikennelupiin liittyvistä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>asioista</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>50</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Poikkeuslupa tieliikenteen ajo- ja lepoajoista</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Päätös lääninhallituksen liikennelupapäätöksestä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tehtyyn valitukseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>400</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Päätös lääninhallituksen päätöksestä autokouluasioissa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tehtyyn valitukseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>400</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Liikenteenohjauslaitteen vahvistaminen kokeilu-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tarkoituksessa käytettäväksi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Poikkeuslupa liikenteenohjauslaitteen käyttöä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>koskevista yleismääräyksistä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Päätös ajoneuvon luokittelusta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Päätös ajoneuvon rakenteesta tai varusteista annetusta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>liikenneministeriön päätöksestä poikkeamisesta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>800</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Päätös katsastustoimen harjoittamista koskevaan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>lupahakemukseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>4 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Poikkeus ajoneuvon rakennetta ja varusteita koskevista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>määräyksistä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Poikkeus ajoneuvon suurimmista sallituista massoista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>ja mitoista</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Vaarallisten aineiden reittirajoituspäätös</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>- laaja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Vaarallisten aineiden kuljetuksiin liittyvät</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>poikkeusluvat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Alennus ja vapautus luotsausmaksusta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Poikkeuslupa merimieskatselmuslain (1005/86)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tarkoittaman katselmuksen toimittamisesta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Merenkulun kabotaasilupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Poikkeuslupa laivanisännistöyhtiön pääisännän</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>kotipaikkavaatimuksesta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Alennus tai vapautus väylämaksun suorittamisesta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Merilain 1 §:n 2 mom:n mukainen lupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>600</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Erivapaus ansiotarkoituksessa harjoitettuun</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>lentotoimintaan</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>Lupahakemukseen annettavasta hylkäävästä päätöksestä peritään sama maksu kuin luvasta.</sis:KappaleKooste>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>

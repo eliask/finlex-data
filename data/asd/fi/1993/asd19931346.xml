@@ -90,53 +90,334 @@
       <sis:KappaleKooste>Liite</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>MAKSUTAULUKKO:</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Julkisoikeudelliset suoritteet</sis:KappaleKooste>
-      <te>Suorite</te>
-      <te>1) päätös, jolla vienti- tai tuontilupa on myönnetty tai lupaehtoja muutettu, tavaran arvon perusteella seuraavasti:</te>
-      <te>Tavaran arvo mk					Maksu</te>
-      <te>                Ä10 000 				   50 mk</te>
-      <te> yli 10 000     -100 000				  250 mk</te>
-      <te> yli 100 000    -1 000 000 			  500 mk</te>
-      <te> yli 1 000 000  -10 000 000 			  700 mk</te>
-      <te> yli 10 000 000 -					1 000 mk</te>
-      <te>  2) päätös, jolla vienti- tai tuontiluvan </te>
-      <te>     voimassaoloaikaa on luvan voimassaoloaikana </te>
-      <te>     tehdystä hakemuksesta pidennettey 		   50 mk</te>
-      <te>  3) maahantuontitodistus ja vientitodistus 	  100 mk</te>
-      <te>  4) päätös valvontalisenssistä 	                   50 mk</te>
-      <te>  5) päätös, jolla vienti- </te>
-      <te>	  tai tuontilupahakemus on hylätty 		   50 mk</te>
-      <te>  6) liikeaikalain poikkeuslupapäätökset 		1 000 mk</te>
-      <te>  7) elintarvikelakiin perustuvat </te>
-      <te>     poikkeuslupapäätökset 			1 000 mk</te>
-      <te>  8) tilintarkastusjärjestelmän </te>
-      <te>     valvontalautakunnan valituspäätökset 		  500 mk</te>
-      <te>  9) kirjanpitolautakunnan poikkeuslupapäätökset 	3 000 mk</te>
-      <te> 10) ulkomaisten yritysostojen </te>
-      <te>     vahvistushakemusten käsittely 	       12 000 mk</te>
-      <te> 11) päätökset luvista kuulua osakeyhtiön, </te>
-      <te>     asunto-osakeyhtiön tai osuuskunnan </te>
-      <te>     hallitukseen tai toimia niitten prokuristina    500 mk</te>
-      <te> 12) päätökset luvista toimia osakeyhtiön tai </te>
-      <te>     asunto-osakeyhtiön perustajana 	          500 mk</te>
-      <te> 13) päätökset luvista toimia </te>
-      <te>     elinkeinonharjoittajana 		          500 mk</te>
-      <te> 14) kiinteistönvälittäjäntutkintoon osallistuminen </te>
-      <te>     ja kiinteistönvälittäjätutkinnosta </te>
-      <te>     annettava todistus 	                          450 mk</te>
-      <te> 15) välipäätökset kaivoslain hakemusasioissa 	   50 mk</te>
-      <te> 16) kaivoslain hakemuksiin ja oikeuksiin </te>
-      <te>     liittyvät päätökset 	                          250 mk</te>
-      <te> 17) kaivosrekisteriote 	                   80 mk arkilta</te>
-      <te> 18) velvoitevarastoinnin poikkeuslupapäätökset 	1 000 mk</te>
-      <te> 19) turvavarastojen käyttölupapäätökset 	        1 000 mk</te>
-      <te> 20) kohdissa 1), 2), 3) ja 4) tarkoitetun </te>
-      <te>     hakemuksen tai sen peruutuksen </te>
-      <te>     käsitteleminen taikka tutkimatta jättäminen 	   50 mk</te>
-      <te> 21) kohdissa 6), 7), 8), 9), 11), 12), 13), 14), </te>
-      <te>     16), 18) ja 19) tarkoitetun hakemuksen tai sen</te>
-      <te>     peruutuksen käsitteleminen taikka </te>
-      <te>     tutkimatta jättäminen 	                  100 mk</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">Suorite</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">1) päätös, jolla vienti- tai tuontilupa on myönnetty tai lupaehtoja muutettu, tavaran arvon perusteella seuraavasti:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Tavaran arvo mk</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">Maksu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>-10 000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">50 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>yli 10 000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>-100 000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>yli 100 000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>-1 000 000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>yli 1 000 000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>-10 000 000</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>700 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>yli 10 000 000 -</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">1 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">2) päätös, jolla vienti- tai tuontiluvan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">voimassaoloaikaa on luvan voimassaoloaikana</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tehdystä hakemuksesta pidennettey</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">50 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>3) maahantuontitodistus ja vientitodistus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">100 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>4) päätös valvontalisenssistä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">50 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">5) päätös, jolla vienti-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tai tuontilupahakemus on hylätty</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">50 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>6) liikeaikalain poikkeuslupapäätökset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">1 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">7) elintarvikelakiin perustuvat</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>poikkeuslupapäätökset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">1 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">8) tilintarkastusjärjestelmän</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>valvontalautakunnan valituspäätökset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>9) kirjanpitolautakunnan poikkeuslupapäätökset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">3 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">10) ulkomaisten yritysostojen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>vahvistushakemusten käsittely</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">12 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">11) päätökset luvista kuulua osakeyhtiön,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">asunto-osakeyhtiön tai osuuskunnan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>hallitukseen tai toimia niitten prokuristina</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">12) päätökset luvista toimia osakeyhtiön tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>asunto-osakeyhtiön perustajana</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">13) päätökset luvista toimia</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>elinkeinonharjoittajana</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">14) kiinteistönvälittäjäntutkintoon osallistuminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">ja kiinteistönvälittäjätutkinnosta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>annettava todistus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">450 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>15) välipäätökset kaivoslain hakemusasioissa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">50 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">16) kaivoslain hakemuksiin ja oikeuksiin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>liittyvät päätökset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>17) kaivosrekisteriote</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">80 mk arkilta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>18) velvoitevarastoinnin poikkeuslupapäätökset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">1 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>19) turvavarastojen käyttölupapäätökset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">1 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">20) kohdissa 1), 2), 3) ja 4) tarkoitetun</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">hakemuksen tai sen peruutuksen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>käsitteleminen taikka tutkimatta jättäminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">50 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">21) kohdissa 6), 7), 8), 9), 11), 12), 13), 14),</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">16), 18) ja 19) tarkoitetun hakemuksen tai sen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">peruutuksen käsitteleminen taikka</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tutkimatta jättäminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">100 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

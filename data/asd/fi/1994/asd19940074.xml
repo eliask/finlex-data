@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>talousveden laatuvaatimuksista ja valvontatutkimuksista</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite XX: neuvoston direktiivi (80/778/ETY)</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -104,6 +99,9 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>ETA-sopimuksen liite XX: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="380L0778"><sis1:ViiteTeksti>(80/778/ETY)</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 21 päivänä tammikuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -121,7 +119,7 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite I</ete>
+      <sis1:ValiotsikkoTeksti>Liite I</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>TALOUSVEDEN LAATUVAATIMUKSET</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -137,7 +135,7 @@
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Enimmäistiheys</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Enimmäistiheys</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -151,7 +149,7 @@
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste><saa:SaadosKursiiviKooste>Escherichia coli</saa:SaadosKursiiviKooste> (alustava tunnistus)</sis:KappaleKooste>
+                <sis:KappaleKooste><sis1:KursiiviTeksti>Escherichia coli</sis1:KursiiviTeksti> (alustava tunnistus)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>alle 1/100 ml</sis:KappaleKooste>
@@ -189,7 +187,7 @@
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Enimmäispitoisuus, mg/l</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Enimmäispitoisuus, mg/l</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -396,7 +394,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite I/2</ete>
+      <sis1:ValiotsikkoTeksti>Liite I/2</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste><sis1:LihavaTeksti>Taulukko 2.</sis1:LihavaTeksti> Teknis-esteettiset laatuvaatimukset (organoleptiset ja fysikaalis-kemialliset parametrit sekä aineita, jotka liiallisina määrinä esiintyessään voivat olla haitallisia)</sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
@@ -409,7 +407,7 @@
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Enimmäispitoisuus, mg/l</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Enimmäispitoisuus, mg/l</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -603,7 +601,7 @@
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Vaatimustaso</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Vaatimustaso</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -652,14 +650,40 @@
       </tau:table>
       <sis:KappaleKooste><sis1:YlaindeksiTeksti>1)</sis1:YlaindeksiTeksti> ks. huomautus 2 liitteessä II "Talousveden valvontatutkimusten tiheydet"</sis:KappaleKooste>
       <sis:KappaleKooste>Seuraavia tavoitearvoja tulisi soveltaa pyrittäessä turvaamaan talousveden hyvä laatu:</sis:KappaleKooste>
-      <te>heterotrofinen pesäkeluku       (22°C, 72h)    &lt; 100/ml</te>
-      <te>heterotrofinen pesäkeluku       (37°C, 48h)    &lt; 10/ml</te>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>heterotrofinen pesäkeluku</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>(22°C, 72h)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>&lt; 100/ml</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>heterotrofinen pesäkeluku</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>(37°C, 48h)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>&lt; 10/ml</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>aktiivisen kloorin kokonaismäärä &lt; 1 mg/l, alumiini &lt; 0,1, ammonium &lt; 0,2, kloridi &lt; 25, KMnO<sis1:AlaindeksiTeksti>4</sis1:AlaindeksiTeksti>-luku &lt; 8 (COD<sis1:AlaindeksiTeksti>Mn</sis1:AlaindeksiTeksti> &lt; 2,0), kupari &lt; 0,3, orgaanisen hiilen kokonaismäärä (TOC) &lt; 2,0, sulfaatti &lt; 50, pH 7,0–8,8, sameus &lt; 0,4, sähkönjohtavuus &lt; 40, väriluku &lt; 5</sis:KappaleKooste>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite I/3</ete>
+      <sis1:ValiotsikkoTeksti>Liite I/3</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste><sis1:LihavaTeksti>Taulukko 3.</sis1:LihavaTeksti> Alimmat sallitut pitoisuudet talousvedelle, joka on pehmennetty*</sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
@@ -691,7 +715,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite I/4</ete>
+      <sis1:ValiotsikkoTeksti>Liite I/4</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste><sis1:LihavaTeksti>Taulukko 4.</sis1:LihavaTeksti> Maailman terveysjärjestön määrittelemät eräiden harvoin esiintyvien aineiden terveysperusteiset enimmäispitoisuudet talousvedessä (WHO, 1993)</sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
@@ -1009,7 +1033,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite II</ete>
+      <sis1:ValiotsikkoTeksti>Liite II</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>TALOUSVEDEN VALVONTATUTKIMUSTEN TIHEYDET</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -1242,7 +1266,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite II/2</ete>
+      <sis1:ValiotsikkoTeksti>Liite II/2</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste><sis1:LihavaTeksti>Tutkimus C<sis1:AlaindeksiTeksti>3</sis1:AlaindeksiTeksti>:</sis1:LihavaTeksti> Kuten C<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> ja lisämäärityksiä seuraavan luettelon mukaisesti</sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">

@@ -12,43 +12,91 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Asetus</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>terveyskeskukselle työterveyshuollosta perittävistä maksuista ja korvauksista annetun asetuksen muuttamisesta</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Sosiaali- ja terveysministerin esittelystä muutetaan terveyskeskukselle työterveyshuollosta perittävistä maksuista ja korvauksista 15 päivänä joulukuuta 1978 annetun asetuksen (984/78) 1 §:n 1 momentin 1 ja 3 kohdat,</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>sellaisina kuin ne ovat 21 päivänä marraskuuta 1986 annetussa asetuksessa (840/86) näin kuuluviksi:</te>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
-          <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
-          <saa:KohdatMomentti>
-            <saa:MomenttiJohdantoKooste>Terveyskeskuksen tuottamista kansanterveyslain 14 §:n 1 momentin 7 kohdassa ja 14 a §:n 1 momentin 2 kohdassa tarkoitetuista työterveyshuoltopalveluksista työnantaja on velvollinen suorittamaan terveyskeskukselle seuraavat maksut ja korvaukset:</saa:MomenttiJohdantoKooste>
-            <saa:MomenttiKohtaKooste>
-1) toimenpiteistä käyntikerralla
-<te>lääkärin vastaanotolla				100 mk</te>
-<te>terveydenhoitajan tai muun terveyden-</te>
-<te>huollon ammattihenkilön vastaanotolla		 50 mk</te>
-<te>lääkärin määräämistä asianmukaisen</te>
-<te>koulutuksen saaneen henkilön suoritta-</te>
-<te>mista erikoistutkimuksista				 84 mk</te>
-
-</saa:MomenttiKohtaKooste>
-            <sis:Katkoviiva/>
-          </saa:KohdatMomentti>
-          <saa:MomenttiKooste>3) terveyskeskuksen henkilökunnan suorittamista työpaikkakäynneistä sekä neuvonta-, ohjaus- ja valistustoiminnasta aiheutuneet todelliset matkakustannukset ja korvausta matkoihin käytetty aika huomioon ottaen kultakin alkaneelta puolelta tunnilta</saa:MomenttiKooste>
-          <te>lääkärin osalta					150 mk</te>
-          <te>muiden henkilöiden osalta 				 75 mk</te>
-          <sis:Katkoviiva/>
-        </saa:Pykala>
+        <saa:SaadosKappaleKooste>sellaisina kuin ne ovat 21 päivänä marraskuuta 1986 annetussa asetuksessa (840/86) näin kuuluviksi:</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>1 §</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Terveyskeskuksen tuottamista kansanterveyslain 14 §:n 1 momentin 7 kohdassa ja 14 a §:n 1 momentin 2 kohdassa tarkoitetuista työterveyshuoltopalveluksista työnantaja on velvollinen suorittamaan terveyskeskukselle seuraavat maksut ja korvaukset:</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>1) toimenpiteistä käyntikerralla</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="2" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">lääkärin vastaanotolla</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">100 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>terveydenhoitajan tai muun terveyden-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">huollon ammattihenkilön vastaanotolla</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">50 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>lääkärin määräämistä asianmukaisen</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>koulutuksen saaneen henkilön suoritta-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">mista erikoistutkimuksista</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">84 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <sis:Katkoviiva/>
+        <saa:SaadosKappaleKooste>3) terveyskeskuksen henkilökunnan suorittamista työpaikkakäynneistä sekä neuvonta-, ohjaus- ja valistustoiminnasta aiheutuneet todelliset matkakustannukset ja korvausta matkoihin käytetty aika huomioon ottaen kultakin alkaneelta puolelta tunnilta</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="2" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">lääkärin osalta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">150 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">muiden henkilöiden osalta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">75 mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <sis:Katkoviiva/>
         <sis:Palstaviiva/>
-        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
-          <saa:MomenttiKooste>Tämä asetus tulee voimaan 1 päivänä tammikuuta 1988.</saa:MomenttiKooste>
-        </saa:Pykala>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Tämä asetus tulee voimaan 1 päivänä tammikuuta 1988.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 18 päivänä joulukuuta 1987</asi:PaivaysKooste>

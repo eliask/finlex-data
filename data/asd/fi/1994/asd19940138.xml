@@ -55,28 +55,242 @@
           <saa:SaadosOtsikkoKooste>Palkkion määrä</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Vientikustannusmaksulain mukaiselta maksusta vapautumiseksi vaadittavalta kesantoalalta ei makseta palkkiota.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Viljelijälle, joka on kesannoinut jäljempänä 5 §:ssä tarkoitettuna viherkesantona tai jäljempänä 3 momentissa tarkoitettuna kyntämättömänä kesantona vientikustannusmaksulain 5 §:n mukaisesta peltoalasta maksusta vapautumiseksi vaadittavaa määrää enemmän, maksetaan tältä kesantoalalta palkkiota, jos kesantoala ylittää vientikustannusmaksulain mukaisen maksusta vapautumiseksi vaadittavan osuuden vähintään 5 prosenttiyksiköllä. Kesantopalkkiot ovat viherkesantona hoidetulta kesantoalalta eri maaseutuelinkeinopiirien alueella tällöin seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>Maaseutu-                Palkkio         Palkkio</te>
-          <te>elinkeinopiiri          15-30 %:n      yli 30 %:n</te>
-          <te>                     kesannoinnista  kesannoinnista</te>
-          <te>                          mk/ha          mk/ha</te>
-          <te>Uudenmaan                 2 900            600</te>
-          <te>Turun                     2 900            600</te>
-          <te>Satakunnan                2 700            500</te>
-          <te>Hämeen                    2 700            500</te>
-          <te>Kymen                     2 500            450</te>
-          <te>Mikkelin                  2 400            350</te>
-          <te>Pirkanmaan                2 500            450</te>
-          <te>Etelä-Pohjanmaan          2 500            450</te>
-          <te>Vaasan                    2 500            450</te>
-          <te>Keski-Pohjanmaan          2 300            300</te>
-          <te>Keski-Suomen              2 300            300</te>
-          <te>Kuopion                   2 300            300</te>
-          <te>Pohjois-Karjalan          2 100            300</te>
-          <te>Kainuun                   2 000            250</te>
-          <te>Oulun                     2 000            250</te>
-          <te>Lapin                     1 800            200</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Maaseutu-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Palkkio</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Palkkio</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>elinkeinopiiri</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>15-30 %:n</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>yli 30 %:n</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>kesannoinnista</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>kesannoinnista</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk/ha</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk/ha</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Uudenmaan</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 900</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Turun</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 900</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Satakunnan</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 700</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Hämeen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 700</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kymen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 500</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>450</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Mikkelin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 400</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>350</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Pirkanmaan</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 500</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>450</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Etelä-Pohjanmaan</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 500</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>450</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Vaasan</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 500</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>450</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Keski-Pohjanmaan</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 300</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>300</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Keski-Suomen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 300</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>300</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kuopion</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 300</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>300</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Pohjois-Karjalan</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 100</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>300</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kainuun</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>250</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Oulun</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>250</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Lapin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 800</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>200</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Siltä osin kuin 2 momentissa tarkoitettu velvoitteen ylittävä kesantoala 15-30 %:n kesannoinnissa ei ole 5 tai 8 §:n mukaista viherkesantoa, mutta se on edeltävänä syksynä viljan, öljykasvien, palkoviljan, yksivuotisen nurmen, kesannossa edellisenä vuonna sallitun kasvin tai vihantarehukasvin sadonkorjuun jälkeen kyntämättä jätettyä peltoa, jota pidetään kyntämättä ja muokkaamatta edelleen vähintään vuoden 1994 lokakuun 1 päivään saakka, maksetaan kesantopalkkio hehtaarilta 400 markalla alennettuna.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Oikeushenkilön saama palkkio hehtaaria kohti voi olla enintään yli 30 %:n kesannoimisesta maksettavan korvauksen suuruinen.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Jos peltoa käytetään 8 §:n 1 momentin 1 kohdan mukaisesti hevosten tai sikojen laiduntamiseen, kesantopalkkiota ei laiduntamiseen käytetyn pellon osalta makseta.</saa:MomenttiKooste>

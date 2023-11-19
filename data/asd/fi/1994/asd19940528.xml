@@ -12,23 +12,55 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Maa- ja metsätalousministeriön päätös</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>rehun lisäaineista annetun päätöksen muuttamisesta</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Maa- ja metsätalousministeriö on muuttanut rehun lisäaineista 1 päivänä maaliskuuta 1994 annettua päätöstä (181/94) seuraavasti:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>Rehun lisäaineluettelon osaan C; Suomessa toistaiseksi markkinoitavien lisäaineiden luettelon, kohtaan nurmirehun säilöntään tarkoitetut säilöntäaineet lisätään Ekoferm-niminen valmiste seuraavasti:</te>
-        <te/>
-        <te>12. AIV Bio Plus      31. 5.1995 asti     Valio Oy</te>
-        <te>13. Ekoferm           31.12.1995 asti     Bioproton Oy</te>
-        <te/>
-        <te>Tämä päätös tulee voimaan 29 päivänä kesäkuuta 1994.</te>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Rehun lisäaineluettelon osaan C; Suomessa toistaiseksi markkinoitavien lisäaineiden luettelon, kohtaan nurmirehun säilöntään tarkoitetut säilöntäaineet lisätään Ekoferm-niminen valmiste seuraavasti:</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="3" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>12. AIV Bio Plus</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>31. 5.1995 asti</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Valio Oy</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>13. Ekoferm</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>31.12.1995 asti</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Bioproton Oy</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>Tämä päätös tulee voimaan 29 päivänä kesäkuuta 1994.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 23 päivänä kesäkuuta 1994</asi:PaivaysKooste>

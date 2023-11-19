@@ -77,11 +77,46 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">
           <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Verotaulukon tuoteryhmiin 9, 50, 190, 191 ja 193 kuuluvista vientituotteista voidaan maksaa hinnanerokorvauksia vuonna 1993 enintään seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>                                                       tonnia</te>
-          <te>tuoteryhmä 9, ohramaltaat                              49 000</te>
-          <te>tuoteryhmät 50, 190, 191 ja 193 sokerikemian tuotteet   3 500</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>tonnia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>tuoteryhmä 9, ohramaltaat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>49 000</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>tuoteryhmät 50, 190, 191 ja 193 sokerikemian tuotteet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Valtiovarainministeriö vahvistaa kotimaisten valmistajien tai viejien osuudet 1 momentissa tai liiteluettelossa tarkoitetuista määristä.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:SaadosValiotsikkoKooste>Eräät sokeria, kasviöljyä tai maitorasvaa sisältävät tuotteet</saa:SaadosValiotsikkoKooste>
@@ -169,7 +204,7 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite puuttuu</ete>
+      <sis1:ValiotsikkoTeksti>Liite puuttuu</sis1:ValiotsikkoTeksti>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

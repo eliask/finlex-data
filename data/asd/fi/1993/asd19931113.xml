@@ -32,22 +32,14 @@
             <saa:MomenttiJohdantoKooste>Asuntoedun ja siihen sisältyvän lämmityksen raha-arvot ovat keskuslämmitysasunnoissa seuraavat:</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>
 a) Pääkaupunkiseutu (Helsinki, Espoo, Kauniainen, Vantaa)
-<te/>
-<te>Asunto valmistunut:           Edun arvo mk/kk</te>
-<te>ennen vuotta 1984             260 mk + 26,60 mk neliömetriltä</te>
-<te>vuosina 1984-1991             290 mk + 32,60 mk neliömetriltä</te>
-<te>vuonna 1992 tai myöhemmin     290 mk + 35,20 mk neliömetriltä</te>
+
+<tau:table><tau:tgroup cols="2" colsep="1" rowsep="1"><tau:tbody><tau:row><tau:entry><sis:KappaleKooste colname="1">Asunto valmistunut:</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">Edun arvo mk/kk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">ennen vuotta 1984</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">260 mk + 26,60 mk neliömetriltä</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">vuosina 1984-1991</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">290 mk + 32,60 mk neliömetriltä</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">vuonna 1992 tai myöhemmin</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">290 mk + 35,20 mk neliömetriltä</sis:KappaleKooste></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>
 b) Muu Suomi
-<te>Asunto valmistunut:           Edun arvo mk/kk</te>
-<te>ennen vuotta 1961             230 mk + 19,30 mk neliömetriltä</te>
-<te>vuosina 1961-1975             250 mk + 20,50 mk neliömetriltä</te>
-<te>vuosina 1976-1983             250 mk + 21,40 mk neliömetriltä</te>
-<te>vuosina 1984-1991             250 mk + 27,00 mk neliömetriltä</te>
-<te>vuonna 1992 tai myöhemmin     260 mk + 31,10 mk neliömetriltä</te>
-<te/>
+
+<tau:table><tau:tgroup cols="2" colsep="1" rowsep="1"><tau:tbody><tau:row><tau:entry><sis:KappaleKooste colname="1">Asunto valmistunut:</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">Edun arvo mk/kk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">ennen vuotta 1961</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">230 mk + 19,30 mk neliömetriltä</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">vuosina 1961-1975</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">250 mk + 20,50 mk neliömetriltä</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">vuosina 1976-1983</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">250 mk + 21,40 mk neliömetriltä</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">vuosina 1984-1991</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">250 mk + 27,00 mk neliömetriltä</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">vuonna 1992 tai myöhemmin</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">260 mk + 31,10 mk neliömetriltä</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="2"><sis:KappaleKooste/></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
@@ -132,7 +124,9 @@ a) Ikäryhmä A (vuosina 1992 ja 1993 käyttöönotetut autot)
           <saa:MomenttiKooste>Edun arvo kuukaudessa on 1,9 % auton uushankintahinnasta lisättynä 1 000 markalla tai 67 pennillä kilometriltä.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Auton käyttöetu:</saa:MomenttiKooste>
           <saa:MomenttiKooste>Edun arvo kuukaudessa on 1,7 % auton uushankintahinnasta lisättynä 500 markalla tai 33 pennillä kilometriltä.</saa:MomenttiKooste>
-          <saa:MomenttiKooste>Kilometrikohtaisen arvon käyttäminen edellyttää ajopäiväkirjaa tai muuta luotettavaa selvitystä autolla ajetuista kilometrimääristä.</saa:MomenttiKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Kilometrikohtaisen arvon käyttäminen edellyttää ajopäiväkirjaa tai muuta luotettavaa selvitystä autolla ajetuista kilometrimääristä.</saa:MomenttiJohdantoKooste>
+          </saa:KohdatMomentti>
           <tau:table>
             <tau:tgroup cols="3" colsep="0" rowsep="0" align="left">
               <tau:colspec colnum="1" colname="1" colwidth=""/>
@@ -181,51 +175,22 @@ a) Ikäryhmä A (vuosina 1992 ja 1993 käyttöönotetut autot)
               </tau:tbody>
             </tau:tgroup>
           </tau:table>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiKohtaKooste>
 b) Ikäryhmä B (vuonna 1991 käyttöönotetut autot)
-<te>I autoluokka,</te>
-<te>sylinteritilavuus enintään 1300 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> jauushankintahinta enintään 95 000 mk</te>
-<te>-  vapaa autoetu 	2 120	1 100	 68</te>
-<te>-  auton käyttöetu	1 550	1 100	 33</te>
-<te>II autoluokka,</te>
-<te>sylinteritilavuus enintään 1600 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> jauushankintahinta enintään 137 000 mk</te>
-<te>-  vapaa autoetu	2 640	1 450	 80</te>
-<te>-  auton käyttöetu	2 040	1 450	 40</te>
-<te>III autoluokka,</te>
-<te>sylinteritilavuus enintään 2000 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> ja</te>
-<te>uushankintahinta enintään 210 000 mk</te>
-<te>-  vapaa autoetu	3 590	2 110	 99</te>
-<te>-  auton käyttöetu	2 930	2 110	 54</te>
-<te>IV autoluokka,</te>
-<te>sylinteritilavuus yli 2000 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> jauushankintahinta enintään 255 000 mk</te>
-<te>-  vapaa autoetu	4 620	2 800	121</te>
-<te>-  auton käyttöetu	3 820	2 800	 68</te>
-<te>V autoluokka,</te>
-<te>uushankintahinta yli 255 000 mk</te>
-<te>-  vapaa autoetu	6 810	4 440	158</te>
-<te>-  auton käyttöetu	5 880	4 440	96</te>
+
+<tau:table><tau:tgroup cols="4" colsep="1" rowsep="1"><tau:tbody><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>I autoluokka,</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>sylinteritilavuus enintään 1300 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> jauushankintahinta enintään 95 000 mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- vapaa autoetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">2 120</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">1 100</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">68</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- auton käyttöetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">1 550</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">1 100</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">33</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>II autoluokka,</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>sylinteritilavuus enintään 1600 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> jauushankintahinta enintään 137 000 mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- vapaa autoetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">2 640</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">1 450</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">80</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- auton käyttöetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">2 040</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">1 450</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">40</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>III autoluokka,</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>sylinteritilavuus enintään 2000 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> ja</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>uushankintahinta enintään 210 000 mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- vapaa autoetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">3 590</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">2 110</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">99</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- auton käyttöetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">2 930</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">2 110</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">54</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>IV autoluokka,</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>sylinteritilavuus yli 2000 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> jauushankintahinta enintään 255 000 mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- vapaa autoetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">4 620</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">2 800</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">121</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- auton käyttöetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">3 820</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">2 800</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">68</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>V autoluokka,</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>uushankintahinta yli 255 000 mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- vapaa autoetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">6 810</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">4 440</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">158</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- auton käyttöetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">5 880</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">4 440</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">96</sis:KappaleKooste></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
+            <saa:MomenttiKohtaKooste>
 c) Ikäryhmä C (ennen vuotta 1991 käyttöönotetut autot)
-<te>I autoluokka,</te>
-<te>sylinteritilavuus enintään 1300 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></te>
-<te>-  vapaa autoetu	1 570	  550	 68</te>
-<te>-  auton käyttöetu	1 040	  550	 33</te>
-<te>II autoluokka,</te>
-<te>sylinteritilavuus enintään 1600 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></te>
-<te>-  vapaa autoetu	1 920	  720	 80</te>
-<te>-  auton käyttöetu	1 320	  720	 40</te>
-<te>III autoluokka,</te>
-<te>sylinteritilavuus enintään 2000 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></te>
-<te>-  vapaa autoetu	2 530	1 060	 99</te>
-<te>-  auton käyttöetu	1 870	1 060	 54</te>
-<te>IV autoluokka,</te>
-<te>sylinteritilavuus yli 2000 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></te>
-<te>-  vapaa autoetu	3 220	1 400	121</te>
-<te>-  auton käyttöetu	2 430	1 400	 68</te>
+
+<tau:table><tau:tgroup cols="4" colsep="1" rowsep="1"><tau:tbody><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>I autoluokka,</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>sylinteritilavuus enintään 1300 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- vapaa autoetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">1 570</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">550</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">68</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- auton käyttöetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">1 040</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">550</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">33</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>II autoluokka,</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>sylinteritilavuus enintään 1600 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- vapaa autoetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">1 920</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">720</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">80</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- auton käyttöetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">1 320</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">720</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">40</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>III autoluokka,</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>sylinteritilavuus enintään 2000 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- vapaa autoetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">2 530</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">1 060</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">99</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- auton käyttöetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">1 870</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">1 060</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">54</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>IV autoluokka,</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="4"><sis:KappaleKooste>sylinteritilavuus yli 2000 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti></sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- vapaa autoetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">3 220</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">1 400</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">121</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">- auton käyttöetu</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">2 430</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="3">1 400</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="4">68</sis:KappaleKooste></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="18 §">
           <saa:PykalaTunnusKooste>18 §</saa:PykalaTunnusKooste>

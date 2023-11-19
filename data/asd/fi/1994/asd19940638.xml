@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>valtion eläkelain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 69/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>StVM 15/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -51,17 +43,8 @@ b) edellä a alakohdassa tarkoitetulla virkamiehellä on sotilasarvo sekä a ala
 </saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>
 3) jos, milloin kysymyksessä on 1 §:n 3 momentissa tarkoitettu vanha edunsaaja, sellaisessa upseerin tai opistoupseerin virassa, johon ehdottomana kelpoisuusvaatimuksena on upseerin tai opistoupseerin virkatutkinto, palvelevalla virkamiehellä on sotilasarvo ja tällaisessa virassa tai, opistoupseerin viran ollessa kyseessä, yhteensä tällaisessa virassa ja värvätyn, sotilasammattihenkilön, rajavartijan ja merivartijan tehtävissä eläkeaikaa vähintään seuraavan taulukon mukainen määrä ja tästä eläkeajasta vähintään kuusi kuukautta välittömästi ennen palveluksen päättymistä ja vähintään kolme vuotta palveluksen päättymistä välittömästi edeltäneiden viiden vuoden ajalta:
-<te/>
-<te>Eläkeaikaa vuoden         Eläkkeeseen vaadittava</te>
-<te>1994 loppuun              eläkeaika</te>
-<te>mennessä</te>
-<te>vähintään 16 vuotta       25 vuotta</te>
-<te>vähintään 13 vuotta       26 vuotta</te>
-<te>vähintään 10 vuotta       27 vuotta</te>
-<te>vähintään  7 vuotta       28 vuotta</te>
-<te>vähintään  3 vuotta       29 vuotta</te>
-<te>alle 3 vuotta             30 vuotta;</te>
-<te/>
+
+<tau:table><tau:tgroup cols="2" colsep="1" rowsep="1"><tau:tbody><tau:row><tau:entry><sis:KappaleKooste colname="1">Eläkeaikaa vuoden</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">Eläkkeeseen vaadittava</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">1994 loppuun</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">eläkeaika</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="2"><sis:KappaleKooste>mennessä</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">vähintään 16 vuotta</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">25 vuotta</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">vähintään 13 vuotta</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">26 vuotta</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">vähintään 10 vuotta</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">27 vuotta</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">vähintään 7 vuotta</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">28 vuotta</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">vähintään 3 vuotta</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">29 vuotta</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">alle 3 vuotta</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">30 vuotta;</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="2"><sis:KappaleKooste/></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
@@ -83,15 +66,73 @@ b) edellä a alakohdassa tarkoitetulla virkamiehellä on sotilasarvo sekä a ala
             <sis:Katkoviiva/>
           </saa:KohdatMomentti>
           <saa:MomenttiKooste>Laskettaessa 5 momentin mukaisesti eläkkeiden enimmäismäärää 8 §:n 4 momentin 3 kohdassa tarkoitetulle edunsaajalle sekä sellaiselle puolustusvoimien sotilasammattihenkilön tai värvätyn taikka rajavartiolaitoksen erikoisupseerin, rajavartijan tai merivartijan viran haltijalle, joka on 1 §:n 3 momentissa tarkoitettu vanha edunsaaja, sovelletaan kuitenkin 5 momentin lopussa olevan taulukon asemesta seuraavaa taulukkoa:</saa:MomenttiKooste>
-          <te/>
-          <te>Eläkeaikaa                Prosenttia</te>
-          <te>vähintään 16 vuotta       66 prosenttia</te>
-          <te>vähintään 13 vuotta       65 prosenttia</te>
-          <te>vähintään 10 vuotta       64 prosenttia</te>
-          <te>vähintään  7 vuotta       63 prosenttia</te>
-          <te>vähintään  3 vuotta       62 prosenttia</te>
-          <te>alle 3 vuotta             61 prosenttia</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Eläkeaikaa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 16 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">66 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 13 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">65 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 10 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">64 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 7 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">63 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 3 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">62 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">alle 3 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">61 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>Edellä 7 momentin 3 kohdassa tarkoitettu eläkettä vastaava etuus vähennetään tämän lain mukaisesta eläkkeestä valtiovarainministeriön vahvistamien laskentaperusteiden mukaisesti.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -99,15 +140,73 @@ b) edellä a alakohdassa tarkoitetulla virkamiehellä on sotilasarvo sekä a ala
           <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>Tehtäessä 1 momentin mukaisesti eläkkeen yhteensovitusta 8 §:n 4 momentin 3 kohdassa tarkoitetulle edunsaajalle sekä sellaiselle puolustusvoimien sotilasammattihenkilön tai värvätyn taikka rajavartiolaitoksen erikoisupseerin, rajavartijan tai merivartijan viran haltijalle, joka on 1 §:n 3 momentissa tarkoitettu vanha edunsaaja, sovelletaan kuitenkin 1 momentin lopussa olevan taulukon asemesta seuraavaa taulukkoa:</saa:MomenttiKooste>
-          <te/>
-          <te>Eläkeaikaa                 Prosenttia</te>
-          <te>vähintään 16 vuotta        66 prosenttia</te>
-          <te>vähintään 13 vuotta        65 prosenttia</te>
-          <te>vähintään 10 vuotta        64 prosenttia</te>
-          <te>vähintään  7 vuotta        63 prosenttia</te>
-          <te>vähintään  3 vuotta        62 prosenttia</te>
-          <te>alle 3 vuotta              61 prosenttia</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Eläkeaikaa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 16 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">66 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 13 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">65 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 10 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">64 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 7 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">63 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 3 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">62 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">alle 3 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">61 prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <sis:Palstaviiva/>
@@ -116,16 +215,78 @@ b) edellä a alakohdassa tarkoitetulla virkamiehellä on sotilasarvo sekä a ala
           <saa:MomenttiKooste>Tätä lakia ei sovelleta 8 §:n 4 momentin 3 kohdassa eikä 10 §:n 6 momentissa tarkoitettuun edunsaajaan, jolla on lainkohdassa tarkoitettua eläkeaikaa 31 päivänä joulukuuta 1994 vähintään 16 vuotta. Lakia ei sovelleta myöskään rajavartiolaitoksen ilma-aluksen päällikköön. Mainittuihin edunsaajiin sovelletaan edelleen tämän lain voimaan tullessa voimassa olleita vastaavia säännöksiä.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Tämän lain 8 §:n 4 momentin 3 kohdasta poiketen eläkkeeseen vaadittava palvelusaika on 20 vuotta, jos edunsaajan eroamisikä on enintään 50 vuotta ja hänellä on, kun kysymys on muusta kuin lentäjän virasta, mainitussa lainkohdassa tarkoitettua eläkeaikaa 31 päivänä joulukuuta 1994 vähintään 10 vuotta. Ilma-aluksen ohjaajana 31 päivänä joulukuuta 1992 toimineella rajavartiolaitoksen upseerilla ja opistoupseerilla eläkkeeseen vaadittava palvelusaika on 25 vuotta, jos hän on täyttänyt 50 vuotta.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Tämän lain 8 §:n 4 momentin 3 kohdasta poiketen sellaisessa lentäjän tutkintoa edellyttävässä virassa, jossa edunsaajan eroamisikä on enintään 50 vuotta, palvelevalta virkamieheltä, joka on ollut palveluksessa 31 päivänä joulukuuta 1992, vaaditaan 31 päivään joulukuuta 1994 mennessä eläkkeeseen oikeuttavaa palvelusaikaa tässä virassa seuraavasti:</saa:MomenttiKooste>
-          <saa:MomenttiKooste/>
-          <saa:MomenttiKooste>Eläkeaikaa               Eläkkeeseen vaadittava</saa:MomenttiKooste>
-          <saa:MomenttiKooste>eläkeaika</saa:MomenttiKooste>
-          <saa:MomenttiKooste>vähintään 16 vuotta      20 vuotta</saa:MomenttiKooste>
-          <saa:MomenttiKooste>vähintään 13 vuotta      21 vuotta</saa:MomenttiKooste>
-          <saa:MomenttiKooste>vähintään 10 vuotta      22 vuotta</saa:MomenttiKooste>
-          <saa:MomenttiKooste>vähintään  7 vuotta      23 vuotta</saa:MomenttiKooste>
-          <saa:MomenttiKooste>vähintään  3 vuotta      24 vuotta</saa:MomenttiKooste>
-          <saa:MomenttiKooste>alle 3 vuotta            25 vuotta</saa:MomenttiKooste>
-          <saa:MomenttiKooste/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Eläkeaikaa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Eläkkeeseen vaadittava</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>eläkeaika</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 16 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">20 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 13 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">21 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 10 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">22 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 7 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">23 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vähintään 3 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">24 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">alle 3 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">25 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Sellaisen upseerin tai opistoupseerin viran, johon ehdottomana kelpoisuusvaatimuksena on upseerin tai opistoupseerin virkatutkinto, haltijan, jolla on sotilasarvo ja joka on valtion eläkelain 1 §:n 3 momentissa tarkoitettu vanha edunsaaja, eläkkeen määrä on ajalta ennen 1 päivää tammikuuta 1995 jokaiselta eläkeajaksi luetulta täydeltä kuukaudelta 11/50 prosenttia eläkkeen perusteena olevasta palkasta. Sellaisen rajavartiolaitoksen rajavartijan tai ilma-aluksen päällikön, joka on valtion eläkelain 1 §:n 3 momentissa tarkoitettu vanha edunsaaja ja jolla on eläkeaikaa tällaisessa palveluksessa vähintään 15 vuotta, eläkkeen määrä jokaiselta eläkeajaksi luetulta täydeltä kuukaudelta on ajalta ennen 1 päivää tammikuuta 1995 11/50 prosenttia eläkkeen perusteena olevasta palkasta.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Rajavartiolaitoksen sellaisen upseerin tai opistoupseerin viran haltijan, joka 31 päivänä joulukuuta 1992 toimi ja sen jälkeen toimii valtion eläkelain 1 §:n 3 momentissa tarkoitetulla tavalla yhdenjaksoisesti eläketapahtumaansa asti ilma-aluksen ohjaajana, eläkkeen määrä on tämän lain 10 §:n 3 momentista poiketen 1 päivästä tammikuuta 1995 jokaiselta eläkeajaksi luetulta täydeltä kuukaudelta 1/5 prosenttia eläkkeen perusteena olevasta palkasta.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Sellaisen 1 §:n 3 momentissa tarkoitetun vanhan edunsaajan, jonka eroamisikä on enintään 55 vuotta, eläkkeen määrä on 1 päivästä tammikuuta 1995 jokaiselta eläkeajaksi lueteltua täydelta kuukaudelta 1/6 prosenttia eläkkeen perusteena olevasta palkasta.</saa:MomenttiKooste>
@@ -134,6 +295,18 @@ b) edellä a alakohdassa tarkoitetulla virkamiehellä on sotilasarvo sekä a ala
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940069.he">
+        <sis1:ViiteTeksti>HE 69/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940015.stvm">
+        <sis1:ViiteTeksti>StVM 15/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Naantalissa 15 päivänä heinäkuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

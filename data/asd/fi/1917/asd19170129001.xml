@@ -50,37 +50,134 @@ säännöt.</saa:SaadosKappaleKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §.">
           <saa:PykalaTunnusKooste>5 §.</saa:PykalaTunnusKooste>
-          <saa:KohdatMomentti>
-            <saa:MomenttiJohdantoKooste>4 Vuotuinen jäsenmaksu on:</saa:MomenttiJohdantoKooste>
-            <saa:MomenttiKohtaKooste>
-1) yksityishenkilöltä: </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-a) tukkukauppiaalta tai tehtailijalta............... .    Smk. 100: - </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-b) vähittäiskauppiaalta tai käsityöläiseltä ............ »       50: - </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-c) muulta henkilöltä...........................................    »       50: -</saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>2) osakeyhtiöltä: </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-a) jonka osakepääoma on enintään 200,000 mk Smk. 100: — </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-b) » » » »                                            1,000,000 » »          200: — </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-c) » » »»                                      yli    1,000,000 » »          300: —</saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>5) muulta yhtiöltä: </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-a) tukkukauppaa tai teollisuutta harjoittavalta  Smk.  100: — </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-b) vähittäiskauppaa tai käsityöammattia harjoit-      tavalta............................... ..............………»                 50: —</saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>4) osuuskunnalta........................................ »                  50: —</saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>5) keskusosuuskunnalta ............................................ 200: —</saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>6) yhdistykseltä:  </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-a) elinkeinoa harjoittavalta ............................... Smk. 100: — </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-b) joka ei harjoita elinkeinoa .............................             50: — 
-</saa:MomenttiKohtaKooste>
-          </saa:KohdatMomentti>
+          <saa:MomenttiKooste>4 Vuotuinen jäsenmaksu on:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">1) yksityishenkilöltä:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a) tukkukauppiaalta tai tehtailijalta................ Smk.</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100: -</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) vähittäiskauppiaalta tai käsityöläiseltä ............ »</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50: -</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>c) muulta henkilöltä..................................... »</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50: -</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">2) osakeyhtiöltä:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a) jonka osakepääoma on enintään 200,000 mk Smk.</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100: —</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) » » » » 1,000,000 » »</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>200: —</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>c) » » »» yli 1,000,000 » »</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>300: —</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">5) muulta yhtiöltä:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a) tukkukauppaa tai teollisuutta harjoittavalta Smk.</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100: —</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) vähittäiskauppaa tai käsityöammattia harjoittavalta.........»</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50: —</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4) osuuskunnalta........................................ »</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50: —</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5) keskusosuuskunnalta ...................................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>200: —</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">6) yhdistykseltä:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a) elinkeinoa harjoittavalta ........................... Smk.</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100: —</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) joka ei harjoita elinkeinoa ..................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50: —</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>
 Jäsenmaksu luetaan kalenterivuodelta ja on maksettava ennen helmikuun 1 päivää.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Jäsenen, joka liittyy yhdistykseen kalenterivuoden kuluessa, on jäseneksi tullessaan suoritettava maksu koko kuluvalta vuodelta.</saa:MomenttiKooste>

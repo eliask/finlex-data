@@ -75,23 +75,115 @@
           <saa:SaadosOtsikkoKooste>Suun ja hampaiden tutkimus ja hoito</saa:SaadosOtsikkoKooste>
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>Edellä 1 momentissa säädetyn perusmaksun lisäksi voidaan tutkimus- ja hoitotoimenpiteistä periä enintään seuraavat maksut:</saa:MomenttiKooste>
-          <te/>
-          <te>1) Tutkimukset</te>
-          <te>a) kulloinkin voimassa olevan sairausvakuutus-</te>
-          <te>   korvaustaksa liite E:n toimenpidealueen 0</te>
-          <te>   eli tutkimusten osalta käyntikerralta               25 mk</te>
-          <te>b) röntgentutkimus hammaskuvalta                       25 mk</te>
-          <te>c) leukojen ja koko hampaiston röntgenkuvaus           50 mk</te>
-          <te/>
-          <te>2) Ehkäisevä hoito</te>
-          <te>a) kulloinkin voimassa olevan sairausvakuutus-</te>
-          <te>   korvaustaksan liite E:n toimenpidealueen 1</te>
-          <te>   eli ehkäisevän hoidon ja  terveyskasvatuksen</te>
-          <te>   toimenpiteet  käyntikerralta                        25 mk</te>
-          <te>b) enintään 30 minuuttia kestävä hampaiden ja</te>
-          <te>   niiden kiinnityskudosten perushoito                 50 mk</te>
-          <te>c) yli 30 minuuttia kestävä hampaiden ja niiden</te>
-          <te>   kiinnityskudosten perushoito                       100 mk</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">1) Tutkimukset</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">a) kulloinkin voimassa olevan sairausvakuutus-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">korvaustaksa liite E:n toimenpidealueen 0</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>eli tutkimusten osalta käyntikerralta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>25 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) röntgentutkimus hammaskuvalta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>25 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>c) leukojen ja koko hampaiston röntgenkuvaus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">2) Ehkäisevä hoito</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">a) kulloinkin voimassa olevan sairausvakuutus-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">korvaustaksan liite E:n toimenpidealueen 1</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">eli ehkäisevän hoidon ja terveyskasvatuksen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>toimenpiteet käyntikerralta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>25 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">b) enintään 30 minuuttia kestävä hampaiden ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>niiden kiinnityskudosten perushoito</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">c) yli 30 minuuttia kestävä hampaiden ja niiden</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>kiinnityskudosten perushoito</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="10 §">

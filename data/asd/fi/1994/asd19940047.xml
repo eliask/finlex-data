@@ -119,52 +119,318 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>5.2.Osanäytteet</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <te>5.2.1. Kiinteät irtolannoitteet tai         Pienin sallittu </te>
-      <te>       nestemäiset lannoitteet yli          osanäytteiden</te>
-      <te>       100 kg:n vetoisissa astioissa        lukumäärä</te>
-      <te>5.2.1.1.Tarkastettava erä enintään</te>
-      <te>       2,5 tonnia:                          seitsemän</te>
-      <te>5.2.1.2.Tarkastettava erä yli 2,5           sqrt(20 x tonnien lukumäärä</te>
-      <te>       tonnia, mutta enintään 80 tonnia:    tarkastettavassa erässä (1))</te>
-      <te>5.2.1.3.Tarkastettava erä yli 80 tonnia:    40 </te>
-      <te>5.2.2. Pakatut kiinteät tai neste-          Pienin sallittu</te>
-      <te>       mäiset lannoitteet enintään          tarkastettavien</te>
-      <te>       100 kg:n pakkauksissa                pakkausten lukumäärä,</te>
-      <te>                                            joista otetaan osanäyte (2)</te>
-      <te>5.2.2.1.Pakkaukset yli 1 kg</te>
-      <te>5.2.2.1.1.Tarkastettavassa erässä</te>
-      <te>       alle 5 pakkausta:                    kaikki pakkaukset</te>
-      <te>5.2.2.1.2.Tarkastettavassa erässä</te>
-      <te>       5 - 16 pakkausta:                    neljä</te>
-      <te>5.2.2.1.3.Tarkastettavassa erässä           sqrt(tarkastettavassa erässä</te>
-      <te>       17 - 400 pakkausta:                  olevien pakkausten määrä (1))</te>
-      <te>5.2.2.1.4.Tarkastettavassa erässä </te>
-      <te>       yli 400 pakkausta:                   20 </te>
-      <te>5.2.2.2.Pakkausten paino </te>
-      <te>       enintään 1 kg:                       neljä </te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.2.1. Kiinteät irtolannoitteet tai</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pienin sallittu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">nestemäiset lannoitteet yli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">osanäytteiden</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">100 kg:n vetoisissa astioissa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">lukumäärä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>5.2.1.1.Tarkastettava erä enintään</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2,5 tonnia:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">seitsemän</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.2.1.2.Tarkastettava erä yli 2,5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">sqrt(20 x tonnien lukumäärä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">tonnia, mutta enintään 80 tonnia:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">tarkastettavassa erässä (1))</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.2.1.3.Tarkastettava erä yli 80 tonnia:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">40</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.2.2. Pakatut kiinteät tai neste-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pienin sallittu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">mäiset lannoitteet enintään</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">tarkastettavien</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">100 kg:n pakkauksissa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">pakkausten lukumäärä,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">joista otetaan osanäyte (2)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>5.2.2.1.Pakkaukset yli 1 kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>5.2.2.1.1.Tarkastettavassa erässä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">alle 5 pakkausta:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">kaikki pakkaukset</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>5.2.2.1.2.Tarkastettavassa erässä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5 - 16 pakkausta:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">neljä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.2.2.1.3.Tarkastettavassa erässä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">sqrt(tarkastettavassa erässä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">17 - 400 pakkausta:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">olevien pakkausten määrä (1))</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>5.2.2.1.4.Tarkastettavassa erässä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">yli 400 pakkausta:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">20</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>5.2.2.2.Pakkausten paino</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">enintään 1 kg:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">neljä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>5.3.Kokoomanäyte</sis:KappaleKooste>
       <sis:KappaleKooste>Tarkastettavaa erää kohden riittää yksi kokoomanäyte. Yhden kokoomanäytteen muodostavien osanäytteiden kokonaispainon tulee olla vähintään seuraava:</sis:KappaleKooste>
-      <te>5.3.1.Kiinteät irtolannoitteet tai </te>
-      <te>      nestemäiset lannoitteet yli</te>
-      <te>      100 kg:n vetoisissa astioissa:        4 kg</te>
-      <te>5.3.2.Pakatut kiinteät lannoitteet tai </te>
-      <te>      nestemäiset lannoitteet enintään </te>
-      <te>      100 kg:n vetoisissa pakkauksissa</te>
-      <te>5.3.2.1.Pakkausten koko yli 1 kg:           4 kg</te>
-      <te>5.3.2.2.Pakkausten koko enintään 1 kg:      Neljän alkuperäispakkauksen paino</te>
-      <te>5.3.3.Näyte ammoniumnitraatti-</te>
-      <te>      lannoitteesta: direktiivin 80/876/ETY</te>
-      <te>      liitteen II mukaisesti                75 kg</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>5.3.1.Kiinteät irtolannoitteet tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>nestemäiset lannoitteet yli</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">100 kg:n vetoisissa astioissa:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">4 kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>5.3.2.Pakatut kiinteät lannoitteet tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>nestemäiset lannoitteet enintään</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>100 kg:n vetoisissa pakkauksissa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.3.2.1.Pakkausten koko yli 1 kg:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">4 kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.3.2.2.Pakkausten koko enintään 1 kg:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Neljän alkuperäispakkauksen paino</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>5.3.3.Näyte ammoniumnitraatti-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>lannoitteesta: direktiivin 80/876/ETY</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">liitteen II mukaisesti</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">75 kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>5.4.Lopullinen näyte</sis:KappaleKooste>
       <sis:KappaleKooste>5.4.1.<sis1:KursiiviTeksti>Kiinteät ja nestemäiset lannoitteet</sis1:KursiiviTeksti> Lopullinen näyte on kokoomanäyte tarpeen mukaan pienennettynä. Analyysi tehdään vähintään yhdestä lopullisesta näytteestä. Analyysiä varten valmistetun lopullisen näytteen on oltava kooltaan vähintään 500 g.</sis:KappaleKooste>
       <sis:KappaleKooste>5.4.2.<sis1:KursiiviTeksti>Ammoniumnitraattilannoitteen kokoomanäytteestä saadaan tarvittaessa lopullinen näyte määrää pienentämällä.</sis1:KursiiviTeksti></sis:KappaleKooste>
-      <te>5.4.2.1.Pienin sallittu lopullisen</te>
-      <te>        näytteen määrä muita määri-</te>
-      <te>        tyksiä kuin räjähtämättömyys-</te>
-      <te>        koetta varten:                      1 kg</te>
-      <te>5.4.2.2.Pienin sallittu lopullisen</te>
-      <te>        näytteen määrä räjähtämättö- </te>
-      <te>        myyskoetta varten:                  25 kg</te>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste>5.4.2.1.Pienin sallittu lopullisen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>näytteen määrä muita määri-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>tyksiä kuin räjähtämättömyys-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">koetta varten:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">1 kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste>5.4.2.2.Pienin sallittu lopullisen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>näytteen määrä räjähtämättö-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">myyskoetta varten:</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">25 kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>6.OHJEET NÄYTTEIDEN OTTAMISTA, VALMISTAMISTA JA PAKKAAMISTA VARTEN</sis:KappaleKooste>
       <sis:KappaleKooste>6.1.Yleistä</sis:KappaleKooste>
       <sis:KappaleKooste>Näytteet tulee ottaa ja valmistaa viivyttelemättä ja niin, että niiden edustavuus on mahdollisimman hyvä. Milloin tarkastettava erä on nestemäistä lannoitetta, se tulee voida sekoittaa, mikäli mahdollista, ennen näytteen ottamista.Kaikkien näytteiden kanssa kosketuksiin joutuvien välineiden ja materiaalien tulee olla puhtaita ja kuivia.</sis:KappaleKooste>
@@ -192,279 +458,3052 @@
       <sis:KappaleKooste>2) komission direktiivi, annettu 14 päivänä joulukuuta 1978, lannoitteiden näytteenottoa ja analysoimista koskevan jäsenvaltioiden lainsäädännön lähentämisestä annetun direktiivin 77/535/ETY muuttamisesta (79/138/ETY);</sis:KappaleKooste>
       <sis:KappaleKooste>3) komission direktiivi, annettu 1 päivänä elokuuta 1989, lannoitteiden analyysi- ja näytteenottomenetelmiä koskevan jäsenvaltioiden lainsäädännön lähentämisestä annetun direktiivin 77/535/ETY täydentämisestä ja muuttamisesta (89/519/ETY); ja</sis:KappaleKooste>
       <sis:KappaleKooste>4) komission direktiivi, annettu 8 päivänä joulukuuta 1986, runsastyppisten yksiravinteisten ammoniumnitraattilannoitteiden ominaisuuksien, raja-arvojen ja räjähtämättömyyden valvontaa koskevan jäsenvaltioiden lainsäädännön lähentämisestä (87/94/ETY) (oikaistu EYVL N:o L63, 7.2.1987, s. 16-20), seuraavasti:</sis:KappaleKooste>
-      <te/>
-      <te>Direktiivi 	EYVL N:o 		Menetelmä</te>
-      <te>77/535/ETY 	L213/5	1. 	NÄYTTEEN VALMISTUS</te>
-      <te>					ANALYSOINTIA VARTEN</te>
-      <te>77/535/ETY 	L213/9	2. 	TYPPI</te>
-      <te>77/535/ETY 	L213/9 	2.1 	Ammoniakkitypen määritys</te>
-      <te>77/535/ETY 	L213/19 2.2. 	Nitraatti- ja ammoniumtypen määritys</te>
-      <te>77/535/ETY 	L213/19 2.2.1. 	Ulschin mukaan</te>
-      <te>77/535/ETY 	L213/21 2.2.2. 	Arndin mukaan</te>
-      <te>77/535/ETY 	L213/23 2.2.3. 	Devardan mukaan</te>
-      <te>77/535/ETY 	L213/28	2.3. 	Kokonaistyppipitoisuuden määritys</te>
-      <te>77/535/ETY 	L213/28 2.3.1. 	Kalsiumsyanamidista, nitraatiton</te>
-      <te>77/535/ETY 	L213/30	2.3.2. 	Nitraatteja sisältävästä kalsiumsyanamidista</te>
-      <te>77/535/ETY 	L213/33 2.3.3. 	Ureasta</te>
-      <te>77/535/ETY 	L213/35	2.4. 	Syanamiditypen määrittäminen</te>
-      <te>77/535/ETY 	L213/38	2.5. 	Urean biureetin määrittäminen</te>
-      <te>77/535/ETY 	L213/41 2.6. 	Eri typpimuotojen määritys samasta näytteestä</te>
-      <te>77/535/ETY 	L213/41	2.6.1. 	Lannoitteista, jotka sisältävät typpeä ainoastaan</te>
-      <te>					nitraatti-, ammonium-, urea- ja syanamidityppenä</te>
-      <te>77/535/ETY 	L213/55 2.6.2. 	Lannoitteista, jotka sisältävät typpeä ainoastaan</te>
-      <te>					nitraatti-, ammonium- ja ureatyppenä</te>
-      <te>77/535/ETY 	L213/62 3. 	FOSFORI</te>
-      <te>77/535/ETY 	L213/62	3.1. 	Uuttaminen</te>
-      <te>77/535/ETY 	L213/62 3.1.1. 	Mineraalihapoilla</te>
-      <te>77/535/ETY 	L213/63	3.1.2 	2%:lla muurahaishapolla</te>
-      <te>77/535/ETY 	L213/64	3.1.3. 	2%:lla sitruunahapolla</te>
-      <te>77/535/ETY 	L213/65 3.1.4. 	Neutraalilla ammoniumsitraatilla</te>
-      <te>77/535/ETY 	L213/68 3.1.5. 	Emäksisellä ammoniumsitraatilla</te>
-      <te>77/535/ETY 	L213/68 3.1.5.1.Petermannin mukaan 65°C:n lämpötilassa</te>
-      <te>77/535/ETY 	L213/70 3.1.5.2.Petermannin mukaan huonelämpötilassa</te>
-      <te>77/535/ETY 	L213/71 3.1.5.3.Joulien mukaan</te>
-      <te>77/535/ETY 	L213/73	3.1.6. 	Vedellä</te>
-      <te>77/535/ETY 	L213/74 3.2. 	Uutetun fosforin määrittäminen</te>
-      <te>77/535/ETY 	L213/77	4. 	KALIUM</te>
-      <te>77/535/ETY 	L213/77	4.1. 	Vesiliukoisen kaliumin määrittäminen</te>
-      <te>79/138/ETY 	L39/4	5. 	MAGNESIUM</te>
-      <te>79/138/ETY 	L39/4	5.2. 	Kokonaismagnesiumin määrittäminen, titrimetrinen menetelmä</te>
-      <te>79/138/ETY 	L39/7	5.3 	Vesiliukoisen magnesiumin määrittäminen</te>
-      <te>79/138/ETY 	L39/8	5.4 	Kokonaismagnesiumin määrittäminen spektrofotometrisesti</te>
-      <te>77/535/ETY 	L213/85	6. 	KLOORI</te>
-      <te>77/535/ETY 	L213/85	6.1. 	Kloridien määrittäminen orgaanisen aineen puuttuessa</te>
-      <te>77/535/ETY 	L213/88	7. 	JAUHATUKSEN HIENOUS</te>
-      <te>77/535/ETY 	L213/88	7.1. 	Hienouden määrittäminen kuivamenetelmällä</te>
-      <te>77/535/ETY 	L213/89	7.2 	Pehmeiden luonnonfosfaattien jauhatushienouden määrittäminen</te>
-      <te>89/519/ETY 	L265/32	8 	SIVURAVINTEET</te>
-      <te>89/519/ETY 	L265/32	8.1. 	Kalsiumin, magnesiumin, natriumin ja sulfaattimuotoisen</te>
-      <te>					rikin kokonaismäärän uuttaminen</te>
-      <te>89/519/ETY 	L265/33	8.2 	Eri muodoissa olevan rikin kokonaismäärän uuttaminen</te>
-      <te>89/519/ETY 	L265/34	8.3 	Vesiliukoisen kalsiumin, magnesiumin, natriumin ja </te>
-      <te>					sulfaattimuotoisen rikin uuttaminen</te>
-      <te>89/519/ETY 	L265/35	8.4 	Eri muodoissa olevan vesiliukoisen rikin uuttaminen</te>
-      <te>89/519/ETY 	L265/36	8.5 	Alkuainerikin uuttaminen ja määritys</te>
-      <te>89/519/ETY 	L265/38	8.6 	Uutetun kalsiumin manganometrinen määritys oksalaattina </te>
-      <te>					saostamisen jälkeen</te>
-      <te>89/519/ETY 	L265/40	8.7 	Magnesiumin määrittäminen, AAS-menetelmä</te>
-      <te>89/519/ETY 	L265/42	8.8 	Magnesiumin määrittäminen kompleksometrisesti</te>
-      <te>89/519/ETY 	L265/45	8.9 	Sulfaattien määrittäminen</te>
-      <te>89/519/ETY 	L265/30	8.10 	Uutetun natriumin määrittäminen</te>
-      <te>87/94/ETY 		L38/4,L63/16 	Lämpökäsittelyjen soveltamismenetelmät</te>
-      <te>87/94/ETY 		L38/5		Öljynpidätyskyvyn määrittäminen</te>
-      <te>87/94/ETY 		L38/7,L63/17 	Palavien ainesosien määrittäminen</te>
-      <te>87/94/ETY 		L38/11		pH-arvon määrittäminen</te>
-      <te>87/94/ETY 		L38/11,L63/17 	Hiukkaskoon määrittäminen</te>
-      <te>87/94/ETY 		L38/12,L63/17 	Kloridi-ionina olevan klooripitoisuuden määrittäminen</te>
-      <te>87/94/ETY 		L38/17,L63/17 	Räjähtämättömyyskoe</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="4" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Direktiivi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">EYVL N:o</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="3" nameend="4">
+                <sis:KappaleKooste>Menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">1.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">NÄYTTEEN VALMISTUS ANALYSOINTIA VARTEN</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/9</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">TYPPI</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/9</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Ammoniakkitypen määritys</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/19</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.2.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Nitraatti- ja ammoniumtypen määritys</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/19</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.2.1.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Ulschin mukaan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/21</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.2.2.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Arndin mukaan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/23</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.2.3.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Devardan mukaan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/28</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.3.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Kokonaistyppipitoisuuden määritys</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/28</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.3.1.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Kalsiumsyanamidista, nitraatiton</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.3.2.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Nitraatteja sisältävästä kalsiumsyanamidista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/33</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.3.3.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Ureasta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/35</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.4.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Syanamiditypen määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/38</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.5.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Urean biureetin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/41</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.6.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Eri typpimuotojen määritys samasta näytteestä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/41</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.6.1.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Lannoitteista, jotka sisältävät typpeä ainoastaan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">nitraatti-, ammonium-, urea- ja syanamidityppenä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/55</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2.6.2.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Lannoitteista, jotka sisältävät typpeä ainoastaan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">nitraatti-, ammonium- ja ureatyppenä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/62</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">FOSFORI</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/62</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.1.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Uuttaminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/62</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.1.1.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Mineraalihapoilla</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/63</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.1.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">2%:lla muurahaishapolla</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/64</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.1.3.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">2%:lla sitruunahapolla</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/65</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.1.4.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Neutraalilla ammoniumsitraatilla</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/68</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.1.5.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Emäksisellä ammoniumsitraatilla</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/68</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.1.5.1.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Petermannin mukaan 65°C:n lämpötilassa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.1.5.2.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Petermannin mukaan huonelämpötilassa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/71</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.1.5.3.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Joulien mukaan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/73</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.1.6.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Vedellä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/74</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">3.2.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Uutetun fosforin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/77</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">4.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">KALIUM</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/77</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">4.1.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Vesiliukoisen kaliumin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">79/138/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L39/4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">5.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">MAGNESIUM</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">79/138/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L39/4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">5.2.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Kokonaismagnesiumin määrittäminen, titrimetrinen menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">79/138/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L39/7</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">5.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Vesiliukoisen magnesiumin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">79/138/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L39/8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">5.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Kokonaismagnesiumin määrittäminen spektrofotometrisesti</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/85</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">6.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">KLOORI</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/85</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">6.1.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Kloridien määrittäminen orgaanisen aineen puuttuessa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/88</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">7.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">JAUHATUKSEN HIENOUS</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/88</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">7.1.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Hienouden määrittäminen kuivamenetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">77/535/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L213/89</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">7.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Pehmeiden luonnonfosfaattien jauhatushienouden määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">89/519/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L265/32</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">SIVURAVINTEET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">89/519/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L265/32</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">8.1.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Kalsiumin, magnesiumin, natriumin ja sulfaattimuotoisen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">rikin kokonaismäärän uuttaminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">89/519/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L265/33</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">8.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Eri muodoissa olevan rikin kokonaismäärän uuttaminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">89/519/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L265/34</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">8.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Vesiliukoisen kalsiumin, magnesiumin, natriumin ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">sulfaattimuotoisen rikin uuttaminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">89/519/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L265/35</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">8.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Eri muodoissa olevan vesiliukoisen rikin uuttaminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">89/519/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L265/36</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">8.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Alkuainerikin uuttaminen ja määritys</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">89/519/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L265/38</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">8.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Uutetun kalsiumin manganometrinen määritys oksalaattina</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">saostamisen jälkeen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">89/519/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L265/40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">8.7</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Magnesiumin määrittäminen, AAS-menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">89/519/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L265/42</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">8.8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Magnesiumin määrittäminen kompleksometrisesti</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">89/519/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L265/45</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">8.9</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Sulfaattien määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">89/519/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L265/30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">8.10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Uutetun natriumin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">87/94/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L38/4,L63/16</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Lämpökäsittelyjen soveltamismenetelmät</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">87/94/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L38/5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Öljynpidätyskyvyn määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">87/94/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L38/7,L63/17</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Palavien ainesosien määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">87/94/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L38/11</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">pH-arvon määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">87/94/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L38/11,L63/17</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Hiukkaskoon määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">87/94/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L38/12,L63/17</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Kloridi-ionina olevan klooripitoisuuden määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">87/94/ETY</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L38/17,L63/17</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Räjähtämättömyyskoe</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>2. Muut lannoitteet lukuunottamatta eloperäisiä lannoitteita</sis:KappaleKooste>
-      <te/>
-      <te>Määritettäväainesosa	KTTK N:o*)	Menetelmä</te>
-      <te>Typpi	L03031	Veteen liukeneva typpi ammonium- ja nitraattityppeä </te>
-      <te>			sisältävistä lannoitteista  J. of AOAC 1975</te>
-      <te>Typpi	L03061	Veteen liukeneva kokonaistyppi orgaanista typpeä, ammonium- </te>
-      <te>			ja nitraattityppeä sisältävistä lannoitteista J. of AOAC 1975</te>
-      <te>Typpi 	L03041	Kokonaistyppi orgaanista typpeä, ammoniumtyppeä ja nitraattityppeä </te>
-      <te>			sisältävistä lannoitteista J. of AOAC 1975</te>
-      <te>Typpi	L03071	Ammoniumtyppi lannoitteista  J. of AOAC 1975</te>
-      <te>Typpi	L03091	Ureatyppi lannoitteista J. of AOAC 1975</te>
-      <te>Fosfori 	L03111	Kivennäishappoihin liukeneva fosfori lannoitteistaKTTK:n menetelmä</te>
-      <te>Fosfori	L03131	Veteen liukeneva fosfori lannoitteista KTTK:n menetelmä</te>
-      <te>Fosfori	L03171	Veteen ja neutraaliin ammoniumsitraattiin liukeneva fosfori </te>
-      <te>			lannoitteista J. of AOAC 1975</te>
-      <te>Fosfori	L03151	2-%:een sitruunahappoon liukeneva fosfori lannoitteista KTTK:n menetelmä</te>
-      <te>Kalium 	L03211	Kalium mitta-analyyttisesti lannoitteista J.of AOAC 1970</te>
-      <te>Kalium	L03191	Kokonaiskalium veteen liukenemattomista lannoitteista KTTK:n menetelmä</te>
-      <te>Kalium	L03211 	Veteen liukeneva kalium lannoitteista KTTK:n menetelmä</te>
-      <te>Kalium	H03195 	Kalium lannoitteista AAS-menetelmällä KTTK:n menetelmä</te>
-      <te>Natrium 	H03553 	Natrium lannoitteista AAS-menetelmällä KTTK:n menetelmä</te>
-      <te>Kalsium	H03305	Kalsiumin, magnesiumin,</te>
-      <te>magnesium	H03415	raudan, mangaanin,</te>
-      <te>rauta	H07053	kuparin ja sinkin,</te>
-      <te>mangaani	H07073	määrittäminen lannoitteista</te>
-      <te>kupari	H07093	AAS-menetelmällä</te>
-      <te>sinkki	H07113	KTTK:n menetelmä (modifioitu J. of AOAC 1990)</te>
-      <te>Molybdeeni	H07133	Molybdeenin ja koboltin määrittäminen</te>
-      <te>koboltti	H07153	lannoitteista AAS-menetelmällä KTTK:n menetelmä (modifioitu 93/1/EEC)</te>
-      <te>Magnesium	H03417	Magnesiumin, natriumin, raudan,</te>
-      <te>natrium	H03555	mangaanin, kuparin, sinkin,</te>
-      <te>rauta	H07057	molybdeenin ja koboltin</te>
-      <te>mangaani	H07077	määrittäminen lannoitteista ICP-menetelmällä</te>
-      <te>kupari	H07097	KTTK:n menetelmä</te>
-      <te>sinkki	H07117</te>
-      <te>molybdeeni	H07135</te>
-      <te>koboltti	H07157</te>
-      <te>*) KTTK = Kasvintuotannon tarkastuskeskus/maatalouskemian osasto/analyysimenetelmän numero</te>
-      <te>Magnesium	H03411	Magnesium titrimetrisesti lannoitteista</te>
-      <te>			KTTK:n menetelmä</te>
-      <te>Boori	H07031	Boorin määrittäminen lannoitteista</te>
-      <te>			spektrofotometrisesti J. of AOAC 1978</te>
-      <te>Boori	H07036	Boorin määrittäminen lannoitteista</te>
-      <te>			ICP-menetelmällä KTTK:n menetelmä</te>
-      <te>Boori	H07037	Vesiliukoisen boorin määrittäminen</te>
-      <te>			lannoitteista ICP-menetelmällä KTTK:n menetelmä</te>
-      <te>Seleeni	H07239	Seleenin määrittäminen lannoitteista</te>
-      <te>			hydridimenetelmällä KTTK:n menetelmä</te>
-      <te>Seleeni	H07237	Seleenin määrittäminen lannoitteista</te>
-      <te>			fluorometrisesti KTTK:n menetelmä</te>
-      <te>Lyijy	H07271	Lyijyn määrittäminen lannoitteista</te>
-      <te>			AAS-menetelmällä KTTK:n menetelmä</te>
-      <te>Kadmium	H07293	Kadmiumin määrittäminen lannoitteista</te>
-      <te>			AAS-menetelmällä KTTK:n menetelmä</te>
-      <te>Elohopea	H07313	Elohopean määrittäminen lannoitteista</te>
-      <te>			kylmähöyrymenetelmällä J. of AOAC 1973</te>
-      <te>Kromi	H07173/ Kromin määrittäminen</te>
-      <te>		H07175	AAS-menetelmällä/</te>
-      <te>			ICP-menetelmällä KTTK:n menetelmä</te>
-      <te>Nikkeli	H07191/	Nikkelin määrittäminen</te>
-      <te>		H07192	AAS-menetelmällä/</te>
-      <te>			ICP-menetelmällä KTTK:n menetelmä</te>
-      <te>Arseeni	H07251	Arseenin määrittäminen hydridi-</te>
-      <te>			menetelmällä KTTK:n menetelmä</te>
-      <te>Vanadiini	H07390 	Vanadiinin määrittäminen</te>
-      <te>			ICP-menetelmällä KTTK:n menetelmä</te>
-      <te>Kloridi	L00371	Kloridin potentiometrinen määritys</te>
-      <te>			KTTK:n menetelmä</te>
-      <te>Rikki	H03335	Rikin määrittäminen lannoitteista</te>
-      <te>			ICP-menetelmällä KTTK:n menetelmä</te>
-      <te>Rikki	L03311	Rikin määrittäminen lannoitteista</te>
-      <te>			ionikromatografilla KTTK:n menetelmä</te>
-      <te>Kosteus	L00213	Kosteus Karl Fischer-menetelmällä Anal. Chem. 23 (1951) 1332</te>
-      <te>Kosteus	L03733	Kosteus vakuumilämpökaappimenetelmällä</te>
-      <te>			J. of AOAC 1975</te>
-      <te>pH		L03611	pH:n määrittäminen</te>
-      <te>(happamuus)KTTK:n menetelmä</te>
-      <te>Hehkutus-	L03651	Hehkutusjäännöksen määrittäminen</te>
-      <te>jäännös		KTTK:n menetelmä</te>
-      <te>Hienousaste	Hienousasteen määrittäminen (seulonta) KTTK:n menetelmä</te>
-      <te>Pöly	L03691	Pölypitoisuuden määrittäminen</te>
-      <te>			KTTK:n menetelmä</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Määritettäväainesosa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">KTTK N:o*)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Typpi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03031</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Veteen liukeneva typpi ammonium- ja nitraattityppeä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">sisältävistä lannoitteista J. of AOAC 1975</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Typpi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03061</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Veteen liukeneva kokonaistyppi orgaanista typpeä, ammonium-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ja nitraattityppeä sisältävistä lannoitteista J. of AOAC 1975</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Typpi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03041</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kokonaistyppi orgaanista typpeä, ammoniumtyppeä ja nitraattityppeä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">sisältävistä lannoitteista J. of AOAC 1975</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Typpi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03071</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Ammoniumtyppi lannoitteista J. of AOAC 1975</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Typpi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03091</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Ureatyppi lannoitteista J. of AOAC 1975</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Fosfori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03111</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kivennäishappoihin liukeneva fosfori lannoitteistaKTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Fosfori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03131</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Veteen liukeneva fosfori lannoitteista KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Fosfori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03171</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Veteen ja neutraaliin ammoniumsitraattiin liukeneva fosfori</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">lannoitteista J. of AOAC 1975</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Fosfori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03151</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">2-%:een sitruunahappoon liukeneva fosfori lannoitteista KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kalium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03211</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kalium mitta-analyyttisesti lannoitteista J.of AOAC 1970</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kalium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03191</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kokonaiskalium veteen liukenemattomista lannoitteista KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kalium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03211</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Veteen liukeneva kalium lannoitteista KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kalium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03195</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kalium lannoitteista AAS-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Natrium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03553</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Natrium lannoitteista AAS-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kalsium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03305</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kalsiumin, magnesiumin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">magnesium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03415</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">raudan, mangaanin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">rauta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07053</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">kuparin ja sinkin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">mangaani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07073</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">määrittäminen lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kupari</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07093</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">AAS-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">sinkki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07113</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä (modifioitu J. of AOAC 1990)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Molybdeeni</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07133</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Molybdeenin ja koboltin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">koboltti</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07153</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">lannoitteista AAS-menetelmällä KTTK:n menetelmä (modifioitu 93/1/EEC)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Magnesium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03417</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Magnesiumin, natriumin, raudan,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">natrium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03555</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">mangaanin, kuparin, sinkin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">rauta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07057</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">molybdeenin ja koboltin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">mangaani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07077</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">määrittäminen lannoitteista ICP-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kupari</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07097</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">sinkki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07117</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">molybdeeni</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07135</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">koboltti</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07157</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste>*) KTTK = Kasvintuotannon tarkastuskeskus/maatalouskemian osasto/analyysimenetelmän numero</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Magnesium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03411</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Magnesium titrimetrisesti lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Boori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07031</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Boorin määrittäminen lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">spektrofotometrisesti J. of AOAC 1978</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Boori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07036</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Boorin määrittäminen lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ICP-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Boori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07037</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Vesiliukoisen boorin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">lannoitteista ICP-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Seleeni</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07239</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Seleenin määrittäminen lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">hydridimenetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Seleeni</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07237</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Seleenin määrittäminen lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">fluorometrisesti KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lyijy</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07271</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Lyijyn määrittäminen lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">AAS-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kadmium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07293</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kadmiumin määrittäminen lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">AAS-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Elohopea</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07313</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Elohopean määrittäminen lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">kylmähöyrymenetelmällä J. of AOAC 1973</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kromi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07173/ Kromin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07175</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">AAS-menetelmällä/</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ICP-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Nikkeli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07191/</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Nikkelin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07192</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">AAS-menetelmällä/</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ICP-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Arseeni</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07251</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Arseenin määrittäminen hydridi-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Vanadiini</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07390</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Vanadiinin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ICP-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kloridi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L00371</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kloridin potentiometrinen määritys</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Rikki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03335</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Rikin määrittäminen lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ICP-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Rikki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03311</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Rikin määrittäminen lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ionikromatografilla KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kosteus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L00213</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kosteus Karl Fischer-menetelmällä Anal. Chem. 23 (1951) 1332</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kosteus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03733</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kosteus vakuumilämpökaappimenetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">J. of AOAC 1975</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">pH</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03611</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">pH:n määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste>(happamuus)KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Hehkutus-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03651</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Hehkutusjäännöksen määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">jäännös</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Hienousaste</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Hienousasteen määrittäminen (seulonta) KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Pöly</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03691</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Pölypitoisuuden määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste>KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>3. Muut lannoitevalmisteet</sis:KappaleKooste>
       <sis:KappaleKooste>3.1. Epäorgaaniset maanparannusaineet (kalkitusaineet)</sis:KappaleKooste>
-      <te/>
-      <te>Määritettävä	KTTK N:o	Menetelmä</te>
-      <te>ainesosa</te>
-      <te>Neutraloivakyky	L03373		Potentiometrinen menetelmä neutraloivan </te>
-      <te>					kyvyn määrittämiseksi J. of AOAC 1961</te>
-      <te>Nopeavaikutteinen 	L03361		Nopeavaikutteinen neutraloiva kyky </te>
-      <te>neutraloiva kyky			pH-staattimenetelmällä KTTK:n menetelmä</te>
-      <te>Magnesium		H03416/H03417	Magnesiumin määrittäminen maanparannus- </te>
-      <te>					aineista AAS-menetelmällä/ ICP-menetelmällä KTTK:n menetelmä</te>
-      <te>Kalsium ja		L03371		Kompleksometrinen menetelmä neutraloivan </te>
-      <te>magnesium				kyvyn määrittämiseksi KTTK:n menetelmä</te>
-      <te>Magnesium		H03415		Magnesiumin, natriumin,</te>
-      <te>natrium		H03553		raudan, mangaanin, kuparin ja sinkin</te>
-      <te>rauta		H07053		määrittäminen maanparannusaineista</te>
-      <te>mangaani		H07073		AAS-menetelmällä</te>
-      <te>kupari		H07093		KTTK:n menetelmä</te>
-      <te>sinkki		H07113</te>
-      <te>Magnesium		H03417		Magnesiumin, natriumin,</te>
-      <te>natrium		H03555		raudan, mangaanin, kuparin ja sinkin</te>
-      <te>rauta		H07057		määrittäminen maanparannusaineista</te>
-      <te>mangaani		H07077		ICP-menetelmällä</te>
-      <te>kupari		H07097		KTTK:n menetelmä</te>
-      <te>sinkki		H07117</te>
-      <te>Boori		H07031		Boorin määrittäminen spektrofotometrisesti</te>
-      <te>					J. of AOAC 1978</te>
-      <te>Boori		H07036		Boorin määrittäminen ICP-menetelmällä KTTK:n menetelmä</te>
-      <te>Seleeni		H07239		Seleenin määrittäminen hydridimenetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Lyijy		H07271		Lyijyn määrittäminen maanparannusaineista</te>
-      <te>					AAS-menetelmällä KTTK:n menetelmä</te>
-      <te>Kadmium		H07291		Kadmiumin määrittäminen maanparannusaineista</te>
-      <te>					AAS-menetelmällä KTTK:n menetelmä</te>
-      <te>Elohopea		H07313		Elohopean määrittäminen maanparannusaineista</te>
-      <te>					kylmähöyrymenetelmällä KTTK:n menetelmä </te>
-      <te>					(modifioitu J.of AOAC 1973)</te>
-      <te>Kromi		H07173/		Kromin määrittäminen AAS-menetelmällä/</te>
-      <te>			H07175		ICP-menetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Nikkeli		H07191/		Nikkelin määrittäminen AAS-menetelmällä/</te>
-      <te>			H07192		ICP-menetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Arseeni		H07251		Arseenin määrittäminen hydridimenetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Vanadiini		H07390		Vanadiinin määrittäminen ICP-menetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Kosteus		L03731		Kosteuden määrittäminen lämpökaappimenetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Hienousaste			Hienousasteen määrittäminen (seulonta) KTTK:n menetelmä</te>
-      <te>pH(happamuus)	L03611		pH:n määrittäminen</te>
-      <te>					KTTK:n menetelmä</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Määritettävä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">KTTK N:o</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste>ainesosa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Neutraloivakyky</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03373</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Potentiometrinen menetelmä neutraloivan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">kyvyn määrittämiseksi J. of AOAC 1961</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Nopeavaikutteinen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03361</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Nopeavaikutteinen neutraloiva kyky</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">neutraloiva kyky</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">pH-staattimenetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Magnesium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03416/H03417</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Magnesiumin määrittäminen maanparannus-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">aineista AAS-menetelmällä/ ICP-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kalsium ja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03371</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kompleksometrinen menetelmä neutraloivan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">magnesium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">kyvyn määrittämiseksi KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Magnesium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03415</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Magnesiumin, natriumin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">natrium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03553</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">raudan, mangaanin, kuparin ja sinkin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">rauta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07053</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">määrittäminen maanparannusaineista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">mangaani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07073</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">AAS-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kupari</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07093</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">sinkki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>H07113</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Magnesium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03417</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Magnesiumin, natriumin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">natrium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03555</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">raudan, mangaanin, kuparin ja sinkin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">rauta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07057</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">määrittäminen maanparannusaineista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">mangaani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07077</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ICP-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kupari</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07097</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">sinkki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>H07117</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Boori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07031</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Boorin määrittäminen spektrofotometrisesti</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">J. of AOAC 1978</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Boori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07036</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Boorin määrittäminen ICP-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Seleeni</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07239</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Seleenin määrittäminen hydridimenetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lyijy</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07271</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Lyijyn määrittäminen maanparannusaineista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">AAS-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kadmium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07291</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kadmiumin määrittäminen maanparannusaineista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">AAS-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Elohopea</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07313</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Elohopean määrittäminen maanparannusaineista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">kylmähöyrymenetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(modifioitu J.of AOAC 1973)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kromi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07173/</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kromin määrittäminen AAS-menetelmällä/</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07175</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ICP-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Nikkeli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07191/</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Nikkelin määrittäminen AAS-menetelmällä/</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07192</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ICP-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Arseeni</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07251</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Arseenin määrittäminen hydridimenetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Vanadiini</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07390</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Vanadiinin määrittäminen ICP-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kosteus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03731</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kosteuden määrittäminen lämpökaappimenetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Hienousaste</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Hienousasteen määrittäminen (seulonta) KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">pH(happamuus)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03611</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">pH:n määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>3.2. Eloperäiset lannoitteet, maanparannusturpeet, maanparannuskompostit, lannoitetut kasvualustat ja kompostointivalmisteet</sis:KappaleKooste>
-      <te/>
-      <te>Määritettävä	KTTK N:o	Menetelmä</te>
-      <te>ainesosa</te>
-      <te>Typpi		L03061		Typen kokonaispitoisuus K2SO4-uutolla J. of AOAC 1975</te>
-      <te>Fosfori		H03117		Fosforin määrittäminen ICP-menetelmällä KTTK:n menetelmä</te>
-      <te>Kalium 		L03213		Kalium orgaanista ainetta sisältävistä lannoitteista </te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Kalium		H03195		Kaliumin, kalsiumin,</te>
-      <te>kalsium		H03305		magnesiumin, natriumin,</te>
-      <te>magnesium		H03415		raudan, mangaanin, kuparin</te>
-      <te>natrium		H03553		ja sinkin määrittäminen</te>
-      <te>rauta		H07053		maanparannusaineista</te>
-      <te>mangaani		H07073		AAS-menetelmällä</te>
-      <te>kupari		H07093		KTTK:n menetelmä</te>
-      <te>sinkki		H07113</te>
-      <te>Kalium		H03196		Kaliumin, kalsiumin,</te>
-      <te>kalsium		H03306		magnesiumin, natriumin,</te>
-      <te>magnesium		H03417		raudan, mangaanin, kuparin</te>
-      <te>natrium		H03555		sinkin ja rikin määrittäminen</te>
-      <te>rauta		H07057		maanparannusaineista</te>
-      <te>mangaani		H07077		ICP-menetelmällä</te>
-      <te>kupari		H07097		KTTK:n menetelmä</te>
-      <te>sinkki		H07117</te>
-      <te>rikki		H03335</te>
-      <te>Boori		H07037		Vesiliukoisen boorin määrittäminen</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Seleeni		H07239		Seleenin määrittäminen hydridimenetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Lyijy		H07271		Lyijyn määrittäminen AAS-menetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Kadmium		H07291		Kadmiumin määrittäminen AAS-menetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Elohopea		H07313		Elohopean määrittäminen kylmähöyrymenetelmällä</te>
-      <te>					J. of AOAC 1973</te>
-      <te>Kromi		H07173/		Kromin määrittäminen AAS-menetelmällä/</te>
-      <te>			H07175		ICP-menetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Nikkeli		H07191/		Nikkelin määrittäminen AAS-menetelmällä/</te>
-      <te>			H07192		ICP-menetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Arseeni		H07253		Arseenin määrittäminen hydridimenetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Vanadiini		H07390		Vanadiinin määrittäminen ICP-menetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Kloridi		L00371		Kloridin potentiometrinen määrittäminen</te>
-      <te>					KTTK:n menetelmä (modifioitu J. of AOAC 1969)</te>
-      <te>pH(happamuus)	L03611		pH:n määrittäminen</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Kosteus		L03731		Kosteuden määrittäminen lämpökaappimenetelmällä</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Hienousaste			Hienousasteen määrittäminen (seulonta) KTTK:n menetelmä</te>
-      <te>Hehkutushäviö	L03661		Hehkutushäviön (humuspitoisuuden) määrittäminen</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Johtoluku		L03571		Johtoluvun määrittäminen</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>Johtokyky 		LO3591		Johtokyvyn määrittäminen</te>
-      <te>					KTTK:n menetelmä</te>
-      <te>E. Coli-bakteerit	M75921		Escherichia colibakteerien lukumäärä</te>
-      <te>					Nordisk Metodikkommitt för livsmedel (NMKL) 147, 1993</te>
-      <te>Salmonella- 	M76101		Salmonellan toteaminen </te>
-      <te>bakteerit				Nordisk Metodikkommitt för livsmedel (NMKL) 71, 4. painos 1991</te>
-      <te>Streptokokit	M75701		Streptokokkien lukumäärä</te>
-      <te>					KTTK:n menetelmä (modifioitu ISO 7899/1, 1984)</te>
-      <te>Kompostinkypsyys	M79101		Jannin testi Jann G.J.<saa:SaadosKursiiviKooste> et. al</saa:SaadosKursiiviKooste>. Method for the </te>
-      <te>					determination of completion of composting, </te>
-      <te>					Appl. Microbiol., Vol 7 (1959) s. 271-275</te>
-      <te>Typpibakteerit 	M75261		Typpibakteerien lukumäärä KTTK:n menetelmä </te>
-      <te>(Rhizobium)			(modifioitu Bergey's Manual for Systematic Bacteriology</te>
-      <te>					(1984) osa I, s. 234-247)</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Määritettävä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">KTTK N:o</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste>ainesosa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Typpi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03061</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Typen kokonaispitoisuus K2SO4-uutolla J. of AOAC 1975</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Fosfori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03117</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Fosforin määrittäminen ICP-menetelmällä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kalium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03213</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kalium orgaanista ainetta sisältävistä lannoitteista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kalium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03195</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kaliumin, kalsiumin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kalsium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03305</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">magnesiumin, natriumin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">magnesium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03415</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">raudan, mangaanin, kuparin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">natrium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03553</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ja sinkin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">rauta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07053</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">maanparannusaineista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">mangaani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07073</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">AAS-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kupari</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07093</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">sinkki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>H07113</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kalium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03196</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kaliumin, kalsiumin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kalsium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03306</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">magnesiumin, natriumin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">magnesium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03417</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">raudan, mangaanin, kuparin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">natrium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03555</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">sinkin ja rikin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">rauta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07057</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">maanparannusaineista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">mangaani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07077</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ICP-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kupari</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07097</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">sinkki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07117</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">rikki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H03335</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Boori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07037</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Vesiliukoisen boorin määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Seleeni</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07239</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Seleenin määrittäminen hydridimenetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lyijy</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07271</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Lyijyn määrittäminen AAS-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kadmium</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07291</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kadmiumin määrittäminen AAS-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Elohopea</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07313</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Elohopean määrittäminen kylmähöyrymenetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">J. of AOAC 1973</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kromi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07173/</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kromin määrittäminen AAS-menetelmällä/</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07175</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ICP-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Nikkeli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07191/</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Nikkelin määrittäminen AAS-menetelmällä/</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07192</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ICP-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Arseeni</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07253</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Arseenin määrittäminen hydridimenetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Vanadiini</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">H07390</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Vanadiinin määrittäminen ICP-menetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kloridi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L00371</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kloridin potentiometrinen määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä (modifioitu J. of AOAC 1969)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">pH(happamuus)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03611</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">pH:n määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kosteus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03731</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kosteuden määrittäminen lämpökaappimenetelmällä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Hienousaste</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Hienousasteen määrittäminen (seulonta) KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Hehkutushäviö</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03661</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Hehkutushäviön (humuspitoisuuden) määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Johtoluku</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">L03571</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Johtoluvun määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Johtokyky</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">LO3591</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Johtokyvyn määrittäminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">E. Coli-bakteerit</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">M75921</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Escherichia colibakteerien lukumäärä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Nordisk Metodikkommitt för livsmedel (NMKL) 147, 1993</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Salmonella-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">M76101</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Salmonellan toteaminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">bakteerit</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Nordisk Metodikkommitt för livsmedel (NMKL) 71, 4. painos 1991</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Streptokokit</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">M75701</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Streptokokkien lukumäärä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">KTTK:n menetelmä (modifioitu ISO 7899/1, 1984)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kompostinkypsyys</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">M79101</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Jannin testi Jann G.J.<sis1:KursiiviTeksti> et. al</sis1:KursiiviTeksti>. Method for the</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">determination of completion of composting,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Appl. Microbiol., Vol 7 (1959) s. 271-275</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Typpibakteerit</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">M75261</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Typpibakteerien lukumäärä KTTK:n menetelmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">(Rhizobium)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(modifioitu Bergey's Manual for Systematic Bacteriology</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(1984) osa I, s. 234-247)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>Lannoitteena, maanparannusaineena, lannoitettuna kasvualustana tai kompostointivalmisteena käytettäväksi kelpaavan sivutuotteen tutkimiseen käytetään soveltuvin osin edellä esitettyjä menetelmiä.</sis:KappaleKooste>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>

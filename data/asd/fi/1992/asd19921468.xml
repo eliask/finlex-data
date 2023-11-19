@@ -35,14 +35,70 @@
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Luopumiskorvauslain 15 §:n 2 momentissa tarkoitettuja, tuotannosta poistuvia maatilan kotieläinyksiköitä määrättäessä otetaan huomioon viimeisen kahden kalenterikuukauden aikana ennen luopumista tuotannosta poistuneet ja luopumisen yhteydessä tuotannosta poistuvat 2 momentissa mainitut kotieläimet.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kotieläimet oikeuttavat kotieläinyksiköihin seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>kotieläin                           kotieläinyksikkö</te>
-          <te>lehmä                               1</te>
-          <te>muu nautaeläin kuin lehmä           0,2</te>
-          <te>emakko                              0,5</te>
-          <te>teurassika                          0,1</te>
-          <te>tuotantoikäinen muniva kana         0,01</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>kotieläin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>kotieläinyksikkö</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>lehmä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>muu nautaeläin kuin lehmä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,2</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>emakko</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,5</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>teurassika</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,1</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>tuotantoikäinen muniva kana</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,01</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Kun ratkaistaan luopumiskorvauslain 19 §:ssä tarkoitettua ehdollista hakemusta, kotieläinten määränä päätöstä annettaessa pidetään ehdollisen päätöksen hakemisajankohtana maatilalla olevaa eläinmäärää, jollei hakija muuta osoita.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">

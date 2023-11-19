@@ -30,29 +30,146 @@
           <saa:PykalaTunnusKooste>2§</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Asunnon kohtuullinen enimmäishinta </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Vastaantulolaina tai osa siitä voidaan hyväksyä korkotukilainaksi vain, mikäli sillä hankittavan asunnon hinta ei ylitä seuraavaa asunnon sijaintikunnan mukaan määräytyvää enimmäishintaa:</saa:MomenttiKooste>
-          <te>Asunnon sijaintikunta				Asunnon hinta</te>
-          <te>                                                             mk/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></te>
-          <te>jos asunto on valmistunut</te>
-          <te>ennen vuotta 1987</te>
-          <te>Helsinki, Espoo, Vantaa, Kau-</te>
-          <te>niainen                                                     7 500</te>
-          <te>muut kunnat                                                 5 500 </te>
-          <te>jos asunto on valmistunut</te>
-          <te>vuonna 1987 tai sen jälkeen</te>
-          <te>Helsinki, Espoo, Vantaa, Kau-</te>
-          <te>niainen                                                     7 700</te>
-          <te>muut kunnat                                                 5 900</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Asunnon sijaintikunta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Asunnon hinta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">mk/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>jos asunto on valmistunut</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>ennen vuotta 1987</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Helsinki, Espoo, Vantaa, Kau-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">niainen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">7 500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">muut kunnat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5 500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>jos asunto on valmistunut</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>vuonna 1987 tai sen jälkeen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Helsinki, Espoo, Vantaa, Kau-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">niainen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">7 700</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">muut kunnat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5 900</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3§">
           <saa:PykalaTunnusKooste>3§</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Korkotukilainan enimmäismäärä </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Korkotukilainaksi voidaan hyväksyä asunnon sijainnin mukaan enintään seuraavan suuruinen osa vastaantulolainasta asunnon neliömetriä kohden:</saa:MomenttiKooste>
-          <te>                                                        Lainan</te>
-          <te>Asunnon sijaintikunta                                enimmäismäärä  </te>
-          <te>                                                        mk/asunnon m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> </te>
-          <te>Helsinki, Espoo, Vantaa, Kau-</te>
-          <te>niainen                                                5 500</te>
-          <te>muut kunnat                                            4 100</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Lainan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Asunnon sijaintikunta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">enimmäismäärä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">mk/asunnon m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Helsinki, Espoo, Vantaa, Kau-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">niainen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5 500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">muut kunnat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">4 100</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Korkotukilainaksi voidaan kuitenkin hyväksyä yhteensä enintään 260 000 markkaa vastaantulolainasta.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4§">

@@ -72,16 +72,66 @@
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
       <sis:KappaleKooste>LIITE</sis:KappaleKooste>
-      <te>
-        <saa:SaadosKursiiviKooste>Ehkäisimien laaduntarkastus</saa:SaadosKursiiviKooste>
-      </te>
-      <te>1) Kohdunsisäiset ehkäisimet</te>
-      <te>   180 näytettä erästä           5 000 mk</te>
-      <te>    60 näytettä erästä           3 000 mk</te>
-      <te>2) Kemialliset ehkäisimet</te>
-      <te>    20 näytettä erästä           2 500 mk</te>
-      <te>3) Kondomit</te>
-      <te>   400 näytettä erästä           1 250 mk</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">
+                  <sis1:KursiiviTeksti>Ehkäisimien laaduntarkastus</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">1) Kohdunsisäiset ehkäisimet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>180 näytettä erästä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>5 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>60 näytettä erästä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">2) Kemialliset ehkäisimet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>20 näytettä erästä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2 500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">3) Kondomit</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>400 näytettä erästä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

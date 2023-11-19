@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>valtion osakasvallan käytöstä eräissä taloudellista toimintaa harjoittavissa osakeyhtiöissä</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Hallituksen esitys 300/90</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Valtiovarainvaliok. miet. 100/90</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>Suuren valiok. miet. 319/90</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -97,9 +86,7 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="9 §">
           <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Voimaantulo </saa:SaadosOtsikkoKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:identifiointiTunnus="Tämä laki tulee voimaan 1 päivänä heinäkuuta 1991.">
-          <saa:PykalaTunnusKooste>Tämä laki tulee voimaan 1 päivänä heinäkuuta 1991.</saa:PykalaTunnusKooste>
+          <saa:MomenttiKooste>Tämä laki tulee voimaan 1 päivänä heinäkuuta 1991.</saa:MomenttiKooste>
           <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Tällä lailla kumotaan:</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>
@@ -126,6 +113,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Hallituksen esitys 300/90</sdk:EsityoViite>
+    <sdk:EsityoViite>Valtiovarainvaliok. miet. 100/90</sdk:EsityoViite>
+    <sdk:EsityoViite>Suuren valiok. miet. 319/90</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 19 päivänä huhtikuuta 1991</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

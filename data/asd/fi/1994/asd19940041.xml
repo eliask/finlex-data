@@ -12,52 +12,303 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Kuulutus">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Valtioneuvoston kuulutus</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>tasavallan presidentin vaalin ensimmäisen vaalin tuloksesta</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Valtioneuvosto on tasavallan presidentin vaalista 22 päivänä heinäkuuta 1991 annetun lain (1076/91) 22 §:n nojalla antanut seuraavan kuulutuksen:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>Helsingin kaupungin vaalipiirin keskuslautakunta on tasavallan presidentin vaalista annetun lain (1076/91) 21 §:n 1 momentin nojalla 20 päivänä tammikuuta 1994 vahvistanut 16 päivänä tammikuuta 1994 toimitetussa tasavallan presidentin vaalin ensimmäisessä vaalissa koko maassa kullekin presidenttiehdokkaalle annettujen äänien lopullisen määrän ja vaalissa annettujen äänien kokonaismäärän sekä ilmoittanut ne valtioneuvostolle seuraavasti:</te>
-        <te/>
-        <te>Ehdokkaan  Ehdokas                                  Äänimäärä</te>
-        <te>numero</te>
-        <te> 2         Rehn, Elisabeth</te>
-        <te>           puolustusministeri, Kirkkonummi            702 211</te>
-        <te> 3         Tiainen, Pekka</te>
-        <te>           valtiotieteen lisensiaatti, erikoistutkija,</te>
-        <te>           Vantaa                                       7 320</te>
-        <te> 4         Andersson, Claes</te>
-        <te>           kansanedustaja, psykiatri, Espoo           122 820</te>
-        <te> 5         Aittoniemi, Sulo</te>
-        <te>           kansanedustaja, rikosylikomisario,</te>
-        <te>           Tampere                                     30 622</te>
-        <te> 6         Ilaskivi, Raimo</te>
-        <te>           valtiotieteen tohtori, ylipormestari,</te>
-        <te>           Helsinki                                   485 035</te>
-        <te> 7         Kankaanniemi, Toimi</te>
-        <te>           ministeri, kansanedustaja, Uurainen         31 453</te>
-        <te> 8         Väyrynen, Paavo</te>
-        <te>           valtiotieteen tohtori, kansanedustaja,</te>
-        <te>           Tuusula                                    623 415</te>
-        <te> 9         Ahtisaari, Martti</te>
-        <te>           valtiosihteeri, Helsinki                   828 038</te>
-        <te>10         Virtanen, Pertti</te>
-        <te>           psykologi, Tampere                          95 650</te>
-        <te>11         Kuuskoski, Eeva</te>
-        <te>           lastentautien erikoislääkäri,</te>
-        <te>           kansanedustaja, Helsinki                    82 453</te>
-        <te>12         Korhonen, Keijo</te>
-        <te>           filosofian tohtori, Kajaani                186 936</te>
-        <te/>
-        <te>           Annettujen äänien kokonaismäärä oli      3 195 953</te>
-        <te>Valtioneuvosto on 20 päivänä tammikuuta 1994 todennut tasavallan presidentin vaalista annetun lain nojalla, että kukaan presidenttiehdokas ei ole koko maassa saanut yli puolta annetuista äänistä eikä siten hallitusmuodon 23 b §:n 2 momentin nojalla ole tullut valituksi tasavallan presidentiksi. Tämän vuoksi hallitusmuodon 23 b §:n 3 momentin mukaan on ensimmäistä vaalia seuraavana kolmantena sunnuntaina toimitettava toinen vaali kahden ensimmäisessä vaalissa eniten ääniä saaneen ehdokkaan välillä. Ehdokkaat Ahtisaari ja Rehn ovat saaneet ensimmäisessä vaalissa suurimmat äänimäärät.</te>
-        <te>Ehdokkaina 6 päivänä helmikuuta 1994 toimitettavassa toisessa vaalissa ovat valtiosihteeri Martti Ahtisaari ja puolustusministeri Elisabeth Rehn.</te>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Helsingin kaupungin vaalipiirin keskuslautakunta on tasavallan presidentin vaalista annetun lain (1076/91) 21 §:n 1 momentin nojalla 20 päivänä tammikuuta 1994 vahvistanut 16 päivänä tammikuuta 1994 toimitetussa tasavallan presidentin vaalin ensimmäisessä vaalissa koko maassa kullekin presidenttiehdokkaalle annettujen äänien lopullisen määrän ja vaalissa annettujen äänien kokonaismäärän sekä ilmoittanut ne valtioneuvostolle seuraavasti:</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="3" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Ehdokkaan</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Ehdokas</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Äänimäärä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>numero</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>2</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Rehn, Elisabeth</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>puolustusministeri, Kirkkonummi</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>702 211</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>3</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Tiainen, Pekka</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">valtiotieteen lisensiaatti, erikoistutkija,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Vantaa</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>7 320</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>4</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Andersson, Claes</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>kansanedustaja, psykiatri, Espoo</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>122 820</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>5</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Aittoniemi, Sulo</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">kansanedustaja, rikosylikomisario,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tampere</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>30 622</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>6</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Ilaskivi, Raimo</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">valtiotieteen tohtori, ylipormestari,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Helsinki</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>485 035</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>7</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Kankaanniemi, Toimi</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>ministeri, kansanedustaja, Uurainen</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>31 453</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>8</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Väyrynen, Paavo</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">valtiotieteen tohtori, kansanedustaja,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tuusula</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>623 415</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>9</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Ahtisaari, Martti</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>valtiosihteeri, Helsinki</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>828 038</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>10</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Virtanen, Pertti</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>psykologi, Tampere</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>95 650</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>11</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Kuuskoski, Eeva</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">lastentautien erikoislääkäri,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>kansanedustaja, Helsinki</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>82 453</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>12</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Korhonen, Keijo</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>filosofian tohtori, Kajaani</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>186 936</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>           Annettujen äänien kokonaismäärä oli      3 195 953</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Valtioneuvosto on 20 päivänä tammikuuta 1994 todennut tasavallan presidentin vaalista annetun lain nojalla, että kukaan presidenttiehdokas ei ole koko maassa saanut yli puolta annetuista äänistä eikä siten hallitusmuodon 23 b §:n 2 momentin nojalla ole tullut valituksi tasavallan presidentiksi. Tämän vuoksi hallitusmuodon 23 b §:n 3 momentin mukaan on ensimmäistä vaalia seuraavana kolmantena sunnuntaina toimitettava toinen vaali kahden ensimmäisessä vaalissa eniten ääniä saaneen ehdokkaan välillä. Ehdokkaat Ahtisaari ja Rehn ovat saaneet ensimmäisessä vaalissa suurimmat äänimäärät.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Ehdokkaina 6 päivänä helmikuuta 1994 toimitettavassa toisessa vaalissa ovat valtiosihteeri Martti Ahtisaari ja puolustusministeri Elisabeth Rehn.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 20 päivänä tammikuuta 1994</asi:PaivaysKooste>

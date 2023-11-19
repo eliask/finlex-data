@@ -10,23 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>kemikaalien luokitusperusteista ja merkintöjen tekemisestä</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti><sis1:YlaindeksiTeksti>1</sis1:YlaindeksiTeksti> ETA-sopimuksen liite 2:</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>- komission direktiivi84/449/ETY,</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>- komission direktiivi88/302/ETY,</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-      <met:Muu4Viite>
-        <sis1:ViiteTeksti>- komission direktiivi92/69/ETY.</sis1:ViiteTeksti>
-      </met:Muu4Viite>
-      <met:Muu5Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite 2: neuvoston direktiivi (88/379/ETY), neuvoston direktiivi (92/32/ETY), komission direktiivi(89/173/ETY), komission direktiivi(90/492/ETY) ja komission direktiivi(91/325/ETY).</sis1:ViiteTeksti>
-      </met:Muu5Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -113,16 +96,8 @@
 </saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>
 2) jos seoksen sisältämien vaarallisten aineiden painosuhteet muuttuvat enemmän kuin seuraavassa taulukossa on esitetty:
-<te/>
-<te>Aineen alkuperäinen      Aineen alkuperäisen</te>
-<te>pitoisuusalue paino-     pitoisuuden sallittu vaihtelu</te>
-<te>prosenttina seoksessa    painoprosenttina seoksessa</te>
-<te>        ≤   2,5 %          ± 15   %</te>
-<te> &gt; 2,5  ≤  10   %          ± 10   %</te>
-<te> &gt; 10   ≤  25   %          ±  6   %</te>
-<te> &gt; 25   ≤  50   %          ±  5   %</te>
-<te> &gt; 50   ≤ 100   %          ±  2,5 %</te>
-<te> </te>
+
+<tau:table><tau:tgroup cols="2" colsep="1" rowsep="1"><tau:tbody><tau:row><tau:entry><sis:KappaleKooste colname="1">Aineen alkuperäinen</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">Aineen alkuperäisen</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">pitoisuusalue paino-</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">pitoisuuden sallittu vaihtelu</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">prosenttina seoksessa</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">painoprosenttina seoksessa</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">≤ 2,5 %</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">± 15 %</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">&gt; 2,5 ≤ 10 %</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">± 10 %</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">&gt; 10 ≤ 25 %</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">± 6 %</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">&gt; 25 ≤ 50 %</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">± 5 %</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">&gt; 50 ≤ 100 %</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">± 2,5 %</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="2"><sis:KappaleKooste/></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
@@ -239,15 +214,61 @@
           <saa:MomenttiKooste>Kemikaaliasetuksen 16 §:ssä tarkoitetut merkinnät tehdään päällykseen kiinnitettävään tai painettavaan etikettiin.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Etiketti kiinnitetään lujasti vähintään päällyksen yhdelle sivulle niin, että etiketin merkinnät voidaan lukea vaakasuoraan, kun päällys on normaaliasennossa.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Etiketin mittojen tulee olla seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>
-            <pl>Päällyksen tilavuus                       Mitat (mm)</pl>
-          </te>
-          <te>Enintään 3 l                              vähintään  52 x  74</te>
-          <te>Suurempi kuin 3 l, mutta enintään 50 l    vähintään  74 x 105</te>
-          <te>Suurempi kuin 50 l, mutta enintään 500 l  vähintään 105 x 148</te>
-          <te>Suurempi kuin 500 l                       vähintään 148 x 210</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">
+                      <sis1:LihavaTeksti>Päällyksen tilavuus</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">
+                      <sis1:LihavaTeksti>Mitat (mm)</sis1:LihavaTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Enintään 3 l</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">vähintään 52 x 74</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Suurempi kuin 3 l, mutta enintään 50 l</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">vähintään 74 x 105</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Suurempi kuin 50 l, mutta enintään 500 l</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">vähintään 105 x 148</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Suurempi kuin 500 l</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">vähintään 148 x 210</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Jokaisen varoitusmerkin on peitettävä vähintään kymmenesosa etiketin pinta-alasta, mutta varoitusmerkki ei saa olla pienempi kuin 1 cm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>. Etiketti pitää kiinnittää koko pinnaltaan kemikaalin päällykseen.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kemikaaliasetuksen 16 §:ssä tarkoitettujen tietojen lisäksi etikettiin voidaan tarvittaessa merkitä muita vaarallisuuteen tai turvallisuuteen liittyviä lisätietoja.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Etiketin ja sen ulkoasun tulee olla sellainen, että varoitusmerkki ja sen tausta erottuvat selvästi. Varoitusmerkki painetaan mustalla oranssinkeltaiselle pohjalle. Etiketin tekstin tulee erottua selvästi taustasta ja olla kooltaan ja asettelultaan sellaista, että se on helposti luettavissa. Teksti kirjoitetaan suomeksi ja ruotsiksi. Teksti voidaan esittää lisäksi muilla kielillä, jos etiketin koko- ja muotovaatimukset täytetään.</saa:MomenttiKooste>
@@ -278,6 +299,13 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite><sis1:YlaindeksiTeksti>1</sis1:YlaindeksiTeksti> ETA-sopimuksen liite 2:</sdk:EsityoViite>
+    <sdk:EsityoViite>- komission direktiivi<sis:YleinenViite sis1:viiteURL="384L0449"><sis1:ViiteTeksti>84/449/ETY</sis1:ViiteTeksti></sis:YleinenViite>,</sdk:EsityoViite>
+    <sdk:EsityoViite>- komission direktiivi<sis:YleinenViite sis1:viiteURL="388L0302"><sis1:ViiteTeksti>88/302/ETY</sis1:ViiteTeksti></sis:YleinenViite>,</sdk:EsityoViite>
+    <sdk:EsityoViite>- komission direktiivi<sis:YleinenViite sis1:viiteURL="392L0069"><sis1:ViiteTeksti>92/69/ETY</sis1:ViiteTeksti></sis:YleinenViite>.</sdk:EsityoViite>
+    <sdk:EsityoViite>ETA-sopimuksen liite 2: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="388L0379"><sis1:ViiteTeksti>(88/379/ETY)</sis1:ViiteTeksti></sis:YleinenViite>, neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="392L0032"><sis1:ViiteTeksti>(92/32/ETY)</sis1:ViiteTeksti></sis:YleinenViite>, komission direktiivi<sis:YleinenViite sis1:viiteURL="389L0173"><sis1:ViiteTeksti>(89/173/ETY)</sis1:ViiteTeksti></sis:YleinenViite>, komission direktiivi<sis:YleinenViite sis1:viiteURL="390L0492"><sis1:ViiteTeksti>(90/492/ETY)</sis1:ViiteTeksti></sis:YleinenViite> ja komission direktiivi<sis:YleinenViite sis1:viiteURL="391L0325"><sis1:ViiteTeksti>(91/325/ETY)</sis1:ViiteTeksti></sis:YleinenViite>.</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 30 päivänä heinäkuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -295,7 +323,7 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite puuttuu</ete>
+      <sis1:ValiotsikkoTeksti>Liite puuttuu</sis1:ValiotsikkoTeksti>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

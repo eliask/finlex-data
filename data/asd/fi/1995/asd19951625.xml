@@ -31,14 +31,64 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
           <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
           <sis:Katkoviiva/>
-          <te>1) matkaviestinverkko</te>
-          <te>K1*K2*K3*(taajuuskaista/25 kHz)            *10 500 mk</te>
-          <te>2) kiinteän tilaajaverkon radiojärjestelmä</te>
-          <te>K1*K2*K3*(taajuuskaista/25 kHz)            *10 500 mk</te>
-          <te>3) henkilöhakujärjestelmä</te>
-          <te>K1*K2*(taajuuskaista/25 kHz)               *10 500 mk</te>
-          <te>4) TFTS-järjestelmä</te>
-          <te>K1*(taajuuskaista/25 kHz)                  *10 500 mk</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>1) matkaviestinverkko</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">K1*K2*K3*(taajuuskaista/25 kHz)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">*10 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>2) kiinteän tilaajaverkon radiojärjestelmä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">K1*K2*K3*(taajuuskaista/25 kHz)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">*10 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>3) henkilöhakujärjestelmä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">K1*K2*(taajuuskaista/25 kHz)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">*10 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>4) TFTS-järjestelmä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">K1*(taajuuskaista/25 kHz)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">*10 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §">
@@ -151,32 +201,182 @@
           <saa:PykalaTunnusKooste>17 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Televerkon numerointimaksut</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Oikeudesta käyttää numerotunnusta tai tilaajanumeroa peritään telelaitokselta tai palvelunumeron tai dataverkkotunnuksen haltijalta televerkon numerointimaksuja vuosittain seuraavasti: </saa:MomenttiKooste>
-          <te/>
-          <te>1) tilaajanumeromaksu ..........................    2,67 mk/liittymä </te>
-          <te>2) operaattoritunnusmaksu: </te>
-          <te>   kolmenumeroinen kaukoliikennetunnus ......... 585 000 mk </te>
-          <te>   neljänumeroinen kaukoliikennetunnus .........  58 500 mk </te>
-          <te>   kolmenumeroinen ulkomaanliikennetunnus ...... 585 000 mk </te>
-          <te>   neljänumeroinen ulkomaanliikennetunnus ......  58 500 mk </te>
-          <te>   viisinumeroinen ulkomaanliikennetunnus ......  23 400 mk </te>
-          <te>3) erityisverkon suuntanumeromaksu: </te>
-          <te>   kolmenumeroinen suuntanumero ................ 210 000 mk </te>
-          <te>   neljänumeroinen suuntanumero ................  21 000 mk </te>
-          <te>4) palvelunumeromaksu: </te>
-          <te>   neljänumeroinen teleliikennealuekohtainen </te>
-          <te>   palvelunumero ...............................   4 500 mk </te>
-          <te>   vähintään viisinumeroinen teleliikennealue- </te>
-          <te>   kohtainen palvelunumero .....................     450 mk </te>
-          <te>   kolmenumeroinen valtakunnallinen </te>
-          <te>   palvelunumero ............................... 390 000 mk </te>
-          <te>   neljänumeroinen valtakunnallinen </te>
-          <te>   palvelunumero ...............................  39 000 mk </te>
-          <te>   viisinumeroinen valtakunnallinen </te>
-          <te>   palvelunumero  ..............................   3 900 mk </te>
-          <te>   vähintään kuusinumeroinen valtakunnallinen </te>
-          <te>   palvelunumero ...............................     390 mk </te>
-          <te>5) dataverkkotunnusmaksu (DNIC) ................  45 000 mk </te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1) tilaajanumeromaksu ..........................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2,67 mk/liittymä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>2) operaattoritunnusmaksu:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kolmenumeroinen kaukoliikennetunnus .........</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">585 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">neljänumeroinen kaukoliikennetunnus .........</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">58 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kolmenumeroinen ulkomaanliikennetunnus ......</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">585 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">neljänumeroinen ulkomaanliikennetunnus ......</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">58 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">viisinumeroinen ulkomaanliikennetunnus ......</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">23 400 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>3) erityisverkon suuntanumeromaksu:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kolmenumeroinen suuntanumero ................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">210 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">neljänumeroinen suuntanumero ................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">21 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>4) palvelunumeromaksu:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>neljänumeroinen teleliikennealuekohtainen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">palvelunumero ...............................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">4 500 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>vähintään viisinumeroinen teleliikennealue-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kohtainen palvelunumero .....................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">450 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>kolmenumeroinen valtakunnallinen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">palvelunumero ...............................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">390 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>neljänumeroinen valtakunnallinen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">palvelunumero ...............................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">39 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>viisinumeroinen valtakunnallinen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">palvelunumero ..............................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3 900 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>vähintään kuusinumeroinen valtakunnallinen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">palvelunumero ...............................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">390 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">5) dataverkkotunnusmaksu (DNIC) ................</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">45 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Dataverkkotunnuksen hakijalta peritään rekisteröintimaksua 5 000 mk. </saa:MomenttiKooste>
           <saa:MomenttiKooste>Ensimmäisen momentin 1 kohdassa tarkoitettu tilaajanumeromaksu määrätään telelaitoksen yleisessä kiinteässä puhelinverkossa perimisvuoden ensimmäisenä päivänä olevien liittymien määrän perusteella. </saa:MomenttiKooste>
           <saa:MomenttiKooste>Ensimmäisen momentin 3 kohdassa tarkoitetun erityisverkon suuntanumeromaksu peritään oikeudesta käyttää muun yleiseen teletoimintaan käytettävän valtakunnallisen televerkon kuin 2 momentissa tarkoitetun kiinteän puhelinverkon suuntanumeroa. </saa:MomenttiKooste>

@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>elintarvikkeiden ravintoarvomerkinnöistä</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite II: neuvoston direktiivit (90/496/ETY, 89/398/ETY).</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -187,17 +182,86 @@ a) energiasisältöä,
           <saa:SaadosOtsikkoKooste>Ravintoarvomerkinnän muoto ja sisältö</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Tässä päätöksessä tarkoitetut tiedot on tehtävä helposti havaittavaan paikkaan, esitettävä yhtenä kokonaisuutena, taulukon muodossa, numeroarvot suorassa linjassa. Jos tilaa ei ole, tiedot voi luetella peräkkäin.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Energiasisältö ja ravintoaineiden tai niiden osien osuudet ilmoitetaan numeroin käyttäen seuraavia yksiköitä:</saa:MomenttiKooste>
-          <te/>
-          <te>- energia           kJ ja kcal</te>
-          <te>- proteiini       }</te>
-          <te>- hiilihydraatti  }</te>
-          <te>- rasva           } gramma (g)</te>
-          <te>- ravintokuitu    }</te>
-          <te>- natrium         }</te>
-          <te>- kolesteroli       milligramma (mg)</te>
-          <te>- vitamiinit ja</te>
-          <te>  kivennäisaineet   liitteessä mainitut yksiköt</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- energia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kJ ja kcal</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- proteiini</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">}</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- hiilihydraatti</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">}</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- rasva</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">} gramma (g)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- ravintokuitu</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">}</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- natrium</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">}</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- kolesteroli</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">milligramma (mg)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>- vitamiinit ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kivennäisaineet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">liitteessä mainitut yksiköt</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Tiedot on annettava valmisteen 100 grammaa tai 100 millilitraa kohti. Ne saa lisäksi ilmoittaa ilmoitetun suuruista annosta tai yksikköä kohti, jos pakkauksessa olevien yksiköiden lukumäärä ilmoitetaan.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Ilmoitettavien tietojen tulee koskea myytäväksi tarkoitettua elintarviketta. Tiedot saa kuitenkin tarpeen vaatiessa ilmoittaa nautintavalmiista elintarvikkeesta edellyttäen, että annetaan riittävän yksityiskohtaiset valmistusohjeet ja tiedot koskevat näin valmistettua ruokaa.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Vitamiinit ja kivennäisaineet on sen lisäksi mitä edellä 3 momentissa määrätään, ilmoitettava myös prosentteina liitteessä mainituista vuorokautisen saannin vertailuarvoista. Prosenttiosuudet voidaan ilmoittaa myös graafisesti. Tiedot on annettava edellä 3 momentissa tarkoitettujen määrien yhteydessä.</saa:MomenttiKooste>
@@ -253,15 +317,70 @@ a) energiasisältöä,
           <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Energian määrän laskeminen</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Elintarvikkeen sisältämää energian määrää laskettaessa käytetään seuraavia kertoimia:</saa:MomenttiKooste>
-          <te/>
-          <te>- hiilihydraatti (lukuun-</te>
-          <te>  ottamatta polyoleja)        4   kcal/gÄ17 kJ/g</te>
-          <te>- polyolit                    2,4 kcal/gÄ10 kJ/g</te>
-          <te>- proteiini                   4   kcal/gÄ17 kJ/g</te>
-          <te>- rasva                       9   kcal/gÄ37 kJ/g</te>
-          <te>- alkoholi (etanoli)          7   kcal/gÄ29 kJ/g</te>
-          <te>- orgaaninen happo            3   kcal/gÄ13 kJ/g</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>- hiilihydraatti (lukuun-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ottamatta polyoleja)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">4 kcal/g-17 kJ/g</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- polyolit</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2,4 kcal/g-10 kJ/g</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- proteiini</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">4 kcal/g-17 kJ/g</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- rasva</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">9 kcal/g-37 kJ/g</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- alkoholi (etanoli)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">7 kcal/g-29 kJ/g</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- orgaaninen happo</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3 kcal/g-13 kJ/g</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
           <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
@@ -304,6 +423,9 @@ a) energiasisältöä,
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>ETA-sopimuksen liite II: neuvoston direktiivit (<sis:YleinenViite sis1:viiteURL="390L0496"><sis1:ViiteTeksti>90/496/ETY</sis1:ViiteTeksti></sis:YleinenViite>, <sis:YleinenViite sis1:viiteURL="389L0398"><sis1:ViiteTeksti>89/398/ETY</sis1:ViiteTeksti></sis:YleinenViite>).</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 28 päivänä joulukuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -323,26 +445,161 @@ a) energiasisältöä,
     <asi:SisaltoLiite>
       <sis:KappaleKooste>Liite</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>Vitamiinit ja kivennäisaineet, jotka voidaan ilmoittaa, ja niiden vuorokautisen saannin vertailuarvot</sis1:ValiotsikkoTeksti>
-      <te/>
-      <te>A-vitamiini µg          800</te>
-      <te>D-vitamiini µg            5</te>
-      <te>E-vitamiini mg           10</te>
-      <te>C-vitamiini mg           60</te>
-      <te>Tiamiini mg               1,4</te>
-      <te>Riboflaviini mg           1,6</te>
-      <te>Niasiini mg              18</te>
-      <te>B6-vitamiini mg           2</te>
-      <te>Foolihappo µg           200</te>
-      <te>B12-vitamiini µg          1</te>
-      <te>Biotiini mg               0,15</te>
-      <te>Pantoteenihappo mg        6</te>
-      <te>Kalsium mg              800</te>
-      <te>Fosfori mg              800</te>
-      <te>Rauta mg                 14</te>
-      <te>Magnesium mg            300</te>
-      <te>Sinkki mg                15</te>
-      <te>Jodi µg                 150</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">A-vitamiini µg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">800</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">D-vitamiini µg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">5</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">E-vitamiini mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">10</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">C-vitamiini mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">60</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Tiamiini mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,4</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Riboflaviini mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,6</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Niasiini mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">18</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">B6-vitamiini mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Foolihappo µg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">200</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">B12-vitamiini µg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Biotiini mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,15</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Pantoteenihappo mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">6</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kalsium mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">800</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Fosfori mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">800</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Rauta mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">14</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Magnesium mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Sinkki mg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">15</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Jodi µg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">150</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>Päätettäessä siitä, mikä on päätöksen 2 §:ssä ja 7 §:ssä tarkoitettu merkitsevä määrä vitamiinia tai kivennäisainetta, tulisi yleensä rajana pitää 15 prosenttia tässä liitteessä annetusta vuorokautisen saannin vertailuarvosta. Tätä vertailuarvon osuutta vastaava määrä tulee saada 100 grammasta tai 100 millilitrasta tai yhden annoksen pakkauksesta.</sis:KappaleKooste>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>

@@ -24,20 +24,142 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Merionnettomuudessa menetetystä henkilökohtaisesta omaisuudesta työntekijälle tulevan korvauksen perusteista annetun valtioneuvoston päätöksen 1 §:n 2 momentissa tarkoitetut markkamäärät ovat vuonna 1993 seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>                        Sisäliikenne    Rannikko-, Valtameri-</te>
-          <te>                                        Itämeren-  liikenne</te>
-          <te>                                        ja Pohjan-</te>
-          <te>                                        meren</te>
-          <te>                                        liikenne</te>
-          <te>A. Aluksessa asuva henkilökunta:</te>
-          <te>1. Päällikkö, konepäällikkö,</te>
-          <te>   yliperämies                 8 700     13 950     16 600</te>
-          <te>2. Muu henkilökunta            5 950     10 100     11 750</te>
-          <te>B. Henkilökunta, joka ei asu aluksessa:</te>
-          <te>1. Päällikkö                   3 200</te>
-          <te>2. Muu henkilökunta            2 150</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="4" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Sisäliikenne</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Rannikko-,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="3" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top">Valtameri-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Itämeren-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="3" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top">liikenne</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>ja Pohjan-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="3" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>meren</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="3" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>liikenne</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="3" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top">A. Aluksessa asuva henkilökunta:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top">1. Päällikkö, konepäällikkö,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>yliperämies</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>8 700</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>13 950</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>16 600</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2. Muu henkilökunta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5 950</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 100</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>11 750</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top">B. Henkilökunta, joka ei asu aluksessa:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1. Päällikkö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 200</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="3" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2. Muu henkilökunta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 150</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="3" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>

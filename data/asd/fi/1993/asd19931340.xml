@@ -26,11 +26,46 @@
           <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Vuosimaksu</saa:SaadosOtsikkoKooste>
           <sis:Katkoviiva/>
-          <te>Kalenterivuosittain perittävä vuosimaksu on</te>
-          <te>maksuluokassa I   335 mk</te>
-          <te>maksuluokassa II  422 mk</te>
-          <te>maksuluokassa III 552 mk</te>
-          <te>maksuluokassa IV  770 mk</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">Kalenterivuosittain perittävä vuosimaksu on</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>maksuluokassa I</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>335 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>maksuluokassa II</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>422 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">maksuluokassa III 552 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>maksuluokassa IV</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>770 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Vuosimaksuun sisältyy kaikissa maksuluokissa 190 markan suuruinen osuus, jonka Sähkötarkastuskeskus käyttää määräys- ja ohjejulkaisujen toimittamiseen suunnittelijoille ja urakoitsijoille.</saa:MomenttiKooste>
           <sis:Katkoviiva/>
         </saa:Pykala>

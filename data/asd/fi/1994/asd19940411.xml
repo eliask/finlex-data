@@ -12,38 +12,152 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Ilmoitus">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Maa- ja metsätalousministeriön ilmoitus</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>eräistä päätöksistä</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Maa- ja metsätalousministeriö ilmoittaa Suomen säädöskokoelmasta 17 päivänä lokakuuta 1980 annetun asetuksen (696/80) 2 §:n ja 2 b §:n sekä maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) 10 §:n nojalla:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>1) Valtioneuvosto on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavat päätökset:</te>
-        <te/>
-        <te>Päätöksen nimike		MMM:n määräys-                   voimaan-</te>
-        <te>                           kokoelman n:o	antopäivä	 tulopäivä</te>
-        <te>VNp elintarvikkeiden </te>
-        <te>hinnanerokorvausten </te>
-        <te>perusteista annetun valtio-</te>
-        <te>neuvoston päätöksen 6 §:n </te>
-        <te>muuttamisesta  		37/94 	        26.5.1994 	1.6.1994</te>
-        <te>VNp hinnanerokorvauksen </te>
-        <te>alaisista viljoista sekä </te>
-        <te>niistä maksettavista </te>
-        <te>hinnanerokorvauksista 	38/94 	        26.5.1994 	1.7.1994</te>
-        <te/>
-        <te>2) Maa- ja metsätalousministeriö on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavan päätöksen:</te>
-        <te/>
-        <te>MMMp voin ja voiöljyn </te>
-        <te>minimihintojen määrä-</te>
-        <te>aikaisesta luopumisesta    39/94 	        26.5.1994 	26.5.1994</te>
-        <te/>
-        <te>Edellä mainitut päätökset on julkaistu maa- ja metsätalousministeriön määräyskokoelmassa. Päätökset ovat saatavissa maa- ja metsätalousministeriön tietopalvelukeskuksesta, osoite Liisankatu 8, PL 250, 00171 Helsinki, puh. (90) 134 211.</te>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <tau:table>
+          <tau:tgroup cols="4" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste>1) Valtioneuvosto on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavat päätökset:</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Päätöksen nimike</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">MMM:n määräys-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">voimaan-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">kokoelman n:o</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">antopäivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">tulopäivä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste>VNp elintarvikkeiden</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste>hinnanerokorvausten</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste>perusteista annetun valtio-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste>neuvoston päätöksen 6 §:n</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">muuttamisesta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">37/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">26.5.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.6.1994</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste>VNp hinnanerokorvauksen</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste>alaisista viljoista sekä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste>niistä maksettavista</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">hinnanerokorvauksista</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">38/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">26.5.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.7.1994</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste>2) Maa- ja metsätalousministeriö on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavan päätöksen:</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste>MMMp voin ja voiöljyn</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste>minimihintojen määrä-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">aikaisesta luopumisesta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">39/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">26.5.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">26.5.1994</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>Edellä mainitut päätökset on julkaistu maa- ja metsätalousministeriön määräyskokoelmassa. Päätökset ovat saatavissa maa- ja metsätalousministeriön tietopalvelukeskuksesta, osoite Liisankatu 8, PL 250, 00171 Helsinki, puh. (90) 134 211.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 26 päivänä toukokuuta 1994</asi:PaivaysKooste>

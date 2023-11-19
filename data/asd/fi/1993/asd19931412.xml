@@ -10,20 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>traktoreiden ETY-tyyppihyväksynnästä</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite II: neuvoston direktiivi 74/150/ETY</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite II: neuvoston direktiivi 79/694/ETY</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite II: neuvoston direktiivi 82/890/ETY</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-      <met:Muu4Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite II: neuvoston direktiivi 88/297/ETY</sis1:ViiteTeksti>
-      </met:Muu4Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -107,6 +93,12 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>ETA-sopimuksen liite II: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="374L0150"><sis1:ViiteTeksti>74/150/ETY</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+    <sdk:EsityoViite>ETA-sopimuksen liite II: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="379L0694"><sis1:ViiteTeksti>79/694/ETY</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+    <sdk:EsityoViite>ETA-sopimuksen liite II: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="382L0890"><sis1:ViiteTeksti>82/890/ETY</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+    <sdk:EsityoViite>ETA-sopimuksen liite II: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="388L0297"><sis1:ViiteTeksti>88/297/ETY</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 22 päivänä joulukuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -126,342 +118,2947 @@
     <asi:SisaltoLiite>
       <sis:KappaleKooste>LIITE I</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>TRAKTORIDIREKTIIVIN TIETOLOMAKKEEN MALLI</sis1:ValiotsikkoTeksti>
-      <te> 0 YLEISTÄ</te>
-      <te>   0.1  Merkki</te>
-      <te>   0.2  Malli (maininta mahdollisista rinnakkaismalleista)</te>
-      <te>   0.3  Valmistajan nimi ja osoite</te>
-      <te>   0.4  Valtuutetun myyjän (jos sellainen on) nimi ja osoite</te>
-      <te>   0.5  Lakisääteisten kilpien sijainti, merkinnät ja</te>
-      <te>        kiinnitystapa</te>
-      <te>        0.5.1 Traktori</te>
-      <te>        0.5.2 Moottori</te>
-      <te>   0.6  Kyseisen traktorityypin ensimmäinen sarjanumero</te>
-      <te/>
-      <te> 1 TRAKTORIN RAKENTEEN YLEISET TUNNUSMERKIT</te>
-      <te>   (mukaan liitetään valokuvat 3/4 etu- ja 3/4 takaosasta</te>
-      <te>   sekä mittakaavio koko traktorista)</te>
-      <te>   1.1  Akseleiden ja pyörien lukumäärä</te>
-      <te>        1.1.1 Parirenkaallisten akseleiden lukumäärä</te>
-      <te>              (jos käyttö mahdollista)</te>
-      <te>   1.2  Vetävät pyörät (lukumäärä, sijainti ja kytkentä</te>
-      <te>        muihin akseleihin)</te>
-      <te>   1.3  Moottorin sijainti ja tyyppi</te>
-      <te/>
-      <te> 2 PAINOT JA MITAT (b) (mm ja kg)</te>
-      <te>   2.1  Akseliväli(t) (c)</te>
-      <te>   2.2  Kunkin akselin raideleveys (yksittäis- tai</te>
-      <te>        parirenkaiden keskeltä mitattuna)</te>
-      <te>        (valmistajan ilmoituksen mukaan) (d)</te>
-      <te>   2.3  Traktorin enimmäismitat (tai kokonaismitat) ilman</te>
-      <te>        lisävarusteita, mutta vetolaitteet mukaan lukien</te>
-      <te>        2.3.1 Pituus (e)</te>
-      <te>        2.3.2 Leveys (f)</te>
-      <te>        2.3.3 Korkeus (g)</te>
-      <te>        2.3.4 Etuosan ylitys (h)</te>
-      <te>        2.3.5 Takaosan ylitys (i)</te>
-      <te>        2.3.6 Maavara (j)</te>
-      <te>   2.4  Traktorin massa ajokunnossa, ilman lisävarusteita,</te>
-      <te>        mutta jäähdytysnesteet, öljyt, polttoaine, työkalut</te>
-      <te>        ja kuljettaja mukaan lukien</te>
-      <te>        2.4.1 Massan jakauma akseleiden kesken</te>
-      <te>   2.5  Lisäpainot (tyyppi)</te>
-      <te>        2.5.1 Näiden jakauma akseleiden kesken</te>
-      <te>   2.6  Suurin valmistajan sallima massa</te>
-      <te>        2.6.1 Renkaiden kantavuuksien sallima suurin massa</te>
-      <te>              2.6.1.1 Tämän massan jakauma akseleiden kesken</te>
-      <te>        2.6.2 Akselikantavuuksien sallima suurin massa</te>
-      <te>              (etu- ja taka-akselin vähimmäisarvot</te>
-      <te>              eriteltyinä %)</te>
-      <te>        2.6.3 Kunkin akselin rengaskantavuuksien mukainen</te>
-      <te>              enimmäismassa</te>
-      <te>        2.6.4 Suurin vetovoima</te>
-      <te>        2.6.5 Kytkentäpisteiden suurin pystykuorma (vetolaite</te>
-      <te>              tai kolmipistekiinnitys) (1)</te>
-      <te>              2.6.5.1 Tämän pystykuorman kohta</te>
-      <te>                      2.6.5.1.1 Korkeus maasta</te>
-      <te>                      2.6.5.1.2 Etäisyys taka-akselista</te>
-      <te> 3 MOOTTORI</te>
-      <te>   3.1  Valmistaja</te>
-      <te>   3.2  Nimi</te>
-      <te>   3.3  Tyyppi (kipinäsytytys, diesel jne.), tahti</te>
-      <te>   3.4  Sylintereiden lukumäärä ja sylinterilohkon rakenne</te>
-      <te>   3.5  Sylintereiden halkaisija, iskunpituus ja tilavuus</te>
-      <te>   3.6  Suurin teho (käytetty mittausstandardi esim. ISO,</te>
-      <te>        BSI, CUNA, DIN, DGM, SAE), ... r/min,</te>
-      <te>        kun säädin on toiminnassa</te>
-      <te>   3.7  Suurin vääntömomentti, ... r/min (sama</te>
-      <te>        mittausstandardi kuin kohdassa 3.6)</te>
-      <te>   3.8  Sopiva polttoaine</te>
-      <te>   3.9  Polttoainesäiliöt (tilavuus ja sijainti)</te>
-      <te>   3.10 Varapolttoainesäiliöt (tilavuus ja sijainti)</te>
-      <te>   3.11 Polttoainejärjestelmä (tyyppi)</te>
-      <te>   3.12 Ahdin (jos asennettu) (tyyppi, hallinta ja</te>
-      <te>        painekuormitus)</te>
-      <te>   3.13 Pyörimisnopeuden säädin (jos asennettu)</te>
-      <te>        (toimintaperiaatteet)</te>
-      <te>   3.14 Sähköjärjestelmä (jännite, positiivinen vai</te>
-      <te>        negatiivinen maadoitus)</te>
-      <te>   3.15 Laturi (tyyppi ja nimellisteho)</te>
-      <te>   3.16 Sytytys (tyyppi ja ennakon säätö)</te>
-      <te>   3.17 Häiriönpoistaja (kuvaus)</te>
-      <te>   3.18 Jäähdytysjärjestelmä (ilma, vesi)</te>
-      <te>   3.19 Ohiajomelu</te>
-      <te>   3.20 Pakokaasujärjestelmä (äänenvaimennin) (luonnos)</te>
-      <te>   3.21 Pakokaasupäästöjen ehkäisy</te>
-      <te>   3.22 Moottorin pysäytyslaite</te>
-      <te/>
-      <te> 4 VOIMANSIIRTO (luonnos voimansiirrosta ja piirros) (m)</te>
-      <te>   4.1  Tyyppi (mekaaninen, hydraulinen, sähköinen, tms.)</te>
-      <te>   4.2  Kytkin (tyyppi)</te>
-      <te>   4.3  Vaihdelaatikko (tyyppi, suora kytkentä,</te>
-      <te>        hallintamenetelmä)</te>
-      <te>   4.4  Voimansiirto moottorista vaihdelaatikkoon ja</te>
-      <te>        taka-akseliin sekä siirto- tai välivaihteet</te>
-      <te>        (jos asennettu)</te>
-      <te>   4.5  Välityssuhteet siirtovaihteen kanssa tai ilman (n)</te>
-      <te/>
-      <te>Vaihde   Vaihdelaatikon   Vetopyörästön  Kokonaisvälitys</te>
-      <te>          välityssuhde     välityssuhde</te>
-      <te>1</te>
-      <te>2</te>
-      <te>3</te>
-      <te>.</te>
-      <te>.</te>
-      <te>.</te>
-      <te>Peruutus</te>
-      <te/>
-      <te>   4.6  Traktorin suurin nopeus, suurin vaihde, km/h</te>
-      <te>        (laskennassa käytetyt arvot ilmoitettava) (n)</te>
-      <te>   4.7  Yhtä vetävän pyörän kierrosta kohti kuljettu matka</te>
-      <te>   4.8  Nopeusmittari, kierroslukumittari ja</te>
-      <te>        käyttötuntimittari (jos asennettu)</te>
-      <te>   4.9  Tasauspyörästön lukko (jos asennettu)</te>
-      <te>   4.10 Voimanottoakselit (pyörimisnopeudet ja</te>
-      <te>        välityssuhteet) (lukumäärä ja sijainti)</te>
-      <te>        4.10.1 Päävoimanottoakseli</te>
-      <te>        4.10.2 Muut</te>
-      <te>   4.11 Voimanottoakseleiden suojukset</te>
-      <te>   4.12 Moottorin osien, ulkonevien osien ja pyörien suojukset</te>
-      <te>        4.12.1 Yksinkertainen suojus</te>
-      <te>        4.12.2 Moninkertainen suojus</te>
-      <te>        4.12.3 Täydellinen kotelointi</te>
-      <te/>
-      <te> 5 JOUSITUS</te>
-      <te>   5.1  Vakiovarusteiset renkaat (mitat, ominaisuudet,</te>
-      <te>        rengaspaine kuljetusajossa ja suurin rengaskuorma)</te>
-      <te>   5.2  Akseleiden tai pyörien jousitustyyppi (jos asennettu)</te>
-      <te>   5.3  Mahdolliset muut laitteet</te>
-      <te/>
-      <te> 6 OHJAUS (Piirros)</te>
-      <te>   6.1  Ohjausmekanismi ja välitykset, ohjaustehostus</te>
-      <te>        (jos asennettu) (toimintamenetelmä, merkki ja malli</te>
-      <te>        tarvittaessa), ja ohjauspyörän käyttövoima</te>
-      <te>   6.2  Pyörien suurin kääntymiskulma</te>
-      <te>        6.2.1 oikealle ... (astetta): ohjauspyörän</te>
-      <te>              kierrosmäärä</te>
-      <te>        6.2.2 vasemmalle ... (astetta): ohjauspyörän</te>
-      <te>              kierrosmäärä</te>
-      <te>   6.3  Pienin kääntöympyrä (ilman ohjausjarruja) (o)</te>
-      <te>        6.3.1 Oikealle</te>
-      <te>        6.3.2 Vasemmalle</te>
-      <te/>
-      <te> 7 JARRUT (Yleispiirros ja toimintapiirros)</te>
-      <te>   7.1  Käyttöjarru</te>
-      <te>   7.2  Lisäkäyttöjarru (jos asennettu)</te>
-      <te>   7.3  Seisontajarru</te>
-      <te>   7.4  Toinen jarru (jos asennettu) (mukaan lukien</te>
-      <te>        pakokaasujarru)</te>
-      <te>   7.5  Jarrujärjestelmän laskelma: käyttövoiman ja pyörän</te>
-      <te>        kehien jarrutusvoimien suhde</te>
-      <te>   7.6  Ohjausjarrujen yhteenkytkentämenetelmä</te>
-      <te>   7.7. Jarrutehostimet (ominaisuudet, säiliöiden koot,</te>
-      <te>        painemittarit ja alhaisen paineen varoituslaite</te>
-      <te>        kojetaulussa, alipainesäiliöt ja syöttöventtiilit,</te>
-      <te>        kompressorit, painelaitteiden säännösten mukaisuus)</te>
-      <te>   7.8  Perävaunun vetämiseen suunnitellut traktorit</te>
-      <te>        7.8.1 Perävaunujarrun käyttöjärjestelmä</te>
-      <te>        7.8.2 Liitännät, kytkennät, turvalaitteet</te>
-      <te/>
-      <te> 8 NÄKÖKENTTÄ, TAUSTAPEILIT, SUOJALAITTEET KAATUMISEN VARALTA,</te>
-      <te>   SÄÄSUOJA, ISTUIMET JA KUORMALAVAT, MELUTASO KULJETTAJAN</te>
-      <te>   KORVAN VIERESSÄ</te>
-      <te>   8.1  Näkökenttä</te>
-      <te>   8.2  Taustapeilit</te>
-      <te>   8.3  Suojalaitteet kaatumisen varalta</te>
-      <te>        8.3.1 Kuvaus (tyyppi, irrotettava vai ei, jne.)</te>
-      <te>        8.3.2 Sisä- ja ulkomitat</te>
-      <te>        8.3.3 Valmistusmateriaalit ja -menetelmät</te>
-      <te>   8.4  Yleistiedot ohjaamosta</te>
-      <te>        8.4.1 Ovet (lukumäärä, mitat, avautumissuunta,</te>
-      <te>              salvat ja saranat)</te>
-      <te>        8.4.2 Tuulilasi ja mahdolliset muut ikkunat</te>
-      <te>              (lukumäärä, sijainti, käytetyt materiaalit)</te>
-      <te>        8.4.3 Tuulilasin pyyhin</te>
-      <te>        8.4.4 Kuljettajan työskentelytila</te>
-      <te>        8.4.5 Ikkunat</te>
-      <te>   8.5  Muut sääsuojat</te>
-      <te>   8.6  Istuimet ja jalkatasot</te>
-      <te>        8.6.1 Kuljettajan istuin (sijainti ja ominaisuudet)</te>
-      <te>        8.6.2 Matkustajien istuimet (lukumäärä, mitat,</te>
-      <te>              sijainti ja ominaisuudet)</te>
-      <te>        8.6.3 Jalkatasot</te>
-      <te>   8.7  Kuormalava</te>
-      <te>        8.7.1 Mitat</te>
-      <te>        8.7.2 Sijainti</te>
-      <te>        8.7.3 Sallittu kuormitus</te>
-      <te>        8.7.4 Kuorman jakautuminen traktorin akseleille</te>
-      <te>   8.8  Melutaso kuljettajan korvan vieressä</te>
-      <te>   8.9  Pääsy ohjaamoon</te>
-      <te/>
-      <te> 9 VALOT JA MERKINANTOLAITTEET</te>
-      <te>   (Piirros kaikista traktorin ulkopuolisista valolaitteista,</te>
-      <te>   valojen sijainti ja värit)</te>
-      <te>   9.1  Pakolliset laitteet</te>
-      <te>        9.1.1 Ohitusvalot</te>
-      <te>        9.1.2 Etupään äärivalot</te>
-      <te>        9.1.3 Takapään äärivalot</te>
-      <te>        9.1.4 Suuntavalot</te>
-      <te>        9.1.5 Punaiset takaheijastimet</te>
-      <te>        9.1.6 Rekisterikilven valo takana</te>
-      <te>   9.2  Lisälaitteet</te>
-      <te>        9.2.1 Ajovalot</te>
-      <te>        9.2.2 Sumuvalot</te>
-      <te>        9.2.3 Jarruvalot</te>
-      <te>        9.2.4 Työvalot</te>
-      <te>        9.2.5 Pysäköintivalot</te>
-      <te/>
-      <te>10 MUUT LAITTEET</te>
-      <te>  10.1  Äänimerkinantolaitteet</te>
-      <te>        10.2 Kytkentälaite, suurin vaakakuorma ... kg ja</te>
-      <te>             suurin pystykuorma ... kg (jos sallittu) (q)</te>
-      <te>  10.3  Hydraulinen nostolaite, kolmipistekiinnitys</te>
-      <te>  10.4  Perävaunun valojen ja merkinantolaitteiden</te>
-      <te>        sähkökytkentä</te>
-      <te>  10.5  Hallintalaitteiden sijainti ja merkintä</te>
-      <te>  10.6  Rekisterikilpien sijainti</te>
-      <te>  10.7  Etukytkentälaite</te>
-      <te>  10.8  Varoituslaite</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="4" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>0 YLEISTÄ</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Merkki</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Malli (maininta mahdollisista rinnakkaismalleista)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Valmistajan nimi ja osoite</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Valtuutetun myyjän (jos sellainen on) nimi ja osoite</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Lakisääteisten kilpien sijainti, merkinnät ja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>kiinnitystapa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>0.5.1 Traktori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>0.5.2 Moottori</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Kyseisen traktorityypin ensimmäinen sarjanumero</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>1 TRAKTORIN RAKENTEEN YLEISET TUNNUSMERKIT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>(mukaan liitetään valokuvat 3/4 etu- ja 3/4 takaosasta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>sekä mittakaavio koko traktorista)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Akseleiden ja pyörien lukumäärä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>1.1.1 Parirenkaallisten akseleiden lukumäärä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>(jos käyttö mahdollista)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Vetävät pyörät (lukumäärä, sijainti ja kytkentä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>muihin akseleihin)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Moottorin sijainti ja tyyppi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>2 PAINOT JA MITAT (b) (mm ja kg)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Akseliväli(t) (c)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Kunkin akselin raideleveys (yksittäis- tai</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>parirenkaiden keskeltä mitattuna)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>(valmistajan ilmoituksen mukaan) (d)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Traktorin enimmäismitat (tai kokonaismitat) ilman</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>lisävarusteita, mutta vetolaitteet mukaan lukien</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.3.1 Pituus (e)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.3.2 Leveys (f)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.3.3 Korkeus (g)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.3.4 Etuosan ylitys (h)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.3.5 Takaosan ylitys (i)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.3.6 Maavara (j)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Traktorin massa ajokunnossa, ilman lisävarusteita,</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>mutta jäähdytysnesteet, öljyt, polttoaine, työkalut</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>ja kuljettaja mukaan lukien</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.4.1 Massan jakauma akseleiden kesken</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Lisäpainot (tyyppi)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.5.1 Näiden jakauma akseleiden kesken</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Suurin valmistajan sallima massa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.6.1 Renkaiden kantavuuksien sallima suurin massa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.6.1.1 Tämän massan jakauma akseleiden kesken</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.6.2 Akselikantavuuksien sallima suurin massa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>(etu- ja taka-akselin vähimmäisarvot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>eriteltyinä %)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.6.3 Kunkin akselin rengaskantavuuksien mukainen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>enimmäismassa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.6.4 Suurin vetovoima</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.6.5 Kytkentäpisteiden suurin pystykuorma (vetolaite</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>tai kolmipistekiinnitys) (1)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.6.5.1 Tämän pystykuorman kohta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.6.5.1.1 Korkeus maasta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>2.6.5.1.2 Etäisyys taka-akselista</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3 MOOTTORI</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Valmistaja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Nimi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Tyyppi (kipinäsytytys, diesel jne.), tahti</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Sylintereiden lukumäärä ja sylinterilohkon rakenne</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Sylintereiden halkaisija, iskunpituus ja tilavuus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Suurin teho (käytetty mittausstandardi esim. ISO,</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>BSI, CUNA, DIN, DGM, SAE), ... r/min,</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>kun säädin on toiminnassa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.7</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Suurin vääntömomentti, ... r/min (sama</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>mittausstandardi kuin kohdassa 3.6)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Sopiva polttoaine</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.9</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Polttoainesäiliöt (tilavuus ja sijainti)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.10 Varapolttoainesäiliöt (tilavuus ja sijainti)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.11 Polttoainejärjestelmä (tyyppi)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.12 Ahdin (jos asennettu) (tyyppi, hallinta ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>painekuormitus)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.13 Pyörimisnopeuden säädin (jos asennettu)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>(toimintaperiaatteet)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.14 Sähköjärjestelmä (jännite, positiivinen vai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>negatiivinen maadoitus)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.15 Laturi (tyyppi ja nimellisteho)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.16 Sytytys (tyyppi ja ennakon säätö)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.17 Häiriönpoistaja (kuvaus)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.18 Jäähdytysjärjestelmä (ilma, vesi)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.19 Ohiajomelu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.20 Pakokaasujärjestelmä (äänenvaimennin) (luonnos)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.21 Pakokaasupäästöjen ehkäisy</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3.22 Moottorin pysäytyslaite</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>4 VOIMANSIIRTO (luonnos voimansiirrosta ja piirros) (m)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Tyyppi (mekaaninen, hydraulinen, sähköinen, tms.)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Kytkin (tyyppi)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Vaihdelaatikko (tyyppi, suora kytkentä,</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>hallintamenetelmä)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Voimansiirto moottorista vaihdelaatikkoon ja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>taka-akseliin sekä siirto- tai välivaihteet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>(jos asennettu)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Välityssuhteet siirtovaihteen kanssa tai ilman (n)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Vaihde</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Vaihdelaatikon</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Vetopyörästön</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Kokonaisvälitys</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">välityssuhde</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="3" nameend="4">
+                <sis:KappaleKooste>välityssuhde</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>2</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>3</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>Peruutus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Traktorin suurin nopeus, suurin vaihde, km/h</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>(laskennassa käytetyt arvot ilmoitettava) (n)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.7</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Yhtä vetävän pyörän kierrosta kohti kuljettu matka</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Nopeusmittari, kierroslukumittari ja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>käyttötuntimittari (jos asennettu)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.9</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Tasauspyörästön lukko (jos asennettu)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Voimanottoakselit (pyörimisnopeudet ja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>välityssuhteet) (lukumäärä ja sijainti)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>4.10.1 Päävoimanottoakseli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>4.10.2 Muut</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.11</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Voimanottoakseleiden suojukset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.12</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Moottorin osien, ulkonevien osien ja pyörien suojukset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>4.12.1 Yksinkertainen suojus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>4.12.2 Moninkertainen suojus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>4.12.3 Täydellinen kotelointi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>5 JOUSITUS</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Vakiovarusteiset renkaat (mitat, ominaisuudet,</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>rengaspaine kuljetusajossa ja suurin rengaskuorma)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Akseleiden tai pyörien jousitustyyppi (jos asennettu)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Mahdolliset muut laitteet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>6 OHJAUS (Piirros)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">6.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Ohjausmekanismi ja välitykset, ohjaustehostus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>(jos asennettu) (toimintamenetelmä, merkki ja malli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>tarvittaessa), ja ohjauspyörän käyttövoima</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">6.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Pyörien suurin kääntymiskulma</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>6.2.1 oikealle ... (astetta): ohjauspyörän</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>kierrosmäärä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>6.2.2 vasemmalle ... (astetta): ohjauspyörän</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>kierrosmäärä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">6.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Pienin kääntöympyrä (ilman ohjausjarruja) (o)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>6.3.1 Oikealle</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>6.3.2 Vasemmalle</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>7 JARRUT (Yleispiirros ja toimintapiirros)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Käyttöjarru</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Lisäkäyttöjarru (jos asennettu)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Seisontajarru</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Toinen jarru (jos asennettu) (mukaan lukien</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>pakokaasujarru)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Jarrujärjestelmän laskelma: käyttövoiman ja pyörän</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>kehien jarrutusvoimien suhde</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Ohjausjarrujen yhteenkytkentämenetelmä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>7.7. Jarrutehostimet (ominaisuudet, säiliöiden koot,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>painemittarit ja alhaisen paineen varoituslaite</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>kojetaulussa, alipainesäiliöt ja syöttöventtiilit,</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>kompressorit, painelaitteiden säännösten mukaisuus)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Perävaunun vetämiseen suunnitellut traktorit</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>7.8.1 Perävaunujarrun käyttöjärjestelmä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>7.8.2 Liitännät, kytkennät, turvalaitteet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>8 NÄKÖKENTTÄ, TAUSTAPEILIT, SUOJALAITTEET KAATUMISEN VARALTA,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>SÄÄSUOJA, ISTUIMET JA KUORMALAVAT, MELUTASO KULJETTAJAN</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>KORVAN VIERESSÄ</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Näkökenttä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Taustapeilit</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Suojalaitteet kaatumisen varalta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.3.1 Kuvaus (tyyppi, irrotettava vai ei, jne.)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.3.2 Sisä- ja ulkomitat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.3.3 Valmistusmateriaalit ja -menetelmät</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Yleistiedot ohjaamosta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.4.1 Ovet (lukumäärä, mitat, avautumissuunta,</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>salvat ja saranat)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.4.2 Tuulilasi ja mahdolliset muut ikkunat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>(lukumäärä, sijainti, käytetyt materiaalit)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.4.3 Tuulilasin pyyhin</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.4.4 Kuljettajan työskentelytila</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.4.5 Ikkunat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Muut sääsuojat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Istuimet ja jalkatasot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.6.1 Kuljettajan istuin (sijainti ja ominaisuudet)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.6.2 Matkustajien istuimet (lukumäärä, mitat,</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>sijainti ja ominaisuudet)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.6.3 Jalkatasot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8.7</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Kuormalava</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.7.1 Mitat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.7.2 Sijainti</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.7.3 Sallittu kuormitus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>8.7.4 Kuorman jakautuminen traktorin akseleille</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8.8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Melutaso kuljettajan korvan vieressä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8.9</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Pääsy ohjaamoon</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>9 VALOT JA MERKINANTOLAITTEET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>(Piirros kaikista traktorin ulkopuolisista valolaitteista,</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>valojen sijainti ja värit)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">9.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Pakolliset laitteet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>9.1.1 Ohitusvalot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>9.1.2 Etupään äärivalot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>9.1.3 Takapään äärivalot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>9.1.4 Suuntavalot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>9.1.5 Punaiset takaheijastimet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>9.1.6 Rekisterikilven valo takana</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">9.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Lisälaitteet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>9.2.1 Ajovalot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>9.2.2 Sumuvalot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>9.2.3 Jarruvalot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>9.2.4 Työvalot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>9.2.5 Pysäköintivalot</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste>10 MUUT LAITTEET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">10.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Äänimerkinantolaitteet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">10.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Kytkentälaite, suurin vaakakuorma ... kg ja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>suurin pystykuorma ... kg (jos sallittu) (q)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">10.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Hydraulinen nostolaite, kolmipistekiinnitys</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">10.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Perävaunun valojen ja merkinantolaitteiden</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>sähkökytkentä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">10.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Hallintalaitteiden sijainti ja merkintä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">10.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Rekisterikilpien sijainti</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">10.7</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Etukytkentälaite</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">10.8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Varoituslaite</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
       <sis:KappaleKooste>LIITE II</sis:KappaleKooste>
-      <te/>
       <sis1:ValiotsikkoTeksti>TRAKTORIN TYYPPIHYVÄKSYNTÄTODISTUKSEN MALLI</sis1:ValiotsikkoTeksti>
-      <te>0 YLEISTÄ</te>
-      <te>  0.1  Merkki</te>
-      <te>  0.2  Malli (maininta mahdollisista rinnakkaismalleista)</te>
-      <te>  0.3  Valmistajan nimi ja osoite</te>
-      <te>  0.4  Valtuutetun myyjän (jos sellainen on) nimi ja osoite</te>
-      <te>  0.5  Lakisääteisten kilpien sijainti, merkinnät ja</te>
-      <te>       kiinnitystapa</te>
-      <te>  0.6  Kyseisen tämän traktorityypin ensimmäinen sarjanumero</te>
-      <te/>
-      <te>1 PAINOT JA MITAT (mm ja kg)</te>
-      <te>  1.1  Akseliväli</te>
-      <te>  1.2  Pituus</te>
-      <te>  1.3  Leveys</te>
-      <te>  1.4  Korkeus ilman kuormaa</te>
-      <te>  1.5  Lisäpainot</te>
-      <te>  1.6  Suurin teknisesti sallittu paino</te>
-      <te>       1.6.1 Tämän painon jakautuminen akseleiden kesken</te>
-      <te>  1.7  Suurin sallittu bruttopaino</te>
-      <te>       1.7.1 Tämän painon jakautuminen akseleiden kesken</te>
-      <te>  1.8  Suurimmat teknisesti sallitut akselipainot</te>
-      <te>  1.9  Suurimmat sallitut akseleiden bruttopainot</te>
-      <te>  1.10 Teknisesti sallitut akselipainojen jakaumat</te>
-      <te>  1.11 Sallitut akselipainojen jakaumat</te>
-      <te>  1.12 Suurin vetovoima</te>
-      <te>  1.13 Kytkentälaitteen suurin pystykuorma</te>
-      <te/>
-      <te>2 MOOTTORI</te>
-      <te>  2.1  Valmistaja</te>
-      <te>  2.2  Suurin teho, vastaava pyörimisnopeus ... r/min</te>
-      <te>       (mittausstandardi ilmoitettava)</te>
-      <te>  2.3  Polttoainesäiliöt</te>
-      <te>       2.3.1 Varapolttoainesäiliöt (jos asennettu)</te>
-      <te>  2.4  Häiriönpoistaja</te>
-      <te>  2.5  Pyörimisnopeuden säädin (jos asennettu)</te>
-      <te>  2.6  Ohiajomelu</te>
-      <te>  2.7  Pakokaasujärjestelmä (äänenvaimennin)</te>
-      <te>  2.8  Pakokaasupäästöt</te>
-      <te>       2.8.1 Dieselmoottoreiden savuluku</te>
-      <te>  2.9  Moottorin pysäytyslaite</te>
-      <te/>
-      <te>3 VOIMANSIIRTO</te>
-      <te>  3.1  Traktorin laskettu suurin teoreettinen nopeus</te>
-      <te>       suurimmalla vaihteella (km/h)</te>
-      <te>  3.2  Suurin mitattu ajonopeus, suurimmalla vaihteella (km/h)</te>
-      <te>  3.3  Öljytilavuus</te>
-      <te>  3.4  Voimanottoakselit</te>
-      <te>  3.5  Moottorin osien, ulkonevien osien ja pyörien suojaus</te>
-      <te/>
-      <te>4 JOUSITUS</te>
-      <te>  4.1  Vakiovarusteiset renkaat</te>
-      <te/>
-      <te>5 OHJAUS</te>
-      <te>  5.1  Ohjausmekanismi ja välitys</te>
-      <te>  5.2  Ohjauksen tehostus ja ohjausvoima</te>
-      <te/>
-      <te>6 JARRUT</te>
-      <te>  6.1  Käyttöjarrut</te>
-      <te>  6.2  Seisontajarrut</te>
-      <te>  6.3  Lisäjarrut (jos asennettu)</te>
-      <te>  6.4  Perävaunun jarrujen hallinta (jos asennettu)</te>
-      <te>  6.5  Mittausolosuhteet</te>
-      <te>  6.6  Mittaustulokset</te>
-      <te/>
-      <te>7 NÄKÖKENTTÄ, TAUSTAPEILIT, SUOJALAITTEET KAATUMISEN</te>
-      <te>  VARALTA, SÄÄSUOJA, ISTUIMET JA KUORMALAVAT, MELUTASO</te>
-      <te>  KULJETTAJAN KORVAN VIERESSÄ</te>
-      <te>  7.1  Näkökenttä</te>
-      <te>  7.2  Taustapeilit</te>
-      <te>  7.3  Suojalaitteet kaatumisen varalta</te>
-      <te>       7.3.1 Turvakaari</te>
-      <te>       7.3.2 Turvakehys</te>
-      <te>       7.3.3 Turvaohjaamo</te>
-      <te>       7.3.4 Muut turvalaitteet</te>
-      <te>  7.4  Ohjaamo, yleistiedot</te>
-      <te>       7.4.1 Ovet</te>
-      <te>       7.4.2 Tuulilasi ja muut lasit</te>
-      <te>       7.4.3 Tuulilasin pyyhin</te>
-      <te>       7.4.4 Kuljettajan työskentelytila</te>
-      <te>       7.4.5 Ikkunat</te>
-      <te>  7.5  Muut sääsuojat</te>
-      <te>  7.6  Istuimet ja jalkatasot</te>
-      <te>       7.6.1 Kuljettajan istuin</te>
-      <te>       7.6.2 Matkustajien istuimet</te>
-      <te>       7.6.3 Jalkatasot</te>
-      <te>  7.7  Kuormalava</te>
-      <te>  7.8  Melutaso kuljettajan korvan vieressä</te>
-      <te>  7.9  Pääsy ohjauspaikalle</te>
-      <te/>
-      <te>8 VALOT JA MERKINANTOLAITTEET</te>
-      <te>  8.1  Pakolliset laitteet</te>
-      <te>       8.1.1 Ohitusvalot</te>
-      <te>       8.1.2 Etupään äärivalot</te>
-      <te>       8.1.3 Takapään äärivalot</te>
-      <te>       8.1.4 Suuntavalot</te>
-      <te>       8.1.5 Punaiset takaheijastimet</te>
-      <te>       8.1.6 Rekisterikilven valo takana</te>
-      <te>  8.2  Lisävarusteet</te>
-      <te>       8.2.1 Ajovalot</te>
-      <te>       8.2.2 Sumuvalot</te>
-      <te>       8.2.3 Jarruvalot</te>
-      <te>       8.2.4 Työvalot</te>
-      <te>       8.2.5 Pysäköintivalot</te>
-      <te/>
-      <te>9 MUUT VARUSTEET</te>
-      <te>  9.1  Äänimerkinantolaitteet</te>
-      <te>  9.2  Perävaunun kytkentälaite</te>
-      <te>  9.3  Perävaunun valojen ja merkinantolaitteiden</te>
-      <te>       sähkökytkentä</te>
-      <te>  9.4  Hallintalaitteiden sijainti ja merkintä</te>
-      <te>  9.5  Rekisterikilpien sijainti</te>
-      <te>  9.6  Etukytkentälaite</te>
-      <te>  9.7  Varoituslaite</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>0 YLEISTÄ</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Merkki</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Malli (maininta mahdollisista rinnakkaismalleista)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Valmistajan nimi ja osoite</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Valtuutetun myyjän (jos sellainen on) nimi ja osoite</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Lakisääteisten kilpien sijainti, merkinnät ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">kiinnitystapa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">0.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Kyseisen tämän traktorityypin ensimmäinen sarjanumero</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>1 PAINOT JA MITAT (mm ja kg)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Akseliväli</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pituus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Leveys</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Korkeus ilman kuormaa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Lisäpainot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Suurin teknisesti sallittu paino</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1.6.1 Tämän painon jakautuminen akseleiden kesken</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.7</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Suurin sallittu bruttopaino</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1.7.1 Tämän painon jakautuminen akseleiden kesken</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Suurimmat teknisesti sallitut akselipainot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1.9</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Suurimmat sallitut akseleiden bruttopainot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>1.10 Teknisesti sallitut akselipainojen jakaumat</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>1.11 Sallitut akselipainojen jakaumat</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>1.12 Suurin vetovoima</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>1.13 Kytkentälaitteen suurin pystykuorma</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>2 MOOTTORI</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Valmistaja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Suurin teho, vastaava pyörimisnopeus ... r/min</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">(mittausstandardi ilmoitettava)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Polttoainesäiliöt</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2.3.1 Varapolttoainesäiliöt (jos asennettu)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Häiriönpoistaja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pyörimisnopeuden säädin (jos asennettu)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Ohiajomelu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.7</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pakokaasujärjestelmä (äänenvaimennin)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pakokaasupäästöt</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2.8.1 Dieselmoottoreiden savuluku</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2.9</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Moottorin pysäytyslaite</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>3 VOIMANSIIRTO</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Traktorin laskettu suurin teoreettinen nopeus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">suurimmalla vaihteella (km/h)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Suurin mitattu ajonopeus, suurimmalla vaihteella (km/h)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Öljytilavuus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Voimanottoakselit</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Moottorin osien, ulkonevien osien ja pyörien suojaus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>4 JOUSITUS</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Vakiovarusteiset renkaat</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>5 OHJAUS</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Ohjausmekanismi ja välitys</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Ohjauksen tehostus ja ohjausvoima</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>6 JARRUT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">6.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Käyttöjarrut</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">6.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Seisontajarrut</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">6.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Lisäjarrut (jos asennettu)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">6.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Perävaunun jarrujen hallinta (jos asennettu)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">6.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Mittausolosuhteet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">6.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Mittaustulokset</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>7 NÄKÖKENTTÄ, TAUSTAPEILIT, SUOJALAITTEET KAATUMISEN</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>VARALTA, SÄÄSUOJA, ISTUIMET JA KUORMALAVAT, MELUTASO</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>KULJETTAJAN KORVAN VIERESSÄ</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Näkökenttä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Taustapeilit</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Suojalaitteet kaatumisen varalta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.3.1 Turvakaari</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.3.2 Turvakehys</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.3.3 Turvaohjaamo</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.3.4 Muut turvalaitteet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Ohjaamo, yleistiedot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.4.1 Ovet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.4.2 Tuulilasi ja muut lasit</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.4.3 Tuulilasin pyyhin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.4.4 Kuljettajan työskentelytila</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.4.5 Ikkunat</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Muut sääsuojat</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Istuimet ja jalkatasot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.6.1 Kuljettajan istuin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.6.2 Matkustajien istuimet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7.6.3 Jalkatasot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.7</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Kuormalava</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Melutaso kuljettajan korvan vieressä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7.9</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pääsy ohjauspaikalle</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>8 VALOT JA MERKINANTOLAITTEET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pakolliset laitteet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">8.1.1 Ohitusvalot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">8.1.2 Etupään äärivalot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">8.1.3 Takapään äärivalot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">8.1.4 Suuntavalot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">8.1.5 Punaiset takaheijastimet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">8.1.6 Rekisterikilven valo takana</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Lisävarusteet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">8.2.1 Ajovalot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">8.2.2 Sumuvalot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">8.2.3 Jarruvalot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">8.2.4 Työvalot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">8.2.5 Pysäköintivalot</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>9 MUUT VARUSTEET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">9.1</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Äänimerkinantolaitteet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">9.2</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Perävaunun kytkentälaite</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">9.3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Perävaunun valojen ja merkinantolaitteiden</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">sähkökytkentä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">9.4</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Hallintalaitteiden sijainti ja merkintä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">9.5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Rekisterikilpien sijainti</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">9.6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Etukytkentälaite</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">9.7</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Varoituslaite</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>Minä allekirjoittanut todistan valmistajan kuvauksen paikkansapitävyyden tietolomakkeessa N:o ........ traktorista, jonka sarjanumero on ..........., jossa on moottori N:o (1).........., ja jonka valmistaja on antanut mallin .......... prototyypiksi.</sis:KappaleKooste>
       <sis:KappaleKooste>Valmistajan, .........., pyynnöstä suoritetut tarkastukset osoittavat, että edellä kuvattu traktori, joka on annettu sarjan prototyypiksi, täyttää kaikki vaatimukset kaikkien tässä todistuksessa tarkoitettujen kohtien suhteen.</sis:KappaleKooste>
       <sis:KappaleKooste>Tehty ..................... (paikka), ................ (aika)</sis:KappaleKooste>
@@ -476,22 +3073,92 @@
       <sis:KappaleKooste>LIITE III</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>MALLI</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>MÄÄRÄYSTENMUKAISUUSTODISTUS</sis1:ValiotsikkoTeksti>
-      <te>Minä allekirjoittanut, .....................................</te>
-      <te>(valmistajan tai tämän edustajan nimi)</te>
-      <te>todistan, että traktori</te>
-      <te>1. Merkki ..................................................</te>
-      <te>2. Tyyppi ..................................................</te>
-      <te>3. Tyypin sarjanumero ......................................</te>
-      <te>on kaikissa suhteissa sen tyypin .................. mukainen</te>
-      <te>joka on hyväksytty ........ (paikka) ................ (aika),</te>
-      <te>hyväksyjä ..................................................</te>
-      <te>ja joka on kuvattu tyyppihyväksyntätodistuksessa N:o .......</te>
-      <te>ja tietolomakkeessa N:o ....................................</te>
-      <te>Tehty ................. (paikka), ....................(aika)</te>
-      <te>............................................................</te>
-      <te>(allekirjoitus)</te>
-      <te>............................................................</te>
-      <te>(virka-asema)</te>
+      <tau:table>
+        <tau:tgroup cols="1" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Minä allekirjoittanut, .....................................</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">(valmistajan tai tämän edustajan nimi)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">todistan, että traktori</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1. Merkki ..................................................</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2. Tyyppi ..................................................</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3. Tyypin sarjanumero ......................................</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">on kaikissa suhteissa sen tyypin .................. mukainen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">joka on hyväksytty ........ (paikka) ................ (aika),</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">hyväksyjä ..................................................</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">ja joka on kuvattu tyyppihyväksyntätodistuksessa N:o .......</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">ja tietolomakkeessa N:o ....................................</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Tehty ................. (paikka), ....................(aika)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">............................................................</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">(allekirjoitus)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">............................................................</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">(virka-asema)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

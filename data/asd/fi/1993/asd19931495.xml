@@ -124,53 +124,316 @@
       <sis:KappaleKooste>LIITE</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>MAKSUTAULUKKO</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Maa- ja metsätalousministeriön kiinteämaksuiset julkisoikeudelliset päätökset ja todistukset</sis:KappaleKooste>
-      <te/>
       <sis1:ValiotsikkoTeksti>I Päätökset                                                mk</sis1:ValiotsikkoTeksti>
-      <te/>
-      <te>Eläinlääkärin laillistaminen                              150</te>
-      <te>Erikoiseläinlääkärin oikeudet                             150</te>
-      <te>Väliaikaislupa eläinlääkärintoimen harjoittamiseen</te>
-      <te>  ensimmäisen kerran haettaessa                           100</te>
-      <te>  jatkoluvat                                               50</te>
-      <te>Maahantuontilupa                                          300</te>
-      <te>Lupa poiketa eläintautien vastustamiseksi määrätyistä</te>
-      <te>rajoituksista                                             300</te>
-      <te>Rokotteita, seerumeita ja niihin verrattavia</te>
-      <te>valmisteita koskeva lupa                                  300</te>
-      <te>Eläinkoelupa                                              600</te>
-      <te>Lupa kiertävään eläinnäyttelyyn                           750</te>
-      <te>Sirkusta tai muuta eläinesitystä koskeva lupa             450</te>
-      <te>Vapautus koe-eläinkurssin suorittamisesta                 300</te>
-      <te>Lupa poiketa metsänviljelyaineiston alkuperäluokituksesta 250</te>
-      <te>Perintökaaren 25 luvun 8 §:ssä tarkoitettu lausunto     1 500</te>
-      <te>Maanhankintalupapäätös ja maanhankintalupaa koskeva</te>
-      <te>ennakkoilmoitus                                           350</te>
-      <te>Kotimaisen raaka-aineen tuontimaksun alentamista ja</te>
-      <te>poistamista koskevat päätökset                            500</te>
-      <te>Elintarviketuotteiden valmisteveron alentamista ja</te>
-      <te>vapautusta koskevat päätökset                             500</te>
-      <te>Hinnanerokorvauksen, hinnanalennuskorvauksen ja</te>
-      <te>varastointituen maksamista koskevat päätökset             300</te>
-      <te>Hinnanerokorvauksen vahvistamista etukäteen koskevat</te>
-      <te>päätökset                                                 500</te>
-      <te>Lupa pellonraivaukseen                                    300</te>
-      <te>Markkinoimismaksun alentamis- ja vapauttamispäätös        250</te>
-      <te>Lupa kotieläintuotannon harjoittamiseen ja</te>
-      <te>maahantuotujen siitoseläinten kasvattamiseen              500</te>
-      <te>Lupa siipikarjan siitoseläinten pitoon, munien</te>
-      <te>haudontaan ja poikasten kasvattamiseen                    300</te>
-      <te>Metsästyslain mukaan hakemuksesta annettavat päätökset</te>
-      <te>lukuunottamatta tieteellistä tutkimusta varten</te>
-      <te>myönnettäviä lupia                                        300</te>
-      <te>Maksu peritään myös silloin, kun haettua lupaa ei myönnetä</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Eläinlääkärin laillistaminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">150</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Erikoiseläinlääkärin oikeudet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">150</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Väliaikaislupa eläinlääkärintoimen harjoittamiseen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">ensimmäisen kerran haettaessa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">100</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">jatkoluvat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">50</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Maahantuontilupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Lupa poiketa eläintautien vastustamiseksi määrätyistä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">rajoituksista</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Rokotteita, seerumeita ja niihin verrattavia</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">valmisteita koskeva lupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Eläinkoelupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">600</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lupa kiertävään eläinnäyttelyyn</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">750</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Sirkusta tai muuta eläinesitystä koskeva lupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">450</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Vapautus koe-eläinkurssin suorittamisesta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lupa poiketa metsänviljelyaineiston alkuperäluokituksesta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">250</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Perintökaaren 25 luvun 8 §:ssä tarkoitettu lausunto</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Maanhankintalupapäätös ja maanhankintalupaa koskeva</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">ennakkoilmoitus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">350</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Kotimaisen raaka-aineen tuontimaksun alentamista ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">poistamista koskevat päätökset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Elintarviketuotteiden valmisteveron alentamista ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">vapautusta koskevat päätökset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Hinnanerokorvauksen, hinnanalennuskorvauksen ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">varastointituen maksamista koskevat päätökset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Hinnanerokorvauksen vahvistamista etukäteen koskevat</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">päätökset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lupa pellonraivaukseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Markkinoimismaksun alentamis- ja vapauttamispäätös</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">250</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Lupa kotieläintuotannon harjoittamiseen ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">maahantuotujen siitoseläinten kasvattamiseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Lupa siipikarjan siitoseläinten pitoon, munien</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">haudontaan ja poikasten kasvattamiseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Metsästyslain mukaan hakemuksesta annettavat päätökset</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>lukuunottamatta tieteellistä tutkimusta varten</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">myönnettäviä lupia</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Maksu peritään myös silloin, kun haettua lupaa ei myönnetä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis1:ValiotsikkoTeksti>II Todistukset</sis1:ValiotsikkoTeksti>
-      <te>Eläinlääkintä- ja elintarvikeosaston toimialaan</te>
-      <te>kuuluvat vienti- ja muut todistukset                       mk</te>
-      <te>  ensimmäinen                                             100</te>
-      <te>  seuraavat                                                10</te>
-      <te>Muu todistus, joka annetaan erillisenä asiakirjana tai</te>
-      <te>kirjoitetaan viranomaiselle esitettyyn asiakirjaan         50</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Eläinlääkintä- ja elintarvikeosaston toimialaan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kuuluvat vienti- ja muut todistukset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">ensimmäinen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">100</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">seuraavat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">10</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Muu todistus, joka annetaan erillisenä asiakirjana tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kirjoitetaan viranomaiselle esitettyyn asiakirjaan</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">50</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Kaasulaiteasetus</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite II: neuvoston direktiivi (90/396/ETY)</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus">
@@ -153,6 +148,9 @@ d) EY-tarkastusta (liite II, 5 kohta).
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>ETA-sopimuksen liite II: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="390L0396"><sis1:ViiteTeksti>(90/396/ETY)</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 22 päivänä joulukuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -230,7 +228,6 @@ d) EY-tarkastusta (liite II, 5 kohta).
       <sis:KappaleKooste>3.6.3. Kotitaloudessa käytettävien kaasulaitteiden ulkoisten osien pintalämpötilat, lukuun ottamatta pintoja tai osia, jotka ovat yhteydessä lämmönsiirtoon, eivät saa kaasulaitetta käytettäessä aiheuttaa vaaraa käyttäjille ja erityisesti lapsille. Käyttäjien reaktioaika on otettava huomioon.</sis:KappaleKooste>
       <sis:KappaleKooste>3.7. Elintarvikkeet ja talousvesi</sis:KappaleKooste>
       <sis:KappaleKooste>Elintarvikkeiden ja talousveden kanssa mahdollisesti kosketuksiin joutuvat kaasulaitteissa käytetyt rakenneaineet ja -osat eivät saa huonontaa elintarvikkeiden tai veden laatua.</sis:KappaleKooste>
-      <te/>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
   <asi:LiiteOsa>
@@ -365,24 +362,97 @@ d) EY-tarkastusta (liite II, 5 kohta).
     <asi:SisaltoLiite>
       <sis:KappaleKooste>Liite III</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>EY-MERKKI JA MERKINNÄT</sis1:ValiotsikkoTeksti>
-      <te>1. EY-merkin muodostaa tunnus ''CE'' ja sen vuosiluvun kaksi</te>
-      <te>   viimeistä numeroa, jona merkki on kiinnitetty kaasu-</te>
-      <te>   laitteeseen, sekä satunnaistarkastuksen, EY-tarkastuksen</te>
-      <te>   tai EY-valvonnan tehneen ilmoitetun tarkastuslaitoksen</te>
-      <te>   tunnusmerkki.</te>
-      <te>2. Kaasulaitteessa tai sen arvokilvessä on oltava EY-merkki</te>
-      <te>   ja seuraavat merkinnät:</te>
-      <te>   - valmistajan nimi tai tunnusmerkki,</te>
-      <te>   - kaasulaitteen kauppanimi,</te>
-      <te>   - mahdollisen sähkösyötön tyyppi,</te>
-      <te>   - laiteluokka.</te>
-      <te>Asennuksessa tarvittavat tiedot voidaan lisätä</te>
-      <te>laitetyypin mukaisesti.</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>1. EY-merkin muodostaa tunnus ''CE'' ja sen vuosiluvun kaksi</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>viimeistä numeroa, jona merkki on kiinnitetty kaasu-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>laitteeseen, sekä satunnaistarkastuksen, EY-tarkastuksen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>tai EY-valvonnan tehneen ilmoitetun tarkastuslaitoksen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>tunnusmerkki.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>2. Kaasulaitteessa tai sen arvokilvessä on oltava EY-merkki</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>ja seuraavat merkinnät:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- valmistajan nimi tai tunnusmerkki,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- kaasulaitteen kauppanimi,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- mahdollisen sähkösyötön tyyppi,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">- laiteluokka.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Asennuksessa tarvittavat tiedot voidaan lisätä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>laitetyypin mukaisesti.</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:Kuva>
-        <sis:KuvaAsemointi ID="0691">
-          <te>EY-merkki</te>
-        </sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/symb/1584.gif"/>
+        <te>EY-merkki</te>
       </sis:Kuva>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>

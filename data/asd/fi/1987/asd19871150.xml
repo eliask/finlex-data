@@ -23,12 +23,30 @@
       <saa:Pykalisto>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
-          <saa:KohdatMomentti>
-            <saa:MomenttiJohdantoKooste>Laitoksen jäätiedotuspalveluksista peritään seuraavat maksut:</saa:MomenttiJohdantoKooste>
-            <saa:MomenttiKohtaKooste> 1)jäätiedotukset talvikaudelta		600mk</saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste> 2)jääkartat talvikaudelta			600mk</saa:MomenttiKohtaKooste>
-            <sis:Katkoviiva/>
-          </saa:KohdatMomentti>
+          <saa:MomenttiKooste>Laitoksen jäätiedotuspalveluksista peritään seuraavat maksut:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1)jäätiedotukset talvikaudelta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2)jääkartat talvikaudelta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
+          <sis:Katkoviiva/>
         </saa:Pykala>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">

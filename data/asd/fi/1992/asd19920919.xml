@@ -131,16 +131,116 @@
       <sis:KappaleKooste>Tämä suhde voidaan likimääräisesti ilmaista seuraavalla yhtälöllä:</sis:KappaleKooste>
       <sis:KappaleKooste>σ<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> = 2.5 * 10<sis1:YlaindeksiTeksti>-2</sis1:YlaindeksiTeksti> log(T/τ).</sis:KappaleKooste>
       <sis:KappaleKooste>3. Tämän tiedon perusteella voidaan lyhyempiä vertailuaikoja koskevien raja-arvojen ja teknillisen pitkän ajan raja-arvon keskisuhde laskea seuraavasti:</sis:KappaleKooste>
-      <te/>
-      <te>Vertailu-          Raja-arvo    Lyhyen ajan arvon</te>
-      <te>aika         miljoonasosissa       ja teknillisen</te>
-      <te>             (pyöristettynä)    pitkän ajan raja-</te>
-      <te>                                      arvon suhde</te>
-      <te>Yksi vuosi                 3           1</te>
-      <te>Yksi kuukausi              5           1.7</te>
-      <te>Yksi viikko                6           1.95</te>
-      <te>Kahdeksan tuntia           7           2.3</te>
-      <te>Yksi tunti                 8           2.55</te>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Vertailu-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Raja-arvo</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Lyhyen ajan arvon</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>aika</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>miljoonasosissa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>ja teknillisen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>(pyöristettynä)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>pitkän ajan raja-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>arvon suhde</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Yksi vuosi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Yksi kuukausi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>5</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1.7</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Yksi viikko</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>6</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1.95</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Kahdeksan tuntia</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>7</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2.3</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Yksi tunti</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>8</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2.55</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>4. Yllä olevien yhtä vuotta lyhyemmän vertailuajanjakson raja-arvoilla saa olla enintään 5 prosentin ylitetyksi tulon todennäköisyys, kun ilman vinyylikloridimonomeerin pitoisuuksien vuotuinen aritmeettinen keskiarvo on kolme miljoonasosaa.</sis:KappaleKooste>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>

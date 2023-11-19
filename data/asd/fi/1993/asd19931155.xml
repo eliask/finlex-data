@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>työntekijöiden suojelemisesta työhön liittyvältä biologisten tekijöiden aiheuttamalta vaaralta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>ETA-sopimuksen liite XVIII: neuvoston direktiivi (90/679/ETY).</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -420,6 +415,9 @@ c) korjataan tai korvataan, mikäli vikoja löydetään, ennen jatkokäyttöä;
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>ETA-sopimuksen liite XVIII: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="390L0679"><sis1:ViiteTeksti>(90/679/ETY)</sis1:ViiteTeksti></sis:YleinenViite>.</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 9 päivänä joulukuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -441,23 +439,73 @@ c) korjataan tai korvataan, mikäli vikoja löydetään, ennen jatkokäyttöä;
         <sis1:LihavaTeksti>VIITELUETTELO TOIMINNOISTA</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>(7 §:n 2 momentti)</sis:KappaleKooste>
-      <te>1. Työ elintarviketehtaissa</te>
-      <te>2. Maataloustyö</te>
-      <te>3. Työ, jossa joudutaan kosketuksiin eläinten tai</te>
-      <te>   eläinperäisten tuotteiden kanssa</te>
-      <te>4. Terveydenhoitotyö, mukaan lukien työ eristysyksiköissä ja</te>
-      <te>   yksiköissä, joissa käsitellään ruumiita</te>
-      <te>5. Työ kliinisissä, eläinlääketieteellisissä ja</te>
-      <te>   diagnostisissa laboratorioissa, lukuun ottamatta</te>
-      <te>   diagnostisia mikrobiologisia laboratorioita</te>
-      <te>6. Työ jätteidenkäsittelylaitoksissa</te>
-      <te>7. Työ jätevedenpuhdistamoissa</te>
+      <tau:table>
+        <tau:tgroup cols="1" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">1. Työ elintarviketehtaissa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">2. Maataloustyö</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">3. Työ, jossa joudutaan kosketuksiin eläinten tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">eläinperäisten tuotteiden kanssa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">4. Terveydenhoitotyö, mukaan lukien työ eristysyksiköissä ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">yksiköissä, joissa käsitellään ruumiita</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">5. Työ kliinisissä, eläinlääketieteellisissä ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">diagnostisissa laboratorioissa, lukuun ottamatta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">diagnostisia mikrobiologisia laboratorioita</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">6. Työ jätteidenkäsittelylaitoksissa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">7. Työ jätevedenpuhdistamoissa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>TARTUNTAVAARAA OSOITTAVA MERKKI</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>(9 §:n 2 momentin 5 kohta)</sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi ID="0684"/>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/varom/0684.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>ERISTYSMENETELMIÄ JA ERISTYSTASOJA KOSKEVIA SEIKKOJA</sis1:LihavaTeksti>

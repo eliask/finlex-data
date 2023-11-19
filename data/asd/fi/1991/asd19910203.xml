@@ -49,15 +49,93 @@
       <sis1:ValiotsikkoTeksti>Rehun lisäaineluettelo</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>OSA I</sis:KappaleKooste>
       <sis:KappaleKooste>A. Mikrobeihin ja loisiin vaikuttavat aineet</sis:KappaleKooste>
-      <te/>
-      <te>                                               Käytön rajoitukset</te>
-      <te>Rehun lisäaine         Eläinlaji ja -ryhmä     Rehuseos ja vaikuttavan aineen    Varoaika</te>
-      <te>                                               pitoisuus</te>
+      <tau:table>
+        <tau:tgroup cols="4" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>Käytön rajoitukset</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Rehun lisäaine</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Eläinlaji ja -ryhmä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Rehuseos ja vaikuttavan aineen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">Varoaika</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>pitoisuus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:Katkoviiva/>
-      <te>15</te>
-      <te>Virginiamycin          broilerit               täysrehu 20 mg/kg</te>
-      <te>                       kalkkunat               ei emakoille eikä kasvaville sii-</te>
-      <te>                       lihasiat                tossioille</te>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste>15</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Virginiamycin</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">broilerit</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">täysrehu 20 mg/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">kalkkunat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">ei emakoille eikä kasvaville sii-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">lihasiat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">tossioille</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

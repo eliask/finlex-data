@@ -128,70 +128,415 @@
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
       <sis:KappaleKooste>Liite</sis:KappaleKooste>
-      <sis1:ValiotsikkoTeksti>SISÄASIAINMINISTERIÖN MAKSULLISET JULKISOIKEUDELLISET SUORITTEET</sis1:ValiotsikkoTeksti>
-      <te>OMAKUSTANNUSHINTAISET SUORITTEET</te>
-      <te>
-        <saa:SaadosKursiiviKooste>Suorite                                             Maksu</saa:SaadosKursiiviKooste>
-      </te>
-      <sis1:ValiotsikkoTeksti>Pelastusosasto</sis1:ValiotsikkoTeksti>
-      <sis1:ValiotsikkoTeksti>Tulisijat, palovaaralliset laitteet sekä palo- ja</sis1:ValiotsikkoTeksti>
-      <sis1:ValiotsikkoTeksti>pelastuskalusto</sis1:ValiotsikkoTeksti>
-      <te>Käsisammutin, paloletku tai muu sammutus-,</te>
-      <te>torjunta- tai pelastusväline                         1 260 mk</te>
-      <te>Öljylämmitteinen kiinteä tai siirrettävä</te>
-      <te>lämminilmakehitin                                    2 100 mk</te>
-      <te>Automaattinen paloilmoitin, ilmoitinkeskus ja</te>
-      <te>savunpoistolaitteiston laukaisukeskus                1 990 mk</te>
-      <te>Automaattisen paloilmaisimen tai savunpoisto-</te>
-      <te>laitteiston osa                                      1 260 mk</te>
-      <sis1:ValiotsikkoTeksti>Asennus- ja suunnitteluliikkeet</sis1:ValiotsikkoTeksti>
-      <te>Automaattisen paloilmoitinlaitteiston asennus-</te>
-      <te>tai suunnitteluliikkeen hyväksyminen                   820 mk</te>
-      <te>Asennuksesta tai suunnittelusta vastaavan</te>
-      <te>henkilön nimeäminen                                    420 mk</te>
-      <sis1:ValiotsikkoTeksti>Väestönsuojat</sis1:ValiotsikkoTeksti>
-      <te>Ilmanvaihtolaitteisto kokonaan                       4 210 mk</te>
-      <te>Suojaovet ja -luukut sekä hätäpoistumisluukut        1 680 mk</te>
-      <te>Ilmanvaihtolaitteiston erityissuodatin,</te>
-      <te>ilmanpuhallin, tuloilmaventtiili ja paineventtiili   1 260 mk</te>
-      <te>Muu ilmanvaihtolaitteiston osa tai väestönsuojan</te>
-      <te>väline tai varuste                                     840 mk</te>
-      <sis1:ValiotsikkoTeksti>Luvan muutos tai siirto</sis1:ValiotsikkoTeksti>
-      <te>Luvan muutos                                    50 % maksusta,</te>
-      <te>                                   kuitenkin vähintään 420 mk</te>
-      <te>Luvan siirtäminen uudelle toiminimelle</te>
-      <te>tai tuotteelle                                         420 mk</te>
-      <sis1:ValiotsikkoTeksti>Poliisiosasto</sis1:ValiotsikkoTeksti>
-      <te>Ampuma-aseiden maahantuontilupa                        880 mk</te>
-      <te>Ampuma-aseiden maastavientilupa                        660 mk</te>
-      <te>Ampuma-aseasetuksen (34/33) 46 §:n mukainen lupa       440 mk</te>
-      <te>Vartijan koulutuksesta annetun sisäasiainministeriön</te>
-      <te>päätöksen (745/83) 7 §:n mukainen lupa                 440 mk</te>
-      <te>Vartijan asusta annetun sisäasiainministeriön</te>
-      <te>päätöksen (821/84) 1 §:n mukainen lupa                 660 mk</te>
-      <te>Vartioimisliikelautakunnan toimeenpanemaan</te>
-      <te>kokeeseen osallistuminen                               600 mk</te>
-      <te>Poliisivaltuuksien myöntäminen                         220 mk</te>
-      <te>Lupa poliisin tunnuskuvan käyttöön                     220 mk</te>
-      <te>Sisäasiainministeriön päätös valitusasiassa,</te>
-      <te>jonka korkein hallinto-oikeus on siirtänyt</te>
-      <te>tarkoituksenmukaisuusperusteella hallituksen</te>
-      <te>ratkaistavaksi                                       1 000 mk</te>
-      <sis1:ValiotsikkoTeksti>Ulkomaalaiskeskus</sis1:ValiotsikkoTeksti>
-      <te>Muun kuin Euroopan talousalueen valtion kansalaista</te>
-      <te>koskeva oleskelulupapäätös                             500 mk</te>
-      <te>Kadotetun tilalle annettu uusi muukalaispassi tai</te>
-      <te>pakolaisen matkustusasiakirja                          460 mk</te>
-      <te>SUORITTEET, JOISTA PERITÄÄN ALENNETTU OMAKUSTANNUSHINTA</te>
-      <sis1:ValiotsikkoTeksti>Ulkomaalaiskeskus</sis1:ValiotsikkoTeksti>
-      <te>Kansalaisuuspäätös ilmoituksen perusteella             400 mk</te>
-      <te>Euroopan talousalueen valtion kansalaista koskeva</te>
-      <te>oleskelulupapäätös                                     130 mk</te>
-      <te>Viisumipäätös                                          180 mk</te>
-      <te>Työlupapäätös                                          200 mk</te>
-      <te>Muukalaispassi ja pakolaisen matkustusasiakirja        200 mk</te>
-      <te>Päätös olla myöntämättä muukalaispassia tai</te>
-      <te>pakolaisen matkustusasiakirjaa                         130 mk</te>
+      <sis:KappaleKooste>SISÄASIAINMINISTERIÖN MAKSULLISET JULKISOIKEUDELLISET SUORITTEET</sis:KappaleKooste>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>OMAKUSTANNUSHINTAISET SUORITTEET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">
+                  <sis1:KursiiviTeksti>Suorite</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">
+                  <sis1:KursiiviTeksti>Maksu</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Pelastusosasto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Tulisijat, palovaaralliset laitteet sekä palo- ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>pelastuskalusto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Käsisammutin, paloletku tai muu sammutus-,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">torjunta- tai pelastusväline</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 260 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Öljylämmitteinen kiinteä tai siirrettävä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">lämminilmakehitin</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2 100 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Automaattinen paloilmoitin, ilmoitinkeskus ja</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">savunpoistolaitteiston laukaisukeskus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 990 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Automaattisen paloilmaisimen tai savunpoisto-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">laitteiston osa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 260 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Asennus- ja suunnitteluliikkeet</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Automaattisen paloilmoitinlaitteiston asennus-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">tai suunnitteluliikkeen hyväksyminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">820 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Asennuksesta tai suunnittelusta vastaavan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">henkilön nimeäminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">420 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Väestönsuojat</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ilmanvaihtolaitteisto kokonaan</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">4 210 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Suojaovet ja -luukut sekä hätäpoistumisluukut</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 680 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Ilmanvaihtolaitteiston erityissuodatin,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">ilmanpuhallin, tuloilmaventtiili ja paineventtiili</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 260 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Muu ilmanvaihtolaitteiston osa tai väestönsuojan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">väline tai varuste</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">840 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Luvan muutos tai siirto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Luvan muutos</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">50 % maksusta,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">kuitenkin vähintään 420 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Luvan siirtäminen uudelle toiminimelle</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">tai tuotteelle</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">420 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Poliisiosasto</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ampuma-aseiden maahantuontilupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">880 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ampuma-aseiden maastavientilupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">660 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ampuma-aseasetuksen (34/33) 46 §:n mukainen lupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">440 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Vartijan koulutuksesta annetun sisäasiainministeriön</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">päätöksen (745/83) 7 §:n mukainen lupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">440 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Vartijan asusta annetun sisäasiainministeriön</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">päätöksen (821/84) 1 §:n mukainen lupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">660 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Vartioimisliikelautakunnan toimeenpanemaan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">kokeeseen osallistuminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">600 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Poliisivaltuuksien myöntäminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">220 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lupa poliisin tunnuskuvan käyttöön</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">220 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Sisäasiainministeriön päätös valitusasiassa,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>jonka korkein hallinto-oikeus on siirtänyt</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>tarkoituksenmukaisuusperusteella hallituksen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">ratkaistavaksi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Ulkomaalaiskeskus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Muun kuin Euroopan talousalueen valtion kansalaista</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">koskeva oleskelulupapäätös</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Kadotetun tilalle annettu uusi muukalaispassi tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">pakolaisen matkustusasiakirja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">460 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>SUORITTEET, JOISTA PERITÄÄN ALENNETTU OMAKUSTANNUSHINTA</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Ulkomaalaiskeskus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kansalaisuuspäätös ilmoituksen perusteella</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">400 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Euroopan talousalueen valtion kansalaista koskeva</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">oleskelulupapäätös</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">130 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Viisumipäätös</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">180 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Työlupapäätös</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">200 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Muukalaispassi ja pakolaisen matkustusasiakirja</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">200 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Päätös olla myöntämättä muukalaispassia tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">pakolaisen matkustusasiakirjaa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">130 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

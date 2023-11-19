@@ -31,28 +31,182 @@
           <saa:PykalaTunnusKooste>2 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Perustaksa</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Seuraavaa perustaksataulukkoa sovelletaan 40 matkan sarjalipun hinnoittelussa enintään 100 kilometrin pituisilla matkoilla:</saa:MomenttiKooste>
-          <te/>
-          <te>Matkan pituus              Perustaksa</te>
-          <te>enintään                   (yksinkertaisen </te>
-          <te>km                         matkan hinta)</te>
-          <te>                           mk</te>
-          <te>  6                         7,00 </te>
-          <te>  9                         8,50 </te>
-          <te> 12                         9,50 </te>
-          <te> 16                        11,00 </te>
-          <te> 20                        13,00 </te>
-          <te> 25                        15,00 </te>
-          <te> 30                        18,00 </te>
-          <te> 35                        20,00 </te>
-          <te> 40                        22,00 </te>
-          <te> 45                        25,00 </te>
-          <te> 50                        27,00 </te>
-          <te> 60                        31,00 </te>
-          <te> 70                        36,00 </te>
-          <te> 80                        41,00 </te>
-          <te> 90                        45,00 </te>
-          <te>100                        49,00</te>
-          <te> </te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Matkan pituus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Perustaksa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>enintään</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(yksinkertaisen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>km</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>matkan hinta)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>6</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>7,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>9</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>8,50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>12</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>9,50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>16</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>11,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>20</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>13,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>25</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>15,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>30</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>18,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>35</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>40</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>22,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>45</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>25,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>27,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>60</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>31,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>70</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>36,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>80</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>41,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>90</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>45,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>100</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>49,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 § </saa:PykalaTunnusKooste>
@@ -65,18 +219,26 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Muita määräyksiä </saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiKohtaKooste>
 1) Matkustajalle tulee etukäteen tiedottaa perittävistä maksuista. 
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
+            <saa:MomenttiKohtaKooste>
 2) Liikenteelle, jolle myönnetään peruspalveluliikenteen valtionapua, annetaan hinnoittelua koskevia erillisohjeita.
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
+            <saa:MomenttiKohtaKooste>
 3) Koululaisliikenteessä alle 12-vuotiaille on myytävä sarjalippuja 50 prosentin alennuksella perustaksasta.
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
+            <saa:MomenttiKohtaKooste>
 4) Linja-autoliitto voi antaa Oy Matkahuol-to Ab:lle ja linja-autoyrityksille hinnoitteluperusteita koskevia ohjeita:
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
           <saa:MomenttiKooste>- kertamaksuista sekä muista lipputuotteista ja niiden kelpoisuusehdoista, ja</saa:MomenttiKooste>
           <saa:MomenttiKooste>- kuljetuksen ajankohtaan, laatuun tms. perustuvista lisämaksuista. </saa:MomenttiKooste>
         </saa:Pykala>

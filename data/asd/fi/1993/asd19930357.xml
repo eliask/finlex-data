@@ -127,10 +127,51 @@
             <saa:SaadosOtsikkoKooste>Enimmäistulotaulukko avustusluonteisen pitkäaikaisen perusparannuslainan saamiseksi</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Asuntojen perusparantamisesta annetun lain 10 §:n 1 momentissa tarkoitettua lainaa (avustusluonteinen pitkäaikainen perusparannuslaina) myönnettäessä tai siirrettäessä sovelletaan 9 §:n taulukoista poiketen seuraavia tulojen enimmäismääriä:</saa:MomenttiKooste>
             <saa:MomenttiKooste>Enimmäistulot avustusluonteisen pitkäaikaisen perusparannuslainan myöntämiseksi tai siirtämiseksi</saa:MomenttiKooste>
-            <te/>
-            <te>Henkilöluku        1       2       3         4</te>
-            <te>                 4 100   5 100   5 700     6 300</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="5" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Henkilöluku</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">4 100</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">5 100</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">5 700</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">6 300</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="5">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
             <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
@@ -157,24 +198,126 @@
             <saa:PykalaTunnusKooste>13 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Lainan määrän rajoitukset</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Asuntolainaa asuinhuoneiston hallintaan oikeuttavien osakkeiden tai omakotitalon hankkimista varten sekä omaksilunastamislainaa voidaan myöntää tai siirtää hakijaruokakunnan henkilöluvun mukaan enintään seuraavien huoneistoneliömetrien osalle:</saa:MomenttiKooste>
-            <te/>
-            <te>Henkilöluku          Huoneistoneliömetrien</te>
-            <te>                     enimmäismäärä</te>
-            <te>1                         45</te>
-            <te>2                         65</te>
-            <te>3                         80</te>
-            <te>4                        100</te>
-            <te>5 tai suurempi           120</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Henkilöluku</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Huoneistoneliömetrien</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">enimmäismäärä</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">45</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">65</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">80</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">100</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">5 tai suurempi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">120</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Jos hakijaruokakuntana ovat aviopuolisot, joista kumpikaan ei ole hakemisajankohtana täyttänyt 35 vuotta, sovelletaan kolmihenkiselle ruokakunnalle määrättyä lainoitettavien huoneistoneliömetrien enimmäismäärää.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Asuntolainaa omakotitalon rakentamista varten voidaan myöntää tai siirtää hakijaruokakunnan henkilöluvun mukaan enintään seuraavien huoneistoneliömetrien osalle:</saa:MomenttiKooste>
-            <te/>
-            <te>Henkilöluku          Huoneistoneliömetrien</te>
-            <te>                     enimmäismäärä</te>
-            <te>3 tai pienempi           90</te>
-            <te>4                       100</te>
-            <te>5 tai suurempi          120</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Henkilöluku</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Huoneistoneliömetrien</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">enimmäismäärä</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">3 tai pienempi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">90</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">100</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">5 tai suurempi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">120</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Jos hakijaruokakuntaan kuuluu enemmän kuin kuusi henkilöä ja lainaa myönnetään tai siirretään kaksi asuntoa käsittävän omakotitalon rakentamista varten, korotetaan 3 momentin taulukossa määrättyä huoneistoneliömetrien enimmäismäärää kymmenellä neliömetrillä kutakin lisähenkilöä kohden. Lainaa voidaan kuitenkin myöntää tai siirtää enintään 180 neliömetrin osalle.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="14 §">
@@ -198,26 +341,238 @@
             <saa:SaadosOtsikkoKooste>Enimmäistulot</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Asukkaaksi hyväksymisen edellytyksenä on, että ruokakunnan kuukausitulot eivät sen jälkeen, kun niistä on tehty 6 §:n 2 ja 3 momentissa tarkoitetut vähennykset, ylitä seuraavia asunnon sijaintikunnan mukaan määräytyviä enimmäismääriä:</saa:MomenttiKooste>
             <saa:MomenttiKooste>Pääkaupunkiseudulla (Helsinki, Espoo, Vantaa ja Kauniainen) sovellettavat enimmäistulot vuokra- ja osuuskunta-asuntoihin</saa:MomenttiKooste>
-            <te/>
-            <te>Henkilöluku   1        2       3        4       5        6</te>
-            <te>              9 500   12 300  13 800   15 200  16 400   17 500</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="7" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Henkilöluku</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="7">6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">9 500</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">12 300</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">13 800</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">15 200</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">16 400</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="7">17 500</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="7">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Muissa kunnissa sovellettavat enimmäistulot vuokra- ja osuuskunta-asuntoihin</saa:MomenttiKooste>
-            <te/>
-            <te>Henkilöluku   1       2        3        4       5        6</te>
-            <te>              8 900  11 400   12 600   13 900  15 000   16 000</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="7" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Henkilöluku</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="7">6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">8 900</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">11 400</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">12 600</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">13 900</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">15 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="7">16 000</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="7">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Milloin hakija valitaan työ- tai virkasuhteen perusteella asukkaaksi vuokrataloon, jossa hänen työnantajansa on omistajana, sovelletaan 1 momentin taulukoista poiketen seuraavia tulojen enimmäismääriä:</saa:MomenttiKooste>
             <saa:MomenttiKooste>Pääkaupunkiseudulla (Helsinki, Espoo, Vantaa ja Kauniainen) sovellettavat enimmäistulot työsuhdeasunnoissa</saa:MomenttiKooste>
-            <te/>
-            <te>Henkilöluku   1      2        3        4        5        6</te>
-            <te>           11 300   14 600   16 300   17 900   19 300   20 700</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="7" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Henkilöluku</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="7">6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">11 300</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">14 600</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">16 300</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">17 900</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">19 300</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="7">20 700</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="7">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Muissa kunnissa sovellettavat enimmäistulot työsuhdeasunnoissa</saa:MomenttiKooste>
-            <te/>
-            <te>Henkilöluku   1      2        3        4        5        6</te>
-            <te>           10 500   13 500   14 900   16 400   17 700   18 900</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="7" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Henkilöluku</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="7">6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">10 500</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">13 500</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">14 900</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="5">16 400</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="6">17 700</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="7">18 900</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="7">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Edellä 2 momentissa olevia tulorajoja sovelletaan asumisoikeuden hakijoihin siten kuin siitä on erikseen säädetty.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Jos hakijaruokakuntaan kuuluu enemmän kuin kuusi henkilöä, korotetaan edellä olevia tulojen enimmäismääriä 600 markalla kutakin lisähenkilöä kohti.</saa:MomenttiKooste>
           </saa:Pykala>

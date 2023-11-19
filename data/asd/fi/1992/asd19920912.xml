@@ -54,16 +54,105 @@
             <saa:SaadosOtsikkoKooste>Kotipalvelu</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Sosiaalihuoltoasetuksen 9 §:n 1 momentin 1 kohdassa tarkoitetusta jatkuvasti ja säännöllisesti annetusta kotipalvelusta voidaan periä palvelun laadun ja määrän, palvelun käyttäjän maksukyvyn sekä perheen koon mukaan määräytyvä kohtuullinen kuukausimaksu.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Kuukausimaksu saa olla enintään jäljempänä tarkoitetun maksuprosentin osoittama markkamäärä tulorajan ylittävistä kuukausituloista. Maksuprosentit ja tulorajat ovat seuraavat:</saa:MomenttiKooste>
-            <te/>
-            <te>Henkilömäärä    Tuloraja        Maksuprosentti</te>
-            <te>                mk/kk</te>
-            <te>1               2 500           35</te>
-            <te>2               4 600           22</te>
-            <te>3               7 200           18</te>
-            <te>4               8 900           15</te>
-            <te>5              10 800           13</te>
-            <te>6              12 400           11</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="3" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Henkilömäärä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Tuloraja</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">Maksuprosentti</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">mk/kk</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">2 500</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">35</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">4 600</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">22</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">7 200</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">18</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">8 900</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">15</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">10 800</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">13</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">6</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">12 400</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">11</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Kun henkilömäärä on suurempi kuin kuusi, tulorajaa korotetaan 1 700 markalla ja maksuprosenttia alennetaan 1 prosenttiyksiköllä kustakin seuraavasta henkilöstä.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Kotipalvelusta laaditaan yhdessä palvelun käyttäjän kanssa palvelu- ja hoitosuunnitelma, johon voi kuulua myös sosiaali- ja terveydenhuollon asiakasmaksuista annetun lain (734/92), jäljempänä asiakasmaksulaki, 5 §:n 1 kohdan nojalla maksuttomia kotisairaanhoidon palveluja. Suunnitelmaa tarkistetaan palvelujen tarpeen muuttuessa.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Tilapäisestä kotipalvelusta voidaan palvelun käyttäjältä periä kunnan päättämä kohtuullinen maksu.</saa:MomenttiKooste>
@@ -74,16 +163,105 @@
             <saa:SaadosOtsikkoKooste>Lasten päivähoito</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Lasten päivähoidosta annetussa laissa (36/73) tarkoitetusta päiväkoti- ja perhepäivähoidosta voidaan periä palvelun käyttäjän maksukyvyn ja perheen koon mukaan määräytyvä kuukausimaksu. Lasten päivähoito on kuitenkin maksutonta palvelun käyttäjälle tai perheelle, jonka tulot ovat alle sosiaali- ja terveysministeriön määrittelemän tulorajan. Maksu peritään kunnan tai kuntainliiton päättämän maksuluokan mukaan kuukausimaksuna niiltä kalenterikuukausilta, joina lapsi on kunnan järjestämässä päiväkoti- tai perhepäivähoidossa. Maksu peritään kuitenkin enintään yhdeltätoista kalenterikuukaudelta toimintavuoden aikana.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Enimmäismaksu lasta kohden kuukaudessa on:</saa:MomenttiKooste>
-            <te/>
-            <te>Maksuluokka   Yli 5 tuntia         Enintään 5 tuntia</te>
-            <te>              kestävä hoito        kestävä hoito</te>
-            <te>                    mk                    mk</te>
-            <te>I                   385                   220</te>
-            <te>II                  550                   330</te>
-            <te>III                 825                   440</te>
-            <te>IV                1 100                   660</te>
-            <te>V                 1 430                   880</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="3" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Maksuluokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Yli 5 tuntia</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">Enintään 5 tuntia</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">kestävä hoito</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">kestävä hoito</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">mk</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">I</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">385</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">220</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">II</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">550</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">330</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">III</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">825</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">440</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">IV</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">1 100</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">660</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">V</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">1 430</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">880</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Milloin samasta perheestä on useampi kuin yksi lapsi kunnan järjestämässä päivähoidossa, peritään näistä nuorimmasta lapsesta asianomaisen maksuluokan mukainen maksu. Ikäjärjestyksessä seuraavasta lapsesta peritään yhtä maksuluokkaa alempi maksu kuin nuorimmasta lapsesta ja jokaisesta seuraavasta yhtä maksuluokkaa alhaisempi maksu kuin edellisestä. Jos lasta edellä sanotun mukaisesti ei voida sijoittaa alimpaan maksuluokkaan, ei hänestä peritä maksua.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Milloin 3 momentissa tarkoitetusta perheestä on alle kouluikäisiä lapsia myös kunnan valvomassa päivähoidossa, otetaan kunnan perimissä maksuissa myös nämä lapset huomioon iästä riippumatta maksua alentavana tekijänä siten kuin 3 momentissa säädetään.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Jos lasten päivähoito alkaa tai loppuu kesken kalenterikuukauden, maksu peritään hoitopäivien lukumäärän mukaan kuukausimaksua alhaisempana.</saa:MomenttiKooste>
@@ -118,43 +296,246 @@
             <saa:SaadosOtsikkoKooste>Suun ja hampaiden tutkimus ja hoito</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Terveyskeskuksessa annetusta suun ja hampaiden tutkimuksesta ja hoidosta voidaan periä perusmaksuna enintään 25 markkaa käynniltä. Erikoishammaslääkärin antamasta hoidosta voidaan kuitenkin periä perusmaksuna enintään 50 markkaa käynniltä.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Edellä 1 momentissa säädetyn perusmaksun lisäksi voidaan tutkimus- ja hoitotoimenpiteistä periä enintään seuraavat maksut:</saa:MomenttiKooste>
-            <te/>
-            <te>1) Tutkimukset</te>
-            <te>a) kulloinkin voimassa olevan sairausvakuutus-</te>
-            <te>   korvaustaksan liite E:n toimenpidealueen</te>
-            <te>   0-ryhmään liittyvät tutkimukset</te>
-            <te>   käyntikerralta                                    25 mk</te>
-            <te>b) röntgentutkimus hammaskuvalta                     25 mk</te>
-            <te>c) leukojen ja koko hampaiston röntgenkuvaus         50 mk</te>
-            <te>2) Ehkäisevä hoito</te>
-            <te>a) kulloinkin voimassa olevan sairausvakuutus-</te>
-            <te>   korvaustaksan liite E:n toimenpidealueen</te>
-            <te>   I-ryhmään liittyvät ehkäisevän hoidon ja</te>
-            <te>   terveyskasvatuksen toimenpiteet käyntikerralta    25 mk</te>
-            <te>b) enintään 30 minuuttia kestävä hampaiden ja</te>
-            <te>   niiden kiinnityskudosten perushoito                    50 mk</te>
-            <te>c) yli 30 minuuttia kestävä hampaiden ja niiden</te>
-            <te>   kiinnityskudosten perushoito                          100 mk</te>
-            <te>3) Sairauksien hoito lukuun ottamatta jäljempänä lueteltuja proteettisia toimenpiteitä</te>
-            <te>a) kulloinkin voimassa olevan sairausvakuutus-</te>
-            <te>   korvaustaksan liite E:n mukaisten ryhmien toimenpiteet:</te>
-            <te/>
-            <te>ryhmä                      maksu</te>
-            <te>                                  mk</te>
-            <te>   I–II                     25</te>
-            <te> III–IV                     50</te>
-            <te>   V–VII                   100</te>
-            <te>VIII–X                     150</te>
-            <te>  XI–XII                   200</te>
-            <te/>
-            <te>4) Proteettiset toimenpiteet</te>
-            <te>a) proteesin huolto:</te>
-            <te>   pohjauksella                       150 mk</te>
-            <te>   korjaus                            100 mk</te>
-            <te>b) akryyliosa- ja kokoproteesi        500 mk</te>
-            <te>c) kruunut ja sillat hampaalta        500 mk</te>
-            <te>d) rankaproteesi                      600 mk</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>1) Tutkimukset</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) kulloinkin voimassa olevan sairausvakuutus-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>korvaustaksan liite E:n toimenpidealueen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>0-ryhmään liittyvät tutkimukset</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">käyntikerralta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">25 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">b) röntgentutkimus hammaskuvalta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">25 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">c) leukojen ja koko hampaiston röntgenkuvaus</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">50 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>2) Ehkäisevä hoito</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) kulloinkin voimassa olevan sairausvakuutus-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>korvaustaksan liite E:n toimenpidealueen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>I-ryhmään liittyvät ehkäisevän hoidon ja</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">terveyskasvatuksen toimenpiteet käyntikerralta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">25 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>b) enintään 30 minuuttia kestävä hampaiden ja</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">niiden kiinnityskudosten perushoito</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">50 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>c) yli 30 minuuttia kestävä hampaiden ja niiden</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">kiinnityskudosten perushoito</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">100 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>3) Sairauksien hoito lukuun ottamatta jäljempänä lueteltuja proteettisia toimenpiteitä</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) kulloinkin voimassa olevan sairausvakuutus-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>korvaustaksan liite E:n mukaisten ryhmien toimenpiteet:</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">ryhmä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">maksu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">I–II</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">III–IV</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">50</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">V–VII</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">100</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">VIII–X</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">150</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">XI–XII</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">200</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>4) Proteettiset toimenpiteet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) proteesin huolto:</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">pohjauksella</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">150 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">korjaus</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">100 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">b) akryyliosa- ja kokoproteesi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">500 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">c) kruunut ja sillat hampaalta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">500 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">d) rankaproteesi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">600 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Edellä 1 ja 2 momentissa säädettyjen maksujen lisäksi voidaan oikomislaitteista ja hammasproteettisista toimenpiteistä periä aiheutuvat hammastekniset kulut enintään todellisten kustannusten mukaisina, mikäli potilas ei ole suorittanut maksua suoraan valmistajalle.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Erikoismateriaaleista voidaan periä enintään todellisia kustannuksia vastaava maksu.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Jos potilas annettujen käyttöohjeiden vastaisen menettelyn tai ilmeisen huolimattomuuden vuoksi on aiheuttanut oikomislaitteen häviämisen tai vahingoittumisen, voidaan häneltä periä uuden oikomislaiteen hankkimisesta tai vahingoittuneen laitteen korjaamisesta aiheutuneet hammastekniset kulut enintään todellisten kustannusten mukaisina.</saa:MomenttiKooste>
@@ -209,30 +590,142 @@
             <saa:PykalaTunnusKooste>16 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Työterveyshuoltopalvelut</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Terveyskeskuksen tuottamista kansanterveyslain 14 §:n 1 momentin 7 kohdassa ja 14 a §:n 1 momentin 2 kohdassa tarkoitetuista työterveyshuoltopalveluista työnantaja on velvollinen suorittamaan terveyskeskukselle maksut tai korvaukset, joiden suuruuden terveyskeskus päättää ja jotka ovat enintään:</saa:MomenttiKooste>
-            <te/>
-            <te>1) toimenpiteistä käyntikerralta</te>
-            <te>a) lääkärin vastaanotolla                               165 mk</te>
-            <te>b) terveydenhoitajan tai muun terveyden-</te>
-            <te>   huollon  ammattihenkilön  vastaanotolla                         83 mk</te>
-            <te>c) lääkärin määrää-</te>
-            <te>   mistä asianmukaisen koulutuksen saaneen henkilön</te>
-            <te>   suorittamista erikoistutkimuksista                                  139 mk</te>
-            <te>2) laboratorio- ja röntgentutkimuksista sairaus-</te>
-            <te>   vakuutuslain 13 §:n nojalla vahvistetun, vakuutetulle</te>
-            <te>   tulevaa korvausta koskevan taksan mukaiset mää-</te>
-            <te>   rät vähennettynä yhdellä kymmenyk-</te>
-            <te>   sellä kuitenkin siten, että maksua tai korvausta</te>
-            <te>   ei peritä terveyden- tai sairaanhoitajan suorittamista</te>
-            <te>   laboratoriotutkimuksia koskevan taksan I ryhmään</te>
-            <te>   kuuluvista tutkimuksista; sekä</te>
-            <te>3) terveyskeskuksen henkilökunnan suorittamista työ-</te>
-            <te>   paikkakäynneistä sekä neuvonta-, ohjaus ja</te>
-            <te>   valistustoiminnasta aiheutuneet todelliset matkakustannukset ja</te>
-            <te>   korvausta matkoihin käytetty aika huomioon ottaen kultakin</te>
-            <te>   alkavalta puolelta tunnilta:</te>
-            <te>a) lääkärin osalta                                      247 mk</te>
-            <te>b) muiden henkilöiden osalta                                      123 mk</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>1) toimenpiteistä käyntikerralta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">a) lääkärin vastaanotolla</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">165 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>b) terveydenhoitajan tai muun terveyden-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">huollon ammattihenkilön vastaanotolla</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">83 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>c) lääkärin määrää-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>mistä asianmukaisen koulutuksen saaneen henkilön</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">suorittamista erikoistutkimuksista</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">139 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>2) laboratorio- ja röntgentutkimuksista sairaus-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>vakuutuslain 13 §:n nojalla vahvistetun, vakuutetulle</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>tulevaa korvausta koskevan taksan mukaiset mää-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>rät vähennettynä yhdellä kymmenyk-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>sellä kuitenkin siten, että maksua tai korvausta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>ei peritä terveyden- tai sairaanhoitajan suorittamista</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>laboratoriotutkimuksia koskevan taksan I ryhmään</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>kuuluvista tutkimuksista; sekä</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>3) terveyskeskuksen henkilökunnan suorittamista työ-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>paikkakäynneistä sekä neuvonta-, ohjaus ja</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>valistustoiminnasta aiheutuneet todelliset matkakustannukset ja</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>korvausta matkoihin käytetty aika huomioon ottaen kultakin</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>alkavalta puolelta tunnilta:</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">a) lääkärin osalta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">247 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">b) muiden henkilöiden osalta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">123 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Mitä 1 momentin 3 kohdassa säädetään, sovelletaan myös, jos terveyskeskuksen terveydenhuollon ammattihenkilö työnantajan pyynnöstä neuvottelee toimintakertomuksen tai muiden selvitysten laadinnasta ja laatii toimintakertomuksen tai muun selvityksen. Samaa säännöstä sovelletaan matka-ajan ja matkakustannusten korvaamiseen, jos työterveyshuollon vastaanotto on järjestetty työpaikalla tai työnantajan pyynnöstä työpaikan läheisyydessä.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Edellä 1 ja 2 momentissa säädettyjen maksujen ja korvausten lisäksi työnantaja on velvollinen suorittamaan terveyskeskukselle työpaikan terveydellisten olojen selvittämistä ja työntekijän terveystarkastusta varten tarpeellisista ulkopuolisista palveluksista sekä työhygieenisissä mittauksissa käytetyistä erityistarvikkeista terveyskeskukselle aiheutuneet todelliset kustannukset.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -300,17 +793,77 @@
             <saa:PykalaTunnusKooste>26 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Erikoismaksuluokan maksut</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Asiakasmaksulain 9 §:ssä tarkoitetussa erikoismaksuluokassa hoidettavalta voidaan 12 §:ssä säädetty hoitopäivämaksu periä yhden tai kahden hengen huoneessa enintään nelinkertaisesti korotettuna. Lisäksi palvelun käyttäjältä voidaan periä enintään seuraavat lisämaksut:</saa:MomenttiKooste>
-            <te/>
-            <te>1) tutkimus ja hoitotoimenpiteet</te>
-            <te>   sädehoito hoitokerralta                            400 mk</te>
-            <te>   muut tutkimus- ja hoitotoimenpiteet</te>
-            <te>   toimenpiteeltä                                   4 000 mk</te>
-            <te>   konservatiivisen hoidon hoitopäivät</te>
-            <te>   sekä tutkimus- ja hoitotoimen-</te>
-            <te>   piteisiin liittyvät hoitopäivät          300 mk</te>
-            <te>2) konsultaatiot                                           400 mk</te>
-            <te>3) anestesiologiset toimenpiteet                         1 400 mk</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>1) tutkimus ja hoitotoimenpiteet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">sädehoito hoitokerralta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">400 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>muut tutkimus- ja hoitotoimenpiteet</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">toimenpiteeltä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">4 000 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>konservatiivisen hoidon hoitopäivät</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>sekä tutkimus- ja hoitotoimen-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">piteisiin liittyvät hoitopäivät</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">300 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">2) konsultaatiot</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">400 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">3) anestesiologiset toimenpiteet</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">1 400 mk</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
         </saa:Luku>
         <saa:Luku saa1:identifiointiTunnus="6 luku">

@@ -34,12 +34,54 @@
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Edellä 2 §:ssä tarkoitettu työtön on oikeutettu korkoavustukseen, jos hänen veronalaiset tulonsa työttömyysturva mukaanlukien ovat 2 §:n 1 momentissa tarkoitettuna aikana keskimäärin enintään 4 200 markkaa kuukaudessa.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Jos hakijalla on huollettavanaan alaikäisiä lapsia, enimmäistuloraja on seuraava:</saa:MomenttiKooste>
-          <te/>
-          <te>lasten lukumäärä      tuloraja</te>
-          <te>yksi                  4 900 markkaa</te>
-          <te>kaksi                 5 100 markkaa</te>
-          <te>kolme tai useampia    5 450 markkaa</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>lasten lukumäärä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>tuloraja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>yksi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4 900 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>kaksi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5 100 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>kolme tai useampia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5 450 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Korkoavustusta ei makseta silloin, kun perheellisen hakijan aviopuolison veronalaiset tulot ovat koron erääntymiskauden aikana suuremmat kuin 11 000 markkaa. Tätä tulorajaa korotetaan 2 000 markalla kutakin perheessä huollettavana olevaa alaikäistä lasta kohti.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">

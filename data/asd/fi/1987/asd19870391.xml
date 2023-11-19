@@ -63,12 +63,60 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Käynnistystuen suuruus on riippuvainen hankitusta maatilasta tai sen osasta maatalousirtaimistoineen rahana sekä poismaksettavina ja siirtyvinä velkoina sovitun vastikkeen ja kyseisen omaisuuden perintökaaren 25 luvun 2§:n mukaisen arvon, kuitenkin laskettuna elottoman irtaimiston osalta verotuksessa poistamattoman ja elollisen irtaimiston osalta käyvän arvon mukaan, keskinäisestä suhteesta seuraavasti:</saa:MomenttiKooste>
-          <te> vastike/             käynnistystuki enintään</te>
-          <te> PK 25:2 arvo</te>
-          <te>              -0,45    25 000 mk</te>
-          <te>       0,45-0,70    suhdeluvun alarajalla 25 000 mk, mistä tuki nousee tasaisesti ylärajalle 50 000 mk:aan</te>
-          <te>       0,70-1,00    50 000 mk</te>
-          <te>       1,00-1,75     suhdeluvun alarajalla 50 000 mk, mistä tuki alenee tasaisesti ylärajalle 25 000 mk:aan</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>vastike/</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>käynnistystuki enintään</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>PK 25:2 arvo</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>-0,45</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>25 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,45-0,70</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>suhdeluvun alarajalla 25 000 mk, mistä tuki nousee tasaisesti ylärajalle 50 000 mk:aan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,70-1,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50 000 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,00-1,75</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>suhdeluvun alarajalla 50 000 mk, mistä tuki alenee tasaisesti ylärajalle 25 000 mk:aan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Mikäli 1 momentissa tarkoitettu suhdeluku on suurempi kuin 1,75, voidaan käynnistystukea myöntää vain, jos viljelijä ei ole hankkinut maatilaansa vanhemmiltaan tai jommalta kummalta heistä taikka heidän jommankumman kuoleman jälkeen suoritetun perinnönjaon tai osituksen yhteydessä. Käynnistystuen määrä on tällöin enintään 25 000 markkaa. Käynnistystukea ei kuitenkaan makseta, jos suhdeluku on suurempi kuin 3,00. Käynnistystuki myönnetään täysinä viisinäsatoina markkoina.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Käynnistystuen myöntämisen edellytyksenä muihin kuin 3 §:n 1 momentin 3 kohdassa mainittuun tarkoitukseen on lisäksi, että maatilan hankinnan ja tilan lähiajan välttämättömien investointien sekä tilan arvioitujen tulojen ja menojen pohjalta on laadittu maatilahallituksen tarkemmin määräämä maksuvalmiuslaskelma, jonka perusteella voidaan katsoa hakijalla olevan riittävät edellytykset selvitä sukupolvenvaihdoksen ja tilanpidon aiheuttamista kustannuksista. Maksuvalmiuslaskelmaa ei kuitenkaan tarvita, jos maatilasta tai sen osasta maatalousirtaimistoineen suoritettava vastike on enintään verotusarvon suuruinen.</saa:MomenttiKooste>
         </saa:Pykala>

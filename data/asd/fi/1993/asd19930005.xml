@@ -23,7 +23,7 @@
       <saa:Pykalisto>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">
           <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Työntekijän tai toimihenkilön omalla tai hallitsemallaan kulkuneuvolla asianomaisella luvalla tekemästä matkasta suoritetaan matkustamiskustannusten korvausta 1.1.Ä 31.12.1993 väliseltä ajalta seuraavasti:</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Työntekijän tai toimihenkilön omalla tai hallitsemallaan kulkuneuvolla asianomaisella luvalla tekemästä matkasta suoritetaan matkustamiskustannusten korvausta 1.1.-31.12.1993 väliseltä ajalta seuraavasti:</saa:MomenttiKooste>
           <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Autolla: Kunkin kalenterivuoden mittaisen ajokilometrien laskentakauden</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>
@@ -63,10 +63,10 @@ b) työntekijä tai toimihenkilö on työtehtäviensä vuoksi joutunut autossaan
           <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Päiväraha suoritetaan</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>
-1) osapäivärahana 1.1.Ä31.12.1993 väliseltä ajalta 72 markkaa jokaiselta päivärahaan oikeuttavalta matkavuorokaudelta, josta matkaan on käytetty 14 §:n 1 momentin 1 ja 2 kohdassa mainitut vähimmäisajat, ja
+1) osapäivärahana 1.1.-31.12.1993 väliseltä ajalta 72 markkaa jokaiselta päivärahaan oikeuttavalta matkavuorokaudelta, josta matkaan on käytetty 14 §:n 1 momentin 1 ja 2 kohdassa mainitut vähimmäisajat, ja
 </saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>
-2) kokopäivärahana 1.1.Ä31.12.1993 väliseltä ajalta 161 markkaa jokaiselta päivärahaan oikeuttavalta matkavuorokaudelta, josta matkaan on käytetty 14 §:n 2 momentissa mainittu vähimmäisaika.
+2) kokopäivärahana 1.1.-31.12.1993 väliseltä ajalta 161 markkaa jokaiselta päivärahaan oikeuttavalta matkavuorokaudelta, josta matkaan on käytetty 14 §:n 2 momentissa mainittu vähimmäisaika.
 </saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
           <saa:MomenttiKooste>Tämän päätöksen 1 §:n 5 momentissa tarkoitetuissa tapauksissa voidaan 1 momentin määräyksistä poiketa työehtosopimuksin erityisten syiden niin vaatiessa.</saa:MomenttiKooste>
@@ -74,9 +74,36 @@ b) työntekijä tai toimihenkilö on työtehtäviensä vuoksi joutunut autossaan
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="19 §">
           <saa:PykalaTunnusKooste>19 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Edellä 18 §:ssä tarkoitettujen majoittumiskorvausten enimmäismäärät matkavuorokautta kohti ovat vuonna 1993 seuraavat:</saa:MomenttiKooste>
-          <te>Helsingin, Espoon, Vantaan ja</te>
-          <te>Kauniaisten kaupungit                      450,-</te>
-          <te>Muut kunnat                                400,Ä.</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Helsingin, Espoon, Vantaan ja</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kauniaisten kaupungit</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>450,-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Muut kunnat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>400,-.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">

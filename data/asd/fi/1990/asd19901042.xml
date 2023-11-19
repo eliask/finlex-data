@@ -24,10 +24,44 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Merenkulkulaitoksen aluksen, kulkuneuvon tai tukialusretkikunnan suorittamasta kuljetuksesta, hinauksesta, avustustehtävästä tai muusta työsuorituksesta peritään maksua seuraavasti, jollei jäljempänä toisin säädetä:</saa:MomenttiKooste>
-          <te>					Jokaiselta alkaneelta</te>
-          <te>					puolelta tunnilta </te>
-          <te>						mk</te>
-          <te>Jäänmurtaja 				11 550</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Jokaiselta alkaneelta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>puolelta tunnilta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Jäänmurtaja</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>11 550</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Väyläalus (Seili-luokka ja Suunta) 	 2 450</saa:MomenttiKooste>
           <saa:MomenttiKooste>Väyläalus (Sektori ja Kummeli) 		 1 150</saa:MomenttiKooste>
           <saa:MomenttiKooste>Öljyntorjunta-alus (Linja-luokka) 		 1 500</saa:MomenttiKooste>

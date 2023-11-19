@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>merilain 251 §:n muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 79/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>LaVM 11/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -34,19 +26,98 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="251 §">
           <saa:PykalaTunnusKooste>251 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Toimivaltaiset alioikeudet (<saa:SaadosKursiiviKooste>merioikeudet</saa:SaadosKursiiviKooste>) jutuissa ja asioissa, jotka on ratkaistava tämän lain mukaan, ovat hovioikeuspiireittäin seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>Turun hovioikeuspiiri:   Ahvenanmaan ja Turun käräjäoikeudet;</te>
-          <te>Vaasan hovioikeuspiiri:  Vaasan käräjäoikeus;</te>
-          <te>Itä-Suomen hovi-</te>
-          <te>oikeuspiiri:             Savonlinnan käräjäoikeus;</te>
-          <te>Helsingin hovi-</te>
-          <te>oikeuspiiri:             Helsingin ja Raaseporin</te>
-          <te>                         käräjä-oikeudet;</te>
-          <te>Kouvolan hovi-</te>
-          <te>oikeuspiiri:             Kotkan käräjäoikeus; ja</te>
-          <te>Rovaniemen hovi-</te>
-          <te>oikeuspiiri:             Oulun käräjäoikeus</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Turun hovioikeuspiiri:</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Ahvenanmaan ja Turun käräjäoikeudet;</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Vaasan hovioikeuspiiri:</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Vaasan käräjäoikeus;</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">Itä-Suomen hovi-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>oikeuspiiri:</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Savonlinnan käräjäoikeus;</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">Helsingin hovi-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>oikeuspiiri:</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Helsingin ja Raaseporin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>käräjä-oikeudet;</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">Kouvolan hovi-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>oikeuspiiri:</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kotkan käräjäoikeus; ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">Rovaniemen hovi-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>oikeuspiiri:</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Oulun käräjäoikeus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Meriselitystä käsiteltäessä tuomioistuin on päätösvaltainen, kun siinä on merioikeuden puheenjohtaja yksin.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Käsiteltäessä 1 ja 2 momentissa mainittuja juttuja ja asioita tulee kahden meriasioita tuntevan ja niihin perehtyneen esteettömän henkilön olla tuomioistuinta avustavina asiantuntijoina läsnä tuomioistuimessa. Asiantuntijoiden läsnäolo ei kuitenkaan ole tarpeellista, milloin merioikeuden puheenjohtaja asian vähäisen merkityksen tai sen laadun vuoksi näin päättää.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Merioikeus määrää kaksivuotiskaudeksi meriasiantuntijat ja heille neljä varamiestä. Kukaan ei ilman laillista estettä voi kieltäytyä tehtävästä.</saa:MomenttiKooste>
@@ -58,6 +129,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930079.he">
+        <sis1:ViiteTeksti>HE 79/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930011.lavm">
+        <sis1:ViiteTeksti>LaVM 11/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 28 päivänä kesäkuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

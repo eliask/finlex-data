@@ -62,16 +62,14 @@
             <saa:MomenttiJohdantoKooste>Normaalihinnat hyötypinta-alan neliömetriä kohti ovat seuraavat:</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>
 1) Kirjastorakennus ja peruskoulurakennuksen yhteydessä oleva kirjastohuoneisto:
-<te>kirjastotilat                                                           5 550mk</te>
-<te>kirjastoauton säilytystila                                      3 400mk</te>
-<te>asunto                                                                  3 800mk</te>
-<te>kiinteistön hoitotilat                                            4 750mk</te>
+
+<tau:table><tau:tgroup cols="2" colsep="1" rowsep="1"><tau:tbody><tau:row><tau:entry><sis:KappaleKooste colname="1">kirjastotilat</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">5 550 mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">kirjastoauton säilytystila</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">3 400 mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">asunto</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">3 800 mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">kiinteistön hoitotilat</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">4 750 mk</sis:KappaleKooste></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>
 2) Muussa kuin peruskoulurakennuksessa oleva kirjastohuoneisto:
-<te>kirjastotilat                                                          4 995mk</te>
-<te>kirjastoauton säilytystila                                     3 060mk</te>
+
+<tau:table><tau:tgroup cols="2" colsep="1" rowsep="1"><tau:tbody><tau:row><tau:entry><sis:KappaleKooste colname="1">kirjastotilat</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">4 995 mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">kirjastoauton säilytystila</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">3 060 mk</sis:KappaleKooste></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
@@ -286,11 +284,67 @@
           <saa:MomenttiKooste>Mikäli kirjastorakennuksen tai peruskoulurakennuksen yhteydessä olevan kirjastohuoneiston vaikeat perustamisolosuhteet aiheuttavat oleellisia lisäkustannuksia, joita ei voida kohtuudella välttää, tulee kouluhallituksen korottaa 1 momentin 1 kohdan mukaisesti määrättävää normaalihintaa tästä johtuvien kohtuullisten lisäkustannusten mukaisesti, kuitenkin enintään 265 markkaa hyötyneliömetriä kohti.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Mikäli kirjastorakennus tai peruskoulurakennuksen yhteydessä oleva kirjastohuoneisto varustetaan kotimaista polttoainetta käyttävällä lämpökeskuksella, tulee kouluhallituksen korottaa 1 momentin 1 kohdan mukaan määrättävää normaalihintaa niiden kohtuullisten kustannusten mukaisesti, jotka suunnitelmien ja eritellyn kustannusarvion perusteella arvioidaan sanotusta lämmitystavan valinnasta mahdollisesti johtuvan.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Laajuuden vaikutus rakennuskustannuksiin otetaan huomioon kirjastorakennuksen huonetilaohjelman mukaista normaalihintaa korottavana tai alentavana tekijänä seuraavan taulukon mukaisesti:</saa:MomenttiKooste>
-          <te>             ≦  500  brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>                   +4 % </te>
-          <te>                    1 000  brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>                   +2 % </te>
-          <te>                    3 000  brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>                 +- 0 % </te>
-          <te>                    6 000  brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>                    -1 %</te>
-          <te>≧         12 000  brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>                    -2 %</te>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">≦ 500</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">+4 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">+2 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">+- 0 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">6 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">-1 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">≧ 12 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">brm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">-2 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Väliarvot interpoloidaan. Mikäli lisärakennukseen liittyy samaan urakkaan kuuluva muutos- ja perusparannustyö, otetaan sen vaikutus huomioon hanketta suurentavana tekijänä.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Milloin kirjastorakennus tai koulurakennuksen yhteydessä oleva kirjastohuoneisto sijaitsee suojelukohteessa, tulee kouluhallituksen korottaa 1 momentin 1 kohdan mukaan määrättävää normaalihintaa väestönsuojeluasetuksen 7§:n mukaisesti mitoitetun kirjaston yhteyteen rakennettavan väestönsuojan osalta 3 000 markkaa suojahuoneen hyötyneliömetriä kohti.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Milloin uusia kirjastotiloja rakennettaessa voidaan käyttää hyväksi olemassa olevaa lämpökeskusta tai muita normaalisti hyväksyttäviin rakennuskustannuksiin sisältyviä töitä, tulee valtion asianomaisen viranomaisen määrätä valtionrahoituksen perusteena olevat normaalihinnat vastaavasti 1 momentissa mainittuja hintoja alemmiksi. Normaalihintaa ei kuitenkaan alenneta, vaikka kirjastorakennusta ei varusteta omalla lämpökeskuksella, jos rakennus liitetään lämpöenergian hankintaa varten perustetun laitoksen verkkoon.</saa:MomenttiKooste>

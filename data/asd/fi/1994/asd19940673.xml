@@ -91,94 +91,549 @@
       <sis:KappaleKooste>Liite</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>MAKSUTAULUKKO</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Lääninhallituksen kiinteämaksuiset julkisoikeudelliset päätökset ja todistukset</sis:KappaleKooste>
-      <te/>
-      <te><saa:SaadosKursiiviKooste>Elinkeinoluvat</saa:SaadosKursiiviKooste>                                    mk</te>
-      <te>Ampuma-aseiden ja tarvikkeiden kauppalupa                 500</te>
-      <te>Ampuma-aseiden valmistus- ja korjauslupa                  500</te>
-      <te>Autokoululupa                                             500</te>
-      <te>Joukkoliikennelupa                                        800</te>
-      <te>Liikkuvaa kauppaa koskeva lupa tai hyväksyminen           300</te>
-      <te>Linjaliikennelupa                                         800</te>
-      <te>Linjaliikenteen reitin tai aikataulun muutos              500</te>
-      <te>Poroteurastamon hyväksyminen                            1 400</te>
-      <te>Sairaankuljetuslupa                                       800</te>
-      <te>Taksien tilauskeskusta koskeva päätös                     500</te>
-      <te>Taksilupa                                                 800</te>
-      <te>Tartuntatautilain (583/86) mukainen mikrobiologian</te>
-      <te>laitokselle annettu hyväksyminen                          500</te>
-      <te>Tavaraliikennelupa                                        700</te>
-      <te>Tavaraliikenteen yhteisölupa                              700</te>
-      <te>Vartioimisliikkeen toimilupa ja muu vartioimisliike-</te>
-      <te>toimintaan liittyvä lupa tai hyväksyminen                 500</te>
-      <te>Yksityisen lastensuojelulaitoksen toimilupa               700</te>
-      <te>Yksityisen terveydenhuollon palvelujen antamista koskeva</te>
-      <te>lupa                                                      900</te>
-      <te>Öljylämmityslaitoksen käyttöönottolupa                    800</te>
-      <te>Öljylämmityslaitoksen perustamislupa                    1 200</te>
-      <te>Muu elinkeinolupa                                    272 mk/h</te>
-      <te>Muu elinkeinotoimintaan liittyvä lupa, hyväksyminen </te>
-      <te>tai päätös                                           272 mk/h</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">
+                  <sis1:KursiiviTeksti>Elinkeinoluvat</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ampuma-aseiden ja tarvikkeiden kauppalupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ampuma-aseiden valmistus- ja korjauslupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Autokoululupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Joukkoliikennelupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">800</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Liikkuvaa kauppaa koskeva lupa tai hyväksyminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Linjaliikennelupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">800</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Linjaliikenteen reitin tai aikataulun muutos</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Poroteurastamon hyväksyminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 400</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Sairaankuljetuslupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">800</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Taksien tilauskeskusta koskeva päätös</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Taksilupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">800</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Tartuntatautilain (583/86) mukainen mikrobiologian</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">laitokselle annettu hyväksyminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Tavaraliikennelupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">700</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Tavaraliikenteen yhteisölupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">700</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Vartioimisliikkeen toimilupa ja muu vartioimisliike-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">toimintaan liittyvä lupa tai hyväksyminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Yksityisen lastensuojelulaitoksen toimilupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">700</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Yksityisen terveydenhuollon palvelujen antamista koskeva</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">lupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">900</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Öljylämmityslaitoksen käyttöönottolupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">800</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Öljylämmityslaitoksen perustamislupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 200</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Muu elinkeinolupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">272 mk/h</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Muu elinkeinotoimintaan liittyvä lupa, hyväksyminen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">tai päätös</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">272 mk/h</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste><sis1:KursiiviTeksti>Ympäristöluvat</sis1:KursiiviTeksti>                                    mk</sis:KappaleKooste>
       <sis:Katkoviiva/>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>Kompostointilaitosta ja ongelmajätteiden käsittelylaitosta koskevat maksut on muutettu seuraavasti:</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <te/>
-      <te>Kompostointilaitos tai muu jätteiden hyödyntämis- tai </te>
-      <te>käsittelylaitos, jossa hyödynnetään tai käsitellään</te>
-      <te>jätteitä vähintään 10 000 tonnia vuodessa              35 000</te>
-      <te>Laitos tai paikka, jossa hyödynnetään tai käsitellään</te>
-      <te>muualla kuin siinä syntyneitä ongelmajätteitä</te>
-      <te> - ongelmajätteiden käsittelylaitos                   140 000</te>
-      <te> - muu laitos tai paikka, jossa hyödynnetään tai</te>
-      <te>käsitellään muualla kuin siinä syntyneitä</te>
-      <te>ongelmajätteitä                                        20 000</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Kompostointilaitos tai muu jätteiden hyödyntämis- tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>käsittelylaitos, jossa hyödynnetään tai käsitellään</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">jätteitä vähintään 10 000 tonnia vuodessa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">35 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Laitos tai paikka, jossa hyödynnetään tai käsitellään</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>muualla kuin siinä syntyneitä ongelmajätteitä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">- ongelmajätteiden käsittelylaitos</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">140 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>- muu laitos tai paikka, jossa hyödynnetään tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>käsitellään muualla kuin siinä syntyneitä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">ongelmajätteitä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">20 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>Maksuluetteloon on lisätty uutena maksuna seuraava:</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <te>Ongelmajätteen keräämistoiminta                        10 000</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ongelmajätteen keräämistoiminta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">10 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:Katkoviiva/>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>Ympäristömaksuja koskevan luettelon jälkeen tulevan tekstin 5. kappale on muutettu seuraavasti:</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>Jos hakemus koskee vanhan jätehuoltolain mukaisen jätehuoltosuunnitelman tai ongelmajätteiden käsittelyluvan muuttamista jätelain (1072/93) mukaiseksi jäteluvaksi taikka toiminnassa oleva laitos hakee lupaa hyödyntää tai käsitellä muualla kuin siinä syntyneitä ongelmajätteitä on maksu 10-30 prosenttia perusmaksusta.</sis:KappaleKooste>
       <sis:Katkoviiva/>
-      <te/>
-      <te><saa:SaadosKursiiviKooste>Muut luvat</saa:SaadosKursiiviKooste>                                        mk</te>
-      <te>Ampuma-aseiden hankkimista ja hallussapitoa koskeva</te>
-      <te>poikkeuslupa                                              200</te>
-      <te>Ampumaradan perustamislupa                              1 200</te>
-      <te>Eläinkoelupa                                              300</te>
-      <te>Etuajo-oikeus lautalle                                    300</te>
-      <te>Leirintäalueen perustamislupa                           1 000</te>
-      <te>Leirintäalueluvan muutos                                  200</te>
-      <te>Leirintäaluetoimintaan liittyvät muut luvat               300</te>
-      <te>Liikeaikalain (446/94) poikkeuslupapäätökset</te>
-      <te> - pienkauppojen tai merkitykseltään vähäiset </te>
-      <te>   poikkeusluvat                                          300</te>
-      <te> - ryhmä- tai tavaratalotyyppisten liikeiden</te>
-      <te>   poikkeusluvat                                        1 000</te>
-      <te> - valtakunnalliset poikkeusluvat                       2 000</te>
-      <te>Lunastuslain (603/77) 84 §:n mukainen tutkimuslupa        900</te>
-      <te>Lupa teiden sulkemiseen                                 1 500</te>
-      <te>Perheasiain sovittelua koskeva toimilupa                  500</te>
-      <te>Rakennuslain (370/58) mukainen poikkeuslupa</te>
-      <te> - poikkeusluvan myöntäminen                            1 500</te>
-      <te> - poikkeusluvan epääminen                                300</te>
-      <te>Ulkomailla asuvien ja ulkomaisten yhteisöjen</te>
-      <te>kiinteistön hankintojen valvonnasta annetun lain</te>
-      <te>(1613/92) mukainen lupa                                   500</te>
-      <te>Väestönsuojan rakennusvelvollisuudesta vapautuksen tai</te>
-      <te>helpotuksen myöntäminen                                 1 200</te>
-      <te>Yleisistä teistä annetun lain (243/54) 52 §:n mukainen</te>
-      <te>liittymälupa                                            1 200</te>
-      <te>Muu hakemuksesta myönnetty lupa                      272 mk/h</te>
-      <te/>
-      <te><saa:SaadosKursiiviKooste>Valitukset</saa:SaadosKursiiviKooste>                                        mk</te>
-      <te>                                                          400</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">
+                  <sis1:KursiiviTeksti>Muut luvat</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Ampuma-aseiden hankkimista ja hallussapitoa koskeva</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">poikkeuslupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">200</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ampumaradan perustamislupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 200</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Eläinkoelupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Etuajo-oikeus lautalle</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Leirintäalueen perustamislupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Leirintäalueluvan muutos</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">200</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Leirintäaluetoimintaan liittyvät muut luvat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Liikeaikalain (446/94) poikkeuslupapäätökset</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>- pienkauppojen tai merkitykseltään vähäiset</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">poikkeusluvat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>- ryhmä- tai tavaratalotyyppisten liikeiden</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">poikkeusluvat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">- valtakunnalliset poikkeusluvat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lunastuslain (603/77) 84 §:n mukainen tutkimuslupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">900</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Lupa teiden sulkemiseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Perheasiain sovittelua koskeva toimilupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Rakennuslain (370/58) mukainen poikkeuslupa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">- poikkeusluvan myöntäminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">- poikkeusluvan epääminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">300</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Ulkomailla asuvien ja ulkomaisten yhteisöjen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>kiinteistön hankintojen valvonnasta annetun lain</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">(1613/92) mukainen lupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">500</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Väestönsuojan rakennusvelvollisuudesta vapautuksen tai</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">helpotuksen myöntäminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 200</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Yleisistä teistä annetun lain (243/54) 52 §:n mukainen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">liittymälupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1 200</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Muu hakemuksesta myönnetty lupa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">272 mk/h</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">
+                  <sis1:KursiiviTeksti>Valitukset</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">400</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>Tämän päätöksen 2 §:n 2 momentin 2, 3 ja 18 kohdassa tarkoitetuista valituksista ei peritä maksua. Maksua ei peritä asianosaisen oikeutta ja etua koskevassa asiassa, jos henkilö on todistettu asianmukaisesti varattomaksi tai muutoin on painavia perusteita maksuttomuudelle henkilön taloudellisen aseman vuoksi. Jos lääninhallitus muuttaa kunnan tai muun viranomaisen päätösta valittajan eduksi, maksua ei myöskään peritä.</sis:KappaleKooste>
       <sis:KappaleKooste>Jos samalla kirjelmällä yhtä useampi asianosainen saattaa valitusasian käsiteltäväksi, peritään heiltä vain yksi päätöstä koskeva maksu. Jos lääninhallitus erottaa eri asianosaisia koskevat asiat erikseen käsiteltäviksi, peritään kustakin näin erotetusta asiasta asianosaiselta maksu erikseen.</sis:KappaleKooste>
     </asi:SisaltoLiite>

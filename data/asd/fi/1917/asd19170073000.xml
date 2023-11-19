@@ -20,90 +20,484 @@
         <saa:SaadosKappaleKooste/>
         <saa:SaadosKappaleKooste>Suomen Senaatille kuuluvan vallan nojalla on Senaatti korottanut postimaksut postilähetyksistä Suomen sisäpuolella seuraaviin määriin olemaan voimassa 1 päivästä lokakuuta 1917 alkaen toistaiseksi:</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste>Kuljetusmaksut (porto):</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-1. Kirjeet:</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>kultakin 15 gr:lta tai sen osalta ......... ...................... ......... —: 30 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-paikalliset, kultakin 30 gr:lta tai sen osalta ........................ —: 20 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-2. Postikortit:</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>yksinkertaiset ..................................................................... —: 15 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-kaksoiskortit.........................................................................—: 30 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-3. Ristisiteet:</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>painotuotteet, asiakirjat ja tavaranäytteet, kultakin 50 gr:lta tai sen osalta....................................................................... —: 10 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-paikalliset, kultakin 50 gr:lta tai sen osalta .........................—: 05 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-Muist. vähin maksu on asiakirjoista ................................ ...—: 30
-</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-            » » » »                                     paikallisista ..............      —: 20
-</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-            » » » »                                     tavaranäytteistä (myös
-</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-                                                             paikallisista) ............       —: 20 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-Sanomalehdistä ja aikakautisista painotuotteista, joita julkaisija tai toimitus lähettää frankkeeratuissa siteissä ja joita seuraaa reversaali, kultakin 50 gr:lta tai sen osalta ....              —: 05 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-4. Paketit:</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>korkeintaan 500 gr:lta....................................................           —: 60 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-kultakin seuraavalta 500 gr:lta tai sen osalta..................         —: 40 
-</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="2" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>1. Kirjeet:</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">kultakin 15 gr:lta tai sen osalta .......................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 30</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">paikalliset, kultakin 30 gr:lta tai sen osalta ........................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 20</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>2. Postikortit:</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">yksinkertaiset .....................................................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 15</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">kaksoiskortit.........................................................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 30</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>3. Ristisiteet:</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">painotuotteet, asiakirjat ja tavaranäytteet, kultakin 50 gr:lta tai sen osalta.......................................................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 10</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">paikalliset, kultakin 50 gr:lta tai sen osalta .........................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 05</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Muist. vähin maksu on asiakirjoista ..................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 30</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">» » » » paikallisista ..............</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 20</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">» » » » tavaranäytteistä (myös paikallisista) ............</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 20</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Sanomalehdistä ja aikakautisista painotuotteista, joita julkaisija tai toimitus lähettää frankkeeratuissa siteissä ja joita seuraaa reversaali, kultakin 50 gr:lta tai sen osalta ....</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 05</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>4. Paketit:</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">korkeintaan 500 gr:lta....................................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 60</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">kultakin seuraavalta 500 gr:lta tai sen osalta..................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 40</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <saa:SaadosKappaleKooste>Muut maksut:</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>5. Sisäänkirjoitetut lähetykset (kirjeet, postikortit, ristisiteet ja paketit):</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>sisäänkirj oitusmaksu .................................................... ........—: 40 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-Sitä paitsi maksetaan jokaisesta sisäänkirjoitetusta lähetyksestä kuljetusmaksua lähetyksen laadun mukaan kuten yllä on määrätty.</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>6. Vakuutetut lähetykset (kirjeet ja paketit):</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>vakuutusmaksu: korkeintaan 200 markan arvomäärältä .... —: 40 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-kultakin ylimenevältä 100 markalta tai sen osalta ...............—: 20 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-Sitä paitsi maksetaan jokaisesta vakuutetusta lähetyksestä 
-sisäänkirjoitusmaksuna 40 penniä ja kuljetusmaksua lähetyksen laadun mukaan.</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>Vakuutetun lähetyksen sulkemisesta postitoimiston lakalla, </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-kultakin lähetykseltä.......................................................     —: 10 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-7. Posti- ja postietuanti-osotukset:</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>korkeintaan 25 markan määrältä 30 penniä, yli 25 markan aina 100 markkaan asti 50 penniä ja sitten kultakin seuraavalta 100 markan osalta 25 markkaan asti 25 penniä sekä 100 markan osalta, joka nousee yli 25 markkaa, 50 penniä, tai siis seuraavaisesti:</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>korkeintaan 25 markkaa......................................................—: 30 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-yli 25 » 100 markkaan ............................                                 —: 50
-</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-» 100 » 125 »               ............................                                  —: 75
-</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-» 125 » 200 » ............................                                                   1: —</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>yli 200 markkaa 225 markkaan .............................                    1: 25
-</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-» 225 » 300 » ............................                                                    1: 50 j. n. e. 
-</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="2" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>5. Sisäänkirjoitetut lähetykset (kirjeet, postikortit, ristisiteet ja paketit):</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">sisäänkirjoitusmaksu .................................................... ........</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 40</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>Sitä paitsi maksetaan jokaisesta sisäänkirjoitetusta lähetyksestä kuljetusmaksua lähetyksen laadun mukaan kuten yllä on määrätty.</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>6. Vakuutetut lähetykset (kirjeet ja paketit):</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">vakuutusmaksu: korkeintaan 200 markan arvomäärältä ....</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 40</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">kultakin ylimenevältä 100 markalta tai sen osalta ...............</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 20</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>Sitä paitsi maksetaan jokaisesta vakuutetusta lähetyksestä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>sisäänkirjoitusmaksuna 40 penniä ja kuljetusmaksua lähetyksen laadun mukaan.</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>Vakuutetun lähetyksen sulkemisesta postitoimiston lakalla,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">kultakin lähetykseltä.......................................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 10</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>7. Posti- ja postietuanti-osotukset:</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>korkeintaan 25 markan määrältä 30 penniä, yli 25 markan aina 100 markkaan asti 50 penniä ja sitten kultakin seuraavalta 100 markan osalta 25 markkaan asti 25 penniä sekä 100 markan osalta, joka nousee yli 25 markkaa, 50 penniä, tai siis seuraavaisesti:</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">korkeintaan 25 markkaa......................................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 30</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">yli 25 » 100 markkaan ............................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 50</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">» 100 » 125 » ............................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 75</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">» 125 » 200 » ............................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">1: —</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">yli 200 markkaa 225 markkaan .............................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">1: 25</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">» 225 » 300 » ............................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">1: 50 j. n. e.</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <saa:SaadosKappaleKooste>Posti-ja postietuanti-osotuksen korkein sallittu määrä on 5,000 markkaa.</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste>Sähköpostiosotuksesta on sitäpaitsi suoritettava:</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste>a) sähkösanomamaksu sähkösanomataksan mukaan;</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste>b) sähkösanoman toimittamisesta lennätintoimistoon 75 penniä;</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste>c) sähkösanoman käsittelystä pikalähetyksenä 1 mk. 50 penniä.</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>8. Pikalähetykset:</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>tavallisten postimaksujen lisäksi ............................. ...........    1: 50 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-9. Kotiinkantomaksu:</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>kaupungeissa ja kauppaloissa korkeintaan 6 kg. painavista paketeista ja korkeintaan 2,000 markan arvoisista kirjeistä ja paketeista, jotka kotiin kannetaan pyynnöstä...........         1: —</saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>10. Paluukortti.....................................................................—: 15 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-11. Vastaanottotodistukset.................................................—: 40 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-12. Kiertolippu (reklameeraus) .......................................... —: 40 </saa:SaadosKappaleKooste>
-        <saa:SaadosKappaleKooste>
-13. Ancnnukset osoitteenmuutoksesta, lähetyksen palauttamisesta tai peräänläheitämisestä........................................................  —: 50
-</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="2" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>8. Pikalähetykset:</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">tavallisten postimaksujen lisäksi ......................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">1: 50</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste>9. Kotiinkantomaksu:</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">kaupungeissa ja kauppaloissa korkeintaan 6 kg. painavista paketeista ja korkeintaan 2,000 markan arvoisista kirjeistä ja paketeista, jotka kotiin kannetaan pyynnöstä...........</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">1: —</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">10. Paluukortti.....................................................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 15</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">11. Vastaanottotodistukset.................................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 40</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">12. Kiertolippu (reklameeraus) ..........................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 40</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">13. Ancnnukset osoitteenmuutoksesta, lähetyksen palauttamisesta tai peräänläheitämisestä........................................................</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">—: 50</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="2">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
       </saa:SisaltoMuuSaados>
     </saa:MuuSaados>
   </saa:SaadosOsa>
@@ -111,16 +505,14 @@ yli 25 » 100 markkaan ............................                             
     <asi:PaivaysKooste>Helsingissä, 28 päivänä syyskuuta 1917.</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
       <org:Henkilo>
-        <org1:AsemaTeksti>Kulkulaitostoimituskunnan v. t. Päällikkö, Senaattori A. Tulenheimo.
-G. E. F. Albrecht.
-</org1:AsemaTeksti>
-        <org1:SukuNimi/>
+        <org1:AsemaTeksti>Kulkulaitostoimituskunnan v. t. Päällikkö,</org1:AsemaTeksti>
+        <org1:SukuNimi>Senaattori A. Tulenheimo.</org1:SukuNimi>
       </org:Henkilo>
     </asi:Allekirjoittaja>
     <asi:Allekirjoittaja>
       <org:Henkilo>
         <org1:AsemaTeksti/>
-        <org1:SukuNimi/>
+        <org1:SukuNimi>G. E. F. Albrecht.</org1:SukuNimi>
       </org:Henkilo>
     </asi:Allekirjoittaja>
   </asi:AllekirjoitusOsa>

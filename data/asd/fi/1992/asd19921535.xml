@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Tuloverolaki</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 200/92</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>VaVM 74/92</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -1686,15 +1678,78 @@ seurakunnan osuus 0,84 prosenttiyksikköä.
               <saa:SaadosOtsikkoKooste>Ylimääräinen korkovähennys</saa:SaadosOtsikkoKooste>
               <saa:MomenttiKooste>Jos verovelvollisella tai puolisolla on vuoden 1992 lopussa ollut asunto- tai opintovelkaa, hänen ansiotulostaan määrättävästä verosta tehdään vuosilta 1993―2002 toimitettavissa verotuksissa ylimääräinen korkovähennys.</saa:MomenttiKooste>
               <saa:MomenttiKooste>Ylimääräisen korkovähennyksen täysi määrä on seuraavan taulukon mukainen prosenttiosuus vuodelta 1992 toimitettavassa verotuksessa ilmoitetuista vähennyskelpoisista asunto- ja opintovelan koroista niiden 25 000 markan määrään asti ja puolisoilla niiden 40 000 markan määrään asti. Edellä mainittujen korkojen enimmäismääriä on korotettava 5 000 markalla, jos verovelvollisella tai puolisoilla yhdessäon ollut elätettävänään alaikäinen lapsi ja 10 000 markalla, jos tällaisia lapsia on ollut kaksi tai useampi.</saa:MomenttiKooste>
-              <te/>
-              <te>vähennysvuosi   osuus koroista</te>
-              <te>1993            17,5 prosenttia</te>
-              <te>1994            15,0 prosenttia</te>
-              <te>1995            12,5 prosenttia</te>
-              <te>1996            10,0 prosenttia</te>
-              <te>1997             7,5 prosenttia</te>
-              <te>1998―2002        5,0 prosenttia</te>
-              <te/>
+              <tau:table>
+                <tau:tgroup cols="2" colsep="1" rowsep="1">
+                  <tau:tbody>
+                    <tau:row>
+                      <tau:entry namest="1" nameend="2">
+                        <sis:KappaleKooste align="left" valign="top"/>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>vähennysvuosi</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>osuus koroista</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>1993</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>17,5 prosenttia</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>1994</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>15,0 prosenttia</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>1995</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>12,5 prosenttia</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>1996</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>10,0 prosenttia</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>1997</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>7,5 prosenttia</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry>
+                        <sis:KappaleKooste>1998―2002</sis:KappaleKooste>
+                      </tau:entry>
+                      <tau:entry>
+                        <sis:KappaleKooste>5,0 prosenttia</sis:KappaleKooste>
+                      </tau:entry>
+                    </tau:row>
+                    <tau:row>
+                      <tau:entry namest="1" nameend="2">
+                        <sis:KappaleKooste align="left" valign="top"/>
+                      </tau:entry>
+                    </tau:row>
+                  </tau:tbody>
+                </tau:tgroup>
+              </tau:table>
               <saa:MomenttiKooste>Ylimääräinen korkovähennys myönnetään täysimääräisenä, jos verovelvollisen vuoden 1993 valtionverotuksessa verotettavan ansiotulon määrä on vähintään 160 000 markkaa. Jos se on tätä pienempi, vähennys on yksi prosentti sen täydestä määrästä verovelvollisen valtionverotuksen verotettavan ansiotulon jokaista alkavaa tuhattakuuttasataa markkaa kohden.</saa:MomenttiKooste>
               <saa:MomenttiKooste>Jos verovelvolliseen on sovellettu tämän lain puolisoita koskevia säännöksiä, vähennys myönnetään sille puolisolle, jonka vuodelta 1992 ilmoittamien vähennyskelpoisten asunto- ja opintovelan korkojen määrä on suurempi. Jos heidän ilmoittamansa korot ovat yhtä suuret, vähennys myönnetään sille puolisolle, jonka ansiotulosta määrättävien verojen ja maksujen yhteismäärä on suurempi. Puolisot voivat kuitenkin ennen vuodelta 1993 toimitettavan verotuksen päättymistä esittämästään vaatimuksesta valita, kummalle puolisolle vähennys myönnetään.</saa:MomenttiKooste>
               <saa:MomenttiKooste>Ylimääräistä korkovähennystä ei myönnetä sellaisten korkojen perusteella, jotka kohdistuvat verovuoden jälkeiseen aikaan. Ilmoitettujen korkojen määrästä riippumatta asunto- ja opintovelan korkoina pidetään vähintään 8 prosenttia verovelvollisella tai puolisoilla vuoden 1992 lopussa olleen asunto- ja opintovelan määrästä.</saa:MomenttiKooste>
@@ -1944,6 +1999,10 @@ seurakunnan osuus 0,84 prosenttiyksikköä.
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>HE 200/92</sdk:EsityoViite>
+    <sdk:EsityoViite>VaVM 74/92</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 30 päivänä joulukuuta 1992</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

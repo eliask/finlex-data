@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>yksinoikeudesta integroidun piirin piirimalliin</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti> Hallituksen esitys 161/90</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti> Toisen lakivaliok. miet. 16/90</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti> Suuren valiok. miet. 287/90</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -56,9 +45,7 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3§">
             <saa:PykalaTunnusKooste>3§</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Yksinoikeuden saaminen</saa:SaadosOtsikkoKooste>
-          </saa:Pykala>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="Se, joka on luonut piirimallin tai jolle piirimallin luojan oikeus on siirtynyt, voi rekisteröinnillä saada yksinoikeuden piirimalliin.">
-            <saa:PykalaTunnusKooste>Se, joka on luonut piirimallin tai jolle piirimallin luojan oikeus on siirtynyt, voi rekisteröinnillä saada yksinoikeuden piirimalliin.</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>Se, joka on luonut piirimallin tai jolle piirimallin luojan oikeus on siirtynyt, voi rekisteröinnillä saada yksinoikeuden piirimalliin.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Jos piirimalli on luotu täytettäessä työsuhteesta johtuvia työtehtäviä, työnantajalla on oikeus rekisteröinnillä saada yksinoikeus piirimalliin, jollei toisin ole sovittu. Mitä näin on säädetty, koskee vastaavasti myös virkasuhteessa luotua piirimallia.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Edellä 2 momentissa olevia säännöksiä ei sovelleta sotilasopetuslaitoksia lukuunottamatta korkeakoulun opetus- tai tutkimustyössä toimivan henkilön luomaan piirimalliin.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -397,6 +384,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite> Hallituksen esitys 161/90</sdk:EsityoViite>
+    <sdk:EsityoViite> Toisen lakivaliok. miet. 16/90</sdk:EsityoViite>
+    <sdk:EsityoViite> Suuren valiok. miet. 287/90</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 11 päivänä tammikuuta 1991</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

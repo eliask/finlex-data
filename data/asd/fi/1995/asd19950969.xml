@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Suomen Hallitusmuodon muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 309/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>PeVM 25/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>PeVM 3/95</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -42,8 +31,9 @@
           <saa:MomenttiKooste>Suomi on täysivaltainen tasavalta, jonka valtiosääntö turvaa ihmisarvon loukkaamattomuuden ja yksilön vapauden ja oikeudet sekä edistää oikeudenmukaisuutta yhteiskunnassa.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Suomen kansanvaltainen valtiosääntö on vahvistettu tässä hallitusmuodossa ja muissa perustuslaeissa.</saa:MomenttiKooste>
         </saa:Pykala>
-        <saa:Luku saa1:identifiointiTunnus="II. Perusoikeudet">
-          <saa:LukuTunnusKooste>II. Perusoikeudet</saa:LukuTunnusKooste>
+        <saa:Luku saa1:identifiointiTunnus="II.">
+          <saa:LukuTunnusKooste>II.</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Perusoikeudet</saa:SaadosOtsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
             <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Ihmiset ovat yhdenvertaisia lain edessä.</saa:MomenttiKooste>
@@ -165,6 +155,23 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930309.he">
+        <sis1:ViiteTeksti>HE 309/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940025.pevm">
+        <sis1:ViiteTeksti>PeVM 25/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19950003.pevm">
+        <sis1:ViiteTeksti>PeVM 3/95</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 17 päivänä heinäkuuta 1995</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

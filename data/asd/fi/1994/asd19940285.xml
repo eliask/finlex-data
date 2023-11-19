@@ -48,15 +48,71 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Avustuksen määrä</saa:SaadosOtsikkoKooste>
-          <te>Arvonlisäveroavustuksen määrä on rakentamisen aloitusajankohdasta riippuen asuinrakennuksen tai asunnon huoneistoalaan kuuluvalta täydeltä asuinneliömetriltä seuraava:</te>
-          <te/>
-          <te>Rakentamisen aloitusajankohta                           Avustus</te>
-          <te>                                                        mk/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></te>
-          <te>            01.09.Ä31.12.1993                                50</te>
-          <te>            01.01.Ä28.02.1994                               150</te>
-          <te>            01.03.Ä30.04.1994                               300</te>
-          <te>            01.05.Ä31.12.1994                               400</te>
-          <te/>
+          <saa:MomenttiKooste>Arvonlisäveroavustuksen määrä on rakentamisen aloitusajankohdasta riippuen asuinrakennuksen tai asunnon huoneistoalaan kuuluvalta täydeltä asuinneliömetriltä seuraava:</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Rakentamisen aloitusajankohta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Avustus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>01.09.-31.12.1993</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>01.01.-28.02.1994</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>150</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>01.03.-30.04.1994</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>300</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>01.05.-31.12.1994</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>400</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Arvonlisäveroavustusta suoritetaan asuntoa kohden enintään 120 asuinneliömetriltä. Avustusta voidaan suorittaa vain kerran samaan asuntoon.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Mikäli käy ilmi, että kohteessa, johon avustusta haetaan, on arvonlisäveron kustannuksia korottava vaikutus jäänyt oleellisesti 1 momentin mukaista avustusta pienemmäksi, avustus maksetaan 1 momentin mukaista määrää vastaavasti vähentäen.</saa:MomenttiKooste>
         </saa:Pykala>

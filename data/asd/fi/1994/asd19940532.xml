@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>alkoholijuomaverosta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 30/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>VaVM 26/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -94,54 +86,343 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
             <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Alkoholijuomaveron perusveroa on suoritettava etyylialkoholipitoisuuden ja juomamäärän perusteella seuraavasti:</saa:MomenttiKooste>
-            <te/>
-            <te>Alkoholi-      Tuote-     Veron</te>
-            <te>pitoisuus      ryhmä      määrä</te>
-            <te>tilavuus-</te>
-            <te>prosentteina</te>
-            <te>
-              <saa:SaadosKursiiviKooste>Olut</saa:SaadosKursiiviKooste>
-            </te>
-            <te>yli 2,8 mutta</te>
-            <te>enintään 15      11.      1,70 markkaa jokaiselta juomalitran</te>
-            <te>                          sisältämältä senttilitralta</te>
-            <te>                          etyylialkoholia</te>
-            <te>
-              <saa:SaadosKursiiviKooste>Viinit</saa:SaadosKursiiviKooste>
-            </te>
-            <te>yli 2,8 mutta</te>
-            <te>enintään 5,5     21.      8 markkaa litralta valmista</te>
-            <te>                          alkoholijuomaa</te>
-            <te>yli 5,5 mutta</te>
-            <te>enintään 8,0     22.      13 markkaa litralta valmista</te>
-            <te>                          alkoholijuomaa</te>
-            <te>yli 8,0 mutta</te>
-            <te>enintään 15,0    23.      17 markkaa litralta valmista</te>
-            <te>                          alkoholijuomaa</te>
-            <te>
-              <saa:SaadosKursiiviKooste>Muut alkoholijuomat</saa:SaadosKursiiviKooste>
-            </te>
-            <te>yli 2,8 mutta</te>
-            <te>enintään 22      31.      2,65 markkaa jokaiselta juomalitran</te>
-            <te>                          sisältämältä senttilitralta</te>
-            <te>                          etyylialkoholia</te>
-            <te>yli 22           32.      3,00 markkaa jokaiselta juomalitran</te>
-            <te>                          sisältämältä senttilitralta</te>
-            <te>                          etyylialkoholia.</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="3" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Alkoholi-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Tuote-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">Veron</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">pitoisuus</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">ryhmä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">määrä</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">tilavuus-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">prosentteina</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste>
+                        <sis1:KursiiviTeksti>Olut</sis1:KursiiviTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste>yli 2,8 mutta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">enintään 15</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">11.</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1,70 markkaa jokaiselta juomalitran</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">sisältämältä senttilitralta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">etyylialkoholia</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste>
+                        <sis1:KursiiviTeksti>Viinit</sis1:KursiiviTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste>yli 2,8 mutta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">enintään 5,5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">21.</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">8 markkaa litralta valmista</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">alkoholijuomaa</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste>yli 5,5 mutta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">enintään 8,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">22.</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">13 markkaa litralta valmista</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">alkoholijuomaa</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste>yli 8,0 mutta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">enintään 15,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">23.</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">17 markkaa litralta valmista</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">alkoholijuomaa</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste>
+                        <sis1:KursiiviTeksti>Muut alkoholijuomat</sis1:KursiiviTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste>yli 2,8 mutta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">enintään 22</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">2,65 markkaa jokaiselta juomalitran</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">sisältämältä senttilitralta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">etyylialkoholia</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">yli 22</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">32.</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">3,00 markkaa jokaiselta juomalitran</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">sisältämältä senttilitralta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">etyylialkoholia.</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="3">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
             <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Edellä 3 §:n 3 momentissa tarkoitetuissa tapauksissa alkoholijuomaveroa on suoritettava seuraavasti:</saa:MomenttiKooste>
-            <te/>
-            <te>Tuoteryhmä           markkaa senttilitralta valmista</te>
-            <te>                              alkoholijuomaa</te>
-            <te>11                                 0,16</te>
-            <te>21-23                              0,35</te>
-            <te>31                                 0,70</te>
-            <te>32 a                               1,00</te>
-            <te>32 b                               1,50</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Tuoteryhmä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">markkaa senttilitralta valmista</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">alkoholijuomaa</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">11</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">0,16</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">21-23</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">0,35</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">31</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">0,70</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">32 a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">1,00</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">32 b</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">1,50</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Tuoteryhmään 32 a kuuluvat sellaiset muut alkoholijuomat, joiden alkoholipitoisuus tilavuusprosentteina on yli 22 mutta enintään 32, sekä tuoteryhmään 32 b yli 32 tilavuusprosenttia alkoholia sisältävät muut alkoholijuomat.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Muita veroja tai maksuja ei tuonnin yhteydessä kanneta, eikä kannettavaan veroon sovelleta tulliasetuksen 30 a §:ssä säädettyä vähimmäisrajaa.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -263,6 +544,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940030.he">
+        <sis1:ViiteTeksti>HE 30/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940026.vavm">
+        <sis1:ViiteTeksti>VaVM 26/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Naantalissa 28 päivänä kesäkuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

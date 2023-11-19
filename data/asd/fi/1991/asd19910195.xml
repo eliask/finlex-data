@@ -71,11 +71,41 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8§">
           <saa:PykalaTunnusKooste>8§</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Verotaulukon tuoteryhmiin 9, 50, 190, 191 ja 193 kuuluvista tuotteista voidaan maksaa hinnanerokorvauksia vuonna 1991 enintään seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>                                      tonnia </te>
-          <te>tuoteryhmä 9, ohramaltaat             41 360</te>
-          <te>tuoteryhmät 50, 190, 191 ja 193 soke-</te>
-          <te>rikemian tuotteet                     7 000 </te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">tonnia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">tuoteryhmä 9, ohramaltaat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">41 360</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>tuoteryhmät 50, 190, 191 ja 193 soke-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">rikemian tuotteet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">7 000</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Valtiovarainministeriö vahvistaa kotimaisten valmistajien tai viejien osuudet 1 momentissa tai liitetaulukossa tarkoitetuista määristä. Valtiovarainministeriö vahvistaa samalla näistä tuotteista maksettavan hinnanerokorvauksen määrän.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:SaadosValiotsikkoKooste>Selvitys- ja kirjanpitovelvollisuus</saa:SaadosValiotsikkoKooste>
@@ -156,15 +186,94 @@
     <asi:SisaltoLiite>
       <sis:KappaleKooste>Liite</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>Luettelo eräiden elintarviketuotteiden hinnanerokorvauksista</sis1:ValiotsikkoTeksti>
-      <te/>
-      <te>Tullitariffin</te>
-      <te>nimike       Tavara                                                            Hinnanerokorvauksen </te>
-      <te>02.08:sta    Valtiovarainministeriön päätöksessä määrätty poronliha (enintään    </te>
-      <te>             200 000 kiloa)                                                    22,00 mk/kg              </te>
-      <te>04.06:sta    Tuorejuusto (rasvapitoisuus vähintään 23% painosta)               7,00 mk/kg</te>
-      <te>11.04        Kaurajalosteet                                                    Kauran tuontimaksu</te>
-      <te>                                                                               kerrottuna luvulla 1.26</te>
-      <te>23.09        Koiran- tai kissanruoat                                           Tuontimaksu        </te>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste>Tullitariffin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">nimike</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Tavara</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Hinnanerokorvauksen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">02.08:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Valtiovarainministeriön päätöksessä määrätty poronliha (enintään</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">200 000 kiloa)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">22,00 mk/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">04.06:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Tuorejuusto (rasvapitoisuus vähintään 23% painosta)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">7,00 mk/kg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">11.04</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Kaurajalosteet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Kauran tuontimaksu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2"/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">kerrottuna luvulla 1.26</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">23.09</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Koiran- tai kissanruoat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">Tuontimaksu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

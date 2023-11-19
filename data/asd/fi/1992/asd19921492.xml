@@ -25,23 +25,113 @@
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Eläkkeensaajien asumistukilain mukaisen asumistuen suuruutta määrättäessä arvioidaan muussa kuin asunto-osakeyhtiön tai asunto-osuuskunnan omistamassa talossa sijaitsevassa omassa asunnossa asuvan eläkkeensaajan asumiskustannuksiksi asunnon hoitomenot seuraavien keskimääräisten lämmitys- ja vesikustannusten sekä enintään keskimääräisten kunnossapitokustannusten mukaisesti:</saa:MomenttiKooste>
           <saa:MomenttiKooste>1) jos asunnossa on keskuslämmitys- tai siihen verrattava muu kiinteä lämmitysjärjestelmä, lämmityskustannuksiksi arvioidaan seuraava asunnon sijainnin mukaan määräytyvä markkamäärä neliömetriltä kerrottuna asunnon pinta-alan neliömetrimäärällä:</saa:MomenttiKooste>
-          <te/>
-          <te>Asunnon sijainti                       mk/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/kk</te>
-          <te>Uudenmaan, Turun ja Porin,</te>
-          <te>Ahvenanmaan sekä Kymen lääni           3,40</te>
-          <te>Hämeen, Mikkelin ja Vaasan lääni       4,15</te>
-          <te>Keski-Suomen, Kuopion, Pohjois-</te>
-          <te>Karjalan, Oulun ja Lapin lääni         5,05</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Asunnon sijainti</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">mk/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/kk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Uudenmaan, Turun ja Porin,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Ahvenanmaan sekä Kymen lääni</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3,40</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Hämeen, Mikkelin ja Vaasan lääni</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">4,15</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Keski-Suomen, Kuopion, Pohjois-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Karjalan, Oulun ja Lapin lääni</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5,05</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>2) jos asunnossa on muu kuin kohdassa 1 mainittu lämmitysjärjestelmä, lämmityskustannuksiksi arvioidaan seuraava asunnon sijainnin mukaan määräytyvä markkamäärä neliömetriltä kerrottuna asunnon pinta-alan neliömetrimäärällä:</saa:MomenttiKooste>
-          <te/>
-          <te>Asunnon sijainti                       mk/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/kk</te>
-          <te>Uudenmaan, Turun ja Porin,</te>
-          <te>Ahvenanmaan sekä Kymen lääni           2,45</te>
-          <te>Hämeen, Mikkelin ja Vaasan lääni       3,00</te>
-          <te>Keski-Suomen, Kuopion, Pohjois-</te>
-          <te>Karjalan, Oulun ja Lapin lääni         3,60</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Asunnon sijainti</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">mk/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/kk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Uudenmaan, Turun ja Porin,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Ahvenanmaan sekä Kymen lääni</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2,45</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Hämeen, Mikkelin ja Vaasan lääni</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Keski-Suomen, Kuopion, Pohjois-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Karjalan, Oulun ja Lapin lääni</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3,60</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>3) vesikustannuksiksi arvioidaan 61 markkaa kuukaudessa kultakin perheenjäseneltä, jos asunnossa on vesijohto ja lämmin vesi, sekä muutoin 12 markkaa kuukaudessa kultakin perheenjäseneltä; sekä</saa:MomenttiKooste>
           <saa:MomenttiKooste>4) asunnon kunnossapitokustannuksiksi arvioidaan 180 markkaa kuukaudessa.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Edellä 1 momentin 1, 2 ja 4 kohdassa mainittuja markkamääriä korotetaan 30 prosentilla, jos rakennus on valmistunut tai perusparannettu ennen vuotta 1974.</saa:MomenttiKooste>

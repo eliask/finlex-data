@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>maataloustuotteiden hinnanerokorvauksista</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 271/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>VaVM 76/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -45,40 +37,208 @@
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Maataloustuotteet ja välivalmisteet, joista voidaan maksaa hinnanerokorvausta</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Hinnanerokorvausta voidaan maksaa seuraavista maataloustuotteista vietäessä tai siirrettäessä niitä sellaisenaan tai 4 §:ssä tarkoitettuihin tuotteisiin sisältyvinä:</saa:MomenttiKooste>
-          <te/>
-          <te>Tullitariffin   Tuote</te>
-          <te>ryhmä/nimike</te>
-          <te>01. ryhmästä    Elävät nautaeläimet, elävät siat, elävät</te>
-          <te>                lampaat ja vuohet sekä elävä siipikarja</te>
-          <te>02. ryhmä       Liha ja muut syötävät eläimenosat</te>
-          <te>04.01-04.06:sta Meijerituotteet; ei kuitenkaan nimikkeen</te>
-          <te>                04.03 maustetut tai lisättyä hedelmää,</te>
-          <te>                pähkinää tai kaakaota sisältävät tuotteet</te>
-          <te>04.07:stä       Kuorelliset kananmunat</te>
-          <te>04.08:sta       Kananmunamassa</te>
-          <te>07.01           Peruna</te>
-          <te>10.01-10.04     Vilja</te>
-          <te>11.01-11.04     Myllyteollisuustuotteet</te>
-          <te>11.07           Maltaat</te>
-          <te>17.02:sta       Laktoosi</te>
-          <te>35.02:sta       Muna-albumiini</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Tullitariffin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Tuote</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>ryhmä/nimike</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">01. ryhmästä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Elävät nautaeläimet, elävät siat, elävät</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">lampaat ja vuohet sekä elävä siipikarja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">02. ryhmä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Liha ja muut syötävät eläimenosat</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">04.01-04.06:sta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Meijerituotteet; ei kuitenkaan nimikkeen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">04.03 maustetut tai lisättyä hedelmää,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">pähkinää tai kaakaota sisältävät tuotteet</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">04.07:stä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Kuorelliset kananmunat</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">04.08:sta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Kananmunamassa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">07.01</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Peruna</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">10.01-10.04</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Vilja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">11.01-11.04</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Myllyteollisuustuotteet</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">11.07</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Maltaat</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">17.02:sta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Laktoosi</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">35.02:sta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Muna-albumiini</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Hinnanerokorvausta voidaan maksaa seuraavista välivalmisteista 4 §:ssä tarkoitettuihin tuotteisiin sisältyvinä:</saa:MomenttiKooste>
-          <te/>
-          <te/>
-          <te>Tullitariffin ryhmä/ nimike        Tuote</te>
-          <te>                      11.08        Tärkkelys</te>
-          <te>  15.07-15.14:stä, ja 15.16        Kasviöljyt, muut kuin raa'at</te>
-          <te>                      15.17        Margariini</te>
-          <te>                      17.01        Sokeri</te>
-          <te>                  17.02:stä        Glukoosisiirappi</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Tullitariffin ryhmä/ nimike</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Tuote</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">11.08</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Tärkkelys</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">15.07-15.14:stä, ja 15.16</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Kasviöljyt, muut kuin raa'at</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">15.17</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Margariini</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">17.01</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Sokeri</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">17.02:stä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">Glukoosisiirappi</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Tuotteet, joihin sisältyvistä maataloustuotteista ja välivalmisteista voidaan maksaa hinnanerokorvausta</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Hinnanerokorvausta voidaan maksaa viejälle tai siirtäjälle 3 §:ssä mainituista maataloustuotteista ja välivalmisteista (<saa:SaadosKursiiviKooste>raaka-aineet</saa:SaadosKursiiviKooste>), milloin ne sisältyvät tuontimaksulain (1519/93) nojalla vahvistettavassa tuontimaksuluettelossa B tai elintarviketuotteiden valmisteverosta annetun lain (1520/93) verotaulukossa mainittuihin tuotteisiin (<saa:SaadosKursiiviKooste>jalosteet</saa:SaadosKursiiviKooste>).</saa:MomenttiKooste>
-          <saa:MomenttiKooste>Hinnanerokorvausta voidaan maksaa myös, milloin edellä mainittuja raaka-aineita sisältyy muihin kuin 1 momentissa tarkoitettuihin tullitariffin 15.Ä23. ryhmiin kuuluviin tuotteisiin.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Hinnanerokorvausta voidaan maksaa myös, milloin edellä mainittuja raaka-aineita sisältyy muihin kuin 1 momentissa tarkoitettuihin tullitariffin 15.-23. ryhmiin kuuluviin tuotteisiin.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Jos maasta viety tuote on osoitettu valmistetuksi raaka-aineesta, josta on maahantuonnin yhteydessä kannettu tuontimaksu, hinnanerokorvauksena voidaan suorittaa määrä, joka vastaa sanotusta raaka-aineesta kannettua tuontimaksua (<saa:SaadosKursiiviKooste>takaisinmaksu</saa:SaadosKursiiviKooste>).</saa:MomenttiKooste>
           <saa:MomenttiKooste>Hinnanerokorvausta ei makseta raaka-aineesta, joka on tuontimaksulain 8 §:n mukaisesti tuotu maahan vientiedulla.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -89,8 +249,8 @@
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
-          <saa:SaadosOtsikkoKooste>Jalosteiden ja tullitariffin 15.Ä23. ryhmiin kuuluvien tuotteiden hinnanerokorvauksen laskeminen</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Jalosteelle ja tullitariffin 15.Ä23. ryhmiin kuuluvalle tuotteelle maksettava hinnanerokorvaus on valmistukseen käytetylle raaka-aineelle 5 §:n mukaisesti määrätty hinnanero kerrottuna tuotteen valmistukseen käytetyllä raaka-ainemäärällä ja, jos raaka-aineita on useampia kuin yksi, hinnanerokorvaus on raaka-aineiden käyttömääriä vastaavien hinnanerojen yhteismäärä.</saa:MomenttiKooste>
+          <saa:SaadosOtsikkoKooste>Jalosteiden ja tullitariffin 15.-23. ryhmiin kuuluvien tuotteiden hinnanerokorvauksen laskeminen</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Jalosteelle ja tullitariffin 15.-23. ryhmiin kuuluvalle tuotteelle maksettava hinnanerokorvaus on valmistukseen käytetylle raaka-aineelle 5 §:n mukaisesti määrätty hinnanero kerrottuna tuotteen valmistukseen käytetyllä raaka-ainemäärällä ja, jos raaka-aineita on useampia kuin yksi, hinnanerokorvaus on raaka-aineiden käyttömääriä vastaavien hinnanerojen yhteismäärä.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Jos tuotteen raaka-ainekoostumus on yksinkertainen ja muuttumaton, hinnanerokorvaus voidaan vahvistaa tuotteelle keskimääräistä raaka-ainekäyttöä kuvaavien kertoimien avulla.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Hinnanerokorvausmäärissä otetaan vähennyksenä huomioon liikevaihtoverolain 55 §:ssä tarkoitettu palauttamatta jääneen liikevaihtoveron määrä.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -240,6 +400,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930271.he">
+        <sis1:ViiteTeksti>HE 271/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930076.vavm">
+        <sis1:ViiteTeksti>VaVM 76/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 30 päivänä joulukuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

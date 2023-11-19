@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>leimaverolain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 65/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>VaVM 26/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -49,21 +41,14 @@
             <saa:MomenttiJohdantoKooste>Mikäli ei tässä laissa toisin säädetä, on kuhunkin 4 §:ssä mainittuun ryhmään kuuluvan viranomaisen antamat toimituskirjat varustettava leimalla seuraavin määrin:</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>
 1) <saa:SaadosKursiiviKooste>päätös, diaaritodistus tai muu toimituskirja</saa:SaadosKursiiviKooste> eri paperille tai viranomaiselle annettuun asiakirjaan kirjoitettu, sekä <saa:SaadosKursiiviKooste>pöytäkirjanote</saa:SaadosKursiiviKooste>, joka voimassa olevien säännösten mukaan on varsinaisena toimituskirjana annettava asianosaiselle, paitsi 2 kohdassa mainittu, kultakin sivulta:
-<te/>
-<te>            mk</te>
-<te>1 ryhmässä  50,-</te>
-<te>2   ,,      28,-</te>
-<te>3   ,,      12,-</te>
-<te/>
+
+<tau:table><tau:tgroup cols="2" colsep="1" rowsep="1"><tau:tbody><tau:row><tau:entry><sis:KappaleKooste colname="1"/></tau:entry><tau:entry><sis:KappaleKooste colname="2">mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">1 ryhmässä</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">50,-</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">2 ,,</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">28,-</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">3 ,,</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">12,-</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="2"><sis:KappaleKooste/></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>
 2) <saa:SaadosKursiiviKooste>jäljennös</saa:SaadosKursiiviKooste> toimituskirjasta tai muusta viranomaisen hallussa säilytetystä asiakirjasta, <saa:SaadosKursiiviKooste>välipäätös,</saa:SaadosKursiiviKooste> joka on viranomaiselle annettuun asiakirjaan kirjoitettu tai liitetty eikä sisällä määräystä takavarikosta tai muusta virka-aputoimesta, sekä muunlainen kuin 1 kohdassa mainittu <saa:SaadosKursiiviKooste>ote </saa:SaadosKursiiviKooste>toimitus- tai muusta asiakirjasta, myös valokopiona annettuna, kultakin sivulta:
-<te/>
-<te>              mk</te>
-<te>1   ryhmässä  12,-</te>
-<te>2-3    ,,     10,-</te>
-<te/>
+
+<tau:table><tau:tgroup cols="2" colsep="1" rowsep="1"><tau:tbody><tau:row><tau:entry><sis:KappaleKooste colname="1"/></tau:entry><tau:entry><sis:KappaleKooste colname="2">mk</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">1 ryhmässä</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">12,-</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste colname="1">2-3 ,,</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste colname="2">10,-</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry namest="1" nameend="2"><sis:KappaleKooste/></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
@@ -134,24 +119,26 @@ b) jäljennökset 14 markkaa.
 </saa:MomenttiKohtaKooste>
             <sis:Katkoviiva/>
           </saa:KohdatMomentti>
-          <saa:MomenttiKooste>asioissa, jotka koskevat:</saa:MomenttiKooste>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>asioissa, jotka koskevat:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
 3) valtiolle, kansaneläkelaitokselle, maakunnalle, kunnalle, seurakunnalle tai kunnalliselle taikka rekisteröidylle uskonnolliselle yhdyskunnalle tulevan veron tai maksun tai sen laskemisessa käytettävän perusteen määräämistä taikka sellaisen veron tai maksun maksuunpanoa tai ulosmittausta taikka maksuajan pitennystä tai muuta helpotusta sen suorittamisessa taikka takaisinmaksua, ei kuitenkaan keskusverolautakunnassa, eikä asioissa, jotka koskevat tulliedun myöntämistä tai sen nojalla tapahtuvaa takaisinmaksua, tulliselvitysajan tai tullittomaan maahantuontiin säädetyn määräajan taikka tulliperuutukseen oikeuttavan vientiajan pitentämistä tai takaisinmaksua sen nojalla, muuta erikoishelpotusta tullista tai muista tullilaitoksen kannettavista veroista ja maksuista taikka ennakkotietoa maahan tuotavalle tavaralle pantavasta tullista;
 </saa:MomenttiKohtaKooste>
-          <sis:Katkoviiva/>
-          <saa:MomenttiKooste>niin myös</saa:MomenttiKooste>
-          <saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+            <saa:MomenttiKohtaKooste>niin myös</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 20) toimituskirjat, jotka lunastuksetta annetaan sellaisesta virastosta, jossa lunastusta yleensä otetaan;
 </saa:MomenttiKohtaKooste>
-          <sis:Katkoviiva/>
-          <saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+            <saa:MomenttiKohtaKooste>
 31) todistus, jolla valitsijayhdistyksen asiamiehen nimikirjoitus todistetaan omakätiseksi, vaaliliittoanomusta koskeva nimikirjoitustodistus ja muu eduskunnan jäsenten ja kunnanvaltuutettujen vaaleissa tarvittava todistus, viranomaiselle esitettävään opintotodistukseen tai -kirjaan erityisten säännösten mukaan kirjoitettava todistus, todistus, joka merkitään passiin, oleskelukirjaan tai rajan poikki kulkemista varten annettuun lupatodistukseen, lukuun ottamatta esteettömyysmerkintää, joka tehdään passiin ulkomaille matkustamista varten;
 </saa:MomenttiKohtaKooste>
-          <sis:Katkoviiva/>
-          <saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+            <saa:MomenttiKohtaKooste>
 49) päätös, jonka tapaturmavirasto antaa rikosvahinkojen korvaamisesta valtion varoista annetun lain nojalla;
 </saa:MomenttiKohtaKooste>
-          <sis:Katkoviiva/>
+            <sis:Katkoviiva/>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="70 §">
           <saa:PykalaTunnusKooste>70 §</saa:PykalaTunnusKooste>
@@ -171,6 +158,18 @@ b) jäljennökset 14 markkaa.
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930065.he">
+        <sis1:ViiteTeksti>HE 65/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930026.vavm">
+        <sis1:ViiteTeksti>VaVM 26/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 9 päivänä elokuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

@@ -361,9 +361,36 @@
         <sis1:LihavaTeksti>Kartastot</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>Maksu kartastosta määrätään julkaisun sivujen pinta-alan, sivujen värisyyden ja sivujen lukumäärän mukaan.</sis:KappaleKooste>
-      <te>Yksivärisivut   0,20 mk/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> </te>
-      <te>Kaksivärisivut  0,40 mk/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> </te>
-      <te>Monivärisivut   0,50 mk/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> </te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Yksivärisivut</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,20 mk/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kaksivärisivut</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,40 mk/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Monivärisivut</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,50 mk/dm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>Kopiokartat</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -1036,10 +1063,44 @@
         </tau:tgroup>
       </tau:table>
       <sis:KappaleKooste>Samasta negatiivista valmistetusta toisesta vedoksesta ja seuraavista vedoksista alennus on 50 mk vedokselta.</sis:KappaleKooste>
-      <te>Mustavalkoinen ilmakuvakarttakopio 140mk </te>
-      <te>Diapositiivit, kpl                 220mk </te>
-      <te>Limikuvat, kpl                      70mk </te>
-      <te>Ilmakuvan pintakopio                70mk </te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Mustavalkoinen ilmakuvakarttakopio</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">140 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Diapositiivit, kpl</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">220 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Limikuvat, kpl</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">70 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ilmakuvan pintakopio</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">70 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>Värikuvat</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -1144,9 +1205,33 @@
         <sis1:LihavaTeksti>JULKAISUT</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>Maksu julkaisuista määrätään julkaisun sivujen ja liitteiden lukumäärän mukaan.</sis:KappaleKooste>
-      <te>Tekstisivu   1,50mk/sivu</te>
-      <te>Liitesivu    0,50mk/sivu</te>
-      <te>Karttaliite 10,00mk/liite</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Tekstisivu</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,50 mk/sivu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Liitesivu</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,50 mk/sivu</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Karttaliite 10,00 mk/liite</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

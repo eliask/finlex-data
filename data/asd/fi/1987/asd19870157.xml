@@ -25,30 +25,200 @@
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Päästöohjearvot </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Ilman pilaantumisen ehkäisemiseksi on ohjeena, että uusien voimalaitosten ja kattilalaitosten kattiloiden, joiden polttoaineteho (P) on yli 1, mutta enintään 50 megawattia (MW), hiukkaspäästöt milligrammoina megajoulea kohti (mg/MJ) ovat enintään seuraavat:</saa:MomenttiKooste>
-          <te> pääasiallinen       kattilan poltto-        hiukkaspäästö</te>
-          <te> polttoaine            aineteho, MW         enintään, mg/MJ</te>
-          <te> kotimaiset           1&lt;P&lt;5             200</te>
-          <te> polttoaineet         5≤P≤50          lasketaan kaavasta</te>
-          <te>                                                             85- 4/3 (P-5)</te>
-          <te> kivihiili                1&lt;P&lt;5             150</te>
-          <te>                             5≤P≤50           lasketaan kaavasta</te>
-          <te>                                                              60- 7/9 (P-5)</te>
-          <te>  öljy                      1&lt;P&lt;3             90</te>
-          <te>                              3≤P&lt;5             60</te>
-          <te>                              5≤P≤50          40</te>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">pääasiallinen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kattilan poltto-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">hiukkaspäästö</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">polttoaine</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aineteho, MW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">enintään, mg/MJ</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kotimaiset</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1&lt;P&lt;5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">200</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">polttoaineet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5≤P≤50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">lasketaan kaavasta 85- 4/3 (P-5)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kivihiili</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1&lt;P&lt;5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">150</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5≤P≤50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">lasketaan kaavasta 60- 7/9 (P-5)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">öljy</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1&lt;P&lt;3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">90</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3≤P&lt;5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">60</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5≤P≤50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">40</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Päästöohjearvo arinapolttoa käyttävälle polttoaineteholtaan vähintään 5 mutta alle 10 MW kattilalle on kuitenkin kotimaisia polttoaineita poltettaessa 200 mg/MJ ja kivihiiltä poltettaessa 150 mg/MJ.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Tavoite </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Polttoaineteholtaan yli 5 MW kattilassa, jonka toiminta on aloitettu tai jonka toiminnan aloittamiseksi on ryhdytty olennaisiin toimiin ennen tämän päätöksen voimaantuloa, sovelletaan 1§:n ohjearvoja ilmansuojelun kehittämisen pitkän ajan tavoitteena ainakin silloin, kun on perusteltua syytä olettaa kattilan hiukkaspäästöjen ylittävän seuraavat arvot:</saa:MomenttiKooste>
-          <te> pääasiallinen      kattilan poltto-        hiukkaspäästön</te>
-          <te> polttoaine           aineteho, MW         taso, mg/MJ</te>
-          <te> kotimaiset          5&lt;P&lt;10           300</te>
-          <te> polttoaineet      10≤P&lt;30          120</te>
-          <te> tai kivihiili       30≤P≤50           60</te>
-          <te> öljy                    5&lt;P&lt;10           120</te>
-          <te>                         10≤P≤50            75</te>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">pääasiallinen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kattilan poltto-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">hiukkaspäästön</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">polttoaine</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">aineteho, MW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">taso, mg/MJ</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kotimaiset</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5&lt;P&lt;10</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">300</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">polttoaineet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">10≤P&lt;30</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">120</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">tai kivihiili</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">30≤P≤50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">60</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">öljy</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5&lt;P&lt;10</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">120</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">10≤P≤50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">75</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Antaessaan ilmansuojelulain 15§:n tarkoittamia erityisiä määräyksiä hiukkaspäästöjen rajoittamisesta lääninhallituksen tulee ottaa huomioon kattilan jäljellä oleva käyttöikä ja kattilan käyttötapa perus-, huippu- tai varatuotantolaitoksena.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
@@ -60,16 +230,12 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Ympäristöministeriön ohjeet </saa:SaadosOtsikkoKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="Ympäristöministeriö voi antaa ohjeita tämän päätöksen täytäntöönpanosta ja valvonnasta.">
-          <saa:PykalaTunnusKooste>Ympäristöministeriö voi antaa ohjeita tämän päätöksen täytäntöönpanosta ja valvonnasta.</saa:PykalaTunnusKooste>
+          <saa:MomenttiKooste>Ympäristöministeriö voi antaa ohjeita tämän päätöksen täytäntöönpanosta ja valvonnasta.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="5 §">
           <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Voimaantulo </saa:SaadosOtsikkoKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:identifiointiTunnus="Tämä päätös tulee voimaan 1 päivänä maaliskuuta 1987.">
-          <saa:PykalaTunnusKooste>Tämä päätös tulee voimaan 1 päivänä maaliskuuta 1987.</saa:PykalaTunnusKooste>
+          <saa:MomenttiKooste>Tämä päätös tulee voimaan 1 päivänä maaliskuuta 1987.</saa:MomenttiKooste>
         </saa:Pykala>
       </saa:Pykalisto>
     </saa:Saados>

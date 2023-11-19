@@ -123,46 +123,266 @@
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
       <sis:KappaleKooste>LIITE</sis:KappaleKooste>
-      <te>Elinten ja kudosten irroittamisluvat             250 mk</te>
-      <te>Sairaalan tai laitoksen hyväksymislupa</te>
-      <te>elimien tai kudosten irroittamiseen              250 mk</te>
-      <te>Määräys lausunnonantajalääkäriksi raskauden</te>
-      <te>keskeyttämistä koskevissa asioissa               250 mk</te>
-      <te>Sairaalan hyväksyminen raskauden keskeyttämis-</te>
-      <te>sairaalaksi                                      250 mk</te>
-      <te>Oppilaitoksen hyväksyminen antamaan</te>
-      <te>hierojan koulutusta                              900 mk</te>
-      <te>Oikeus harjoittaa lääkärintointa/hammas-</te>
-      <te>lääkärintointa laillistettuna lääkärinä/</te>
-      <te>hammaslääkärinä                                  250 mk</te>
-      <te>Pohjoismaiden ulkopuolisen valtion</te>
-      <te>kansalaiselle myönnettävä lupa toimia</te>
-      <te>lääkärinä/hammaslääkärinä                        350 mk</te>
-      <te>Erikoislääkärin/erikoishammaslääkärin</te>
-      <te>oikeuden myöntäminen                             250 mk</te>
-      <te>Oikeus harjoittaa proviisorintointa/</te>
-      <te>farmaseutintointa laillistettuna</te>
-      <te>proviisorina/farmaseuttina                       250 mk</te>
-      <te>Pohjoismaiden ulkopuolisen valtion</te>
-      <te>kansalaiselle myönnettävä lupa toimia</te>
-      <te>proviisorina/farmaseuttina                       350 mk</te>
-      <te>Oikeus harjoittaa optikon tointa</te>
-      <te>laillistettuna optikkona                         250 mk</te>
-      <te>Pohjoismaiden ulkopuolisen valtion</te>
-      <te>kansalaiselle myönnettävä lupa toimia</te>
-      <te>optikkona                                        350 mk</te>
-      <te>Oikeus harjoittaa hammasteknikon/</te>
-      <te>erikoishammasteknikon tointa                     250 mk</te>
-      <te>Pohjoismaiden ulkopuolisen valtion</te>
-      <te>kansalaiselle myönnettävä lupa toimia</te>
-      <te>hammasteknikkona                                 350 mk</te>
-      <te>Hyväksyminen merkittäväksi sairaanhoitotoimen</te>
-      <te>harjoittajista pidettävään luetteloon             50 mk</te>
-      <te>Oikeus harjoittaa hierojan tointa</te>
-      <te>koulutettuna hierojana                           250 mk</te>
-      <te>Ulkomaan kansalaiselle myönnettävä lupa</te>
-      <te>toimia hierojana                                 350 mk</te>
-      <te>Ammatinharjoittamisoikeutta koskeva todistus     100 mk</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Elinten ja kudosten irroittamisluvat</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Sairaalan tai laitoksen hyväksymislupa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>elimien tai kudosten irroittamiseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Määräys lausunnonantajalääkäriksi raskauden</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>keskeyttämistä koskevissa asioissa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Sairaalan hyväksyminen raskauden keskeyttämis-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>sairaalaksi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Oppilaitoksen hyväksyminen antamaan</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>hierojan koulutusta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>900 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Oikeus harjoittaa lääkärintointa/hammas-</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">lääkärintointa laillistettuna lääkärinä/</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>hammaslääkärinä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Pohjoismaiden ulkopuolisen valtion</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">kansalaiselle myönnettävä lupa toimia</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>lääkärinä/hammaslääkärinä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Erikoislääkärin/erikoishammaslääkärin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>oikeuden myöntäminen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Oikeus harjoittaa proviisorintointa/</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">farmaseutintointa laillistettuna</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>proviisorina/farmaseuttina</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Pohjoismaiden ulkopuolisen valtion</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">kansalaiselle myönnettävä lupa toimia</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>proviisorina/farmaseuttina</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Oikeus harjoittaa optikon tointa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>laillistettuna optikkona</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Pohjoismaiden ulkopuolisen valtion</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">kansalaiselle myönnettävä lupa toimia</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>optikkona</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Oikeus harjoittaa hammasteknikon/</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>erikoishammasteknikon tointa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Pohjoismaiden ulkopuolisen valtion</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">kansalaiselle myönnettävä lupa toimia</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>hammasteknikkona</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Hyväksyminen merkittäväksi sairaanhoitotoimen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>harjoittajista pidettävään luetteloon</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>50 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Oikeus harjoittaa hierojan tointa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>koulutettuna hierojana</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Ulkomaan kansalaiselle myönnettävä lupa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>toimia hierojana</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Ammatinharjoittamisoikeutta koskeva todistus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>100 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

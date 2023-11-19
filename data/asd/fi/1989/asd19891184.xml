@@ -115,10 +115,44 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
           <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Jos rakennuksessa on sähkö, korotetaan rakennuksen arvoa 1 139 markalla lisättynä 24 markalla jokaista pinta-alan neliömetriä kohden. Rakennuksen arvoa korotetaan, jos rakennuksessa on:</saa:MomenttiKooste>
-          <te>-viemäri   1 700mk</te>
-          <te>-vesijohto 2 100 ,,</te>
-          <te>-WC        2 800 ,,</te>
-          <te>-sauna     2 800 ,,</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>-viemäri</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 700mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>-vesijohto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 100 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>-WC</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 800 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>-sauna</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 800 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
           <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>

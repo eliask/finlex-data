@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>valtion perhe-eläkelain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 96/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>StVM 58/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>SuVM 8/93</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -39,16 +28,86 @@
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>Myönnettäessä perhe-eläke sellaisen edunjättäjän jälkeen, joka oli valtion eläkelain 1 §:n 3 momentissa tarkoitettu vanha edunsaaja, on yhteensovitusraja kuitenkin seuraavan taulukon mukainen prosenttimäärä, joka määräytyy edunjättäjän valtion eläkelain mukaan vuoden 1994 loppuun mennessä eläkeajaksi luettavan palvelusajan perusteella:</saa:MomenttiKooste>
-          <te/>
-          <te>Eläkeaikaa vähintään       Prosenttia</te>
-          <te>    30 vuotta                 66</te>
-          <te>    25 vuotta                 65</te>
-          <te>    20 vuotta                 64</te>
-          <te>    15 vuotta                 63</te>
-          <te>    10 vuotta                 62</te>
-          <te>     5 vuotta                 61</te>
-          <te>alle 5 vuotta                 60</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Eläkeaikaa vähintään</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Prosenttia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>30 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>66</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>25 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>65</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>20 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>64</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>15 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>63</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>62</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>61</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>alle 5 vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>60</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Yhteensovitusrajasta vähennetään kutakin edunsaajana olevaa lasta kohden perhe-eläkelain (38/69) mukaan suoritettavan lapseneläkkeen perusmäärä sekä, jos tämän lain mukaisena edunsaajana on myös leski, perhe-eläkelain mukaisen leskeneläkkeen pohjaosan määrä. Vähennyksenä ei kuitenkaan oteta huomioon enempää kuin edellä olevan taulukon mukaisen prosenttimäärän puolikas yhteensovitusperusteesta. Silloin, kun perhe-eläkkeen saajana on lesken asemesta edunjättäjän entinen puoliso, yhteensovitusta toimitettaessa ei vähennetä perhe-eläkelain mukaisen leskeneläkkeen pohjaosan määrää.</saa:MomenttiKooste>
           <sis:Katkoviiva/>
         </saa:Pykala>
@@ -97,6 +156,23 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930096.he">
+        <sis1:ViiteTeksti>HE 96/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930058.stvm">
+        <sis1:ViiteTeksti>StVM 58/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930008.suvm">
+        <sis1:ViiteTeksti>SuVM 8/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 30 päivänä joulukuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

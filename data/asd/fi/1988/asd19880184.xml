@@ -54,8 +54,25 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Sokerin saanto lasketaan seuraavasti:</saa:MomenttiKooste>
-          <te>100 x Pol - 0,343 (K+Na) - 0,00671 sinil - 0,69 </te>
-          <te>                  /Pol</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">100 x Pol - 0,343 (K+Na) - 0,00671 sinil - 0,69</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>/Pol</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>jossa K = kaliumia ME/100 g juurikasta,</saa:MomenttiKooste>
           <saa:MomenttiKooste>N = natriumia ME/100 g juurikasta ja</saa:MomenttiKooste>
           <saa:MomenttiKooste>sinil = aminotyppi mg/100 g juurikasta.</saa:MomenttiKooste>

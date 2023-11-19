@@ -31,18 +31,90 @@
           <saa:PykalaTunnusKooste>20 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Ammatillisten erikoisoppilaitosten yksikköhinnat vuonna 1994</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Vuodelle 1994 ammatillisten erikoisoppilaitosten yksikköhinnat opetustuntia kohden lasketaan siten, että teollisuuden ja viestinnän ammatillisissa erikoisoppilaitoksissa järjestettävää muuta kuin jäljempänä kohdassa 1 tarkoitettua koulutusta varten vahvistettava yksikköhinta kerrotaan oppilaitosryhmittäin seuraavilla luvuilla:</saa:MomenttiKooste>
-          <te/>
-          <te>Oppilaitosryhmä                                       Kerroin</te>
-          <te>1) teollisuuden ja viestinnän oppilaitokset,</te>
-          <te>   yli neljä kuukautta kestävä koulutus                   1,1</te>
-          <te>2) kaupallisen alan oppilaitokset sekä</te>
-          <te>   Lihateollisuusopisto                                     2</te>
-          <te>3) ammattilentäjän peruskoulutusta antavat oppilaitokset    7</te>
-          <te>4) Ammattienedistämislaitos, Suomen Yrittäjäopisto ja</te>
-          <te>   muuta kuin 3 kohdassa tarkoitettua ilmailualan</te>
-          <te>   ammatillista koulutusta antavat oppilaitokset            3</te>
-          <te>5) Pohjois-Suomen Teollisuusopisto                          4</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Oppilaitosryhmä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kerroin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">1) teollisuuden ja viestinnän oppilaitokset,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>yli neljä kuukautta kestävä koulutus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,1</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">2) kaupallisen alan oppilaitokset sekä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Lihateollisuusopisto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3) ammattilentäjän peruskoulutusta antavat oppilaitokset</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>7</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">4) Ammattienedistämislaitos, Suomen Yrittäjäopisto ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">muuta kuin 3 kohdassa tarkoitettua ilmailualan</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>ammatillista koulutusta antavat oppilaitokset</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5) Pohjois-Suomen Teollisuusopisto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">

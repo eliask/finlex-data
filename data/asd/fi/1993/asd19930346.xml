@@ -10,44 +10,118 @@
     <met:Nimeke>
       <met1:NimekeTeksti>tuontimaksulain liitteenä olevan teollisuusetuluettelon muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 366/92</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>VaVM 7/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Laki</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>tuontimaksulain liitteenä olevan teollisuusetuluettelon muuttamisesta</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Eduskunnan päätöksen mukaisesti</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>muutetaan </saa:SaadosKursiiviKooste>23 päivänä joulukuuta 1977 (1008/77) annettuun tuontimaksulakiin 10 päivänä heinäkuuta 1987 (662/87) liitettyä teollisuusetuluetteloa,</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste>sellaisena kuin se nyt kyseessä olevilta kohdin on muutettuna 10 päivänä huhtikuuta 1992 annetulla lailla (335/92), seuraavasti:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
         <saa:SaadosValiotsikkoKooste>TEOLLISUUSETULUETTELO</saa:SaadosValiotsikkoKooste>
-        <te/>
-        <te>Nimike    Tavara ja sen teollinen käyttötarkoitus      Tuonti-</te>
-        <te>                                                       maksu</te>
-        <te>                                                       mk</te>
-        <te>1701.11   t 2. Ruokosokeri hiivan tai nimikkeen</te>
-        <te>          35.07 entsyymien valmistukseen               vapaa*</te>
-        <te>1702.30   t 3. Glukoosi hiivan valmistukseen           vapaa*</te>
-        <te/>
-        <te>* Tuontimaksuttomuus on voimassa vuoden 1993 loppuun.</te>
+        <tau:table>
+          <tau:tgroup cols="3" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Nimike</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tavara ja sen teollinen käyttötarkoitus</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tuonti-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>maksu</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>mk</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>1701.11</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>t 2. Ruokosokeri hiivan tai nimikkeen</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>35.07 entsyymien valmistukseen</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>vapaa*</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>1702.30</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>t 3. Glukoosi hiivan valmistukseen</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>vapaa*</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>* Tuontimaksuttomuus on voimassa vuoden 1993 loppuun.</saa:SaadosKappaleKooste>
         <sis:Palstaviiva/>
-        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
-          <saa:MomenttiKooste>Tämä laki tulee voimaan 1 päivänä toukokuuta 1993.</saa:MomenttiKooste>
-        </saa:Pykala>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Tämä laki tulee voimaan 1 päivänä toukokuuta 1993.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920366.he">
+        <sis1:ViiteTeksti>HE 366/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930007.vavm">
+        <sis1:ViiteTeksti>VaVM 7/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 16 päivänä huhtikuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

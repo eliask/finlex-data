@@ -65,29 +65,194 @@
           <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Uusien laitosten päästöt jatkuvissa mittauksissa</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Jatkuvin mittauksin mitattavien aineiden päästöt saavat uusissa laitoksissa olla normaalikuutiometrissä [m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>(n)] kuivaa savukaasua enintään seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>	                        30 minuutin     24 tunnin</te>
-          <te>                           kuluessa        kuluessa</te>
-          <te>                           keskimäärin     keskimäärin     </te>
-          <te>hiukkasia  	        30 mg    	10 mg</te>
-          <te>orgaanisia yhdisteitä </te>
-          <te>hiileksi (C) laskettuina 	20 mg  	        10 mg</te>
-          <te>epäorgaanisia klorideja </te>
-          <te>kloorivedyksi (HCl) </te>
-          <te>laskettuina  	        60 mg  	        10 mg</te>
-          <te>epäorgaanisia fluorideja </te>
-          <te>fluorivedyksi (HF)</te>
-          <te>laskettuina  	         4 mg  	         1 mg</te>
-          <te>rikkidioksidia ja </te>
-          <te>-trioksidia yhteensä </te>
-          <te>rikkidioksidiksi (SO2) </te>
-          <te>laskettuina  	       200 mg  	        50 mg</te>
-          <te/>
-          <te>	                        1 tunnin   	24 tunnin  </te>
-          <te>                           kuluessa        kuluessa</te>
-          <te>                           keskimäärin     keskimäärin     </te>
-          <te>hiilimonoksidia (CO)  	100 mg  	50 mg</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">30 minuutin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">24 tunnin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kuluessa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">kuluessa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">keskimäärin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">keskimäärin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiukkasia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">30 mg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">10 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>orgaanisia yhdisteitä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiileksi (C) laskettuina</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">20 mg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">10 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>epäorgaanisia klorideja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>kloorivedyksi (HCl)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">laskettuina</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">60 mg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">10 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>epäorgaanisia fluorideja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>fluorivedyksi (HF)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">laskettuina</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">4 mg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">1 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>rikkidioksidia ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>-trioksidia yhteensä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste>rikkidioksidiksi (SO2)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">laskettuina</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">200 mg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">50 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 tunnin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">24 tunnin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">kuluessa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">kuluessa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1"/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">keskimäärin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">keskimäärin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiilimonoksidia (CO)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">100 mg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="3">50 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Lisäksi 24 tunnin aikana tehtyjen hiilimonoksidimittausten tuloksista tulee vähintään 90 prosenttia olla alle 150 milligrammaa (mg) normaalikuutiometrissä [m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>(n)] kuivaa savukaasua.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Savukaasun vesipitoisuutta on mitattava jatkuvatoimisesti, ellei savukaasua kuivata ennen päästöjen mittaamista.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -95,16 +260,66 @@
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Uusien laitosten päästöt yksittäismittauksissa</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Yksittäismittauksin mitattavien aineiden päästöt saavat uusissa laitoksissa olla normaalikuutiometrissä [m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>(n)] kuivaa savukaasua enintään seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>kadmiumia (Cd) ja talliumia (Tl) </te>
-          <te>yhteensä  	                       0,05 mg</te>
-          <te>elohopeaa (Hg)  	               0,05 mg</te>
-          <te>antimonia (Sb), arseenia (As), </te>
-          <te>lyijyä (Pb), kromia (Cr), kuparia</te>
-          <te>(Cu), mangaania (Mn), nikkeliä </te>
-          <te>(Ni), vanadiinia (V) ja tinaa </te>
-          <te>(Sn) yhteensä  	                0,5 mg</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>kadmiumia (Cd) ja talliumia (Tl)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">yhteensä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">0,05 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">elohopeaa (Hg)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">0,05 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>antimonia (Sb), arseenia (As),</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>lyijyä (Pb), kromia (Cr), kuparia</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>(Cu), mangaania (Mn), nikkeliä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>(Ni), vanadiinia (V) ja tinaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">(Sn) yhteensä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">0,5 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Dibentsodioksiini- ja dibentsofuraaniyhdisteiden päästöt saavat olla yhteensä enintään 1,0 nanogrammaa (ng) normaalikuutiometrissä [m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>(n)] kuivaa savukaasua. Tavoitearvona on kuitenkin 0,1 nanogrammaa (ng) normaalikuutiometrissä [m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>(n)] kuivaa savukaasua.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kun mittaukset on tehty ympäristölupaviranomaisen vahvistaman mittausohjelman mukaisesti ja jokaisen mittaussarjan tulokset ovat pienempiä kuin 1 ja 2 momentissa tarkoitetut enimmäispäästöt, katsotaan laitoksen täyttävän 1 ja 2 momentissa asetetut vaatimukset.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -112,21 +327,74 @@
           <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Yhdyskuntajätteestä jalostettua polttoainetta käyttävien uusien laitosten päästöt yksittäismittauksissa</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Jollei muualla toisin määrätä, saavat 1 §:n 2 momentissa tarkoitettujen, polttoaineteholtaan alle 50 megawatin (MW) kattiloiden päästöt yksittäismittauksessa olla normaalikuutiometrissä [m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>(n)] kuivaa savukaasua enintään seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>hiukkasia  	         80 mg</te>
-          <te>rikkidioksidia (SO2)       650 mg</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiukkasia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">80 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">rikkidioksidia (SO2)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">650 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Kun mittaukset on tehty ympäristölupaviranomaisen vahvistaman mittausohjelman mukaisesti ja jokaisen mittaussarjan tulokset ovat pienempiä kuin 1 momentissa tarkoitetut enimmäispäästöt, katsotaan laitoksen täyttävän 1 momentissa asetetut vaatimukset.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §">
           <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Vanhojen laitosten päästöt jatkuvissa mittauksissa</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Jatkuvin mittauksin mitattavien aineiden päästöt saavat vanhoissa laitoksissa olla normaalikuutiometrissä [m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>(n)] kuivaa savukaasua enintään seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>hiukkasia              30 mg</te>
-          <te>kloorivetyä (HCl)      50 mg</te>
-          <te>hiilimonoksidia (CO)  100 mg</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiukkasia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">30 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kloorivetyä (HCl)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">50 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hiilimonoksidia (CO)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">100 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Hiukkas- ja kloorivetypäästöjen liukuva seitsemän vuorokauden keskiarvo ei saa ylittää 1 momentissa tarkoitettuja enimmäispäästöjä. Hiukkas- ja kloorivetypäästöjen keskiarvot saavat 24 tunnin aikana ylittää enimmäispäästön enintään 30 prosenttia.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Hiilimonoksidipäästön tunnin keskiarvo ei saa ylittää 1 momentissa tarkoitettua enimmäisarvoa. Lisäksi 24 tunnin aikana tehtyjen hiilimonoksidimittausten tuloksista tulee vähintään 90 prosenttia olla alle 150 milligrammaa (mg) normaalikuutiometrissä [m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>(n)] kuivaa savukaasua.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -134,15 +402,70 @@
           <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Vanhojen laitosten päästöt yksittäismittauksissa</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Yksittäismittauksin mitattavien aineiden päästöt saavat vanhoissa laitoksissa olla normaalikuutiometrissä [m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>(n)] kuivaa savukaasua enintään seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>fluorivetyä (HF)                          2,0 mg</te>
-          <te>rikkidioksidia (SO2)                    200   mg</te>
-          <te>lyijyä (Pb), kromia (Cr), kuparia (Cu)</te>
-          <te>ja mangaania (Mn) yhteensä                5   mg</te>
-          <te>nikkeliä (Ni) ja arseenia (As) yhteensä   1   mg</te>
-          <te>elohopeaa (Hg)                            0,2 mg</te>
-          <te>kadmiumia (Cd)                            0,2 mg</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">fluorivetyä (HF)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2,0 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">rikkidioksidia (SO2)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">200 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>lyijyä (Pb), kromia (Cr), kuparia (Cu)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ja mangaania (Mn) yhteensä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">5 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">nikkeliä (Ni) ja arseenia (As) yhteensä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">elohopeaa (Hg)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">0,2 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kadmiumia (Cd)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">0,2 mg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Dibentsodioksiini- ja dibentsofuraaniyhdisteiden päästöt saavat yhteensä olla enintään 1,0 nanogrammaa (ng) normaalikuutiometrissä [m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>(n)] kuivaa savukaasua.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kun mittaukset on tehty ympäristölupaviranomaisen vahvistaman mittausohjelman mukaan ja jokaisen mittaussarjan tulokset ovat pienempiä kuin 1 ja 2 momentissa tarkoitetut enimmäispäästöt, katsotaan laitoksen täyttävän 1 ja 2 momentissa asetetut vaatimukset.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -206,26 +529,215 @@
     <asi:SisaltoLiite>
       <sis:KappaleKooste>Liite 1</sis:KappaleKooste>
       <sis:KappaleKooste>Dibentsodioksiini- ja dibentsofuraaniyhdisteet ja niiden myrkyllisyyskertoimet</sis:KappaleKooste>
-      <te/>
-      <te>Yhdiste                                    lyhenne  myrkyllisyyskerroin</te>
-      <te>2,3,7,8-tetraklooridibentsodioksiini 	2,3,7,8-TCDD 	        1</te>
-      <te>1,2,3,7,8-pentaklooridibentsodioksiini 	1,2,3,7,8-PeCDD 	0,5</te>
-      <te>1,2,3,4,7,8-heksaklooridibentsodioksiini 	1,2,3,4,7,8-HxCDD 	0,1</te>
-      <te>1,2,3,6,7,8-heksaklooridibentsodioksiini 	1,2,3,6,7,8-HxCDD 	0,1</te>
-      <te>1,2,3,7,8,9-heksaklooridibentsodioksiini 	1,2,3,7,8,9-HxCDD 	0,1</te>
-      <te>1,2,3,4,6,7,8-heptaklooridibentsodioksiini 1,2,3,4,6,7,8-HpCDD 	0,01</te>
-      <te>oktaklooridibentsodioksiini 	        OCDD 	                0,001</te>
-      <te>2,3,7,8-tetraklooridibentsofuraani 	2,3,7,8-TCDF 	        0,1</te>
-      <te>2,3,4,7,8-pentaklooridibentsofuraani 	2,3,4,7,8-PeCDF 	0,5</te>
-      <te>1,2,3,7,8-pentaklooridibentsofuraani 	1,2,3,7,8-PeCDF 	0,05</te>
-      <te>1,2,3,4,7,8-heksaklooridibentsofuraani 	1,2,3,4,7,8-HxCDF 	0,1</te>
-      <te>1,2,3,7,8,9-heksaklooridibentsofuraani 	1,2,3,7,8,9-HxCDF 	0,1</te>
-      <te>1,2,3,6,7,8-heksaklooridibentsofuraani 	1,2,3,6,7,8-HxCDF 	0,1</te>
-      <te>2,3,4,6,7,8-heksaklooridibentsofuraani 	2,3,4,6,7,8-HxCDF 	0,1</te>
-      <te>1,2,3,4,6,7,8-heptaklooridibentsofuraani 	1,2,3,4,6,7,8-HpCDF 	0,1</te>
-      <te>1,2,3,4,7,8,9-heptaklooridibentsofuraani 	1,2,3,4,7,8,9-HpCDF 	0,01</te>
-      <te>oktaklooridibentsofuraani                  OCDF                    0,001</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Yhdiste</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">lyhenne</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">myrkyllisyyskerroin</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2,3,7,8-tetraklooridibentsodioksiini</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2,3,7,8-TCDD</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2,3,7,8-pentaklooridibentsodioksiini</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,2,3,7,8-PeCDD</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,5</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2,3,4,7,8-heksaklooridibentsodioksiini</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,2,3,4,7,8-HxCDD</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2,3,6,7,8-heksaklooridibentsodioksiini</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,2,3,6,7,8-HxCDD</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2,3,7,8,9-heksaklooridibentsodioksiini</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,2,3,7,8,9-HxCDD</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2,3,4,6,7,8-heptaklooridibentsodioksiini</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,2,3,4,6,7,8-HpCDD</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,01</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">oktaklooridibentsodioksiini</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">OCDD</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,001</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2,3,7,8-tetraklooridibentsofuraani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2,3,7,8-TCDF</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2,3,4,7,8-pentaklooridibentsofuraani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2,3,4,7,8-PeCDF</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,5</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2,3,7,8-pentaklooridibentsofuraani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,2,3,7,8-PeCDF</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,05</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2,3,4,7,8-heksaklooridibentsofuraani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,2,3,4,7,8-HxCDF</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2,3,7,8,9-heksaklooridibentsofuraani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,2,3,7,8,9-HxCDF</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2,3,6,7,8-heksaklooridibentsofuraani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,2,3,6,7,8-HxCDF</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2,3,4,6,7,8-heksaklooridibentsofuraani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2,3,4,6,7,8-HxCDF</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2,3,4,6,7,8-heptaklooridibentsofuraani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,2,3,4,6,7,8-HpCDF</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,1</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1,2,3,4,7,8,9-heptaklooridibentsofuraani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,2,3,4,7,8,9-HpCDF</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,01</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">oktaklooridibentsofuraani</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">OCDF</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,001</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

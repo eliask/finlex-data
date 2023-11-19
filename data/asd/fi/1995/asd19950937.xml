@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>erityisruokavaliovalmisteista</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Neuvoston direktiivi 89/398/ETY, EYVL N:o L 186, 30.6.1989, s. 27 </sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -90,6 +85,9 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="389L0398"><sis1:ViiteTeksti>89/398/ETY</sis1:ViiteTeksti></sis:YleinenViite>, EYVL N:o L 186, 30.6.1989, s. 27 </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 22 päivänä kesäkuuta 1995</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -107,7 +105,7 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 1</ete>
+      <sis1:ValiotsikkoTeksti>Liite 1</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>Erityisruokavaliovalmisteiden ryhmittely</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>1. Äidinmaidonkorvikkeet</sis:KappaleKooste>
       <sis:KappaleKooste>2. Vierotusvalmisteet ja vierotusruoat imeväisille ja pikkulapsille</sis:KappaleKooste>
@@ -123,7 +121,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 2</ete>
+      <sis1:ValiotsikkoTeksti>Liite 2</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>Vitamiinien ja muiden ravintoaineiden lisääminen erillisruokavaliovalmisteisiin</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -133,11 +131,52 @@
       <sis:KappaleKooste>Noudatetaan lastenruoka-asetuksen (722/81, muutos 338/94) säännöksiä ja sen nojalla annettuja määräyksiä (KTMp 1013/94) seuraavin poikkeuksin:</sis:KappaleKooste>
       <sis:KappaleKooste>1.1. Marja- ja hedelmäpohjaisiin lastenruokiin voidaan lisätä 100 grammaa kohti (nautintavalmista elintarviketta) C-vitamiinia 25 - 60 mg (suositeltavat raja-arvot).</sis:KappaleKooste>
       <sis:KappaleKooste>1.2. Viljapohjaisiin lastenruokiin voidaan lisätä 100 grammaa kohti (nautintavalmista elintarviketta) seuraavia ravintoaineita (suositeltavat raja-arvot):</sis:KappaleKooste>
-      <te>tiamiinia     0,05 - 0,1 mg</te>
-      <te>niasiinia     0,4 - 0,6 mg</te>
-      <te>riboflaviinia 0,15 - 0,30 mg</te>
-      <te>pyridoksiinia 0,08- 0,1 mg</te>
-      <te>rautaa        0,7 - 0,9 mg</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">tiamiinia</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,05 - 0,1 mg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">niasiinia</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,4 - 0,6 mg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">riboflaviinia</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,15 - 0,30 mg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">pyridoksiinia</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,08- 0,1 mg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">rautaa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,7 - 0,9 mg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>2) Hiilihydraateista, proteiineista ja muista ravintoaineista koostetut valmisteet (ns. formulat), jotka korvaavat aterioita kokonaan tai osittain ja jotka on tarkoitettu laihduttajille, urheilijoille ja muille vastaaville erityisryhmille</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -156,11 +195,52 @@
       </sis:KappaleKooste>
       <sis:KappaleKooste>Noudatetaan asetusta 281/72 seuraavin poikkeuksin:</sis:KappaleKooste>
       <sis:KappaleKooste>5.1. Jauhoihin voidaan lisätä 100 grammaa kohti seuraavia ravintoaineita (suositeltavat raja-arvot):</sis:KappaleKooste>
-      <te>tiamiinia     0,2 - 0,5 mg</te>
-      <te>riboflaviinia 0,1 - 0,5 mg</te>
-      <te>niasiinia     1,6 - 5 mg</te>
-      <te>pyridoksiinia 0,3 - 0,8 mg</te>
-      <te>rautaa        1,6 - 6,5 mg</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">tiamiinia</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,2 - 0,5 mg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">riboflaviinia</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,1 - 0,5 mg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">niasiinia</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,6 - 5 mg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">pyridoksiinia</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,3 - 0,8 mg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">rautaa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,6 - 6,5 mg</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>6) Muut liitteessä 1 mainittuihin ryhmiin kuulumattomat erityisruokavaliovalmisteet</sis1:LihavaTeksti>
       </sis:KappaleKooste>

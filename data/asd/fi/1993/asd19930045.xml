@@ -25,40 +25,182 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Maaseutuelinkeinopiiri perii omakustannusarvojen mukaiset seuraavat kiinteät maksut:</saa:MomenttiKooste>
-          <te/>
-          <te>Suorite                                          mk</te>
-          <te>1) Oikeudesta hankkia maa- ja metsätalous-</te>
-          <te>   maata annetun lain (391/78) 3 §:ssä</te>
-          <te>   tarkoitettu maanhankintalupapäätös</te>
-          <te>   tai 12 §:ssä tarkoitettu</te>
-          <te>   ennakkotietopäätös                           260</te>
-          <te>2) Yhteismetsälain (37/91) 6 §:ssä</te>
-          <te>   tarkoitettu lisämaan hankintapäätös</te>
-          <te>   tai 10 §:ssä tarkoitettu yhteismetsä-</te>
-          <te>   osuuden hankintalupapäätös                   260</te>
-          <te>3) Kalastuslain (286/82) 6 §:n 3 momentissa</te>
-          <te>   tarkoitettu pyyntipaikkalupapäätös tai</te>
-          <te>   eräiden pyydysten käytön rajoittamisesta</te>
-          <te>   yleisellä vesialueella meressä sekä</te>
-          <te>   Suomen kalastusvyöhykkeellä annetun</te>
-          <te>   asetuksen (292/89) 2 §:ssä tarkoitettu</te>
-          <te>   poikkeuslupapäätös                           330</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Suorite</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>1) Oikeudesta hankkia maa- ja metsätalous-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>maata annetun lain (391/78) 3 §:ssä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>tarkoitettu maanhankintalupapäätös</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>tai 12 §:ssä tarkoitettu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ennakkotietopäätös</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">260</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>2) Yhteismetsälain (37/91) 6 §:ssä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>tarkoitettu lisämaan hankintapäätös</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>tai 10 §:ssä tarkoitettu yhteismetsä-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">osuuden hankintalupapäätös</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">260</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>3) Kalastuslain (286/82) 6 §:n 3 momentissa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>tarkoitettu pyyntipaikkalupapäätös tai</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>eräiden pyydysten käytön rajoittamisesta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>yleisellä vesialueella meressä sekä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Suomen kalastusvyöhykkeellä annetun</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>asetuksen (292/89) 2 §:ssä tarkoitettu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">poikkeuslupapäätös</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">330</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Jos 1 momentin 1 kohdan maanhankintalupapäätös annetaan ennakkotietopäätöksen perusteella on maksu kuitenkin 100 markkaa.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Lisäksi maaseutuelinkeinopiiri perii omakustannusarvojen mukaiset ajan käyttöön perustuvat maksut:</saa:MomenttiKooste>
-          <te/>
-          <te>Suorite                                    mk/tunti</te>
-          <te>1) Perintökaaren (40/65) 25 luvun</te>
-          <te>   8 §:ssä tarkoitettu lausunto                 130</te>
-          <te>2) Kalastuslain 11 §:ssä tarkoitettu</te>
-          <te>   rajoittamis- tai kieltopäätös                170</te>
-          <te>3) Kalastuslain 25 §:n 3 momentissa</te>
-          <te>   tarkoitettu lupapäätös ja 26 §:n</te>
-          <te>   4 momentissa tarkoitettu päätös              170</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Suorite</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">mk/tunti</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>1) Perintökaaren (40/65) 25 luvun</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">8 §:ssä tarkoitettu lausunto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">130</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>2) Kalastuslain 11 §:ssä tarkoitettu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">rajoittamis- tai kieltopäätös</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">170</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>3) Kalastuslain 25 §:n 3 momentissa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>tarkoitettu lupapäätös ja 26 §:n</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">4 momentissa tarkoitettu päätös</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">170</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Edellä 1 momentissa mainitun maksun lisäksi peritään suoritteen tuottamiseen liittyvät matkakustannukset.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">

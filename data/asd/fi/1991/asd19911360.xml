@@ -111,51 +111,312 @@
     <asi:SisaltoLiite>
       <sis:KappaleKooste>LIITE I </sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>1. Kasvintuhoojat, joita ei saa esiintyä viljelmällä, jolla avomaalla viljellään tai jolla varastoidaan taimitarhakasvien taimiaineistoa, eikä taimitarhakasvien emokasveissa</sis1:ValiotsikkoTeksti>
-      <te>BAKTEERIT</te>
-      <te>Erwinia amylovora          Tulipolte</te>
-      <te>VIRUKSET JA MYKOPLASMAN KALTAISET ORGANISMIT</te>
-      <te>Beet necrotic yellow vein virus            Ritsomania-tauti</te>
-      <te>Tomato spotted wilt virus          Tomaatin pronssilaikkuvirus</te>
-      <te>SIENET</te>
-      <te>Ceratocystis ulmi          Hollanninjalavatauti</te>
-      <te>Colletotrichum acutatum</te>
-      <te>Phytophthora fragariae             Mansikanpunamätä</te>
-      <te>Phytophthora fragariae var. rubi           </te>
-      <te>Sclerotium cepivorum               Sipulinpahkamätä</te>
-      <te>Synchytrium endobioticum           Perunasyöpä</te>
-      <te>ANKEROISET</te>
-      <te>Globodera rostochiensis            Keltaperuna-ankeroinen</te>
-      <te>Globodera pallida          Valkoperuna-ankeroinen </te>
-      <te>2. Kasvintuhoojat, joita ei saa esiintyä tilassa, jossa tuotetaan tai varastoidaan muiden puutarhakasvien taimiaineistoa, eikä muiden puutarhakasvien emokasveissa</te>
-      <te/>
-      <te>BAKTEERIT</te>
-      <te>Erwinia chrysanthemi</te>
-      <te>Pseudomonas caryophylli            Neilikan lakastumistauti</te>
-      <te>VIRUKSET JA MYKOPLASMAN KALTAISET ORGANISMIT</te>
-      <te>Chrysanthemum stunt viroid</te>
-      <te>Tomato spotted wilt virus          Tomaatin pronssilaikkuvirus</te>
-      <te>SIENET</te>
-      <te>Bremia lactucae            Salaatinlehtihome</te>
-      <te>Didymella bryoniae         Kurkunmustapistemätä</te>
-      <te>Didymella chrysanthemi             Krysanteeminmustamätä</te>
-      <te>Didymella lycopersici              Tomaatinsyöpä</te>
-      <te>Erysiphe cichoracearum             Kurkunhärmä</te>
-      <te>Fulvia fulva               Tomaatinlehtihome</te>
-      <te>Oidium spp.                Tomaattihärmä</te>
-      <te>Phialophora cinerescens</te>
-      <te>Pseudoperonospora cubensis         Kurkunlehtihome</te>
-      <te>Puccinia horiana           Krysanteeminvalkoruoste</te>
-      <te>Puccinia pelargonii-zonalis                Pelargoninruoste</te>
-      <te>Sphaerotheca fuliginea             Kurkunhärmä</te>
-      <te>HYÖNTEISET</te>
-      <te>Amauromyza maculosa</te>
-      <te>Bemisia tabaci             Etelänjauhiainen</te>
-      <te>Frankliniella occidentalis         Kalifornianripsiäinen</te>
-      <te>Liriomyza huidobrensis</te>
-      <te>Liriomyza sativae</te>
-      <te>Liriomyza trifolii         Floridankärpänen</te>
-      <te>Thrips palmi</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>BAKTEERIT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Erwinia amylovora</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Tulipolte</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>VIRUKSET JA MYKOPLASMAN KALTAISET ORGANISMIT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Beet necrotic yellow vein virus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Ritsomania-tauti</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Tomato spotted wilt virus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Tomaatin pronssilaikkuvirus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>SIENET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ceratocystis ulmi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Hollanninjalavatauti</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Colletotrichum acutatum</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Phytophthora fragariae</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Mansikanpunamätä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Phytophthora fragariae var. rubi</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Sclerotium cepivorum</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Sipulinpahkamätä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Synchytrium endobioticum</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Perunasyöpä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>ANKEROISET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Globodera rostochiensis</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Keltaperuna-ankeroinen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Globodera pallida</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Valkoperuna-ankeroinen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>2. Kasvintuhoojat, joita ei saa esiintyä tilassa, jossa tuotetaan tai varastoidaan muiden puutarhakasvien taimiaineistoa, eikä muiden puutarhakasvien emokasveissa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>BAKTEERIT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Erwinia chrysanthemi</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Pseudomonas caryophylli</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Neilikan lakastumistauti</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>VIRUKSET JA MYKOPLASMAN KALTAISET ORGANISMIT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Chrysanthemum stunt viroid</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Tomato spotted wilt virus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Tomaatin pronssilaikkuvirus</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>SIENET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Bremia lactucae</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Salaatinlehtihome</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Didymella bryoniae</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Kurkunmustapistemätä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Didymella chrysanthemi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Krysanteeminmustamätä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Didymella lycopersici</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Tomaatinsyöpä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Erysiphe cichoracearum</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Kurkunhärmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Fulvia fulva</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Tomaatinlehtihome</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Oidium spp.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Tomaattihärmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Phialophora cinerescens</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Pseudoperonospora cubensis</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Kurkunlehtihome</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Puccinia horiana</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Krysanteeminvalkoruoste</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Puccinia pelargonii-zonalis</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pelargoninruoste</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Sphaerotheca fuliginea</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Kurkunhärmä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>HYÖNTEISET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Amauromyza maculosa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Bemisia tabaci</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Etelänjauhiainen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Frankliniella occidentalis</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Kalifornianripsiäinen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Liriomyza huidobrensis</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Liriomyza sativae</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Liriomyza trifolii</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Floridankärpänen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Thrips palmi</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>LIITE II </sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -163,37 +424,215 @@
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>1. Kasvintuhoojat, joita ei saa esiintyä taimitarhakasvien emokasveissa</sis1:LihavaTeksti>
       </sis:KappaleKooste>
-      <te>BAKTEERIT</te>
-      <te>Corynebacterium fascians           Bakteeriäkämä</te>
-      <te>VIRUKSET JA MYKOPLASMAN KALTAISET ORGANISMIT</te>
-      <te>Virukset ja mykoplasman kaltaiset organismit siinä määrin, että niistä on haittaa kasvien normaalille kasvulle</te>
-      <te>SIENET</te>
-      <te>Phytophthora cactorum              Mansikannahkamätä</te>
-      <te>HYÖNTEISET JA PUNKIT</te>
-      <te>Cecidophyopsis ribis               Herukanäkämäpunkki</te>
-      <te>Panonychus ulmi            Hedelmäpuupunkki</te>
-      <te>Pennisetia hylaeiformis            Vattulasisiipi</te>
-      <te>Steneotarsonemus pallidus          Mansikkapunkki</te>
-      <te>Thomasiniana (Resseliella) ribis           Herukanvarsisääski</te>
-      <te>Thomasiniana theobaldi             Vatunvarsisääski</te>
-      <te>ANKEROISET</te>
-      <te>Aphelenchoides spp.                Mansikka-ankeroinen</te>
-      <te>Ditylenchus dipsaci                Varsiankeroinen </te>
-      <te/>
-      <te/>
-      <te/>
-      <te>2. Kasvintuhoojat, joita ei saa esiintyä muiden puutarhakasvien emokasveissa </te>
-      <te/>
-      <te>BAKTEERIT</te>
-      <te>Agrobacterium tumefaciens          Aitosyöpä</te>
-      <te>Corynebacterium fascians           Bakteeriäkämä</te>
-      <te>Xanthomonas campestris pv. begoniae                Begonianbakteerilaikku</te>
-      <te>Xanthomonas campestris pv. pelargonii              Pelargonianbakteerilaikku</te>
-      <te>VIRUKSET JA MYKOPLASMAN KALTAISET ORGANISMIT</te>
-      <te>Virukset ja mykoplasman kaltaiset organismit siinä määrin, että niistä on haittaa kasvien sadontuottokyvylle</te>
-      <te>HYÖNTEISET JA PUNKIT</te>
-      <te>Hemitarsonemus latus               Begoniapunkki</te>
-      <te>Steneotarsonemus pallidus          Mansikkapunkki</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>BAKTEERIT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Corynebacterium fascians</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Bakteeriäkämä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>VIRUKSET JA MYKOPLASMAN KALTAISET ORGANISMIT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Virukset ja mykoplasman kaltaiset organismit siinä määrin, että niistä on haittaa kasvien normaalille kasvulle</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>SIENET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Phytophthora cactorum</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Mansikannahkamätä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>HYÖNTEISET JA PUNKIT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Cecidophyopsis ribis</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Herukanäkämäpunkki</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Panonychus ulmi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Hedelmäpuupunkki</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Pennisetia hylaeiformis</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Vattulasisiipi</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Steneotarsonemus pallidus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Mansikkapunkki</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Thomasiniana (Resseliella) ribis</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Herukanvarsisääski</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Thomasiniana theobaldi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Vatunvarsisääski</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>ANKEROISET</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Aphelenchoides spp.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Mansikka-ankeroinen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Ditylenchus dipsaci</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Varsiankeroinen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>2. Kasvintuhoojat, joita ei saa esiintyä muiden puutarhakasvien emokasveissa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>BAKTEERIT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Agrobacterium tumefaciens</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Aitosyöpä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Corynebacterium fascians</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Bakteeriäkämä</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Xanthomonas campestris pv. begoniae</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Begonianbakteerilaikku</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Xanthomonas campestris pv. pelargonii</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Pelargonianbakteerilaikku</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>VIRUKSET JA MYKOPLASMAN KALTAISET ORGANISMIT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>Virukset ja mykoplasman kaltaiset organismit siinä määrin, että niistä on haittaa kasvien sadontuottokyvylle</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste>HYÖNTEISET JA PUNKIT</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Hemitarsonemus latus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Begoniapunkki</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Steneotarsonemus pallidus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Mansikkapunkki</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>LIITE III </sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -1018,34 +1457,31 @@
         <sis1:LihavaTeksti>Erityisten tuotantoehtojen mukaan tuotettu taimiaineisto:</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi ID="0306">
-          <te>värin PMS-koodi:</te>
-          <te>Pantone 138 C</te>
-        </sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/symb/0306.gif"/>
+        <te>värin PMS-koodi:</te>
+        <te>Pantone 138 C</te>
       </sis:Kuva>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>Taimiaineisto, jonka viljelymaa on Suomi:</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi ID="0308"/>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/symb/0308.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>Taimiaineisto, jolla on useita kasvatusmaita, joista yksi on Suomi:</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi ID="0310">
-          <te>värin PMS-koodi:</te>
-          <te>Pantone 344 C</te>
-        </sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/symb/0310.gif"/>
+        <te>värin PMS-koodi:</te>
+        <te>Pantone 344 C</te>
       </sis:Kuva>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>Taimiaineisto, jonka viljelymaa on muu kuin Suomi tai joka muutoin on kasvanut yksinomaan muualla kuin Suomessa:</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi ID="0312">
-          <te>värin PMS-koodi:</te>
-          <te>Pantone Yellow C</te>
-        </sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/symb/0312.gif"/>
+        <te>värin PMS-koodi:</te>
+        <te>Pantone Yellow C</te>
       </sis:Kuva>
       <sis:KappaleKooste>Taimitodistuksen vähimmäiskoko: </sis:KappaleKooste>
       <sis:KappaleKooste>puuvartiset taimet 28 cm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> </sis:KappaleKooste>

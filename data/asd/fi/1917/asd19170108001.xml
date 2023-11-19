@@ -57,27 +57,135 @@
           <saa:SaadosOtsikkoKooste>Kunnanvaltuusto.</saa:SaadosOtsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §.">
             <saa:PykalaTunnusKooste>6 §.</saa:PykalaTunnusKooste>
-            <saa:KohdatMomentti>
-              <saa:MomenttiJohdantoKooste>Kunnanvaltuutettuja valitaan maalaiskunnassa, jonka väkiluku henkikirjan mukaan on:                             </saa:MomenttiJohdantoKooste>
-              <saa:MomenttiKohtaKooste>
-1,000, tahi vähemmän ................ 12 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-enemmän kuin 1,000, vaan ei yli 2,000, ............... 15</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-            „             „ 2,000, „ „ „ „ „ „ 4,000, ………………18</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-            „               „4,000, „ „ „ „ „ „6,000, ………………21</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-            „              „ 6,000, „ „ „ „ „ „ 8,000, …………… 24</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-            „              „ 8,000, „ „ „  „ „ 10,000, …………… 27</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-            „             „10,000„ „ „„ „ „  15,000............... 30</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-            „             „15,000„ „ „„ „ „  20,000, ..............36</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-            „              „20,000.........................................42</saa:MomenttiKohtaKooste>
-            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Kunnanvaltuutettuja valitaan maalaiskunnassa, jonka väkiluku henkikirjan mukaan on:                             </saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1,000, tahi vähemmän ................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>12</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>enemmän kuin 1,000, vaan ei yli 2,000,</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>15</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>„ „ 2,000, „ „ „ „ „ „ 4,000,</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>18</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>„ „4,000, „ „ „ „ „ „6,000,</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>21</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>„ „ 6,000, „ „ „ „ „ „ 8,000,</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>24</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>„ „ 8,000, „ „ „ „ „ 10,000,</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>27</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>„ „10,000„ „ „„ „ „ 15,000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>30</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>„ „15,000„ „ „„ „ „ 20,000,</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>36</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>„ „20,000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>42</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>
  Valtuutettujen varajäseniä valitaan niin monta kuin kunnallisessa vaalilaissa säädetään.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Lapin kihlakunnassa sekä Kuolajärven kunnassa Kemin kihlakuntaa, Kuusamon, Pudasjärven ja Taivalkosken kunnissa Oulun kihlakuntaa ja Suomussalmen kunnassa Kajaanin kihlakuntaa saatakoon kuitenkin kansanäänestyksellä määrätä pienempikin määrä valtuutettuja asetettavaksi, ei kuitenkaan vähemmän kuin kaksitoista.</saa:MomenttiKooste>

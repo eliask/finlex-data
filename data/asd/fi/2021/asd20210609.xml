@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>yritysten määräaikaisesta kustannustuesta annetun lain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 97/2021</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>TaVM 18/2021</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>EV 110/2021</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -92,10 +81,8 @@ jos yritys ilmoittaa arvonlisäveronsa Verohallinnolle kalenterivuosittain;</saa
           <saa:MomenttiKooste>Kustannustukea myönnettäessä yrityksille tuen määrä lasketaan tukikaudelta 2 momentissa säädetyn kaavan mukaisesti. Myönnettävä kustannustuki tukikaudelta voi olla enintään 1 000 000 euroa yritystä kohti. Kustannustukea myönnettäessä otetaan 4 §:n 3 ja 4 kohdan mukaisista kuluista huomioon enintään kolme kertaa yrityksen 4 §:n 2 kohdassa tarkoitetun normaalikauden keskimääräistä kuukausikohtaista liikevaihtoa vastaava summa.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kustannustuen määrä ennen 1 momentissa säädetyn enimmäismäärän huomioon ottamista lasketaan seuraavalla kaavalla:</saa:MomenttiKooste>
           <sis:Kuva>
-            <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/7854.gif"/>
-          </sis:Kuva>
-          <sis:Kuva>
-            <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/../../../tyotiedostot/0609_painotilaus-TEM-2021-97-2/sdkxml/suomi/attachment_1.png"/>
+            <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/7854.gif">7854</sis:KuvaAsemointi>
+            <saa:SaadosKappaleKooste>7854</saa:SaadosKappaleKooste>
           </sis:Kuva>
           <saa:MomenttiKooste>Jos 3 §:n 1 momentissa tarkoitetulla toimialalla toimiva yritys on perustettu 1 tammikuuta 2019 tai sen jälkeen, sille voidaan 2 §:n 2 kohdasta poiketen myöntää kustannustukea siten, että kustannustuen määrä lasketaan seuraavalla kaavalla: kustannustuen määrä = (yrityksen 2 §:n 1 kohdan mukaisen päätoimialan 3 §:n 1 momentin mukaisesti määritelty mediaaniliikevaihdon muutos – 0.3) * (tukikauden palkkakulut + tukikauden muut kulut). Kaavasta saatava kerroin on aina kuitenkin vähintään 0,1.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Jos 2 momentin mukaisesti lasketun tuen määrä on pienempi kuin 2 000 euroa, yrityksen kustannustuen määräksi hyväksytään 2 000 euroa edellyttäen, että yrityksen tukikauden palkkakulujen ja muiden kulujen määrä on vähintään 2 000 euroa.</saa:MomenttiKooste>
@@ -139,6 +126,19 @@ jos yritys ilmoittaa arvonlisäveronsa Verohallinnolle kalenterivuosittain;</saa
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20210097.he">
+        <sis1:ViiteTeksti>HE 97/2021</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20210018.tavm">
+        <sis1:ViiteTeksti>TaVM 18/2021</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>EV 110/2021</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Naantalissa 29.6.2021</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

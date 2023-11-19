@@ -60,55 +60,363 @@ Suomen kanavien ja kääntösiltojen kautta käyvän liikenteen järjestyssään
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §.">
             <saa:PykalaTunnusKooste>6 §.</saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Aluksen mitat ja syväkulkuisuus.</saa:MomenttiKooste>
-            <saa:KohdatMomentti>
-              <saa:MomenttiJohdantoKooste>Sulkukanavan kautta kulkeva alus ei saa olla pitempi, leveämpi 	 eikä matalanveden aikana syväkulkuisempi kuin allaolevassa luettelossa mainitaan:  </saa:MomenttiJohdantoKooste>
-              <saa:MomenttiKohtaKooste>K a n a v a		Suurin	Suurin	Suurin syvä- 		pituus	leveys	kulkuisuus 				matalanveden 				aikana 		metriä	metriä	metriä		  </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Ahkionlahden kanava	31.2 	7.1	1.5 
-</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Herraskosken „		35.0 	7.3 	1.6 
-</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Juojärven „		31.2 	7.1 	1.8 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Kalkkisten „		35.0 	8.3	1.8 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Karvion „		31.2	7.1	1.8 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Kerman „ 		31.2	7.1 	1.8 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Kolun „		30.0	6.0	1.5 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Konnuksen „		31.2	7.1	2.4 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Lastukosken „		31.2	7.1	1.4 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Lempoisten „		35.6	8.0	1.6 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Muroleen „		35.0	7.3	1.6 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Nerkoon „		31.2	7.1	1.5 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Paakkolan „		31.2	7.1	1.8 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Pielisjoen kanavat . . .	31.2	7.1	1.5 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Pilpan	Kanava	31.2	7.1	1.8 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Ruokovirran		31.2	7.1	1.5 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Saarikosken		27.0	5.0	1.2 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Saimaan		31.2	7.1	2.4 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Taipaleen		31.2	7.1	2.4 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Valkiakosken		31.2	6.5	1.5 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Vesijärven		35.0	8.3	2.4 </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-Vihovuonteen		31.2	7.1	1.8  </saa:MomenttiKohtaKooste>
-            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Sulkukanavan kautta kulkeva alus ei saa olla pitempi, leveämpi eikä matalanveden aikana syväkulkuisempi kuin allaolevassa luettelossa mainitaan:  </saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup cols="4" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">K a n a v a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Suurin</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">Suurin</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">Suurin syvä-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">pituus</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">leveys</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">kulkuisuus matalanveden aikana</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">metriä</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Ahkionlahden kanava</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Herraskosken „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">35.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Juojärven „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Kalkkisten „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">35.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">8.3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Karvion „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Kerman „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Kolun „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">30.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">6.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Konnuksen „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">2.4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Lastukosken „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Lempoisten „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">35.6</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">8.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Muroleen „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">35.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Nerkoon „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Paakkolan „</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Pielisjoen kanavat . . .</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Pilpan Kanava</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Ruokovirran</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Saarikosken</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">27.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">5.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.2</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Saimaan</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">2.4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Taipaleen</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">2.4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Valkiakosken</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">6.5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Vesijärven</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">35.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">8.3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">2.4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Vihovuonteen</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31.2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="4">1.8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>1 muist. Saimaan, Taipaleen ja Konnuksen kanavilla tarkoittaa yllämainittu suurin leveys ainoastaan leveyttä kannen kohdalla, jota vastoin leveys palteella ei saa olla yli 6.8 metrin.</saa:MomenttiKooste>
             <saa:MomenttiKooste>2 muist. Alus, jota hinataan, saa olla 0.1 metriä syväkulkuisempi kuin luettelossa mainitaan.</saa:MomenttiKooste>
             <saa:MomenttiKooste>3 muist. Veden ollessa korkeammalla on suurempi syväkulkuisuus sallittu, kuitenkin siten että aluksen köli on vähintään 0.2 metriä sulun kynnyksestä tahi kanavan pohjasta, jos tämä viimemainittu on kynnystä korkeammalla.</saa:MomenttiKooste>
@@ -318,31 +626,233 @@ Vihovuonteen		31.2	7.1	1.8  </saa:MomenttiKohtaKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="34 §.">
             <saa:PykalaTunnusKooste>34 §.</saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Aluksen mitat ja syvä- kulkuisuus.</saa:MomenttiKooste>
-            <saa:KohdatMomentti>
-              <saa:MomenttiJohdantoKooste>Alus, joka kulkee avokanavan tahi kääntösillan kautta, ei saa olla leveämpi eikä matalanveden aikana syväkulkuisempi kuin seuraavassa luettelossa mainitaan, nimittäin: </saa:MomenttiJohdantoKooste>
-              <saa:MomenttiKohtaKooste>.....................Suurin.....................Suurin </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>.....................syvä-.....................</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>.....................leveys .....................     	kulkuisuus </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>.....................					matala</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Kutveleen kanava Lappeenrannan—Savonlinnan kulkuväylässä ynnä Sitkonleuvansalmen kautta menevä sivukulkuväylä ................ 8.0 	
-</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>2.4 Kirkkotaipaleen kanava, Varkaantaipaleen kanava kääntösiltoineen, Juurisalmen kääntösilta ja Siikasalmen kanava Lappeenrannan—Mikkelin kulkuväylässä..........................................	7.1	1.7</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Väätämänsalmen kanavan molempien edellä mainittujen kulkuväyläin yhdysväylässä .......................................................................	7.1	1.8</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Oravin kanava kääntösiltoineen Savonlinnan—Joensuun kulkuväylässä .......................................................................8.0 	2.4</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Hynnilänsalmen kääntösilta sekä Vääräkosken ja Kortekannaksen kanavat Heinäveden kanavareitillä ..................................................    	7.1 	1.8</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Kaavinkosken kääntösilta Juojärven kulkuväylässä..........................	7.1	1.8</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Pitkälänniemen ja Piensaaren kanavat sekä Leppävirran kääntösilta Savonlinnan—Kuopion kulkuväylässä .......................	7.1 	2.4</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Kihlovirran kanava ja Nivan kääntösilta Iisalmen—Kiuruveden  kulkuväylässä ................	5.0	1.4</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Tervonsalmen kääntösilta ja Säviän kanava kääntösiltoineen Iisalmen-Pielaveden kulkuväylässä .............................................	6.0 	1.5</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Kutaankosken kanava viimemainitun kulkuväylän sivuväylässä   	6.0 	1.4</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Kellosalmen kanava Otavan—Kangasniemen kulkuväylässä		7.1 	1.5</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Haapasalmen kääntösilta Suolahden—Keiteleenpohjan kulkuväylässä ................	7.5 	1.9</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Apian kanava Valkiakosken—Mallasveden kulkuväylässä		6.5 	1.5</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Kautun ja Kaivoskannan kanavat kääntösiltoineen Tampereen-Virtain kulkuväylässä ................	7.3	1.6</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Viipurin kääntösilta ...............................................................	8.0	3.6</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Strömman kanava kääntösiltoineen Hangon—Salon kulkuväylässä ................	15.0	3.8</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>Lemströmin kanava kääntösiltoineen Ahvenanmaalla ........		10.0	3.6  1</saa:MomenttiKohtaKooste>
-            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Alus, joka kulkee avokanavan tahi kääntösillan kautta, ei saa olla leveämpi eikä matalanveden aikana syväkulkuisempi kuin seuraavassa luettelossa mainitaan, nimittäin: </saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup cols="3" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Suurin</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">Suurin</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">leveys</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">syvä-kulkuisuus</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2"/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">matala</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Kutveleen kanava Lappeenrannan—Savonlinnan kulkuväylässä ynnä Sitkonleuvansalmen kautta menevä sivukulkuväylä .............</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">8.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">2.4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Kirkkotaipaleen kanava, Varkaantaipaleen kanava kääntösiltoineen, Juurisalmen kääntösilta ja Siikasalmen kanava Lappeenrannan—Mikkelin kulkuväylässä..........................................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1.7</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Väätämänsalmen kanavan molempien edellä mainittujen kulkuväyläin yhdysväylässä .......................................................................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1.8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Oravin kanava kääntösiltoineen Savonlinnan—Joensuun kulkuväylässä .................................................................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">8.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">2.4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Hynnilänsalmen kääntösilta sekä Vääräkosken ja Kortekannaksen kanavat Heinäveden kanavareitillä ..................................................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1.8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Kaavinkosken kääntösilta Juojärven kulkuväylässä..........................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1.8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Pitkälänniemen ja Piensaaren kanavat sekä Leppävirran kääntösilta Savonlinnan—Kuopion kulkuväylässä .......................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">2.4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Kihlovirran kanava ja Nivan kääntösilta Iisalmen—Kiuruveden kulkuväylässä ................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">5.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1.4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Tervonsalmen kääntösilta ja Säviän kanava kääntösiltoineen Iisalmen-Pielaveden kulkuväylässä .............................................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">6.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1.5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Kutaankosken kanava viimemainitun kulkuväylän sivuväylässä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">6.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1.4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Kellosalmen kanava Otavan—Kangasniemen kulkuväylässä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">7.1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1.5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Haapasalmen kääntösilta Suolahden—Keiteleenpohjan kulkuväylässä ................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">7.5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1.9</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Apian kanava Valkiakosken—Mallasveden kulkuväylässä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">6.5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1.5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Kautun ja Kaivoskannan kanavat kääntösiltoineen Tampereen-Virtain kulkuväylässä ................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">7.3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">1.6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Viipurin kääntösilta ...............................................................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">8.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">3.6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Strömman kanava kääntösiltoineen Hangon—Salon kulkuväylässä ................</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">15.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">3.8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Lemströmin kanava kääntösiltoineen Ahvenanmaalla ........</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">10.0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="3">3.6 1</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>muist. Hinattavan aluksen syväkulkuisuus saa olla 0.1 metriä isompi kuin luettelossa mainitaan, jotavastoin lautan leveyden tulee olla vähintään 0.5 metriä ja syväkulkuisuuden vähintään 0.2 metriä luettelossa mainittuja mittoja pienempi.</saa:MomenttiKooste>
             <saa:MomenttiKooste>2 muist. Veden ollessa korkeammalla sallittakoon isompi syväkulkuisuus, kuitenkin siten että aluksen kölin alla on vähintään 0.3 metriä ja lautan alla vähintään 0.5 metriä vettä.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -458,16 +968,14 @@ Vihovuonteen		31.2	7.1	1.8  </saa:MomenttiKohtaKooste>
     <asi:PaivaysKooste>Helsingissä, 13 p:nä huhtikuuta 1917.</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
       <org:Henkilo>
-        <org1:AsemaTeksti>Kulkulaitostoimituskunnan Päällikkö, Senaattori Väinö Voionmaa.
-Georg Jansson.
-</org1:AsemaTeksti>
-        <org1:SukuNimi/>
+        <org1:AsemaTeksti>Kulkulaitostoimituskunnan Päällikkö,</org1:AsemaTeksti>
+        <org1:SukuNimi>Senaattori Väinö Voionmaa.</org1:SukuNimi>
       </org:Henkilo>
     </asi:Allekirjoittaja>
     <asi:Allekirjoittaja>
       <org:Henkilo>
         <org1:AsemaTeksti/>
-        <org1:SukuNimi/>
+        <org1:SukuNimi>Georg Jansson.</org1:SukuNimi>
       </org:Henkilo>
     </asi:Allekirjoittaja>
   </asi:AllekirjoitusOsa>

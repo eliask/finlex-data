@@ -167,16 +167,89 @@
           <saa:PykalaTunnusKooste>18§</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Linjaliikenneluvan haltijan tilausajo-oikeus </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Linja-auton linjaliikenneluvan haltijan oikeus harjoittaa tilausliikennettä ilman tilausliikennelupaa on rajoitettu linjaliikenteessä tarvittavien linja-autojen lukumäärän perusteella seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>Linjaliikenteessä                 Tilausliikenteessä </te>
-          <te>tarvittava automäärä              käytettävien autojen </te>
-          <te>                                  enimmäismäärä:  </te>
-          <te>   1                                  3 </te>
-          <te>   2                                  5 </te>
-          <te>   3                                  7 </te>
-          <te>   4                                  8 </te>
-          <te>   5-9                                10 </te>
-          <te>   10                                 11  </te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Linjaliikenteessä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Tilausliikenteessä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>tarvittava automäärä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>käytettävien autojen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>enimmäismäärä:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>7</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>8</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5-9</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>10</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>11</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Jos linjaliikenteessä tarvittavien autojen määrä on 11 tai suurempi, saa tilausliikennettä harjoittaa yhtä suurella automäärällä kuin linjaliikennettäkin.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Linjaliikenteessä tarvittavien linja-autojen määrä lasketaan niiden tehokkaimman mahdollisen käyttötavan mukaan siten, että lukuun ei oteta vara-autoja eikä niitä autoja, jotka ovat tarpeen vain alle kolmena päivänä viikossa tai alle kuuden kuukauden aikana vuodessa ajettavia linjavuoroja varten.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Tilausajo-oikeus osoitetaan ajon aikana autossa alkuperäisenä pidettävällä liikenneministeriön antamalla tilausajotodistuksella.</saa:MomenttiKooste>

@@ -12,43 +12,243 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Ilmoitus">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Maa- ja metsätalousministeriön ilmoitus</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>eräistä päätöksistä</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Maa- ja metsätalousministeriö ilmoittaa Suomen säädöskokoelmasta 17 päivänä lokakuuta 1980 annetun asetuksen (696/80) 2 §:n ja 2 b §:n sekä maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) 10 §:n nojalla:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>1) Valtioneuvosto on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavan päätöksen:</te>
-        <te/>
-        <te>Päätöksen nimike               MMM:n määräys antopäivä    voimaan 	   kumotaan</te>
-        <te>                               kokoelman n:o             tulopäivä</te>
-        <te>VNp eräistä hinnanerokorvauksen</te>
-        <te>alaisista maataloustuotteista </te>
-        <te>sekä niistä maksettavista</te>
-        <te>hinnanerokorvauksista  	    47/94 	15.6.1994 	1.7.1994	Ä</te>
-        <te/>
-        <te>2) Maa- ja metsätalousministeriö on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavat päätökset:</te>
-        <te/>
-        <te>Päätöksen nimike               MMM:n määräys antopäivä    voimaan 	   kumotaan</te>
-        <te>                               kokoelman n:o             tulopäivä</te>
-        <te>MMMp sian- ja naudanlihan </te>
-        <te>hinnanerokorvauksista viennissä</te>
-        <te>Euroopan Yhteisöön 	    48/94 	17.6.1994 	1.7.1994	Ä</te>
-        <te>MMMp lihan hinnanerokorvauksis-</te>
-        <te>ta viennissä Ruotsiin 	    49/94 	17.6.1994 	1.7.1994	Ä</te>
-        <te>MMMp sian ja naudan ruhonosien</te>
-        <te>viennissä sovellettavista arvo-</te>
-        <te>kertoimista 	            50/94 	17.6.1994 	1.7.1994	Ä</te>
-        <te>MMMp viljan viennistä suori-</te>
-        <te>tettavan hinnanerokorvauksen</te>
-        <te>laskentaperusteesta  	    51/94 	17.6.1994 	1.7.1994	Ä</te>
-        <te/>
-        <te>Edellä mainitut päätökset on julkaistu maa- ja metsätalousministeriön määräyskokoelmassa. Päätökset ovat saatavissa maa- ja metsätalousministeriön tietopalvelukeskuksesta, osoite Liisankatu 8, PL 250, 00171 Helsinki, puh. (90) 134 211.</te>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>1) Valtioneuvosto on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavan päätöksen:</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="5" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Päätöksen nimike</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">MMM:n määräys</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">antopäivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">voimaan</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">kumotaan</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">kokoelman n:o</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">tulopäivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>VNp eräistä hinnanerokorvauksen</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>alaisista maataloustuotteista</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>sekä niistä maksettavista</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">hinnanerokorvauksista</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">47/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">15.6.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.7.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>2) Maa- ja metsätalousministeriö on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavat päätökset:</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="5" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Päätöksen nimike</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">MMM:n määräys</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">antopäivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">voimaan</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">kumotaan</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">kokoelman n:o</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">tulopäivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>MMMp sian- ja naudanlihan</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>hinnanerokorvauksista viennissä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Euroopan Yhteisöön</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">48/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">17.6.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.7.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>MMMp lihan hinnanerokorvauksis-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">ta viennissä Ruotsiin</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">49/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">17.6.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.7.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>MMMp sian ja naudan ruhonosien</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>viennissä sovellettavista arvo-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">kertoimista</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">50/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">17.6.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.7.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>MMMp viljan viennistä suori-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>tettavan hinnanerokorvauksen</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">laskentaperusteesta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">51/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">17.6.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.7.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>Edellä mainitut päätökset on julkaistu maa- ja metsätalousministeriön määräyskokoelmassa. Päätökset ovat saatavissa maa- ja metsätalousministeriön tietopalvelukeskuksesta, osoite Liisankatu 8, PL 250, 00171 Helsinki, puh. (90) 134 211.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 17 päivänä kesäkuuta 1994</asi:PaivaysKooste>

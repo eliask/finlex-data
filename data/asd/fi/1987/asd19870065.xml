@@ -70,10 +70,41 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
           <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Investointiavustusta voidaan myöntää tasapainoisen alueellisen kehityksen edistämisestä annetussa laissa (532/81) tarkoitetuilla eri perusvyöhykkeillä asianomaisen käyttö- tai vaihto-omaisuuden hyväksyttävistä hankintakustannuksista enintään seuraavasti:</saa:MomenttiKooste>
-          <te>perusvyöhyke:</te>
-          <te>ensimmäinen                             50 %                </te>
-          <te>toinen                                        45 %</te>
-          <te>kolmas ja neljäs                         35 %             </te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>perusvyöhyke:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ensimmäinen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">50 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">toinen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">45 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kolmas ja neljäs</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">35 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Maaseutuelinkeinolain 2 §:n 1 momentin 1 kohdassa tarkoitetuissa tapauksissa (erikoismaatalous) avustuksen enimmäismäärät ovat toisella, kolmannella ja neljännellä perusvyöhykkeellä kuitenkin 10 prosenttiyksikköä pienemmät kuin 1 momentissa säädetyt.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Ensimmäisellä perusvyöhykkeellä ja 1 momentissa mainitussa laissa tarkoitetuilla erityisalueilla muualla maassa voidaan, milloin niin katsotaan aloitettavan tai siihen verrattavan yritystoiminnan kohdalla tarpeelliseksi, edellä säädettyjä enimmäismääriä ylittää ensimmäisellä perusvyöhykkeellä enintään viidellä prosenttiyksiköllä sekä toisella, kolmannella ja neljännellä perusvyöhykkeellä olevilla erityisalueilla enintään 10 prosenttiyksiköllä.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -81,17 +112,91 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
           <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Käynnistysavustusta saadaan yrityksen työntekijäin palkkakustannuksiin myöntää yhdeltä, kahdelta tai kolmelta tuotantotoiminnan tai laajennetun tuotantotoiminnan alkamista seuraavalta käynnistysvuodelta 11§:ssä tarkoitetuilla perusvyöhykkeillä hyväksyttävistä palkkakustannuksista enintään seuraavasti:</saa:MomenttiKooste>
-          <te>ensimmäinen perusvyöhyke</te>
-          <te>1. käynnistysvuosi               50 %</te>
-          <te>2. käynnistysvuosi               45 %</te>
-          <te>3. Käynnistysvuosi              40 %</te>
-          <te>toinen perusvyöhyke</te>
-          <te>1. käynnistysvuosi               35 %</te>
-          <te>2. käynnistysvuosi               30 %</te>
-          <te>3. Käynnistysvuosi              25 %</te>
-          <te>kolmas ja neljäs perusvyöhyke</te>
-          <te>1. käynnistysvuosi               30 %</te>
-          <te>2. Käynnistysvuosi              25 %</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>ensimmäinen perusvyöhyke</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1. käynnistysvuosi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">50 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">2. käynnistysvuosi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">45 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3. Käynnistysvuosi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">40 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>toinen perusvyöhyke</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1. käynnistysvuosi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">35 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">2. käynnistysvuosi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">30 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3. Käynnistysvuosi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">25 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>kolmas ja neljäs perusvyöhyke</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">1. käynnistysvuosi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">30 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">2. Käynnistysvuosi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">25 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Ensimmäisellä  perusvyöhykkeellä  ja  erityisalueilla muualla maassa voidaan, milloin niin katsotaan aloitettavan tai siihen verrattavan yritystoiminnan kohdalla tarpeelliseksi, 1 momentissa tarkoitettuja enimmäismääriä ylittää enintään 20 prosenttiyksiköllä.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Käynnistysavustus lasketaan kulloinkin noudatettavan työehtosopimuksen mukaisen palkkauksen tai, jollei mitään työehtosopimusta ole asianomaiseen työntekijään nähden noudatettava, kohtuulliseksi katsottavan palkkauksen perusteella.</saa:MomenttiKooste>
         </saa:Pykala>

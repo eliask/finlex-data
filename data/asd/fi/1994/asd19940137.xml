@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>polttoaineverosta annetun lain liitteenä olevan verotaulukon muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 146/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>VaVM 71/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -30,16 +22,116 @@
         <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>muutetaan</saa:SaadosKursiiviKooste> polttoaineverosta 17 päivänä joulukuuta 1982 annetun lain (948/82) liitteenä olevaa verotaulukkoa, sellaisena kuin se on kysymyksessä olevalta kohdalta 17 päivänä joulukuuta 1993 annetussa laissa (1161/93), seuraavasti:</saa:SaadosKappaleKooste>
       </saa:Johtolause>
       <saa:Pykalisto>
-        <te/>
-        <te>VEROTAULUKKO</te>
-        <te>Tullitariffin  Tuote          Tuote-    Perus-        Lisä-</te>
-        <te>nimike                        ryhmä     vero          vero</te>
-        <te>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</te>
-        <te>27.10:stä      Dieselöljy</te>
-        <te>               - peruslaatu      9.     165,0 p/l     7,8 p/l</te>
-        <te>               - rikitön laatu  10.     150,0 p/l     7,8 p/l</te>
-        <te>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</te>
-        <te/>
+        <tau:table>
+          <tau:tgroup cols="5" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste align="left" valign="top">VEROTAULUKKO</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Tullitariffin</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tuote</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Tuote-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Perus-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Lisä-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>nimike</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>ryhmä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>vero</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>vero</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste align="left" valign="top">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>27.10:stä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Dieselöljy</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>- peruslaatu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>9.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>165,0 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>7,8 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>- rikitön laatu</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>10.</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>150,0 p/l</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>7,8 p/l</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste align="left" valign="top">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
           <saa:MomenttiKooste>Tämä laki tulee voimaan 1 päivänä kesäkuuta 1994.</saa:MomenttiKooste>
@@ -47,6 +139,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930146.he">
+        <sis1:ViiteTeksti>HE 146/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930071.vavm">
+        <sis1:ViiteTeksti>VaVM 71/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 18 päivänä helmikuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

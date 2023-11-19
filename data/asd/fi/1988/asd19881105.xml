@@ -10,25 +10,15 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Suomen tasavallan tulo- ja menoarvio vuodelle 1989</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Hallituksen esitys 104/88</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Valtiovarainvaliok. miet. 102/88</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Suomen tasavallan tulo- ja menoarvio vuodelle 1989</saa:SaadostyyppiKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Eduskunta on 17 päivänä joulukuuta 1988 hyväksynyt seuraavan tulo- ja menoarvion vuodelle 1989:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>TULOT</te>
+        <saa:SaadosKappaleKooste>TULOT</saa:SaadosKappaleKooste>
         <tau:table>
           <tau:tgroup cols="4" colsep="0" rowsep="0" align="left">
             <tau:colspec colnum="1" colname="1" colwidth=""/>
@@ -503,7 +493,7 @@
                   <sis:KappaleKooste>01.</sis:KappaleKooste>
                 </tau:entry>
                 <tau:entry>
-                  <sis:KappaleKooste>OyAlkoAb:nylijäämä</sis:KappaleKooste>
+                  <sis:KappaleKooste>Oy Alko Ab:n ylijäämä</sis:KappaleKooste>
                 </tau:entry>
                 <tau:entry>
                   <sis:KappaleKooste>1 220 000 000</sis:KappaleKooste>
@@ -4347,7 +4337,7 @@
             </tau:tbody>
           </tau:tgroup>
         </tau:table>
-        <te>MENOT</te>
+        <saa:SaadosKappaleKooste>MENOT</saa:SaadosKappaleKooste>
         <tau:table>
           <tau:tgroup cols="4" colsep="0" rowsep="0" align="left">
             <tau:colspec colnum="1" colname="1" colwidth=""/>
@@ -27073,9 +27063,13 @@
             </tau:tbody>
           </tau:tgroup>
         </tau:table>
-      </saa:Pykalisto>
-    </saa:Saados>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Hallituksen esitys 104/88</sdk:EsityoViite>
+    <sdk:EsityoViite>Valtiovarainvaliok. miet. 102/88</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 23 päivänä joulukuuta 1988</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

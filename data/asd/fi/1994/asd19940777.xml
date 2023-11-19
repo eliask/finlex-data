@@ -12,27 +12,57 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Maa- ja metsätalousministeriön päätös</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>rehun lisäaineista annetun päätöksen muuttamisesta</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Maa- ja metsätalousministeriö on muuttanut rehun lisäaineista 1 päivänä maaliskuuta 1994 annettua päätöstä (181/94) seuraavasti:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>Rehun lisäaineluettelon osaan C; Suomessa toistaiseksi markkinoitavien lisäaineiden luettelon, kohtaan nurmirehun säilöntään tarkoitetut säilöntäaineet lisätään KEM SILE -niminen valmiste seuraavasti:</te>
+        <saa:SaadosKappaleKooste>Rehun lisäaineluettelon osaan C; Suomessa toistaiseksi markkinoitavien lisäaineiden luettelon, kohtaan nurmirehun säilöntään tarkoitetut säilöntäaineet lisätään KEM SILE -niminen valmiste seuraavasti:</saa:SaadosKappaleKooste>
         <sis:Katkoviiva/>
-        <te/>
-        <te>13. Ekoferm       31.12.1995 asti   Bioproton Oy</te>
-        <te>14. KEM SILE      31.12.1995 asti   Kemin Europa N.V., Belgia</te>
-        <te/>
+        <tau:table>
+          <tau:tgroup cols="3" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>13. Ekoferm</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>31.12.1995 asti</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Bioproton Oy</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>14. KEM SILE</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>31.12.1995 asti</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Kemin Europa N.V., Belgia</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <sis:Palstaviiva/>
-        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
-          <saa:MomenttiKooste>Tämä päätös tulee voimaan 31 päivänä elokuuta 1994.</saa:MomenttiKooste>
-        </saa:Pykala>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Tämä päätös tulee voimaan 31 päivänä elokuuta 1994.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 23 päivänä elokuuta 1994</asi:PaivaysKooste>

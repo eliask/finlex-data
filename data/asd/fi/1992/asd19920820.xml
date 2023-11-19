@@ -85,18 +85,99 @@
             <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Asutusrakenneryhmitys</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Opetus- ja kulttuuritoimen rahoituksesta annetun lain 15 §:n, 18 §:n 1 momentin ja 23 §:n 2 momentin mukaisia yksikköhintoja laskettaessa kunnat jaetaan asukastiheytensä perusteella viiteen asutusrakenneryhmään seuraavasti:</saa:MomenttiKooste>
-            <te/>
-            <te>asukastiheys maaneliö-             asutus-</te>
-            <te>kilometriä kohden                  rakenne-</te>
-            <te>yksikköhinnan mää-                 ryhmä</te>
-            <te>räämisvuoden alussa</te>
-            <te/>
-            <te>              enintään   2         1</te>
-            <te>yli   2 mutta enintään   5         2</te>
-            <te>yli   5 mutta enintään  15         3</te>
-            <te>yli  15 mutta enintään 100         4</te>
-            <te>yli 100                            5</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>asukastiheys maaneliö-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>asutus-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>kilometriä kohden</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>rakenne-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>yksikköhinnan mää-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>ryhmä</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>räämisvuoden alussa</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>enintään 2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>1</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>yli 2 mutta enintään 5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>yli 5 mutta enintään 15</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>yli15 mutta enintään 100</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>yli 100</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Edellä 1 momentista poiketen kunnat, jotka valtioneuvosto on saariston kehityksen edistämisestä annetun lain (494/81) 9 §:n nojalla määrännyt saaristokunniksi, kuuluvat 1 asutusrakenneryhmään.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="10 §">

@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>ympäristövahinkojen korvaamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 165/92</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>LaVM 10/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -129,9 +121,7 @@
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
           <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="Korvaamismenettely">
-          <saa:PykalaTunnusKooste>Korvaamismenettely</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Korvaamismenettely</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Tässä laissa tarkoitettu kanne pannaan vireille siinä tuomioistuimessa, joka oikeudenkäymiskaaren 10 luvun nojalla voi tutkia vahingonkorvausta koskevan asian. Kanne voidaan panna vireille myös siinä tuomioistuimessa, jonka tuomiopiirin alueella ympäristövahingon aiheuttanut toiminta tapahtui tai ympäristövahinko ilmeni.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
@@ -148,6 +138,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920165.he">
+        <sis1:ViiteTeksti>HE 165/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940010.lavm">
+        <sis1:ViiteTeksti>LaVM 10/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 19 päivänä elokuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

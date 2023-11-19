@@ -129,7 +129,7 @@ e) ajoneuvoyhdistelmän, jossa on rautaisia telaketjuja tai muunlaisia kuin ilma
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
             <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Moottoriajoneuvon tarpeettoman joutokäynnin kielto</saa:SaadosOtsikkoKooste>
-            <saa:MomenttiKooste>1. Moottoriajoneuvon seistessä muusta syystä kuin pakollisen liikenne-esteen vuoksi ei ajoneuvon moottoria saa käyttää enempää kuin kaksi minuuttia. Lämpötilan ollessa alle Ä15°C saa moottoria ennen ajoon lähtemistä kuitenkin käyttää enintään neljä minuuttia.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>1. Moottoriajoneuvon seistessä muusta syystä kuin pakollisen liikenne-esteen vuoksi ei ajoneuvon moottoria saa käyttää enempää kuin kaksi minuuttia. Lämpötilan ollessa alle -15°C saa moottoria ennen ajoon lähtemistä kuitenkin käyttää enintään neljä minuuttia.</saa:MomenttiKooste>
             <saa:MomenttiKooste>2. Joutokäynnin kielto ei koske kiireellisessä tehtävässä olevaa hälytysajoneuvoa eikä ajoneuvoa, jonka pääasiallisen käyttötarkoituksen edellyttämä lisälaite, kuten jätteenpuristin, kompressori, pumppu tai nostolava, vaatii toimiakseen moottorin käyttämistä.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
@@ -190,7 +190,7 @@ f) museomoottoripyörän ja -mopon käyttäjää erityisesti järjestetyn ajotap
             <saa:PykalaTunnusKooste>10 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Jarrut</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>1. Jarrulaitteet on pidettävä siten säädettyinä, että ne ovat kuormittamattomat silloin, kun poljin tai muu käyttölaite on lepoasennossa ja että käyttölaitteella jarrujen ollessa kuormitetut on vielä riittävä liikkumavara kuormituksen suuntaan.</saa:MomenttiKooste>
-            <saa:MomenttiKooste>2. Jarrunesteenä saa käyttää vain sellaista nestettä, joka ei haitallisesti jäykisty Ä40°C lämpötilassa ja joka on tähän tarkoitukseen muutoinkin sopivaa. Jarrunesteen kiehumapisteen tulee olla vähintään 200°C.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>2. Jarrunesteenä saa käyttää vain sellaista nestettä, joka ei haitallisesti jäykisty -40°C lämpötilassa ja joka on tähän tarkoitukseen muutoinkin sopivaa. Jarrunesteen kiehumapisteen tulee olla vähintään 200°C.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
             <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
@@ -281,64 +281,358 @@ f) sellaisessa autossa tai sen perävaunussa, johon talvirenkaita ei ole saatavi
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="20 §">
             <saa:PykalaTunnusKooste>20 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Akselille ja telille kohdistuvat massat</saa:SaadosOtsikkoKooste>
-            <te>1. Autoa tai perävaunua tiellä kuljetettaessa ei sen akselille kohdistuva massa saa ylittää seuraavia arvoja:</te>
-            <te>a) muu kuin b kohdassa tarkoitettu akseli</te>
-            <te>   erillisenä tai telissä                          10 t</te>
-            <te>b) vetävä parirenkain varustettu akseli          11,5 t</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>1. Autoa tai perävaunua tiellä kuljetettaessa ei sen akselille kohdistuva massa saa ylittää seuraavia arvoja:</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) muu kuin b kohdassa tarkoitettu akseli</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">erillisenä tai telissä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">10 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">b) vetävä parirenkain varustettu akseli</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">11,5 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>2. Autoa tiellä kuljetettaessa ei sen telille kohdistuva massa saa ylittää seuraavia arvoja:</saa:MomenttiKooste>
-            <te>a) kaksiakselinen teli, jos akseliväli on</te>
-            <te>   vähemmän kuin 1,0 metriä                      11,5 t</te>
-            <te>b) kaksiakselinen teli, jos akseliväli</te>
-            <te>   on vähintään 1,0 metriä mutta</te>
-            <te>   vähemmän kuin 1,3 metriä                        16 t</te>
-            <te>c) kaksiakselinen teli, jos akseliväli</te>
-            <te>   on vähintään 1,3 metriä mutta</te>
-            <te>   vähemmän kuin 1,8 metriä                        18 t</te>
-            <te>d) kaksiakselinen teli, jos akseliväli on</te>
-            <te>   vähintään 1,3 metriä mutta vähemmän</te>
-            <te>   kuin 1,8 metriä ja vetävä akseli on</te>
-            <te>   varustettu parirenkain ja ilmajousitettu</te>
-            <te>   tai varustettu sitä vastaavalla jousituksella   19 t</te>
-            <te>e) kolmiakselinen teli, jos teliakselien</te>
-            <te>   väleistä pienempi on vähemmän kuin 1,3 metriä   21 t</te>
-            <te>f) kolmiakselinen teli, jos teliakselien</te>
-            <te>   väleistä pienempi on vähintään 1,3 metriä       24 t</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) kaksiakselinen teli, jos akseliväli on</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">vähemmän kuin 1,0 metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">11,5 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>b) kaksiakselinen teli, jos akseliväli</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>on vähintään 1,0 metriä mutta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">vähemmän kuin 1,3 metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">16 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>c) kaksiakselinen teli, jos akseliväli</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>on vähintään 1,3 metriä mutta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">vähemmän kuin 1,8 metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">18 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>d) kaksiakselinen teli, jos akseliväli on</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>vähintään 1,3 metriä mutta vähemmän</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>kuin 1,8 metriä ja vetävä akseli on</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>varustettu parirenkain ja ilmajousitettu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">tai varustettu sitä vastaavalla jousituksella</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">19 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>e) kolmiakselinen teli, jos teliakselien</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">väleistä pienempi on vähemmän kuin 1,3 metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">21 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>f) kolmiakselinen teli, jos teliakselien</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">väleistä pienempi on vähintään 1,3 metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">24 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>3. Perävaunua tiellä kuljetettaessa ei sen telille kohdistuva massa saa ylittää seuraavia arvoja:</saa:MomenttiKooste>
-            <te>a) kaksiakselinen teli, jos akseliväli on</te>
-            <te>   vähemmän kuin 1,0 metriä                        11 t</te>
-            <te>b) kaksiakselinen teli, jos akseliväli on</te>
-            <te>   vähintään 1,0 metriä mutta vähemmän</te>
-            <te>   kuin 1,3 metriä                                 16 t</te>
-            <te>c) kaksiakselinen teli jos akseliväli on</te>
-            <te>   vähintään 1,3 metriä mutta vähemmän</te>
-            <te>   kuin 1,8 metriä                                 18 t</te>
-            <te>d) kaksiakselinen teli, jos akseliväli on</te>
-            <te>   vähintään 1,8 metriä                            20 t</te>
-            <te>e) kolmiakselinen teli, jos teliakselien</te>
-            <te>   väleistä pienempi on vähemmän</te>
-            <te>   kuin 1,3 metriä                                 21 t</te>
-            <te>f) kolmiakselinen teli, jos teliakselien</te>
-            <te>   väleistä pienempi on vähintään 1,3 metriä       24 t</te>
-            <te>g) neli- tai useampiakselinen teli                 24 t</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) kaksiakselinen teli, jos akseliväli on</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">vähemmän kuin 1,0 metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">11 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>b) kaksiakselinen teli, jos akseliväli on</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>vähintään 1,0 metriä mutta vähemmän</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">kuin 1,3 metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">16 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>c) kaksiakselinen teli jos akseliväli on</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>vähintään 1,3 metriä mutta vähemmän</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">kuin 1,8 metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">18 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>d) kaksiakselinen teli, jos akseliväli on</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">vähintään 1,8 metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">20 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>e) kolmiakselinen teli, jos teliakselien</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>väleistä pienempi on vähemmän</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">kuin 1,3 metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">21 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>f) kolmiakselinen teli, jos teliakselien</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">väleistä pienempi on vähintään 1,3 metriä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">24 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">g) neli- tai useampiakselinen teli</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">24 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="21 §">
             <saa:PykalaTunnusKooste>21 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Auton kokonaismassa</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>1. Autoa tiellä kuljetettaessa ei sen kokonaismassa saa ylittää seuraavia arvoja:</saa:MomenttiKooste>
-            <te>a) kaksiakselinen auto                             18 t</te>
-            <te>b) kolmiakselinen auto                             25 t</te>
-            <te>c) kolmiakselinen auto, jos sen vetävä akseli</te>
-            <te>   on varustettu parirenkain ja ilmajousitettu</te>
-            <te>   tai varustettu sitä vastaavalla jousituksella   26 t</te>
-            <te>d) kolmiakselinen nivellinja-auto                  28 t</te>
-            <te>e) neliakselinen auto                              31 t</te>
-            <te>f) neliakselinen auto, jos sen vetävä akseli</te>
-            <te>   on varustettu parirenkain ja ilmajousitettu</te>
-            <te>   tai varustettu sitä vastaavalla</te>
-            <te>   jousituksella                                   32 t</te>
-            <te>g) viisiakselinen auto                             38 t</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">a) kaksiakselinen auto</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">18 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">b) kolmiakselinen auto</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">25 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>c) kolmiakselinen auto, jos sen vetävä akseli</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>on varustettu parirenkain ja ilmajousitettu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">tai varustettu sitä vastaavalla jousituksella</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">26 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">d) kolmiakselinen nivellinja-auto</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">28 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">e) neliakselinen auto</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">31 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>f) neliakselinen auto, jos sen vetävä akseli</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>on varustettu parirenkain ja ilmajousitettu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>tai varustettu sitä vastaavalla</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">jousituksella</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">32 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">g) viisiakselinen auto</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">38 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>2. Neli- tai viisiakselisen auton kokonaismassa tonneina ei kuitenkaan saa ylittää viittä kertaa auton äärimmäisten akselien väliä metreinä.</saa:MomenttiKooste>
             <saa:MomenttiKooste>3. Ajoneuvon massasta tulee vähintään 20 prosenttia kohdistua ohjaavaan akseliin tai akseleihin. Henkilöauton massasta, auton ollessa kuormattu täyttä kokonaismassaa ja täyttä taka-akselille kohdistuvaa massaa vastaavasti, tulee kuitenkin vähintään 30 prosenttia kohdistua etuakselille.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -351,14 +645,62 @@ f) sellaisessa autossa tai sen perävaunussa, johon talvirenkaita ei ole saatavi
             <saa:PykalaTunnusKooste>23 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Auton ja perävaunun yhdistelmän kokonaismassa</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>1. Auton ja perävaunun yhdistelmän kokonaismassa ei sitä tiellä kuljetettaessa saa ylittää seuraavia arvoja, jolloin akselien lukumäärää laskettaessa ei oteta huomioon akselille kohdistuvalta massaltaan alle viiden tonnin akselia:</saa:MomenttiKooste>
-            <te/>
-            <te>a) auton ja puoliperävaunun yhdistelmä             44 t</te>
-            <te>b) auton ja varsinaisen perävaunun yhdistelmä:</te>
-            <te>   neliakselisena                                  36 t</te>
-            <te>   viisiakselisena                                 44 t</te>
-            <te>   kuusiakselisena                                 48 t</te>
-            <te>   vähintään seitsemänakselisena                   56 t</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">a) auton ja puoliperävaunun yhdistelmä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">44 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>b) auton ja varsinaisen perävaunun yhdistelmä:</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">neliakselisena</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">36 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">viisiakselisena</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">44 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">kuusiakselisena</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">48 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">vähintään seitsemänakselisena</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">56 t</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>2. Tielaitos voi määräämillään yleisillä teillä ja asianomaisen tienpitäjän suostumuksella muillakin teillä sallia auton ja varsinaisen perävaunun yhdistelmän käytön, kun maa on jäätyneenä, seitsemän- tai useampiakseliselle yhdistelmälle sallitun 56 tonnin sijasta enintään 60 tonnin kokonaismassalla.</saa:MomenttiKooste>
             <saa:MomenttiKooste>3. Auton ja siihen kytketyn perävaunun muodostaman kokonaismassaltaan yli 44 tonnin ajoneuvoyhdistelmän kokonaismassa ei kuitenkaan saa ylittää määrää, joka saadaan lisäämällä 20 tonniin 270 kg jokaiselta 10 senttimetriltä, jonka ajoneuvon tai ajoneuvoyhdistelmän äärimmäisten akselien väli ylittää 1,80 metriä. Ajoneuvoyhdistelmässä, jonka kokonaismassa on suurempi kuin 40 tonnia, auton takimmaisen ja kokonaismassaltaan yli 10 tonnin perävaunun etummaisen akselin välin tulee olla vähintään 3,0 metriä.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -366,33 +708,179 @@ f) sellaisessa autossa tai sen perävaunussa, johon talvirenkaita ei ole saatavi
             <saa:PykalaTunnusKooste>24 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Auton, perävaunun ja niiden yhdistelmän pituus</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>1. Auton pituus ei saa ylittää seuraavia arvoja:</saa:MomenttiKooste>
-            <te/>
-            <te>a) linja-auto (M<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>- ja M<sis1:AlaindeksiTeksti>3</sis1:AlaindeksiTeksti>-luokka)                 14,5 m</te>
-            <te>   nivelrakenteisena kuitenkin                   18   m</te>
-            <te>b) muu auto                                      12   m</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">a) linja-auto (M<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>- ja M<sis1:AlaindeksiTeksti>3</sis1:AlaindeksiTeksti>-luokka)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">14,5 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">nivelrakenteisena kuitenkin</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">18 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">b) muu auto</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">12 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>2. Perävaunun pituus ilman kytkinlaitteita ei saa ylittää seuraavia arvoja:</saa:MomenttiKooste>
-            <te>a) puoliperävaunu:</te>
-            <te>   vetotapin pystyakselista perävaunun</te>
-            <te>   perään (vetopituus)                           12   m</te>
-            <te>   vetotapin pystyakselista vaakatasossa</te>
-            <te>   mihin tahansa sen etupuolella olevaan</te>
-            <te>   kohtaan mitattuna                             2,04 m</te>
-            <te>b) varsinainen perävaunu ja hinattava laite:</te>
-            <te>   kaksi- tai useampiakselisena                 12,5  m</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) puoliperävaunu:</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>vetotapin pystyakselista perävaunun</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">perään (vetopituus)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">12 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>vetotapin pystyakselista vaakatasossa</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>mihin tahansa sen etupuolella olevaan</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">kohtaan mitattuna</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">2,04 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>b) varsinainen perävaunu ja hinattava laite:</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">kaksi- tai useampiakselisena</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">12,5 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>3. Ajoneuvoyhdistelmän pituus ei saa ylittää seuraavia arvoja:</saa:MomenttiKooste>
-            <te>a) kuorma-auton (L<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>- tai N3-luokka) ja</te>
-            <te>   puoliperävaunun yhdistelmä sekä muu</te>
-            <te>   kuin b tai c kohdassa tarkoitettu</te>
-            <te>   ajoneuvoyhdistelmä                           16,5  m</te>
-            <te>b) auton ja keskiakseliperävaunun yhdistelmä    18,35 m</te>
-            <te>   josta mitasta kuormatilojen</te>
-            <te>   ulkopituuksien summa                         15,65 m</te>
-            <te>   ja etäisyys vetoauton kuormatilan</te>
-            <te>   etupäästä perävaunun kuormatilan takapäähän  16    m</te>
-            <te>c) kuorma-auton (L<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>- tai N3-luokka) ja</te>
-            <te>   kaksi- tai useampiakselisen varsinaisen</te>
-            <te>   perävaunun yhdistelmä                        22    m</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>a) kuorma-auton (L<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>- tai N3-luokka) ja</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>puoliperävaunun yhdistelmä sekä muu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>kuin b tai c kohdassa tarkoitettu</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">ajoneuvoyhdistelmä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">16,5 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">b) auton ja keskiakseliperävaunun yhdistelmä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">18,35 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>josta mitasta kuormatilojen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">ulkopituuksien summa</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">15,65 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>ja etäisyys vetoauton kuormatilan</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">etupäästä perävaunun kuormatilan takapäähän</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">16 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>c) kuorma-auton (L<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>- tai N3-luokka) ja</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>kaksi- tai useampiakselisen varsinaisen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">perävaunun yhdistelmä</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">22 m</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="25 §">
             <saa:PykalaTunnusKooste>25 §</saa:PykalaTunnusKooste>

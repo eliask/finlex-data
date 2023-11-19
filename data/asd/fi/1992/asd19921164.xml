@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Vakuutuskassalaki</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 93/92</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>StVM 35/92</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -1133,8 +1125,8 @@
             <saa:PykalaTunnusKooste>145 §</saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Vakuutuskassan jakautumisesta päättää kassankokous. Hallituksen on viipymättä 144 §:ssä tarkoitetusta ilmoituksesta kutsuttava kokous koolle päättämään jakautumisesta. Päätös on tehtävä 51 §:n mukaisesti. Jollei kassankokous tee päätöstä, hallituksen tulee hakea sitä sosiaali- ja terveysministeriöltä. Hakemuksen voi tehdä myös hallituksen jäsen, toimitusjohtaja, tilintarkastaja tai eroava jäsen.</saa:MomenttiKooste>
           </saa:Pykala>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="146">
-            <saa:PykalaTunnusKooste>146</saa:PykalaTunnusKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="146 §">
+            <saa:PykalaTunnusKooste>146 §</saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Sen jälkeen kun päätös jakautumisesta on tehty, jakautuvan kassan hallituksen on kolmen kuukauden kuluessa selvitettävä kassan nettovarojen määrä, tehtävä ehdotus varojen jakamisesta sekä pyydettävä asiasta tilintarkastajien lausunto. Tilintarkastajien on annettava lausuntonsa hallitukselle kuukauden kuluessa lausuntopyynnöstä. Sosiaali- ja terveysministeriö voi pidentää nettovarojen määrän selvittämiseksi varattua määräaikaa enintään kuudeksi kuukaudeksi.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Nettovarojen määrä lasketaan sen ajankohdan perusteella, jolloin päätös jakautumisesta on tehty.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -1411,6 +1403,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920093.he">
+        <sis1:ViiteTeksti>HE 93/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920035.stvm">
+        <sis1:ViiteTeksti>StVM 35/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 27 päivänä marraskuuta 1992</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

@@ -34,26 +34,157 @@
           <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Kotieläintalouden tuotantotuen määrä</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Kotieläintalouden tuotantotukea (markkaa/kilo) maksetaan tuottajalta markkinointiin ostetuista tai kuluttajille suoraan myydyistä tuotteista vuodelta 1995 seuraavasti: </saa:MomenttiKooste>
-          <te>Ulkosaaristo </te>
-          <te>maito                          1) </te>
-          <te>hieho ja sonni, 170-220 kg     1) </te>
-          <te>hieho ja sonni, yli 220 kg     1) </te>
-          <te>lampaanliha                 18,00 </te>
-          <te>sianliha                     3,31 </te>
-          <te>kananmunat                   3,16 </te>
-          <te>Muu maa </te>
-          <te>maito                          1) </te>
-          <te>hieho ja sonni, 170-220 kg     1) </te>
-          <te>hieho ja sonni, yli 220 kg     1) </te>
-          <te>lampaanliha                 13,81 </te>
-          <te>sianliha                     2,81 </te>
-          <te>kananmunat                   2,56 </te>
-          <te>Koko maa </te>
-          <te>lehmänliha                     1) </te>
-          <te>broilerin liha               2,25 </te>
-          <te>kalkkunan ja muun </te>
-          <te>siipikarjan liha, </te>
-          <te>ei kuitenkaan kananliha      2,69 </te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Ulkosaaristo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">maito</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hieho ja sonni, 170-220 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hieho ja sonni, yli 220 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">lampaanliha</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">18,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">sianliha</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3,31</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kananmunat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">3,16</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Muu maa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">maito</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hieho ja sonni, 170-220 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">hieho ja sonni, yli 220 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">lampaanliha</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">13,81</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">sianliha</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2,81</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">kananmunat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2,56</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Koko maa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">lehmänliha</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">broilerin liha</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2,25</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>kalkkunan ja muun</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>siipikarjan liha,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ei kuitenkaan kananliha</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">2,69</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>1) hiehon- ja sonninlihan, lehmänlihan ja maidon tuotantotuki maksetaan kuukausittain porrastettuna liitteenä 2 olevan taulukon mukaisesti. </saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
@@ -66,20 +197,85 @@
           <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Eläinkohtaisten tukien määrä</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Eläin- ja eläinyksikkökohtaista tukea maksetaan tuottajan hallinnassa 1 päivänä toukokuuta 1995 olevien eläinten perusteella. Emakoiden ja jäljempänä mainittujen siipikarjaemojen osalta tukea maksetaan toukokuun 1 päivän ja syyskuun 1 päivän eläinmäärän keskiarvon perusteella. Hevosten osalta laskenta-ajankohdista päättää maa- ja metsätalousministeriö. Jos eläinmäärä sanottuina ajankohtina on tilapäisesti alentunut merkittävästi, tuki maksetaan vuoden 1994 keskimääräisen eläinluvun mukaan edellyttäen, että tuotanto on jatkuvaa. Tukea (markkaa/eläin) maksetaan seuraavasti: </saa:MomenttiKooste>
-          <te>emolehmät                           600 </te>
-          <te>emakot                            1 620 </te>
-          <te>broileremot                       61,20 </te>
-          <te>kalkkunaemot ja muut siipikarjaemot, </te>
-          <te>ei kuitenkaan munivien kanojen emot  90 </te>
-          <te>vuohet maidontuotantoon           1 200 </te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">emolehmät</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">600</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">emakot</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 620</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">broileremot</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">61,20</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>kalkkunaemot ja muut siipikarjaemot,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ei kuitenkaan munivien kanojen emot</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">90</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">vuohet maidontuotantoon</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">1 200</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">
           <saa:PykalaTunnusKooste>13 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Varastointituen määrä</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Tukea maksetaan alueilla A ja B kotimaisten avomaanvihannesten ja omenoiden varastointiin käytettävän varastointitilan perusteella siten, että perusteena on lokajoulukuussa käytössä olevan varastotilavuuden keskiarvo. Tukea (markkaa/kuutio) maksetaan satovuodelta 1995/96 enintään seuraavasti: </saa:MomenttiKooste>
-          <te>Koneellisesti jäähdytetyt varastot  120 </te>
-          <te>Muut varastot                        80 </te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Koneellisesti jäähdytetyt varastot</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">120</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">Muut varastot</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">80</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Tuen kokonaismäärä on enintään 30 miljoonaa markkaa. Jos hyväksyttävien hakemusten perusteella laskettava tuen määrä ylittää edellä olevan enimmäismarkkamäärän, maa- ja metsätalousministeriö päättää tuen suhteellisesta alentamisesta. Maa- ja metsätalousministeriö antaa tarkemmat määräykset tukeen oikeuttavan käytössä olevan varastotilan määritysperusteista. </saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="14 §">
@@ -112,14 +308,14 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 1</ete>
+      <sis1:ValiotsikkoTeksti>Liite 1</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>ALUEJAOT</sis1:ValiotsikkoTeksti>
-      <ete>Alue A</ete>
+      <sis1:ValiotsikkoTeksti>Alue A</sis1:ValiotsikkoTeksti>
       <sis:Katkoviiva/>
       <sis:KappaleKooste>Turun ja Porin läänistä</sis:KappaleKooste>
       <sis:KappaleKooste>Alastaro, Aura, Karinainen, Kemiö, Kiikala Koski Tl, Kuusjoki, Lieto, Loimaa, Loimaan kunta, Marttila, Masku, Mellilä, Mietoinen, Muurla, Oripää lukuunottamatta alueeseen B kuuluvaa osaa, Paimio, Perniö, Pertteli, Pöytyä, Raisio, Rusko, Salo, Somero, Tarvasjoki ja Västanfjärd sekä saaristo-osia lukuunottamatta Dragsfjärd, Halikko, Kaarina, Lemu, Naantali, Parainen, Piikkiö, Sauvo, Särkisalo ja Turku</sis:KappaleKooste>
       <sis:Katkoviiva/>
-      <ete>Alue B</ete>
+      <sis1:ValiotsikkoTeksti>Alue B</sis1:ValiotsikkoTeksti>
       <sis:Katkoviiva/>
       <sis:KappaleKooste>Turun ja Porin läänistä</sis:KappaleKooste>
       <sis:KappaleKooste>Askainen, Eura, Eurajoki, Harjavalta, Houtskari, Huittinen, Iniö, Jämijärvi, Kankaanpää, Kiikoinen, Kisko, Kiukainen, Kodisjoki, Kokemäki, Korppoo, Kuhmalahti, Kullaa, Kustavi, Köyliö, Laitila, Lappi Tl, Lavia, Luvia, Längelmäki, Merimasku, Mouhijärvi, Mynämäki, Nakkila, Nauvo, Noormarkku, Nousiainen, Pomarkku, Pori, Punkalaidun, Pyhäranta, Rauma, Rymättylä Suodenniemi, Suomusjärvi, Säkylä, Taivassalo, Ulvila, Uusikaupunki, Vahto, Vammala, Vampula, Vehmaa, Velkua, Yläne ja Äetsä sekä Oripään kunnasta luonnonhaittakorvaukseen oikeutettu osa, Dragsfjärdin, Halikon, Kaarinan, Lemun, Naantalin, Piikkiön, Sauvon, Särkisalon, Turun ja Paraisten saaristo-osat</sis:KappaleKooste>

@@ -120,39 +120,227 @@ d) Yhdysvaltojen liittovaltiossa henkilöautoille mallivuodesta 1975 tai, milloi
           <saa:PykalaTunnusKooste>54 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Melun rajoittaminen</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>1. Polttomoottorilla varustetussa autossa on oltava sellaiset äänenvaimentimet, ettei imu- tai pakoääni häiritsevästi ylitä muuta auton tavanomaisesta käytöstä aiheutuvaa ääntä. Auton äänen voimakkuus, mitattuna 4 momentissa tarkoitetussa direktiivissä tai E-säännössä määrätyllä tavalla, ei saa ylittää seuraavia arvoja:</saa:MomenttiKooste>
-          <te>a) M1-luokan auto, jonka kokonaismassa on enintään</te>
-          <te>   3,5 tonnia                                          77 dBA</te>
-          <te>b) M1-, M2- ja M3-luokan auto, jonka suurin sallittu</te>
-          <te>   kokonaismassa ylittää 3,5 tonnia ja jonka</te>
-          <te>   moottorin teho on</te>
-          <te>-  alle 150 kW                                         80 dBA</te>
-          <te>-  150 kW tai suurempi                                 83 dBA</te>
-          <te>c) N1- ja M2-luokan auto, jonka suurin sallittu</te>
-          <te>   kokonaismassa on</te>
-          <te>-  enintään 2 tonnia                                   78 dBA</te>
-          <te>-  suurempi kuin 2 tonnia, mutta enintään</te>
-          <te>   3,5 tonnia                                          79 dBA</te>
-          <te>d) N2- ja N3-luokan auto, jonka moottorin teho on</te>
-          <te>-  pienempi kuin 75 kW                                 81 dBA</te>
-          <te>-  vähintään 75 kW mutta pienempi kuin 150 kW          83 dBA</te>
-          <te>-  150 kW tai suurempi                                 84 dBA</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>a) M1-luokan auto, jonka kokonaismassa on enintään</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3,5 tonnia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">77 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>b) M1-, M2- ja M3-luokan auto, jonka suurin sallittu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>kokonaismassa ylittää 3,5 tonnia ja jonka</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>moottorin teho on</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- alle 150 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">80 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- 150 kW tai suurempi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">83 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>c) N1- ja M2-luokan auto, jonka suurin sallittu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>kokonaismassa on</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- enintään 2 tonnia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">78 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>- suurempi kuin 2 tonnia, mutta enintään</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3,5 tonnia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">79 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>d) N2- ja N3-luokan auto, jonka moottorin teho on</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- pienempi kuin 75 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">81 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- vähintään 75 kW mutta pienempi kuin 150 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">83 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- 150 kW tai suurempi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">84 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>2. Edellä 1 momentissa tarkoitettujen raja-arvojen sijasta sovelletaan 1 päivänä lokakuuta 1995 tai sen jälkeen tyyppihyväksyttäviin ja 1 päivänä lokakuuta 1996 tai sen jälkeen käyttöön otettaviin autoihin seuraavia raja-arvoja:</saa:MomenttiKooste>
-          <te>a) M1-luokan auto, jonka kokonaismassa on enintään</te>
-          <te>   3,5 tonnia                                          74 dBA</te>
-          <te>b) M1-, M2- ja M3-luokan auto, jonka suurin sallittu</te>
-          <te>   kokonaismassa ylittää 3,5 tonnia ja jonka</te>
-          <te>   moottorin teho on</te>
-          <te>-  alle 150 kW                                         78 dBA</te>
-          <te>-  150 kW tai suurempi                                 80 dBA</te>
-          <te>c) N1- ja M2-luokan auto, jonka suurin sallittu</te>
-          <te>   kokonaismassa on</te>
-          <te>-  enintään 2 tonnia                                   76 dBA</te>
-          <te>-  suurempi kuin 2 tonnia, mutta enintään</te>
-          <te>   3,5 tonnia                                          77 dBA</te>
-          <te>d) N2- ja N3-luokan auto, jonka moottorin teho on</te>
-          <te>-  pienempi kuin 75 kW                                 77 dBA</te>
-          <te>-  vähintään 75 kW mutta pienempi kuin 150 kW          78 dBA</te>
-          <te>-  150 kW tai suurempi                                 80 dBA</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>a) M1-luokan auto, jonka kokonaismassa on enintään</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3,5 tonnia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">74 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>b) M1-, M2- ja M3-luokan auto, jonka suurin sallittu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>kokonaismassa ylittää 3,5 tonnia ja jonka</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>moottorin teho on</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- alle 150 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">78 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- 150 kW tai suurempi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">80 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>c) N1- ja M2-luokan auto, jonka suurin sallittu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>kokonaismassa on</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- enintään 2 tonnia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">76 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>- suurempi kuin 2 tonnia, mutta enintään</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">3,5 tonnia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">77 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>d) N2- ja N3-luokan auto, jonka moottorin teho on</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- pienempi kuin 75 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">77 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- vähintään 75 kW mutta pienempi kuin 150 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">78 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">- 150 kW tai suurempi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">80 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>3. Suoraruiskutteisella dieselmoottorilla varustetun auton moottorin äänen voimakkuus saa ylittää 1 ja 2 momentin a ja c kohdan arvot 1 dBA. Maastoauton (G-luokat), jonka kokonaismassa ylittää 2 tonnia, äänen voimakkuus saa ylittää 1 ja 2 momentin a-d kohdan arvot 1 dBA, jos moottorin teho on alle 150 kW ja 2 dBA, jos moottorin teho on 150 kW tai suurempi.</saa:MomenttiKooste>
           <saa:MomenttiKooste>4. Auton katsotaan täyttävän 1 momentin vaatimukset, jos se on mallia, joka täyttää EY:n neuvoston moottoriajoneuvojen sallittua melutasoa ja pakojärjestelmää koskevan jäsenvaltioiden lainsäädännön lähentämisestä antaman direktiivin (70/157/ETY) vaatimukset, sellaisina kuin ne ovat muutettuina direktiivillä 84/424/ETY, tai E-säännön n:o 51/01 vaatimukset. Auton katsotaan täyttävän 2 momentin vaatimukset, jos se on mallia, joka täyttää sanotun EY-direktiivin 70/157/ETY vaatimukset, sellaisina kuin ne ovat muutettuina direktiivillä 92/97/ETY.</saa:MomenttiKooste>
           <saa:MomenttiKooste>5. Edellä 1 ja 2 momentissa tarkoitettujen raja-arvojen sijasta sovelletaan muuttotavarana tullattuun, ulkovallan edustuston tai diplomaattikunnan jäsenen hallinnassa olevaan, perintönä tai testamentilla saatuun ja tulli- tai muusta valtion järjestämästä huutokaupasta hankittuun autoon auton ensimmäisenä käyttöönottovuonna voimassa olleita 4 momentissa ensiksi mainitun EY-direktiivin tai E-säännön n:o 9 tai 51 mukaisia vaatimuksia.</saa:MomenttiKooste>
@@ -175,17 +363,87 @@ o) M-luokan pelastus-, sairas- ja huoltoautossa sekä poliisin virkatehtäväss�
           <saa:PykalaTunnusKooste>113 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Melun rajoittaminen</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>1. Polttomoottorilla varustetussa moottoripyörässä on oltava sellaiset äänenvaimentimet, ettei imu- tai pakoääni häiritsevästi ylitä muuta moottoripyörän tavanomaisesta käytöstä aiheutuvaa ääntä. Moottoripyörän äänen voimakkuus, mitattuna 4 momentissa tarkoitetussa direktiivissä tai E-säännössä määrätyllä tavalla, ei saa ylittää seuraavia arvoja:</saa:MomenttiKooste>
-          <te>a) enintään 80 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla varustettu</te>
-          <te>   moottoripyörä                                       77 dBA</te>
-          <te>b) yli 80 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> mutta enintään 175 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla</te>
-          <te>   varustettu moottoripyörä                            79 dBA</te>
-          <te>c) yli 175 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla varustettu moottoripyörä    82 dBA</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>a) enintään 80 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla varustettu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">moottoripyörä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">77 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>b) yli 80 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> mutta enintään 175 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">varustettu moottoripyörä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">79 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">c) yli 175 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla varustettu moottoripyörä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">82 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>2. Moottoripyörän, joka tyyppihyväksytään 1 päivänä lokakuuta 1993 tai sen jälkeen taikka b kohdassa tarkoitettu moottoripyörä 1 päivänä tammikuuta 1995 tai sen jälkeen, äänen voimakkuus ei saa ylittää seuraavia arvoja:</saa:MomenttiKooste>
-          <te>a) enintään 80 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla varustettu</te>
-          <te>   moottoripyörä                                       75 dBA</te>
-          <te>b) yli 80 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> mutta enintään 175 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla</te>
-          <te>   varustettu moottoripyörä                            77 dBA</te>
-          <te>c) yli 175 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla varustettu moottoripyörä    80 dBA</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>a) enintään 80 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla varustettu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">moottoripyörä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">75 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>b) yli 80 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> mutta enintään 175 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">varustettu moottoripyörä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">77 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">c) yli 175 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> moottorilla varustettu moottoripyörä</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">80 dBA</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>3. Moottoripyörän, joka otetaan Suomessa ensi kertaa käyttöön kahden vuoden kuluttua 2 momentissa tarkoitettujen päivämäärien jälkeen, äänen voimakkuus ei saa ylittää sanotussa momentissa säädettyjä arvoja.</saa:MomenttiKooste>
           <saa:MomenttiKooste>4. Moottoripyörän katsotaan täyttävän 1, 2 tai 3 momentin vaatimukset, jos se on mallia, joka täyttää EY:n neuvoston moottoripyörien sallittua melutasoa ja pakojärjestelmää koskevan jäsenvaltioiden lainsäädännön lähentämisestä antaman direktiivin (78/1015/ETY) vaatimukset, sellaisina kuin ne ovat muutettuina direktiivillä 89/235/ETY. Moottoripyörän katsotaan täyttävän 1 momentin vaatimukset, jos se on mallia, joka täyttää E-säännön n:o 41/01 vaatimukset.</saa:MomenttiKooste>
           <sis:Katkoviiva/>

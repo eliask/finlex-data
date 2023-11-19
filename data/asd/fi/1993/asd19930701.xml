@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>tuomioistuinten ja eräiden oikeushallintoviranomaisten suoritteista perittävistä maksuista</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 241/92</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>VaVM 25/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -45,27 +37,156 @@
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Oikeudenkäyntimaksu</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Riita-, rikos-, alistus- ja muutoksenhakuasian, ylimääräistä muutoksenhakua koskevan asian sekä lääninoikeudessa ja vesioikeudessa myös muun lainkäyttöasian käsittelystä peritään <saa:SaadosKursiiviKooste>oikeudenkäyntimaksua</saa:SaadosKursiiviKooste> seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>Tuomioistuin                                               mk</te>
-          <te>korkein oikeus                                          1 000</te>
-          <te>korkein hallinto-oikeus                                 1 000</te>
-          <te>hovioikeus                                                800</te>
-          <te>lääninoikeus                                              400</te>
-          <te>yleinen alioikeus</te>
-          <te>- riita-asia, jonka käsittely päättyy kirjallisessa</te>
-          <te>  valmistelussa, ja rikosasia                             300</te>
-          <te>- riita-asia, jonka käsittely päättyy kirjallisen</te>
-          <te>  valmistelun jälkeen                                     750</te>
-          <te>maaoikeus                                                 800</te>
-          <te>vesiylioikeus                                             900</te>
-          <te>vesioikeus</te>
-          <te>- hakemusasia, jos asian käsittelyyn sisältyy</te>
-          <te>  katselmustoimitus tai kysymyksessä on</te>
-          <te>  lopputarkastus                                        2 000</te>
-          <te>- muu asia                                                800</te>
-          <te>markkinatuomioistuin                                    1 000</te>
-          <te>työtuomioistuin                                         1 000</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Tuomioistuin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>korkein oikeus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 000</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>korkein hallinto-oikeus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 000</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>hovioikeus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>800</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>lääninoikeus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>400</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">yleinen alioikeus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">- riita-asia, jonka käsittely päättyy kirjallisessa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>valmistelussa, ja rikosasia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>300</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">- riita-asia, jonka käsittely päättyy kirjallisen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>valmistelun jälkeen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>750</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>maaoikeus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>800</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>vesiylioikeus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>900</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">vesioikeus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">- hakemusasia, jos asian käsittelyyn sisältyy</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">katselmustoimitus tai kysymyksessä on</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>lopputarkastus</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 000</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>- muu asia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>800</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>markkinatuomioistuin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 000</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>työtuomioistuin</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 000</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Kun ylimääräinen muutoksenhakemus hylätään taikka kun korkein oikeus tai korkein hallinto-oikeus valituslupa-asiassa ei myönnä valituslupaa, peritään vain puolet 1 momentissa säädetystä maksusta.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Jos asian käsittely päättyy yleisessä alioikeudessa haastetta antamatta muulla kuin oikeudenkäymiskaaren 5 luvun 6 §:ssä tarkoitetulla perusteella, asiassa ei peritä 1 momentissa säädettyä maksua. Jos asia muussa ensimmäisen oikeusasteen tuomioistuimessa jää joko sillensä tai kokonaan tutkimatta taikka jos muutoksenhakemusta ei tutkita tai se raukeaa, oikeudenkäyntimaksua ei asianomaisessa tuomioistuimessa peritä. Oikeudenkäyntimaksua ei peritä myöskään, jos ylimääräinen muutoksenhakemus hyväksytään tai asia aineellisia kysymyksiä osaksikaan ratkaisematta palautetaan alemman viranomaisen käsiteltäväksi taikka siirretään toimivaltaiselle viranomaiselle.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -230,6 +351,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920241.he">
+        <sis1:ViiteTeksti>HE 241/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930025.vavm">
+        <sis1:ViiteTeksti>VaVM 25/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 26 päivänä heinäkuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

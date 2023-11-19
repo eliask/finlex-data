@@ -26,26 +26,136 @@
           <saa:PykalaTunnusKooste>14§</saa:PykalaTunnusKooste>
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>4. Polttomoottorilla varustetussa autossa on oltava sellaiset äänenvaimentimet, ettei imu- tai pakoääni häiritsevästi ylitä muuta auton tavanomaisesta käytöstä aiheutuvaa ääntä. Ajoneuvon äänen voimakkuus ei saa ylittää seuraavia arvoja:</saa:MomenttiKooste>
-          <te/>
-          <te>a)henkilöauto                      77 dB(A)</te>
-          <te>b)paketti- tai linja-auto, jonka </te>
-          <te>suurin sallittu kokonaispaino on</te>
-          <te>-enintään 2 000 kg                 78 dB(A)</te>
-          <te>-suurempi kuin 2 000 kg mutta </te>
-          <te>enintään 3 500 kg                  79 dB(A)</te>
-          <te>c)linja-auto, jonka suurin sallit-</te>
-          <te>tu kokonaispaino ylittää 3 500 kg </te>
-          <te>ja jonka moottorin teho on</te>
-          <te>-alle 150 kW                       80 dB(A)</te>
-          <te>-150 kW tai suurempi               83 dB(A)</te>
-          <te>d)kuorma-auto, jonka suurin </te>
-          <te>sallittu kokonaispaino ylittää </te>
-          <te>3 500kg ja jonka moottorin teho </te>
-          <te>on</te>
-          <te>-enintään 75 kW                    81 dB(A)</te>
-          <te>-suurempi kuin 75 kW mutta </te>
-          <te>pienempi kuin 150 kW               83 dB(A)</te>
-          <te>-150 kW tai suurempi               84 dB(A) </te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a)henkilöauto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>77 dB(A)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">b)paketti- tai linja-auto, jonka</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">suurin sallittu kokonaispaino on</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>-enintään 2 000 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>78 dB(A)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">-suurempi kuin 2 000 kg mutta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>enintään 3 500 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>79 dB(A)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">c)linja-auto, jonka suurin sallit-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">tu kokonaispaino ylittää 3 500 kg</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">ja jonka moottorin teho on</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>-alle 150 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>80 dB(A)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>-150 kW tai suurempi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>83 dB(A)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">d)kuorma-auto, jonka suurin</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">sallittu kokonaispaino ylittää</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">3 500kg ja jonka moottorin teho</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">on</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>-enintään 75 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>81 dB(A)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">-suurempi kuin 75 kW mutta</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>pienempi kuin 150 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>83 dB(A)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>-150 kW tai suurempi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>84 dB(A)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Suoraruiskutteisella dieselmoottorilla varustetun auton äänen voimakkuus saa ylittää kohtien a ja b arvot 1 dB(A):llä. Maastoajoneuvon, jonka kokonaispaino ylittää 2 000 kg, moottorin äänen voimakkuus saa ylittää kohtien a-d arvot 1 dB(A):llä, jos moottorin teho on alle 150 kW ja 2 dB(A):llä, jos moottorin teho on 150 kW tai suurempi.</saa:MomenttiKooste>
           <saa:MomenttiKooste>5. Auton katsotaan täyttävän 4 momentin mukaiset vaatimukset, jos se on mallia, joka täyttää E-säännön n:o 51/01 tai e-ohjeen n:o 70/157/EEC vaatimukset, sellaisena kuin se on viimeksi muutettu ohjeella n:o 84/424/EEC.</saa:MomenttiKooste>
           <sis:Katkoviiva/>

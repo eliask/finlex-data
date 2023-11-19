@@ -563,9 +563,7 @@ m) <saa:SaadosKursiiviKooste>tunnistin</saa:SaadosKursiiviKooste> on pyörän py
             <saa:MomenttiKooste>3. <saa:SaadosKursiiviKooste>Jarrujen toimintaviivettä</saa:SaadosKursiiviKooste> koskevien vaatimusten täyttäminen todetaan mittaamalla.</saa:MomenttiKooste>
             <saa:MomenttiKooste>4. <saa:SaadosKursiiviKooste>Seisontajarrun pidätyskyky</saa:SaadosKursiiviKooste> todetaan käytännön kokeella tai teoreettisesti jarruvoimien mukaan laskemalla.</saa:MomenttiKooste>
             <saa:MomenttiKooste>5. <saa:SaadosKursiiviKooste>Jarruvoiman jakautuminen</saa:SaadosKursiiviKooste> ajoneuvon akseleiden välillä todetaan teoreettisin laskelmin.</saa:MomenttiKooste>
-          </saa:Pykala>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6. Varajarrun suorituskyky todetaan teoreettisin laskelmin tai jarrutuskokeen avulla.">
-            <saa:PykalaTunnusKooste>6. Varajarrun suorituskyky todetaan teoreettisin laskelmin tai jarrutuskokeen avulla.</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>6. Varajarrun suorituskyky todetaan teoreettisin laskelmin tai jarrutuskokeen avulla.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="70 §">
             <saa:PykalaTunnusKooste>70 §</saa:PykalaTunnusKooste>
@@ -857,16 +855,18 @@ b) muussa kuin perävaunun vetoon käytettävässä autossa käyttöjarrun täyt
           </saa:KohdatMomentti>
           <saa:MomenttiKooste>S ≤ 0,15 · V + (V<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> /115) ; jossa</saa:MomenttiKooste>
           <saa:MomenttiKooste>V = nopeus jarrutuksen alkaessa (km/h)</saa:MomenttiKooste>
-          <saa:MomenttiKooste>S = jarrutusmatka (m)</saa:MomenttiKooste>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>S = jarrutusmatka (m)</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
 c) perävaunun käyttöjarrun täyttää 74 §:n 1 momentin a kohdassa tarkoitetun jarruvoimavaatimuksen 50% sijasta vähintään 45% perävaunun staattisesta painosta ja 74 §:n 1 momentin b ja c kohdissa tarkoitetun jarruvoimavaatimuksen 45% sijasta vähintään 40% perävaunun staattisesta painosta edellyttäen, että jarrukäytävävaatimus täyttyy samalla;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 d) jarrujen toimintaviiveiden täyttää 83 ja 84 §:n vaatimukset enintään 0,2 sekunnilla lisättynä; ja
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 e) yhdistelmän jarrujen täyttää 85–87 §:n sovitussuhdetta koskevat vaatimukset.
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
         </saa:Pykala>
       </saa:Pykalisto>
     </saa:Saados>

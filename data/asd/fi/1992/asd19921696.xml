@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>työllisyyslain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 305/92</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>TyVM 15/92</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -69,14 +61,70 @@
           <saa:MomenttiKooste>Jos työvoimatoimisto osoittaa kunnan työllistettäväksi 19 §:n nojalla työttömän henkilön, kunnalla on oikeus saada työllisyysmäärärahoista työllistämisestä aiheutuviin kustannuksiin työllistämistukea työttömyysturvalain 22 §:n 1 momentin mukaista peruspäivärahaa vastaava määrä henkilöä kohti niiltä päiviltä, joilta kunta on velvollinen maksamaan palkkaa, kuitenkin enintään viideltä päivältä viikossa (<saa:SaadosKursiiviKooste>normaali työllistämistuki</saa:SaadosKursiiviKooste>). Asetuksella voidaan säätää, että kunnalle maksetaan työttömän työllistämisestä normaalia työllistämistukea korkeampi tuki.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Normaali työllistämistuki voidaan maksaa kunnalle sellaisen työn järjestämiseksi, jossa työaika on palkanmaksukautta vastaavana ajanjaksona vähintään 75 prosenttia alan säännöllisestä työajasta.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kunnalle maksetaan sen perusteella, kuinka suuren osuuden alueensa työvoimasta kunta on keskimäärin vuosineljänneksen aikana työllistänyt työllisyysmäärärahoilla, lisätukea seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>Työllistettyjen           Lisätuen osuus</te>
-          <te>osuus kunnan              työllisyysmäärä-</te>
-          <te>työvoimasta               rahojen yhteismäärästä</te>
-          <te>vähintään  1   %          10 %</te>
-          <te>   ,,      1,5 %          20 %</te>
-          <te>   ,,      2   %          30 %</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Työllistettyjen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Lisätuen osuus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>osuus kunnan</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>työllisyysmäärä-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>työvoimasta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>rahojen yhteismäärästä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>vähintään 1 %</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 1,5 %</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 2 %</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>30 %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Kunnalle voidaan maksaa työllistämistukea 19 §:n nojalla työttömän työllistämisestä kutakin työllistettyä kohti enintään kuusi kuukautta kerrallaan.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="22 §">
@@ -93,6 +141,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920305.he">
+        <sis1:ViiteTeksti>HE 305/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920015.tyvm">
+        <sis1:ViiteTeksti>TyVM 15/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 30 päivänä joulukuuta 1992</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

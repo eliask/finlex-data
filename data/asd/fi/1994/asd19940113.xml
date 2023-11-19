@@ -12,33 +12,132 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Kuulutus">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Valtioneuvoston kuulutus</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>tasavallan presidentin vaalin toisen vaalin tuloksesta</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Valtioneuvosto on tasavallan presidentin vaalista 22 päivänä heinäkuuta 1991 annetun lain (1076/91) 27 §:n 2 momentin nojalla antanut seuraavan kuulutuksen:</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste>Helsingin kaupungin vaalipiirin keskuslautakunta on tasavallan presidentin vaalista annetun lain (1076/91) 27 §:n 1 momentin nojalla 10 päivänä helmikuuta 1994 vahvistanut 6 päivänä helmikuuta 1994 toimitetussa tasavallan presidentin vaalin toisessa vaalissa koko maassa kummallekin presidenttiehdokkaalle annettujen äänien lopullisen määrän ja vaalissa annettujen äänien kokonaismäärän sekä ilmoittanut ne valtioneuvostolle seuraavasti:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te/>
-        <te>Ehdokkaan  Ehdokas                          Äänimäärä</te>
-        <te>numero</te>
-        <te>2          Ahtisaari, Martti</te>
-        <te>           valtiosihteeri,</te>
-        <te>           Helsinki                         1 723 485</te>
-        <te/>
-        <te/>
-        <te>3          Rehn, Elisabeth</te>
-        <te>           puolustusministeri,</te>
-        <te>           Kirkkonummi                      1 476 29</te>
-        <te>           Annettujen äänien</te>
-        <te>           kokonaismäärä oli               3 199 779</te>
-        <te/>
-        <te>Valtioneuvosto on 10 päivänä helmikuuta 1994 todennut tasavallan presidentin vaalista annetun lain nojalla, että ehdokkaista valtiosihteeri Martti Ahtisaari on toisessa vaalissa saanut enemmän ääniä ja sen nojalla tullut valituksi tasavallan presidentiksi 1 päivästä maaliskuuta 1994 alkavaksi ja 1 päivänä maaliskuuta 2000 päättyväksi toimikaudeksi.</te>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <tau:table>
+          <tau:tgroup cols="3" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Ehdokkaan</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Ehdokas</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Äänimäärä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">numero</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>2</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Ahtisaari, Martti</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">valtiosihteeri,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Helsinki</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>1 723 485</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>3</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Rehn, Elisabeth</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">puolustusministeri,</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Kirkkonummi</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>1 476 29</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Annettujen äänien</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>kokonaismäärä oli</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>3 199 779</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>Valtioneuvosto on 10 päivänä helmikuuta 1994 todennut tasavallan presidentin vaalista annetun lain nojalla, että ehdokkaista valtiosihteeri Martti Ahtisaari on toisessa vaalissa saanut enemmän ääniä ja sen nojalla tullut valituksi tasavallan presidentiksi 1 päivästä maaliskuuta 1994 alkavaksi ja 1 päivänä maaliskuuta 2000 päättyväksi toimikaudeksi.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 10 päivänä helmikuuta 1994</asi:PaivaysKooste>

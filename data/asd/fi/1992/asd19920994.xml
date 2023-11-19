@@ -25,56 +25,346 @@
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Määräykset päästöjen rajoittamisesta</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Valmistettavien ja maahantuotavien rakennuskoneiden ja -laitteiden A-painotetut äänitehotasot desibeleinä saavat vertailuäänitehoon, 1 pikowattiin, verrattuina olla enintään seuraavat:</saa:MomenttiKooste>
-          <te/>
-          <te>                                      Äänitehotaso</te>
-          <te>                                          enintään</te>
-          <te>                                         dBA/ 1 pW</te>
-          <te>
-            <saa:SaadosKursiiviKooste>Kompressorit</saa:SaadosKursiiviKooste>
-          </te>
-          <te>Nimellisilmavirta     Q &lt; 10 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/min            100</te>
-          <te>          10 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/min &lt; Q &lt; 30 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/min            102</te>
-          <te>                      Q &gt; 30 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/min            104</te>
-          <te>
-            <saa:SaadosKursiiviKooste>Torninosturit</saa:SaadosKursiiviKooste>
-          </te>
-          <te>Nostomekanismi                                 100</te>
-          <te>Generaattori</te>
-          <te>Sähköteho             P &lt;  2 kVA               102</te>
-          <te>                      P &gt;  2 kVA               100</te>
-          <te>Nostomekanismin ja</te>
-          <te>generaattorin yhdistelmä suurempi enimmäisarvoista</te>
-          <te>
-            <saa:SaadosKursiiviKooste>Hitsausgeneraattorit</saa:SaadosKursiiviKooste>
-          </te>
-          <te>Suurin nimellis-</te>
-          <te>hitsausvirta             &lt; 200 A               101</te>
-          <te>                         &gt; 200 A               100</te>
-          <te>
-            <saa:SaadosKursiiviKooste>Generaattorit</saa:SaadosKursiiviKooste>
-          </te>
-          <te>Sähköteho              P &lt; 2 kVA               102</te>
-          <te>                       P &gt; 2 kVA               100</te>
-          <te>
-            <saa:SaadosKursiiviKooste>Käsinkannateltavat</saa:SaadosKursiiviKooste>
-          </te>
-          <te>konekäyttöiset betoni-</te>
-          <te>murskaimet- ja kivihakut</te>
-          <te>Laitteen massa         m &lt; 20 kg               108</te>
-          <te>               20 kg &lt; m &lt; 35 kg               111</te>
-          <te>                       m &gt; 35 kg               114</te>
-          <te>laitteet, joissa on kiinteä polttomoottori     114</te>
-          <te>
-            <saa:SaadosKursiiviKooste>Maansiirtokoneet</saa:SaadosKursiiviKooste>
-          </te>
-          <te>Nettoteho      P &lt;  70 kW                      106</te>
-          <te>       70 kW &lt; P &lt; 160 kW                      108</te>
-          <te>      160 kW &lt; P &lt; 350 kW</te>
-          <te>- Hydrauli- ja köysikäyttöiset kaivukoneet     112</te>
-          <te>- Puskutraktorit, kuormaajat ja kaivuri-</te>
-          <te>  kuormaajat                                   113</te>
-          <te>Nettoteho      P &gt; 350 kW                      118</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Äänitehotaso</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>enintään</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>dBA/ 1 pW</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">
+                      <sis1:KursiiviTeksti>Kompressorit</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Nimellisilmavirta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Q &lt; 10 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/min</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/min &lt; Q &lt; 30 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/min</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>102</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Q &gt; 30 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/min</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>104</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">
+                      <sis1:KursiiviTeksti>Torninosturit</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Nostomekanismi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">Generaattori</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Sähköteho</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>P &lt; 2 kVA</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>102</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>P &gt; 2 kVA</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">Nostomekanismin ja</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">generaattorin yhdistelmä suurempi enimmäisarvoista</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">
+                      <sis1:KursiiviTeksti>Hitsausgeneraattorit</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">Suurin nimellis-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>hitsausvirta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>&lt; 200 A</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>101</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>&gt; 200 A</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">
+                      <sis1:KursiiviTeksti>Generaattorit</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Sähköteho</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>P &lt; 2 kVA</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>102</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>P &gt; 2 kVA</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">
+                      <sis1:KursiiviTeksti>Käsinkannateltavat</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">konekäyttöiset betoni-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">murskaimet- ja kivihakut</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Laitteen massa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>m &lt; 20 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>108</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20 kg &lt; m &lt; 35 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>111</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>m &gt; 35 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>114</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>laitteet, joissa on kiinteä polttomoottori</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>114</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">
+                      <sis1:KursiiviTeksti>Maansiirtokoneet</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Nettoteho</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>P &lt; 70 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>106</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>70 kW &lt; P &lt; 160 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>108</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">160 kW &lt; P &lt; 350 kW</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>- Hydrauli- ja köysikäyttöiset kaivukoneet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">112</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">- Puskutraktorit, kuormaajat ja kaivuri-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>kuormaajat</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>113</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Nettoteho</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>P &gt; 350 kW</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>118</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Maansiirtokoneiden nettoteho määritellään Euroopan yhteisöjen direktiivin (80/1269/ETY) mukaisesti.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Valmistettavien ja maahantuotavien torninostureiden käyttäjän paikan A-painotettu äänenpainetaso desibeleinä saa vertailuäänenpaineeseen 20 µPa verrattuna olla enintään 80 dB.</saa:MomenttiKooste>
         </saa:Pykala>

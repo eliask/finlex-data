@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>korkolain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 292/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>TaVM 58/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -53,8 +45,8 @@
           <saa:MomenttiKooste>Suomen Pankin on 14 päivän kuluessa peruskoron muuttamista koskevan päätöksen tekemisestä julkaistava ilmoitus uudesta peruskorosta Suomen säädöskokoelmassa.</saa:MomenttiKooste>
           <sis:Katkoviiva/>
         </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
-          <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 a §">
+          <saa:PykalaTunnusKooste>12 a §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Ilmoitus viitekoron vahvistamisesta</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Suomen Pankin on julkaistava ilmoitus Suomen Pankin vahvistamasta viitekorosta Suomen säädöskokoelmassa viimeistään 14 päivää ennen kyseisen koron voimaantuloa. Ilmoituksessa on myös mainittava 4 §:n 3 momentissa tarkoitetun viivästyskoron suuruus.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -67,6 +59,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940292.he">
+        <sis1:ViiteTeksti>HE 292/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940058.tavm">
+        <sis1:ViiteTeksti>TaVM 58/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 3 päivänä maaliskuuta 1995</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

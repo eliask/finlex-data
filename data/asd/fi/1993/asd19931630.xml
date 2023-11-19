@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>maanmittauslaitoksesta annetun lain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 280/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>MmVM 31/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -38,7 +30,17 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
           <sis:Katkoviiva/>
-          <te>Maanmittauslaitos voi tilauksesta suorittaa toimialaansa kuuluvia tehtäviä ja veroluokituksia, avustaa kiinteistöjä koskevien asetuksella säädettävien asioiden hoidossa sekä kunnan kanssa tehdyn sopimuksen perusteella huolehtia kunnan kiinteistöinsinöörille säädetyistä tai määrätyistä tehtävistä.</te>
+          <tau:table>
+            <tau:tgroup cols="1" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Maanmittauslaitos voi tilauksesta suorittaa toimialaansa kuuluvia tehtäviä ja veroluokituksia, avustaa kiinteistöjä koskevien asetuksella säädettävien asioiden hoidossa sekä kunnan kanssa tehdyn sopimuksen perusteella huolehtia kunnan kiinteistöinsinöörille säädetyistä tai määrätyistä tehtävistä.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
@@ -56,6 +58,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930280.he">
+        <sis1:ViiteTeksti>HE 280/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930031.mmvm">
+        <sis1:ViiteTeksti>MmVM 31/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 30 päivänä joulukuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

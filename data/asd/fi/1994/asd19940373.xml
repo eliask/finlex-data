@@ -12,27 +12,105 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Ilmoitus">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Ulkoasiainministeriön ilmoitus</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>ministeriön päätöksestä viisumin, oleskeluluvan ja työluvan myöntämisperusteista edustustoissa</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Ulkoasiainministeriö ilmoittaa Suomen säädöskokoelmasta 17 päivänä lokakuuta 1980 annetun asetuksen (696/80) 2 b §:n nojalla, sellaisena kuin se on 22 päivänä joulukuuta 1993 annetussa asetuksessa (1364/93):</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>Ulkoasiainministeriö on antanut seuraavan päätöksen:</te>
-        <te/>
-        <te>Päätöksen nimike  	      n:o  	antopäivä  	voimaantulopäivä</te>
-        <te>Ulkoasiainministeriön </te>
-        <te>päätös viisumin, </te>
-        <te>oleskeluluvan ja työluvan</te>
-        <te>myöntämisperusteista </te>
-        <te>edustustoissa 	      3/94 	1.3.1994 	1.3.1994</te>
-        <te/>
-        <te>Edellä mainittu päätös on julkaistu ulkoasiainministeriön määräyskokoelmassa. Päätös on saatavissa ulkoasiainministeriöstä, osoite PL 176, 00160 Helsinki, puhelin (90) 1341 5387.</te>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Ulkoasiainministeriö on antanut seuraavan päätöksen:</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="4" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Päätöksen nimike</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>n:o</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>antopäivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>voimaantulopäivä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Ulkoasiainministeriön</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+                <tau:entry namest="4" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>päätös viisumin,</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+                <tau:entry namest="4" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>oleskeluluvan ja työluvan</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+                <tau:entry namest="4" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>myöntämisperusteista</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+                <tau:entry namest="4" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>edustustoissa</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>3/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>1.3.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>1.3.1994</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="4">
+                  <sis:KappaleKooste align="left" valign="top"/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>Edellä mainittu päätös on julkaistu ulkoasiainministeriön määräyskokoelmassa. Päätös on saatavissa ulkoasiainministeriöstä, osoite PL 176, 00160 Helsinki, puhelin (90) 1341 5387.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 16 päivänä toukokuuta 1994</asi:PaivaysKooste>

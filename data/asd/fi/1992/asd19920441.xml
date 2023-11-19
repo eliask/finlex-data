@@ -76,18 +76,91 @@
             <saa:PykalaTunnusKooste>8 § </saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Vakuutetulle suoritettavasta sairausvakuutuslain mukaisesta päivärahasta ja erityishoitorahasta sekä kuntoutusrahalain (611/91) 14, 15 ja 17 §:n mukaisesta ja muusta kuin eläkkeen lisäksi maksettavasta kuntoutusrahasta ennakonpidätys on toimitettava 1 §:n 1 ja 2 momentissa määrätyllä tavalla palkkaa varten määrättyjen pidätysprosenttien mukaan alennettuna 2 prosenttiyksiköllä sekä äitiys-, erityisäitiys-, isyys- ja vanhempainrahasta 4 prosenttiyksiköllä alennettuna. Pidätysprosentteja ei kuitenkaan alenneta, jos verokortissa on määräys, jonka mukaan pidätysprosentti nousee tulojen kasvaessa (ns. portaikkoverokortti) tai jos verokortissa on verotoimiston ennakkoperintälain 16 §:n nojalla antama määräys ennakonpidätyksen suuruudesta. Muusta sairausvakuutuslain tai kansaneläkelain nojalla tulojen tai elatuksen vähentymisestä maksettavasta korvauksesta ennakonpidätys on toimitettava 1 §:n 1 ja 2 momentissa määrätyllä tavalla alentamattomana.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Jos suorituksen maksaja ei ole saanut 24 §:ssä tarkoitetulla tavalla pidätyksen toimittamista varten tarvittavia tietoja eikä verovelvollinen esitä suorituksen maksajalle verokorttia, ennakonpidätys toimitetaan prosenttimääräisenä seuraavasti:</saa:MomenttiKooste>
-            <te/>
-            <te>Sairausvakuutuslain     Ennakonpidätysprosentti</te>
-            <te>mukainen korvaus</te>
-            <te>mk/päivä</te>
-            <te>  1,00-140,00                      20 </te>
-            <te>140,01-192,00                      25 </te>
-            <te>192,01-245,00                      30 </te>
-            <te>245,01-340,00                      35 </te>
-            <te>340,01-565,00                      40 </te>
-            <te>565,01-834,00                      45 </te>
-            <te>834,01-                            50</te>
-            <te> </te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Sairausvakuutuslain</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Ennakonpidätysprosentti</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>mukainen korvaus</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>mk/päivä</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">1,00-140,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">20</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">140,01-192,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">192,01-245,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">30</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">245,01-340,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">35</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">340,01-565,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">40</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">565,01-834,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">45</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">834,01-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">50</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Ennakonpidätys sairausvakuutuslain tai kansaneläkelain nojalla maksettavasta vähimmäismääräisestä päivärahasta on toimitettava 1 ja 2 momentista poiketen 20 %:n suuruisena. Ansiotyössä olevalle verovelvolliselle vähimmäismääräisenä maksetusta vanhempainrahasta ennakonpidätys on kuitenkin toimitettava 40 %:n suuruisena. Ennakonpidätystä ei kuitenkaan toimiteta edellä tässä momentissa tarkoitetuista suorituksista, jos suoritus on enintään 20 markkaa päivää kohti.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Tartuntatautilain (583/86) nojalla maksettavasta päivärahasta ja ansionmenetyskorvauksesta ennakonpidätys toimitetaan edellä 1-3 momentin mukaan palkkaa varten määrättyjä pidätysprosentteja alentamatta.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Eläkkeensaajan saadessa lisäksi kuntoutusrahaa, toimitetaan kuntoutusrahasta ennakonpidätys 40 %:n suuruisena. Jos eläke, jonka lisäksi kuntoutusrahaa maksetaan, on enintään kansaneläkkeen pohjaosan suuruinen, eikä siitä ole 7 §:n 3 momentin nojalla toimitettava ennakonpidätystä, ei ennakonpidätystä ole toimitettava myöskään kuntoutusrahasta, ellei maksajalle ole annettu ennakonpidätyksen toimittamiseen velvoittavaa määräystä erikseen verotoimistosta.</saa:MomenttiKooste>
@@ -124,18 +197,91 @@
             <saa:MomenttiKooste>Työttömyysturvalain nojalla maksettavasta peruspäivärahasta ja määrältään sitä vastaavasta työvoimapoliittisesta aikuiskoulutuksesta annetussa laissa (763/90) tarkoitetusta koulutustuesta ja erityistuesta ennakonpidätys toimitetaan kuitenkin 20 %:n suuruisena. Työllisyysasetuksen (737/87) nojalla työelämään harjaantumassa olevalle työttömälle tai vajaakuntoiselle maksettavasta työllistämistuesta tai ammatinvalinnanohjauksessa olevalle ammatinvalinnan ohjauksesta annetun lain (43/60) nojalla maksettavasta vastaavasta tuesta ennakonpidätys toimitetaan 20 %:n suuruisena. Ennakonpidätystä ei kuitenkaan toimiteta edellä tässä momentissa tarkoitetuista suorituksista, jos suoritus on enintään 20 markkaa päivää kohti.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Työllisyysasetuksen muuttamisesta ja väliaikaisesta muuttamisesta annetun asetuksen (1217/91) 48 a §:n mukaisesta pitkäaikaistyöttömälle omatoimiseen työllistämiseen annettavasta tuesta ja valtioneuvoston päätöksen (415/92) nojalla myönnettävästä nuorten kesätyötuesta ennakonpidätys toimitetaan 20 prosentin suuruisena.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Kun 1, 2 tai 3 momentissa tarkoitettuja suorituksia maksetaan aikaisemmin maksettujen lisäksi tai muulta ajalta kuin verovuodelta, ennakonpidätys toimitetaan 1, 2 tai 3 momentista poiketen seuraavan taulukon osoittaman prosenttiluvun suuruisena:</saa:MomenttiKooste>
-            <te/>
-            <te>Työttömyysturvalain      Ennakonpidätysprosentti</te>
-            <te>mukainen korvaus</te>
-            <te>mk/päivä</te>
-            <te>  1,00-156,00                      20 </te>
-            <te>156,01-230,00                      25 </te>
-            <te>230,01-270,00                      30 </te>
-            <te>270,01-376,00                      35 </te>
-            <te>376,01-597,00                      40 </te>
-            <te>597,01-926,00                      45 </te>
-            <te>926,01-                            50</te>
-            <te> </te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">Työttömyysturvalain</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">Ennakonpidätysprosentti</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>mukainen korvaus</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste>mk/päivä</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">1,00-156,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">20</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">156,01-230,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">230,01-270,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">30</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">270,01-376,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">35</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">376,01-597,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">40</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">597,01-926,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">45</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="1">926,01-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste colname="2">50</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Jos suorituksen maksaja ei ole saanut 24 §:ssä tarkoitetulla tavalla pidätyksen toimittamista varten tarvittavia tietoja eikä verovelvollinen esitä maksajalle verokorttia, ennakonpidätys toimitetaan edellä 4 momentissa olevan taulukon mukaan myös 1 momentissa tarkoitetuista suorituksista. </saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">

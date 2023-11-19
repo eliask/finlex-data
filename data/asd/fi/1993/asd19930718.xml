@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>opetus- ja kulttuuritoimen rahoituksesta annetun lain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 81/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>SiVM 8/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -59,20 +51,118 @@
           <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Opetustoimen valtionosuus</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Peruskoulun, peruskoulua korvaavan koulun, lukion, iltalukion, kansalaisopiston ja musiikkioppilaitoksessa järjestettävän muun kuin ammatillisen koulutuksen valtionosuus määräytyy kuntien kantokykyluokituksesta annetun lain (649/85) mukaan seuraavasti:</saa:MomenttiKooste>
-          <te/>
-          <te>Kantokyky-         Valtionosuus</te>
-          <te>luokka             prosentteina</te>
-          <te>  1                    60</te>
-          <te>  2                    60</te>
-          <te>  3                    60</te>
-          <te>  4                    60</te>
-          <te>  5                    60</te>
-          <te>  6                    57</te>
-          <te>  7                    54</te>
-          <te>  8                    51</te>
-          <te>  9                    48</te>
-          <te> 10                    45</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Kantokyky-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Valtionosuus</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>luokka</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>prosentteina</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>60</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>60</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>60</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>60</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>60</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>6</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>57</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>7</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>54</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>8</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>51</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>9</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>48</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>10</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>45</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Peruskoulun, peruskoulua korvaavan koulun, lukion ja iltalukion valtionosuus määräytyy oppilaiden kotikuntien kantokykyluokkien mukaisesti.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kahden tai useamman kunnan ja kuntayhtymän ylläpitämän kansalaisopiston kantokykyluokittainen valtionosuus määräytyy ylläpitäjäkuntien ja kuntayhtymän jäsenkuntien asukasmäärien mukaisessa suhteessa. Yksityisen kansalaisopiston valtionosuus määräytyy opiston sijaintikunnan kantokykyluokan mukaan.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Valtionosuus musiikkioppilaitoksen muuhun kuin ammatilliseen koulutukseen määräytyy oppilaitoksen sijaintikunnan kantokykyluokan mukaan.</saa:MomenttiKooste>
@@ -173,6 +263,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930081.he">
+        <sis1:ViiteTeksti>HE 81/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19930008.sivm">
+        <sis1:ViiteTeksti>SiVM 8/93</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 26 päivänä heinäkuuta 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

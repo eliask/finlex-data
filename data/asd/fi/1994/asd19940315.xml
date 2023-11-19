@@ -12,66 +12,448 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Ilmoitus">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Maa- ja metsätalousministeriön ilmoitus</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>eräistä päätöksistä</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Maa- ja metsätalousministeriö ilmoittaa Suomen säädöskokoelmasta 17 päivänä lokakuuta 1980 annetun asetuksen (696/80) 2 §:n ja 2 b §:n sekä maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) 10 §:n nojalla:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <te>1) Valtioneuvosto on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavat päätökset:</te>
-        <te/>
-        <te>Päätöksen nimike           MMM:n    antopäivä  voimaan- kumo-</te>
-        <te>                        määräys-                 tulo-  taan</te>
-        <te>                       kokoelman                 päivä</te>
-        <te>                             n:o</te>
-        <te>VNp hinnanerokorvauksen</te>
-        <te>alaisista maatalous-</te>
-        <te>tuotteista sekä</te>
-        <te>maksettavista hinnan-</te>
-        <te>erokorvauksista annetun</te>
-        <te>päätöksen muuttamisesta    26/94    28.4.1994   1.5.1994    Ä</te>
-        <te>VNp maitovalmisteiden</te>
-        <te>hintojen alentamisesta</te>
-        <te>eräissä käyttökohteissa</te>
-        <te>annetun valtioneuvoston</te>
-        <te>päätöksen muuttamisesta    27/94    28.4.1994   1.5.1994    Ä</te>
-        <te>VNp sokerin ja sokerikemian</te>
-        <te>tuotteiden hinnanalennus-</te>
-        <te>korvauksista annetun</te>
-        <te>valtioneuvoston päätöksen</te>
-        <te>1 §:n muuttamisesta        28/94    28.4.1994   1.5.1994    Ä</te>
-        <te>VNp elintarvikkeiden</te>
-        <te>hinnanerokorvausten</te>
-        <te>perusteista annetun</te>
-        <te>valtioneuvoston päätöksen</te>
-        <te>muuttamisesta              29/94    28.4.1994   1.5.1994    Ä</te>
-        <te/>
-        <te>2) Maa- ja metsätalousministeriö on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavan päätöksen:</te>
-        <te/>
-        <te>Päätöksen nimike           MMM:n    antopäivä  voimaan- kumo-</te>
-        <te>                        määräys-                 tulo-  taan</te>
-        <te>                       kokoelman                 päivä</te>
-        <te>                             n:o</te>
-        <te>MMMp elintarvikkeiden</te>
-        <te>raaka-aineiden</te>
-        <te>hinnaneroista              31/94    28.4.1994   1.5.1994    Ä</te>
-        <te/>
-        <te>3) Maa- ja metsätalousministeriö on valtion talousarvion momentin 30.31.48 nojalla antanut seuraavan päätöksen:</te>
-        <te/>
-        <te>Päätöksen nimike           MMM:n    antopäivä  voimaan- kumo-</te>
-        <te>                        määräys-                 tulo-  taan</te>
-        <te>                       kokoelman                 päivä</te>
-        <te>                             n:o</te>
-        <te>MMMp kotimaisen</te>
-        <te>viljan hinnan</te>
-        <te>alentamisesta etanolin</te>
-        <te>valmistuksessa             30/94    28.4.1994   1.5.1994    Ä</te>
-        <te>Edellä mainitut päätökset on julkaistu maa- ja metsätalousministeriön määräyskokoelmassa. Päätökset ovat saatavissa maa- ja metsätalousministeriön tietopalvelukeskuksesta, osoite Liisankatu 8, PL 250, 00171 Helsinki, puh. 90-134211.</te>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>1) Valtioneuvosto on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavat päätökset:</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="5" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Päätöksen nimike</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">MMM:n</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">antopäivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">voimaan-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">kumo-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">määräys-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">tulo-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">taan</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">kokoelman</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste>päivä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">n:o</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>VNp hinnanerokorvauksen</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>alaisista maatalous-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>tuotteista sekä</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>maksettavista hinnan-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>erokorvauksista annetun</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">päätöksen muuttamisesta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">26/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">28.4.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.5.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>VNp maitovalmisteiden</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>hintojen alentamisesta</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>eräissä käyttökohteissa</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>annetun valtioneuvoston</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">päätöksen muuttamisesta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">27/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">28.4.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.5.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>VNp sokerin ja sokerikemian</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>tuotteiden hinnanalennus-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>korvauksista annetun</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>valtioneuvoston päätöksen</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">1 §:n muuttamisesta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">28/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">28.4.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.5.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>VNp elintarvikkeiden</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>hinnanerokorvausten</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>perusteista annetun</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>valtioneuvoston päätöksen</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">muuttamisesta</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">29/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">28.4.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.5.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>2) Maa- ja metsätalousministeriö on maataloustuotteiden hinnanerokorvauksista annetun lain (1521/93) nojalla antanut seuraavan päätöksen:</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="5" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Päätöksen nimike</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">MMM:n</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">antopäivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">voimaan-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">kumo-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">määräys-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">tulo-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">taan</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">kokoelman</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">päivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste>n:o</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>MMMp elintarvikkeiden</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>raaka-aineiden</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">hinnaneroista</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">31/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">28.4.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.5.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>3) Maa- ja metsätalousministeriö on valtion talousarvion momentin 30.31.48 nojalla antanut seuraavan päätöksen:</saa:SaadosKappaleKooste>
+        <tau:table>
+          <tau:tgroup cols="5" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">Päätöksen nimike</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">MMM:n</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">antopäivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">voimaan-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">kumo-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">määräys-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">tulo-</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">taan</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">kokoelman</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">päivä</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5"/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1"/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">n:o</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3"/>
+                </tau:entry>
+                <tau:entry namest="4" nameend="5">
+                  <sis:KappaleKooste/>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>MMMp kotimaisen</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>viljan hinnan</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry namest="1" nameend="5">
+                  <sis:KappaleKooste>alentamisesta etanolin</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste colname="1">valmistuksessa</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="2">30/94</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="3">28.4.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="4">1.5.1994</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste colname="5">-</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
+        <saa:SaadosKappaleKooste>Edellä mainitut päätökset on julkaistu maa- ja metsätalousministeriön määräyskokoelmassa. Päätökset ovat saatavissa maa- ja metsätalousministeriön tietopalvelukeskuksesta, osoite Liisankatu 8, PL 250, 00171 Helsinki, puh. 90-134211.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 28 päivänä huhtikuuta 1994</asi:PaivaysKooste>

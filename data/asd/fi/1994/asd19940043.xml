@@ -54,13 +54,59 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Matkustusasiakirjat</saa:SaadosOtsikkoKooste>
-          <te>Passista, diplomaattipassista, virkapassista ja virkamatkapassista peritään maksu seuraavasti:</te>
-          <te/>
-          <te>Voimassaoloaika enintään               mk</te>
-          <te>yksi vuosi                            220</te>
-          <te>viisi vuotta                          200</te>
-          <te>kymmenen vuotta                       200</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">Passista, diplomaattipassista, virkapassista ja virkamatkapassista peritään maksu seuraavasti:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Voimassaoloaika enintään</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>yksi vuosi</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>220</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>viisi vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>200</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>kymmenen vuotta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>200</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Merenkulkijain kansallisesta henkilöllisyystodistuksesta peritään 200 markkaa.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kielteisestä päätöksestä peritään 130 markkaa.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Matkaa tai tehtävää varten myönnetyn diplomaattipassin tai virkamatkapassin voimassaoloaikana tapahtuvasta passin uudelleen käyttöön ottamisesta peritään 50 markkaa.</saa:MomenttiKooste>

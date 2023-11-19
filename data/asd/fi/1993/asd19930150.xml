@@ -67,11 +67,61 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
           <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Myönnettäessä avustusta 4 §:n mukaiseen tarkoitukseen on avustuksen myöntämisen edellytyksenä, että asuinrakennuksessa tai asunnossa asuvan ruokakunnan pysyvät tulot kuukaudessa eivät ylitä seuraavia henkilöluvusta riippuvia tulorajoja:</saa:MomenttiKooste>
-          <te/>
-          <te>Henkilö-</te>
-          <te>luku      1         2         3         4</te>
-          <te>Tulot     4 100     5 100     5 700     6 300 mk</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="5" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top">Henkilö-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>luku</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Tulot</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4 100</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5 100</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5 700</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>6 300 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="5">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Tuloiksi ei kuitenkaan lueta asumistukea eikä asumistukiasetuksen 3 a §:ssä mainittuja tuloja.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Tulojen enimmäismääriä korotetaan 600 markalla kutakin lisähenkilöä kohden. Jos ruokakuntaan kuuluu enemmän kuin yksi tulonsaaja, vähennetään kunkin muun kuin eniten ansaitsevan henkilön kuukausituloista 3 500 markkaa.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Kuukausituloista vähennetään lisäksi 2 000 markkaa jokaista ruokakuntaan kuuluvaa lasta kohden, joka ei ole täyttänyt kahdeksaatoista vuotta sen kalenterivuoden loppuun mennessä, jona tässä päätöksessä tarkoitettua avustusta haetaan.</saa:MomenttiKooste>

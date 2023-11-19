@@ -99,12 +99,54 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="16 §">
           <saa:PykalaTunnusKooste>16 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Jos margariinin tai voi-kasviöljyseoksen myyntipäällyksessä ilmoitetaan ravintosisällön yhteydessä rasvapitoisuus, ei sitä koskevaa erillistä mainintaa tarvita. Myös maitorasvan määrä voidaan tällöin liittää ravintosisällön yhteyteen esimerkiksi seuraavasti:</saa:MomenttiKooste>
-          <te>Ravintosisältö keskimäärin:</te>
-          <te>100 g valmistetta sisältää</te>
-          <te> energiaa         kJ </te>
-          <te>proteiinia         g </te>
-          <te>rasvaa              g, josta maitorasvaa x %</te>
-          <te> hiilihydraattia g.</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">Ravintosisältö keskimäärin:</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">100 g valmistetta sisältää</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>energiaa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>kJ</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>proteiinia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>g</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>rasvaa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>g, josta maitorasvaa x %</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>hiilihydraattia</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>g.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="17 §">
           <saa:PykalaTunnusKooste> 17 §</saa:PykalaTunnusKooste>

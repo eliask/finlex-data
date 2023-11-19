@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>tuontimaksulain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 26/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>VaVM 16/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -59,6 +51,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940026.he">
+        <sis1:ViiteTeksti>HE 26/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940016.vavm">
+        <sis1:ViiteTeksti>VaVM 16/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 10 päivänä kesäkuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -78,41 +82,409 @@
     <asi:SisaltoLiite>
       <sis:KappaleKooste>Liite 1</sis:KappaleKooste>
       <sis:KappaleKooste>ETULUETTELO</sis:KappaleKooste>
-      <te/>
-      <te>Nimike        Tuote ja sen käyttötarkoitus                Tuonti-     Kiintiö</te>
-      <te>                                                          maksu mk/kg   t</te>
-      <te>02.02:sta     Biisonin-, visentin- ja puhvelinliha        2/3 täydestä</te>
-      <te>02.03:sta     Villisianliha                               tuonti-      70</te>
-      <te>02.08:sta     Riistaeläinten liha                         maksusta</te>
-      <te>04.06:sta     Juusto  	                               23,59	   350</te>
-      <te>-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</te>
-      <te>07.06.90:stä  Punajuuret ruokateollisuuden tuotteiden </te>
-      <te>              valmistukseen 	                       0,11 	     *</te>
-      <te>-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</te>
-      <te>08.10.20:sta  Karhunvatukat, mulperinmarjat ja loganin-   28 %</te>
-      <te>              marjat, tullattaessa 1.9.-31.5. 	       1,06</te>
-      <te>-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</te>
-      <te>08.11.20:sta  Musta-, valko- ja punaherukat sekä karviaiset, </te>
-      <te>              lisättyä sokeria tai muuta makeutusainetta</te>
-      <te>              sisältämättömät, muuhun kuin teolliseen </te>
-      <te>              käyttöön 	                               25 %	     *</te>
-      <te>-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</te>
-      <te>10.01.90:stä  Vehnä keksien ja lakritsin valmistukseen  	1,20 	     *</te>
-      <te>-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</te>
-      <te>11.02.20:sta  Maissijauho  	                        1,50	   400</te>
-      <te>-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</te>
-      <te>12.14.90:stä  Lantut ruokateollisuuden tuotteiden </te>
-      <te>              valmistukseen  	                        0,11 	     *</te>
-      <te>17.01.11:sta  Sokerinraffinointiteollisuudessa käytettävä </te>
-      <te>              ruokosokeri 	                                vapaa</te>
-      <te>17.01.12:sta  Sokerinraffinointiteollisuudessa käytettävä </te>
-      <te>              juurikassokeri 	                        vapaa</te>
-      <te>-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</te>
-      <te>23.03:sta     Maissigluteeni ja perunaproteiinitiiviste </te>
-      <te>              turkiseläinten rehujen valmistukseen 	vapaa</te>
-      <te>-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</te>
-      <te>* Kiintiö voidaan asettaa 6 §:n 1 momentin perusteella</te>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="4" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Nimike</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Tuote ja sen käyttötarkoitus</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Tuonti-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Kiintiö</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>maksu mk/kg</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>t</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>02.02:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Biisonin-, visentin- ja puhvelinliha</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2/3 täydestä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>02.03:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Villisianliha</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>tuonti-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>70</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>02.08:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Riistaeläinten liha</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="3" nameend="4">
+                <sis:KappaleKooste align="left" valign="top">maksusta</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>04.06:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Juusto</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>23,59</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">- - - - - - - - - - - - - - - - - - - - - - - - - - - - -</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>07.06.90:stä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">Punajuuret ruokateollisuuden tuotteiden</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>valmistukseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>0,11</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>*</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">- - - - - - - - - - - - - - - - - - - - - - - - - - - - -</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>08.10.20:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Karhunvatukat, mulperinmarjat ja loganin-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="3" nameend="4">
+                <sis:KappaleKooste align="left" valign="top">28 %</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>marjat, tullattaessa 1.9.-31.5.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="3" nameend="4">
+                <sis:KappaleKooste align="left" valign="top">1,06</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">- - - - - - - - - - - - - - - - - - - - - - - - - - - - -</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>08.11.20:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">Musta-, valko- ja punaherukat sekä karviaiset,</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">lisättyä sokeria tai muuta makeutusainetta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">sisältämättömät, muuhun kuin teolliseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>käyttöön</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>25 %</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>*</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">- - - - - - - - - - - - - - - - - - - - - - - - - - - - -</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>10.01.90:stä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Vehnä keksien ja lakritsin valmistukseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>*</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">- - - - - - - - - - - - - - - - - - - - - - - - - - - - -</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>11.02.20:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Maissijauho</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>400</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">- - - - - - - - - - - - - - - - - - - - - - - - - - - - -</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>12.14.90:stä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">Lantut ruokateollisuuden tuotteiden</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>valmistukseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>0,11</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>*</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>17.01.11:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">Sokerinraffinointiteollisuudessa käytettävä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>ruokosokeri</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="3" nameend="4">
+                <sis:KappaleKooste align="left" valign="top">vapaa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>17.01.12:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">Sokerinraffinointiteollisuudessa käytettävä</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>juurikassokeri</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="3" nameend="4">
+                <sis:KappaleKooste align="left" valign="top">vapaa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">- - - - - - - - - - - - - - - - - - - - - - - - - - - - -</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>23.03:sta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">Maissigluteeni ja perunaproteiinitiiviste</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>turkiseläinten rehujen valmistukseen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="3" nameend="4">
+                <sis:KappaleKooste align="left" valign="top">vapaa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">- - - - - - - - - - - - - - - - - - - - - - - - - - - - -</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste align="left" valign="top">* Kiintiö voidaan asettaa 6 §:n 1 momentin perusteella</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="4">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

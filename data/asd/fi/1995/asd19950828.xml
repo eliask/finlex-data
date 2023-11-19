@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>kotitalouksien sähkökäyttöisten jääkaappien, pakastimien ja näiden yhdistelmien energiamerkinnässä annettavista tiedoista</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Komission direktiivi94/2/ETY; EYVL N:o L 45/1, 17.2.1994, s. 1 </sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -105,6 +100,9 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Komission direktiivi<sis:YleinenViite sis1:viiteURL="394L0002"><sis1:ViiteTeksti>94/2/ETY</sis1:ViiteTeksti></sis:YleinenViite>; EYVL N:o L 45/1, 17.2.1994, s. 1 </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 26 päivänä toukokuuta 1995</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -129,7 +127,7 @@
       </sis:KappaleKooste>
       <sis:KappaleKooste>1. Merkin on oltava seuraavan mallin mukainen:</sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi ID="1348"/>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/1348.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>Merkkiä koskevat selitykset</sis1:LihavaTeksti>
@@ -151,7 +149,7 @@
       </sis:KappaleKooste>
       <sis:KappaleKooste>Energiamerkin mitat ja värit ovat seuraavat: </sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi ID="1350"/>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/mittap/1350.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>Värit: CMYK: syaani, magenta, keltainen, musta. </sis:KappaleKooste>
       <sis:KappaleKooste>Esimerkiksi 07X0: 0 % syaania, 70 % magentaa, 100 % keltaista, 0 % mustaa. </sis:KappaleKooste>
@@ -288,7 +286,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 3</ete>
+      <sis1:ValiotsikkoTeksti>Liite 3</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>POSTIMYYNTI JA MUUT ETÄMYYNTITAVAT</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Päätöksen 7 §:ssä tarkoitetuissa postimyyntiluetteloissa ja muissa etäviestintätavoissa on ilmoitettava seuraavat tiedot mainitussa järjestyksessä:</sis:KappaleKooste>
       <sis:KappaleKooste>1) Energiatehokkuusluokka (liite 2 kohta 4).</sis:KappaleKooste>
@@ -303,7 +301,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 4</ete>
+      <sis1:ValiotsikkoTeksti>Liite 4</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>LUOKAT</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Tämän päätöksen soveltamisalaan kuuluvat laitteet luokitellaan seuraavasti:</sis:KappaleKooste>
       <sis:KappaleKooste>1) Kotitalouksien jääkaapit, joissa ei ole pakasteosastoa.</sis:KappaleKooste>
@@ -320,7 +318,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 5</ete>
+      <sis1:ValiotsikkoTeksti>Liite 5</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>ENERGIATEHOKKUUDEN MUKAINEN LUOKITUS</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Laitteen energiatehokkuuden mukainen luokitus määritellään seuraavan taulukon 1 mukaan:</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>TAULUKKO 1</sis1:ValiotsikkoTeksti>
@@ -405,17 +403,166 @@
       <sis:KappaleKooste> </sis:KappaleKooste>
       <sis:KappaleKooste>Arvot M, N ja Q on otettu taulukosta 2.</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>TAULUKKO 2 </sis1:ValiotsikkoTeksti>
-      <te>Laiteluokka                                   Q         M       N </te>
-      <te>1 Jääkaapit, joissa ei ole pakasteosastoa    -         0,233   245</te>
-      <te>2 Jää-viileäkaapit                           0,75(1)   0,233   245</te>
-      <te>3 Jääkaapit, joilla ei ole tähtiluokitusta   1,25      0,233   245</te>
-      <te>4 Jääkaapit *                                1,55      0,643   191</te>
-      <te>5 Jääkaapit **                               1,85      0,450   245</te>
-      <te>6 Jääkaapit ***                              2,15      0,657   235</te>
-      <te>7 Jääkaappi-pakastimet *(***)                (3)       0,777   303</te>
-      <te>8 Kaappipakastimet                           2,15(2)   0,472   286</te>
-      <te>9 Säiliöpakastimet                           2,15(2)   0,446   181</te>
-      <te>10 Monioviset tai muut laitteet               (3)       (4)     (4)</te>
+      <tau:table>
+        <tau:tgroup cols="4" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Laiteluokka</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Q</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">M</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">N</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">1 Jääkaapit, joissa ei ole pakasteosastoa</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">-</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,233</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">245</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">2 Jää-viileäkaapit</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">0,75(1)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,233</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">245</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">3 Jääkaapit, joilla ei ole tähtiluokitusta</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,25</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,233</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">245</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">4 Jääkaapit *</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,55</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,643</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">191</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">5 Jääkaapit **</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1,85</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,450</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">245</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">6 Jääkaapit ***</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2,15</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,657</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">235</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">7 Jääkaappi-pakastimet *(***)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">(3)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,777</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">303</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">8 Kaappipakastimet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2,15(2)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,472</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">286</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">9 Säiliöpakastimet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">2,15(2)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,446</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">181</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">10 Monioviset tai muut laitteet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">(3)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">(4)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="4">(4)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:Katkoviiva/>
       <sis:KappaleKooste>(1) Jää-viileäkaappien osalta sovellettu tilavuus = tuoreiden elintarvikkeiden osaston käyttötilavuus + Ω x viileäosan (10°C) käyttötilavuus (ilmaistu litroina). </sis:KappaleKooste>
       <sis:KappaleKooste>(2) Liitteen 2 kohdassa 10 määriteltyjen automaattisulatteisten laitteiden osalta tämä arvo nostetaan 2,58:aan lisäämällä tilapäinen tekijä 1,2. (Tämän avulla voidaan ottaa huomioon se seikka, ettei mittausmenetelmä mahdollisesti ota huomioon jään muodostumisen puuttumista automaattisulatteisissa laitteissa. Käytännössä jään muodostuminen lisää hieman "tavanomaisten" laitteiden energiankulutusta). </sis:KappaleKooste>
@@ -424,20 +571,122 @@
       <sis:KappaleKooste>jossa 'Tc' on kunkin osaston nimellislämpötila (°C:na), 'Vc' on sen käyttötilavuus (litroina) ja 'Fc' on tekijä arvoltaan 1,2 automaattisulatteisille osastoille ja 1 muille osastoille.</sis:KappaleKooste>
       <sis:KappaleKooste>(4) Näissä laitteissa arvot M ja N määritetään sen osaston lämpötilan ja tähtiluokituksen mukaan, jonka lämpötila on alhaisin, seuraavasti:</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>TAULUKKO 3</sis1:ValiotsikkoTeksti>
-      <te>Kylmimmän                    Vastaava luokka                          M      N</te>
-      <te>osaston lämpötila</te>
-      <te> - 6°C             1/2/3 Jääkaappi, jossa ei ole pakasteosastoa/   0,233   245</te>
-      <te>                    tähtiluokitusta/jää-viileäkaappi</te>
-      <te>≤ -  6°C *         4 Jääkaappi *                                   0,643   191</te>
-      <te>≤ - 12°C **        5 Jääkaappi **                                  0,450   245</te>
-      <te>≤ - 18°C ***       6 Jääkaappi ***                                 0,657   235</te>
-      <te>≤ - 18°C *(***)    7  Jääkaappi-pakastin *(***)                    0,777   303</te>
-      <te>sekä pakastuskyky</te>
+      <tau:table>
+        <tau:tgroup cols="5" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">Kylmimmän</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">Vastaava luokka</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">M</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="5">
+                <sis:KappaleKooste>N</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="5">
+                <sis:KappaleKooste>osaston lämpötila</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">- 6°C</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">1/2/3 Jääkaappi, jossa ei ole pakasteosastoa/</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,233</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="5">
+                <sis:KappaleKooste>245</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1"/>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste>tähtiluokitusta/jää-viileäkaappi</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="5">
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">≤ - 6°C *</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">4 Jääkaappi *</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,643</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="5">
+                <sis:KappaleKooste>191</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">≤ - 12°C **</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">5 Jääkaappi **</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,450</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="5">
+                <sis:KappaleKooste>245</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">≤ - 18°C ***</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">6 Jääkaappi ***</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,657</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="5">
+                <sis:KappaleKooste>235</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste colname="1">≤ - 18°C *(***)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="2">7 Jääkaappi-pakastin *(***)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste colname="3">0,777</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="4" nameend="5">
+                <sis:KappaleKooste>303</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="5">
+                <sis:KappaleKooste>sekä pakastuskyky</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 6</ete>
+      <sis1:ValiotsikkoTeksti>Liite 6</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>MERKISSÄ JA TUOTESELOSTEESSA KÄYTETTÄVÄT TERMIT</sis1:ValiotsikkoTeksti>
       <tau:table>
         <tau:tgroup cols="4" colsep="0" rowsep="0" align="left">

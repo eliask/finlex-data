@@ -12,18 +12,16 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Maatilahallituksen päätös </saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>tärkeimpien kasvilajien lajikkeista </saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Maatilahallitus on siementavaran kaupasta annetun lain (669/75) 8 §:n 1 momentin ja siementavaran kaupasta annetun asetuksen (670/75) 7 §:n nojalla hyväksynyt vuodeksi 1988 seuraavan luettelon niiden tärkeimpien kasvilajien lajikkeista, joiden viljely on osoittautunut tarkoituksenmukaiseksi:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
-        <ete>TAULUKKO PUUTTUU</ete>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosValiotsikkoKooste>TAULUKKO PUUTTUU</saa:SaadosValiotsikkoKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 28 päivänä toukokuuta 1987</asi:PaivaysKooste>
@@ -42,23 +40,13 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>LIITTEENÄ</ete>
-    </asi:SisaltoLiite>
-  </asi:LiiteOsa>
-  <asi:LiiteOsa>
-    <asi:SisaltoLiite>
-      <ete>Luettelo lajikkeiden jalostajista ja omistajista (liite 1)</ete>
-    </asi:SisaltoLiite>
-  </asi:LiiteOsa>
-  <asi:LiiteOsa>
-    <asi:SisaltoLiite>
-      <ete>PUUTTUU</ete>
-    </asi:SisaltoLiite>
-  </asi:LiiteOsa>
-  <asi:LiiteOsa>
-    <asi:SisaltoLiite>
+      <sis1:ValiotsikkoTeksti>LIITTEENÄ</sis1:ValiotsikkoTeksti>
+      <sis1:ValiotsikkoTeksti>Luettelo lajikkeiden jalostajista ja omistajista (liite 1)</sis1:ValiotsikkoTeksti>
+      <sis1:ValiotsikkoTeksti>PUUTTUU</sis1:ValiotsikkoTeksti>
+      <sis1:ValiotsikkoTeksti>Viljelyvyöhykkeitä esittävä kartta (liite 2)</sis1:ValiotsikkoTeksti>
       <sis:Kuva>
-        <sis:KuvaAsemointi ID="0014"/>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kart/0014.gif">Viljelyvyöhykkeitä esittävä kartta (liite 2)</sis:KuvaAsemointi>
+        <saa:SaadosKappaleKooste>Viljelyvyöhykkeitä esittävä kartta (liite 2)</saa:SaadosKappaleKooste>
       </sis:Kuva>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>

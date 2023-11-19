@@ -54,11 +54,52 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 b §">
           <saa:PykalaTunnusKooste>8 b §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Viljellyn maatalousmaan vuotuista työtuloa määriteltäessä pidetään perustyötulona hehtaarilta:</saa:MomenttiKooste>
-          <te>ensimmäisiltä 12 hehtaarilta 640 markkaa</te>
-          <te>seuraavilta   10 hehtaarilta 260 markkaa</te>
-          <te>seuraavilta   10 hehtaarilta 175 markkaa</te>
-          <te>seuraavilta   30 hehtaarilta  55 markkaa</te>
-          <te>lopuilta hehtaareilta         10 markkaa</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ensimmäisiltä 12 hehtaarilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">640 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">seuraavilta 10 hehtaarilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">260 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">seuraavilta 10 hehtaarilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">175 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">seuraavilta 30 hehtaarilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">55 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">lopuilta hehtaareilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">10 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Työtulon normaalialue on enintään 130 prosenttia ja vähintään 85 prosenttia perustyötulosta. Jos maatilatalouden harjoittajia, joille työtuloa määritellään, on yksi, ovat sanotut prosenttiluvut 115 ja 70.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Viljellyn maatalousmaan vuotuinen työtulo on maatilatalouden harjoittajien hakemuksessaan 2 momentissa tarkoitetulta normaalialueelta esittämä markkamäärä. Jos sanottua markkamäärää ei esitetä tai esitetty määrä on ilmeisessä ristiriidassa viljelmän tosiasiallisten olosuhteiden kanssa, työtulo on perustyötulon suuruinen.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Siltä ajalta, jolta maatilatalouden harjoittajien maatilatalous viljelmällä ei ole yhdenjaksoisesti jatkunut kahta vuotta, viljellyn maatalousmaan vuotuinen työtulo on vähintään perustyötulon suuruinen.</saa:MomenttiKooste>
@@ -67,15 +108,75 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 c §">
           <saa:PykalaTunnusKooste>8 c §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Kasvullisen metsämaan vuotuista työtuloa määriteltäessä pidetään perustyötulona hehtaarilta:</saa:MomenttiKooste>
-          <te>Etelä-Suomessa</te>
-          <te>ensimmäisiltä 120 hehtaarilta 25,0 markkaa</te>
-          <te>seuraavilta   280 hehtaarilta 12,5 markkaa</te>
-          <te>Keski-Suomessa </te>
-          <te>ensimmäisiltä 150 hehtaarilta 20,0 markkaa</te>
-          <te>seuraavilta   350 hehtaarilta 10,0 markkaa</te>
-          <te>Pohjois-Suomessa</te>
-          <te>ensimmäisiltä 200 hehtaarilta 15,0 markkaa</te>
-          <te>seuraavilta   500 hehtaarilta 7,5 markkaa</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Etelä-Suomessa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ensimmäisiltä 120 hehtaarilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">25,0 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">seuraavilta 280 hehtaarilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">12,5 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Keski-Suomessa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ensimmäisiltä 150 hehtaarilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">20,0 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">seuraavilta 350 hehtaarilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">10,0 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste>Pohjois-Suomessa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">ensimmäisiltä 200 hehtaarilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">15,0 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="1">seuraavilta 500 hehtaarilta</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste colname="2">7,5 markkaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Kasvullisen metsämaan työtulo määritellään 1 momentin mukaista perustyötuloa suuremmaksi, jos maatilatalouden harjoittajat osallistuvat metsän hakkuutöihin tai jos heidän työpanoksensa viljelmän metsätaloudessa muutoin on tavanomaista suurempi.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Työtulo määritellään 1 momentin mukaista perustyötuloa pienemmäksi, jos metsä sijaintinsa vuoksi on erittäin huonotuottoinen tai jos metsän hoitotyöt on sopimuksella tai muutoin annettu muiden tehtäviksi.</saa:MomenttiKooste>
         </saa:Pykala>
