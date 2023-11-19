@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2007-08-31" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -460,19 +460,19 @@ Fondens värde 31.12.
       <sis:KappaleKooste>Bilaga III</sis:KappaleKooste>
       <sis1:ValiotsikkoTeksti>KLASSIFICERINGEN AV PLACERINGSFONDERS OCH SPECIALPLACERINGSFONDERS VÄRDEPAPPERSPLACERINGAR OCH DERIVATINSTRUMENT</sis1:ValiotsikkoTeksti>
       <tau:table>
-        <tau:tgroup COLS="5" COLSEP="0" ROWSEP="0" ALIGN="left" SECURITY="u">
-          <tau:colspec COLNUM="1" COLNAME="1" COLWIDTH=""/>
-          <tau:colspec COLNUM="2" COLNAME="2" COLWIDTH=""/>
-          <tau:colspec COLNUM="3" COLNAME="3" COLWIDTH=""/>
-          <tau:colspec COLNUM="4" COLNAME="4" COLWIDTH=""/>
-          <tau:colspec COLNUM="5" COLNAME="5" COLWIDTH=""/>
-          <tau:tbody VALIGN="TOP">
+        <tau:tgroup cols="5" colsep="0" rowsep="0" align="left">
+          <tau:colspec colnum="1" colname="1" colwidth=""/>
+          <tau:colspec colnum="2" colname="2" colwidth=""/>
+          <tau:colspec colnum="3" colname="3" colwidth=""/>
+          <tau:colspec colnum="4" colname="4" colwidth=""/>
+          <tau:colspec colnum="5" colname="5" colwidth=""/>
+          <tau:tbody valign="top">
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>Värdepapper</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>AntalSt/nominellt,EUR</sis:KappaleKooste>
+                <sis:KappaleKooste>Antal St/nominellt, EUR</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>Kurs EUR/%</sis:KappaleKooste>
@@ -486,7 +486,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Värdepapper med vilka bedrivs offentlig handel på fondbörsens börslista<saa:SaadosKursiiviKooste>Sammanlagt</saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>Värdepapper med vilka bedrivs offentlig handel på fondbörsens börslista <sis1:KursiiviTeksti>Sammanlagt</sis1:KursiiviTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -503,7 +503,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Värdepapper med vilka bedrivs handel på någon annan reglerad marknadsplats, som fungerar fortlöpande samt är erkänd och öppen för allmänheten, än fondbörsens börslista <saa:SaadosKursiiviKooste>Sammanlagt</saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>Värdepapper med vilka bedrivs handel på någon annan reglerad marknadsplats, som fungerar fortlöpande samt är erkänd och öppen för allmänheten, än fondbörsens börslista <sis1:KursiiviTeksti>Sammanlagt</sis1:KursiiviTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -520,7 +520,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Värdepapper vilkas emissionsvillkor innefattar ett åtagande att göra värdepapperen föremål för handel inom ett år efter att de emitterats inom någotdera av ovan nämnda omsättningssystem<saa:SaadosKursiiviKooste>Sammanlagt</saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>Värdepapper vilkas emissionsvillkor innefattar ett åtagande att göra värdepapperen föremål för handel inom ett år efter att de emitterats inom någotdera av ovan nämnda omsättningssystem <sis1:KursiiviTeksti>Sammanlagt</sis1:KursiiviTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -537,7 +537,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Övriga värdepapper <saa:SaadosKursiiviKooste>Sammanlagt</saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>Övriga värdepapper <sis1:KursiiviTeksti>Sammanlagt</sis1:KursiiviTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -555,7 +555,7 @@ Fondens värde 31.12.
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Värdepapper sammanlagt</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Värdepapper sammanlagt</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
@@ -574,7 +574,7 @@ Fondens värde 31.12.
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Standardiserade derivatinstrument</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Standardiserade derivatinstrument</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
@@ -592,7 +592,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Räntederivat Terminskontrakt OptionskontraktKöpta Utställda</sis:KappaleKooste>
+                <sis:KappaleKooste>Räntederivat Terminskontrakt Optionskontrakt Köpta Utställda</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -609,7 +609,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Valutaderivat Terminskontrakt OptionskontraktKöpta Utställda</sis:KappaleKooste>
+                <sis:KappaleKooste>Valutaderivat Terminskontrakt Optionskontrakt Köpta Utställda</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -626,7 +626,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Aktiederivat Terminskontrakt OptionskontraktKöpta Utställda</sis:KappaleKooste>
+                <sis:KappaleKooste>Aktiederivat Terminskontrakt Optionskontrakt Köpta Utställda</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -643,7 +643,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Övriga derivat Terminskontrakt OptionskontraktKöpta Utställda</sis:KappaleKooste>
+                <sis:KappaleKooste>Övriga derivat Terminskontrakt Optionskontrakt Köpta Utställda</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -661,7 +661,7 @@ Fondens värde 31.12.
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Ickestandardiserade derivatinstrument</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Ickestandardiserade derivatinstrument</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
@@ -679,7 +679,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Räntederivat Terminskontrakt OptionskontraktKöpta Utställda</sis:KappaleKooste>
+                <sis:KappaleKooste>Räntederivat Terminskontrakt Optionskontrakt Köpta Utställda</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -696,7 +696,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Valutaderivat Terminskontrakt OptionskontraktKöpta Utställda</sis:KappaleKooste>
+                <sis:KappaleKooste>Valutaderivat Terminskontrakt Optionskontrakt Köpta Utställda</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -713,7 +713,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Aktiederivat Terminskontrakt OptionskontraktKöpta Utställda</sis:KappaleKooste>
+                <sis:KappaleKooste>Aktiederivat Terminskontrakt Optionskontrakt Köpta Utställda</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -730,7 +730,7 @@ Fondens värde 31.12.
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>Övriga derivat Terminskontrakt OptionskontraktKöpta Utställda</sis:KappaleKooste>
+                <sis:KappaleKooste>Övriga derivat Terminskontrakt Optionskontrakt Köpta Utställda</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -748,7 +748,7 @@ Fondens värde 31.12.
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Kassa och övriga tillgångar, netto</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Kassa och övriga tillgångar, netto</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>

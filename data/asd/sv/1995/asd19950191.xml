@@ -29,12 +29,57 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 § </saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>De enhetspriser som uträknats enligt 2 och 3 §§ höjs på grund av att lokalerna utrustas som följer: </saa:MomenttiKooste>
-          <te>                                                            mk </te>
-          <te>a) grundskolans lågstadium                                 680 </te>
-          <te>b) grundskolans högstadium, gymnasier och vuxengymnasier   930 </te>
-          <te>c) yrkesundervisningsanstalter                           1 810 </te>
-          <te>d) allmänna bibliotek                                    1 350</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>a) grundskolans lågstadium</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>680</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>b) grundskolans högstadium, gymnasier och vuxengymnasier</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>930</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>c) yrkesundervisningsanstalter</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 810</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>d) allmänna bibliotek</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 350</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">

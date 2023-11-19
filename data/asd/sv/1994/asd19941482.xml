@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Bilskattelag</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 321/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>StaUB 88/94 </sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -483,10 +475,7 @@
         <saa:Luku saa1:identifiointiTunnus="10 kap.">
           <saa:LukuTunnusKooste>10 kap. </saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Förfarande och myndigheter </saa:SaadosOtsikkoKooste>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="">
-            <saa:PykalaTunnusKooste/>
-            <saa:SaadosOtsikkoKooste>Skattemyndigheter </saa:SaadosOtsikkoKooste>
-          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Skattemyndigheter </saa:SaadosValiotsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="54 §">
             <saa:PykalaTunnusKooste>54 § </saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Den bilbeskattning som skall verkställas innan ett fordon första gången registreras eller tas i bruk ankommer på tullverket. Tullstyrelsen beslutar om den interna fördelningen av befogenheter inom tullverket.</saa:MomenttiKooste>
@@ -725,6 +714,10 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 321/94</sdk:EsityoViite>
+    <sdk:EsityoViite>StaUB 88/94 </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 29 december 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

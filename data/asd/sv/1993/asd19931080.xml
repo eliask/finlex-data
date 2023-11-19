@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av lagen angående stämpelskatt</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 141/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>StaUB 46/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -74,13 +66,13 @@
           <saa:PykalaTunnusKooste>69 §</saa:PykalaTunnusKooste>
           <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>På en handling som är underkastad stämpelskatt skall</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
+1) fästas kvitto varav betalningen framgår, eller
+</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
+2) göras ett stämpelavtryck som anger skattebeloppet.
+</saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
-        </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1) fästas kvitto varav betalningen framgår, eller">
-          <saa:PykalaTunnusKooste>1) fästas kvitto varav betalningen framgår, eller</saa:PykalaTunnusKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2) göras ett stämpelavtryck som anger skattebeloppet.">
-          <saa:PykalaTunnusKooste>2) göras ett stämpelavtryck som anger skattebeloppet.</saa:PykalaTunnusKooste>
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>Om stämpelskattebeloppet understiger 30 mark, behöver det inte betalas.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -159,6 +151,10 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 141/93</sdk:EsityoViite>
+    <sdk:EsityoViite>StaUB 46/93</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 3 december 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

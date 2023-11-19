@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2005-05-11" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av statsrådets förordning om transport av farliga ämnen på järnväg</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Kommissionens direktiv 2004/110/EG (32004L0110); EGT nr L 365, 10.12.2004, s. 24</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Asetus">
@@ -229,11 +224,11 @@
             </saa:KohdatMomentti>
             <saa:MomenttiKooste>För sådan utbildning som avses i 1 mom. 2 punkten indelas personalen i tre kategorier enligt utbildningsbehov enligt följande:</saa:MomenttiKooste>
             <tau:table>
-              <tau:tgroup COLS="3" COLSEP="0" ROWSEP="0" ALIGN="left" SECURITY="u">
-                <tau:colspec COLNUM="1" COLNAME="1" COLWIDTH=""/>
-                <tau:colspec COLNUM="2" COLNAME="2" COLWIDTH=""/>
-                <tau:colspec COLNUM="3" COLNAME="3" COLWIDTH=""/>
-                <tau:tbody VALIGN="TOP">
+              <tau:tgroup cols="3" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="1" colname="1" colwidth=""/>
+                <tau:colspec colnum="2" colname="2" colwidth=""/>
+                <tau:colspec colnum="3" colname="3" colwidth=""/>
+                <tau:tbody valign="top">
                   <tau:row>
                     <tau:entry>
                       <sis:KappaleKooste/>
@@ -299,51 +294,51 @@
               <saa:MomenttiJohdantoKooste>Den uppgiftsbaserade utbildningen för de personalgrupper som avses i 31 a § 2 mom. skall omfatta åtminstone följande ämnesområden:</saa:MomenttiJohdantoKooste>
               <saa:MomenttiKohtaKooste>
 1) lokförare och personer med motsvarande funktion i kategori 1:
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 a) tågets sammansättning, farliga ämnen och placeringen av dem i tåget,
-</saa:MomenttiAlakohtaKooste>
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 b) typer av exceptionella situationer,
-</saa:MomenttiAlakohtaKooste>
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 c) handlande i kritiska exceptionella situationer, åtgärder för att skydda det egna tåget och trafiken på spåren bredvid;
-</saa:MomenttiAlakohtaKooste>
 </saa:MomenttiKohtaKooste>
               <saa:MomenttiKohtaKooste>
 2) rangerare samt personer med motsvarande funktion i kategori 1:
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 a) betydelsen av rangeretikett nr 13 och 15 vid rangerarbete,
-</saa:MomenttiAlakohtaKooste>
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 b) skyddsvagnar och skyddsavstånd i enlighet med punkt 7.5.3 i bilagan till ministeriets förordning,
-</saa:MomenttiAlakohtaKooste>
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 c) typer av exceptionella situationer;
-</saa:MomenttiAlakohtaKooste>
 </saa:MomenttiKohtaKooste>
               <saa:MomenttiKohtaKooste>
 3) vagnsynare, lastningsrådgivare och personer med motsvarande funktion i kategori 2:
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 a) teknisk kontroll av vagnarna,
-</saa:MomenttiAlakohtaKooste>
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 b) teknisk kontroll enligt överenskommelsen om ömsesidigt utbyte och utnyttjande av godsvagnar mellan järnvägsoperatörerna (RIV, bihang XII); detta tillämpas endast på personer som utför inspektioner med anknytning till internationell RID-trafik,
-</saa:MomenttiAlakohtaKooste>
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 c) kontroll till exempel enligt internationella järnvägsunionens UIC normblad 471―3, vilket avses i 9 § 2 mom.; detta tillämpas endast på personer som utför inspektioner i fråga;
-</saa:MomenttiAlakohtaKooste>
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 d) identifiering av exceptionella situationer;
-</saa:MomenttiAlakohtaKooste>
 </saa:MomenttiKohtaKooste>
               <saa:MomenttiKohtaKooste>
 4) trafikledningspersonal, tågklarerare, fjärrtrafikledare, ställverkkarl, växelkarl och personer med motsvarande funktion i kategori 3:
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 a) hantering av kritiska exceptionella situationer,
-</saa:MomenttiAlakohtaKooste>
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 b) interna räddningsplaner för rangeringsbangårdar.
-</saa:MomenttiAlakohtaKooste>
 </saa:MomenttiKohtaKooste>
             </saa:KohdatMomentti>
           </saa:Pykala>
@@ -363,18 +358,18 @@ b) interna räddningsplaner för rangeringsbangårdar.
 </saa:MomenttiKohtaKooste>
               <saa:MomenttiKohtaKooste>
 4) en tydlig beskrivning av de åtgärder som skall vidtas för att minska säkerhetsriskerna motsvarande aktörens ansvar och åligganden; dessa åtgärder omfattar åtminstone
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 a) utbildning,
-</saa:MomenttiAlakohtaKooste>
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 b) förfaranden i situationer som påverkar säkerheten, såsom ett allvarligt hot samt kontroll vid anställning av personal eller då anställda övergår till nya arbetsuppgifter,
-</saa:MomenttiAlakohtaKooste>
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 c) handlingssätt i olika transportsituationer såsom val och användning av transportrutter; verksamhet under tillfällig förvaring och på sådana platser där utomstående har möjlighet att påverka transportens säkerhet; verksamhet i närheten av utsatta infrastrukturer,
-</saa:MomenttiAlakohtaKooste>
-<saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 d) utrustning och resurser som skall användas för att minska säkerhetsriskerna,
-</saa:MomenttiAlakohtaKooste>
 </saa:MomenttiKohtaKooste>
               <saa:MomenttiKohtaKooste>
 5) effektiva och uppdaterade metoder för rapportering och för åtgärder vid säkerhetshot, säkerhetsförseelser eller säkerhetstillbud,
@@ -407,6 +402,9 @@ d) utrustning och resurser som skall användas för att minska säkerhetsriskern
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Kommissionens direktiv 2004/110/EG (32004L0110); EGT nr L 365, 10.12.2004, s. 24</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 4 maj 2005</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

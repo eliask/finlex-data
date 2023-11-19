@@ -35,14 +35,82 @@
           <saa:PykalaTunnusKooste>3 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Förbjudna områden </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Luftfart är förbjuden inom följande områden (<saa:SaadosKursiiviKooste>förbjudna områden</saa:SaadosKursiiviKooste>) för att säkerheten för där belägna anläggningar samt anläggningarnas omgivning skall kunna garanteras: </saa:MomenttiKooste>
-          <te/>
-          <te>Område                      Medelpunktens koordinater och radie        Övre gräns</te>
-          <te>EF P10 Lovisa               602212N 262054E                            2 000 FT MSL</te>
-          <te>                            Cirkel 2 KM (1,08 NM) radie                (600 M MSL)</te>
-          <te/>
-          <te>EF P15 Olkiluoto            611412N 212648E                            2 000 FT MSL</te>
-          <te>                            Cirkel 2 KM (1,08 NM) radie                (600 M MSL)</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Område</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Medelpunktens koordinater och radie</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Övre gräns</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF P10 Lovisa</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>602212N 262054E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Cirkel 2 KM (1,08 NM) radie</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(600 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF P15 Olkiluoto</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>611412N 212648E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Cirkel 2 KM (1,08 NM) radie</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(600 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Luftfartsverket kan, efter att ha hört inrikesministeriet, av särskilda skäl bevilja tillstånd för flygning inom förbjudna områden.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Tillstånd som avses i 2 mom. krävs inte, om det är fråga om flygning i samband med service eller nyttjande av en anläggning som är belägen på förbjudet område. </saa:MomenttiKooste>
         </saa:Pykala>
@@ -50,56 +118,621 @@
           <saa:PykalaTunnusKooste>4 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Restriktionsområden </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Luftfart är inom följande områden tillåten endast med Luftfartsverkets tillstånd (<saa:SaadosKursiiviKooste>restriktionsområden</saa:SaadosKursiiviKooste>):</saa:MomenttiKooste>
-          <te/>
-          <te>Område        Gränser i sidled/Medelpunktens koordinater och radie     Övre gräns </te>
-          <te>EF R10 Kyrkogårdsö-        602300N 265500E                             3 000 FT MSL</te>
-          <te>Rankö                      602300N 270800E                             (900 M MSL)</te>
-          <te>                           602112N 270849E 602112N 265730E 602300N 265500E</te>
-          <te/>
-          <te>EF R21 Mjölö               600645N 250000E                             3 000 FT MSL</te>
-          <te>                           600645N 250600E                             (900 M MSL)</te>
-          <te>                           600512N 250600E 600512N 250000E 600645N 250000E</te>
-          <te/>
-          <te>EF R28 Östra               601218N 264600E                </te>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Område</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Gränser i sidled/Medelpunktens koordinater och radie</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Övre gräns</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R10 Kyrkogårdsö-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>602300N 265500E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Rankö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>602300N 270800E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(900 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">602112N 270849E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">602112N 265730E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">602300N 265500E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R21 Mjölö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600645N 250000E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600645N 250600E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(900 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">600512N 250600E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">600512N 250000E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">600645N 250000E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R28 Östra</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">601218N 264600E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Oinskränkt</saa:MomenttiKooste>
-          <saa:MomenttiKooste>restriktionsområdet        601400N 264600E 601400N 271200E 601600N 272300E 603500N 274600E - och längs riksgränsen på ett avstånd av tre kilometer (1,62 NM) från gränsen till punkten 690400N 285200E och därefter längs riksgränsen genom punkten 690306N 285600E till punkten 601218N 271800E - 601218N 264600E</saa:MomenttiKooste>
-          <te/>
-          <te>EF R30 Stora Enskär        600624N 245318E                             3 000 FT MSL</te>
-          <te>                           600624N 245609E                             (900 M MSL)</te>
-          <te>                           600512N 245609E 600512N 245318E 600624N 245318E</te>
-          <te/>
-          <te>EF R35 Makilo              595630N 241821E                             3 000 FT MSL</te>
-          <te>                           595630N 242424E                             (900 M MSL)</te>
-          <te>                           595430N 242424E 595209N 241821E 595630N 241821E</te>
-          <te/>
-          <te>EF R37 Obbnäs              600250N 241821E                             3 000 FT MSL</te>
-          <te>                           600250N 242424E                             (900 M MSL)</te>
-          <te>                           595851N 242424E 595851N 241821E 600250N 241821E</te>
-          <te/>
-          <te>EF R43 Hästö-Busö          595100N 231700E                             3 000 FT MSL</te>
-          <te>                           595100N 232300E                             (900 M MSL)</te>
-          <te>                           594948N 232300E 594948N 231700E 595100N 231700E</te>
-          <te/>
-          <te>EF R45 Russarö             594700N 225400E                             3 000 FT MSL</te>
-          <te>                           594700N 225800E                             (900 M MSL)</te>
-          <te>                           594500N 225800E 594500N 225400E 594700N 225400E</te>
-          <te/>
-          <te>EF R50 Örö                 595000N 221700E                             3 000 FT MSL</te>
-          <te>                           595000N 222121E                             (900 M MSL)</te>
-          <te>                           594931N 222200E 594700N 222200E 594700N 221700E 595000N 221700E</te>
-          <te/>
-          <te>EF R53 Utö                 594830N 212000E                             3 000 FT MSL</te>
-          <te>                           594830N 212500E                             (900 M MSL)</te>
-          <te>                           594600N 212500E 594600N 211900E 594830N 212000E</te>
-          <te/>
-          <te>EF R54 Korpo-Gyltö         600800N 212705E                             3 000 FT MSL</te>
-          <te>                           600800N 213130E                             (900 M MSL)</te>
-          <te>                           600603N 213112E 600603N 212325E 600800N 212705E</te>
-          <te/>
-          <te>EF R55 Reila               610900N 212000E                             3 000 FT MSL</te>
-          <te>                           610900N 212400E                             (900 M MSL)</te>
-          <te>                           610700N 212400E 610700N 212000E 610900N 212000E                </te>
-          <te/>
+          <saa:MomenttiKooste>restriktionsområdet        601400N 264600E</saa:MomenttiKooste>
+          <saa:MomenttiKooste>                  601400N 271200E</saa:MomenttiKooste>
+          <saa:MomenttiKooste>                  601600N 272300E</saa:MomenttiKooste>
+          <saa:MomenttiKooste>                  603500N 274600E - och längs riksgränsen på ett avstånd av tre kilometer (1,62 NM) från gränsen till punkten 690400N 285200E och därefter längs riksgränsen genom punkten 690306N 285600E till punkten 601218N 271800E - 601218N 264600E</saa:MomenttiKooste>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R30 Stora Enskär</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600624N 245318E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600624N 245609E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(900 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">600512N 245609E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">600512N 245318E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">600624N 245318E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R35 Makilo</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>595630N 241821E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>595630N 242424E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(900 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">595430N 242424E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">595209N 241821E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">595630N 241821E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R37 Obbnäs</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600250N 241821E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600250N 242424E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(900 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">595851N 242424E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">595851N 241821E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">600250N 241821E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R43 Hästö-Busö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>595100N 231700E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>595100N 232300E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(900 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">594948N 232300E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">594948N 231700E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">595100N 231700E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R45 Russarö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>594700N 225400E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>594700N 225800E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(900 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">594500N 225800E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">594500N 225400E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">594700N 225400E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R50 Örö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>595000N 221700E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>595000N 222121E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(900 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">594931N 222200E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">594700N 222200E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">594700N 221700E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">595000N 221700E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R53 Utö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>594830N 212000E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>594830N 212500E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(900 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">594600N 212500E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">594600N 211900E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">594830N 212000E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R54 Korpo-Gyltö</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600800N 212705E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600800N 213130E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(900 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">600603N 213112E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">600603N 212325E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">600800N 212705E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>EF R55 Reila</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>610900N 212000E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 000 FT MSL</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>610900N 212400E</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(900 M MSL)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">610700N 212400E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">610700N 212000E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">610900N 212000E</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Luftfartsverket kan av särskilda skäl bevilja tillstånd för flygning inom ett restriktionsområde, till exempel för räddningstjänstflygning.</saa:MomenttiKooste>
           <saa:MomenttiKooste>När tillstånd för flygning inom det östra restriktionsområdet söks, skall Luftfartsverket innan tillstånd beviljas begära ett utlåtande av gränsbevakningsväsendet. </saa:MomenttiKooste>
         </saa:Pykala>

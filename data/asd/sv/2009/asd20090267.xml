@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2009-04-29" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av statsrådets förordning om transport av farliga ämnen på järnväg</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Europaparlamentets och rådets direktiv 2008/68/EG (32008L0068); EGT nr L 260, 30.9.2008, s. 13</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Asetus">
@@ -82,10 +77,10 @@
           <saa:SaadosOtsikkoKooste>Klassificering av farliga ämnen </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>De farliga ämnena indelas i följande klasser:</saa:MomenttiKooste>
           <tau:table>
-            <tau:tgroup COLS="2" COLSEP="0" ROWSEP="0" ALIGN="left" SECURITY="u">
-              <tau:colspec COLNUM="1" COLNAME="1" COLWIDTH=""/>
-              <tau:colspec COLNUM="2" COLNAME="2" COLWIDTH=""/>
-              <tau:tbody VALIGN="TOP">
+            <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+              <tau:colspec colnum="1" colname="1" colwidth=""/>
+              <tau:colspec colnum="2" colname="2" colwidth=""/>
+              <tau:tbody valign="top">
                 <tau:row>
                   <tau:entry>
                     <sis:KappaleKooste> Klass 1</sis:KappaleKooste>
@@ -247,9 +242,8 @@
           <saa:MomenttiKooste>Om en importerad tank som har tillverkats i utlandet och som avses i 1 mom. har besiktats och testats av en i RID- eller ADR-bestämmelserna eller TFÄ-direktivet avsedd behörig myndighet eller en av denna myndighet bemyndigad inrättning enligt de bestämmelser som gäller i Finland och giltigt intyg jämte utredning kan uppvisas, behövs ingen ny besiktning, om det inte finns särskilda skäl för detta.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Vid transport av farliga ämnen får som bulkcontainer också användas bulkcontainrar som godkänts enligt gällande RID- eller ADR-bestämmelser eller TFÄ-direktivet.</saa:MomenttiKooste>
         </saa:Pykala>
-        <saa:SaadosValiotsikkoKooste>28 §</saa:SaadosValiotsikkoKooste>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="">
-          <saa:PykalaTunnusKooste/>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="28 §">
+          <saa:PykalaTunnusKooste>28 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Myndigheter</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Järnvägsverket övervakar järnvägtransporter av farliga ämnen och tillfällig förvaring som hänför sig till dem. Transporter till eller från Finland av farliga ämnen på järnväg och tillfällig förvaring i anslutning till dem övervakas också av tullverket och gränsbevakningsväsendet inom respektive myndighets verksamhetsområde. Järnvägsverket bär dock även i dessa fall i första hand ansvaret för tillsynen.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Strålsäkerhetscentralen övervakar i samarbete med de myndigheter som nämns i 1 mom. ärenden med anknytning till transport och tillfällig förvaring av radioaktiva ämnen.</saa:MomenttiKooste>
@@ -300,6 +294,9 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Europaparlamentets och rådets direktiv 2008/68/EG (32008L0068); EGT nr L 260, 30.9.2008, s. 13</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 23 april 2009</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

@@ -59,9 +59,54 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
           <saa:PykalaTunnusKooste>5 § </saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Då understöd beviljas för ett sådant ändamål som avses i 4 § är en förutsättning att de fasta inkomsterna per månad för ett hushåll i bostadsbyggnaden eller bostaden inte överskrider följande, till personantalet bundna inkomstgränser: </saa:MomenttiKooste>
-          <te>Antalet</te>
-          <te>personer     1       2        3       4       </te>
-          <te>Inkomster  4 300   8 000   11 100  14 200  mk</te>
+          <tau:table>
+            <tau:tgroup cols="6" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top">Antalet</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>personer</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="5" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top">4</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Inkomster</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4 300</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>8 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>11 100</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>14 200</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Till inkomster räknas dock inte bostadsbidrag eller inkomster som avses i 1 § förordningen om bostadsbidrag (949/93).</saa:MomenttiKooste>
           <saa:MomenttiKooste>Maximibeloppet för inkomsterna höjs med 600 mark för varje ytterligare invånare.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Av särskilda skäl kan understödet beviljas även om hushållets inkomster med ett ringa belopp överstiger de inkomstgränser som avses i denna paragraf. </saa:MomenttiKooste>

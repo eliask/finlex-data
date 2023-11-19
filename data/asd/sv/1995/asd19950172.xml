@@ -22,13 +22,69 @@
         <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>ändras </saa:SaadosKursiiviKooste>den förteckning som fogats till förordningen den 16 december 1994 om de finska beskickningar som är förhandsröstningsställen vid riksdagsmannavalen 1995 (1236/94) enligt följande: </saa:SaadosKappaleKooste>
       </saa:Johtolause>
       <saa:Pykalisto>
-        <te>Land      Förrättningsort   Beskickning     Förrättningstid</te>
+        <tau:table>
+          <tau:tgroup cols="4" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste>Land</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Förrättningsort</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Beskickning</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>Förrättningstid</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <sis:Katkoviiva/>
-        <te>Förenta</te>
-        <te>staterna</te>
+        <tau:table>
+          <tau:tgroup cols="1" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste align="left" valign="top">Förenta</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste align="left" valign="top">staterna</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <sis:Katkoviiva/>
-        <te>          Hanford           Ambassadens</te>
-        <te>                            expedition      2.3.1995</te>
+        <tau:table>
+          <tau:tgroup cols="3" colsep="1" rowsep="1">
+            <tau:tbody>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste> Hanford</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry namest="2" nameend="3">
+                  <sis:KappaleKooste align="left" valign="top">Ambassadens</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+              <tau:row>
+                <tau:entry>
+                  <sis:KappaleKooste/>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>expedition</sis:KappaleKooste>
+                </tau:entry>
+                <tau:entry>
+                  <sis:KappaleKooste>2.3.1995</sis:KappaleKooste>
+                </tau:entry>
+              </tau:row>
+            </tau:tbody>
+          </tau:tgroup>
+        </tau:table>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
           <saa:MomenttiKooste>Denna förordning träder i kraft den 20 februari 1995. </saa:MomenttiKooste>

@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om överlämnande av uppgifter om kemikalier som orsakar fara </met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Bilaga 2 till EES-avtalet: rådets direktiv (88/379/EEG)</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Päätös">
@@ -88,6 +83,9 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Bilaga 2 till EES-avtalet: rådets direktiv <sis:YleinenViite sis1:viiteURL="388L0379"><sis1:ViiteTeksti>(88/379/EEG)</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 20 augusti 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -363,7 +361,7 @@
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Omedelbar giftighet</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Omedelbar giftighet</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
@@ -405,7 +403,7 @@
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Bestående men vid engångsexponering</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Bestående men vid engångsexponering</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
@@ -613,10 +611,8 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>16.5. Källor som använts vid utarbetandet av meddelandet </sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <sis:KappaleKooste>Man antecknar de källor som använts vid utarbetandet av meddelandet.               </sis:KappaleKooste>
-      <sis:KappaleKooste>
-Bilaga 2
-</sis:KappaleKooste>
+      <sis:KappaleKooste>Man antecknar de källor som använts vid utarbetandet av meddelandet.</sis:KappaleKooste>
+      <sis:KappaleKooste>Bilaga 2 </sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>ANVISNINGAR FÖR BILDANDE AV ALTERNATIVA KEMISKA NAMN (GENERISKA NAMN) </sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -2278,7 +2274,7 @@ Bilaga 2
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>(<sis1:YlaindeksiTeksti>*</sis1:YlaindeksiTeksti>) <saa:SaadosKursiiviKooste>Specificeras enligt den grupp som motsvarar halogen.</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>(<sis1:YlaindeksiTeksti>*</sis1:YlaindeksiTeksti>) <sis1:KursiiviTeksti>Specificeras enligt den grupp som motsvarar halogen.</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -2410,7 +2406,7 @@ Bilaga 2
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>(<sis1:YlaindeksiTeksti>*</sis1:YlaindeksiTeksti>) <saa:SaadosKursiiviKooste>Specificeras enligt den grupp som motsvarar halogen.</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>(<sis1:YlaindeksiTeksti>*</sis1:YlaindeksiTeksti>) <sis1:KursiiviTeksti>Specificeras enligt den grupp som motsvarar halogen.</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -2542,7 +2538,7 @@ Bilaga 2
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>(<sis1:YlaindeksiTeksti>*</sis1:YlaindeksiTeksti>) <saa:SaadosKursiiviKooste>inklusive kinoner</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>(<sis1:YlaindeksiTeksti>*</sis1:YlaindeksiTeksti>) <sis1:KursiiviTeksti>inklusive kinoner</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -2883,7 +2879,7 @@ Bilaga 2
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>(<sis1:YlaindeksiTeksti>*</sis1:YlaindeksiTeksti>) <saa:SaadosKursiiviKooste>Specificeras enligt den grupp som motsvarar halogen.</saa:SaadosKursiiviKooste> </sis:KappaleKooste>
+                <sis:KappaleKooste>(<sis1:YlaindeksiTeksti>*</sis1:YlaindeksiTeksti>) <sis1:KursiiviTeksti>Specificeras enligt den grupp som motsvarar halogen.</sis1:KursiiviTeksti> </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -3224,7 +3220,7 @@ Bilaga 2
       </sis:KappaleKooste>
       <sis:KappaleKooste>Ändamålet för användning anmäls genom att välja de näringsgrenar i förteckning 1 inom vilka kemikalien används. Näringsgrensindelningen med anvisningar har publicerats i Statistikcentralens publikation Näringsindelningen 1995. I förteckning 2 väljs de användningsändamål för kemikalien som är kända. Flera näringsgrenar och användningsändamål kan antecknas om verksamhetsidkaren har kännedom om sådana.</sis:KappaleKooste>
       <sis:KappaleKooste>Om kemikalien används t.ex. som bekämpningsmedel inom växtodlingen, väljs näringsgren 011 i förteckning 1: Växtodling; trädgårdsodling och användningsändamål 26 i förteckning 2: Bekämpningsmedel. Kodbeteckningen är i detta fall NI1:011. AÄ:26. Ifall kemikalien används t.ex. i den slutliga bearbetningen av textilier, väljs näringsgren 173 i förteckning 1: Blekning, färgning och annan textilbehandling och användningsändamål 33 i förteckning 2: Hjälpmedel för textilier. Näringsgrenskoden märks då med NI1:173 och användningsändamålet med AÄ:33. Om kemikalien används som målarfärg för att måla byggnader, väljs näringsgren 454 (förteckning 1): Slutbehandling av byggnader och användningsändamål 2 (förteckning 2): Byggnadsmaterial, tillsatsämnen. Näringsgrenskoden är i detta fall NI1:454 och koden för användningsändamålet är AÄ:2. </sis:KappaleKooste>
-      <ete>Fattas</ete>
+      <sis1:ValiotsikkoTeksti>Fattas</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>Näringsgrenar inom vilka kemikalien används</sis1:KursiiviTeksti>
       </sis:KappaleKooste>

@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av inkomstskattelagen</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 195/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>LM 56/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>StaUB 74/93</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -37,9 +26,7 @@
       <saa:Pykalisto>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="42 §">
           <saa:PykalaTunnusKooste>42 §</saa:PykalaTunnusKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="Kapitalinkomstandelen av dividender från andra bolag än börsbolag">
-          <saa:PykalaTunnusKooste>Kapitalinkomstandelen av dividender från andra bolag än börsbolag</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Kapitalinkomstandelen av dividender från andra bolag än börsbolag</saa:SaadosOtsikkoKooste>
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>Om i ett aktiebolag som bedriver näringsverksamhet en delägare, som enligt 2 § 6 mom. lagen om pension för arbetstagare inte anses stå i arbetsförhållande till aktiebolaget, har använt en skuld med ränta för förvärv av aktier, dras skulden av från värdet av hans aktier när kapitalinkomstandelen av dividender från bolaget räknas ut.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -179,6 +166,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 195/93</sdk:EsityoViite>
+    <sdk:EsityoViite>LM 56/93</sdk:EsityoViite>
+    <sdk:EsityoViite>StaUB 74/93</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 30 december 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

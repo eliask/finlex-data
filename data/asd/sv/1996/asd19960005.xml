@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1996-01-10" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -33,13 +33,64 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 § </saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Från ökningen av levnadskostnaderna får, beroende på hur länge resan varat, avdras: </saa:MomenttiKooste>
-          <te/>
-          <te>resan pågått       avdragets belopp </te>
-          <te>- över  6 timmar    53,- </te>
-          <te>- över 10 timmar   100,- </te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>resan pågått</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>avdragets belopp</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>- över 6 timmar</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>53,-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>- över 10 timmar</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100,-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>då den tid som använts till resan överskrider det sista fulla resedygnet med </saa:MomenttiKooste>
-          <te>- minst 2 timmar    53,- </te>
-          <te>- över  6 timmar   100,-</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>- minst 2 timmar</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>53,-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>- över 6 timmar</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100,-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Med resedygn avses en tidsperiod om 24 timmar, som börjar då den skattskyldige beger sig på resa från sin arbetsplats eller sin bostad och slutar då den skattskyldige återvänder till sin arbetsplats eller sin bostad. </saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">

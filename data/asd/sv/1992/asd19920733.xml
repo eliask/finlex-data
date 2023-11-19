@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om planering av och statsandel för social- och hälsovården </met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 216/91</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>FvUB 7/92</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -139,10 +131,32 @@
             <saa:PykalaTunnusKooste>11 § </saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Statsandelar enligt åldersgrupp </saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Beloppen av statsandelarna per kommuninvånare godkänns var för sig för socialvården och för hälsovården grupperade enligt ålder som följer:</saa:MomenttiKooste>
-            <te>0- 6-åringar</te>
-            <te>7-64-åringar</te>
-            <te>65-74-åringar</te>
-            <te>de som fyllt 75 år. </te>
+            <tau:table>
+              <tau:tgroup cols="1" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste align="left" valign="top">0- 6-åringar</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste align="left" valign="top">7-64-åringar</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste align="left" valign="top">65-74-åringar</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste align="left" valign="top">de som fyllt 75 år.</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
             <saa:PykalaTunnusKooste>12 § </saa:PykalaTunnusKooste>
@@ -155,8 +169,25 @@
             <saa:PykalaTunnusKooste>13 § </saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Koefficient enligt arbetslöshetsgrad </saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Den koefficient som bestäms enligt arbetslöshetsgraden är ett, om arbetslöshetsprocenten i kommunen är mindre än eller lika stor som arbetslöshetsprocenten i hela landet. Om kommunens arbetslöshetsprocent är större än procenten i hela landet, höjs koefficienten. Den höjda koefficienten uträknas enligt följande formel: </saa:MomenttiKooste>
-            <te>koefficienten = 1 + 1,4 x  arbetslöshetsprocenten i kommunen</te>
-            <te> - arbetslöshetsprocenten i hela landet 100 </te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>koefficienten = 1 + 1,4 x</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>arbetslöshetsprocenten i kommunen</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top">- arbetslöshetsprocenten i hela landet 100</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Vid uträkningen av koefficienten används den genomsnittliga arbetslöshetsprocenten för det år som börjar två år före verksamhetsåret. </saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="14 §">
@@ -169,7 +200,17 @@
             <saa:PykalaTunnusKooste>15 § </saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Koefficient enligt befolkningstäthet </saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Koefficienten enligt befolkningstäthet är noll, om befolkningstätheten i kommunen per kvadratkilometer land är fyra invånare eller mer. Om befolkningstätheten är mindre än så, höjs koefficienten. Den höjda koefficienten räknas ut enligt följande formel: </saa:MomenttiKooste>
-            <te>koefficienten = 4 x 4 - kommunens befolkningstäthet 100 </te>
+            <tau:table>
+              <tau:tgroup cols="1" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste align="left" valign="top">koefficienten = 4 x 4 - kommunens befolkningstäthet 100</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Vid uträkningen av koefficienten används befolkningstätheten den 1 januari året före verksamhetsåret.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Koefficienten för sådana skärgårdskommuner som avses i 9 § 1 mom. lagen om främjande av skärgårdens utveckling (494/81) är med avvikelse från 1 mom. 0,1. </saa:MomenttiKooste>
           </saa:Pykala>
@@ -177,8 +218,25 @@
             <saa:PykalaTunnusKooste>16 § </saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Arealkoefficient </saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Koefficienten enligt areal är noll, om kommunens landareal är högst 1 250 kvadratkilometer. Är landarealen större än 1 250 kvadratkilometer, höjs koefficienten. Den höjda koefficienten räknas ut enligt följande formel: </saa:MomenttiKooste>
-            <te>koefficienten = 4 x kommunens landareal </te>
-            <te>                    1 250 x 100 </te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top">koefficienten = 4 x kommunens landareal</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>1 250 x 100</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Koefficienten uträknas enligt arealen den 1 januari året före verksamhetsåret. </saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="17 §">
@@ -694,6 +752,10 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 216/91</sdk:EsityoViite>
+    <sdk:EsityoViite>FvUB 7/92</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 3 augusti 1992</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

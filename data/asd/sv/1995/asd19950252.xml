@@ -25,19 +25,107 @@
           <saa:PykalaTunnusKooste>8 § </saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>På dagpenning som med stöd av sjukförsäkringslagen utbetalas till försäkrad, på rehabiliteringspenning enligt 14, 15 och 17 §§ lagen om rehabiliteringspenning (611/91) och på annan rehabiliteringspenning än den som utbetalas utöver pension samt på annan ersättning för bortfall av inkomster eller försämrad utkomst, som betalas med stöd av sjukförsäkringslagen eller folkpensionslagen, skall förskottsinnehållning verkställas på sätt som bestäms i 1 § 1 och 2 mom.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Om prestationens utbetalare inte har fått nödvändiga uppgifter för innehållningens verkställande på sätt som avses i 24 § och den skattskyldige inte uppvisar skattekortet för prestationens utbetalare, skall förskottsinnehållning verkställas enligt procentsatser på följande sätt: </saa:MomenttiKooste>
-          <te>Ersättning enligt</te>
-          <te>sjukförsäkringslagen och</te>
-          <te>rehabiliteringspenning som         Förskotts- </te>
-          <te>utbetalas utöver pensionen         innehållnings- </te>
-          <te>mk/dag                             procent </te>
-          <te>1,00-135,00                        20 </te>
-          <te>135,01-217,00                      25 </te>
-          <te>217,01-301,00                      30 </te>
-          <te>301,01-398,00                      35 </te>
-          <te>398,01-549,00                      40 </te>
-          <te>549,01-734,00                      45 </te>
-          <te>734,01-                            50</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">Ersättning enligt</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">sjukförsäkringslagen och</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>rehabiliteringspenning som</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Förskotts-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>utbetalas utöver pensionen</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>innehållnings-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk/dag</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>procent</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,00-135,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>135,01-217,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>25</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>217,01-301,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>30</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>301,01-398,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>35</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>398,01-549,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>40</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>549,01-734,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>45</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>734,01-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">

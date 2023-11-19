@@ -34,38 +34,232 @@
           <saa:SaadosOtsikkoKooste>Ränta på ägarbostadsaravalån </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>För ett ägarbostadsaravalån uppbärs fram till den tidpunkt från vilken den första annuiteten enligt 20 § skall räknas en fast årlig ränta på det lyfta kapitalet. Den fasta räntan är tills vidare 60 procent av den i 19 § avsedda referensräntan för aravalån vid tidpunkten för beviljandet av lånet, dock minst 3,15 procent.</saa:MomenttiKooste>
           <saa:MomenttiKooste>För ett ägarbostadsaravalån uppbärs från den 1 mars till den 1 mars följande år <saa:SaadosKursiiviKooste>(annuitetsperiod) </saa:SaadosKursiiviKooste>en årlig ränta tills vidare så, att från beloppet av den ränta som räknas enligt den referensränta för aravalån som avses i 19 § avdras följande procentandelar: </saa:MomenttiKooste>
-          <te>Annuitetsperiod	Procentandel som avdras </te>
-          <te>1-5			45 </te>
-          <te>6-10			35 </te>
-          <te>11-15			25 </te>
-          <te>16-20			 0</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Annuitetsperiod</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Procentandel som avdras</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1-5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>45</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>6-10</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>35</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>11-15</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>25</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>16-20</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Den ränta som uppbärs är dock alltid minst 3,15 procent. </saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="22 §">
           <saa:PykalaTunnusKooste>22 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Annuiteten för ägarbostadsaravalån </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Annuiteten för ett ägarbostadsaravalån omfattar den ränta som räknas enligt 21 § och följande amorteringspost som beräknas enligt det ursprungliga kapitalet: </saa:MomenttiKooste>
-          <te>Annuitetsperiod	Amortering i procent </te>
-          <te>1				 0,75 </te>
-          <te>2				 1,00 </te>
-          <te>3				 1,25 </te>
-          <te>4				 1,50 </te>
-          <te>5				 1,75 </te>
-          <te>6				 2,00 </te>
-          <te>7				 2,50 </te>
-          <te>8				 3,00 </te>
-          <te>9				 3,50 </te>
-          <te>10				 4,00 </te>
-          <te>11				 4,50 </te>
-          <te>12				 5,00 </te>
-          <te>13				 5,75 </te>
-          <te>14				 6,50 </te>
-          <te>15				 7,25 </te>
-          <te>16				 7,75 </te>
-          <te>17				 8,75 </te>
-          <te>18				10,00 </te>
-          <te>19				11,00 </te>
-          <te>20				12,25</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Annuitetsperiod</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Amortering i procent</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,75</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,25</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,75</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>6</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>7</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2,50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>8</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>9</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3,50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>10</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>11</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4,50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>12</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>13</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5,75</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>14</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>6,50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>15</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>7,25</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>16</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>7,75</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>17</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>8,75</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>18</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>19</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>11,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>20</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>12,25</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="25 §">
           <saa:PykalaTunnusKooste>25 § </saa:PykalaTunnusKooste>

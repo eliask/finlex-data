@@ -77,15 +77,502 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
             <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Maximiinkomsttabeller och låneandelar</saa:SaadosOtsikkoKooste>
-            <saa:MomenttiKooste>En sökande kan få lån för egen bostad i enlighet med följande låneandelar, om hushållets inkomster, sedan de avdrag som avses i 6 § 2 och 3 mom. har gjorts, inte överstiger följande maximibelopp:</saa:MomenttiKooste>
-            <pdf>
-              <viite tyyppi="pdf" inline="NO" kohde="liite/2522.pdf">Tabell</viite>
-            </pdf>
-            <saa:MomenttiKooste>I huvudstadsregionen (Helsingfors, Esbo, Vanda och Grankulla) tillämpas dock med avvikelse från tabellen i 1 mom. följande maximibelopp för inkomsterna:</saa:MomenttiKooste>
-            <pdf>
-              <viite tyyppi="pdf " inline="NO" kohde="2523.pdf">Tabell</viite>
-            </pdf>
-            <saa:MomenttiKooste>Vid beviljande eller överföring av lån som avses i 10 § 1 mom. lagen om grundförbättring av bostäder (långfristigt grundförbättringslån av bidragsnatur) tillämpas med avvikelse från tabellerna i 1 och 2 mom. följande maximibelopp för inkomsterna:</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>En sökande kan få lån för egen bostad i enlighet med följande låneandelar, om hushållets inkomster, sedan de avdrag som avses i 6 § 2 och 3 mom. har gjorts, inte överstiger följande maximibelopp:</saa:MomenttiJohdantoKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>
+              <saa:SaadosKursiiviKooste>Maximiinkomst för erhållande av bostadslån eller ägarbostad med bostadslån eller för överföring av lån</saa:SaadosKursiiviKooste>
+            </saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup cols="7" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="6" colname="6" colwidth=""/>
+                <tau:tbody valign="top">
+                  <tau:row>
+                    <tau:entry namest="1" nameend="7">
+                      <sis:KappaleKooste>Antal personer</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Låneprocent</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 800 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 500 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10 800 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>11 900 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>12 900 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10-25  </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 500 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 800 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>11 500 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>30</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 800 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 000 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 800 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 900 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 800 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10 400 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>35  </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 400 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 100 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 900 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 600 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>40  </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 900 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 800 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 600 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 100 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>45 </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 600 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 400 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 100 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 900 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>50</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 100 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 800 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 500 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>55  </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 100 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 800 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 400 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 400 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 000 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>60</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>I huvudstadsregionen (Helsingfors, Esbo, Vanda och Grankulla) tillämpas dock med avvikelse från tabellen i 1 mom. följande maximibelopp för inkomsterna:</saa:MomenttiJohdantoKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>
+              <saa:SaadosKursiiviKooste>Maximiinkomst i huvudstadsregionen för erhållande av bostadslån eller ägarbostad med bostadslån eller för överföring av lån</saa:SaadosKursiiviKooste>
+            </saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup cols="7" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="6" colname="6" colwidth=""/>
+                <tau:tbody valign="top">
+                  <tau:row>
+                    <tau:entry namest="1" nameend="7">
+                      <sis:KappaleKooste>Antal personer</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Låneprocent</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste> 7 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste> 9 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>12 400 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>13 500 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>14 600 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10-25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 100 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 600 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 900 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>11 400 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>12 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>13 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>30  </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 000 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 000 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>11 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>12 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>35  </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 000 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>11 000 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>40  </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 600 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 600 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10 500 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>45  </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10 000 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>50  </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 900 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 900 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 700 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 800 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 600 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 600 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>55  </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 600 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 500 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 400 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>60</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Vid beviljande eller överföring av lån som avses i 10 § 1 mom. lagen om grundförbättring av bostäder (långfristigt grundförbättringslån av bidragsnatur) tillämpas med avvikelse från tabellerna i 1 och 2 mom. följande maximibelopp för inkomsterna:</saa:MomenttiJohdantoKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>
+              <saa:SaadosKursiiviKooste>Maximiinkomster för beviljande eller överföring av långfristigt grundförbättringslån av bidragsnatur</saa:SaadosKursiiviKooste>
+            </saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup cols="7" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="6" colname="6" colwidth=""/>
+                <tau:tbody valign="top">
+                  <tau:row>
+                    <tau:entry namest="1" nameend="4">
+                      <sis:KappaleKooste>Antal personer</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4  </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>3 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3 900 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 300 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 200</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §">
             <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
@@ -170,13 +657,15 @@
                   </tau:row>
                   <tau:row>
                     <tau:entry>
-                      <sis:KappaleKooste>2	 </sis:KappaleKooste>
+                      <sis:KappaleKooste>2</sis:KappaleKooste>
                     </tau:entry>
                     <tau:entry>
                       <sis:KappaleKooste>75</sis:KappaleKooste>
                     </tau:entry>
+                  </tau:row>
+                  <tau:row>
                     <tau:entry>
-                      <sis:KappaleKooste>3	 </sis:KappaleKooste>
+                      <sis:KappaleKooste>3</sis:KappaleKooste>
                     </tau:entry>
                     <tau:entry>
                       <sis:KappaleKooste>90</sis:KappaleKooste>
@@ -184,7 +673,7 @@
                   </tau:row>
                   <tau:row>
                     <tau:entry>
-                      <sis:KappaleKooste>4	</sis:KappaleKooste>
+                      <sis:KappaleKooste>4</sis:KappaleKooste>
                     </tau:entry>
                     <tau:entry>
                       <sis:KappaleKooste>100</sis:KappaleKooste>
@@ -192,7 +681,7 @@
                   </tau:row>
                   <tau:row>
                     <tau:entry>
-                      <sis:KappaleKooste>5	</sis:KappaleKooste>
+                      <sis:KappaleKooste>5</sis:KappaleKooste>
                     </tau:entry>
                     <tau:entry>
                       <sis:KappaleKooste>110</sis:KappaleKooste>
@@ -203,7 +692,7 @@
                       <sis:KappaleKooste>6 eller flera	</sis:KappaleKooste>
                     </tau:entry>
                     <tau:entry>
-                      <sis:KappaleKooste>120Om</sis:KappaleKooste>
+                      <sis:KappaleKooste>120</sis:KappaleKooste>
                     </tau:entry>
                   </tau:row>
                 </tau:tbody>
@@ -230,26 +719,142 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
             <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Maximiinkomster</saa:SaadosOtsikkoKooste>
-            <saa:MomenttiKooste>En förutsättning för att bli godkänd som invånare i en bostad är att månadsinkomsterna för hushållet inte efter avdragen enligt 6 § 2 och 3 mom. överstiger följande maximibelopp:</saa:MomenttiKooste>
-            <saa:MomenttiKooste>När sökanden på basis av ett arbets- eller tjänsteförhållande utses till invånare i ett hyreshus, där hans arbetsgivare är ägare, tillämpas med avvikelse från tabellen i 1 mom. följande maximibelopp för inkomsterna:</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>En förutsättning för att bli godkänd som invånare i en bostad är att månadsinkomsterna för hushållet inte efter avdragen enligt 6 § 2 och 3 mom. överstiger följande maximibelopp:</saa:MomenttiJohdantoKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>
+              <saa:SaadosKursiiviKooste>Maximiinkomster för dem som godkänns som invånare i hyres- och andelslagsbostäder</saa:SaadosKursiiviKooste>
+            </saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup cols="7" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="6" colname="6" colwidth=""/>
+                <tau:tbody valign="top">
+                  <tau:row>
+                    <tau:entry namest="1" nameend="6">
+                      <sis:KappaleKooste>Antal personer</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>6 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 600 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 100 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10 000 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10 700</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>När sökanden på basis av ett arbets- eller tjänsteförhållande utses till invånare i ett hyreshus, där hans arbetsgivare är ägare, tillämpas med avvikelse från tabellen i 1 mom. följande maximibelopp för inkomsterna:</saa:MomenttiJohdantoKooste>
+            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>
+              <saa:SaadosKursiiviKooste>Maximiinkomster i fråga om tjänstebostäder</saa:SaadosKursiiviKooste>
+            </saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup cols="7" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="6" colname="6" colwidth=""/>
+                <tau:tbody valign="top">
+                  <tau:row>
+                    <tau:entry namest="1" nameend="6">
+                      <sis:KappaleKooste>Antal personer</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>7 500 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 200 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9 800 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>11 100 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>12 100 </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>12 900</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Hör till hushållet flera än sex personer, höjs maximibeloppen för inkomsterna med 500 mk för varje person utöver detta antal.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">
             <saa:PykalaTunnusKooste>13 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Undantag vid godkännandet av invånare</saa:SaadosOtsikkoKooste>
-            <saa:MomenttiKooste>En sökande kan godkännas som invånare i en hyresbostad även om förutsättningarna enligt 5 och 12 §§ inte föreligger, då det är fråga om</saa:MomenttiKooste>
-            <saa:MomenttiKohtaKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>En sökande kan godkännas som invånare i en hyresbostad även om förutsättningarna enligt 5 och 12 §§ inte föreligger, då det är fråga om</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
 1) stödjande av sådant boende som av sociala eller hälsomässiga orsaker är särskilt nödvändigt;
 </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 2) anvisade av bostad åt hushåll som bor i hyreshus, för vilket beviljas statligt grundreparations- eller grundförbättringslån;
 </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 3) ett hushåll som är nödvändigt med tanke på underhåll och skötsel av ett grundförbättrat hus med hyresbostäder; eller
 </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 4) bostadsbyte mellan hushåll i hyreshus som är i samma hyresvärds faktiska ägo.
 </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="14 §">
             <saa:PykalaTunnusKooste>14 §</saa:PykalaTunnusKooste>
@@ -266,14 +871,14 @@
         <saa:Luku saa1:identifiointiTunnus="4 kap.">
           <saa:LukuTunnusKooste>4 kap.</saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Ikraftträdelse- och övergångsbestämmelser</saa:SaadosOtsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="16 §">
+            <saa:PykalaTunnusKooste>16 §</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Ikraftträdande</saa:SaadosOtsikkoKooste>
+            <saa:MomenttiKooste>Detta beslut träder i kraft den 15 mars 1987.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Genom detta beslut upphävs statsrådets beslut av den 13 februari 1986 om de bedömningsgrunder som skall tillämpas vid beviljande av bostads-, inlösnings- och grundförbättringslån samt vid godkännande av invånare (153/86).</saa:MomenttiKooste>
+            <saa:MomenttiKooste>På sådana ansökningar om beviljande eller överföring av annat lån än grundförbättringslån som tillställts en kommun före detta besluts ikraftträdande tillämpas det i 2 mom. nämnda statsrådsbeslutet. När bostadslån beviljas för byggande av egnahemshus eller när ett dylikt lån överförs tillämpas dock beträffande maximiantalet lägenhetskvadratmeter för vilka lån beviljas vad som bestäms i 9 § i detta beslut.</saa:MomenttiKooste>
+          </saa:Pykala>
         </saa:Luku>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="16 §">
-          <saa:PykalaTunnusKooste>16 §</saa:PykalaTunnusKooste>
-          <saa:SaadosOtsikkoKooste>Ikraftträdande</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Detta beslut träder i kraft den 15 mars 1987.</saa:MomenttiKooste>
-          <saa:MomenttiKooste>Genom detta beslut upphävs statsrådets beslut av den 13 februari 1986 om de bedömningsgrunder som skall tillämpas vid beviljande av bostads-, inlösnings- och grundförbättringslån samt vid godkännande av invånare (153/86).</saa:MomenttiKooste>
-          <saa:MomenttiKooste>På sådana ansökningar om beviljande eller överföring av annat lån än grundförbättringslån som tillställts en kommun före detta besluts ikraftträdande tillämpas det i 2 mom. nämnda statsrådsbeslutet. När bostadslån beviljas för byggande av egnahemshus eller när ett dylikt lån överförs tillämpas dock beträffande maximiantalet lägenhetskvadratmeter för vilka lån beviljas vad som bestäms i 9 § i detta beslut.</saa:MomenttiKooste>
-        </saa:Pykala>
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>

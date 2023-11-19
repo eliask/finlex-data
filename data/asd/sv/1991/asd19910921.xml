@@ -45,14 +45,70 @@
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Produktionskostnadspris</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Grund for beviljande av prisstöd är följande priser, som i medeltal täcker produktionskostnaderna:</saa:MomenttiKooste>
-          <te/>
-          <te>                             mk/skinn</te>
-          <te>1) bläräv                 240</te>
-          <te>2) artkorsningar av räv      250</te>
-          <te>3) silverräv                 270</te>
-          <te>4) iller                        100</te>
-          <te>5) mink                         120</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk/skinn</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>1) bläräv</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>240</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>2) artkorsningar av räv</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>250</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>3) silverräv</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>270</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>4) iller</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>5) mink</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>120</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
           <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>

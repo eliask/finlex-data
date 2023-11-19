@@ -24,95 +24,441 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
           <saa:PykalaTunnusKooste>1 § </saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Högre avgift för televisionslicens uppbärs i följande kommuner, där sebarheten inom distributionsnätet för södra Finland är tillräcklig i fråga om Sveriges televisionsprogram: </saa:MomenttiKooste>
-          <te>
-            <saa:SaadosKursiiviKooste>Nylands län:</saa:SaadosKursiiviKooste>
-          </te>
-          <te>Askola     </te>
-          <te>Borgnäs     </te>
-          <te>Borgå       </te>
-          <te>Borgå lk.  </te>
-          <te>Ekenäs     </te>
-          <te>Esbo       </te>
-          <te>Grankulla   </te>
-          <te>Hangö      </te>
-          <te>Helsingfors</te>
-          <te>Hyvinge    </te>
-          <te>Högfors    </te>
-          <te>Ingå       </te>
-          <te>Karis       </te>
-          <te>Karislojo   </te>
-          <te>Kervo       </te>
-          <te>Kyrkslätt</te>
-          <te>Lappträsk  </te>
-          <te>Liljendal</te>
-          <te>Lojo</te>
-          <te>Lojo kommun</te>
-          <te>Lovisa</te>
-          <te>Mörskom</te>
-          <te>Nummi-Pusula</te>
-          <te>Nurmijärvi</te>
-          <te>Pernå</te>
-          <te>Pojo</te>
-          <te>Sammatti</te>
-          <te>Sibbo</te>
-          <te>Sjundeå</te>
-          <te>Strömfors</te>
-          <te>Träskända </te>
-          <te>Tusby</te>
-          <te>Vanda </te>
-          <te>Vichtis</te>
-          <te>
-            <saa:SaadosKursiiviKooste>Åbo och Björneborgs län:</saa:SaadosKursiiviKooste>
-          </te>
-          <te>Aura</te>
-          <te>Bjärnå</te>
-          <te>Dragsfjärd</te>
-          <te>Finby</te>
-          <te>Gustavs</te>
-          <te>Halikko</te>
-          <te>Houtskär</te>
-          <te>Iniö</te>
-          <te>Karinainen</te>
-          <te>Kiikala</te>
-          <te>Kimito</te>
-          <te>Kisko</te>
-          <te>Korpo</te>
-          <te>Koskis</te>
-          <te>Kuusjoki</te>
-          <te>Lemo</te>
-          <te>Lundo</te>
-          <te>Marttila</te>
-          <te>Masku</te>
-          <te>Mellilä</te>
-          <te>Merimasku</te>
-          <te>Mietoinen</te>
-          <te>Muurla</te>
-          <te>Nagu</te>
-          <te>Nousis</te>
-          <te>Nådendal</te>
-          <te>Oripää</te>
-          <te>Pargas</te>
-          <te>Pemar</te>
-          <te>Pertteli</te>
-          <te>Pikis</te>
-          <te>Pöytyä</te>
-          <te>Reso</te>
-          <te>Rimito</te>
-          <te>Rusko</te>
-          <te>Sagu</te>
-          <te>Salo</te>
-          <te>S:t Karins</te>
-          <te>Suomusjärvi</te>
-          <te>Tarvasjoki</te>
-          <te>Tövsala</te>
-          <te>Vahto</te>
-          <te>Vehmaa</te>
-          <te>Velkua</te>
-          <te>Villnäs</te>
-          <te>Virmo</te>
-          <te>Västanfjärd</te>
-          <te>Yläne</te>
-          <te>Åbo</te>
+          <tau:table>
+            <tau:tgroup cols="1" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">
+                      <sis1:KursiiviTeksti>Nylands län:</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Askola</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Borgnäs</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Borgå</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Borgå lk.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Ekenäs</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Esbo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Grankulla</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Hangö</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Helsingfors</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Hyvinge</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Högfors</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Ingå</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Karis</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Karislojo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Kervo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Kyrkslätt</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Lappträsk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Liljendal</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Lojo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Lojo kommun</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Lovisa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Mörskom</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Nummi-Pusula</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Nurmijärvi</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Pernå</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Pojo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Sammatti</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Sibbo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Sjundeå</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Strömfors</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Träskända</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Tusby</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Vanda</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Vichtis</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">
+                      <sis1:KursiiviTeksti>Åbo och Björneborgs län:</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Aura</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Bjärnå</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Dragsfjärd</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Finby</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Gustavs</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Halikko</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Houtskär</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Iniö</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Karinainen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Kiikala</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Kimito</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Kisko</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Korpo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Koskis</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Kuusjoki</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Lemo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Lundo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Marttila</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Masku</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Mellilä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Merimasku</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Mietoinen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Muurla</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Nagu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Nousis</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Nådendal</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Oripää</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Pargas</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Pemar</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Pertteli</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Pikis</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Pöytyä</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Reso</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Rimito</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Rusko</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Sagu</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Salo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">S:t Karins</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Suomusjärvi</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Tarvasjoki</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Tövsala</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Vahto</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Vehmaa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Velkua</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Villnäs</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Virmo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Västanfjärd</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Yläne</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Åbo</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 § </saa:PykalaTunnusKooste>

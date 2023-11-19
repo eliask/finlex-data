@@ -54,23 +54,64 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
             <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Fukthalt</saa:SaadosOtsikkoKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Viktkorrigering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Ett spannmålspartis vikt minskas med 0,13 % för varje enhet om 0,1 % varmed fukthalten överstiger 15,0 % och ökas med 0,13 % för varje enhet om 0,1 % varmed fukthalten understiger 15,0 %, dock högst med 4,0 %. Viktkorrigeringarna görs på den vikt som räknats ut i enlighet med 6 §.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Prisjustering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Med beaktande av fukthalten sänks priset på ett spannmålsparti för varje enhet om 0,1 % varmed fukthalten överstiger 15,0 % som följer:</saa:MomenttiKooste>
-            <te>  fukthalt, %           prissänkning, p/kg</te>
-            <te>  15,1-15,5                  0,805</te>
-            <te>  15,6-17,0                  0,202</te>
-            <te>  17,1-25,0                  0,113</te>
-            <te>  25,1-                      0,064</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>fukthalt, %</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>prissänkning, p/kg</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15,1-15,5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,805</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15,6-17,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,202</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>17,1-25,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,113</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>25,1-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,064</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Priset på ett spannmålsparti höjs med 0,12 p/kg för varje enhet om 0,1 % varmed fukthalten understiger 15,0 %, dock högst med 1,80 p/kg.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Omtorkning</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Är vetets eller rågens fukthalt 14,1-16,0 % och partiet torkas på nytt, debiteras 5 p/kg förvandlad vikt för torkningen. I så fall varken sänks eller höjs priset på spannmålspartiet på ovan nämnt sätt. Den som sålt partiet skall underrättas om torkningen.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
@@ -83,40 +124,170 @@
             <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Rågens falltal</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Med beaktande av falltalet justeras priset på råg som följer:</saa:MomenttiKooste>
-            <te> Falltal                   Prisjustering %</te>
-            <te> 150 och över                    + 4,5</te>
-            <te> 140 - 149                            + 4,1</te>
-            <te> 130 - 139                            + 3,6</te>
-            <te> 120 - 129                            + 3,0</te>
-            <te> 110 - 119                            + 2,4</te>
-            <te> 105 - 109                            + 1,8</te>
-            <te> 100 - 104                            + 1,2</te>
-            <te>  95 - 99                             + 0,8</te>
-            <te>  90 - 94                                    0,4</te>
-            <te>  85 - 89                           ± 0,0</te>
-            <te>  80 - 84                                  - 3,6</te>
-            <te>  75 - 79                                  - 6,0</te>
-            <te>  70 - 74                                  - 7,5</te>
-            <te>  67 - 69                                  - 12,0</te>
-            <te>  64 - 66                                  - 20,0</te>
-            <te> under 64                                  - 41,0</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Falltal</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Prisjustering %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>150 och över</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>+ 4,5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>140 - 149</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>+ 4,1</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>130 - 139</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>+ 3,6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>120 - 129</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>+ 3,0</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>110 - 119</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>+ 2,4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>105 - 109</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>+ 1,8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>100 - 104</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>+ 1,2</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>95 - 99</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>+ 0,8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>90 - 94</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>85 - 89</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>± 0,0</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>80 - 84</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>- 3,6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>75 - 79</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>- 6,0</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>70 - 74</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>- 7,5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>67 - 69</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>- 12,0</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>64 - 66</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>- 20,0</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>under 64</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>- 41,0</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Har rågen skadats på grund av hög värme, sänks grundpriset med 41,0 %.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
             <saa:PykalaTunnusKooste>6 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Orenlighetshalt</saa:SaadosOtsikkoKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Avfall i vete och råg</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Ett spannmålspartis vikt minskas med 0,1 % för varje enhet om 0,1 % varmed mängden avfall överstiger 0,5 %. Viktminskningarna görs från den mottagna vikten.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Avfallskorn i vete Överstiger mängden gröna korn, korn av främmande sädesslag eller andra avfallskorn 1,0 %, sänks priset på spannmålspartiet för varje nämnt slag av avfall och för varje enhet om 0,1 % som följer:</saa:MomenttiKooste>
             <saa:MomenttiKooste>med 0,06 % då mängden gröna korn och korn av främmande sädesslag är 1,1-5,0 %,</saa:MomenttiKooste>
             <saa:MomenttiKooste>med 0,12 % då mängden gröna korn är 5,1-8,0 % och</saa:MomenttiKooste>
             <saa:MomenttiKooste>med 0,06 % då mängden övriga avfallskorn är 1,1 % eller mera.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Överstiger mängden gröna korn 8,0 % eller överstiger mängden korn av främmande sädesslag 5,0 %, sänks grundpriset med 24,0 %.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Avfallskorn i råg</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Överstiger mängden korn av främmande sädesslag eller andra avfallskorn 1,0 %, sänks priset på spannmålspartiet för varje nämnt slag av avfall och för varje enhet om 0,1 % som följer:</saa:MomenttiKooste>
             <saa:MomenttiKooste>med 0,06 % då mängden korn av främmande sädesslag är 1,1-5,0 %, och</saa:MomenttiKooste>
             <saa:MomenttiKooste>med 0,06 % då mängden övriga avfallskorn är 1,1 % eller mera.</saa:MomenttiKooste>
@@ -125,34 +296,34 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
             <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Hektolitervikt</saa:SaadosOtsikkoKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Vete</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Priset på ett spannmålsparti höjs med 0,06 % för varje 0,1 kg varmed hektolitervikten överstiger 78,0 kg, dock högst med 1,8 %.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Priset på ett spannmålsparti sänks med 0,06 % för varje 0,1 kg varmed hektolitervikten understiger 78,0 kg intill en underskridning med 2,0 kg och därefter med 0,12 % för varje understigande 0,1 kg intill en hektolitervikt av 74,0 kg.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Understiger ett spannmålspartis hektolitervikt 74,0 kg, sänks priset med 24,0 % och med 0,03 % för varje 0,1 kg varmed hektolitervikten understiger 74,0 kg intill en hektolitervikt av 64,0 kg.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Råg</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Understiger ett spannmålspartis hektolitervikt 65,0 kg, sänks priset med 41,0 % och med 0,03 % för varje 0,1 kg varmed hektolitervikten understiger 65,0 kg intill en hektolitervikt av 58,0 kg.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Fukthaltskorrigering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Det vid bestämmandet av hektolitervikten fastställda hektoliterviktsvärdet för råg och vete ökas beroende på fukthalten med 0,2 kg för varje påbörjad enhet om 0,3 % varmed fukthalten överstiger 15,0 %, dock högst med 13,4 kg.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §">
             <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Samordningsstadgande</saa:SaadosOtsikkoKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Vete</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Har på grundval av 4 § företagits en prissänkning om 24,0 % på grund av spannmålspartiets falltal eller gluten, görs prissättningen därutöver endast med beaktande av fukthalten och hektolitervikten.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Har på grundval av 6 § företagits en prissänkning om 24,0 % på grund av gröna korn eller korn av främmande sädesslag eller på grund av andra avfall i spannmålspartiet, görs prissättningen därutöver endast med beaktande av fukthalten och hektolitervikten.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Görs på grundval av 7 § en prissänkning om 24,0 % på grund av hektolitervikten, görs prissättningen enligt den ytterligare sänkningen för hektolitervikten samt fukthalten.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Görs ingen prissänkning om 24,0 % för spannmålspartiet på grundval av bakningskvaliteten, mängden avfallskorn eller hektolitervikten, får prissänkningen enligt samverkan av falltalet, mängden avfallskorn och hektolitervikten vara högst 24,0 %, varefter spannmålspartiet prissätts endast enligt fukthalten.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Råg</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Har på grundval av 4 § gjorts en prissänkning om 41,0 % på grund av spannmålspartiets falltal, görs prissättningen därutöver endast med beaktande av fukthalten och hektolitervikten.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Har på grundval av 6 § gjorts en prissänkning om 41,0 % på grund av mängden främmande sädesslag eller på grund av andra avfall görs prissättningen därutöver endast med beaktande av fukthalten och hektolitervikten.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Görs på grundval av 7 § en prissänkning om 41,0 % på grund av hektolitervikten, görs prissättningen utöver den ytterligare sänkningen för hektolitervikten endast enligt fukthalten.</saa:MomenttiKooste>
@@ -185,19 +356,60 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
             <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Fukthalt</saa:SaadosOtsikkoKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Viktkorrigering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Ett spannmålspartis vikt minskas med 0,13 % för varje enhet om 0,1 % varmed fukthalten överstiger 15,0 % och ökas med 0,13 % för varje enhet om 0,1 % varmed fukthalten understiger 15,0 %, dock högst med 4,0 %. Viktkorrigeringarna görs på den vikt som räknats ut i enlighet med 12 §.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Prisjustering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Med beaktande av fukthalten sänks spannmålspartiets pris för varje enhet om 0,1 % varmed fukthalten överstiger 15,0 % som följer:</saa:MomenttiKooste>
-            <te>  fukthalt, %       prissänkning, p/kg</te>
-            <te>  15,1-15,5              0,805</te>
-            <te>  15,6-17,0              0,202</te>
-            <te>  17,1-25,0              0,113</te>
-            <te>  25,1-                  0,064</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>fukthalt, %</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>prissänkning, p/kg</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15,1-15,5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,805</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15,6-17,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,202</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>17,1-25,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,113</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>25,1-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,064</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Priset på ett spannmålsparti höjs med 0,12 p/kg för varje enhet om 0,1 % varmed fukthalten understiger 15,0 %, dock högst med 1,80 p/kg.</saa:MomenttiKooste>
             <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Omtorkning</saa:SaadosKursiiviKooste>
@@ -207,9 +419,9 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
             <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Orenlighetshalt</saa:SaadosOtsikkoKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Avfall i korn och havre</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Ett spannmålspartis vikt minskas med 0,1 % för varje enhet om 0,1 % varmed mängden avfall överstiger 0,5 %. Viktminskningarna görs från den mottagna vikten.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">
@@ -225,9 +437,9 @@
             </saa:MomenttiKooste>
             <saa:MomenttiKooste>Priset på ett spannmålsparti höjs med 0,05 % för varje 0,1 kg varmed hektolitervikten överstiger 54,0 kg, dock högst med 2,0 %.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Priset på ett spannmålsparti sänks med 0,05 % för varje 0,1 kg varmed hektolitervikten understiger 54,0 kg intill en hektolitervikt av 48,0 kg och därefter med 0,07 % för varje 0,1 kg intill en hektolitervikt av 45,0 kg.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Fukthaltskorrigering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Det vid bestämmandet av hektolitervikten fastställda hektolitersviktvärdet för korn och havre ökas beroende på fukthalten med 0,1 kg för varje påbörjad enhet om 0,3 % varmed fukthalten överstiger 15,0 %, dock högst med 6,7 kg.</saa:MomenttiKooste>
           </saa:Pykala>
         </saa:Luku>
@@ -260,27 +472,102 @@
               <saa:SaadosKursiiviKooste>Viktkorrigering</saa:SaadosKursiiviKooste>
             </saa:MomenttiKooste>
             <saa:MomenttiKooste>Spannmålspartis vikt minskas med 0,13 % för varje enhet om 0,1 % varmed fukthalten överstiger 15,0 %, och ökas vikten med 0,13 % för varje enhet om 0,1 % varmed fukthalten understiger 15,0 %, dock högst med 4,0 %.</saa:MomenttiKooste>
-            <ete>Prisjustering</ete>
+            <saa:MomenttiKooste>Prisjustering</saa:MomenttiKooste>
             <saa:MomenttiKooste>Med beaktande av fukthalten sänks priset på ett spannmålsparti för varje enhet om 0,1 % varmed fukthalten överstiger 15,0 % som följer:</saa:MomenttiKooste>
-            <te>  fukthalt, %         prissänkning, p/kg</te>
-            <te>  15,1-15,5                0,805</te>
-            <te>  15,6-17,0                0,202</te>
-            <te>  17,1-25,0                0,113</te>
-            <te>  25,1-                    0,064</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>fukthalt, %</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>prissänkning, p/kg</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15,1-15,5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,805</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15,6-17,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,202</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>17,1-25,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,113</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>25,1-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,064</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Priset på ett spannmålsparti höjs med 0,12 p/kg för varje enhet om 0,1 % varmed fukthalten understiger 15,0 %, dock högst med 1,80 p/kg.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Omtorkning</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Är maltkornets fukthalt 15,1-16,0 % och partiet torkas på nytt, debiteras 5 p/kg förvandlad vikt för torkningen. I så fall varken sänks eller höjs priset på spannmålspartiet på ovan nämnt sätt. Den som sålt partiet skall underrättas om torkningen.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="17 §">
             <saa:PykalaTunnusKooste>17 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Grobarhet</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Med beaktande av grobarheten justeras priset på maltkorn som följer:</saa:MomenttiKooste>
-            <te>  grobarhet, %         prissänkning, %</te>
-            <te>  94,0-94,9                0,5</te>
-            <te>  93,0-93,9                1,5</te>
-            <te>  92,0-92,9                3,0</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>grobarhet, %</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>prissänkning, %</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>94,0-94,9</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>93,0-93,9</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>1,5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>92,0-92,9</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3,0</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="18 §">
             <saa:PykalaTunnusKooste>18 §</saa:PykalaTunnusKooste>
@@ -330,31 +617,72 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="22 §">
             <saa:PykalaTunnusKooste>22 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Fukthalt</saa:SaadosOtsikkoKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Viktkorrigering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Ett partis vikt minskas med 0,13 % för varje enhet om 0,1 % varmed fukthalten överstiger 15,0 % och ökas med 0,13 % för varje enhet om 0,1 % varmed fukthalten understiger 15,0 %, dock med högst 4,0 %. Viktkorrigeringarna görs på den vikt som räknats ut i enlighet med 23 §.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Prisjustering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Med beaktande av fukthalten sänks priset på ärter för varje enhet om 0,1 % varmed fukthalten överstiger 15,0 % som följer:</saa:MomenttiKooste>
-            <te>  fukthalt, %          prissänkning, p/kg</te>
-            <te>  15,1-15,5                 0,805</te>
-            <te>  15,6-17,0                 0,202</te>
-            <te>  17,1-25,0                 0,113</te>
-            <te>  25,1-                     0,064</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>fukthalt, %</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>prissänkning, p/kg</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15,1-15,5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,805</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15,6-17,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,202</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>17,1-25,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,113</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>25,1-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,064</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Priset på ärter höjs med 0,12 p/kg för varje enhet om 0,1 % varmed fukthalten understiger 15,0 %, dock högst med 1,80 p/kg.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="23 §">
             <saa:PykalaTunnusKooste>23 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Orenlighetshalt</saa:SaadosOtsikkoKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Avfall i matärter</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Ärternas vikt minskas med 0,1 % för varje enhet om 0,1 % varmed mängden avfall överstiger 0,0 % beträffande mögliga ärter eller 0,5 % beträffande annat avfall. Viktminskningen görs från den mottagna vikten.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Avfallsärter i matärter</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Priset på ärter sänks med 0,15 % för varje enhet om 0,1 % varmed mängden avfallsärter överstiger 4,0 % och med 0,15 % för varje enhet om 0,1 % varmed mängden främmande sädesslag överstiger 0,5 %.</saa:MomenttiKooste>
           </saa:Pykala>
         </saa:Luku>
@@ -382,31 +710,72 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="26 §">
             <saa:PykalaTunnusKooste>26 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Fukthalt</saa:SaadosOtsikkoKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Viktkorrigering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Ett partis vikt minskas med 0,13 % för varje enhet om 0,1 % varmed fukthalten överstiger 15,0 % och ökas med 0,13 % för varje enhet om 0,1 % varmed fukthalten understiger 15,0 %, dock högst med 4,0 %. Viktkorrigeringarna görs på den vikt som räknats ut i enlighet med 23 §.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Prisjustering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Med beaktande av fukthalten sänks priset på ärter för varje enhet om 0,1 % varmed fukthalten överstiger 15,0 % som följer:</saa:MomenttiKooste>
-            <te>  fukthalt, %         prissänkning, p/kg</te>
-            <te>  15,1-15,5                  0,805</te>
-            <te>  15,6-17,0                  0,202</te>
-            <te>  17,1-25,0                  0,113</te>
-            <te>  25,1-                      0,064</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>fukthalt, %</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>prissänkning, p/kg</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15,1-15,5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,805</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15,6-17,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,202</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>17,1-25,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,113</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>25,1-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,064</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Priset på ärter höjs med 0,12 p/kg för varje enhet om 0,1 % varmed fukthalten understiger 15,0 %, dock högst med 1,80 p/kg.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="27 §">
             <saa:PykalaTunnusKooste>27 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Orenlighetshalt</saa:SaadosOtsikkoKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Avfall i foderärter</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Ärternas vikt minskas med 0,1 % för varje enhet om 0,1 % varmed mängden avfall överstiger 1,0 %. Viktminskningen görs från den mottagna vikten.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Avfallsärter i foderärter</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Priset sänks med 0,12 % för varje enhet om 0,1 % varmed mängden främmande sädesslag överstiger 5,0 %.</saa:MomenttiKooste>
           </saa:Pykala>
         </saa:Luku>
@@ -427,19 +796,60 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="30 §">
             <saa:PykalaTunnusKooste>30 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Fukthalt</saa:SaadosOtsikkoKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Viktkorrigering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Ett partis vikt minskas med 0,13 % för varje enhet om 0,1 % varmed fukthalten överstiger 9,0 %, och ökas vikten med 0,13 % för varje enhet om 0,1 % varmed fukthalten understiger 9,0 %, dock högst med 3,9 %.</saa:MomenttiKooste>
-            <ete>
+            <saa:MomenttiKooste>
               <saa:SaadosKursiiviKooste>Prisjustering</saa:SaadosKursiiviKooste>
-            </ete>
+            </saa:MomenttiKooste>
             <saa:MomenttiKooste>Med beaktande av fukthalten sänks priset på oljeväxter för varje enhet om 0,1 % varmed fukthalten överstiger 9,0 % som följer:</saa:MomenttiKooste>
-            <te>  fukthalt, %         prissänkning, p/kg</te>
-            <te>  9,1- 9,5                  0,805</te>
-            <te>  9,6-11,0                  0,202</te>
-            <te> 11,1-19,0                  0,113</te>
-            <te> 19,1-                      0,064</te>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>fukthalt, %</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>prissänkning, p/kg</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>9,1- 9,5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,805</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>9,6-11,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,202</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>11,1-19,0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,113</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>19,1-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,064</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Priset på oljeväxter höjs med 0,12 p/kg för varje enhet om 0,1 % varmed fukthalten understiger 9,0 %, dock högst med 1,20 p/kg.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="31 §">

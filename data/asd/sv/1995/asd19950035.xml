@@ -30,15 +30,108 @@
           <saa:PykalaTunnusKooste>2 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Tabellavgift </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>För indrivning av penningfordran skall gäldenären betala tabellavgift enligt beloppet på indriven fordran eller del därav enligt följande: </saa:MomenttiKooste>
-          <te>Fordran eller del därom        Tabellavgift</te>
-          <te>            mk                         mk</te>
-          <te>högst   400                         40  </te>
-          <te>över    400 men högst   1 000       70  </te>
-          <te>över  1 000 men högst   2 000      130  </te>
-          <te>över  2 000 men högst   4 000      250  </te>
-          <te>över  4 000 men högst  10 000      400  </te>
-          <te>över 10 000 men högst  50 000      600 </te>
-          <te>över 50 000                      1 000 </te>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Fordran eller del därom</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="2" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top">Tabellavgift</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>högst 400</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>40</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>över 400 men högst</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>70</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>över 1 000 men högst</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>130</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>över 2 000 men högst</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>250</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>över 4 000 men högst</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>400</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>över 10 000 men högst</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>över 50 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 000</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 § </saa:PykalaTunnusKooste>
@@ -83,16 +176,18 @@ b) 1 000 mk om föremålets uppgörelsevärde överstiger 5 000 mk,
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
           <saa:PykalaTunnusKooste>6 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Intygs- och kopieringsavgift </saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>För intyg och kopior som utfärdas på särskild beställning uppbärs intygsavgift eller kopieringsavgift enligt följande:</saa:MomenttiKooste>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>För intyg och kopior som utfärdas på särskild beställning uppbärs intygsavgift eller kopieringsavgift enligt följande:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
 1) intyg över anteckningar på dagbokskortet 50 mark per utsökningsärende,
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 2) intyg för kreditupplysningsverksamhet 50 mark plus 7 mark per person,
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 3) för en kopia av en specificerad handling 5 mark för första sidan och 3 mark för varje därpå följande sida och om beställaren inte specificerar handlingen och den måste letas fram ur arkivet, 50 mark för kopian av den första sidan och 3 mark för varje därpå följande sida,
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
           <saa:MomenttiKooste>Om ett intyg eller en kopia skickas mot postförskott, uppbärs ytterligare en extra intygs- eller kopieringsavgift om 30 mark.</saa:MomenttiKooste>
           <saa:MomenttiKooste>För ett intyg eller en kopia som skickas per telefax uppbärs avgift enligt 1 mom.</saa:MomenttiKooste>
           <saa:MomenttiKooste>För handlingar som utfärdas till parterna utan särskild beställning uppbärs ingen avgift.</saa:MomenttiKooste>

@@ -63,121 +63,730 @@
       <sis:KappaleKooste>AVGIFTSTABELL </sis:KappaleKooste>
       <sis:KappaleKooste>över tullverkets avgiftsbelagda offentligrättsliga prestationer </sis:KappaleKooste>
       <sis:KappaleKooste>I TULLÅTG-RDER</sis:KappaleKooste>
-      <te>1. Fordonsklarering</te>
-      <te>
-        <saa:SaadosKursiiviKooste>Flygtrafik</saa:SaadosKursiiviKooste>
-      </te>
-      <te>Klarering av luftfartyg i kommersiell utrikestrafik alla veckodagar: </te>
-      <te>På Helsingfors-Vanda, Tammerfors-Birkala och på Åbo flygstationer kl. 21.00-7.00        200 mk</te>
-      <te>På Helsingfors-Malms, Ivalo, Joensuu, Jyväskylä, Kajana, Kemi, Kronoby, Kuopio,</te>
-      <te> Villmanstrands, Mariehamns, Uleåborgs, Björneborgs, Rovaniemi, Nyslotts, Vasa</te>
-      <te> och Varkaus flygstationer kl. 17.00-7.00                                               350 mk</te>
-      <te>Någon annanstans, oberoende av vilken tid av dygnet                                     500 mk</te>
-      <te>Klarering på platsen av luftfartyg i annan än kommersiell utrikestrafik alla veckodagar:       </te>
-      <te>på ovan nämnda flygstationer kl. 17.00-7.00                                           200 mk</te>
-      <te>någon annanstans, oberoende av vilken tid av dygnet                                   350 mk</te>
-      <te>
-        <saa:SaadosKursiiviKooste>Fartygstrafik</saa:SaadosKursiiviKooste>
-      </te>
-      <te>Klarering av fartyg i kommersiell utrikestrafik vid allmänna hamnar alla veckodagar:       </te>
-      <te>kl. 16.00-7.00                                                                        200 mk</te>
-      <te>vid hamnar inom Västra tulldistriktet och Lapplands tulldistrikt kl. 22.00-7.00 dock  500 mk</te>
-      <te>Klarering av ovan nämnda fartyg på plats vid andra hamnar:       </te>
-      <te>från måndag till fredag kl. 7.00-16.00                                                250 mk/timme</te>
-      <te>annan tid                                                                             350 mk/timme</te>
-      <te>2. Förpassning       </te>
-      <te>Förpassning som inte kräver särskild garanti       </te>
-      <te>under allmän tjänstetid                                                                30 mk</te>
-      <te>från måndag till fredag utanför allmän tjänstetid                                      40 mk</te>
-      <te>lördagar och helger                                                                    60 mk</te>
-      <te>Förpassning som kräver särskild garanti       </te>
-      <te>under allmän tjänstetid                                                                60 mk</te>
-      <te>från måndag till fredag utanför allmän tjänstetid                                      80 mk</te>
-      <te>lördagar och helger                                                                   100 mk</te>
-      <te>3. Överlåtelse till fri rörelse       </te>
-      <te>från måndag till fredag utanför allmän tjänstetid                                      80 mk</te>
-      <te>lördagar och helger                                                                   100 mk</te>
-      <te>4. Lastningstillstånd och lageruttag       </te>
-      <te>Uttag ur tullager eller provianteringslager samt lastningstillstånd för</te>
-      <te> förmånsberättigad export       </te>
-      <te>under allmän tjänstetid                                                                40 mk</te>
-      <te>från måndag till fredag utanför allmän tjänstetid                                      80 mk</te>
-      <te>lördagar och helger                                                                   100 mk</te>
-      <te>5. Övriga tullåtgärder       </te>
-      <te>Överföring till skattefri butik                                                         140 mk</te>
-      <te>Av orsak som har samband med varuhavaren eller lagerhållaren nödvändigt</te>
-      <te> inspektionsbesök eller annan tullåtgärd på friområde, i tullager eller annat lager</te>
-      <te> godkänt av tullverket eller i tillfälligt lager                                        250 mk/timme</te>
-      <te>Lossningstillstånd beviljat av tullanstalten utanför allmän tjänstetid                   40 mk</te>
-      <te>Förstörande under tullkontroll, behandling av provpartier så att de inte duger till</te>
-      <te> försäljning, eskortövervakning av transport samt andra med dessa jämförbara</te>
-      <te> tullåtgärder av orsak som har samband med kunden                                       250 mk/timme</te>
-      <te>Användning av tullverkets fortskaffningsmedel för utförande av en</te>
-      <te> övervakningsprestation, om avståndet från expeditionsplatsen i en riktning har</te>
-      <te> varit över 10 kilometer                                                                  3 mk/km</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">1. Fordonsklarering</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">
+                  <sis1:KursiiviTeksti>Flygtrafik</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Klarering av luftfartyg i kommersiell utrikestrafik alla veckodagar:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>På Helsingfors-Vanda, Tammerfors-Birkala och på Åbo flygstationer kl. 21.00-7.00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>200 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">På Helsingfors-Malms, Ivalo, Joensuu, Jyväskylä, Kajana, Kemi, Kronoby, Kuopio,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Villmanstrands, Mariehamns, Uleåborgs, Björneborgs, Rovaniemi, Nyslotts, Vasa</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>och Varkaus flygstationer kl. 17.00-7.00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Någon annanstans, oberoende av vilken tid av dygnet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Klarering på platsen av luftfartyg i annan än kommersiell utrikestrafik alla veckodagar:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>på ovan nämnda flygstationer kl. 17.00-7.00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>200 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>någon annanstans, oberoende av vilken tid av dygnet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">
+                  <sis1:KursiiviTeksti>Fartygstrafik</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Klarering av fartyg i kommersiell utrikestrafik vid allmänna hamnar alla veckodagar:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>kl. 16.00-7.00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>200 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>vid hamnar inom Västra tulldistriktet och Lapplands tulldistrikt kl. 22.00-7.00 dock</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Klarering av ovan nämnda fartyg på plats vid andra hamnar:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>från måndag till fredag kl. 7.00-16.00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk/timme</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>annan tid</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>350 mk/timme</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">2. Förpassning</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Förpassning som inte kräver särskild garanti</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>under allmän tjänstetid</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>30 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>från måndag till fredag utanför allmän tjänstetid</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>40 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>lördagar och helger</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>60 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Förpassning som kräver särskild garanti</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>under allmän tjänstetid</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>60 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>från måndag till fredag utanför allmän tjänstetid</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>80 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>lördagar och helger</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>100 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">3. Överlåtelse till fri rörelse</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>från måndag till fredag utanför allmän tjänstetid</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>80 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>lördagar och helger</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>100 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">4. Lastningstillstånd och lageruttag</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Uttag ur tullager eller provianteringslager samt lastningstillstånd för</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">förmånsberättigad export</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>under allmän tjänstetid</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>40 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>från måndag till fredag utanför allmän tjänstetid</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>80 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>lördagar och helger</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>100 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">5. Övriga tullåtgärder</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Överföring till skattefri butik</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>140 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Av orsak som har samband med varuhavaren eller lagerhållaren nödvändigt</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">inspektionsbesök eller annan tullåtgärd på friområde, i tullager eller annat lager</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>godkänt av tullverket eller i tillfälligt lager</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk/timme</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Lossningstillstånd beviljat av tullanstalten utanför allmän tjänstetid</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>40 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Förstörande under tullkontroll, behandling av provpartier så att de inte duger till</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">försäljning, eskortövervakning av transport samt andra med dessa jämförbara</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tullåtgärder av orsak som har samband med kunden</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk/timme</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Användning av tullverkets fortskaffningsmedel för utförande av en</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">övervakningsprestation, om avståndet från expeditionsplatsen i en riktning har</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>varit över 10 kilometer</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3 mk/km</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>II TULLSTYRELSENS BESLUT OCH TILLSTÅND       </sis:KappaleKooste>
-      <te>1. Beslut om förhandsbesked       </te>
-      <te>Sådana beslut om förhandsbesked angående accisbeskattning som har krävt</te>
-      <te> tullaboratorieundersökning                                                           2 000 mk/vara</te>
-      <te>Beslut om förhandsbesked angående accisbeskattning vilka inte har krävt</te>
-      <te> tullaboratorieundersökning                                                           1 000 mk/vara</te>
-      <te>Beslut om förhandsbesked, när sökanden är en privatperson och det inte är fråga om</te>
-      <te> kommersiell verksamhet                                                                 500 mk</te>
-      <te>Övriga förhandsbesked                                                                 1 000 mk</te>
-      <te>Beslut om att inte meddela förhandsbesked                                               100 mk</te>
-      <te>2. Förmånsbeslut och beslut som gäller befrielse från utjämningsskatt                   300 mk</te>
-      <te>3. Övriga beslut och tillstånd       </te>
-      <te>Beslut som gäller tullverkets registrerade kund;</te>
-      <te>beslut om godkännade till registrerad bilskatteskyldig                                3 000 mk</te>
-      <te>Tillstånd som gäller auktoriserad lagerhållare enligt lagen om påförande av accis:        </te>
-      <te>tillstånd som gäller harmoniserade acciser 3 000 mk och därtill 500 mk för varje</te>
-      <te> fristående lager, dock sammanlagt högst                                              5 000 mk</te>
-      <te>tillstånd som gäller endast nationella acciser 1 500 mk och därtill 500 mk för</te>
-      <te> varje fristående lager, dock sammanlagt högst                                        3 000 mk</te>
-      <te>tillstånd som gäller tillverkare som har leveranser bara i hemlandet                  200 mk</te>
-      <te>Tillstånd som gäller registrerad näringsidkare och skatterepresentant enligt lagen</te>
-      <te> om påförande av accis:        </te>
-      <te>tillstånd som gäller harmoniserade acciser                                          2 000 mk</te>
-      <te>tillstånd som gäller endast nationella acciser                                      1 000 mk</te>
-      <te>Små ändringar av beslut som gäller auktoriserad lagerhållare och registrerad</te>
-      <te> näringsidkare enligt lagen om påförande av accis                                       500 mk</te>
-      <te>Tillstånd att inrätta friområde och frilager samt tillstånd till industriell,</te>
-      <te> kommersiell eller annan serviceverksamhet som bedrivs där                            2 000 mk</te>
-      <te>Tillstånd som gäller ändring av friområdets gränser;        </te>
-      <te>Tillstånd till centraliserad förtullning;        </te>
-      <te>tillstånd som gäller tullförfaranden med ekonomisk verkan;        </te>
-      <te>tillstånd att inrätta tullager;         </te>
-      <te>tillstånd som gäller centralisering av accisbeskattningen, plats där</te>
-      <te> accisdeklaration inges och förordnande av uppdragsgivare till accisskyldig och</te>
-      <te> tillstånd att lämna ledsagardocumentet utan underskrift                              1 500 mk</te>
-      <te>Förnyelse eller förlängning av ovan nämnda, av tullstyrelsen</te>
-      <te> tidigare beviljade tillstånd                                                           500 mk</te>
-      <te/>
-      <te/>
-      <te/>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">1. Beslut om förhandsbesked</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Sådana beslut om förhandsbesked angående accisbeskattning som har krävt</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tullaboratorieundersökning</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2 000 mk/vara</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Beslut om förhandsbesked angående accisbeskattning vilka inte har krävt</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tullaboratorieundersökning</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 000 mk/vara</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Beslut om förhandsbesked, när sökanden är en privatperson och det inte är fråga om</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>kommersiell verksamhet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Övriga förhandsbesked</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Beslut om att inte meddela förhandsbesked</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>100 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>2. Förmånsbeslut och beslut som gäller befrielse från utjämningsskatt</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>300 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">3. Övriga beslut och tillstånd</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Beslut som gäller tullverkets registrerade kund;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>beslut om godkännade till registrerad bilskatteskyldig</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Tillstånd som gäller auktoriserad lagerhållare enligt lagen om påförande av accis:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">tillstånd som gäller harmoniserade acciser 3 000 mk och därtill 500 mk för varje</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>fristående lager, dock sammanlagt högst</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>5 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">tillstånd som gäller endast nationella acciser 1 500 mk och därtill 500 mk för</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>varje fristående lager, dock sammanlagt högst</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tillstånd som gäller tillverkare som har leveranser bara i hemlandet</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>200 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Tillstånd som gäller registrerad näringsidkare och skatterepresentant enligt lagen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">om påförande av accis:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tillstånd som gäller harmoniserade acciser</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tillstånd som gäller endast nationella acciser</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Små ändringar av beslut som gäller auktoriserad lagerhållare och registrerad</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>näringsidkare enligt lagen om påförande av accis</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Tillstånd att inrätta friområde och frilager samt tillstånd till industriell,</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>kommersiell eller annan serviceverksamhet som bedrivs där</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2 000 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Tillstånd som gäller ändring av friområdets gränser;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Tillstånd till centraliserad förtullning;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">tillstånd som gäller tullförfaranden med ekonomisk verkan;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">tillstånd att inrätta tullager;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">tillstånd som gäller centralisering av accisbeskattningen, plats där</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">accisdeklaration inges och förordnande av uppdragsgivare till accisskyldig och</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tillstånd att lämna ledsagardocumentet utan underskrift</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Förnyelse eller förlängning av ovan nämnda, av tullstyrelsen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tidigare beviljade tillstånd</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>III DISTRIKTSTULLKAMMARENS BESLUT OCH TILLSTÅND       </sis:KappaleKooste>
-      <te>Tillstånd till periodfakturering;        </te>
-      <te>tillstånd att inrätta tillfälligt lager eller tullager;        </te>
-      <te>tillstånd att i bokföringen avskilja råämnen som används vid tillverkningen           1 200 mk</te>
-      <te>Tillstånd till undantag i fråga om tullvägar eller allmänna trafikplatser;       </te>
-      <te>förlängning av tullklareringstiden och tillstånd till andra undantag som gäller</te>
-      <te> tullklareringsskyldigheten vid annat förfarande än förenklat förfarande;       </te>
-      <te>tillstånd till behandling av tullagervaror;       </te>
-      <te>beslut och tillstånd som baserar sig på accislagstiftningen                             500 mk</te>
-      <te>Förnyelse eller förlängning av ovan nämnda, av distriktstullkammaren tidigare</te>
-      <te> beviljade beslut;        </te>
-      <te>ansökan om förlängning av tidsfristerna för tullfrihet och skattefrihet;        </te>
-      <te>befrielse från skatt på motorfordon                                                     250 mk</te>
-      <te>Förtullningsbok, eskorterartillstånd samt intyg över befrielse från farledsavgift       100 mk</te>
-      <te>Visum</te>
-      <te>engångsvisum                                                                          180 mk</te>
-      <te>genomresevisum                                                                        140 mk</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Tillstånd till periodfakturering;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">tillstånd att inrätta tillfälligt lager eller tullager;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>tillstånd att i bokföringen avskilja råämnen som används vid tillverkningen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 200 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Tillstånd till undantag i fråga om tullvägar eller allmänna trafikplatser;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">förlängning av tullklareringstiden och tillstånd till andra undantag som gäller</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">tullklareringsskyldigheten vid annat förfarande än förenklat förfarande;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">tillstånd till behandling av tullagervaror;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>beslut och tillstånd som baserar sig på accislagstiftningen</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>500 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Förnyelse eller förlängning av ovan nämnda, av distriktstullkammaren tidigare</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">beviljade beslut;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">ansökan om förlängning av tidsfristerna för tullfrihet och skattefrihet;</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>befrielse från skatt på motorfordon</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>Förtullningsbok, eskorterartillstånd samt intyg över befrielse från farledsavgift</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>100 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Visum</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>engångsvisum</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>180 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>genomresevisum</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>140 mk</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>IV TULLABORATORIETS PRESTATIONER       </sis:KappaleKooste>
-      <te>Laboratorieundersökningar på tullmyndighetens initiativ:       </te>
-      <te>livsmedel som avses i 1 § livsmedelsförordningen (408/52)                           1 350 mk/</te>
-      <te>                                                                                undersökt varuparti</te>
-      <te>andra varor                                                                         1 000 mk/</te>
-      <te>                                                                                undersökt varuparti</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">Laboratorieundersökningar på tullmyndighetens initiativ:</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>livsmedel som avses i 1 § livsmedelsförordningen (408/52)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 350 mk/</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>undersökt varuparti</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>andra varor</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 000 mk/</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>undersökt varuparti</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>

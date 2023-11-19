@@ -38,13 +38,68 @@
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Ett affärs- och samfundssignum består av ett ordningsnummer och ett kontrollnummer, i nämnd ordning. Ordningsnumret är högst sjusiffrigt.</saa:MomenttiKooste>
           <saa:MomenttiKooste>För uträknande av ett kontrollnummer multipliceras från höger till vänster ordningsnumrets</saa:MomenttiKooste>
-          <te>första siffra med talet   2</te>
-          <te>andra   ,,     ,,  ,,     4</te>
-          <te>tredje  ,,     ,,  ,,     8</te>
-          <te>fjärde  ,,     ,,  ,,     5</te>
-          <te>femte   ,,     ,,  ,,    10</te>
-          <te>sjätte  ,,     ,,  ,,     9</te>
-          <te>sjunde  ,,     ,,  ,,     7 samt</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>första siffra med talet</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>andra ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>tredje ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>8</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>fjärde ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>femte ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>sjätte ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>9</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>sjunde ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>7 samt</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>adderas de sålunda erhållna produkterna varefter summan divideras med talet 11. Kontrollnumret bestäms på basis av den rest som erhållits vid divisionen på följande sätt: om resten är noll, är kontrollnumret noll. Är resten större än ett, är kontrollnumret den skillnad som erhålls när resten subtraheras från talet 11. Är resten ett, lämnas det ordningsnummer som motsvarar kontrollnumret oanvänt.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">

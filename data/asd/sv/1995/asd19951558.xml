@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om beskattningsförfarande </met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 131/95</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>StaUB 37/95</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>RSv 124/95 </sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -233,10 +222,7 @@
         <saa:Luku saa1:identifiointiTunnus="4 kap.">
           <saa:LukuTunnusKooste>4 kap. </saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Verkställande av beskattningen </saa:SaadosOtsikkoKooste>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="">
-            <saa:PykalaTunnusKooste/>
-            <saa:SaadosOtsikkoKooste>Allmänna stadganden om verkställande av beskattningen </saa:SaadosOtsikkoKooste>
-          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Allmänna stadganden om verkställande av beskattningen </saa:SaadosValiotsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="26 §">
             <saa:PykalaTunnusKooste>26 § </saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Allmänna principer </saa:SaadosOtsikkoKooste>
@@ -472,10 +458,7 @@
         <saa:Luku saa1:identifiointiTunnus="5 kap.">
           <saa:LukuTunnusKooste>5 kap. </saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Ändringssökande </saa:SaadosOtsikkoKooste>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="">
-            <saa:PykalaTunnusKooste/>
-            <saa:SaadosOtsikkoKooste>Rättelseyrkande </saa:SaadosOtsikkoKooste>
-          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Rättelseyrkande </saa:SaadosValiotsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="61 §">
             <saa:PykalaTunnusKooste>61 § </saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Rättelsemyndighet </saa:SaadosOtsikkoKooste>
@@ -791,6 +774,11 @@ och kommunen har rätt att söka ändring i beskattningen samt i fastställandet
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 131/95</sdk:EsityoViite>
+    <sdk:EsityoViite>StaUB 37/95</sdk:EsityoViite>
+    <sdk:EsityoViite>RSv 124/95 </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 18 december 1995</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

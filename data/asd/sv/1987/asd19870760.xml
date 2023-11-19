@@ -27,17 +27,199 @@
           <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>1. Enkel biljett berättigar till en resa mellan två för persontrafik öppnade trafikplatser.</saa:MomenttiKooste>
           <saa:MomenttiKooste>2. Priset för andra klass enkel biljett bestämmes genom att till grundavgiften 1,65 mark lägges:</saa:MomenttiKooste>
-          <te>för en resesträcka  av     1-   22  km 0,75 mark  för varje påbörjat avsnitt av   2 km</te>
-          <te>,,  ,,      ,,      ,,    23-   50  ,, 1,05  ,,    ,,   ,,     ,,      ,,    ,,   4 ,,</te>
-          <te>,,  ,,      ,,      ,,    51-   80  ,, 1,60  ,,    ,,   ,,     ,,      ,,    ,,   5 ,,</te>
-          <te>,,  ,,      ,,      ,,    81-  140  ,, 2,35  ,,    ,,   ,,     ,,      ,,    ,,  10 ,,</te>
-          <te>,,  ,,      ,,      ,,   141-  270  ,, 2,65  ,,    ,,   ,,     ,,      ,,    ,,  10 ,,</te>
-          <te>,,  ,,      ,,      ,,   271-  450  ,, 2,30  ,,    ,,   ,,     ,,      ,,    ,,  10 ,,</te>
-          <te>,,  ,,      ,,      ,,   451-  600  ,, 2,05  ,,    ,,   ,,     ,,      ,,    ,,  10 ,,</te>
-          <te>,,  ,,      ,,      ,,   601-  960  ,, 4,35  ,,    ,,   ,,     ,,      ,,    ,,  30 ,,</te>
-          <te>,,  ,,      ,,      ,,   961-1 200  ,, 4,55  ,,    ,,   ,,     ,,      ,,    ,,  40 ,,</te>
-          <te>,,  ,,      ,,      ,, 1 201-2 000  ,, 4,80  ,,    ,,   ,,     ,,      ,,    ,,  50 ,,</te>
-          <te>,,  ,,      ,,      ,,  över 2 000  ,, 9,45  ,,    ,,   ,,     ,,      ,,    ,, 100 ,,</te>
+          <tau:table>
+            <tau:tgroup cols="5" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>för en resesträcka av</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1-22</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>km 0,75 mark</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>för varje påbörjat avsnitt av</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 km</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>23-50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 1,05</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>51-80</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 1,60</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>81-140</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 2,35</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>141-270</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 2,65</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>271-450</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 2,30</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>451-600</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 2,05</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>601-960</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 4,35</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>30 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>961-1 200</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 4,55</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>40 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 201-2 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 4,80</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>över 2 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, 9,45</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Priset på enkel biljett beräknas för minst 8 kilometer.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:SaadosValiotsikkoKooste>Månadsbiljett</saa:SaadosValiotsikkoKooste>
@@ -45,13 +227,110 @@
           <saa:PykalaTunnusKooste>15 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>1. Månadsbiljetten är personlig och berättigar under en månad till ett obegränsat antal resor mellan de på biljetten antecknade trafikplatserna. Månadsbiljettens giltighetstid kan börja vilken dag som helst i månaden.</saa:MomenttiKooste>
           <saa:MomenttiKooste>2. Priset på andra klass månadsbiljett beräknas så, att till grundavgiften 70,00 mark lägges:</saa:MomenttiKooste>
-          <te>för en resesträcka av     1-  10 km 16,30 mark  för varje påbörjat avsnitt av  2 km</te>
-          <te>,,  ,,      ,,     ,,    11-  22 ,, 27,50  ,,    ,,   ,,     ,,      ,,    ,,  3 ,,</te>
-          <te>,,  ,,      ,,     ,,    23-  52 ,, 42,00  ,,    ,,   ,,     ,,      ,,    ,,  6 ,,</te>
-          <te>,,  ,,      ,,     ,,    53-  80 ,, 35,00  ,,    ,,   ,,     ,,      ,,    ,,  7 ,,</te>
-          <te>,,  ,,      ,,     ,,    81- 180 ,, 23,50  ,,    ,,   ,,     ,,      ,,    ,, 10 ,,</te>
-          <te>,,  ,,      ,,     ,,   181- 260 ,, 36,00  ,,    ,,   ,,     ,,      ,,    ,, 20 ,,</te>
-          <te>,,  ,,      ,,     ,,   261- 500 ,, 50,50  ,,    ,,   ,,     ,,      ,,    ,, 48 ,,</te>
+          <tau:table>
+            <tau:tgroup cols="4" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>för en resesträcka av</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1-10 km 16,30 mark</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>för varje påbörjat avsnitt av</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 km</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>11-22 ,, 27,50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>23-52 ,, 42,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>6 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>53-80 ,, 35,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>7 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>81- 180 ,, 23,50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>181- 260 ,, 36,00</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>261- 500 ,, 50,50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>48 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Priset på månadsbiljett beräknas för minst 8 kilometer.</saa:MomenttiKooste>
           <saa:MomenttiKooste>3. Priset på månadsbiljett för flera månader erhålles genom att priset för en månads månadsbiljett multipliceras med antalet månader i giltighetstiden. Månadsbiljett säljes för en tid av högst 12 månader.</saa:MomenttiKooste>
           <saa:MomenttiKooste>4. Priset på månadsbiljett som gäller på samtliga banor motsvarar priset på en månadsbiljett som gäller på en sträcka av 500 kilometer.</saa:MomenttiKooste>
@@ -70,11 +349,11 @@
           <saa:PykalaTunnusKooste>36 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>1. Befordringsavgiften för en styckegodssändning bestämmes på basen av godsets bruttovikt, lätt och skrymmande gods på basen av volymvikten samt av järnvägsstyrelsen fastställda tariffavstånd. Befordringsavgiften beräknas enligt de i följande tabell fastställda enhetspriserna för varje sändning sålunda, att man till avgiften enligt vikt lägger tilläggsavgiften för avståndskoefficienten.</saa:MomenttiKooste>
           <pdf>
-            <viite tyyppi="pdf" inline="NO" kohde="liite/2542.pdf">Tabell</viite>
-          </pdf>
+Tabell
+</pdf>
           <pdf>
-            <viite tyyppi="pdf" inline="NO" kohde="liite/2543.pdf">Tabell</viite>
-          </pdf>
+Tabell
+</pdf>
           <saa:MomenttiKooste>Järnvägsstyrelsen fastställer det konstanta priset för styckegodssändningarnas befordringsavgifter.</saa:MomenttiKooste>
           <saa:MomenttiKooste>2. Järnvägsstyrelsen har rätt att bestämma att för styckegodssändningar uppbäres en särskild stationsavgift och fastställa den.</saa:MomenttiKooste>
           <saa:MomenttiKooste>3. Vid befordring av sådana ämnen och föremål, vilkas befordran på järnväg eller landsväg på grund av deras farlighet endast är tillåten enligt särskilda bestämmelser, höjes befordringsavgiften på det sätt järnvägsstyrelsen bestämmer.</saa:MomenttiKooste>
@@ -125,7 +404,7 @@
                     <sis:KappaleKooste>1,059  ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>,,   ,,</sis:KappaleKooste>
+                    <sis:KappaleKooste>,, ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>5  ,,</sis:KappaleKooste>
@@ -142,7 +421,7 @@
                     <sis:KappaleKooste>1,771  ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>,,   ,,</sis:KappaleKooste>
+                    <sis:KappaleKooste>,, ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>10  ,,</sis:KappaleKooste>
@@ -159,7 +438,7 @@
                     <sis:KappaleKooste>2,883  ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>,,   ,,</sis:KappaleKooste>
+                    <sis:KappaleKooste>,, ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>20  ,,</sis:KappaleKooste>
@@ -176,7 +455,7 @@
                     <sis:KappaleKooste>2,495  ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>,,   ,,</sis:KappaleKooste>
+                    <sis:KappaleKooste>,, ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>20  ,,</sis:KappaleKooste>
@@ -187,8 +466,8 @@
           </tau:table>
           <saa:MomenttiKooste>4. Då vagnslastens tariffvikt avviker från 20 ton höjs eller sänks de i punkt 3 definierade tonfrakterna under användning av följande koefficienter:</saa:MomenttiKooste>
           <pdf>
-            <viite tyyppi="pdf" inline="NO" kohde="liite/2544.pdf">Tabell</viite>
-          </pdf>
+Tabell
+</pdf>
           <saa:MomenttiKooste>5. Järnvägsstyrelsen äger rätt att fastställa på godsets volym baserade tariffer för sådana varuslags del, vid vilka godsets volym används som allmänt mått för mängden. Enligt dessa tariffer beräknade frakter får inte överstiga de frakter, som man skulle komma till om man tillämpade fraktberäkning enligt vikt.</saa:MomenttiKooste>
           <saa:MomenttiKooste>6. Vid befordran av vagnslaster innehållande sådana ämnen och föremål, vilkas befordran på järnväg på grund av deras farlighet är tillåten endast på specialvillkor, uppbärs av järnvägsstyrelsen fastställd tilläggsavgift för farliga ämnen.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Denna tilläggsavgift uppbärs ej vid fraktberäkning för extra tåg.</saa:MomenttiKooste>

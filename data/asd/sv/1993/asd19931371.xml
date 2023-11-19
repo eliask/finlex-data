@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om koncession för fordonsbesiktning</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 180/93</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>TrUB 13/93</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -73,9 +65,7 @@
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
           <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="Bedömning av sökandens oberoende">
-          <saa:PykalaTunnusKooste>Bedömning av sökandens oberoende</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Bedömning av sökandens oberoende</saa:SaadosOtsikkoKooste>
           <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Den som söker koncession kan anses vara oberoende, om varken han eller någon av hans anställda står i kommersiellt, ekonomiskt eller något annat beroendeförhållande till den som bedriver</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>
@@ -253,6 +243,10 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 180/93</sdk:EsityoViite>
+    <sdk:EsityoViite>TrUB 13/93</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 22 december 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

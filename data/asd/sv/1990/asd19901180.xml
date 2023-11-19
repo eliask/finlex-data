@@ -44,8 +44,25 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 b §">
           <saa:PykalaTunnusKooste>3 b §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Övervakningsavgifterna är följande:</saa:MomenttiKooste>
-          <te>i klass A 120 mk</te>
-          <te>i klass B  80 mk</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">i klass A 120 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>i klass B</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>80 mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">

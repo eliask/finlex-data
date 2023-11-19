@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1996-12-31" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -36,12 +36,66 @@
           <saa:SaadosOtsikkoKooste>Avgas-, avdunstnings- och partikelutsläpp från paketbilar </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>1. För ett fordon i kategori N1 och ett sådant fordon i kategori M som är avsett för transport av flera än sex personer, föraren medräknad, eller vars totalmassa är större än 2,5 ton, är gränsvärdena för avgasutsläppen från en otto- eller dieselmotor och för partikelutsläppen från en dieselmotor i de viktkategorier som bestäms enligt den referensmassa som avses i direktiv 70/220/EEG följande: </saa:MomenttiKooste>
           <saa:MomenttiKooste>2. Om motorn i ett fordon med dieselmotor är försedd med direktinsprutningssystem, är dock gränsvärdena för kolväten, kväve-oxider och partiklar i fråga om bilar som tas i bruk före den 1 oktober 1999 följande:</saa:MomenttiKooste>
-          <te/>
-          <te>                   L2	L3</te>
-          <te>i masskategori I 	0,9	0,10</te>
-          <te>i masskategori II	1,3	0,14</te>
-          <te>i masskategori III	1,6	0,20</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>L2</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>L3</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>i masskategori I</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,9</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,10</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>i masskategori II</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,3</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,14</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>i masskategori III</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,6</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0,20</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="3">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>3. Vevhuset och dess ventilationssystem för ottomotorn i ett fordon skall vara planerat, konstruerat och kunna underhållas så att det inte från vevhuset kan tränga ut skadliga gaser i luften. Gränsvärdet för kolväten som avdunstar från fordonets bränslesystem är 2,0 g/test.</saa:MomenttiKooste>
           <saa:MomenttiKooste>4. Ett fordon uppfyller gränsvärdena enligt 1-3 mom., om det är EG-godkänt enligt direktiv 70/220/EEG, sådant det lyder ändrat genom rådets direktiv 93/59/EEG och kommissionens diektiv 96/44/EG samt genom parlamentets och rådets direktiv 96/69/EG, eller om motorn är typgodkänd enligt det direktiv som avses i 48 § 3 mom. </saa:MomenttiKooste>
         </saa:Pykala>

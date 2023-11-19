@@ -106,12 +106,54 @@
           <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Förutom angivandet av mängden fett får kolesterolmängden i livsmedlet och livsmedlets fettsyrasammansättning anges. Om kolesterolet anges, skall på försäljningshöljet även antecknas fettsyrasammansättningen i enlighet med 2 mom. av denna paragraf.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Fettsyrasammansättningen skall anges som fettsyrornas andelar i viktenheter enligt följande</saa:MomenttiKooste>
-          <te>  fett, varav</te>
-          <te>    mättade fettsyror</te>
-          <te>    monoomättade fettsyror</te>
-          <te>    polyomättade fettsyror</te>
-          <te>  eller fett, varav</te>
-          <te>    mättade fettsyror</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">fett, varav</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mättade fettsyror</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>monoomättade fettsyror</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>polyomättade fettsyror</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">eller fett, varav</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mättade fettsyror</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>På försäljningshöljena för specialtillverkningar får även anges en enskild fettsyras mängd.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:SaadosValiotsikkoKooste>Angivande av kolhydratets kvalitet</saa:SaadosValiotsikkoKooste>

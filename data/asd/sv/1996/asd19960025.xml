@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1996-01-19" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -76,37 +76,801 @@
       <sis:KappaleKooste>- 1-4 elever 1)</sis:KappaleKooste>
       <sis:KappaleKooste>- 1-2 personer 2) </sis:KappaleKooste>
       <sis:KappaleKooste>BILAGOR till trafikministeriets 15.01.1996 utfärdade ruttaxebeslut, som gäller från 01.02.1996 </sis:KappaleKooste>
-      <te/>
-      <te>                     1 km  2 km    3 km    4 km    5 km    6 km    7 km    8 km    9 km</te>
-      <te>                    37,50   37,50   37,50   37,50   40,00   42,40   44,90   47,30   49,80</te>
-      <te>10 km =  52,20      54,60   57,10   59,50   62,00   64,40   66,80   69,30   71,70   74,20</te>
-      <te>20 km =  76,60      79,00   81,50   83,90   86,40   88,80   91,30   93,70   96,20   98,60</te>
-      <te>30 km = 101,10     103,50  106,00  108,40  110,90  113,30  115,80  118,20  120,70  123,10</te>
-      <te>40 km = 125,50     127,90  130,40  132,80  135,30  137,70  140,10  142,60  145,00  147,50</te>
-      <te>50 km = 149,90     152,30  154,80  157,20  159,70  162,10  164,60  167,00  169,50  171,90</te>
-      <te>60 km = 174,40     176,80  179,30  181,70  184,20  186,60  189,00  191,50  193,90  196,40</te>
-      <te>70 km = 198,80     201,20  203,70  206,10  208,60  211,00  213,40  215,90  218,30  220,80</te>
-      <te>80 km = 223,20     225,60  228,10  230,50  233,00  235,40  237,80  240,30  242,70  245,20</te>
-      <te>90 km = 247,60     250,00  252,50  254,90  267,40  259,80  262,30  264,70  267,20  269,60</te>
-      <te>100 km = 272,10    274,50  277,00  279,40  281,90  284,30  286,70  289,20  291,60  294,10</te>
+      <tau:table>
+        <tau:tgroup cols="10" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="10">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>4 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>5 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>6 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>7 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>8 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>9 km</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>37,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>37,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>37,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>37,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>40,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>42,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>44,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>47,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>49,80</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>10 km = 52,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>54,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>57,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>59,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>62,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>64,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>66,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>69,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>71,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>74,20</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>20 km = 76,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>79,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>81,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>83,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>86,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>88,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>91,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>93,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>96,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>98,60</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>30 km = 101,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>103,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>106,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>108,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>110,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>113,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>115,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>118,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>120,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>123,10</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>40 km = 125,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>127,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>130,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>132,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>135,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>137,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>140,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>142,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>145,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>147,50</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>50 km = 149,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>152,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>154,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>157,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>159,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>162,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>164,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>167,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>169,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>171,90</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>60 km = 174,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>176,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>179,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>181,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>184,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>186,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>189,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>191,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>193,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>196,40</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>70 km = 198,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>201,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>203,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>206,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>208,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>211,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>213,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>215,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>218,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>220,80</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>80 km = 223,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>225,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>228,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>230,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>233,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>235,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>237,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>240,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>242,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>245,20</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>90 km = 247,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>252,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>254,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>267,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>259,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>262,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>264,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>267,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>269,60</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>100 km = 272,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>274,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>277,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>279,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>281,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>284,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>286,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>289,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>291,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>294,10</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>TAXOR FÖR LÄNGRE RUTTER (ÖVER 109 KM) BERÄKNAS ENLIGT FORMEL: </sis:KappaleKooste>
       <sis:KappaleKooste>28,10 mk + 2,44 mk/km × s (ruttens längd km) = xx mk </sis:KappaleKooste>
       <sis:KappaleKooste>TABELL II </sis:KappaleKooste>
       <sis:KappaleKooste>- 5-7 elever 1)</sis:KappaleKooste>
       <sis:KappaleKooste>- 3-4 personer 2)</sis:KappaleKooste>
-      <te/>
-      <te>                     1 km  2 km    3 km    4 km    5 km    6 km    7 km    8 km    9 km</te>
-      <te>                    40,40   40,40   40,40   40,40   43,10   45,80   48,50   51,20   53,90</te>
-      <te>10 km =  56,60      59,30   62,00   64,70   67,40   70,00   72,70   75,40   78,10   80,80</te>
-      <te>20 km =  83,50      86,20   88,90   91,60   94,30   97,00   99,70  102,40  105,10  107,80</te>
-      <te>30 km = 110,50     113,20  115,90  118,60  121,30  123,90  126,60  129,30  132,00  134,70</te>
-      <te>40 km = 137,40     140,10  142,80  145,50  148,20  150,90  153,60  156,30  159,00  161,70</te>
-      <te>50 km = 164,40     167,10  169,80  172,50  175,20  177,80  180,50  183,20  185,90  188,60</te>
-      <te>60 km = 191,30     194,00  196,70  199,40  202,10  204,70  207,40  210,10  212,80  215,50</te>
-      <te>70 km = 218,20     220,90  223,60  226,30  229,00  231,70  234,40  237,10  239,80  242,50</te>
-      <te>80 km = 245,20     247,90  250,60  253,30  256,00  258,60  261,30  264,00  266,70  269,40</te>
-      <te>90 km = 272,10     274,80  277,50  280,20  282,90  285,60  288,30  291,00  293,70  296,40</te>
-      <te>100 km = 299,10    301,80  304,50  307,20  309,90  312,50  315,20  317,90  320,60  323,30</te>
+      <tau:table>
+        <tau:tgroup cols="10" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="10">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>4 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>5 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>6 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>7 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>8 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>9 km</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>40,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>40,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>40,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>40,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>43,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>45,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>48,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>51,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>53,90</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>10 km = 56,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>59,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>62,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>64,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>67,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>70,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>72,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>75,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>78,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>80,80</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>20 km = 83,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>86,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>88,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>91,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>94,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>97,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>99,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>102,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>105,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>107,80</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>30 km = 110,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>113,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>115,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>118,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>121,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>123,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>126,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>129,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>132,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>134,70</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>40 km = 137,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>140,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>142,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>145,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>148,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>150,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>153,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>156,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>159,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>161,70</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>50 km = 164,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>167,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>169,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>172,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>175,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>177,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>180,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>183,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>185,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>188,60</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>60 km = 191,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>194,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>196,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>199,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>202,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>204,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>207,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>210,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>212,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>215,50</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>70 km = 218,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>220,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>223,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>226,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>229,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>231,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>234,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>237,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>239,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>242,50</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>80 km = 245,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>247,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>253,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>256,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>258,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>261,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>264,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>266,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>269,40</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>90 km = 272,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>274,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>277,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>280,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>282,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>285,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>288,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>291,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>293,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>296,40</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>100 km = 299,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>301,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>304,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>307,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>309,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>312,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>315,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>317,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>320,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>323,30</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>TAXOR FÖR LÄNGRE RUTTER: </sis:KappaleKooste>
       <sis:KappaleKooste>30,10 mk + 2,69 mk/km × s (ruttens längd km) =  xx mk </sis:KappaleKooste>
       <sis:KappaleKooste>1) Vid fastställandet av taxeklass för regelbundna skolskjutsar är alla elever likvärdiga oberoende av skolform </sis:KappaleKooste>
@@ -114,37 +878,801 @@
       <sis:KappaleKooste>TABELL III </sis:KappaleKooste>
       <sis:KappaleKooste>- 8-10 elever 1) </sis:KappaleKooste>
       <sis:KappaleKooste>- 5-8 personer 2)</sis:KappaleKooste>
-      <te/>
-      <te>                     1 km  2 km    3 km    4 km    5 km    6 km    7 km    8 km    9 km</te>
-      <te>                    42,90   42,90   42,90   42,90   45,70   48,60   51,40   54,20   57,00</te>
-      <te>10 km =  59,80      62,60   65,40   68,20   71,00   73,80   76,70   79,50   82,30   85,10</te>
-      <te>20 km =  87,90      90,70   93,50   96,30   99,10  101,90  104,80  107,60  110,40  113,20</te>
-      <te>30 km = 116,00     118,80  121,60  124,40  127,20  130,00  132,90  135,70  138,50  141,30</te>
-      <te>40 km = 144,10     146,90  149,70  152,50  155,30  158,10  161,00  163,80  166,60  169,40</te>
-      <te>50 km = 172,20     175,00  177,80  180,60  183,40  186,20  189,10  191,90  194,70  197,50</te>
-      <te>60 km = 200,30     203,10  205,90  208,70  211,50  214,30  217,20  220,00  228,80  225,60</te>
-      <te>70 km = 228,40     231,20  234,00  236,80  239,60  242,40  245,30  248,10  250,90  253,70</te>
-      <te>80 km = 256,50     259,30  262,10  264,90  267,70  270,50  273,40  276,20  279,00  281,80</te>
-      <te>90 km = 284,60     287,40  290,20  293,00  295,80  298,60  301,50  304,30  307,10  309,90</te>
-      <te>100 km = 312,70    315,50  318,30  321,10  323,90  326,70  329,60  332,40  335,20  338,00</te>
+      <tau:table>
+        <tau:tgroup cols="10" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="10">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>4 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>5 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>6 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>7 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>8 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>9 km</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>42,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>42,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>42,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>42,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>45,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>48,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>51,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>54,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>57,00</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>10 km = 59,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>62,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>65,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>68,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>71,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>73,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>76,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>79,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>82,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>85,10</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>20 km = 87,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>90,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>93,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>96,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>99,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>101,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>104,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>107,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>110,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>113,20</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>30 km = 116,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>118,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>121,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>124,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>127,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>130,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>132,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>135,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>138,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>141,30</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>40 km = 144,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>146,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>149,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>152,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>155,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>158,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>161,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>163,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>166,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>169,40</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>50 km = 172,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>175,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>177,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>180,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>183,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>186,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>189,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>191,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>194,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>197,50</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>60 km = 200,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>203,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>205,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>208,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>211,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>214,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>217,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>220,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>228,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>225,60</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>70 km = 228,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>231,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>234,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>236,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>239,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>242,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>245,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>248,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>250,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>253,70</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>80 km = 256,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>259,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>262,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>264,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>267,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>270,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>273,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>276,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>279,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>281,80</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>90 km = 284,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>287,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>290,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>293,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>295,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>298,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>301,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>304,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>307,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>309,90</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>100 km = 312,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>315,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>318,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>321,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>323,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>326,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>329,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>332,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>335,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>338,00</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>TAXOR LÄNGRE RUTTER: </sis:KappaleKooste>
       <sis:KappaleKooste>31,70 mk + 2,81 mk/km × s (ruttens längd km) = xx mk </sis:KappaleKooste>
       <sis:KappaleKooste>TABELL IV </sis:KappaleKooste>
       <sis:KappaleKooste>-11-15 elever 1) </sis:KappaleKooste>
       <sis:KappaleKooste>- 7 eller flera personer 2) </sis:KappaleKooste>
-      <te/>
-      <te>                     1 km  2 km    3 km    4 km    5 km    6 km    7 km    8 km    9 km</te>
-      <te>                    46,80   46,80   46,80   46,80   50,00   53,20   56,30   59,50   62,60</te>
-      <te>10 km =  65,80      69,00   72,10   75,30   78,40   81,60   84,80   87,90   91,10   94,20</te>
-      <te>20 km =  97,40     100,60  103,70  106,90  110,00  113,20  116,40  119,50  122,70  125,80</te>
-      <te>30 km = 129,00     132,20  135,30  138,50  141,60  144,80  148,00  151,10  154,30  157,40</te>
-      <te>40 km = 160,60     163,80  166,90  170,10  173,20  176,40  179,60  182,70  185,90  189,00</te>
-      <te>50 km = 192,20     195,40  198,50  201,70  204,80  208,00  211,20  214,30  217,50  220,60</te>
-      <te>60 km = 223,80     227,00  230,10  233,30  236,50  239,60  242,80  246,00  249,20  252,30</te>
-      <te>70 km = 255,50     258,70  261,80  265,00  268,10  271,30  274,50  277,60  280,80  283,90</te>
-      <te>80 km = 287,10     290,30  293,40  296,60  299,70  302,90  306,10  309,20  312,40  315,50</te>
-      <te>90 km = 318,70     321,90  325,00  328,20  331,30  334,50  337,70  340,80  344,00  347,10</te>
-      <te>100 km = 350,30    353,50  356,60  359,80  362,90  366,10  369,30  372,40  375,60  378,70</te>
+      <tau:table>
+        <tau:tgroup cols="10" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="10">
+                <sis:KappaleKooste align="left" valign="top"/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>1 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>2 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>3 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>4 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>5 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>6 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>7 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>8 km</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>9 km</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>46,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>46,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>46,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>46,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>50,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>53,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>56,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>59,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>62,60</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>10 km = 65,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>69,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>72,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>75,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>78,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>81,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>84,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>87,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>91,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>94,20</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>20 km = 97,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>100,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>103,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>106,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>110,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>113,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>116,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>119,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>122,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>125,80</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>30 km = 129,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>132,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>135,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>138,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>141,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>144,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>148,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>151,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>154,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>157,40</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>40 km = 160,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>163,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>166,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>170,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>173,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>176,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>179,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>182,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>185,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>189,00</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>50 km = 192,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>195,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>198,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>201,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>204,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>208,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>211,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>214,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>217,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>220,60</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>60 km = 223,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>227,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>230,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>233,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>236,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>239,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>242,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>246,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>249,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>252,30</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>70 km = 255,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>258,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>261,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>265,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>268,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>271,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>274,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>277,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>280,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>283,90</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>80 km = 287,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>290,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>293,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>296,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>299,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>302,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>306,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>309,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>312,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>315,50</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>90 km = 318,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>321,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>325,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>328,20</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>331,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>334,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>337,70</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>340,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>344,00</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>347,10</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>100 km = 350,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>353,50</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>356,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>359,80</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>362,90</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>366,10</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>369,30</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>372,40</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>375,60</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>378,70</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>TAXOR FÖR LÄNGRE RUTTER: </sis:KappaleKooste>
       <sis:KappaleKooste>34,30 mk + 3,16 mk/km × s (ruttens längd km) = xx mk T.ex. en rutt som är 212 km: 34,30 mk + 3,16 mk/km × 212 km = 704,22 mk</sis:KappaleKooste>
       <sis:KappaleKooste>1) Vid fastställandet av taxeklass för regelbundna skolskjutsar är alla elever likvärdiga oberoende av skolform</sis:KappaleKooste>

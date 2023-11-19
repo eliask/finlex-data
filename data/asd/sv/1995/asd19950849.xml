@@ -129,16 +129,170 @@ d) den statiska ljudnivån för fordonets motor och motsvarande varvtal.
           <saa:MomenttiKooste>3. Försämringsfaktorn för begränsningssystemet för avgas- och partikelutsläppen fås genom att avgasoch partikelutsläppen från en bil som avses i 46 § 1-5 mom. efter 80 000 körkilometer, från en bil som avses i 47 § 1-5 mom. efter 200 000 körkilometer och från en motor som avses i 48 § 5 mom. efter 160 000 körkilometer delas med motsvarande utsläpp efter 6 400 körkilometer. Försämringsfaktorn bestäms i enlighet med de testanvisningar som nämns i 49 §. Försämringsfaktorn är dock inte i något fall mindre än talet 1.</saa:MomenttiKooste>
           <saa:MomenttiKooste>4. Som försämringsvärde för begränsningssystemet för kolväteavdunstningen från en bil som avses i 46 § 1-5 mom. används skillnaden mellan avdunstningsutsläppen av kolväten efter 80 000 körkilometer respektive 6 400 körkilometer och från en bil som avses i 47 § 1-5 mom. på motsvarande sätt skillnaden efter 200 000 körkilometer respektive 6 400 körkilometer. Försämringsvärdet bestäms i enlighet med de testanvisningar som nämns i 49 §. Försämringsvärdet är dock inte i något fall negativt.</saa:MomenttiKooste>
           <saa:MomenttiKooste>5. I stället för de försämringsfaktorer och det försämringsvärde som mätts genom ett i 3 och 4 mom. nämnt åldringstest får, på begäran av fordonstillverkaren eller importören, användas försämringsfaktorer och försämringsvärden enligt följande tabell: </saa:MomenttiKooste>
-          <te/>
-          <te>Motortyp eller Försämringsfaktorer 	Försämrings- </te>
-          <te>utsläppsbegränsningsmetod 46 § 1-5 mom./47 § 1-5 mom./48 § 5 mom. 	värde </te>
-          <te>                                         CO 	HC 	     NOx 	Partikel-    Avdunstnings-</te>
-          <te>                                                                           utsläpp      utsläpp</te>
-          <te>Ottomotor + oxiderande katalysator 1,2/1,5/- 	1,3/1,7/- 	1,0/1,0/- 	- 	0/0,4/- </te>
-          <te>Ottomotor utan katalysator 	1,2/1,5/- 	1,3/1,7/- 	1,0/1,0/- 	- 	0/0,4/- </te>
-          <te>Ottomotor + trevägskatalysator 	1,2/1,5/- 	1,3/1,7/- 	1,1/1,2/- 	-	0/0,4/- </te>
-          <te>Dieselmotor 	1,1/1,2/1,1	1,0/1,0/1,1	1,0/1,0/1,05	1,2/1,5/1,1 	-</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="6" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Motortyp eller <br/>utsläppsbegränsningsmetod</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Försämringsfaktorer</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="3" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top">Försämrings-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="5" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>46 § 1-5 mom. <br/> /47 § 1-5 mom. <br/> /48 § 5 mom.</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="3" nameend="4">
+                    <sis:KappaleKooste align="left" valign="top">värde</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry namest="5" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>CO</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>HC</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>NOx</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Partikel-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Avdunstnings-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>utsläpp</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>utsläpp</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Ottomotor + oxiderande katalysator</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,2/1,5/-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,3/1,7/-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,0/1,0/-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0/0,4/-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Ottomotor utan katalysator</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,2/1,5/-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,3/1,7/-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,0/1,0/-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0/0,4/-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Ottomotor + trevägskatalysator</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,2/1,5/-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,3/1,7/-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,1/1,2/-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>-</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>0/0,4/-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Dieselmotor</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,1/1,2/1,1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,0/1,0/1,1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,0/1,0/1,05</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,2/1,5/1,1</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="6">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="51 §">
           <saa:PykalaTunnusKooste>51 § </saa:PykalaTunnusKooste>

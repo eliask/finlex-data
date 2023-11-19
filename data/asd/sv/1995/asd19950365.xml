@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Kommunallag</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 192/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>FvUB 18/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -108,19 +100,110 @@
             <saa:PykalaTunnusKooste>10 § </saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Antalet ledamöter i fullmäktige </saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Ledamöterna i fullmäktige väljs enligt antalet invånare i kommunen enligt följande: </saa:MomenttiKooste>
-            <te/>
-            <te>Antal invånare     Antal ledamöter i fullmäktige</te>
-            <te>högst 2 000        17</te>
-            <te>  2 001-  4 000    21</te>
-            <te>  4 001-  8 000    27</te>
-            <te>  8 001- 15 000    35</te>
-            <te> 15 001- 30 000    43</te>
-            <te> 30 001- 60 000    51</te>
-            <te> 60 001-120 000    59</te>
-            <te>120 001-250 000    67</te>
-            <te>250 001-400 000    75</te>
-            <te>över 400 000       85</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Antal invånare</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Antal ledamöter i fullmäktige</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>högst 2 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>17</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>2 001- 4 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>21</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>4 001- 8 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>27</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>8 001- 15 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>35</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>15 001- 30 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>43</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>30 001- 60 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>51</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>60 001-120 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>59</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>120 001-250 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>67</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>250 001-400 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>75</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>över 400 000</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>85</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Fullmäktige i en kommun med högst 2 000 invånare kan före utgången av maj månad valåret fatta beslut även om ett mindre udda antal ledamöter i fullmäktige än vad 1 mom. stadgar, dock inte färre än 13. Inrikesministeriet skall underrättas om ändringar i antalet.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Invånarantalet i 1 och 2 mom. bestäms enligt antalet invånare på valårets första dag. </saa:MomenttiKooste>
           </saa:Pykala>
@@ -1040,6 +1123,10 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 192/94</sdk:EsityoViite>
+    <sdk:EsityoViite>FvUB 18/94</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 17 mars 1995</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

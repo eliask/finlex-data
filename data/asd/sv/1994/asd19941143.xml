@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Alkohollag</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 119/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>ShUB 32/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>StoUB 3/94 </sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -63,22 +52,24 @@
 4) alkoholbolag ett helt statsägt aktiebolag eller ett av bolaget helt ägt dotterbolag, som enligt vad som stadgas i denna lag, med ensamrätt bedriver detaljhandel.
 </saa:MomenttiKohtaKooste>
             </saa:KohdatMomentti>
-            <saa:MomenttiKooste>Alkoholhaltiga ämnen är alkoholdrycker, alkoholpreparat och sprit, och i denna lag avses med: </saa:MomenttiKooste>
-            <saa:MomenttiKohtaKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Alkoholhaltiga ämnen är alkoholdrycker, alkoholpreparat och sprit, och i denna lag avses med: </saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
 1) alkoholdryck en dryck som innehåller högst 60 volymprocent etylalkohol,
 </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 2) svag alkoholdryck en dryck som innehåller högst 22 volymprocent etylalkohol,
 </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 3) stark alkoholdryck en dryck som innehåller mera än 22 volymprocent etylalkohol,
 </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 4) sprit etylalkohol eller en sådan vattenlösning av etylalkohol som innehåller över 60 volymprocent etylalkohol och inte är denaturerad, samt med
 </saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
 5) alkoholpreparat ett alkoholhaltigt ämne som inte är en alkoholdryck eller sprit och som kan vara denaturerat.
 </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
             <saa:MomenttiKooste>På alkoholpreparat som är avsedda att förtäras och innehåller över 60 volymprocent etylalkohol, skall enligt denna lag tillämpas samma stadganden som på sprit.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Om andra definitioner av alkoholdrycker än de som stadgas i 2 mom., om beskrivning och presentation av alkoholdrycker samt om råvaror och tillsatsämnen stadgas genom förordning.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Om alkoholpreparat samt om tillverkning, import, försäljning och kontroll av sådana samt om denaturering stadgas närmare genom förordning. </saa:MomenttiKooste>
@@ -165,10 +156,7 @@
         <saa:Luku saa1:identifiointiTunnus="4 kap.">
           <saa:LukuTunnusKooste>4 kap. </saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Försäljning och annan överlåtelse samt förmedling av alkoholdrycker och sprit </saa:SaadosOtsikkoKooste>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="">
-            <saa:PykalaTunnusKooste/>
-            <saa:SaadosOtsikkoKooste>Detaljhandel </saa:SaadosOtsikkoKooste>
-          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Detaljhandel </saa:SaadosValiotsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
             <saa:PykalaTunnusKooste>12 § </saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Kommunens samtycke </saa:SaadosOtsikkoKooste>
@@ -735,6 +723,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 119/94</sdk:EsityoViite>
+    <sdk:EsityoViite>ShUB 32/94</sdk:EsityoViite>
+    <sdk:EsityoViite>StoUB 3/94 </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 8 december 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

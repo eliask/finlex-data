@@ -27,17 +27,166 @@
           <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>1. Enkel biljett berättigar till en resa mellan två för persontrafik öppnade trafikplatser.</saa:MomenttiKooste>
           <saa:MomenttiKooste>2. Priset för andra klass enkel biljett bestämmes genom att till grundavgiften 1,85 mark lägges:</saa:MomenttiKooste>
-          <te>för en resesträcka av    1-   22  km 0,80 mark för varje påbörjat avsnitt av 2 km</te>
-          <te> ,, ,,     ,,      ,,   23-    50 1,10 ,,   ,,   ,,  ,,          ,,      ,,  ,,   4  ,,</te>
-          <te> ,, ,,     ,,      ,,   51-    80 1,75 ,,   ,,   ,,  ,,          ,,      ,,  ,,   5  ,,</te>
-          <te> ,, ,,     ,,      ,,   81-   140 2,45 ,,   ,,   ,,  ,,          ,,      ,,  ,,  10  ,,</te>
-          <te> ,, ,,     ,,      ,,   141-  250 2,85 ,,   ,,   ,,  ,,          ,,      ,,  ,,  10  ,,</te>
-          <te> ,, ,,     ,,      ,,   251-  450 2,40 ,,   ,,   ,,  ,,          ,,      ,,  ,,  10  ,,</te>
-          <te> ,, ,,     ,,      ,,   451-  600 2,30 ,,   ,,   ,,  ,,          ,,      ,,  ,,  10  ,,</te>
-          <te> ,, ,,     ,,      ,,   601-  960 4,55 ,,   ,,   ,,  ,,          ,,      ,,  ,,  30  ,,</te>
-          <te> ,, ,,     ,,      ,,   961-1 200 4,75 ,,   ,,   ,,  ,,          ,,      ,,  ,,  40  ,,</te>
-          <te> ,, ,,     ,,      ,, 1 201-2 000 5,20 ,,   ,,   ,,  ,,          ,,      ,,  ,,  50  ,,</te>
-          <te> ,, ,,     ,,      ,, över 2 000 10,10 ,,   ,,   ,,  ,,          ,,      ,,  ,, 100  ,,</te>
+          <tau:table>
+            <tau:tgroup cols="4" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>för en resesträcka av</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1-22</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>km 0,80 mark för varje påbörjat avsnitt av</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 km</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>23-50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,10 ,, ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>51-80</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1,75 ,, ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>81-140</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2,45 ,, ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>141-250</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2,85 ,, ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>251-450</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2,40 ,, ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>451-600</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2,30 ,, ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>601-960</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4,55 ,, ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>30 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>961-1 200</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>4,75 ,, ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>40 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 201-2 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5,20 ,, ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>50 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>över 2 000</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10,10 ,, ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>100 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Priset på enkel biljett beräknas för minst 8 kilometer.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:SaadosValiotsikkoKooste>Tur-returbiljett</saa:SaadosValiotsikkoKooste>
@@ -51,13 +200,110 @@
           <saa:PykalaTunnusKooste>15 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>1. Månadsbiljetten är personlig och berättigar under en månad till ett obegränsat antal resor mellan de på biljetten antecknade trafikplatserna. Månadsbiljettens giltighetstid kan börja vilken dag som helst i månaden.</saa:MomenttiKooste>
           <saa:MomenttiKooste>2. Priset på andra klass månadsbiljett beräknas så, att till grundavgiften 75,00 mark lägges:</saa:MomenttiKooste>
-          <te>för en reses träcka av 1- 10  km 17,50 mark  för varje påbörjat avsnitt av 2 km</te>
-          <te>,, ,,           ,, ,, 11- 22     30,00  ,,    ,, ,,            ,,         ,, ,,  3 ,,</te>
-          <te>,, ,,           ,, ,, 23- 52     46,50  ,,    ,, ,,            ,,         ,, ,,  6 ,,</te>
-          <te>,, ,,           ,, ,, 53- 80     39,00  ,,    ,, ,,            ,,         ,, ,,  7 ,,</te>
-          <te>,, ,,           ,, ,, 81-180     27,00  ,,    ,, ,,            ,,         ,, ,, 10 ,,</te>
-          <te>,, ,,           ,, ,, 181-260    38,50  ,,    ,, ,,            ,,         ,, ,, 20 ,,</te>
-          <te>,, ,,           ,, ,, 261-500    54,50  ,,    ,, ,,            ,,         ,, ,, 48 ,,</te>
+          <tau:table>
+            <tau:tgroup cols="4" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>för en reses träcka av 1- 10</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>km 17,50 mark</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>för varje påbörjat avsnitt av</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2 km</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>11- 22</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>30,00 ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>23- 52</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>46,50 ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>6 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>53- 80</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>39,00 ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>7 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>81-180</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>27,00 ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>10 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>181-260</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>38,50 ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>261-500</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>54,50 ,, ,, ,, ,, ,, ,,</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>48 ,,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Priset på månadsbiljett beräknas för minst 8 kilometer.</saa:MomenttiKooste>
           <saa:MomenttiKooste>3. Priset på månadsbiljett för flera månader erhålles genom att priset för en månads månadsbiljett multipliceras med antalet månader i giltighetstiden. Månadsbiljett säljes för en tid av högst 12 månader.</saa:MomenttiKooste>
           <saa:MomenttiKooste>4. Priset på månadsbiljett som gäller på samtliga banor motsvarar priset på en månadsbiljett som gäller på en sträcka av 500 kilometer.</saa:MomenttiKooste>
@@ -1383,7 +1629,7 @@
                     <sis:KappaleKooste>1,112  ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>,,   ,,</sis:KappaleKooste>
+                    <sis:KappaleKooste>,, ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>5  ,,</sis:KappaleKooste>
@@ -1400,7 +1646,7 @@
                     <sis:KappaleKooste>1,860  ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>,,   ,,</sis:KappaleKooste>
+                    <sis:KappaleKooste>,, ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>10  ,,</sis:KappaleKooste>
@@ -1417,7 +1663,7 @@
                     <sis:KappaleKooste>3,027  ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>,,   ,,</sis:KappaleKooste>
+                    <sis:KappaleKooste>,, ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>20  ,,</sis:KappaleKooste>
@@ -1434,7 +1680,7 @@
                     <sis:KappaleKooste>2,620  ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste>,,   ,,</sis:KappaleKooste>
+                    <sis:KappaleKooste>,, ,,</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>20  ,,</sis:KappaleKooste>

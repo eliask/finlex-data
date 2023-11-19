@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om påförande av accis </met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 237/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>StaUB 90/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>Rådets direktiv 92/12/EEG; EGT Nr L 76, 23.3.1992, s. 1, 92/108/EEG; EGT Nr L 390, 31.12.1992, s. 124 </sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -35,10 +24,7 @@
         <saa:Luku saa1:identifiointiTunnus="1 kap.">
           <saa:LukuTunnusKooste>1 kap. </saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Allmänna stadganden </saa:SaadosOtsikkoKooste>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="">
-            <saa:PykalaTunnusKooste/>
-            <saa:SaadosOtsikkoKooste>Tillämpningsområde </saa:SaadosOtsikkoKooste>
-          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Tillämpningsområde </saa:SaadosValiotsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
             <saa:PykalaTunnusKooste>1 § </saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>Accis skall erläggas till staten enligt denna lag. </saa:MomenttiKooste>
@@ -622,6 +608,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 237/94</sdk:EsityoViite>
+    <sdk:EsityoViite>StaUB 90/94</sdk:EsityoViite>
+    <sdk:EsityoViite>Rådets direktiv <sis:YleinenViite sis1:viiteURL="392L0012"><sis1:ViiteTeksti>92/12/EEG</sis1:ViiteTeksti></sis:YleinenViite>; EGT Nr L 76, 23.3.1992, s. 1, <sis:YleinenViite sis1:viiteURL="392L0108"><sis1:ViiteTeksti>92/108/EEG</sis1:ViiteTeksti></sis:YleinenViite>; EGT Nr L 390, 31.12.1992, s. 124 </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 29 december 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

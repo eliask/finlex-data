@@ -148,8 +148,22 @@
           <saa:PykalaTunnusKooste>7 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Räntestödslånets storlek </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Om behovet av räntestöd är mindre än det stöd som betalas för hela bostadslånet, räknas beloppet av räntestödslånet enligt följande formel: </saa:MomenttiKooste>
-          <te>  R/100 x K-12 x I</te>
-          <te>  5/100</te>
+          <tau:table>
+            <tau:tgroup cols="1" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">R/100 x K-12 x I</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">5/100</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>där R = den årliga ränteprocenten för bostadslånet före räntestödet </saa:MomenttiKooste>
           <saa:MomenttiKooste>K = det totala kapital som återstår av bostadslånet </saa:MomenttiKooste>
           <saa:MomenttiKooste>I = återstående inkomster. </saa:MomenttiKooste>

@@ -27,27 +27,134 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 a §">
           <saa:PykalaTunnusKooste>7 a §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>I ärenden som gäller kretsmönster för integrerade kretsar skall i samband med ansökan följande avgifter betalas:</saa:MomenttiKooste>
-          <te/>
-          <te>                                                     mk</te>
-          <te><saa:SaadosKursiiviKooste>Registreringsavgift</saa:SaadosKursiiviKooste> enligt 14 § 3 mom.</te>
-          <te>   lagen om ensamrätt till kretsmönster</te>
-          <te>   för integrerade kretsar (32/91)                1 500</te>
-          <te><saa:SaadosKursiiviKooste>Avgift för ny behandling</saa:SaadosKursiiviKooste> enligt 18 § 3</te>
-          <te>   mom. lagen om ensamrätt till krets-</te>
-          <te>   mönster för integrerade kretsar                  200</te>
-          <te>
-            <saa:SaadosKursiiviKooste>Avgift för anteckning av överföring i</saa:SaadosKursiiviKooste>
-          </te>
-          <te><saa:SaadosKursiiviKooste>kretsmönsterregistret</saa:SaadosKursiiviKooste> enligt 23 § lagen</te>
-          <te>   om ensamrätt till kretsmönster för</te>
-          <te>   integrerade kretsar                              200</te>
-          <te>
-            <saa:SaadosKursiiviKooste>Avgift för krav på ogiltigförklaring av</saa:SaadosKursiiviKooste>
-          </te>
-          <te><saa:SaadosKursiiviKooste>registrering</saa:SaadosKursiiviKooste> enligt 25 § 2 mom. lagen</te>
-          <te>   om ensamrätt till kretsmönster för</te>
-          <te>   integrerade kretsar                            1 300</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>Registreringsavgift</sis1:KursiiviTeksti> enligt 14 § 3 mom.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">lagen om ensamrätt till kretsmönster</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>för integrerade kretsar (32/91)</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 500</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>Avgift för ny behandling</sis1:KursiiviTeksti> enligt 18 § 3</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">mom. lagen om ensamrätt till krets-</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>mönster för integrerade kretsar</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>200</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Avgift för anteckning av överföring i</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>kretsmönsterregistret</sis1:KursiiviTeksti> enligt 23 § lagen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">om ensamrätt till kretsmönster för</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>integrerade kretsar</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>200</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>
+                      <sis1:KursiiviTeksti>Avgift för krav på ogiltigförklaring av</sis1:KursiiviTeksti>
+                    </sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>registrering</sis1:KursiiviTeksti> enligt 25 § 2 mom. lagen</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">om ensamrätt till kretsmönster för</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>integrerade kretsar</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 300</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:SaadosValiotsikkoKooste>Avgifter för sökande av ändring</saa:SaadosValiotsikkoKooste>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="15 §">

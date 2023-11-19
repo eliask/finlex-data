@@ -162,8 +162,22 @@
           <saa:SaadosOtsikkoKooste>Räntestödslånets storlek </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Om det sammanlagda beloppet av utgifter som beräknats enligt 6 § och räntor på bostadslån sedan räntestödet avdragits är större än hushållets disponibla inkomster, som beräknats i enlighet med detta beslut, kan lånet i sin helhet godkännas som räntestödslån.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Om behovet av räntestöd med beaktande av hushållets inkomster och utgifter är mindre än det stöd som beräknas för hela lånebeloppet, minskas det lånebelopp som godkänns som räntestödslån så att det motsvarar behovet av stöd. Lånebeloppet beräknas då enligt följande formel:</saa:MomenttiKooste>
-          <te>  R x K - 12 x I</te>
-          <te>       5/100 </te>
+          <tau:table>
+            <tau:tgroup cols="1" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">R x K - 12 x I</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">5/100</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>där R = den årliga ränteprocenten på skuld för anskaffning av bostad före räntestödet</saa:MomenttiKooste>
           <saa:MomenttiKooste>K = det resterande totalkapitalet i bostadslånet </saa:MomenttiKooste>
           <saa:MomenttiKooste>I = skillnaden mellan disponibla inkomster enligt 7 § och utgifter enligt 6 §</saa:MomenttiKooste>

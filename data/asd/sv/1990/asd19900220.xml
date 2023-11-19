@@ -80,8 +80,25 @@
         <sis1:LihavaTeksti>210 125</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>För stål skall förlängningen vid brott A<sis1:AlaindeksiTeksti>5</sis1:AlaindeksiTeksti> (%) uppgå till minst</sis:KappaleKooste>
-      <te>           10 000</te>
-      <te>uppmätt brottgräns N/mm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>10 000</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">uppmätt brottgräns N/mm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>men minst till 16 % för finkornsstål eller 20 % för annat stål. För aluminiumlegeringar får brottförlängningen inte understiga 12 %.</sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>210 126</sis1:LihavaTeksti>
@@ -90,8 +107,28 @@
         <sis1:LihavaTeksti>210 127</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>(1) Väggar, gavlar och luckor i tankar med cirkulärt tvärsnitt och med en diameter<sis1:YlaindeksiTeksti>2)</sis1:YlaindeksiTeksti> av högst 1,80 m, med undantag av sådana som avses i (3), skall ha en tjocklek av minst 5 mm om de är av mjukstål<sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti>, eller likvärdig tjocklek om de är av annan metall. Om diametern överstiger 1,80 m, skall denna tjocklek ökas till 6 mm om tanken är av mjukstål, eller till likvärdig tjocklek om den är av annan metall. Den likvärdiga tjockleken erhålls ur följande formel:</sis:KappaleKooste>
-      <te>e<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> =  21,4 X e<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti></te>
-      <te><sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>√(Rm<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> X A<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti>)  4)</te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>e<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> =</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>21,4 X e<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>√(Rm<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> X A<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti>)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>4)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>Anm.</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -99,15 +136,55 @@
       <sis:KappaleKooste>2) Beträffande tankar som inte har cirkulärt tvärsnitt, t.ex lådformiga eller elliptiska tankar, skall angiven diameter motsvara den som beräknats på grundval av ett cirkulärt tvärsnitt med samma area. För sådana slag av tvärsnitt får tankväggens krökningsradie inte överstiga 2 000 mm på sidorna och 3 000 mm på krönet och vid botten.</sis:KappaleKooste>
       <sis:KappaleKooste>3) Med mjukstål avses stål med brotthållfasthet 360 ... 440 N/mm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>.</sis:KappaleKooste>
       <sis:KappaleKooste>4) Denna formel är härledd ur den allmänna formeln:</sis:KappaleKooste>
-      <te>e<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> = e<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti><sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>√ Rm<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti> X A<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti></te>
-      <te>                                     Rm<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> X A<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti></te>
+      <tau:table>
+        <tau:tgroup cols="2" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry namest="1" nameend="2">
+                <sis:KappaleKooste align="left" valign="top">e<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> = e<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti><sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>√ Rm<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti> X A<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Rm<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> X A<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>där Rm<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti> = 360,</sis:KappaleKooste>
       <sis:KappaleKooste>A<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti> = 27 för referensmjukstål,</sis:KappaleKooste>
       <sis:KappaleKooste>Rm<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> = minsta draghållfasthet för metallen i fråga, i (N/mm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>), och</sis:KappaleKooste>
       <sis:KappaleKooste>A<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> = minsta brottförlängning vid dragspänningen för metallen i fråga (%).</sis:KappaleKooste>
       <sis:KappaleKooste>(2) Tekniska kontrollcentralen kan medge att ovan nämnda minsta tjocklek reduceras om tanken är skyddad mot sådana påkänningar från sidan eller genom vältning vilka kan skada tanken. För tankar med en diameter av högst 1,80 m<sis1:YlaindeksiTeksti>2)</sis1:YlaindeksiTeksti> får tjockleken emellertid inte vara mindre än 3 mm för mjukstål<sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti>, eller mindre än likvärdig tjocklek i fråga om annan metall. Beträffande tankar med en diameter som överstiger 1,80 m får den minsta tjockleken inte vara mindre än 4 mm för mjukstål, eller mindre än likvärdig tjocklek i fråga om annan metall. Den likvärdiga tjockleken erhålls ur följande formel:</sis:KappaleKooste>
-      <te>e<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> =    21,4 X e<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti> </te>
-      <te><sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>√(Rm<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> X A<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti>)   4)</te>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>e<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> =</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry namest="2" nameend="3">
+                <sis:KappaleKooste align="left" valign="top">21,4 X e<sis1:AlaindeksiTeksti>o</sis1:AlaindeksiTeksti></sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>√(Rm<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> X A<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti>)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>4)</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste><sis1:LihavaTeksti>Anm.</sis1:LihavaTeksti> Följande åtgärder eller likvärdiga åtgärder får vidtas för att skydda en tank mot skada:</sis:KappaleKooste>
       <sis:KappaleKooste>a) Tankar kan på båda sidor på höjden mellan mittlinjen och den nedre hälften av tanken förses med ett skydd mot påkänningar från sidan med hjälp av en valsad metallbalk som skjuter ut minst 25 mm utanför tankens profil.</sis:KappaleKooste>
       <sis:KappaleKooste>Denna balk skall ha sådant tvärsnitt att, om den är av mjukstål<sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti> eller av en mera hållfast metall, den har ett böjmotstånd av minst 5 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>, med kraften riktad horisontellt och i rät vinkel mot färdriktningen. Om material med mindre hållfasthet används, skall böjmotståndet ökas proportionellt mot töjningsgränserna. Skydd mot vältning får ha formen av förstärkningsringar, skyddshuvar eller tvär- eller längsgående balkar med sådan utformning att i händelse av vältning ingen skada inträffar på tillbehör monterade på tankens övre del.</sis:KappaleKooste>

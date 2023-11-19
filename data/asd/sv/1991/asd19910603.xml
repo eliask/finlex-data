@@ -37,10 +37,56 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>På basen av körsträckans längd får debiteras en avgift som indelas i fyra taxeklasser beroende på antalet befordrade personer. I varje taxeklass skall med grundavgift köras nedan angiven körsträcka och för varje påbörjad sträcka av samma längd får till grundavgiften läggas 1,00 mark:</saa:MomenttiKooste>
-          <te>Taxa I:     1-2 p.    217,02 m (4,61 mk/km)</te>
-          <te>Taxa II:    3-4 p.    180,61 m (5,54 mk/km)</te>
-          <te>Taxa III:   5-6 p.    164,26 m (6,09 mk/km)</te>
-          <te>Taxa IV:    över 6 p. 149,36 m (6,70 mk/km)</te>
+          <tau:table>
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Taxa I:</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1-2 p.</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>217,02 m (4,61 mk/km)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Taxa II:</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3-4 p.</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>180,61 m (5,54 mk/km)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Taxa III:</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>5-6 p.</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>164,26 m (6,09 mk/km)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Taxa IV:</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>över 6 p.</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>149,36 m (6,70 mk/km)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Då taxeklass fastställs beaktas inte barn under 12 år som medföljer taxipassageraren. Två barn under 12 år räknas som en person.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">

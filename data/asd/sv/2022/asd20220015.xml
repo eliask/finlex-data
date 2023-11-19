@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om förebyggande och ersättning av skador orsakade av fridlysta djur</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 154/2021</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>MiUB 10/2021</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>RSv 193/2021</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -221,21 +210,23 @@
             <saa:SaadosOtsikkoKooste>Koefficienten för revir</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Koefficienten för bebodda kungsörnsrevir är ett. Om ett bebott kungsörnsrevir producerar ungar, är koefficienten tre.</saa:MomenttiKooste>
             <saa:MomenttiKooste>I fjällrenbeteslagen är koefficienten för bebodda kungsörnsrevir två. Om ett bebott kungsörnsrevir producerar ungar, är koefficienten fem.</saa:MomenttiKooste>
-            <saa:MomenttiKooste>Fjällrenbeteslagen är följande:</saa:MomenttiKooste>
-            <saa:MomenttiKooste>1) Hammastunturi,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>2) Ivalo,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>3) Kaldoaivi,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>4) Kyrö,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>5) Käsivarsi,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>6) Lappi,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>7) Muddusjärvi,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>8) Muotkatunturi,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>9) Näkkälä,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>10) Näätämö,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>11) Paatsjoki,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>12) Paistunturi,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>13) Sallivaara,</saa:MomenttiKooste>
-            <saa:MomenttiKooste>14) Vätsäri.</saa:MomenttiKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>Fjällrenbeteslagen är följande:</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>1) Hammastunturi,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>2) Ivalo,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>3) Kaldoaivi,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>4) Kyrö,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>5) Käsivarsi,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>6) Lappi,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>7) Muddusjärvi,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>8) Muotkatunturi,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>9) Näkkälä,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>10) Näätämö,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>11) Paatsjoki,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>12) Paistunturi,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>13) Sallivaara,</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>14) Vätsäri.</saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
             <saa:MomenttiKooste>Koefficienten för ett revir som sträcker sig till ömse sidor av gränsen mellan Finland och en annan stat och vars bo ligger på den andra statens territorium är alltid två för de fjällrenbeteslag som räknas upp i 3 mom. och alltid ett för övriga renbeteslag. För kungsörnsrevir som sträcker sig över renskötselområdets sydgräns betalas partiellt stöd.</saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="24 §">
@@ -395,6 +386,19 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20210154.rp">
+        <sis1:ViiteTeksti>RP 154/2021</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20210010.miub">
+        <sis1:ViiteTeksti>MiUB 10/2021</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>RSv 193/2021</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 14 januari 2022</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

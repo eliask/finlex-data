@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2000-12-29" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -26,9 +26,7 @@
           <saa:SaadosOtsikkoKooste>Allmänna bestämmelser</saa:SaadosOtsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
             <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
-          </saa:Pykala>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="Tillämpningsområde">
-            <saa:PykalaTunnusKooste>Tillämpningsområde</saa:PykalaTunnusKooste>
+            <saa:SaadosOtsikkoKooste>Tillämpningsområde</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Som nationellt specialstöd enligt 7 § 1 mom. lagen om nationella stöd till jordbruket och trädgårdsodlingen (1059/1994) betalas till jordbruks- och trädgårdsproducenterna för 2001 arealbaserat nationellt stöd för växtodling så som bestäms i denna förordning. Stöden betalas inom ramen för de anslag som anvisats i statsbudgeten för dessa ändamål. </saa:MomenttiKooste>
             <saa:MomenttiKooste>Bestämmelserna om påföljder av övervakningen av de miljövillkor i 4 kap. i denna förordning tillämpas inte i landskapet Åland.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -135,11 +133,11 @@
             <saa:SaadosOtsikkoKooste>Stödbeloppet</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Stöd som avses i denna förordning betalas till högst följande belopp för åker som under vegetationsperioden 2001 används till nedan avsedd produktion:</saa:MomenttiKooste>
             <tau:table>
-              <tau:tgroup COLS="3" COLSEP="0" ROWSEP="0" ALIGN="left" SECURITY="u">
-                <tau:colspec COLNUM="1" COLNAME="1" COLWIDTH=""/>
-                <tau:colspec COLNUM="2" COLNAME="2" COLWIDTH=""/>
-                <tau:colspec COLNUM="3" COLNAME="3" COLWIDTH=""/>
-                <tau:tbody VALIGN="TOP">
+              <tau:tgroup cols="3" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="1" colname="1" colwidth=""/>
+                <tau:colspec colnum="2" colname="2" colwidth=""/>
+                <tau:colspec colnum="3" colname="3" colwidth=""/>
+                <tau:tbody valign="top">
                   <tau:row>
                     <tau:entry>
                       <sis:KappaleKooste/>
@@ -263,17 +261,17 @@
               <saa:MomenttiJohdantoKooste>För odlingsareal som uppgetts vara foderareal (stödareal R) kan stöd betalas till högst följande belopp:</saa:MomenttiJohdantoKooste>
               <saa:MomenttiKohtaKooste>
 1) för foderspannmål som hör till foderarealen för grundbidragen av EU:s tjur-, ox  och dikobidrag samt för blandade växtbestånd av foderspannmål och proteingrödor som omfattas av EU:s stödsystem för jordbruksgrödor.
-<tau:table><tau:tgroup COLS="3" COLSEP="0" ROWSEP="0" ALIGN="left" SECURITY="u"><tau:colspec COLNUM="1" COLNAME="1" COLWIDTH=""/><tau:colspec COLNUM="2" COLNAME="2" COLWIDTH=""/><tau:colspec COLNUM="3" COLNAME="3" COLWIDTH=""/><tau:tbody VALIGN="TOP"><tau:row><tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>Stödregion</sis1:LihavaTeksti></sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste>mk/ha</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste>A och B</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste>850</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste>C1-C4</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste>500</sis:KappaleKooste></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
+<tau:table><tau:tgroup cols="3" colsep="0" rowsep="0" align="left"><tau:colspec colnum="1" colname="1" colwidth=""/><tau:colspec colnum="2" colname="2" colwidth=""/><tau:colspec colnum="3" colname="3" colwidth=""/><tau:tbody valign="top"><tau:row><tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>Stödregion</sis1:LihavaTeksti></sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste>mk/ha</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste>A och B</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste>850</sis:KappaleKooste></tau:entry></tau:row><tau:row><tau:entry><sis:KappaleKooste>C1-C4</sis:KappaleKooste></tau:entry><tau:entry><sis:KappaleKooste>500</sis:KappaleKooste></tau:entry></tau:row></tau:tbody></tau:tgroup></tau:table>
 
 </saa:MomenttiKohtaKooste>
             </saa:KohdatMomentti>
             <saa:MomenttiKooste>2) för vall </saa:MomenttiKooste>
             <tau:table>
-              <tau:tgroup COLS="3" COLSEP="0" ROWSEP="0" ALIGN="left" SECURITY="u">
-                <tau:colspec COLNUM="1" COLNAME="1" COLWIDTH=""/>
-                <tau:colspec COLNUM="2" COLNAME="2" COLWIDTH=""/>
-                <tau:colspec COLNUM="3" COLNAME="3" COLWIDTH=""/>
-                <tau:tbody VALIGN="TOP">
+              <tau:tgroup cols="3" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="1" colname="1" colwidth=""/>
+                <tau:colspec colnum="2" colname="2" colwidth=""/>
+                <tau:colspec colnum="3" colname="3" colwidth=""/>
+                <tau:tbody valign="top">
                   <tau:row>
                     <tau:entry>
                       <sis:KappaleKooste/>

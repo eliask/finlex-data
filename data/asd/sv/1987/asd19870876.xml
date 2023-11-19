@@ -50,7 +50,7 @@
                     <sis:KappaleKooste>1. </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste><saa:SaadosKursiiviKooste>Kemi älvs vattendrag:</saa:SaadosKursiiviKooste> Den mellan sammanflödet av Luiro och Kitinen samt havet belägna delen av Kemi älv, den mellan Lainionjoki inflöde och Kemi älv belägna delen av Ounasjoki samt Jumiskonjoki och Raudanjoki; </sis:KappaleKooste>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>Kemi älvs vattendrag:</sis1:KursiiviTeksti> Den mellan sammanflödet av Luiro och Kitinen samt havet belägna delen av Kemi älv, den mellan Lainionjoki inflöde och Kemi älv belägna delen av Ounasjoki samt Jumiskonjoki och Raudanjoki; </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste/>
@@ -61,7 +61,7 @@
                     <sis:KappaleKooste/>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste><saa:SaadosKursiiviKooste>Ijo älvs vattendrag:</saa:SaadosKursiiviKooste> Den mellan Taivalkoski (medräknad) och havet belägna delen av Ijo älv</sis:KappaleKooste>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>Ijo älvs vattendrag:</sis1:KursiiviTeksti> Den mellan Taivalkoski (medräknad) och havet belägna delen av Ijo älv</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>54,00</sis:KappaleKooste>
@@ -73,7 +73,7 @@
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>
-                      <saa:SaadosKursiiviKooste>Ule älvs vattendrag</saa:SaadosKursiiviKooste>
+                      <sis1:KursiiviTeksti>Ule älvs vattendrag</sis1:KursiiviTeksti>
                     </sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
@@ -96,7 +96,7 @@
                     <sis:KappaleKooste>4.</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
-                    <sis:KappaleKooste><saa:SaadosKursiiviKooste>Pielinen vattenleds</saa:SaadosKursiiviKooste> vattendragsområde</sis:KappaleKooste>
+                    <sis:KappaleKooste><sis1:KursiiviTeksti>Pielinen vattenleds</sis1:KursiiviTeksti> vattendragsområde</sis:KappaleKooste>
                   </tau:entry>
                   <tau:entry>
                     <sis:KappaleKooste>86,00</sis:KappaleKooste>
@@ -344,11 +344,37 @@
             </tau:tgroup>
           </tau:table>
           <saa:MomenttiKooste>Exempel på värdering av vattenkraftens beskattningsvärde: </saa:MomenttiKooste>
-          <te>Läge: område 4 </te>
-          <te>Medelvattenföring MQ = 100 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/s </te>
-          <te>Totalfallhöjd vid medelvattenstånd = 6 m </te>
-          <te>75 %:s vattenföring Q<sis1:AlaindeksiTeksti>75</sis1:AlaindeksiTeksti> = 44 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/s </te>
-          <te>Kraftverk under byggnad.</te>
+          <tau:table>
+            <tau:tgroup cols="1" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Läge: område 4</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Medelvattenföring MQ = 100 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/s</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Totalfallhöjd vid medelvattenstånd = 6 m</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">75 %:s vattenföring Q<sis1:AlaindeksiTeksti>75</sis1:AlaindeksiTeksti> = 44 m<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/s</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste align="left" valign="top">Kraftverk under byggnad.</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Beskattningsbar effekt: N = 8.2  100 × 6 = 4 920 kw. </saa:MomenttiKooste>
           <saa:MomenttiKooste>Punkt a)  Vattenkraftens grundvärde: 86 mk/kw. </saa:MomenttiKooste>
           <saa:MomenttiKooste>Punkt b) Q<sis1:AlaindeksiTeksti>75</sis1:AlaindeksiTeksti>/MQ = 44/100 = 0.44, vattenkraftens värde 68.4 % av grundvärdet. </saa:MomenttiKooste>

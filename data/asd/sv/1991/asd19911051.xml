@@ -29,27 +29,174 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste><saa:SaadosKursiiviKooste>Grundtaxa</saa:SaadosKursiiviKooste> . Följande grundtaxetabell skall tillämpas vid prissättning av 50 resors seriebiljetter, då resans längd är högst 100 kilometer:</saa:MomenttiKooste>
-          <te/>
-          <te> Resans längd      Grundtaxa</te>
-          <te> högst             (engångsavgift)</te>
-          <te> km                mk</te>
-          <te>   6                7,00</te>
-          <te>   9                8,50</te>
-          <te>  12                9,50</te>
-          <te>  16               11,00</te>
-          <te>  20               13,00</te>
-          <te>  25               15,00</te>
-          <te>  30               18,00</te>
-          <te>  35               20,00</te>
-          <te>  40               22,00</te>
-          <te>  45               25,00</te>
-          <te>  50               27,00</te>
-          <te>  60               31,00</te>
-          <te>  70               36,00</te>
-          <te>  80               41,00</te>
-          <te>  90               45,00</te>
-          <te> 100               49,00</te>
-          <te/>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>Resans längd</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>Grundtaxa</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>högst</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>(engångsavgift)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>km</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>mk</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>6</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>7,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>9</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>8,50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>12</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>9,50</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>16</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>11,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>20</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>13,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>25</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>15,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>30</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>18,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>35</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>20,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>40</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>22,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>45</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>25,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>50</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>27,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>60</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>31,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>70</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>36,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>80</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>41,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>90</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>45,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>100</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>49,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top"/>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
@@ -60,16 +207,18 @@
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste><saa:SaadosKursiiviKooste>Övriga bestämmelser</saa:SaadosKursiiviKooste> .</saa:MomenttiKooste>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste><saa:SaadosKursiiviKooste>Övriga bestämmelser</saa:SaadosKursiiviKooste> .</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
 1) Passageraren skall på förhand informeras om avgifterna.
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 2) För den trafik som beviljats statsstöd för grundservicetrafik, ges särskilda anvisningar beträffande prissättningen.
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 3) I skolskjutsar är passagerare under 12 år berättigade till inköp av seriebiljetter till ett pris som utgör 50 procent av grundtaxan.
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
           <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>4) Angående biljetter som gäller i bussar som tillhör företag som är medlemmar av Linjaautoliitto kan nämnda förbund till Oy Matkahuolto Ab och till bussföretagen ge anvisningar om grunderna för prissättningen av:</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>

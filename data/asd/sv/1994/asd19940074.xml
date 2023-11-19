@@ -122,7 +122,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Bilaga I</ete>
+      <sis1:ValiotsikkoTeksti>Bilaga I</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>KVALITETSKRAV PÅ HUSHÅLLSVATTEN</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -138,7 +138,7 @@
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Högsta tillåtna täthet</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Högsta tillåtna täthet</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -152,7 +152,7 @@
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste><saa:SaadosKursiiviKooste>Escherichia coli</saa:SaadosKursiiviKooste> (presumptiv identifikation)</sis:KappaleKooste>
+                <sis:KappaleKooste><sis1:KursiiviTeksti>Escherichia coli</sis1:KursiiviTeksti> (presumptiv identifikation)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>&gt; 1/100 ml</sis:KappaleKooste>
@@ -198,7 +198,7 @@
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Högsta tillåtna koncentration, mg/1</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Högsta tillåtna koncentration, mg/1</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -409,15 +409,16 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Bilaga I/2</ete>
+      <sis1:ValiotsikkoTeksti>Bilaga I/2</sis1:ValiotsikkoTeksti>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
           <tau:colspec colnum="1" colname="1" colwidth=""/>
           <tau:colspec colnum="2" colname="2" colwidth=""/>
           <tau:tbody valign="top">
             <tau:row>
-              <tau:entry namest="1" nameend="3"><sis:KappaleKooste><sis1:LihavaTeksti>Tabell 2.</sis1:LihavaTeksti></sis:KappaleKooste>
- Teknisk-estetiska kvalitetskrav (organoleptiska och fysikalisk-kemiska parametrar samt ämnen som kan vara skadliga om de förekommer i förhöjda halter)</tau:entry>
+              <tau:entry namest="1" nameend="3">
+                <sis:KappaleKooste><sis1:LihavaTeksti>Tabell 2.</sis1:LihavaTeksti> Teknisk-estetiska kvalitetskrav (organoleptiska och fysikalisk-kemiska parametrar samt ämnen som kan vara skadliga om de förekommer i förhöjda halter)</sis:KappaleKooste>
+              </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
@@ -425,7 +426,7 @@
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Högsta tillåtna koncentration, mg/1</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Högsta tillåtna koncentration, mg/1</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -619,7 +620,7 @@
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Kravnivå</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Kravnivå</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -668,14 +669,40 @@
       </tau:table>
       <sis:KappaleKooste><sis1:YlaindeksiTeksti>1)</sis1:YlaindeksiTeksti> se anm. 2 i bilaga II "Undersökningsfrekvenser för hushållsvägen"</sis:KappaleKooste>
       <sis:KappaleKooste>För tryggande av en god kvalitet på hushållsvatten skall följande målvärden tillämpas:</sis:KappaleKooste>
-      <te>antalet heterotrofa mikrober       (22°C, 72 h)    &lt;100/ml</te>
-      <te>antalet heterotrofa mikrober       (37°C, 48 h)    &lt;10/ml</te>
+      <tau:table>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>antalet heterotrofa mikrober</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>(22°C, 72 h)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>&lt;100/ml</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>antalet heterotrofa mikrober</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>(37°C, 48 h)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>&lt;10/ml</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:KappaleKooste>total mängd aktivt klor &lt;1 mg/1, aluminium &lt;0,1, ammonium &lt;0,2, klorid &lt;25, KMnO<sis1:YlaindeksiTeksti><sis1:AlaindeksiTeksti>4</sis1:AlaindeksiTeksti> -tal &lt;8 (COD<sis1:AlaindeksiTeksti>Mn</sis1:AlaindeksiTeksti> &lt;2,0), koppar &lt;0,3, total mängd organiskt kol (TOC) &lt;2,0, sulfat &lt;50, pH 7,0–8,8, grumlighet &lt;0,4, konduktivitet &lt;40, färgtal &lt;5</sis1:YlaindeksiTeksti></sis:KappaleKooste>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Bilaga 1/3</ete>
+      <sis1:ValiotsikkoTeksti>Bilaga 1/3</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste><sis1:LihavaTeksti>Tabell 3.</sis1:LihavaTeksti> Lägsta tillåtna koncentrationer för avhärdat hushållsvatten*</sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
@@ -707,7 +734,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Bilaga 1/4</ete>
+      <sis1:ValiotsikkoTeksti>Bilaga 1/4</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste><sis1:LihavaTeksti>Tabell 4.</sis1:LihavaTeksti> Hälsorelaterade maximikoncentrationer i hushållsvatten av vissa sällan förekommande ämnen enligt Världshälsoorgansiationen (WHO, 1993)</sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
@@ -1025,7 +1052,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Bilaga II</ete>
+      <sis1:ValiotsikkoTeksti>Bilaga II</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>UNDERSÖKNINGSFREKVENSER FÖR HUSHÅLLSVATTEN</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:LihavaTeksti>Tabell 1.</sis1:LihavaTeksti> Minimiundersökningsfrekvenser för vattenledningsvatten som är underställt regelbunden kontroll</sis:KappaleKooste>
       <tau:table>
@@ -1252,7 +1279,7 @@
       <sis:Katkoviiva/>
       <sis:KappaleKooste><sis1:LihavaTeksti>Undersökning C<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti>:</sis1:LihavaTeksti> Lukt och smak organoleptiskt, pH, konduktivitet, fritt förekommande aktivt klor (eller resten av annat desinfektionsämne), koliforma bakterier och, om sådana påträffas, presumptiv <sis1:KursiiviTeksti>E.coli.</sis1:KursiiviTeksti></sis:KappaleKooste>
       <sis:KappaleKooste><sis1:LihavaTeksti>Undersökning C<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> :</sis1:LihavaTeksti> Som C<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> och dessutom temperatur, grumlighet, färg, KMnO<sis1:AlaindeksiTeksti>4</sis1:AlaindeksiTeksti> -tal och/eller TOC, nitrat, nitrit, ammonium och antalet heterotrofa mikrober.</sis:KappaleKooste>
-      <ete>Bilaga II/2</ete>
+      <sis1:ValiotsikkoTeksti>Bilaga II/2</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste><sis1:LihavaTeksti>Undersökning C<sis1:AlaindeksiTeksti>3</sis1:AlaindeksiTeksti> :</sis1:LihavaTeksti> Som C<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> och tilläggsanalyser enligt följande uppräkning</sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">

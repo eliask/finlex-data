@@ -76,18 +76,99 @@
             <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
             <saa:MomenttiKooste>På dagpenning som med stöd av sjukforsäkringslagen utbetalas till försäkrad och på specialvårdspenning samt på rehabiliteringspenning som utbetalas med stöd av 14, 15 och 17 § lagen om rehabiliteringspenning (611/91) skall förskottsinnehållningen verkställas på sätt som bestämts i 1 § 1 och 2 mom. enligt innehållningsprocent som fastställts för lön minskad med 2 procentenheter samt på moderskaps-, särskild moderskaps-, faderskaps- och föräldrapenning minskad med 4 procentenheter. Innehållningsprocenten minskas likväl inte, om i skattekortet finns förordnande om, att innehållningsprocenten stiger medan inkomsterna ökar (sk. graderat skattekort) eller om i skattekortet finns ett förordnande om storleken av förskottsinnehållningen som skattebyrån givit med stöd av 16 § lagen om förskottsuppbörd. På annan ersättning med stöd av sjukförsäkrings- eller folkpensionslagen som utbetalas till den försäkrade för minskning av inkomster och försämrad utkomst skall förskottsinnehållningen verkställas på det sätt som bestämts i 1 § 1 och 2 mom. utan förminskning.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Har prestationens utbetalare inte på det sätt som avses i 20 § fått de uppgifter som behövs för verkställande av innehållningen och den skattskyldige inte företer sitt skattekort för prestationens utbetalare, verkställs förskottsinnehållning procentuellt enligt följande:</saa:MomenttiKooste>
-            <te/>
-            <te>Ersättning enligt          Förskottsinne-</te>
-            <te>sjukförsäkringslagen  hållningsprocent</te>
-            <te>mk/dag</te>
-            <te> 1,00-140,00                     20</te>
-            <te>140,01-192,00                    25</te>
-            <te>192,01-245,00                    30</te>
-            <te>245,01-340,00                    35</te>
-            <te>340,01-565,00                    40</te>
-            <te>565,01-834,00                    45</te>
-            <te>834,01-                          50</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Ersättning enligt</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Förskottsinne-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>sjukförsäkringslagen</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>hållningsprocent</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top">mk/dag</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1,00-140,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>20</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>140,01-192,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>192,01-245,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>30</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>245,01-340,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>35</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>340,01-565,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>40</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>565,01-834,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>45</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>834,01-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>50</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>På dagpenning som med stöd av sjukförsäkrings- eller folkpensionslagen utbetalas till minimibelopp skall förskottsinnehållning verkställas, avvikande från 1 och 2 mom., enligt 20 %. På moderskapspenning som till minimibelopp utbetalas till skattskyldig i förvärvsarbete skall förskottsinnehållning dock verkställas enligt 40 %. Förskottsinnehållning verkställs likväl inte på ovan i detta momentet avsedda prestationer, om prestationen uppgår till högst 20 mark per dag.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Vid utbetalning av dagpenning och ersättning för förlorad förvärvsinkomst med stöd av lagen om smittsamma sjukdomar (583/86) verkställs förskottsinnehållning på det sätt som bestämts ovan i 1-3 mom. utan att förminska de innehållningsprocent, som fastställts för lön.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Då pensionstagaren får dessutom rehabiliteringspenning som avses i 16 § lagen om rehabiliteringspenning (611/91), verkställs förskottsinnehållningen på rehabiliteringspenningen enligt 40 %. Om den pension, utöver vilken rehabiliteringspenning utbetalas, är högst lika stor som folkpensionens basdel och förskottsinnehållning skall inte verkställas på den enligt 7 § 3 mom., skall förskottsinnehållning inte heller verkställas på rehabiliteringspenningen.</saa:MomenttiKooste>
@@ -110,19 +191,104 @@
             <saa:MomenttiKooste>Innehållningsprocenten minskas likväl inte, om i skattekortet finns förordnande om, att innehållningsprocenten stiger medan inkomsterna ökar (sk. graderat skattekort) eller om i skattekortet finns ett förordnande om storleken av förskottsinnehållningen som skattebyrån givit med stöd av 16 § lagen om förskottsuppbörd. På sysselsättningsstöd som med stöd av sysselsättningsförordningen (737/87) utbetalas till en arbetslös arbetssökande som ämnar bli företagare och till annan fysisk person som avlönar en arbetslös person än en fysisk person som idkar rörelseverksamhet eller utövar yrkesverksamhet eller idkar lantbruk verkställs förskottsinnehållningen på det sätt som bestäms i 1 § 1 och 2 mom. eller i 4 § utan förminskning.</saa:MomenttiKooste>
             <saa:MomenttiKooste>På grunddagpenning enligt lagen om utkomstskydd för arbetslösa och på den motsvarande utbildningsstöd och specialstöd som avses i lagen om arbetskraftspolitisk vuxenutbildning (763/90) verkställs förskottsinnehållningen ändå enligt 20 %. På sysselsättningsstöd som med stöd av sysselsättningsförordningen (737/87) utbetalas till en arbetslös arbetssökande som genomgår träning för arbetslivet eller till en person med handikapp eller på motsvarande understöd, som med stöd av lagen om yrkesvägledning (43/60) utbetalas till person som deltar i yrkesvägledning verkställs förskottsinnehållningen enligt 20 %. Förskottsinnehållning verkställs dock inte på prestationer som avses i detta moment, om betalningen är högst 20 mark per dag.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Då prestationer avsedda i 1 och 2 mom. utbetalas utöver tidigare betalningar eller för annan tid än skatteåret, verkställs förskottsinnehållningen, avvikande från 1 och 2 mom., enligt den procentsats som anges i nedan stående tabell:</saa:MomenttiKooste>
-            <te/>
-            <te>Ersättning enligt             Förskottsinne-</te>
-            <te>lagen om utkomstskydd              hållningsprocent</te>
-            <te>för arbetslösa</te>
-            <te>mk/dag</te>
-            <te> 1,00-156,00                        20</te>
-            <te>156,01-230,00                       25</te>
-            <te>230,01-270,00                       30</te>
-            <te>270,01-376,00                       35</te>
-            <te>376,01-597,00                       40</te>
-            <te>597,01-926,00                       45</te>
-            <te>926,01-                             50</te>
-            <te/>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="1" rowsep="1">
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Ersättning enligt</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Förskottsinne-</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>lagen om utkomstskydd</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>hållningsprocent</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top">för arbetslösa</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top">mk/dag</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1,00-156,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>20</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>156,01-230,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>230,01-270,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>30</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>270,01-376,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>35</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>376,01-597,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>40</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>597,01-926,00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>45</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>926,01-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>50</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry namest="1" nameend="2">
+                      <sis:KappaleKooste align="left" valign="top"/>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Om prestationens utbetalare inte på det sätt som avses i 20 § har fått de uppgifter som behövs för innehållningen och den skattskyldige inte företer skattekortet för utbetalaren, verkställs förskottsinnehållning på prestationer som avses i 1 mom. i enlighet med tabellen i 3 mom. ovan.</saa:MomenttiKooste>
           </saa:Pykala>
         </saa:Luku>

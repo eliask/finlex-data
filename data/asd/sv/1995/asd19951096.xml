@@ -33,29 +33,160 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 §">
           <saa:PykalaTunnusKooste>6 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Beloppet av produktionsstöd för husdjursskötsel </saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Produktionsstöd för husdjursskötsel (mark/kg) betalas 1995 till följande belopp för produkter som producenterna har sålt för marknadsföring eller som har sålts direkt till konsumenterna: </saa:MomenttiKooste>
-          <te>Yttre skärgården </te>
-          <te>mjölk                                      1) </te>
-          <te>kviga och tjur, 170-220 kg                 1) </te>
-          <te>kviga och tjur, över 220 kg                1) </te>
-          <te>fårkött                                    18,00  </te>
-          <te>griskött                                   3,31  </te>
-          <te>ägg                                        3,16  </te>
-          <te>Övriga delar av landet                     </te>
-          <te>mjölk                                      1) </te>
-          <te>kviga och tjur, 170-220 kg                 1) </te>
-          <te>kviga och tjur, över 220 kg                1) </te>
-          <te>fårkött                                    13,81  </te>
-          <te>griskött                                   2,81  </te>
-          <te>ägg                                        2,56  </te>
-          <te>Hela landet                                </te>
-          <te>kokött                                     1) </te>
-          <te>broilerkött                                2,25  </te>
-          <te>kött av kalkon och annat fjäderfä,</te>
-          <te>dock inte hönskött                         2,69 </te>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Produktionsstöd för husdjursskötsel (mark/kg) betalas 1995 till följande belopp för produkter som producenterna har sålt för marknadsföring eller som har sålts direkt till konsumenterna: </saa:MomenttiJohdantoKooste>
+          </saa:KohdatMomentti>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">Yttre skärgården</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>mjölk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>kviga och tjur, 170-220 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>kviga och tjur, över 220 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>fårkött</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>18,00</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>griskött</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3,31</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>ägg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>3,16</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">Övriga delar av landet</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>mjölk</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>kviga och tjur, 170-220 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>kviga och tjur, över 220 kg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>fårkött</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>13,81</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>griskött</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2,81</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>ägg</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2,56</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">Hela landet</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>kokött</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1)</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>broilerkött</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2,25</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">kött av kalkon och annat fjäderfä,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>dock inte hönskött</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>2,69</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
+          <saa:KohdatMomentti>
+            <saa:MomenttiKohtaKooste>
 1) produktionsstödet för kvig- och tjurkött, kokött och mjölk betalas månadspassat enligt tabellen i bilaga 2. 
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
           <saa:PykalaTunnusKooste>11 § </saa:PykalaTunnusKooste>
@@ -67,20 +198,85 @@
           <saa:PykalaTunnusKooste>12 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Beloppet av stöd som betalas per djur </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Stöd per djur och djurenhet betalas enligt de djur som producenten innehar den 1 maj 1995. Beträffande suggor och nedannämnda avelshönor av fjäderfä betalas stödet dock på grundval av det genomsnittliga antalet djur den 1 maj och den 1 september. Beträffande hästar beslutar jord- och skogsbruksministeriet om beräkningstidpunkterna. Om antalet djur vid nämnda tidpunkter har tillfälligt minskat i betydlig grad från det genomsnittliga antalet för 1994 betalas stödet enligt det genomsnittliga djurantalet för nämnda år, förutsatt att produktionen är kontinuerlig. Stödet (mark/djur) betalas till följande belopp: </saa:MomenttiKooste>
-          <te>dikor                                      600 </te>
-          <te>suggor                                     1 620 </te>
-          <te>broileravelshönor                          61,20 </te>
-          <te>avelshönor av kalkon och annat fjäderfä,</te>
-          <te>dock inte moderhönor av värphöns           90 </te>
-          <te>getter för mjölkproduktion                 1 200</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>dikor</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>600</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>suggor</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 620</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>broileravelshönor</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>61,20</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry namest="1" nameend="2">
+                    <sis:KappaleKooste align="left" valign="top">avelshönor av kalkon och annat fjäderfä,</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>dock inte moderhönor av värphöns</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>90</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>getter för mjölkproduktion</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>1 200</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="13 §">
           <saa:PykalaTunnusKooste>13 § </saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Lagringsstödets belopp </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Stöd betalas i regionerna A och B för det lagerutrymme som används till lagring av inhemska frilandsgrönsaker och äpplen så, att betalningsgrunden är genomsnittet av den lagervolym som är i bruk under tiden oktoberdecember. Stöd (mark/kubikmeter) betalas för skördeåret 1995/96 till högst följande belopp: </saa:MomenttiKooste>
-          <te>maskinellt kylda lager                     120 </te>
-          <te>övriga lager                               80</te>
+          <tau:table>
+            <tau:tgroup cols="2" colsep="1" rowsep="1">
+              <tau:tbody>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>maskinellt kylda lager</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>120</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+                <tau:row>
+                  <tau:entry>
+                    <sis:KappaleKooste>övriga lager</sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste>80</sis:KappaleKooste>
+                  </tau:entry>
+                </tau:row>
+              </tau:tbody>
+            </tau:tgroup>
+          </tau:table>
           <saa:MomenttiKooste>Det sammanlagda stödbeloppet är högst 30 miljoner mark. Om det stödbelopp som beräknas utgående från de godtagbara ansökningarna överskrider det ovan nämnda maximibeloppet, beslutar jord- och skogsbruksministeriet om en proportionell stödsänkning. Jord- och skogsbruksministeriet meddelar närmare föreskrifter om kriterierna för fastställande av det stödberättigande lagerutrymme som är i bruk. </saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="14 §">

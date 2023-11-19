@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om förnödenheter av plast som kommer i beröring med livsmedel </met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Bilaga II, punkt XII till EES-avtalet: kommissionens direktiv 90/128/EEG och dessutom kommissionens direktiv92/39/EEG och 93/9/EEG</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Päätös">
@@ -129,6 +124,9 @@ b) ark, film och andra material som inte kan fyllas eller för vilka det är om�
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Bilaga II, punkt XII till EES-avtalet: kommissionens direktiv 90/128/EEG och dessutom kommissionens direktiv<sis:YleinenViite sis1:viiteURL="392L0039"><sis1:ViiteTeksti>92/39/EEG</sis1:ViiteTeksti></sis:YleinenViite> och <sis:YleinenViite sis1:viiteURL="393L0009"><sis1:ViiteTeksti>93/9/EEG</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 27 maj 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -152,12 +150,22 @@ b) ark, film och andra material som inte kan fyllas eller för vilka det är om�
       <sis:KappaleKooste>Allmänna bestämmelser </sis:KappaleKooste>
       <sis:KappaleKooste>1. Då resultaten av de migrationstest som definieras i bilagan till beslutet 398/94 jämförs skall det allmänt antas att alla simulanters specifika vikt är 1. Mängden överfört ämne i milligram per liter simulant (mg/l) motsvarar sålunda numeriskt milligram överfört ämne per kilogram simulant och, med beaktande av bestämmelserna i beslutet 262/92, mängden överfört ämne i milligram per kilogram livsmedel.</sis:KappaleKooste>
       <sis:KappaleKooste>2. Om migrationstesten utförs med prover som tagits av förnödenheter eller med prover som har framställts för detta ändamål och den mängd livsmedel eller simulant som har kommit i beröring med provet avviker från den mängd som i verkliga förhållanden kommer i beröring med förnödenheten då den används, skall de erhållna resultaten korrigeras med följande formel:</sis:KappaleKooste>
-      <te>
-        <saa:SaadosKursiiviKooste>M = (m x a<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>) / (a<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> x q) x 1 000</saa:SaadosKursiiviKooste>
-      </te>
+      <tau:table>
+        <tau:tgroup cols="1" colsep="1" rowsep="1">
+          <tau:tbody>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste align="left" valign="top">
+                  <sis1:KursiiviTeksti>M = (m x a<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>) / (a<sis1:AlaindeksiTeksti>1</sis1:AlaindeksiTeksti> x q) x 1 000</sis1:KursiiviTeksti>
+                </sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+          </tau:tbody>
+        </tau:tgroup>
+      </tau:table>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/1918.gif">Formel</sis:KuvaAsemointi>
+        <saa:SaadosKappaleKooste>Formel</saa:SaadosKappaleKooste>
       </sis:Kuva>
       <sis:KappaleKooste>där:</sis:KappaleKooste>
       <sis:KappaleKooste>M = migrationen i mg/kg</sis:KappaleKooste>
