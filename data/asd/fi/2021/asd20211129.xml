@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>siviilipalveluslain 79 §:n muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 183/2021</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>PuVM 2/2021</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>EV 167/2021</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -47,7 +36,21 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20210183.he">
+        <sis1:ViiteTeksti>HE 183/2021</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20210002.puvm">
+        <sis1:ViiteTeksti>PuVM 2/2021</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>EV 167/2021</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
+    <asi:PaivaysKooste>Helsingissä 16 päivänä joulukuuta 2021.</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
       <org:Henkilo>
         <org1:AsemaTeksti>Tasavallan Presidentti</org1:AsemaTeksti>
