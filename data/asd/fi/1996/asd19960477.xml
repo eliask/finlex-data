@@ -1,29 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1996-06-28" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd"><asi:IdentifiointiOsa><met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi><asi:EduskuntaTunniste><met1:AsiakirjatyyppiKoodi>SDK</met1:AsiakirjatyyppiKoodi><asi1:AsiakirjaNroTeksti>477</asi1:AsiakirjaNroTeksti><asi1:ValtiopaivavuosiTeksti>1996</asi1:ValtiopaivavuosiTeksti></asi:EduskuntaTunniste><met:Nimeke><met1:NimekeTeksti>julkishaliinnon ja -talouden tilintarkastajan tutkinnosta annetun asetuksen muuttamisesta</met1:NimekeTeksti></met:Nimeke></asi:IdentifiointiOsa><saa:SaadosOsa><saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus"><saa:SaadosNimeke><saa:SaadostyyppiKooste>Asetus</saa:SaadostyyppiKooste><saa:SaadosNimekeKooste>julkishaliinnon ja -talouden tilintarkastajan tutkinnosta annetun asetuksen muuttamisesta</saa:SaadosNimekeKooste></saa:SaadosNimeke><saa:Johtolause><saa:SaadosKappaleKooste>Valtiovarainministerin esittelystä</saa:SaadosKappaleKooste><saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>kumotaan</saa:SaadosKursiiviKooste> julkishallinnon ja -talouden tilintarkastajan tutkinnosta 14 päivänä kesäkuuta 1991 annetun asetuksen (926/91)13 §,</saa:SaadosKappaleKooste><saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>muutetaan</saa:SaadosKursiiviKooste> asetuksen nimike, 2 §:n 1 momentti sekä 5, 8 ja 9 §, sellaisina kuin niistä ovat 2 §:n 1 momentti ja 5 § osittain muutettuina 19 päivänä marraskuuta 1993 annetulla asetuksella (995/93), sekä</saa:SaadosKappaleKooste><saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>lisätään</saa:SaadosKursiiviKooste> asetukseen uusi 6 a ja 6 b § seuraavasti:</saa:SaadosKappaleKooste></saa:Johtolause><saa:UusiNimeke><saa:SaadostyyppiKooste>Asetus</saa:SaadostyyppiKooste><saa:SaadosNimekeKooste>julkishallinnon ja -talouden tilintarkastajan tutkinnosta sekä JHTT-yhteisöstä</saa:SaadosNimekeKooste></saa:UusiNimeke><saa:Pykalisto><saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §"><saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste><saa:SaadosOtsikkoKooste>JHTT-lautakunta ja sen tehtävät</saa:SaadosOtsikkoKooste><saa:KohdatMomentti><saa:MomenttiJohdantoKooste>JHTT-tutkinnon järjestämistä varten valtiovarainministeriön yhteydessä on julkishallinnon ja -talouden tilintarkastuslautakunta <saa:SaadosKursiiviKooste>(JHTT-lautakunta),</saa:SaadosKursiiviKooste> jonka tehtävänä on:</saa:MomenttiJohdantoKooste><saa:MomenttiKohtaKooste>
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+  <asi:IdentifiointiOsa>
+    <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
+    <asi:EduskuntaTunniste>
+      <met1:AsiakirjatyyppiKoodi>SDK</met1:AsiakirjatyyppiKoodi>
+      <asi1:AsiakirjaNroTeksti>477</asi1:AsiakirjaNroTeksti>
+      <asi1:ValtiopaivavuosiTeksti>1996</asi1:ValtiopaivavuosiTeksti>
+    </asi:EduskuntaTunniste>
+    <met:Nimeke>
+      <met1:NimekeTeksti>julkishaliinnon ja -talouden tilintarkastajan tutkinnosta annetun asetuksen muuttamisesta</met1:NimekeTeksti>
+    </met:Nimeke>
+  </asi:IdentifiointiOsa>
+  <saa:SaadosOsa>
+    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus">
+      <saa:SaadosNimeke>
+        <saa:SaadostyyppiKooste>Asetus</saa:SaadostyyppiKooste>
+        <saa:SaadosNimekeKooste>julkishaliinnon ja -talouden tilintarkastajan tutkinnosta annetun asetuksen muuttamisesta</saa:SaadosNimekeKooste>
+      </saa:SaadosNimeke>
+      <saa:Johtolause>
+        <saa:SaadosKappaleKooste>Valtiovarainministerin esittelystä</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>kumotaan</saa:SaadosKursiiviKooste> julkishallinnon ja -talouden tilintarkastajan tutkinnosta 14 päivänä kesäkuuta 1991 annetun asetuksen (926/91)13 §,</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>muutetaan</saa:SaadosKursiiviKooste> asetuksen nimike, 2 §:n 1 momentti sekä 5, 8 ja 9 §, sellaisina kuin niistä ovat 2 §:n 1 momentti ja 5 § osittain muutettuina 19 päivänä marraskuuta 1993 annetulla asetuksella (995/93), sekä</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>lisätään</saa:SaadosKursiiviKooste> asetukseen uusi 6 a ja 6 b § seuraavasti:</saa:SaadosKappaleKooste>
+      </saa:Johtolause>
+      <saa:UusiNimeke>
+        <saa:SaadostyyppiKooste>Asetus</saa:SaadostyyppiKooste>
+        <saa:SaadosNimekeKooste>julkishallinnon ja -talouden tilintarkastajan tutkinnosta sekä JHTT-yhteisöstä</saa:SaadosNimekeKooste>
+      </saa:UusiNimeke>
+      <saa:Pykalisto>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
+          <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>JHTT-lautakunta ja sen tehtävät</saa:SaadosOtsikkoKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>JHTT-tutkinnon järjestämistä varten valtiovarainministeriön yhteydessä on julkishallinnon ja -talouden tilintarkastuslautakunta <saa:SaadosKursiiviKooste>(JHTT-lautakunta),</saa:SaadosKursiiviKooste> jonka tehtävänä on:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
 1) huolehtia siitä, että tutkintoon tarvittavaa koulutusta on saatavilla;
-</saa:MomenttiKohtaKooste><saa:MomenttiKohtaKooste>
+</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 2) hyväksyä henkilöt tutkintoa suorittamaan ja vahvistaa tutkinnon ajankohta;
-</saa:MomenttiKohtaKooste><saa:MomenttiKohtaKooste>
+</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 3) päättää henkilön hyväksymisestä tutkinnossa;
-</saa:MomenttiKohtaKooste><saa:MomenttiKohtaKooste>
+</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 4) päättää JHTT-yhteisön hyväksymisestä;
-</saa:MomenttiKohtaKooste><saa:MomenttiKohtaKooste>
+</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 5) pitää luetteloa tutkinnon suorittaneista henkilöistä ja JHTT-yhteisöistä <saa:SaadosKursiiviKooste>(JHTT-luettelo)</saa:SaadosKursiiviKooste> sen mukaan kuin 5 §:ssä säädetään;
-</saa:MomenttiKohtaKooste><saa:MomenttiKohtaKooste>
+</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 6) tehdä aloitteita ja esityksiä julkishallinnon ja -talouden tilintarkastuksen kehittämisestä;
-</saa:MomenttiKohtaKooste><saa:MomenttiKohtaKooste>
+</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 7) antaa pyynnöstä lausuntoja viranomaisille tilintarkastukseen liittyvistä kysymyksistä; sekä
-</saa:MomenttiKohtaKooste><saa:MomenttiKohtaKooste>
+</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 8) suorittaa muut tästä asetuksesta johtuvat tehtävät.
 
-</saa:MomenttiKohtaKooste><sis:Katkoviiva/></saa:KohdatMomentti></saa:Pykala><saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §"><saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste><saa:SaadosOtsikkoKooste>JHTT-luettelo</saa:SaadosOtsikkoKooste><saa:MomenttiKooste>JHTT-luetteloon merkitään hyvämaineinen henkilö, joka hallitsee itseään ja omaisuuttaan ja joka on hyväksyttävästi suorittanut JHTT -tutkinnon, sekä yhteisö, joka on hyväksytty 6 a §:n mukaisesti.</saa:MomenttiKooste><saa:MomenttiKooste>Luetteloon merkitään henkilön nimi, syntymäaika ja luetteloon merkitsemispäivä. JHTT-yhteisön osalta luetteloon merkitään toiminimi ja luetteloon merkitsemispäivä.</saa:MomenttiKooste><saa:MomenttiKooste>Lautakunnan tulee poistaa luettelosta merkintä henkilöstä, joka on menettänyt 1 momentissa edellytetyn kelpoisuuden tai ei ole viimeisen viiden vuoden aikana toiminut julkishallinnon ja -talouden tilintarkastustehtävissä. Samoin luettelosta on poistettava edellisen kalenterivuoden aikana 67 vuotta täyttänyt henkilö.</saa:MomenttiKooste><saa:MomenttiKooste>JHTT-yhteisö on poistettava luettelosta, jos yhteisö ei täytä 6 a §:ssä säädettyjä vaatimuksia.</saa:MomenttiKooste></saa:Pykala><saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 a §"><saa:PykalaTunnusKooste>6 a §</saa:PykalaTunnusKooste><saa:SaadosOtsikkoKooste>JHTT-yhteisön hyväksyminen</saa:SaadosOtsikkoKooste><saa:KohdatMomentti><saa:MomenttiJohdantoKooste>JHTT-lautakunta hyväksyy hakemuksesta JHTT-yhteisöksi osakeyhtiön, kommandiittiyhtiön tai avoimen yhtiön, joka täyttää seuraavat edellytykset:</saa:MomenttiJohdantoKooste><saa:MomenttiKohtaKooste>
+</saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+          </saa:KohdatMomentti>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
+          <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>JHTT-luettelo</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>JHTT-luetteloon merkitään hyvämaineinen henkilö, joka hallitsee itseään ja omaisuuttaan ja joka on hyväksyttävästi suorittanut JHTT -tutkinnon, sekä yhteisö, joka on hyväksytty 6 a §:n mukaisesti.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Luetteloon merkitään henkilön nimi, syntymäaika ja luetteloon merkitsemispäivä. JHTT-yhteisön osalta luetteloon merkitään toiminimi ja luetteloon merkitsemispäivä.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Lautakunnan tulee poistaa luettelosta merkintä henkilöstä, joka on menettänyt 1 momentissa edellytetyn kelpoisuuden tai ei ole viimeisen viiden vuoden aikana toiminut julkishallinnon ja -talouden tilintarkastustehtävissä. Samoin luettelosta on poistettava edellisen kalenterivuoden aikana 67 vuotta täyttänyt henkilö.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>JHTT-yhteisö on poistettava luettelosta, jos yhteisö ei täytä 6 a §:ssä säädettyjä vaatimuksia.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 a §">
+          <saa:PykalaTunnusKooste>6 a §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>JHTT-yhteisön hyväksyminen</saa:SaadosOtsikkoKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>JHTT-lautakunta hyväksyy hakemuksesta JHTT-yhteisöksi osakeyhtiön, kommandiittiyhtiön tai avoimen yhtiön, joka täyttää seuraavat edellytykset:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
 1) yhtiön toimialana on yhtiöjärjestyksen tai yhtiö sopimuksen mukaan tilintarkastus ja siihen liittyvä toiminta;
-</saa:MomenttiKohtaKooste><saa:MomenttiKohtaKooste>
+</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 2) yli kaksi kolmasosaa avoimen yhtiön yhtiömiehistä tai kommandiittiyhtiön vastuunalaisista yhtiömiehistä on oltava yhtiössä työskenteleviä JHTT-tilintarkastajia tai JHTT-yhteisöjä sekä osakeyhtiössä yli kaksi kolmasosaa kaikista osakkeista ja niiden tuottamasta äänimäärästä on oltava yhtiössä työskentelevillä JHTT-tilintarkastajilla, JHTT-yhteisöillä, julkisyhteisöillä taikka yhdistyksillä, joiden jäseninä on vain julkisyhteisöjä;
-</saa:MomenttiKohtaKooste><saa:MomenttiKohtaKooste>
+</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
 3) yli kaksi kolmasosaa osakeyhtiön hallituksen jäsenistä tulee olla JHTT-tutkinnon suorittaneita tai muutoin julkishallinnon ja -talouden tilintarkastukseen hyvin perehtyneitä.
-</saa:MomenttiKohtaKooste></saa:KohdatMomentti></saa:Pykala><saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 b §"><saa:PykalaTunnusKooste>6 b §</saa:PykalaTunnusKooste><saa:SaadosOtsikkoKooste>JHTT-yhteisön vastuunalainen tilin tarkastaja</saa:SaadosOtsikkoKooste><saa:MomenttiKooste>Jos tilintarkastajaksi on valittu JHTT-yhteisö, sen on määrättävä vastuunalaiseksi tilintarkastajaksi JHTT-tilintarkastaja.</saa:MomenttiKooste></saa:Pykala><saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §"><saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste><saa:SaadosOtsikkoKooste>Tilintarkastajatodistus</saa:SaadosOtsikkoKooste><saa:MomenttiKooste>JHTT-lautakunta antaa JHTT-luetteloon merkitylle henkilölle tilintarkastajatodistuksen, joka oikeuttaa ja velvoittaa häntä käyttämään tilintarkastajan toimessaan nimitystä julkishallinnon ja -talouden tilintarkastaja (JHTT). Samoin lautakunta antaa todistuksen JHTT-yhteisölle hyväksymisestä ja luetteloon merkitsemisestä. Todistus oikeuttaa yhteisön käyttämään nimitystä JHTT-yhteisö.</saa:MomenttiKooste></saa:Pykala><saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §"><saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste><saa:SaadosOtsikkoKooste>JHTT-toimintaselvitys</saa:SaadosOtsikkoKooste><saa:MomenttiKooste>JHTT-luetteloon merkityn henkilön tulee joka viides vuosi antaa JHTT-lautakunnalle sen määräämänä aikana ja määräämällä tavalla selvitys edellisen kauden toiminnastaan. Luetteloon merkityn JHTT-yhteisön tulee antaa vastaava selvitys vuosittain.</saa:MomenttiKooste></saa:Pykala><sis:Palstaviiva/><saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos"><saa:MomenttiKooste>Tämä asetus tulee voimaan 1 päivänä tammikuuta 1997. Asetuksen 13 § kumotaan kuitenkin 1 päivästä heinäkuuta 1996.</saa:MomenttiKooste><saa:MomenttiKooste>Ennen tämän asetuksen voimaantuloa voidaan hyväksyä tämän asetuksen 6 a §:n mukaisesti JHTT-yhteisöjä ja ryhtyä muihin asetuksen täytäntöönpanon edellyttämiin toimenpiteisiin.</saa:MomenttiKooste></saa:Pykala></saa:Pykalisto></saa:Saados></saa:SaadosOsa>
-
-
-19960478.sd	<asi:AllekirjoitusOsa><asi:PaivaysKooste>Naantalissa 20 päivänä kesäkuuta 1996</asi:PaivaysKooste><asi:Allekirjoittaja><org:Henkilo><org1:AsemaTeksti>Tasavallan Presidentti </org1:AsemaTeksti><org1:SukuNimi>Martti Ahtisaari</org1:SukuNimi></org:Henkilo></asi:Allekirjoittaja><asi:Allekirjoittaja><org:Henkilo><org1:AsemaTeksti>Maa- ja metsätalousministeri</org1:AsemaTeksti><org1:SukuNimi>Kalevi Hemilä</org1:SukuNimi></org:Henkilo></asi:Allekirjoittaja></asi:AllekirjoitusOsa>
+</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="6 b §">
+          <saa:PykalaTunnusKooste>6 b §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>JHTT-yhteisön vastuunalainen tilin tarkastaja</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Jos tilintarkastajaksi on valittu JHTT-yhteisö, sen on määrättävä vastuunalaiseksi tilintarkastajaksi JHTT-tilintarkastaja.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="8 §">
+          <saa:PykalaTunnusKooste>8 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Tilintarkastajatodistus</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>JHTT-lautakunta antaa JHTT-luetteloon merkitylle henkilölle tilintarkastajatodistuksen, joka oikeuttaa ja velvoittaa häntä käyttämään tilintarkastajan toimessaan nimitystä julkishallinnon ja -talouden tilintarkastaja (JHTT). Samoin lautakunta antaa todistuksen JHTT-yhteisölle hyväksymisestä ja luetteloon merkitsemisestä. Todistus oikeuttaa yhteisön käyttämään nimitystä JHTT-yhteisö.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">
+          <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>JHTT-toimintaselvitys</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>JHTT-luetteloon merkityn henkilön tulee joka viides vuosi antaa JHTT-lautakunnalle sen määräämänä aikana ja määräämällä tavalla selvitys edellisen kauden toiminnastaan. Luetteloon merkityn JHTT-yhteisön tulee antaa vastaava selvitys vuosittain.</saa:MomenttiKooste>
+        </saa:Pykala>
+        <sis:Palstaviiva/>
+        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
+          <saa:MomenttiKooste>Tämä asetus tulee voimaan 1 päivänä tammikuuta 1997. Asetuksen 13 § kumotaan kuitenkin 1 päivästä heinäkuuta 1996.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Ennen tämän asetuksen voimaantuloa voidaan hyväksyä tämän asetuksen 6 a §:n mukaisesti JHTT-yhteisöjä ja ryhtyä muihin asetuksen täytäntöönpanon edellyttämiin toimenpiteisiin.</saa:MomenttiKooste>
+        </saa:Pykala>
+      </saa:Pykalisto>
+    </saa:Saados>
+  </saa:SaadosOsa>
+  <asi:AllekirjoitusOsa>
+    <asi:PaivaysKooste>Naantalissa 20 päivänä kesäkuuta 1996</asi:PaivaysKooste>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Tasavallan Presidentti </org1:AsemaTeksti>
+        <org1:SukuNimi>Martti Ahtisaari</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+    <asi:Allekirjoittaja>
+      <org:Henkilo>
+        <org1:AsemaTeksti>Maa- ja metsätalousministeri</org1:AsemaTeksti>
+        <org1:SukuNimi>Kalevi Hemilä</org1:SukuNimi>
+      </org:Henkilo>
+    </asi:Allekirjoittaja>
+  </asi:AllekirjoitusOsa>
 </vah:VahvistettavaLaki>
