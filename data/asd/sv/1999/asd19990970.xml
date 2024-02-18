@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1999-10-28" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av värdepappersmarknadslagen</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 47/1999</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>EkUB 5/1999</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>RSv 28/1999</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -143,11 +132,13 @@
 5) vilseledande uppgifter har lämnats när koncessionen söktes.
 </saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
-          <saa:MomenttiKooste>I stället för att återkalla koncessionen kan finansministeriet begränsa clearingorganisationens verksamhet i enlighet med 3 mom., om detta kan anses vara en tillräcklig åtgärd.</saa:MomenttiKooste>
-          <sis:Katkoviiva/>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>I stället för att återkalla koncessionen kan finansministeriet begränsa clearingorganisationens verksamhet i enlighet med 3 mom., om detta kan anses vara en tillräcklig åtgärd.</saa:MomenttiJohdantoKooste>
+            <sis:Katkoviiva/>
+            <saa:MomenttiKohtaKooste>
 Finansministeriet skall innan det fattar ett beslut som avses i 1―4 mom. höra clearingorganisationen och innan ett beslut som avses i 1―3 mom. begära finansinspektionens utlåtande, om inte något annat följer av ärendets brådskande natur.
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:SaadosValiotsikkoKooste>Underrättelse om röstetal och inflytande</saa:SaadosValiotsikkoKooste>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 a §">
@@ -184,26 +175,26 @@ Finansministeriet skall innan det fattar ett beslut som avses i 1―4 mom. höra
         <saa:Luku saa1:identifiointiTunnus="10 kap.">
           <saa:LukuTunnusKooste>10 kap.</saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Särskilda stadganden</saa:SaadosOtsikkoKooste>
+          <saa:SaadosValiotsikkoKooste>Derivatavtal</saa:SaadosValiotsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
+            <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>Bestämmelserna i 2 kap. 1 §, 4 kap. 1, 2, 3 a och 4 §, 5 kap. 1 § och 7 kap. 2 § i denna lag tillämpas också på handel med standardiserade optioner och terminer enligt lagen om handel med standardiserade optioner och terminer.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Bestämmelserna i 4 kap. 7 §, 5 kap. 2―4 och 4 a §, 5 § 1 och 3 mom. samt 6 § i denna lag tillämpas också på standardiserade optioner och terminer enligt lagen om handel med standardiserade optioner och terminer då den underliggande egendomen är en aktie som är föremål för offentlig handel eller ett värdepapper som enligt lagen om aktiebolag medför rätt till en aktie. Denna lags 5 kap. 2 § tillämpas också på en person som står i ett sådant förhållande som avses i 5 kap. 2 § 1 mom. 1, 2 eller 3 punkten i denna lag till ett optionsföretag som avses i 1 kap. 3 § lagen om handel med standardiserade optioner och terminer samt på en sammanslutning eller stiftelse som står i ett sådant förhållande till honom som avses i 5 kap. 2 § 1 mom. 4 punkten. Denna lags 5 kap. 5 § tillämpas också på ett optionsföretag som avses i 1 kap. 3 § lagen om handel med standardiserade optioner och terminer.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Bestämmelserna i 8 kap. 3 § 1 och 3 punkten i denna lag tillämpas också på standardiserade optioner och terminer enligt lagen om handel med standardiserade optioner och terminer. Bestämmelserna i 8 kap. 3 § 3 punkten i denna lag tillämpas också på personer som avses ovan i 2 mom. till den del det är fråga om optionshandel som avses i 1 kap. 2 § 4 punkten lagen om handel med standardiserade optioner och terminer samt ett optionsföretag som avses i 1 kap. 3 § i samma lag.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 a §">
+            <saa:PykalaTunnusKooste>1 a §</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>Bestämmelserna i 2 kap. 1 §, 4 kap. 1, 2, 3 a och 4 § samt 7 kap. 2 § i denna lag tillämpas också på derivatavtal som är föremål för handel och clearing på någon annan reglerad marknad som övervakas av myndigheterna än i ett optionsföretag som avses i lagen om handel med standardiserade optioner och terminer (<saa:SaadosKursiiviKooste>derivatavtal som skall jämställas med standardiserade optioner eller terminer</saa:SaadosKursiiviKooste>). Denna lags 5 kap. 1 § tillämpas också på derivatavtal som skall jämställas med standardiserade optioner eller terminer och vars underliggande egendom är ett värdepapper som är föremål för offentlig handel.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Bestämmelserna i 4 kap. 7 §, 5 kap. 2―4 och 4 a §, 5 § 1 och 3 mom. samt 6 § i denna lag tillämpas också på derivatavtal som skall jämställas med standardiserade optioner eller terminer och vars underliggande egendom är en aktie som är föremål för offentlig handel eller ett värdepapper som enligt lagen om aktiebolag medför rätt till en aktie.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Bestämmelserna i 8 kap. 3 § 1 och 3 punkten i denna lag tillämpas också på derivatavtal som skall jämställas med standardiserade optioner eller terminer.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 b §">
+            <saa:PykalaTunnusKooste>1 b §</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>Bestämmelserna i 2 kap. 1 §, 4 kap. 1, 2, 3 a och 4 § samt 7 kap. 2 § i denna lag tillämpas också på derivatavtal som inte är föremål för handel eller clearing i ett optionsföretag som avses i 1 kap. 3 § lagen om handel med standardiserade optioner och terminer eller en annan i 1 a § avsedd reglerad marknad som övervakas av myndigheterna. På ett sådant derivatavtal tillämpas också 5 kap. 1 § i denna lag, i det fall att den underliggande egendomen är ett värdepapper som är föremål för offentlig handel.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Bestämmelserna i 5 kap. 2―4 och 4 a §, 5 § 1 och 3 mom. samt 6 § i denna lag tillämpas också på i denna paragraf avsedda derivativavtal vars underliggande egendom är en aktie som är föremål för offentlig handel eller ett värdepapper som enligt lagen om aktiebolag medför rätt till en aktie.</saa:MomenttiKooste>
+            <saa:MomenttiKooste>Bestämmelserna i 8 kap. 3 § 1 och 3 punkten i denna lag tillämpas också på derivatavtal som avses i denna paragraf.</saa:MomenttiKooste>
+          </saa:Pykala>
         </saa:Luku>
-        <saa:SaadosValiotsikkoKooste>Derivatavtal</saa:SaadosValiotsikkoKooste>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 §">
-          <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Bestämmelserna i 2 kap. 1 §, 4 kap. 1, 2, 3 a och 4 §, 5 kap. 1 § och 7 kap. 2 § i denna lag tillämpas också på handel med standardiserade optioner och terminer enligt lagen om handel med standardiserade optioner och terminer.</saa:MomenttiKooste>
-          <saa:MomenttiKooste>Bestämmelserna i 4 kap. 7 §, 5 kap. 2―4 och 4 a §, 5 § 1 och 3 mom. samt 6 § i denna lag tillämpas också på standardiserade optioner och terminer enligt lagen om handel med standardiserade optioner och terminer då den underliggande egendomen är en aktie som är föremål för offentlig handel eller ett värdepapper som enligt lagen om aktiebolag medför rätt till en aktie. Denna lags 5 kap. 2 § tillämpas också på en person som står i ett sådant förhållande som avses i 5 kap. 2 § 1 mom. 1, 2 eller 3 punkten i denna lag till ett optionsföretag som avses i 1 kap. 3 § lagen om handel med standardiserade optioner och terminer samt på en sammanslutning eller stiftelse som står i ett sådant förhållande till honom som avses i 5 kap. 2 § 1 mom. 4 punkten. Denna lags 5 kap. 5 § tillämpas också på ett optionsföretag som avses i 1 kap. 3 § lagen om handel med standardiserade optioner och terminer.</saa:MomenttiKooste>
-          <saa:MomenttiKooste>Bestämmelserna i 8 kap. 3 § 1 och 3 punkten i denna lag tillämpas också på standardiserade optioner och terminer enligt lagen om handel med standardiserade optioner och terminer. Bestämmelserna i 8 kap. 3 § 3 punkten i denna lag tillämpas också på personer som avses ovan i 2 mom. till den del det är fråga om optionshandel som avses i 1 kap. 2 § 4 punkten lagen om handel med standardiserade optioner och terminer samt ett optionsföretag som avses i 1 kap. 3 § i samma lag.</saa:MomenttiKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 a §">
-          <saa:PykalaTunnusKooste>1 a §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Bestämmelserna i 2 kap. 1 §, 4 kap. 1, 2, 3 a och 4 § samt 7 kap. 2 § i denna lag tillämpas också på derivatavtal som är föremål för handel och clearing på någon annan reglerad marknad som övervakas av myndigheterna än i ett optionsföretag som avses i lagen om handel med standardiserade optioner och terminer (<saa:SaadosKursiiviKooste>derivatavtal som skall jämställas med standardiserade optioner eller terminer</saa:SaadosKursiiviKooste>). Denna lags 5 kap. 1 § tillämpas också på derivatavtal som skall jämställas med standardiserade optioner eller terminer och vars underliggande egendom är ett värdepapper som är föremål för offentlig handel.</saa:MomenttiKooste>
-          <saa:MomenttiKooste>Bestämmelserna i 4 kap. 7 §, 5 kap. 2―4 och 4 a §, 5 § 1 och 3 mom. samt 6 § i denna lag tillämpas också på derivatavtal som skall jämställas med standardiserade optioner eller terminer och vars underliggande egendom är en aktie som är föremål för offentlig handel eller ett värdepapper som enligt lagen om aktiebolag medför rätt till en aktie.</saa:MomenttiKooste>
-          <saa:MomenttiKooste>Bestämmelserna i 8 kap. 3 § 1 och 3 punkten i denna lag tillämpas också på derivatavtal som skall jämställas med standardiserade optioner eller terminer.</saa:MomenttiKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="1 b §">
-          <saa:PykalaTunnusKooste>1 b §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Bestämmelserna i 2 kap. 1 §, 4 kap. 1, 2, 3 a och 4 § samt 7 kap. 2 § i denna lag tillämpas också på derivatavtal som inte är föremål för handel eller clearing i ett optionsföretag som avses i 1 kap. 3 § lagen om handel med standardiserade optioner och terminer eller en annan i 1 a § avsedd reglerad marknad som övervakas av myndigheterna. På ett sådant derivatavtal tillämpas också 5 kap. 1 § i denna lag, i det fall att den underliggande egendomen är ett värdepapper som är föremål för offentlig handel.</saa:MomenttiKooste>
-          <saa:MomenttiKooste>Bestämmelserna i 5 kap. 2―4 och 4 a §, 5 § 1 och 3 mom. samt 6 § i denna lag tillämpas också på i denna paragraf avsedda derivativavtal vars underliggande egendom är en aktie som är föremål för offentlig handel eller ett värdepapper som enligt lagen om aktiebolag medför rätt till en aktie.</saa:MomenttiKooste>
-          <saa:MomenttiKooste>Bestämmelserna i 8 kap. 3 § 1 och 3 punkten i denna lag tillämpas också på derivatavtal som avses i denna paragraf.</saa:MomenttiKooste>
-        </saa:Pykala>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
           <saa:MomenttiKooste>Denna lag träder i kraft den 1 november 1999.</saa:MomenttiKooste>
@@ -212,6 +203,11 @@ Finansministeriet skall innan det fattar ett beslut som avses i 1―4 mom. höra
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 47/1999</sdk:EsityoViite>
+    <sdk:EsityoViite>EkUB 5/1999</sdk:EsityoViite>
+    <sdk:EsityoViite>RSv 28/1999</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 22 oktober 1999</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av lagen om service och stöd på grund av handikapp </met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 271/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>ShUB 39/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -50,11 +42,17 @@
           <saa:MomenttiKooste>Ekonomiskt stöd som betalas med stöd av 9 § får inte mätas ut. Om ekonomiskt stöd enligt 9 § har beviljats för anskaffning av redskap, maskiner och anordningar eller andra föremål, får dessa inte heller mätas ut.</saa:MomenttiKooste>
         </saa:Pykala>
         <sis:Palstaviiva/>
-        <te>Denna lag träder i kraft den 1 februari 1995.</te>
-        <te>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan den träder i kraft. </te>
+        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
+          <saa:MomenttiKooste>Denna lag träder i kraft den 1 februari 1995.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Åtgärder som verkställigheten av lagen förutsätter får vidtas innan den träder i kraft. </saa:MomenttiKooste>
+        </saa:Pykala>
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 271/94</sdk:EsityoViite>
+    <sdk:EsityoViite>ShUB 39/94</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 31 januari 1995</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
