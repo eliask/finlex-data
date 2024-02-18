@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Oulun yliopistosta annetun lain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 83/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>SiVM 10/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -47,7 +39,9 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="14 §">
           <saa:PykalaTunnusKooste>14 §</saa:PykalaTunnusKooste>
         </saa:Pykala>
-        <te>Lahjoitus- ja testamenttivaroilla perustettuun virkaan kuuluvat samat oikeudet ja velvollisuudet kuin muuhun vastaavaan virkaan.</te>
+        <saa:Pykala>
+          <saa:MomenttiKooste>Lahjoitus- ja testamenttivaroilla perustettuun virkaan kuuluvat samat oikeudet ja velvollisuudet kuin muuhun vastaavaan virkaan.</saa:MomenttiKooste>
+        </saa:Pykala>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
           <saa:MomenttiKooste>Tämä laki tulee voimaan 1 päivänä tammikuuta 1995.</saa:MomenttiKooste>
@@ -56,6 +50,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940083.he">
+        <sis1:ViiteTeksti>HE 83/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940010.sivm">
+        <sis1:ViiteTeksti>SiVM 10/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 14 päivänä lokakuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

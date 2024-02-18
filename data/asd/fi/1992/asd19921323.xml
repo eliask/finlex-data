@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>työntekijäin eläkelain väliaikaisesta muuttamisesta annetun lain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 304/92</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>StVM 41/92</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -39,11 +31,24 @@
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
           <saa:MomenttiKooste>Tämä laki tulee voimaan 15 päivänä heinäkuuta 1992 ja on voimassa 31 päivään joulukuuta 1994.</saa:MomenttiKooste>
+          <sis:Palstaviiva/>
           <saa:MomenttiKooste>Tämä laki tulee voimaan 21 päivänä joulukuuta 1992.</saa:MomenttiKooste>
         </saa:Pykala>
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920304.he">
+        <sis1:ViiteTeksti>HE 304/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19920041.stvm">
+        <sis1:ViiteTeksti>StVM 41/92</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 18 päivänä joulukuuta 1992</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

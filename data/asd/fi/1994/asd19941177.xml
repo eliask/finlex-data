@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>yhdistyslain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 217/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>TaVM 30/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -71,9 +63,9 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="55 §">
           <saa:PykalaTunnusKooste>55 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Ennakkotarkastus</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Patentti- ja rekisterihallitus voi suorittaa yhdistyksen tai sen perustajien hakemuksesta sääntöjen tai niiden muutoksen tarkastuksen ennakolta (<saa:SaadosKursiiviKooste>ennakkotarkastus</saa:SaadosKursiiviKooste>), milloin siihen yhdistyksen koon, sääntöjen muutoksen merkityksen tai muun sellaisen syyn vuoksi on aihetta. Hakemus voi koskea myös yhdistykseen suoraan tai välillisesti kuuluvan tai kuuluvaksi aiotun yhdistyksen sääntöjä.</saa:MomenttiKooste>
+          <sis:Katkoviiva/>
         </saa:Pykala>
-        <te>Patentti- ja rekisterihallitus voi suorittaa yhdistyksen tai sen perustajien hakemuksesta sääntöjen tai niiden muutoksen tarkastuksen ennakolta (<saa:SaadosKursiiviKooste>ennakkotarkastus</saa:SaadosKursiiviKooste>), milloin siihen yhdistyksen koon, sääntöjen muutoksen merkityksen tai muun sellaisen syyn vuoksi on aihetta. Hakemus voi koskea myös yhdistykseen suoraan tai välillisesti kuuluvan tai kuuluvaksi aiotun yhdistyksen sääntöjä.</te>
-        <sis:Katkoviiva/>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="56 §">
           <saa:PykalaTunnusKooste>56 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Muutoksenhaku ja rekisterimerkinnän kumoaminen</saa:SaadosOtsikkoKooste>
@@ -101,6 +93,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940217.he">
+        <sis1:ViiteTeksti>HE 217/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940030.tavm">
+        <sis1:ViiteTeksti>TaVM 30/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 13 päivänä joulukuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
