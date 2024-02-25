@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>elinkeinotulon verottamisesta annetun lain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Hallituksen esitys 116/85</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Valtiovarainvaliok. miet. 88/85</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>Suuren valiok. miet. 187/85</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -75,10 +64,17 @@
           <saa:MomenttiKooste>Maa-alueen hankintameno sekä arvopaperin tai muun kulumattoman käyttöomaisuuden hankintamenon se osa, jota ei ole poistettu 1 momentin perusteella, poistetaan sinä verovuonna, jona maa-alue, arvopaperi tai muu kulumaton käyttöomaisuus on luovutettu. Jos luovutushinta 6 §:n 1 momentin 1 tai 1 a kohdan nojalla on vain osittain veronalainen, hankintamenosta poistetaan vain luovutushinnan veronalainen määrä ja koko luovutushinnan ylittävän osan määrä.</saa:MomenttiKooste>
         </saa:Pykala>
         <sis:Palstaviiva/>
-        <te>Tämä laki tulee voimaan 1 päivänä tammikuuta 1986. Sitä sovelletaan ensimmäisen kerran lain voimaantulovuodelta toimitettavassa verotuksessa, kuitenkin niin, että luovutuksiin, jotka ovat tapahtuneet ennen tämän lain voimaantuloa, sovelletaan ennen tämän lain voimantuloa voimassa olleita säännöksiä.</te>
+        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
+          <saa:MomenttiKooste>Tämä laki tulee voimaan 1 päivänä tammikuuta 1986. Sitä sovelletaan ensimmäisen kerran lain voimaantulovuodelta toimitettavassa verotuksessa, kuitenkin niin, että luovutuksiin, jotka ovat tapahtuneet ennen tämän lain voimaantuloa, sovelletaan ennen tämän lain voimantuloa voimassa olleita säännöksiä.</saa:MomenttiKooste>
+        </saa:Pykala>
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Hallituksen esitys 116/85</sdk:EsityoViite>
+    <sdk:EsityoViite>Valtiovarainvaliok. miet. 88/85</sdk:EsityoViite>
+    <sdk:EsityoViite>Suuren valiok. miet. 187/85</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 20 päivänä joulukuuta 1985</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
