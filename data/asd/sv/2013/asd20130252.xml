@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2013-04-10" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -23,7 +23,7 @@
         <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>ändras</saa:SaadosKursiiviKooste> del I i bilaga 1, sådan denna del lyder ändrad i förordningarna 256/2009, 694/2009 och 584/2010 som följer:</saa:SaadosKappaleKooste>
       </saa:Johtolause>
       <saa:Pykalisto>
-        <saa:Pykala>
+        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
           <saa:MomenttiKooste>Denna förordning träder i kraft den 22 april 2013.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Förordningens 20 § tillämpas dock till den 31 oktober 2014 på fordon på vilket kraven enligt punkt 43 i del I i bilaga 1 inte tillämpas och vilket tas i bruk för första gången senast den 31 oktober 2014.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -168,8 +168,9 @@
                   <sis1:LihavaTeksti>0. Typgodkännan de av bil och dess släpvagn (fordonstyper i kategorierna M, N och O)</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>70/156/EEG<sis1:YlaindeksiTeksti>1</sis1:YlaindeksiTeksti></sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt fr.o.m. 29.4.2009)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>70/156/EEG<sis1:YlaindeksiTeksti>1</sis1:YlaindeksiTeksti></sis1:LihavaTeksti> (upphävt fr.o.m. 29.4.2009)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -1016,8 +1017,8 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>2007/46/EG</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>1a</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>1a</sis1:YlaindeksiTeksti>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -1773,8 +1774,9 @@
                   <sis1:LihavaTeksti>2. Avgaser/Information</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>70/220/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt fr.o.m. 2.1.2013)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>70/220/EEG</sis1:LihavaTeksti> (upphävt fr.o.m. 2.1.2013)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>49, 83, 103 (reservdelskatalysator)</sis:KappaleKooste>
               </tau:entry>
@@ -2398,7 +2400,9 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>EG nr 715/2007</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>26a</sis1:YlaindeksiTeksti>*</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>EG nr 715/2007</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>26a</sis1:YlaindeksiTeksti>*</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>83</sis:KappaleKooste>
               </tau:entry>
@@ -2632,8 +2636,9 @@
                   <sis1:LihavaTeksti>3. Tankar för flytande gränsle och bakre underkörningsskydd<sis1:YlaindeksiTeksti>29,29a</sis1:YlaindeksiTeksti></sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>70/221/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>70/221/EEG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>34, 58</sis:KappaleKooste>
               </tau:entry>
@@ -2838,8 +2843,9 @@
                   <sis1:LihavaTeksti>4. Monteringsutrymmet för och fastsättningen av bakre registreringsskyltar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>70/222/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>70/222/EEG</sis1:LihavaTeksti> (upphävt)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -2940,11 +2946,12 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>5. Styrinrättningar</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>31</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>31</sis1:YlaindeksiTeksti>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>70/311/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>70/311/EEG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>79</sis:KappaleKooste>
               </tau:entry>
@@ -3097,7 +3104,9 @@
                   <sis1:LihavaTeksti>6. Dörrar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>70/387/EEG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>32</sis1:YlaindeksiTeksti> (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>70/387/EEG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>32</sis1:YlaindeksiTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>11</sis:KappaleKooste>
               </tau:entry>
@@ -3250,8 +3259,9 @@
                   <sis1:LihavaTeksti>7. Ljudsignalanordningar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>70/388/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>70/388/EEG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>28</sis:KappaleKooste>
               </tau:entry>
@@ -3324,10 +3334,12 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>8. Anordningar för indirektsikt</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>33</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>33</sis1:YlaindeksiTeksti>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>71/127/EEG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>34</sis1:YlaindeksiTeksti> (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>71/127/EEG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>34</sis1:YlaindeksiTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>46</sis:KappaleKooste>
               </tau:entry>
@@ -3452,8 +3464,9 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>2003/97/EG<sis1:YlaindeksiTeksti>34a</sis1:YlaindeksiTeksti></sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>2003/97/EG<sis1:YlaindeksiTeksti>34a</sis1:YlaindeksiTeksti></sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>46</sis:KappaleKooste>
               </tau:entry>
@@ -3555,8 +3568,8 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>9. Bromsutrustning</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>35</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>35</sis1:YlaindeksiTeksti>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -3583,33 +3596,9 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry>-74/132/EEG <sis:KappaleKooste><sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
-</tau:entry>
               <tau:entry>
-                <sis:KappaleKooste/>
+                <sis:KappaleKooste>-74/132/EEG <sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
               </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>-75/524/EEG <sis:KappaleKooste><sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
-</tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -3633,33 +3622,9 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry>-79/489/EEG <sis:KappaleKooste><sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
-</tau:entry>
               <tau:entry>
-                <sis:KappaleKooste/>
+                <sis:KappaleKooste>-75/524/EEG <sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
               </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>-85/647/EEG<sis1:YlaindeksiTeksti>36</sis1:YlaindeksiTeksti> <sis:KappaleKooste><sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
-</tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -3683,8 +3648,9 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry>-88/194/EEG <sis:KappaleKooste><sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
-</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>-79/489/EEG <sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -3708,8 +3674,61 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry>-91/422/EEG <sis:KappaleKooste><sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
- (innehåller krav på låsningsfria bromsar)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>-85/647/EEG<sis1:YlaindeksiTeksti>36</sis1:YlaindeksiTeksti> <sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>-88/194/EEG <sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>-91/422/EEG <sis1:LihavaTeksti>(A)</sis1:LihavaTeksti> (innehåller krav på låsningsfria bromsar)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -3730,8 +3749,9 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry>-98/12/EG <sis:KappaleKooste><sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
- (innehåller krav på ersättningsbromsbel ägg)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>-98/12/EG <sis1:LihavaTeksti>(A)</sis1:LihavaTeksti> (innehåller krav på ersättningsbromsbel ägg)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -3755,8 +3775,9 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry>-2002/78/EG <sis:KappaleKooste><sis1:LihavaTeksti>(A)</sis1:LihavaTeksti></sis:KappaleKooste>
- (bromsbeläggs märkning och förpackning)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>-2002/78/EG <sis1:LihavaTeksti>(A)</sis1:LihavaTeksti> (bromsbeläggs märkning och förpackning)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -3825,8 +3846,9 @@
                   <sis1:LihavaTeksti>10. Radiostörningar för orsakade av fordon och elektromagnetisk kompatibilitet</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>72/245/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>72/245/EEG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>10</sis:KappaleKooste>
               </tau:entry>
@@ -4083,8 +4105,9 @@
                   <sis1:LihavaTeksti>11. Dieselmotorns röktäthet</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>72/306/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt fr.o.m. 2.1.2013)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>72/306/EEG</sis1:LihavaTeksti> (upphävt fr.o.m. 2.1.2013)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>24</sis1:LihavaTeksti>
@@ -4184,7 +4207,9 @@
                   <sis1:LihavaTeksti>12. Passagerarutrymmets inre delar frånsett backspeglar, manöverorganens utformning, taket, taklucka, ryggstöd och sätenas baksida</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>74/60/EEG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>39</sis1:YlaindeksiTeksti> (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>74/60/EEG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>39</sis1:YlaindeksiTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>21</sis:KappaleKooste>
               </tau:entry>
@@ -4285,7 +4310,9 @@
                   <sis1:LihavaTeksti>13. Anordningar för att förhindra olovligt nyttjande</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>74/61/EEG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>40</sis1:YlaindeksiTeksti> (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>74/61/EEG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>40</sis1:YlaindeksiTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>18, 97 (anordning som förhindrar körning och alarmanordning)</sis:KappaleKooste>
               </tau:entry>
@@ -4383,7 +4410,9 @@
                   <sis1:LihavaTeksti>14. Styranordningens uppförande inhädelse av en sammanstötning</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>74/297/EEG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>41</sis1:YlaindeksiTeksti> (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>74/297/EEG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>41</sis1:YlaindeksiTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>12</sis:KappaleKooste>
               </tau:entry>
@@ -4664,8 +4693,9 @@
                   <sis1:LihavaTeksti>16. Utskjutande delar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>74/483/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>74/483/EEG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>26</sis:KappaleKooste>
               </tau:entry>
@@ -4895,11 +4925,12 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>18. Föreskrivna skyltar och märkningar samt deras placering och fastsättningssätt</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>46</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>46</sis1:YlaindeksiTeksti>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>76/114/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>76/114/EEG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>-</sis:KappaleKooste>
               </tau:entry>
@@ -5281,8 +5312,9 @@
                   <sis1:LihavaTeksti>20. Montering av ljus och ljussignalanordningar<sis1:YlaindeksiTeksti>48</sis1:YlaindeksiTeksti></sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>76/756/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>76/756/EEG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>48</sis:KappaleKooste>
               </tau:entry>
@@ -6154,8 +6186,9 @@
                   <sis1:LihavaTeksti>27. Bogseringsanor dningar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>77/389/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (kumottu)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>77/389/EEG</sis1:LihavaTeksti> (kumottu)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>-</sis:KappaleKooste>
               </tau:entry>
@@ -6797,11 +6830,12 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>32. Sikt framåt</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>52</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>52</sis1:YlaindeksiTeksti>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>77/649/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>77/649/EEG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>125</sis:KappaleKooste>
               </tau:entry>
@@ -7062,8 +7096,9 @@
                   <sis1:LihavaTeksti>34. Avfrostnings och avimningsanordningar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>78/317/EEG<sis1:YlaindeksiTeksti>53</sis1:YlaindeksiTeksti></sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt fr.o.m. 1.11.2012)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>78/317/EEG<sis1:YlaindeksiTeksti>53</sis1:YlaindeksiTeksti></sis1:LihavaTeksti> (upphävt fr.o.m. 1.11.2012)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -7140,8 +7175,9 @@
                   <sis1:LihavaTeksti>35. Vindrutespolare och torkare</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>78/318/EEG<sis1:YlaindeksiTeksti>54</sis1:YlaindeksiTeksti></sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt fr.o.m. 1.1.2012)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>78/318/EEG<sis1:YlaindeksiTeksti>54</sis1:YlaindeksiTeksti></sis1:LihavaTeksti> (upphävt fr.o.m. 1.1.2012)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -7270,8 +7306,9 @@
                   <sis1:LihavaTeksti>36. Värmesystem</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>78/548/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt fr.o.m. 9.5.2004)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>78/548/EEG</sis1:LihavaTeksti> (upphävt fr.o.m. 9.5.2004)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>122</sis:KappaleKooste>
               </tau:entry>
@@ -7295,7 +7332,9 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>2001/56/EG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>55</sis1:YlaindeksiTeksti> (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>2001/56/EG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>55</sis1:YlaindeksiTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -7425,8 +7464,9 @@
                   <sis1:LihavaTeksti>37. Stänkskärmar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>78/549/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>78/549/EEG</sis1:LihavaTeksti> (upphävt)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
@@ -7529,8 +7569,8 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>78/932/EEG</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>56</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>56</sis1:YlaindeksiTeksti>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>17, 25, 80</sis:KappaleKooste>
@@ -7659,11 +7699,12 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>39. Mätning av bränsleförbrukningen</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>57</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>57</sis1:YlaindeksiTeksti>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>80/1268/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt fr.o.m. 2.1.2013)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>80/1268/EEG</sis1:LihavaTeksti> (upphävt fr.o.m. 2.1.2013)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>101 (alternativ)</sis:KappaleKooste>
               </tau:entry>
@@ -7869,11 +7910,12 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>40. Mätning av motoreffekten</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>58</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>58</sis1:YlaindeksiTeksti>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>80/1269/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt fr.o.m. 31.12.2013)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>80/1269/EEG</sis1:LihavaTeksti> (upphävt fr.o.m. 31.12.2013)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>85 (alternativ)</sis:KappaleKooste>
               </tau:entry>
@@ -8078,7 +8120,9 @@
                   <sis1:LihavaTeksti>41. Avgaser av tunga fordon</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>88/77/EEG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>59</sis1:YlaindeksiTeksti> (upphävt fr.o.m. 9.11.2006)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>88/77/EEG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>59</sis1:YlaindeksiTeksti> (upphävt fr.o.m. 9.11.2006)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>49 (alternativ)</sis:KappaleKooste>
               </tau:entry>
@@ -8278,8 +8322,9 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>2005/55/EG<sis1:YlaindeksiTeksti>61a, 61b</sis1:YlaindeksiTeksti></sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt fr.o.m. 31.12.2013)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>2005/55/EG<sis1:YlaindeksiTeksti>61a, 61b</sis1:YlaindeksiTeksti></sis1:LihavaTeksti> (upphävt fr.o.m. 31.12.2013)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>-</sis:KappaleKooste>
               </tau:entry>
@@ -8407,9 +8452,7 @@
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste>
-                  <sis1:LihavaTeksti>41 a. Utsläpp från tunga fordon <saa:SaadosKursiiviKooste>(EURO VI)</saa:SaadosKursiiviKooste>/tillgång till information</sis1:LihavaTeksti>
-                </sis:KappaleKooste>
+                <sis:KappaleKooste>41 a. Utsläpp från tunga fordon <sis1:LihavaKursiiviTeksti>(EURO VI)</sis1:LihavaKursiiviTeksti>/tillgång till information</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -8467,7 +8510,9 @@
                   <sis1:LihavaTeksti>42. Sidoskydd</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>89/297/EEG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>62</sis1:YlaindeksiTeksti> (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>89/297/EEG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>62</sis1:YlaindeksiTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>73</sis:KappaleKooste>
               </tau:entry>
@@ -8542,7 +8587,9 @@
                   <sis1:LihavaTeksti>43. Stänkskyddsanordningar<sis1:YlaindeksiTeksti>63</sis1:YlaindeksiTeksti></sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>91/226/EEG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>63</sis1:YlaindeksiTeksti> (upphävt)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>91/226/EEG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>63</sis1:YlaindeksiTeksti> (upphävt)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>-</sis:KappaleKooste>
               </tau:entry>
@@ -8805,7 +8852,9 @@
                   <sis1:LihavaTeksti>45. Säkerhetsglas</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>92/22/EEG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>64</sis1:YlaindeksiTeksti> (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>92/22/EEG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>64</sis1:YlaindeksiTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>43</sis:KappaleKooste>
               </tau:entry>
@@ -8906,7 +8955,9 @@
                   <sis1:LihavaTeksti>46. Däck</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>92/23/EEG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>66</sis1:YlaindeksiTeksti> (upphävt fr.o.m. 1.11.2017)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>92/23/EEG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>66</sis1:YlaindeksiTeksti> (upphävt fr.o.m. 1.11.2017)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>30, 54, 64, 108, 109 (regummeradedäck)</sis:KappaleKooste>
               </tau:entry>
@@ -9059,8 +9110,9 @@
                   <sis1:LihavaTeksti>47. Hastighetsbegränsande anordningar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>92/24/EG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>92/24/EG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>89</sis:KappaleKooste>
               </tau:entry>
@@ -9336,8 +9388,9 @@
                   <sis1:LihavaTeksti>49. Utskjutande delar på förarhytter</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>92/114/EEG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>92/114/EEG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>61</sis:KappaleKooste>
               </tau:entry>
@@ -9412,7 +9465,9 @@
                   <sis1:LihavaTeksti>50. Kopplingsanordningar för släpvagnar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>94/20/EG</sis1:LihavaTeksti></sis:KappaleKooste><sis1:YlaindeksiTeksti>68</sis1:YlaindeksiTeksti> (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>94/20/EG</sis1:LihavaTeksti><sis1:YlaindeksiTeksti>68</sis1:YlaindeksiTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>55, 102 (kortkopplings anordning)</sis:KappaleKooste>
               </tau:entry>
@@ -9487,8 +9542,9 @@
                   <sis1:LihavaTeksti>51. Brandsäkerhet</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>95/28/EG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>95/28/EG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>118</sis:KappaleKooste>
               </tau:entry>
@@ -9561,8 +9617,8 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>52. Karosseristommen på bussar</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>69</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>69</sis1:YlaindeksiTeksti>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -9649,8 +9705,8 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>96/79/EG</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>70</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>70</sis1:YlaindeksiTeksti>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>94</sis:KappaleKooste>
@@ -9732,8 +9788,8 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>96/27/EG</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>71</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>71</sis1:YlaindeksiTeksti>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>95</sis:KappaleKooste>
@@ -9865,8 +9921,9 @@
                   <sis1:LihavaTeksti>57. Främre underkörnings skydd</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>2000/40/EG</sis1:LihavaTeksti></sis:KappaleKooste>
- (A)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>2000/40/EG</sis1:LihavaTeksti> (A)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>93</sis:KappaleKooste>
               </tau:entry>
@@ -9941,8 +9998,9 @@
                   <sis1:LihavaTeksti>58. Skydd för fotgängare</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>2003/102/EG<sis1:YlaindeksiTeksti>75</sis1:YlaindeksiTeksti> </sis1:LihavaTeksti></sis:KappaleKooste>
-(upphävt fr.o.m. 24.11.2009)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>2003/102/EG<sis1:YlaindeksiTeksti>75</sis1:YlaindeksiTeksti> </sis1:LihavaTeksti>(upphävt fr.o.m. 24.11.2009)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>-</sis:KappaleKooste>
               </tau:entry>
@@ -10025,8 +10083,8 @@
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>2005/64/EG</sis1:LihavaTeksti>
+                  <sis1:YlaindeksiTeksti>77</sis1:YlaindeksiTeksti>
                 </sis:KappaleKooste>
-                <sis1:YlaindeksiTeksti>77</sis1:YlaindeksiTeksti>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -10079,8 +10137,9 @@
                   <sis1:LihavaTeksti>60. Frontskydd</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-              <tau:entry><sis:KappaleKooste><sis1:LihavaTeksti>2005/66/EG</sis1:LihavaTeksti></sis:KappaleKooste>
- (upphävt fr.o.m. 24.11.2009)</tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste><sis1:LihavaTeksti>2005/66/EG</sis1:LihavaTeksti> (upphävt fr.o.m. 24.11.2009)</sis:KappaleKooste>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>

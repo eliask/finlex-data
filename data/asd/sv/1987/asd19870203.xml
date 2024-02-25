@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av lagen om avfallshantering</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Regeringens proposition 195/86</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Lag- och ekonomiutsk. bet. 17/86</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>Stora utsk. bet. 189/86</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -74,10 +63,12 @@
           <saa:MomenttiKooste>Ett behandlingstillstånd kan begränsas till att gälla vissa slag av problemavfall eller problemavfall som härstammar från vissa platser eller områden. Tillståndet kan vara förenat med de villkor som anses behövliga.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:SaadosValiotsikkoKooste>Anmälan om import, export och transitering av problemavfall</saa:SaadosValiotsikkoKooste>
-        <te>23 f §</te>
-        <te>Den som till landet ämnar införa eller ur landet utföra problemavfall eller transportera problemavfall genom finskt territorium skall göra anmälan därom till miljöministeriet minst 60 dagar före importen, exporten eller transiteringen.</te>
-        <te>Miljöministeriet skall förbjuda import, export eller transitering av problemavfall, om import-, export- eller transiteringslandet inte godkänner åtgärden, om åtgärden står i strid med ett internationellt fördrag som är förpliktande för Finland eller om problemavfallet inte kommer att transporteras eller behandlas på ett med hänsyn till miljövården godtagbart sätt. Miljöministeriet kan förbjuda import eller export av problemavfall, om importen eller exporten anses vara skadlig eller oändamålsenlig med tanke på den riksomfattande problemavfallshanteringen eller annan allmän fördel. Förbudet skall iakttas trots att ändring sökts.</te>
-        <te>Miljöministeriet kan på ansökan bevilja undantag från stadgandena i 1 mom.</te>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="23 f §">
+          <saa:PykalaTunnusKooste>23 f §</saa:PykalaTunnusKooste>
+          <saa:MomenttiKooste>Den som till landet ämnar införa eller ur landet utföra problemavfall eller transportera problemavfall genom finskt territorium skall göra anmälan därom till miljöministeriet minst 60 dagar före importen, exporten eller transiteringen.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Miljöministeriet skall förbjuda import, export eller transitering av problemavfall, om import-, export- eller transiteringslandet inte godkänner åtgärden, om åtgärden står i strid med ett internationellt fördrag som är förpliktande för Finland eller om problemavfallet inte kommer att transporteras eller behandlas på ett med hänsyn till miljövården godtagbart sätt. Miljöministeriet kan förbjuda import eller export av problemavfall, om importen eller exporten anses vara skadlig eller oändamålsenlig med tanke på den riksomfattande problemavfallshanteringen eller annan allmän fördel. Förbudet skall iakttas trots att ändring sökts.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Miljöministeriet kan på ansökan bevilja undantag från stadgandena i 1 mom.</saa:MomenttiKooste>
+        </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="32 §">
           <saa:PykalaTunnusKooste>32 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Glas, plåt, plast eller papper, skräp eller smuts av annat slag eller kasserat föremål eller ämne får inte lämnas i miljön så, att därav förorsakas men för hälsan, osnygghet, förfulning av landskapet, minskad trivsel eller annan liknande olägenhet för allmänt eller enskilt intresse <saa:SaadosKursiiviKooste>(nedskräpningsförbud).</saa:SaadosKursiiviKooste></saa:MomenttiKooste>
@@ -121,6 +112,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Regeringens proposition 195/86</sdk:EsityoViite>
+    <sdk:EsityoViite>Lag- och ekonomiutsk. bet. 17/86</sdk:EsityoViite>
+    <sdk:EsityoViite>Stora utsk. bet. 189/86</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 20 februari 1987</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

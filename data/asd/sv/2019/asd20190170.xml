@@ -10,20 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av lagen om tillsyn över fartygssäkerheten</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 198/2018</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>KoUB 30/2018</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>RSv 174/2018</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-      <met:Muu4Viite>
-        <sis1:ViiteTeksti>Europaparlamentets och rådets direktiv (EU) 2017/2110 (32017L2110); EUT L 315, 30.11.2017, s. 61</sis1:ViiteTeksti>
-      </met:Muu4Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -47,8 +33,10 @@
             <saa:MomenttiJohdantoKooste>I denna lag och i förordningar som utfärdats med stöd av den avses med</saa:MomenttiJohdantoKooste>
             <sis:Katkoviiva/>
             <saa:MomenttiKohtaKooste>4) <saa:SaadosKursiiviKooste>besiktningsdirektivet</saa:SaadosKursiiviKooste> Europaparlamentets och rådets direktiv (EU) 2017/2110 om ett inspektionssystem för säker drift av ro-ro-passagerarfartyg och höghastighetspassagerarfartyg i reguljär trafik och om ändring av direktiv 2009/16/EG och om upphävande av rådets direktiv 1999/35/EG,</saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>5) <saa:SaadosKursiiviKooste>internationella konventioner</saa:SaadosKursiiviKooste></saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>a) 1974 års internationella konvention om säkerheten för människoliv till sjöss (FördrS 11/1981, <saa:SaadosKursiiviKooste>SOLAS-konventionen</saa:SaadosKursiiviKooste>), jämte ändringar,</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
+              <saa:MomenttiAlakohtaKooste>5) <saa:SaadosKursiiviKooste>internationella konventioner</saa:SaadosKursiiviKooste></saa:MomenttiAlakohtaKooste>
+              <saa:MomenttiAlakohtaKooste>a) 1974 års internationella konvention om säkerheten för människoliv till sjöss (FördrS 11/1981, <saa:SaadosKursiiviKooste>SOLAS-konventionen</saa:SaadosKursiiviKooste>), jämte ändringar,</saa:MomenttiAlakohtaKooste>
+            </saa:MomenttiKohtaKooste>
             <sis:Katkoviiva/>
             <saa:MomenttiKohtaKooste>6) <saa:SaadosKursiiviKooste>non-SOLAS-direktivet</saa:SaadosKursiiviKooste> Europaparlamentets och rådets direktiv 2009/45/EG om säkerhetsbestämmelser och säkerhetsnormer för passagerarfartyg, jämte ändringar,</saa:MomenttiKohtaKooste>
             <sis:Katkoviiva/>
@@ -156,6 +144,20 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20180198.rp">
+        <sis1:ViiteTeksti>RP 198/2018</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20180030.koub">
+        <sis1:ViiteTeksti>KoUB 30/2018</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>RSv 174/2018</sdk:EsityoViite>
+    <sdk:EsityoViite>Europaparlamentets och rådets direktiv (EU) 2017/2110 <sis:YleinenViite sis1:viiteURL="32017L2110"><sis1:ViiteTeksti>(32017L2110)</sis1:ViiteTeksti></sis:YleinenViite>; EUT L 315, 30.11.2017, s. 61</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 8 februari 2019</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

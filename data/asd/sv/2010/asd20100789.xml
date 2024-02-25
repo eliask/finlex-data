@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2010-09-09" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om den information som ska lämnas till en konsument om ett kreditavta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Europaparlamentets och rådets direktiv 2008/48/EG (308L0048); EGT nr L 133, 22.5.2008, s. 66</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Asetus">
@@ -121,6 +116,8 @@
             <saa:MomenttiKohtaKooste>2) en specifikation av köpeobjektet och eventuell tilläggsutrustning,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>3) köpeobjektets leveranssätt och leveranstid samt övriga leveransvillkor,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>4) kontantpriset på köpeobjektet och eventuell tilläggsutrustning och kontantbetalningsandelen samt kontantpriset och kreditkostnaderna sammanlagt.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Följande uppgifter ska lämnas om krediten:</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>1) kreditavtalets löptid,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>2) kreditbeloppet samt avbetalningarnas storlek, antal och betalningsintervall,</saa:MomenttiKohtaKooste>
@@ -130,12 +127,16 @@
             <saa:MomenttiKohtaKooste>6) det sammanlagda belopp som köparen ska betala med stöd av kreditavtalet,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>7) om en förutsättning för att krediten beviljas på marknadsförda villkor är att köparen ingår ett avtal om en försäkring eller en kompletterande tjänst, en upplysning om denna förutsättning och eventuella säkerheter som kommer att krävas,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>8) eventuella andra avtalsvillkor.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Följande uppgifter ska lämnas om avslutning av avtalet:</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>1) upplysning om konsumentens ångerrätt beträffande krediten eller om att denna rätt inte finns enligt lag,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>2) ångerfristen, upplysning om konsumentens skyldighet att betala kreditbeloppet och krediträntan för den utnyttjade kredittiden till kreditgivaren, det räntebelopp som ska betalas per dag och andra villkor och anvisningar som gäller utnyttjande av ångerrätten,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>3) upplysning om rätten till förtida betalning och om kreditgivarens eventuella rätt till kompensation för detta och kompensationsgrunderna, samt anvisningar som gäller utnyttjande av rätten till förtidsåterbetalning,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>4) upplysning om återgång av kombinerat kreditavtal enligt 6 kap. 24 § och 10 kap. 12 § i konsumentskyddslagen i det fall att konsumenten frånträder ett avtal som ingåtts vid hemförsäljning eller distansförsäljning eller ett köp av tidsandelsbostad,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>5) upplysning om parternas rätt att säga upp eller häva kreditavtalet eller tidigareläggande av förfallodag.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Följande uppgifter ska lämnas om övriga rättigheter och skyldigheter som parterna har:</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>1) upplysning om konsumentens rätt att på begäran och utan avgift få en amorteringstabell när som helst under kreditavtalets löptid,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>2) dröjsmålsräntan och reglerna för ändring av den samt eventuella andra avgifter som tas ut vid avtalsbrott,</saa:MomenttiKohtaKooste>
@@ -143,6 +144,8 @@
             <saa:MomenttiKohtaKooste>4) upplysning om konsumentens rätt enligt 7 kap. 39 § i konsumentskyddslagen att kräva gottgörelse även av kreditgivaren på grund av avtalsbrott av säljaren,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>5) upplysning om att det när en vara återtas ska företas uppgörelse på det sätt som avses i 7 kap. 36 § i konsumentskyddslagen,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>6) upplysning om att bestämmelserna i 7 kap. i konsumentskyddslagen också i övrigt tillämpas på avtalet.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Följande uppgifter ska lämnas om rättsmedel:</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>1) den behöriga myndigheten vid avbetalningsuppgörelse,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>2) upplysning om huruvida konsumenten har tillgång till rättsskyddsförfaranden utanför domstol och, om så är fallet, hur konsumenten kan använda dem,</saa:MomenttiKohtaKooste>
@@ -157,6 +160,9 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Europaparlamentets och rådets direktiv 2008/48/EG (308L0048); EGT nr L 133, 22.5.2008, s. 66</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 2 september 2010</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

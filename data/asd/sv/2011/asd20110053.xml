@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av lagen om stöd för skolresor för studerande i gymnasieutbildning och yrkesutbildning</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 149/2010</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>KuUB 8/2010</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>RSv 194/2010</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -52,10 +41,12 @@
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Villkor för beviljande av stöd för skolresor</saa:SaadosOtsikkoKooste>
           <sis:Katkoviiva/>
-          <saa:MomenttiKooste>Stöd för skolresor kan beviljas en studerande</saa:MomenttiKooste>
-          <sis:Katkoviiva/>
-          <saa:MomenttiKohtaKooste>3) som utnyttjar kollektivtrafik eller skolskjuts som utbildningsanordnaren ordnar eller något annat lämpligt eget färdsätt när de villkor som föreskrivs i 4 a § uppfylls.</saa:MomenttiKohtaKooste>
-          <sis:Katkoviiva/>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Stöd för skolresor kan beviljas en studerande</saa:MomenttiJohdantoKooste>
+            <sis:Katkoviiva/>
+            <saa:MomenttiKohtaKooste>3) som utnyttjar kollektivtrafik eller skolskjuts som utbildningsanordnaren ordnar eller något annat lämpligt eget färdsätt när de villkor som föreskrivs i 4 a § uppfylls.</saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
@@ -74,6 +65,8 @@
             <saa:MomenttiKohtaKooste>1) mer än fem kilometer i ena riktningen av den studerandes skolväg inte omfattas av kollektivtrafik eller skolskjuts som utbildningsanordnaren ordnar,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>2) den studerandes dagliga skolresa med väntetider inberäknade i medeltal tar mer än tre timmar i anspråk per dag under månaden i fråga, eller</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>3) den studerande under en månad har möjlighet att anlita kollektivtrafik eller skolskjuts som utbildningsanordnaren ordnar för i medeltal högst sex skolresor i ena riktningen per vecka.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Stöd för skolresor kan också beviljas på basis av eget färdsätt, om</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>1) den studerande saknar möjlighet att anlita kollektivtrafik eller skolskjuts som utbildningsanordnaren ordnar på grund av att skolresan av andra skäl än de som avses i 1 mom. blir alltför svår eller ansträngande för den studerande, eller</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>2) den studerandes skolresa eller färdsätt byts flera gånger under läsåret.</saa:MomenttiKohtaKooste>
@@ -105,6 +98,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 149/2010</sdk:EsityoViite>
+    <sdk:EsityoViite>KuUB 8/2010</sdk:EsityoViite>
+    <sdk:EsityoViite>RSv 194/2010</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>  Helsingfors den 21 januari 2011</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

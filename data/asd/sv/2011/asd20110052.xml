@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av lagen om studiestöd</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>RP 149/2010</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>KuUB 8/2010</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>RSv 194/2010</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -102,6 +91,8 @@
             <saa:MomenttiKohtaKooste>1) som avtjänar frihetsstraff,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>2) vars studielån drivs in av Folkpensionsanstalten på grundval av borgensansvar, om inte Folkpensionsanstalten av särskilda skäl beslutar annat, eller</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>3) som har en betalningsstörning som registrerats i ett sådant kreditupplysningsregister som avses i 4 kap. i kreditupplysningslagen (527/2007).</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Statsborgen kan dock beviljas trots att den studerande har en betalningsstörning som avses i 4 mom. 3 punkten, om</saa:MomenttiJohdantoKooste>
             <saa:MomenttiKohtaKooste>1) betalningsstörningen gäller ett enskilt fall och ett litet belopp samt en skäligt lång tid har förflutit från registreringen,</saa:MomenttiKohtaKooste>
             <saa:MomenttiKohtaKooste>2) skulden som föranlett anteckningen har betalats, eller</saa:MomenttiKohtaKooste>
@@ -112,10 +103,12 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="16 §">
           <saa:PykalaTunnusKooste>16 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Statsborgens storlek</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Beloppet av statsborgen för studielån per stödmånad är</saa:MomenttiKooste>
-          <sis:Katkoviiva/>
-          <saa:MomenttiKohtaKooste>3) 600 euro för studerande som studerar utomlands.</saa:MomenttiKohtaKooste>
-          <sis:Katkoviiva/>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Beloppet av statsborgen för studielån per stödmånad är</saa:MomenttiJohdantoKooste>
+            <sis:Katkoviiva/>
+            <saa:MomenttiKohtaKooste>3) 600 euro för studerande som studerar utomlands.</saa:MomenttiKohtaKooste>
+            <sis:Katkoviiva/>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="16 a §">
           <saa:PykalaTunnusKooste>16 a §</saa:PykalaTunnusKooste>
@@ -163,6 +156,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>RP 149/2010</sdk:EsityoViite>
+    <sdk:EsityoViite>KuUB 8/2010</sdk:EsityoViite>
+    <sdk:EsityoViite>RSv 194/2010</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>  Helsingfors den 21 januari 2011</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
