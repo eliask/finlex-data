@@ -488,10 +488,12 @@ m) <saa:SaadosKursiiviKooste>sensorn</saa:SaadosKursiiviKooste> utgör den anord
             <saa:MomenttiKooste>1. Matarledningen skall ligga till höger om manöverledningen i släpvagnens uttagsanslutning för bromsarna.</saa:MomenttiKooste>
             <saa:MomenttiKooste>2. Då separata släpbromskopplingar används, skall de överensstämma med standarden SFS 3546/1976 och vara placerade på bilen på ett sådant sätt som denna standard förutsätter.</saa:MomenttiKooste>
             <saa:MomenttiKooste>3. Då en tvillingkoppling (DUO-Matic) används, skall den överensstämma med standarden SFS 3745/1976 och vara placerad på bilen på ett sådant sätt som denna standard förutsätter.</saa:MomenttiKooste>
-            <saa:MomenttiKooste>4. En påhängsvagns anslutningsslangar skall uppfylla kraven i SAE J 844 c/1980 typ 3, med undantag för dimensioneringen eller uppfylla en annan standard för bromsslangar.</saa:MomenttiKooste>
-            <saa:MomenttiKohtaKooste>
+            <saa:KohdatMomentti>
+              <saa:MomenttiJohdantoKooste>4. En påhängsvagns anslutningsslangar skall uppfylla kraven i SAE J 844 c/1980 typ 3, med undantag för dimensioneringen eller uppfylla en annan standard för bromsslangar.</saa:MomenttiJohdantoKooste>
+              <saa:MomenttiKohtaKooste>
 5. Vid en separatkoppling av fordonen kan mindre undantag från ovan nämnda placeringskrav tillåtas.
 </saa:MomenttiKohtaKooste>
+            </saa:KohdatMomentti>
           </saa:Pykala>
         </saa:Luku>
         <saa:Luku saa1:identifiointiTunnus="6 kap.">
@@ -883,8 +885,7 @@ c) påhängsvagn, olastad: 45 % av släpvagnens statiska egenvikt som vilar på 
         <sis1:LihavaTeksti>Nomogram för bestämmandet av prestationsförmågan för en påhängsvagns färdbroms</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/0229.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>Exempel på hur korrektionsfaktorn K<sis1:AlaindeksiTeksti>k</sis1:AlaindeksiTeksti> , bestäms med hjälp av nomogrammet:</sis:KappaleKooste>
       <sis:KappaleKooste>Utgångsvärden:</sis:KappaleKooste>
@@ -982,8 +983,7 @@ c) påhängsvagn, olastad: 45 % av släpvagnens statiska egenvikt som vilar på 
       <sis:KappaleKooste>- kurvorna 2 och 3 betecknar översta gränsen för bakaxelns utnyttjade friktion och kurvan 2 översta gränsen för framaxeln samt</sis:KappaleKooste>
       <sis:KappaleKooste>- kurvan 4 gränsen för minsta uttnyttjade friktion både för fram- och bakaxeln.</sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/0231.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>BILAGA 3</sis1:LihavaTeksti>
@@ -992,8 +992,7 @@ c) påhängsvagn, olastad: 45 % av släpvagnens statiska egenvikt som vilar på 
         <sis1:LihavaTeksti>Mätning av förlust- och lossningstider från en dragbils manöverledning</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/0233.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>BILAGA 4</sis1:LihavaTeksti>
@@ -1002,23 +1001,22 @@ c) påhängsvagn, olastad: 45 % av släpvagnens statiska egenvikt som vilar på 
         <sis1:LihavaTeksti>Mätning av funktionstiderna i en släpvagns bromssystem</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/0235.gif"/>
       </sis:Kuva>
-      <ete>A = Luftpåfyllning med stängningsventil</ete>
-      <ete>C1 = Simulatorns tryckbrytare, inställd på 0,065 Mpa och 0,49 Mpa</ete>
-      <ete>C2 = Tryckbrytare, som kopplas till släpvagnens bromscylinder och tillkopplas då trycket i bromscylindern uppgår till 75 % av sluttrycket</ete>
-      <ete>CF = Bromscylinder</ete>
-      <ete>L = Bromsledning från strypningen O till kopplingshandske TC, med en innervolym av 385 ± 5 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> vid trycket 0,65 Mpa</ete>
-      <ete>M = Tryckmätare</ete>
-      <ete>O = Strypning med diametern 4,0-4,3 mm</ete>
-      <ete>PP = Mätuttag</ete>
-      <ete>R1 = 30 liters tryckluftbehållare med avtappningsventil</ete>
-      <ete>RA = Stängningsventil</ete>
-      <ete>TA = Kopplingshandske, matarledning</ete>
-      <ete>TC = Kopplingshandske, styrledning</ete>
-      <ete>V = Bromsreglage</ete>
-      <ete>VRU = Rangerventil</ete>
+      <sis:KappaleKooste>A = Luftpåfyllning med stängningsventil</sis:KappaleKooste>
+      <sis:KappaleKooste>C1 = Simulatorns tryckbrytare, inställd på 0,065 Mpa och 0,49 Mpa</sis:KappaleKooste>
+      <sis:KappaleKooste>C2 = Tryckbrytare, som kopplas till släpvagnens bromscylinder och tillkopplas då trycket i bromscylindern uppgår till 75 % av sluttrycket</sis:KappaleKooste>
+      <sis:KappaleKooste>CF = Bromscylinder</sis:KappaleKooste>
+      <sis:KappaleKooste>L = Bromsledning från strypningen O till kopplingshandske TC, med en innervolym av 385 ± 5 cm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> vid trycket 0,65 Mpa</sis:KappaleKooste>
+      <sis:KappaleKooste>M = Tryckmätare</sis:KappaleKooste>
+      <sis:KappaleKooste>O = Strypning med diametern 4,0-4,3 mm</sis:KappaleKooste>
+      <sis:KappaleKooste>PP = Mätuttag</sis:KappaleKooste>
+      <sis:KappaleKooste>R1 = 30 liters tryckluftbehållare med avtappningsventil</sis:KappaleKooste>
+      <sis:KappaleKooste>RA = Stängningsventil</sis:KappaleKooste>
+      <sis:KappaleKooste>TA = Kopplingshandske, matarledning</sis:KappaleKooste>
+      <sis:KappaleKooste>TC = Kopplingshandske, styrledning</sis:KappaleKooste>
+      <sis:KappaleKooste>V = Bromsreglage</sis:KappaleKooste>
+      <sis:KappaleKooste>VRU = Rangerventil</sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>BILAGA 5</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -1026,8 +1024,7 @@ c) påhängsvagn, olastad: 45 % av släpvagnens statiska egenvikt som vilar på 
         <sis1:LihavaTeksti>Bromskorridor för en dragbil och en egentlig släpvagn</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/0237.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>BILAGA 6</sis1:LihavaTeksti>
@@ -1036,8 +1033,7 @@ c) påhängsvagn, olastad: 45 % av släpvagnens statiska egenvikt som vilar på 
         <sis1:LihavaTeksti>Bromskorridor för påhängsvagns dragbil</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/0239.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>BILAGA 7</sis1:LihavaTeksti>
@@ -1047,8 +1043,7 @@ c) påhängsvagn, olastad: 45 % av släpvagnens statiska egenvikt som vilar på 
       </sis:KappaleKooste>
       <sis:KappaleKooste>Baskorridor</sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/0240.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>Exempel på bestämning av individuell bromskorridor för en påhängsvagn:</sis:KappaleKooste>
       <tau:table>
@@ -1177,13 +1172,11 @@ c) påhängsvagn, olastad: 45 % av släpvagnens statiska egenvikt som vilar på 
       <sis:KappaleKooste>K<sis1:AlaindeksiTeksti>t</sis1:AlaindeksiTeksti> = K<sis1:AlaindeksiTeksti>t</sis1:AlaindeksiTeksti> - K<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> = 1,78 - 0,11 = 1,67</sis:KappaleKooste>
       <sis:KappaleKooste>Grafisk bestämning av korrektionsfaktorerna:</sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/0241.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>I exempelfallet fås bromskorridor för lastad och olastad påhängsvagn genom att multiplicera värdena för baskorridoren med talet 1,11 (lastad) och 1,67 (olastad).</sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/0242.gif"/>
       </sis:Kuva>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>

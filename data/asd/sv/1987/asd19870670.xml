@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av lagen om sockeraccis</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Regeringens proposition 22/87</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Statsutsk. bet. 15/87</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>Stora utsk. bet. 17/87</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -39,12 +28,15 @@
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 §">
           <saa:PykalaTunnusKooste>5 §</saa:PykalaTunnusKooste>
-          <ete>Accisfritt är:</ete>
-          <sis:Katkoviiva/>
-          <saa:MomenttiKooste>3) på villkor fastställda av statsrådet socker som används:</saa:MomenttiKooste>
-          <sis:Katkoviiva/>
-          <saa:MomenttiKooste>b) för tillverkning av jäst, läkemedel hänförliga till tulltariffens positioner 30.03 och 30.04 eller foder;</saa:MomenttiKooste>
-          <saa:MomenttiKooste>c) för tillverkning av sockerkulör hänförlig till tulltariffens position 17.02, organiska frukt- och aminosyror hänförliga till positionerna 29.18, 29.22, 29.23, 29.32-29.54 och 29.40 samt enzymer hänförliga till position 55.07; samt</saa:MomenttiKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Accisfritt är:</saa:MomenttiJohdantoKooste>
+            <sis:Katkoviiva/>
+            <saa:MomenttiKohtaKooste>3) på villkor fastställda av statsrådet socker som används:
+<sis:Katkoviiva/>
+<saa:MomenttiAlakohtaKooste>b) för tillverkning av jäst, läkemedel hänförliga till tulltariffens positioner 30.03 och 30.04 eller foder;</saa:MomenttiAlakohtaKooste>
+<saa:MomenttiAlakohtaKooste>c) för tillverkning av sockerkulör hänförlig till tulltariffens position 17.02, organiska frukt- och aminosyror hänförliga till positionerna 29.18, 29.22, 29.23, 29.32-29.54 och 29.40 samt enzymer hänförliga till position 55.07; samt</saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <sis:Palstaviiva/>
@@ -54,6 +46,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Regeringens proposition 22/87</sdk:EsityoViite>
+    <sdk:EsityoViite>Statsutsk. bet. 15/87</sdk:EsityoViite>
+    <sdk:EsityoViite>Stora utsk. bet. 17/87</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Nådendal den 10 juli 1987</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

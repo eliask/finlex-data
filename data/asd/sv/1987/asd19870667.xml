@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om ändring av lagen om läskedrycksaccis</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Regeringens proposition 22/87</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Statsutsk. bet. 15/87</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>Stora utsk. bet. 17/87</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -35,7 +24,7 @@
       <saa:Pykalisto>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
-          <ete>I denna lag avses:</ete>
+          <saa:MomenttiKooste>I denna lag avses:</saa:MomenttiKooste>
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>b) med öl av accisklass I en huvudsakligen av malt, humle och vatten uteslutande genom jäsning tillverkad maltdryck som innehåller högst 2,8 volymprocent etylalkohol och ur vilken jästen har avlägsnats efter jäsningen.</saa:MomenttiKooste>
         </saa:Pykala>
@@ -46,9 +35,11 @@
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
           <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
-          <ete>Accisfria är:</ete>
-          <sis:Katkoviiva/>
-          <saa:MomenttiKooste>3) på de villkor som statsrådet fastställer läskedrycker som används för tillverkning av produkter som avses i denna lag eller i lagen om sötsaksaccis (867/79) eller för tillverkning av produkter hänförliga till tulltariffens position 33.05.</saa:MomenttiKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Accisfria är:</saa:MomenttiJohdantoKooste>
+            <sis:Katkoviiva/>
+            <saa:MomenttiKohtaKooste>3) på de villkor som statsrådet fastställer läskedrycker som används för tillverkning av produkter som avses i denna lag eller i lagen om sötsaksaccis (867/79) eller för tillverkning av produkter hänförliga till tulltariffens position 33.05.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
         </saa:Pykala>
         <sis:Palstaviiva/>
         <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
@@ -57,6 +48,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Regeringens proposition 22/87</sdk:EsityoViite>
+    <sdk:EsityoViite>Statsutsk. bet. 15/87</sdk:EsityoViite>
+    <sdk:EsityoViite>Stora utsk. bet. 17/87</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Nådendal den 10 juli 1987</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1998-03-05" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om användning av arbetsställningar och fallskyddskonstruktioner vid byggnadsarbeten</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Anmält enligt rådets direktiv 83/189/EEG; ändring 88/182/EEG; ändring 94/10/EEG.</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Päätös">
@@ -141,8 +136,12 @@
                 <saa:MomenttiAlakohtaKooste>
 -tillrädesledernas konstruktion och placering, 
 </saa:MomenttiAlakohtaKooste>
-                <ete>-fallskyddens konstruktion, </ete>
-                <ete>-förankring och andra konstruktioner som ökar stabiliteten.</ete>
+                <saa:MomenttiAlakohtaKooste>
+-fallskyddens konstruktion, 
+</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>
+-förankring och andra konstruktioner som ökar stabiliteten.
+</saa:MomenttiAlakohtaKooste>
               </saa:MomenttiKohtaKooste>
               <saa:MomenttiKohtaKooste>
                 <saa:MomenttiAlakohtaKooste>2) uppgifter om grunderna för planeringen</saa:MomenttiAlakohtaKooste>
@@ -493,6 +492,9 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Anmält enligt rådets direktiv <sis:YleinenViite sis1:viiteURL="383L0189"><sis1:ViiteTeksti>83/189/EEG</sis1:ViiteTeksti></sis:YleinenViite>; ändring <sis:YleinenViite sis1:viiteURL="388L0182"><sis1:ViiteTeksti>88/182/EEG</sis1:ViiteTeksti></sis:YleinenViite>; ändring <sis:YleinenViite sis1:viiteURL="394L0010"><sis1:ViiteTeksti>94/10/EEG</sis1:ViiteTeksti></sis:YleinenViite>.</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 27 februari 1998</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -510,15 +512,15 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga 1</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Arbetsbockens stabilitet</sis:KappaleKooste>
       <sis:KappaleKooste>1. Stabiliteten av arbetsbocken skall vara minst 1,5 för att den inte skall välta. Stabiliteten skall vara tillräcklig både i arbetsbockens längdriktning och på tvären. Arbetsbocken skall hållas stående med nämnda stabilitet, när arbetsbockens arbetsplattform utsätts för en vågrät belastning om 0,3 kN samt en lodrät belastning om 1,5 kN, som placerats så oförmånligt som möjligt och med angreppspunkten 100 mm från arbetsplattformens kant. Den vågräta kraften antas inte verka i arbetsställets riktning.</sis:KappaleKooste>
       <sis:KappaleKooste>2. Arbetställningens stabilitet skall uppfylla ovan nämnda krav när tillträdesledens trappsteg används som arbetsplattform.</sis:KappaleKooste>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga 2</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Besiktning av arbetsställning</sis:KappaleKooste>
       <sis:KappaleKooste>Vid idrifttagningsbesiktning och underhållsbesiktning av en arbetsställning skall åtminstone följande punkter gås igenom:</sis:KappaleKooste>
       <sis:KappaleKooste>A. Allmänna uppgifter om ställningen: 1) identifieringsuppgifter, 2) högsta tillåtna last.</sis:KappaleKooste>
@@ -542,9 +544,9 @@
       <sis:KappaleKooste>16. nödvändig avspärrning av området nedanför ställningen,</sis:KappaleKooste>
       <sis:KappaleKooste>17. övriga uppgifter, besiktningslistan förlängs vid behov.</sis:KappaleKooste>
       <sis:KappaleKooste>C. Personer som deltog i besiktningen: 1) företrädare för arbetsgivaren, 2) företrädare för arbetstagarna, samt eventuella andra deltagare t.ex. 3) arbetsledare för arbetet på arbetsställningen, 4) övriga.</sis:KappaleKooste>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga 3</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Skyldigheter som enligt arbetsfördelningen i fråga om arbetsställningen ankommer parter som deltar i byggprojektet och som avses i 30 § i beslutet</sis:KappaleKooste>
       <sis:KappaleKooste>1. Den som låter göra en arbetsställning och tar emot den</sis:KappaleKooste>
       <sis:KappaleKooste>En arbetsgivare, en egenföretagare eller någon annan som låter göra en arbetsställning och tar emot den för användning, skall bl.a. försäkra sig om att</sis:KappaleKooste>
