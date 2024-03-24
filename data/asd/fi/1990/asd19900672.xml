@@ -81,9 +81,11 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 §">
           <saa:PykalaTunnusKooste>9 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Säilyvyysajan ilmoittaminen</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Kosmetiikka-asetuksen 4 §:n 2 momentissa säädetty säilyvyysaika on merkittävä valmisteen myynti- ja käyttöpäällykseen esimerkiksi seuraavasti:</saa:MomenttiKooste>
-          <ete>Parasta ennen</ete>
-          <ete>Bäst före</ete>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Kosmetiikka-asetuksen 4 §:n 2 momentissa säädetty säilyvyysaika on merkittävä valmisteen myynti- ja käyttöpäällykseen esimerkiksi seuraavasti:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>Parasta ennen</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>Bäst före</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
           <saa:MomenttiKooste>sekä välittömästi merkinnän yhteyteen säilyvyysajan päättymisen ajankohta tai viittaus siihen, mihin ajankohta on pakkauksessa merkitty.</saa:MomenttiKooste>
         </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="10 §">
@@ -131,10 +133,10 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 1</ete>
-      <ete>
-        <pl>SÄILÖNTÄAINEET</pl>
-      </ete>
+      <sis1:ValiotsikkoTeksti>Liite 1</sis1:ValiotsikkoTeksti>
+      <sis:KappaleKooste>
+        <sis1:KursiiviTeksti>SÄILÖNTÄAINEET</sis1:KursiiviTeksti>
+      </sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
           <tau:colspec colnum="1" colname="1" colwidth=""/>
@@ -1202,10 +1204,10 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 2</ete>
-      <ete>
-        <pl>AURINGONSUOJA-AINEET</pl>
-      </ete>
+      <sis1:ValiotsikkoTeksti>Liite 2</sis1:ValiotsikkoTeksti>
+      <sis:KappaleKooste>
+        <sis1:KursiiviTeksti>AURINGONSUOJA-AINEET</sis1:KursiiviTeksti>
+      </sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
           <tau:colspec colnum="1" colname="1" colwidth=""/>
@@ -1609,11 +1611,11 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 3</ete>
-      <ete>
-        <pl>VÄRIAINEET</pl>
+      <sis1:ValiotsikkoTeksti>Liite 3</sis1:ValiotsikkoTeksti>
+      <sis:KappaleKooste>
+        <sis1:KursiiviTeksti>VÄRIAINEET</sis1:KursiiviTeksti>
         <sis1:YlaindeksiTeksti>5, 6</sis1:YlaindeksiTeksti>
-      </ete>
+      </sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>Valkoiset</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -3098,10 +3100,10 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 4</ete>
-      <ete>
-        <pl>RAJOITUKSIN SALLITUT AINEET</pl>
-      </ete>
+      <sis1:ValiotsikkoTeksti>Liite 4</sis1:ValiotsikkoTeksti>
+      <sis:KappaleKooste>
+        <sis1:KursiiviTeksti>RAJOITUKSIN SALLITUT AINEET</sis1:KursiiviTeksti>
+      </sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
           <tau:colspec colnum="1" colname="1" colwidth=""/>
@@ -5184,10 +5186,10 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 5</ete>
-      <ete>
-        <pl>Aineita, jotka ovat kiellettyjä kosmeettisissa valmisteissa</pl>
-      </ete>
+      <sis1:ValiotsikkoTeksti>Liite 5</sis1:ValiotsikkoTeksti>
+      <sis:KappaleKooste>
+        <sis1:KursiiviTeksti>Aineita, jotka ovat kiellettyjä kosmeettisissa valmisteissa</sis1:KursiiviTeksti>
+      </sis:KappaleKooste>
       <tau:table>
         <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
           <tau:colspec colnum="1" colname="1" colwidth=""/>

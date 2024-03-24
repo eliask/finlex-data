@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>vaarallisten aineiden kuljettamisesta rautatiellä annetun liikenneministeriön päätöksen muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti><sis1:YlaindeksiTeksti>1</sis1:YlaindeksiTeksti> Aine tai valmiste, joka täyttää luokan 8 kriteerit ja jonka pölyn ja sumun aiheuttama hengitysmyrkyllisyys (LC<sis1:AlaindeksiTeksti>50</sis1:AlaindeksiTeksti> ) vastaa ryhmää a) mutta jonka myrkyllisyys nautittuna tai ihon läpi imeytyneenä vastaa ryhmää c) tai sitä vähäisempää myrkyllisyyttä on luokiteltava luokkaan 8.</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti><sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> OECD Guidelines for Testing of Chemicals, Guideline 404, "Acute Dermal Irritation/Corrosion" (1992).</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti><sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> Teknisenä nimenä on käytettävä yleisesti tieteellisissä ja teknisissä käsikirjoissa, lehdissä ja teksteissä käytettäviä nimityksiä. Kauppanimiä ei saa käyttää tähän tarkoitukseen.</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -42,6 +31,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite><sis1:YlaindeksiTeksti>1</sis1:YlaindeksiTeksti> Aine tai valmiste, joka täyttää luokan 8 kriteerit ja jonka pölyn ja sumun aiheuttama hengitysmyrkyllisyys (LC<sis1:AlaindeksiTeksti>50</sis1:AlaindeksiTeksti> ) vastaa ryhmää a) mutta jonka myrkyllisyys nautittuna tai ihon läpi imeytyneenä vastaa ryhmää c) tai sitä vähäisempää myrkyllisyyttä on luokiteltava luokkaan 8.</sdk:EsityoViite>
+    <sdk:EsityoViite><sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> OECD Guidelines for Testing of Chemicals, Guideline 404, "Acute Dermal Irritation/Corrosion" (1992).</sdk:EsityoViite>
+    <sdk:EsityoViite><sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti> Teknisenä nimenä on käytettävä yleisesti tieteellisissä ja teknisissä käsikirjoissa, lehdissä ja teksteissä käytettäviä nimityksiä. Kauppanimiä ei saa käyttää tähän tarkoitukseen.</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 29 päivänä marraskuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -84,7 +78,7 @@
         <sis1:LihavaTeksti>800</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>(1) Rn 801 mainittuja tai sen ryhmänimikkeisiin kuuluvia luokan 8 aineita ja niitä sisältäviä esineitä saa kuljettaa rautatiellä vain rn 800 (2)...824 mainituin ehdoin.</sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Rn 801 aineluettelon aineiden määrät, jotka eivät ole jäljempänä olevien kuljetusmääräysten alaisia, ks. rn 801 a.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Rn 801 aineluettelon aineiden määrät, jotka eivät ole jäljempänä olevien kuljetusmääräysten alaisia, ks. rn 801 a.</sis:KappaleKooste>
       <sis:KappaleKooste>(2) Luokkaan 8 kuuluvat aineet, jotka kemiallisesti vaikuttavat ihon tai limakalvon epiteelikudokseen, jonka kanssa ne ovat kosketuksessa sekä aineet, jotka pakkauksesta ulos päästessään voivat vahingoittaa tai tuhota muita tavaroita tai kuljetusvälineitä tai voivat aiheuttaa muuta vahinkoa. Tähän luokkaan kuuluvat myös aineet, jotka vasta veden kanssa muodostavat syövyttäviä liuoksia tai joista vapautuu syövyttävää höyryä taikka sumua ilman luonnollisen kosteuden vaikutuksesta.</sis:KappaleKooste>
       <sis:KappaleKooste>(3)</sis:KappaleKooste>
       <sis:KappaleKooste>a) Luokan 8 aineet on jaoteltu seuraavasti:</sis:KappaleKooste>
@@ -105,7 +99,7 @@
       <sis:KappaleKooste>– Aineet, jotka aiheuttavat ihokudoksen tuhoutumisen koko paksuudeltaan 14 päivän kuluessa yli 60 minuutin mutta enintään 4 tunnin altistuksen seurauksena,</sis:KappaleKooste>
       <sis:KappaleKooste>– Aineet, jotka eivät aiheuta ihokudoksen tuhoutumista koko paksuudeltaan, mutta joiden korroosionopeus 55 °C koelämpötilassa teräs- tai alumiinipinnalla on yli 6,25 mm vuodessa. Kokeessa on käytettävä terästyyppiä P3 (ISO 2604(IV)-1975) tai vastaavaa ja alumiinityyppiä 7075-T6 (päällystämätön) tai AZ5GU-T6.</sis:KappaleKooste>
       <sis:KappaleKooste>(4) Jos luokan 8 aineen vaarallisuusryhmä muuttuu laimennuksen seurauksena rn 801 mainitusta, on tällainen seos tai liuos luokiteltava aineluettelon siihen kohtaan ja ryhmään, mihin se syövyttävyytensä perusteella todellisuudessa kuuluu.</sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Liuosten ja seosten (kuten valmisteet ja jätteet) luokituksen osalta ks. myös rn 3 (3).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Liuosten ja seosten (kuten valmisteet ja jätteet) luokituksen osalta ks. myös rn 3 (3).</sis:KappaleKooste>
       <sis:KappaleKooste>(5) Rn 800 (3) kriteerien perusteella voidaan myös määrittää, ovatko aineluettelossa nimeltä mainitun liuoksen tai seoksen sekä nimeltä mainittua ainetta sisältävän liuoksen tai seoksen ominaisuudet sellaiset, ettei liuos tai seos ole tämän luokan määräysten alaista.</sis:KappaleKooste>
       <sis:KappaleKooste>(6) Rn 805 (2), 806 (3) ja 807 (3) pakkausmääräyksissä aineita ja aineiden seoksia, joiden sulamispiste on yli 45 °C, pidetään kiinteinä aineina.</sis:KappaleKooste>
       <sis:KappaleKooste>(7)</sis:KappaleKooste>
@@ -151,9 +145,9 @@
         <sis1:KursiiviTeksti>2796 akkuneste, hapan,</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2837 vetysulfaattien vesiliuos</sis1:KursiiviTeksti> (bisulfaattien vesiliuos);</sis:KappaleKooste>
-      <ete><pl>Houm. 1.</pl> 2585 alkyylisulfoni- ja aryylisulfonihapot, kiinteät ja 2586 alkyylisulfoni- ja aryylisulfonihapot, nestemäiset, jotka sisältävät enintään 5 % vapaata rikkihappoa, kuuluvat kohtaan 34.</ete>
-      <ete><pl>Houm. 2.</pl> Lyijysulfaatti, joka sisältää enintään 3 % vapaata rikkihappoa, ei ole näiden määräysten alainen.</ete>
-      <ete><pl>Houm. 3.</pl> Kemiallisesti epästabiilien nitraushappojen ja jäteseoshappojen kuljetus on kielletty.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Houm. 1.</sis1:KursiiviTeksti> 2585 alkyylisulfoni- ja aryylisulfonihapot, kiinteät ja 2586 alkyylisulfoni- ja aryylisulfonihapot, nestemäiset, jotka sisältävät enintään 5 % vapaata rikkihappoa, kuuluvat kohtaan 34.</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 2.</sis1:KursiiviTeksti> Lyijysulfaatti, joka sisältää enintään 3 % vapaata rikkihappoa, ei ole näiden määräysten alainen.</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 3.</sis1:KursiiviTeksti> Kemiallisesti epästabiilien nitraushappojen ja jäteseoshappojen kuljetus on kielletty.</sis:KappaleKooste>
       <sis:KappaleKooste>c) <sis1:KursiiviTeksti>2837 vetysulfaattien vesiliuos</sis1:KursiiviTeksti> (bisulfaattien vesiliuos).</sis:KappaleKooste>
       <sis:KappaleKooste>2. Typpihapot, kuten:</sis:KappaleKooste>
       <sis:KappaleKooste>a) 1. <sis1:KursiiviTeksti>2031 typpihappo</sis1:KursiiviTeksti>, ei savuava, yli 70 % happoa sisältävä,</sis:KappaleKooste>
@@ -164,12 +158,12 @@
       <sis:KappaleKooste><sis1:KursiiviTeksti>1826 jätenitraushapposeos</sis1:KursiiviTeksti>, yli 50 % typpihappoa sisältävä,</sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1796 nitraushapposeos</sis1:KursiiviTeksti>, enintään 50 % typpihappoa sisältävä,</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>1826 jätenitraushapposeos</sis1:KursiiviTeksti>, enintään 50 % typpihappoa sisältävä.</sis:KappaleKooste>
-      <ete><pl>Houm. 1.</pl> 1798 nitrohydrokloorihapon (typpihapon ja suolahapon seosten) kuljetus on kielletty.</ete>
-      <ete><pl>Houm. 2.</pl> Kemiallisesti epästabiilien nitraushapposeosten tai jäterikkihapon ja -typpihapon seosten, joita ei ole denitrattu, kuljetus on kielletty.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 1.</sis1:KursiiviTeksti> 1798 nitrohydrokloorihapon (typpihapon ja suolahapon seosten) kuljetus on kielletty.</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 2.</sis1:KursiiviTeksti> Kemiallisesti epästabiilien nitraushapposeosten tai jäterikkihapon ja -typpihapon seosten, joita ei ole denitrattu, kuljetus on kielletty.</sis:KappaleKooste>
       <sis:KappaleKooste>4. Perkloorihapon liuos:</sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1802 perkloorihappo</sis1:KursiiviTeksti>, enintään 50 paino-% happoa sisältävä vesiliuos.</sis:KappaleKooste>
-      <ete><pl>Houm. 1.</pl> 1873 perkloorihapon vesiliuos, joka sisältää yli 50 paino-% mutta enintään 72 paino-% puhdasta happoa. kuuluu luokkaan 5.1. Ks. rn SOI, kohta 3 a).</ete>
-      <ete><pl>Houm. 2.</pl> Perkloorihapon vesiliuoksen, joka sisältää yli 72 paino-% puhdasta happoa, sekä perkloorihapon muiden kuin vesiliuosten kuljetus on kielletty.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 1.</sis1:KursiiviTeksti> 1873 perkloorihapon vesiliuos, joka sisältää yli 50 paino-% mutta enintään 72 paino-% puhdasta happoa. kuuluu luokkaan 5.1. Ks. rn SOI, kohta 3 a).</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 2.</sis1:KursiiviTeksti> Perkloorihapon vesiliuoksen, joka sisältää yli 72 paino-% puhdasta happoa, sekä perkloorihapon muiden kuin vesiliuosten kuljetus on kielletty.</sis:KappaleKooste>
       <sis:KappaleKooste>5. Halogeenivetyjen liuokset (lukuun ottamatta fluorivetyhappoa):</sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1787 jodivetyhappo,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>
@@ -195,13 +189,13 @@
         <sis1:KursiiviTeksti>2581 alumiinikloridiliuos,</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2582 ferrikloridiliuos (rauta-III-kloridiliuos)</sis1:KursiiviTeksti> (rautatrikloridiliuos).</sis:KappaleKooste>
-      <ete><pl>Houm.</pl> Vedetön bromivety ja vedetön kloorivety kuuluvat luokkaan 2. Ks. rn 201, kohdat 3 at) ja 5 at).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Vedetön bromivety ja vedetön kloorivety kuuluvat luokkaan 2. Ks. rn 201, kohdat 3 at) ja 5 at).</sis:KappaleKooste>
       <sis:KappaleKooste>6. Fluorivety ja fluorivedyn liuokset, jotka sisältävät yli 85 % fluorivetyä:</sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>1052 fluorivety, vedetön,</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>1790 fluorivetyhappoliuos</sis1:KursiiviTeksti>, yli 85 % fluorivetyä sisältävä.</sis:KappaleKooste>
-      <ete><pl>Houm.</pl> Näitä aineita koskevat erityispakkausmääräykset. Ks. rn 803.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Näitä aineita koskevat erityispakkausmääräykset. Ks. rn 803.</sis:KappaleKooste>
       <sis:KappaleKooste>7. Fluorivetyhappoliuokset, jotka sisältävät enintään 85 % fluorivetyä:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>1786 fluorivetyhapon ja rikkihapon seos,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>1790 fluorivetyhappoliuos</sis1:KursiiviTeksti>, yli 60 mutta enintään 85 % fluorivetyä sisältävä;</sis:KappaleKooste>
@@ -235,13 +229,13 @@
         <sis1:KursiiviTeksti>1740 vetvdifiuoridit, n.o.s.;</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>c) <sis1:KursiiviTeksti>1740 vetydifluoridit, n.o.s.</sis1:KursiiviTeksti> </sis:KappaleKooste>
-      <ete><pl>Houm.</pl> 2505 ammoniumfluoridi, 1812 kaliumfluoridi, 1690 natriumfluoridi, 2674 natriumfluorisilikaatti ja 2856 fluorisilikaatit, n.o.s. ovat luokan 6.1 aineita. Ks. rn 601, kohdat 63 c), 64 c) tai 87 c).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> 2505 ammoniumfluoridi, 1812 kaliumfluoridi, 1690 natriumfluoridi, 2674 natriumfluorisilikaatti ja 2856 fluorisilikaatit, n.o.s. ovat luokan 6.1 aineita. Ks. rn 601, kohdat 63 c), 64 c) tai 87 c).</sis:KappaleKooste>
       <sis:KappaleKooste>10. Nestemäiset fluoridit ja muut nestemäiset fluoriyhdisteet, jotka kostean ilman tai veden kanssa kosketukseen joutuessaan muodostavat fluorivetyä:</sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1732 antimonipentafluoridi,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>2851 booritrifluorididihydraatti.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <ete><pl>Houm.</pl> 1745 bromipentafluoridi, 1746 bromitrifluoridi ja 2495 jodipentafluoridi ovat luokan 5.1 aineita. Ks. rn 501, kohta 5.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> 1745 bromipentafluoridi, 1746 bromitrifluoridi ja 2495 jodipentafluoridi ovat luokan 5.1 aineita. Ks. rn 501, kohta 5.</sis:KappaleKooste>
       <sis:KappaleKooste>11. Kiinteät halogenidit ja muut kiinteät halogeeniyhdisteet (lukuun ottamatta fluoriyhdisteitä), jotka kostean ilman tai veden kanssa kosketuksiin joutuessaan muodostavat happamia höyryjä:</sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1725 alumiinibromidi, vedetön</sis1:KursiiviTeksti> (AlBr<sis1:AlaindeksiTeksti>3</sis1:AlaindeksiTeksti> ),</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>1726 alumiinikloridi, vedetön</sis1:KursiiviTeksti> (AlCl<sis1:AlaindeksiTeksti>3</sis1:AlaindeksiTeksti> ),</sis:KappaleKooste>
@@ -250,7 +244,7 @@
       <sis:KappaleKooste><sis1:KursiiviTeksti>1939 fosforioksibromidi</sis1:KursiiviTeksti> (POBr<sis1:AlaindeksiTeksti>3</sis1:AlaindeksiTeksti> ),</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2691 fosforipentabromidi</sis1:KursiiviTeksti> (PBr<sis1:AlaindeksiTeksti>5</sis1:AlaindeksiTeksti> ),</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2869 titaanitrikloridi</sis1:KursiiviTeksti>, (TiCl<sis1:AlaindeksiTeksti>3</sis1:AlaindeksiTeksti> ) <sis1:KursiiviTeksti>seos;</sis1:KursiiviTeksti> </sis:KappaleKooste>
-      <ete><pl>Houm.</pl> Kiinteät alumiinibromidihydraatit ja alumiinikloridihydraatit eivät ole näiden määräysten alaisia.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Kiinteät alumiinibromidihydraatit ja alumiinikloridihydraatit eivät ole näiden määräysten alaisia.</sis:KappaleKooste>
       <sis:KappaleKooste>c) <sis1:KursiiviTeksti>1773 ferrikloridi, vedetön</sis1:KursiiviTeksti> (rauta-III-kloridi, vedetön) (FeCl<sis1:AlaindeksiTeksti>3</sis1:AlaindeksiTeksti> ),</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2331 sinkkikloridi, vedetön</sis1:KursiiviTeksti> (ZnCl<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> ),</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2440 tinatetrakloridipentahydraatti</sis1:KursiiviTeksti> (SnCl<sis1:AlaindeksiTeksti>4</sis1:AlaindeksiTeksti> x 5 H<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> O),</sis:KappaleKooste>
@@ -261,7 +255,7 @@
         <sis1:KursiiviTeksti>2802 kuparikloridi,</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2869 titaanitrikloridi</sis1:KursiiviTeksti>, (TiCl<sis1:AlaindeksiTeksti>3</sis1:AlaindeksiTeksti> ) <sis1:KursiiviTeksti>seos.</sis1:KursiiviTeksti> </sis:KappaleKooste>
-      <ete><pl>Houm.</pl> Ferrikloridiheksahydraatti ei ole näiden määräysten alainen (ks. rn 800 (8)).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Ferrikloridiheksahydraatti ei ole näiden määräysten alainen (ks. rn 800 (8)).</sis:KappaleKooste>
       <sis:KappaleKooste>12. Nestemäiset halogenidit ja muut nestemäiset halogeeniyhdisteet (lukuun ottamatta fluoriyhdisteitä), jotka kostean ilman tai veden kanssa kosketukseen joutuessaan muodostavat happamia höyryjä:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>1754 kloorisulfonihappo</sis1:KursiiviTeksti> (SO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> (OH)Cl), joka voi sisältää rikkitrioksidia,</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>1758 kromioksikloridi</sis1:KursiiviTeksti> (kromyylikloridi) CrO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> Cl<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti> ),</sis:KappaleKooste>
@@ -298,7 +292,7 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>1744 bromiliuos.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <ete><pl>Houm.</pl> Näitä aineita koskevat erityispakkausmääräykset. Ks. rn 804.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Näitä aineita koskevat erityispakkausmääräykset. Ks. rn 804.</sis:KappaleKooste>
       <sis:KappaleKooste>15. Happamat epäorgaaniset aineet sulassa muodossa:</sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>2576 fosforioksibromidi, sulassa muodossa.</sis1:KursiiviTeksti>
@@ -340,7 +334,7 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>3264 syövyttävä neste, hapan, epäorgaaninen, n.o.s.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <ete><pl>Houm.</pl> 1463 kromitrioksidi, vedetön (kromihappo, kiinteä) on luokan 5.1 aine. Ks. rn 501, kohta 31 b).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> 1463 kromitrioksidi, vedetön (kromihappo, kiinteä) on luokan 5.1 aine. Ks. rn 501, kohta 31 b).</sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>Orgaaniset aineet</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -357,8 +351,8 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>2823 krotonhappo.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <ete><pl>Houm. 1.</pl> Ftaalihappoanhydridi ja tetrahydroftaalihappoanhydridit, jotka sisältävät enintään 0,05 % maleiinihappoanhydridiä, eivät ole näiden määräysten alaisia.</ete>
-      <ete><pl>Houm. 2.</pl> Enintään 0,05 % maleiinihappoanhydridiä sisältävä ftaalihappoanhydridi, joka kuljetetaan tai jätetään kuljetettavaksi sulassa muodossa leimahduspistettään korkeammassa lämpötilassa, on luokan 3 aine. Ks. rn 301, kohta 61 c).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 1.</sis1:KursiiviTeksti> Ftaalihappoanhydridi ja tetrahydroftaalihappoanhydridit, jotka sisältävät enintään 0,05 % maleiinihappoanhydridiä, eivät ole näiden määräysten alaisia.</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 2.</sis1:KursiiviTeksti> Enintään 0,05 % maleiinihappoanhydridiä sisältävä ftaalihappoanhydridi, joka kuljetetaan tai jätetään kuljetettavaksi sulassa muodossa leimahduspistettään korkeammassa lämpötilassa, on luokan 3 aine. Ks. rn 301, kohta 61 c).</sis:KappaleKooste>
       <sis:KappaleKooste>32. Nestemäiset karboksyylihapot ja niiden anhydridit ja nestemäiset halogenoidut karboksyylihapot ja niiden anhydridit:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>2699 trifluorietikkahappo;</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>b) 1. <sis1:KursiiviTeksti>1764 dikloorietikkahappo,</sis1:KursiiviTeksti> </sis:KappaleKooste>
@@ -403,14 +397,14 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>2829 kapronihappo.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <ete><pl>Houm.</pl> Etikkahappoliuokset, jotka sisältävät enintään 25 paino-% puhdasta happoa, eivät ole näiden määräysten alaisia (ks. rn 800 (8)).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Etikkahappoliuokset, jotka sisältävät enintään 25 paino-% puhdasta happoa, eivät ole näiden määräysten alaisia (ks. rn 800 (8)).</sis:KappaleKooste>
       <sis:KappaleKooste>33. Booritrifluoridin kompleksiyhdisteet:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>2604 booritrifluorididietyylieteraatti</sis1:KursiiviTeksti> (booritrifluoridi-eetterikompleksi);</sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1742 booritrifluoridi-etikkahappokompleksi,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>1743 booritrifluoridi-propionihappokompleksi.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <ete><pl>Houm.</pl> 2965 booritrifluorididimetyylieteraatti on luokan 4.3 aine. Ks. rn 471, kohta 2 a).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> 2965 booritrifluorididimetyylieteraatti on luokan 4.3 aine. Ks. rn 471, kohta 2 a).</sis:KappaleKooste>
       <sis:KappaleKooste>34. Alkyylisulfoni- ja aryylisulfonihapot ja alkyylirikkihapot:</sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1803 fenolisulfonihappo. nestemäinen,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>
@@ -423,7 +417,7 @@
       <sis:KappaleKooste><sis1:KursiiviTeksti>2585 aryylisulfonihapot, kiinteät</sis1:KursiiviTeksti>, enintään 5 % vapaata rikkihappoa sisältävät,</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2586 alkyylisulfonihapot. nestemäiset</sis1:KursiiviTeksti>, enintään 5 % vapaata rikkihappoa sisältävät,</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2586 aryylisulfonihapot, nestemäiset</sis1:KursiiviTeksti>, enintään 5 % vapaata rikkihappoa sisältävät.</sis:KappaleKooste>
-      <ete><pl>Houm.</pl> 2583 alkyylisulfoni- ja aryylisulfonihapot, kiinteät ja 2584 alkyylisulfoni- ja aryylisulfonihapot, nestemäiset, jotka sisältävät yli 5 % vapaata rikkihappoa, kuuluvat kohtaan 1 b).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> 2583 alkyylisulfoni- ja aryylisulfonihapot, kiinteät ja 2584 alkyylisulfoni- ja aryylisulfonihapot, nestemäiset, jotka sisältävät yli 5 % vapaata rikkihappoa, kuuluvat kohtaan 1 b).</sis:KappaleKooste>
       <sis:KappaleKooste>35. Orgaaniset happohalogenidit:</sis:KappaleKooste>
       <sis:KappaleKooste>b) 1. <sis1:KursiiviTeksti>1716 asetyylibromidi,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>
@@ -512,7 +506,7 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>2987 kloorisilaanit, syövyttävät, n.o.s.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <ete><pl>Houm.</pl> Kloorisilaanit, jotka veden tai kostean ilman kanssa kosketukseen joutuessaan kehittävät palavia kaasuja, kuuluvat luokkaan 4.3. Ks. rn 471, kohta 1.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Kloorisilaanit, jotka veden tai kostean ilman kanssa kosketukseen joutuessaan kehittävät palavia kaasuja, kuuluvat luokkaan 4.3. Ks. rn 471, kohta 1.</sis:KappaleKooste>
       <sis:KappaleKooste>37. Alkyylikloorisilaanit ja aryylikloorisilaanit, joiden leimahduspiste on 23...61 °C:</sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1724 allyylitrikloorisilaani, stabiloitu,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>
@@ -527,7 +521,7 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>2986 kloorisilaanit, syövyttävät, palavat, n.o.s.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <ete><pl>Houm.</pl> Kloorisilaanit, jotka veden tai kostean ilman kanssa kosketukseen joutuessaan kehittävät palavia kaasuja, kuuluvat luokkaan 4.3. Ks. rn 471, kohta 1.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Kloorisilaanit, jotka veden tai kostean ilman kanssa kosketukseen joutuessaan kehittävät palavia kaasuja, kuuluvat luokkaan 4.3. Ks. rn 471, kohta 1.</sis:KappaleKooste>
       <sis:KappaleKooste>38. Alkyylifosforihapot:</sis:KappaleKooste>
       <sis:KappaleKooste>c) <sis1:KursiiviTeksti>1718 butyylifosfaatti,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>
@@ -596,7 +590,7 @@
           </vanha>
         </oikaisu>
       </sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Natronkalkki, joka sisältää enintään 4 % natriumhydroksidia, ei ole näiden määräysten alainen. Ks. rn 800 (8).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Natronkalkki, joka sisältää enintään 4 % natriumhydroksidia, ei ole näiden määräysten alainen. Ks. rn 800 (8).</sis:KappaleKooste>
       <sis:KappaleKooste>42. Emäksisten aineiden liuokset:</sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1814 kaliumhydroksidiliuos</sis1:KursiiviTeksti> (kalilipeä),</sis:KappaleKooste>
       <sis:KappaleKooste>
@@ -634,12 +628,12 @@
       </sis:KappaleKooste>
       <sis:KappaleKooste>43, Ammoniakkiliuokset:</sis:KappaleKooste>
       <sis:KappaleKooste>c) <sis1:KursiiviTeksti>2672 ammoniakkiliuos</sis1:KursiiviTeksti>, vesiliuos, jonka suhteellinen tiheys 15 °C lämpötilassa on 0,88...0,957 ja joka sisältää yli 10 % mutta enintään 35 % ammoniakkia, <sis1:LihavaTeksti>Huom. 1.</sis1:LihavaTeksti> Ammoniakkiliuokset, jotka sisältävät yli 35 % ammoniakkia, ovat luokan 2 aineita. Ks. rn 201, kohta 9 at).</sis:KappaleKooste>
-      <ete><pl>Huom. 2.</pl> Ammoniakkiliuokset, jotka sisältävät enintään 10 % ammoniakkia, eivät ole näiden määräysten alaisia.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 2.</sis1:KursiiviTeksti> Ammoniakkiliuokset, jotka sisältävät enintään 10 % ammoniakkia, eivät ole näiden määräysten alaisia.</sis:KappaleKooste>
       <sis:KappaleKooste>44. Hydratsiini ja sen vesiliuokset:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>2029 hydratsiini, vedetön;</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>2030 hydratsiinihydraatti,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2030 hydratsiinin vesiliuos</sis1:KursiiviTeksti>, joka sisältää 37...64 paino-% hydratsiinia.</sis:KappaleKooste>
-      <ete><pl>Huom.</pl> 3293 hydratsiiniliuos, joka sisältää alle 3? paino-% hydratsiinia, on luokan 6.1 aine. Ks. rn 601, kohta 65 c).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> 3293 hydratsiiniliuos, joka sisältää alle 3? paino-% hydratsiinia, on luokan 6.1 aine. Ks. rn 601, kohta 65 c).</sis:KappaleKooste>
       <sis:KappaleKooste>45. Sulfidit ja vetysulfidit ja niiden vesiliuokset:</sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1. 1847 kaliumsulfidi</sis1:KursiiviTeksti>, vähintään 30 % <sis1:KursiiviTeksti>kidevettä sisältävä,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>1849 natriumsulfidi</sis1:KursiiviTeksti>, vähintään 30 % <sis1:KursiiviTeksti>kidevettä sisältävä,</sis1:KursiiviTeksti> </sis:KappaleKooste>
@@ -651,7 +645,7 @@
         <sis1:KursiiviTeksti>2. 2683 ammoniumsulfidiliuos;</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>c) <sis1:KursiiviTeksti>2818 ammoniumpolysulfidiliuos.</sis1:KursiiviTeksti> </sis:KappaleKooste>
-      <ete><pl>Huom.</pl> 1382 vedetön kaliumsulfidi ja 1385 vedetön natriumsulfidi sekä niiden hydraatit, jotka sisältävät alle 30 % kidevettä, ja 2318 natriumvetysulfidi, joka sisältää vähemmän kuin 25 % kidevettä, ovat luokan 4.2 aineita. Ks. rn 431, kohta 13 b).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> 1382 vedetön kaliumsulfidi ja 1385 vedetön natriumsulfidi sekä niiden hydraatit, jotka sisältävät alle 30 % kidevettä, ja 2318 natriumvetysulfidi, joka sisältää vähemmän kuin 25 % kidevettä, ovat luokan 4.2 aineita. Ks. rn 431, kohta 13 b).</sis:KappaleKooste>
       <sis:KappaleKooste>46. Kiinteät epäorgaaniset emäksiset aineet ja niiden seokset (kuten valmisteet ja jätteet), joita ei voi luokitella muihin ryhmänimikkeisiin:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>3262 epäorgaaninen syövyttävä kiinteä aine, emäksinen, n.o.s.;</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>3262 epäorgaaninen syövyttävä kiinteä aine, emäksinen, n.o.s.;</sis1:KursiiviTeksti> </sis:KappaleKooste>
@@ -793,8 +787,8 @@
       <sis:KappaleKooste><sis1:KursiiviTeksti>1908 kloriittiliuos</sis1:KursiiviTeksti>, vähintään 16 % aktiivista klooria sisältävä;</sis:KappaleKooste>
       <sis:KappaleKooste>c) <sis1:KursiiviTeksti>1791 hypokloriittiliuos</sis1:KursiiviTeksti>, yli 5 % mutta alle 16 % aktiivista klooria sisältävä,</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>1908 kloriittiliuos</sis1:KursiiviTeksti>, yli 5 % mutta alle 16 % aktiivista klooria sisältävä.</sis:KappaleKooste>
-      <ete><pl>Huom. 1.</pl> Kloriitti- ja hypokloriittiliuokset, jotka sisältävät enintään 5 % aktiivista klooria, eivät ole näiden määräysten alaisia.</ete>
-      <ete><pl>Houm. 2.</pl> Kiinteät kloriitit ja hypokloriitit ovat luokan 5.1 aineita. Ks. rn 501, kohdat 14, 15 ja 29.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 1.</sis1:KursiiviTeksti> Kloriitti- ja hypokloriittiliuokset, jotka sisältävät enintään 5 % aktiivista klooria, eivät ole näiden määräysten alaisia.</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 2.</sis1:KursiiviTeksti> Kiinteät kloriitit ja hypokloriitit ovat luokan 5.1 aineita. Ks. rn 501, kohdat 14, 15 ja 29.</sis:KappaleKooste>
       <sis:KappaleKooste>62. Kloorifenolaatit ja fenolaatit:</sis:KappaleKooste>
       <sis:KappaleKooste>c) <sis1:KursiiviTeksti>2904 kloorifenolaatit, nestemäiset,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>
@@ -808,12 +802,12 @@
       </sis:KappaleKooste>
       <sis:KappaleKooste>63. Formaldehydiliuokset:</sis:KappaleKooste>
       <sis:KappaleKooste>c) <sis1:KursiiviTeksti>2209 formaldehydiliuos</sis1:KursiiviTeksti>, vähintään 25 % formaldehydiä sisältävä.</sis:KappaleKooste>
-      <ete><pl>Huom. 1.</pl> 1198 formaldehydin liuos, palava, on luokan 3 aine. Ks. rn 301, kohta 33 c).</ete>
-      <ete><pl>Houm. 2.</pl> Formaldehydin liuokset, jotka sisältävät alle 25 % formaldehydiä ja joiden leimahduspiste on yli 61 °C, eivät ole näiden määräysten alaisia.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 1.</sis1:KursiiviTeksti> 1198 formaldehydin liuos, palava, on luokan 3 aine. Ks. rn 301, kohta 33 c).</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 2.</sis1:KursiiviTeksti> Formaldehydin liuokset, jotka sisältävät alle 25 % formaldehydiä ja joiden leimahduspiste on yli 61 °C, eivät ole näiden määräysten alaisia.</sis:KappaleKooste>
       <sis:KappaleKooste>64. Klooriformiaatit ja klooritioformiaatit:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>1739 bentsyyliklooriformiaatti;</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>2826 etyyliklooritioformiaatti.</sis1:KursiiviTeksti> </sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Klooriformiaatit, jotka ovat ominaisuuksiltaan ensisijaisesti myrkyllisiä, ovat luokan 6.1 aineita. Ks. rn 601, kohdat 10, 17, 27 ja 28.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Klooriformiaatit, jotka ovat ominaisuuksiltaan ensisijaisesti myrkyllisiä, ovat luokan 6.1 aineita. Ks. rn 601, kohdat 10, 17, 27 ja 28.</sis:KappaleKooste>
       <sis:KappaleKooste>65. Kiinteät syövyttävät aineet ja näiden seokset (kuten valmisteet ja jätteet), joita ei voi luokitella muihin ryhmänimikkeisiin:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>1759 syövyttävä kiinteä aine, n.o.s.;</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1770 difenyylimetyylibromidi (difenyylibromimetaani),</sis1:KursiiviTeksti> </sis:KappaleKooste>
@@ -829,7 +823,7 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>3244 kiinteä aine sisältäen syövyttävää nestettä, n.o.s.;</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Kiinteiden aineiden. jotka eivät ole näiden määräysten alaisia, ja syövyttävien nesteiden seokset voidaan kuljettaa YK-numeron 3244 mukaisin ehdoin soveltamatta niihin luokan 8 luokituskriteereitä (rn 800 (3)) edellyttäen, ettei näkyvää nestettä ole havaittavissa kuormaamisen aikana tai pakkausta tai vaunua suljettaessa. Jokaisen pakkauksen on vastattava rakennemallia, joka on läpäissyt pakkausryhmän II tiiviystestin.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Kiinteiden aineiden. jotka eivät ole näiden määräysten alaisia, ja syövyttävien nesteiden seokset voidaan kuljettaa YK-numeron 3244 mukaisin ehdoin soveltamatta niihin luokan 8 luokituskriteereitä (rn 800 (3)) edellyttäen, ettei näkyvää nestettä ole havaittavissa kuormaamisen aikana tai pakkausta tai vaunua suljettaessa. Jokaisen pakkauksen on vastattava rakennemallia, joka on läpäissyt pakkausryhmän II tiiviystestin.</sis:KappaleKooste>
       <sis:KappaleKooste>c) <sis1:KursiiviTeksti>2803 gallium,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>1759 syövyttävä kiinteä aine, n.o.s.,</sis1:KursiiviTeksti>
@@ -840,7 +834,7 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>3147 väriaineen puolivalmiste, kiinteä, syövyttävä, n.o.s.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <ete><pl>Huom.</pl> 2803 galliumia koskevat erityispakkausmääräykset. Ks. rn 807 (4).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> 2803 galliumia koskevat erityispakkausmääräykset. Ks. rn 807 (4).</sis:KappaleKooste>
       <sis:KappaleKooste>66. Nestemäiset syövyttävät aineet ja näiden liuokset ja seokset (kuten valmisteet ja jätteet), joita ei voi luokitella muihin ryhmänimikkeisiin:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>1760 syövyttävä neste, n.o.s.,</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>
@@ -877,8 +871,8 @@
       <sis:KappaleKooste>
         <sis1:KursiiviTeksti>2801 väriaineen puolivalmiste, nestemäinen, syövyttävä, n.o.s.</sis1:KursiiviTeksti>
       </sis:KappaleKooste>
-      <ete><pl>Huom. 1.</pl> 2809 elohopeaa koskevat erityispakkausmääräykset. Ks. rn 807 (4).</ete>
-      <ete><pl>Huom. 2.</pl> Muissa kohdissa nimeltä mainittuja aineita ei saa kuljettaa 3066 maalien tai 3066 maalien kaltaisten aineiden nimikkeellä. Aineet, joita kuljetetaan tällä nimikkeellä, saavat sisältää enintään 20 prosenttia nitroselluloosaa edellyttäen, että nitroselluloosan typpipitoisuus on enintään 12,6 prosenttia kuivapainosta.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 1.</sis1:KursiiviTeksti> 2809 elohopeaa koskevat erityispakkausmääräykset. Ks. rn 807 (4).</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 2.</sis1:KursiiviTeksti> Muissa kohdissa nimeltä mainittuja aineita ei saa kuljettaa 3066 maalien tai 3066 maalien kaltaisten aineiden nimikkeellä. Aineet, joita kuljetetaan tällä nimikkeellä, saavat sisältää enintään 20 prosenttia nitroselluloosaa edellyttäen, että nitroselluloosan typpipitoisuus on enintään 12,6 prosenttia kuivapainosta.</sis:KappaleKooste>
       <sis:KappaleKooste>67. Palavat, kiinteät syövyttävät aineet ja näiden seokset (kuten valmisteet ja jätteet), joita ei voi luokitella muihin ryhmänimikkeisiin:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>2921 syövyttävä kiinteä aine, palava, n.o.s.;</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>2921 syövyttävä kiinteä aine, palava, n.o.s.</sis1:KursiiviTeksti> </sis:KappaleKooste>
@@ -894,11 +888,11 @@
       <sis:KappaleKooste>71. Kiinteät syövyttävät aineet ja näiden seokset (kuten valmisteet ja jätteet), jotka veden kanssa kosketukseen joutuessaan kehittävät palavia kaasuja ja joita ei voi luokitella muihin ryhmänimikkeisiin:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>3096 syövyttävä kiinteä aine, veden kanssa reagoiva, n.o.s.;</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>3096 syövyttävä kiinteä aine, veden kanssa reagoiva, n.o.s.</sis1:KursiiviTeksti> </sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Termi "veden kanssa reagoiva" tarkoittaa ainetta, joka veden kanssa kosketukseen joutuessaan kehittää palavia kaasuja.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Termi "veden kanssa reagoiva" tarkoittaa ainetta, joka veden kanssa kosketukseen joutuessaan kehittää palavia kaasuja.</sis:KappaleKooste>
       <sis:KappaleKooste>72. Nestemäiset syövyttävät aineet ja näiden liuokset ja seokset (kuten valmisteet ja jätteet), jotka veden kanssa kosketukseen joutuessaan kehittävät palavia kaasuja ja joita ei voi luokitella muihin ryhmänimikkeisiin:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>3094 syövyttävä neste, veden kanssa reagoiva, n.o.s.;</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>3094 syövyttävä neste, veden kanssa reagoiva, n.o.s.</sis1:KursiiviTeksti> </sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Termi "veden kanssa reagoiva" tarkoittaa ainetta, joka veden kanssa kosketukseen joutuessaan kehittää palavia kaasuja.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Termi "veden kanssa reagoiva" tarkoittaa ainetta, joka veden kanssa kosketukseen joutuessaan kehittää palavia kaasuja.</sis:KappaleKooste>
       <sis:KappaleKooste>73. Kiinteät syövyttävät aineet ja näiden seokset (kuten valmisteet ja jätteet), hapettavat, joita ei voi luokitella muihin ryhmänimikkeisiin:</sis:KappaleKooste>
       <sis:KappaleKooste>a) <sis1:KursiiviTeksti>3084 syövyttävä kiinteä aine, hapettava, n.o.s.;</sis1:KursiiviTeksti> </sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>3084 syövyttävä kiinteä aine, hapettava, n.o.s.</sis1:KursiiviTeksti> </sis:KappaleKooste>
@@ -921,10 +915,10 @@
       <sis:KappaleKooste><sis1:KursiiviTeksti>2795 nesteakut, alkaaliset</sis1:KursiiviTeksti>, sähkövaraaja,</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2800 nesteakut, vuotamaton</sis1:KursiiviTeksti>, sähkövaraaja,</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>3028 kuiva-akut, kiinteää kaliumhydroksidia sisältävät</sis1:KursiiviTeksti>, sähkövaraaja.</sis:KappaleKooste>
-      <ete><pl>Huom, 1.</pl> Näitä esineitä koskevat erityispakkausmääräykset. Ks. rn 807 (5).</ete>
-      <ete><pl>Houm. 2.</pl> Akkuja (YK-numero 2800) voidaan pitää vuotamattomina edellyttäen, että ne läpäisevät jäljempänä kuvatut vibraatio- ja paine-erokokeet siten, ettei akusta pääse nestettä ulos.</ete>
-      <ete><saa:SaadosKursiiviKooste>Vibraatiokoe:</saa:SaadosKursiiviKooste> Akku kiinnitetään lujasti vibraatiolaitteen testialustalle. Kokeessa käytetään yksinkertaista sini-muotoista liikettä, jonka amplitudi on 0,8 mm (kokonaisheilahdus 1.6 mm). Taajuutta vaihdetaan portaittain 10 Hz:stä 55 Hz:iin 1 Hz askelin. Koko taajuussarja molempiin suuntiin suoritetaan 95± 5 minuutissa akun jokaiselle kiinnityssuunnalle (vibraatiosuunnalle). Akku testataan kolmessa toisiaan vastaan kohtisuorassa asennossa (mukaan lukien asento, jossa akun täyttö ja mahdollinen huohotusaukko ovat ylösalaisin) vastaavalla kestoajalla.</ete>
-      <ete><saa:SaadosKursiiviKooste>Paine-erokoe:</saa:SaadosKursiiviKooste> Vibraatiotestin jälkeen akkua pidetään 6 tuntia 24± 4 °C lämpötilassa vähintään 88 kPa paine-eron alaisuudessa. Akku testataan kolmessa toisiaan vastaan kohtisuorassa asennossa (mukaan lukien asento. jossa akun täyttö ja mahdollinen huohotusaukko ovat ylösalaisin), kussakin asennossa vähintään 6 tunnin ajan.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom, 1.</sis1:KursiiviTeksti> Näitä esineitä koskevat erityispakkausmääräykset. Ks. rn 807 (5).</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 2.</sis1:KursiiviTeksti> Akkuja (YK-numero 2800) voidaan pitää vuotamattomina edellyttäen, että ne läpäisevät jäljempänä kuvatut vibraatio- ja paine-erokokeet siten, ettei akusta pääse nestettä ulos.</sis:KappaleKooste>
+      <sis1:ValiotsikkoTeksti><saa:SaadosKursiiviKooste>Vibraatiokoe:</saa:SaadosKursiiviKooste> Akku kiinnitetään lujasti vibraatiolaitteen testialustalle. Kokeessa käytetään yksinkertaista sini-muotoista liikettä, jonka amplitudi on 0,8 mm (kokonaisheilahdus 1.6 mm). Taajuutta vaihdetaan portaittain 10 Hz:stä 55 Hz:iin 1 Hz askelin. Koko taajuussarja molempiin suuntiin suoritetaan 95± 5 minuutissa akun jokaiselle kiinnityssuunnalle (vibraatiosuunnalle). Akku testataan kolmessa toisiaan vastaan kohtisuorassa asennossa (mukaan lukien asento, jossa akun täyttö ja mahdollinen huohotusaukko ovat ylösalaisin) vastaavalla kestoajalla.</sis1:ValiotsikkoTeksti>
+      <sis1:ValiotsikkoTeksti><saa:SaadosKursiiviKooste>Paine-erokoe:</saa:SaadosKursiiviKooste> Vibraatiotestin jälkeen akkua pidetään 6 tuntia 24± 4 °C lämpötilassa vähintään 88 kPa paine-eron alaisuudessa. Akku testataan kolmessa toisiaan vastaan kohtisuorassa asennossa (mukaan lukien asento. jossa akun täyttö ja mahdollinen huohotusaukko ovat ylösalaisin), kussakin asennossa vähintään 6 tunnin ajan.</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>82. Muut syövyttäviä aineita sisältävät esineet:</sis:KappaleKooste>
       <sis:KappaleKooste>b) <sis1:KursiiviTeksti>1774 sammuttajien panokset</sis1:KursiiviTeksti>, syövyttävä neste,</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>2028 savupommi, ei-räjähtävä</sis1:KursiiviTeksti>, syövyttävää nestettä sisältävä, ei sisällä sytytintä.</sis:KappaleKooste>
@@ -961,7 +955,7 @@
       <sis:KappaleKooste>Pakkausryhmän 1 pakkauksia, jotka on merkitty kirjaimella "X": aineluettelon ryhmään a) kuuluville erittäin syövyttäville aineille;</sis:KappaleKooste>
       <sis:KappaleKooste>pakkausryhmän II tai I pakkauksia, jotka on merkitty kirjaimella "Y" tai "X", tai pakkausryhmän II suurpakkauksia, jotka on merkitty kirjaimella "Y": aineluettelon ryhmään b) kuuluville syövyttäville aineille; ja</sis:KappaleKooste>
       <sis:KappaleKooste>pakkausryhmän III, II tai 1 pakkauksia, jotka on merkitty kirjaimella "Z", "Y" tai "X", tai pakkausryhmän III tai 11 suurpakkauksia, jotka on merkitty kirjaimella "Z" tai "Y": aineluettelon ryhmään c) kuuluville lievästi syövyttäville aineille.</sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Luokan 8 aineiden kuljettamisesta säiliövaunuissa, ks. lisäys XI ja säiliökonteissa, ks. lisäys X. Aineluettelon kohdan 1 b) lyijysulfaatin, kohdan 13 b) aineiden ja kohdan 65 b) syövyttävää nestettä sisältävien kiinteiden aineiden (YK-numero 3244) sekä eri kohtien ryhmään c) luokiteltuja kiinteiden jätteiden kuljettamisesta irrallisena, ks rn 816.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Luokan 8 aineiden kuljettamisesta säiliövaunuissa, ks. lisäys XI ja säiliökonteissa, ks. lisäys X. Aineluettelon kohdan 1 b) lyijysulfaatin, kohdan 13 b) aineiden ja kohdan 65 b) syövyttävää nestettä sisältävien kiinteiden aineiden (YK-numero 3244) sekä eri kohtien ryhmään c) luokiteltuja kiinteiden jätteiden kuljettamisesta irrallisena, ks rn 816.</sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>2. Erityispakkausmääräykset</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -1005,8 +999,8 @@
       <sis:KappaleKooste>e) rn 1537 tarkoittamiin muovisiin yhdistettyihin pakkauksiin;</sis:KappaleKooste>
       <sis:KappaleKooste>f) rn 1538 tarkoittamiin pakkausyhdistelmiin, joissa on lasinen, muovinen tai metallinen sisäpakkaus; tai</sis:KappaleKooste>
       <sis:KappaleKooste>g) rn 1539 tarkoittamiin lasista, posliinista tai savesta tehtyihin yhdistettyihin pakkauksiin.</sis:KappaleKooste>
-      <ete><pl>Huom. 1.</pl> Edellä kohdassa d) tarkoitettuja pakkauksia saa käyttää aineluettelon kohdan 2 a) typpihapon ja kohdan 7 a) fluorivetyhapon vesiliuosten kuljetukseen enintään 2 vuoden ajan laskettuna pakkauksen valmistumisajankohdasta.</ete>
-      <ete><pl>Houm. 2.</pl> Edellä kohdassa f) ja g) tarkoitettuja lasisia astioita tai sisäpakkauksia ei saa käyttää aineluettelon kohtien 7 a), 8 a) tai 33 a) fluoridien kuljetukseen.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 1.</sis1:KursiiviTeksti> Edellä kohdassa d) tarkoitettuja pakkauksia saa käyttää aineluettelon kohdan 2 a) typpihapon ja kohdan 7 a) fluorivetyhapon vesiliuosten kuljetukseen enintään 2 vuoden ajan laskettuna pakkauksen valmistumisajankohdasta.</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 2.</sis1:KursiiviTeksti> Edellä kohdassa f) ja g) tarkoitettuja lasisia astioita tai sisäpakkauksia ei saa käyttää aineluettelon kohtien 7 a), 8 a) tai 33 a) fluoridien kuljetukseen.</sis:KappaleKooste>
       <sis:KappaleKooste>(2) Rn 800 (6) tarkoittamat kiinteät aineet saa pakata myös:</sis:KappaleKooste>
       <sis:KappaleKooste>a) irrotettavapäätyisiin rn 1520 tarkoittamiin teräs-, rn 1521 alumiini-, rn 1523 vaneri-, rn 1525 pahvi- tai rn 1526 muovitynnyreihin, tai irrotettavapäätyisiin rn 1522 teräs- tai rn 1526 muovikanistereihin joissa on tarvittaessa yksi tai useampi pölytiivis sisäsäkki; tai</sis:KappaleKooste>
       <sis:KappaleKooste>b) rn 1538 tarkoittamiin pakkausyhdistelmiin, joissa on yksi tai useampi pölytiivis sisäsäkki.</sis:KappaleKooste>
@@ -1021,9 +1015,9 @@
       <sis:KappaleKooste>e) rn 1537 tarkoittamiin muovisiin yhdistettyihin pakkauksiin;</sis:KappaleKooste>
       <sis:KappaleKooste>f) rn 1538 tarkoittamiin pakkausyhdistelmiin;</sis:KappaleKooste>
       <sis:KappaleKooste>g) rn 1539 tarkoittamiin lasista, posliinista tai savesta tehtyihin yhdistettyihin pakkauksiin.</sis:KappaleKooste>
-      <ete><pl>Huom. 1.</pl> Kohtien a), b), c)ja d) irrotettavapäätyisiin tynnyreihin ja kanistereihin, jotka on tarkoitettu vain 23 °C lämpötilassa yli 200 mm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/s viskositeetin omaavien aineiden sekä kiinteiden aineiden kuljetukseen, voidaan soveltaa lievempiä vaatimuksia (ks. rn 1512, 1553, 1554 ja 1560).</ete>
-      <ete><pl>Houm. 2.</pl> Edellä kohdassa d) tarkoitettuja pakkauksia saa käyttää aineluettelon kohdan 2 b) typpihapon, joka sisältää yli 55 prosenttia puhdasta happoa, ja kohdan 7 b) fluorivetyhapon vesiliuosten kuljetukseen enintään 2 vuoden ajan laskettuna pakkauksen valmistamisajankohdasta.</ete>
-      <ete><pl>Houm. 3.</pl> Edellä kohdissa f) ja g) tarkoitettuja lasisia astioita tai sisäpakkauksia ei saa käyttää aineluettelon kohtien 7 b), 8 b). 9 b), 10 b) tai 33 b) fluoridien kuljetukseen.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 1.</sis1:KursiiviTeksti> Kohtien a), b), c)ja d) irrotettavapäätyisiin tynnyreihin ja kanistereihin, jotka on tarkoitettu vain 23 °C lämpötilassa yli 200 mm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/s viskositeetin omaavien aineiden sekä kiinteiden aineiden kuljetukseen, voidaan soveltaa lievempiä vaatimuksia (ks. rn 1512, 1553, 1554 ja 1560).</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 2.</sis1:KursiiviTeksti> Edellä kohdassa d) tarkoitettuja pakkauksia saa käyttää aineluettelon kohdan 2 b) typpihapon, joka sisältää yli 55 prosenttia puhdasta happoa, ja kohdan 7 b) fluorivetyhapon vesiliuosten kuljetukseen enintään 2 vuoden ajan laskettuna pakkauksen valmistamisajankohdasta.</sis:KappaleKooste>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom. 3.</sis1:KursiiviTeksti> Edellä kohdissa f) ja g) tarkoitettuja lasisia astioita tai sisäpakkauksia ei saa käyttää aineluettelon kohtien 7 b), 8 b). 9 b), 10 b) tai 33 b) fluoridien kuljetukseen.</sis:KappaleKooste>
       <sis:KappaleKooste>(2) Aineluettelossa (rn 801) ryhmään b) kuuluvat aineet, joiden höyrynpaine 50 °C:ssa on enintään 110 kPa (1,10 bar), saa pakata myös rn 1622 tarkoittamiin metallisiin suurpakkauksiin, rn 1624 tarkoittamiin jäykkiin muovisiin suurpakkauksiin tai rn 1625 tarkoittamiin yhdistettyihin suurpakkauksiin (jäykkä, muovinen sisäastia).</sis:KappaleKooste>
       <sis:KappaleKooste>(3) Rn 800 (6) tarkoittamat kiinteät aineet saa pakata myös:</sis:KappaleKooste>
       <sis:KappaleKooste>a) rn 1523 tarkoittamiin vaneri- tai rn 1525 pahvitynnyreihin, joissa on tarvittaessa yksi tai useampi pölytiivis sisäsäkki;</sis:KappaleKooste>
@@ -1045,7 +1039,7 @@
       <sis:KappaleKooste>f) rn 1538 tarkoittamiin pakkausyhdistelmiin;</sis:KappaleKooste>
       <sis:KappaleKooste>g) rn 1 539 tarkoittamiin lasista, posliinista tai savesta tehtyihin yhdistettyihin pakkauksiin; tai</sis:KappaleKooste>
       <sis:KappaleKooste>h) rn 1540 tarkoittamiin peltipakkauksiin.</sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Kohtien a), b). c), d) ja b) irrotettavapäätyisiin tynnyreihin, kanistereihin ja peltipakkauksiin, jotka on tarkoitettu vain 23 °C lämpötilassa yli 200 mm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> /s viskositeetin omaavien aineiden sekä kiinteiden aineiden kuljetukseen. voidaan soveltaa lievempiä vaatimuksia (ks. rn 1512, 1552...1554 ja 1560).</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Kohtien a), b). c), d) ja b) irrotettavapäätyisiin tynnyreihin, kanistereihin ja peltipakkauksiin, jotka on tarkoitettu vain 23 °C lämpötilassa yli 200 mm<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> /s viskositeetin omaavien aineiden sekä kiinteiden aineiden kuljetukseen. voidaan soveltaa lievempiä vaatimuksia (ks. rn 1512, 1552...1554 ja 1560).</sis:KappaleKooste>
       <sis:KappaleKooste>(2) Lukuun ottamatta aineluetton kohdan 65 c) galliumia ja 66 c) elohopeaa aineluettelossa (rn 801) ryhmään c) kuuluvat aineet, joiden höyrynpaine 50 °C lämpötilassa on enintään 110 kPa (1,10 bar), saa pakata myös rn 1622 tarkoittamiin metallisiin suurpakkauksiin, rn 1624 tarkoittamiin jäykkiin, muovisiin suurpakkauksiin tai rn 1625 tarkoittamiin yhdistettyihin suurpakkauksiin (jäykkä, muovinen sisäastia).</sis:KappaleKooste>
       <sis:KappaleKooste>(3) Rn 800 (6) tarkoittamat kiinteät aineet saa pakata myös:</sis:KappaleKooste>
       <sis:KappaleKooste>a) rn 1523 tarkoittamiin vaneri- tai rn 1525 pahvitynnyreihin, joissa on tarvittaessa yksi tai useampi pölytiivis sisäsäkki;</sis:KappaleKooste>
@@ -1059,7 +1053,7 @@
       <sis:KappaleKooste>(5)</sis:KappaleKooste>
       <sis:KappaleKooste>a) Lukuun ottamatta vuotamattomia nesteakkuja on aineluettelon kohdan 81 esineet oltava lujasti kiinnitettyinä inerttiä sulloainetta käyttäen tai muulla vastaavalla tavalla puulaatikoihin, muovilaatikoihin tai puiseen rimahäkkiin. Akut on suojattava oikosululta.</sis:KappaleKooste>
       <sis:KappaleKooste>b) Vuotamattomat akut (YK-numero 2800) on suojattava oikosululta ja pakattava turvallisesti vahvaan ulkopakkaukseen.</sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Vuotamattomat akut, jotka ovat mekaanisen tai elektronisen laitteen osa ja välttämätömiä sen toiminnalle, on tukevasti kiinnitettävä laitteen akulle varattuun paikkaan ja suojattava vahingoittumiselta ja oikosululta.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Vuotamattomat akut, jotka ovat mekaanisen tai elektronisen laitteen osa ja välttämätömiä sen toiminnalle, on tukevasti kiinnitettävä laitteen akulle varattuun paikkaan ja suojattava vahingoittumiselta ja oikosululta.</sis:KappaleKooste>
       <sis:KappaleKooste>c) Aineluettelon kohdan 81 esineitä saa kuljettaa kuormalavoilla. Jos akut on pinottu, on kerrokset erotettava toisistaan sähköä johtamattomalla kerroksella. Akkujen navat eivät saa missään olosuhteissa tukea päällä olevia yksiköitä. Akut on suojattava oikosululta. Jokaista akkua ei tarvitse varustaa merkinnöin ja varoituslipukkein, jos kuormalavalle kuormattu kuorma on varustettu merkinnöin ja varoituslipukkein.</sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>808</sis1:LihavaTeksti>
@@ -1431,7 +1425,7 @@
         <sis1:LihavaTeksti>8.1.4</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>Aineluettelossa ryhmässä b) tai c) mainittuja jauhemaisia tai rakeisia kohtien 9, 11, 13, 16, 31, 34, 35, 39, 41, 45, 46, 52, 55, 62, 65, 67, 69, 71, 73 ja 75 aineita.</sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Kuljetettaessa irrallisena aineluettelon kohdan 1 b) lyijysulfaattia, kohdan 13 b) aineita ja kohdan 65 b) syövyttävää nestettä sisältäviä kiinteitä aineita (YK-numero 3244) sekä eri kohtien ryhmään c) luokiteltuja kiinteitä jätteitä ks. rn 816.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Kuljetettaessa irrallisena aineluettelon kohdan 1 b) lyijysulfaattia, kohdan 13 b) aineita ja kohdan 65 b) syövyttävää nestettä sisältäviä kiinteitä aineita (YK-numero 3244) sekä eri kohtien ryhmään c) luokiteltuja kiinteitä jätteitä ks. rn 816.</sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>8.2 Rakenne</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -1548,7 +1542,7 @@
         <sis1:LihavaTeksti>8.1.4</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <sis:KappaleKooste>Aineluettelossa ryhmässä b) tai c) mainittuja jauhemaisia tai rakeisia kohtien 9, 11, 13, 16, 31, 34, 35, 39, 41, 45, 46, 52, 55, 62, 65, 67, 69, 71, 73 ja 75 aineita.</sis:KappaleKooste>
-      <ete><pl>Huom.</pl> Kuljetettaessa irrallisena aineluettelon kohdan 1 b) lyijysulfaattia, kohdan 13 b) aineita ja kohdan 65 b) syövyttävää nestettä sisältäviä kiinteitä aineita (YK-numero 3244) sekä eri kohtien ryhmään c) luokiteltuja kiinteitä jätteitä ks. rn 816.</ete>
+      <sis:KappaleKooste><sis1:KursiiviTeksti>Huom.</sis1:KursiiviTeksti> Kuljetettaessa irrallisena aineluettelon kohdan 1 b) lyijysulfaattia, kohdan 13 b) aineita ja kohdan 65 b) syövyttävää nestettä sisältäviä kiinteitä aineita (YK-numero 3244) sekä eri kohtien ryhmään c) luokiteltuja kiinteitä jätteitä ks. rn 816.</sis:KappaleKooste>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>8.2 Rakenne</sis1:LihavaTeksti>
       </sis:KappaleKooste>

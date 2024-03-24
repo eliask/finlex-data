@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1997-09-26" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>vaarallisten aineiden kuljettamisesta rautatiellä annetun liikenneministeriön päätöksen muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Neuvoston direktiivi 96/49/EY; EYVL N:o L 235, 17.9.1996, s. 25</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Komission direktiivi96/87/EY; EYVL N:o L 335, 24.12.1996, s. 45</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -38,6 +30,10 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="396L0049"><sis1:ViiteTeksti>96/49/EY</sis1:ViiteTeksti></sis:YleinenViite>; EYVL N:o L 235, 17.9.1996, s. 25</sdk:EsityoViite>
+    <sdk:EsityoViite>Komission direktiivi<sis:YleinenViite sis1:viiteURL="396L0087"><sis1:ViiteTeksti>96/87/EY</sis1:ViiteTeksti></sis:YleinenViite>; EYVL N:o L 335, 24.12.1996, s. 45</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 2 päivänä syyskuuta 1997</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -55,27 +51,27 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite: OSA III, Lisäykset, Lisäys VIII:</ete>
-      <sis:KappaleKooste ID="1920">MÄÄRÄYKSET TUNNUSMERKINNÖISTÄ SEKÄ VAARALLISTEN AINEIDEN LUETTELO
+      <sis1:ValiotsikkoTeksti>Liite: OSA III, Lisäykset, Lisäys VIII:</sis1:ValiotsikkoTeksti>
+      <sis:KappaleKooste>MÄÄRÄYKSET TUNNUSMERKINNÖISTÄ SEKÄ VAARALLISTEN AINEIDEN LUETTELO
 </sis:KappaleKooste>
-      <sis:KappaleKooste ID="1921">I. Taulukko (aakkosjärjestyksessä oleva)
+      <sis:KappaleKooste>I. Taulukko (aakkosjärjestyksessä oleva)
 </sis:KappaleKooste>
-      <ete>
-        <pl>Huom. Taulukon koko 1281 kt!!!</pl>
-      </ete>
-      <ete>Tämä aakkosjärjestyksessä oleva taulukko sisältää näiden määräysten eri luokkien aineluetteloissa luetellut aineet ja esineet edellä kohdassa "aineiden ja esineiden nimi" sanottujen periaatteiden mukaisesti.</ete>
-      <sis:KappaleKooste ID="1922">II. Taulukko
+      <sis:KappaleKooste>
+        <sis1:LihavaTeksti>Huom. Taulukon koko 1281 kt!!!</sis1:LihavaTeksti>
+      </sis:KappaleKooste>
+      <sis:KappaleKooste>Tämä aakkosjärjestyksessä oleva taulukko sisältää näiden määräysten eri luokkien aineluetteloissa luetellut aineet ja esineet edellä kohdassa "aineiden ja esineiden nimi" sanottujen periaatteiden mukaisesti.</sis:KappaleKooste>
+      <sis:KappaleKooste>II. Taulukko
 </sis:KappaleKooste>
-      <ete>Tämä taulukko sisältää kahden tyyppisiä ryhmänimikkeitä tai n.o.s.-nimikkeitä:</ete>
-      <ete>- erityisiä ryhmänimikkeitä tai n.o.s.-nimikkeitä, joita käytetään saman tyyppisten kemiallisten yhdisteiden ryhmille;</ete>
-      <ete>- yleisiä ryhmänimikkeitä tai n.o.s.-nimikkeitä, joita käytetään aineiden ryhmille, joilla on samanlainen ensisijainen ja toissijainen vaaraominaisuus.</ete>
-      <sis:KappaleKooste ID="1923">III. Taulukko
+      <sis:KappaleKooste>Tämä taulukko sisältää kahden tyyppisiä ryhmänimikkeitä tai n.o.s.-nimikkeitä:</sis:KappaleKooste>
+      <sis:KappaleKooste>- erityisiä ryhmänimikkeitä tai n.o.s.-nimikkeitä, joita käytetään saman tyyppisten kemiallisten yhdisteiden ryhmille;</sis:KappaleKooste>
+      <sis:KappaleKooste>- yleisiä ryhmänimikkeitä tai n.o.s.-nimikkeitä, joita käytetään aineiden ryhmille, joilla on samanlainen ensisijainen ja toissijainen vaaraominaisuus.</sis:KappaleKooste>
+      <sis:KappaleKooste>III. Taulukko
 </sis:KappaleKooste>
-      <ete>
-        <pl>Huom. Taulukon koko 935 kt!!!</pl>
-      </ete>
-      <ete>Tämä YK-numerojärjestyksessä oleva taulukko sisältää kaikki eri luokkien aineluettelossa mainitut YK-numerolla varustetut aineet ja esineet, mukaanlukien ryhmänimikkeet ja n.o.s.-nimikkeet.</ete>
-      <sis:KappaleKooste ID="1924">Tunnusnumerokilpi
+      <sis:KappaleKooste>
+        <sis1:LihavaTeksti>Huom. Taulukon koko 935 kt!!!</sis1:LihavaTeksti>
+      </sis:KappaleKooste>
+      <sis:KappaleKooste>Tämä YK-numerojärjestyksessä oleva taulukko sisältää kaikki eri luokkien aineluettelossa mainitut YK-numerolla varustetut aineet ja esineet, mukaanlukien ryhmänimikkeet ja n.o.s.-nimikkeet.</sis:KappaleKooste>
+      <sis:KappaleKooste>Tunnusnumerokilpi
 </sis:KappaleKooste>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>

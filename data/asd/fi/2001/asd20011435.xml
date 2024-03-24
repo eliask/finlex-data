@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2001-12-31" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -70,17 +70,17 @@
             <saa:SaadosOtsikkoKooste>Oppivelvollisille annettavan perusopetuksen tuntijako</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Perusopetukseen käytettävä aika jaetaan eri oppiaineiden ja niistä muodostettujen aineryhmien opetukseen sekä oppilaanohjaukseen seuraavasti:</saa:MomenttiKooste>
             <tau:table>
-              <tau:tgroup COLS="3" COLSEP="0" ROWSEP="0" ALIGN="left" SECURITY="u">
-                <tau:colspec COLNUM="1" COLNAME="1" COLWIDTH=""/>
-                <tau:colspec COLNUM="2" COLNAME="2" COLWIDTH=""/>
-                <tau:colspec COLNUM="3" COLNAME="3" COLWIDTH=""/>
-                <tau:tbody VALIGN="TOP">
+              <tau:tgroup cols="3" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="1" colname="1" colwidth=""/>
+                <tau:colspec colnum="2" colname="2" colwidth=""/>
+                <tau:colspec colnum="3" colname="3" colwidth=""/>
+                <tau:tbody valign="top">
                   <tau:row>
                     <tau:entry>
                       <sis:KappaleKooste>Aineryhmä, oppiaine 	</sis:KappaleKooste>
                     </tau:entry>
-                    <tau:entry>
-                      <sis:KappaleKooste NAMEST="2" NAMEEND="10">Vuosiviikkotunnit<sis1:YlaindeksiTeksti>1)</sis1:YlaindeksiTeksti>  opetuksen aloittamisajankohdasta tai edellisestä tuntien määrityskohdasta laskettuna vähintään:</sis:KappaleKooste>
+                    <tau:entry namest="2" nameend="10">
+                      <sis:KappaleKooste>Vuosiviikkotunnit<sis1:YlaindeksiTeksti>1)</sis1:YlaindeksiTeksti>  opetuksen aloittamisajankohdasta tai edellisestä tuntien määrityskohdasta laskettuna vähintään:</sis:KappaleKooste>
                     </tau:entry>
                     <tau:entry>
                       <sis:KappaleKooste>Vuosiviikkotunnit yhteensä vähintään:</sis:KappaleKooste>
@@ -90,8 +90,8 @@
                     <tau:entry>
                       <sis:KappaleKooste/>
                     </tau:entry>
-                    <tau:entry>
-                      <sis:KappaleKooste NAMEST="2" NAMEEND="10">Vuosiluokat</sis:KappaleKooste>
+                    <tau:entry namest="2" nameend="10">
+                      <sis:KappaleKooste>Vuosiluokat</sis:KappaleKooste>
                     </tau:entry>
                     <tau:entry>
                       <sis:KappaleKooste/>
@@ -835,10 +835,10 @@
                 </tau:tbody>
               </tau:tgroup>
             </tau:table>
-            <ete><sis1:YlaindeksiTeksti>1)</sis1:YlaindeksiTeksti> Vuosiviikkotunti = 38 oppituntia</ete>
-            <ete><sis1:YlaindeksiTeksti>2)</sis1:YlaindeksiTeksti> Terveystietoa opetetaan integroidusti vuosiluokilla 1-6 ja kolme vuosiviikkotuntia vuosiluokilla 7-9.</ete>
-            <ete><sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti> Oppilas voi  vuosiluokilla 7-9, kielestä riippuen, opiskella vapaaehtoista A-kieltä joko valinnaisena aineena tai B-kielen sijasta opetettavana yhteisenä aineena. </ete>
-            <ete><sis1:YlaindeksiTeksti>-</sis1:YlaindeksiTeksti> Oppiainetta ei opeteta asianomaisella vuosiluokalla, ellei opetussuunnitelmassa toisin määrätä</ete>
+            <saa:MomenttiKooste><sis1:YlaindeksiTeksti>1)</sis1:YlaindeksiTeksti> Vuosiviikkotunti = 38 oppituntia</saa:MomenttiKooste>
+            <saa:MomenttiKooste><sis1:YlaindeksiTeksti>2)</sis1:YlaindeksiTeksti> Terveystietoa opetetaan integroidusti vuosiluokilla 1-6 ja kolme vuosiviikkotuntia vuosiluokilla 7-9.</saa:MomenttiKooste>
+            <saa:MomenttiKooste><sis1:YlaindeksiTeksti>3)</sis1:YlaindeksiTeksti> Oppilas voi  vuosiluokilla 7-9, kielestä riippuen, opiskella vapaaehtoista A-kieltä joko valinnaisena aineena tai B-kielen sijasta opetettavana yhteisenä aineena. </saa:MomenttiKooste>
+            <saa:MomenttiKooste><sis1:YlaindeksiTeksti>-</sis1:YlaindeksiTeksti> Oppiainetta ei opeteta asianomaisella vuosiluokalla, ellei opetussuunnitelmassa toisin määrätä</saa:MomenttiKooste>
             <saa:MomenttiKooste>Valinnaisena aineena voidaan opettaa 1 momentissa mainittujen oppiaineiden syventäviä tai soveltavia oppimääriä, useasta oppiaineesta muodostettuja kokonaisuuksia, vieraita kieliä sekä tietotekniikkaan liittyviä aineita. Valinnaisten aineiden nimet määritellään opetussuunnitelmassa. </saa:MomenttiKooste>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
@@ -846,11 +846,11 @@
             <saa:SaadosOtsikkoKooste>Muille kuin oppivelvollisille annettavan perusopetuksen tuntijako</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Perusopetukseen käytettävä aika jaetaan eri oppiaineiden ja niistä muodostettujen aineryhmien opetukseen seuraavasti:</saa:MomenttiKooste>
             <tau:table>
-              <tau:tgroup COLS="3" COLSEP="0" ROWSEP="0" ALIGN="left" SECURITY="u">
-                <tau:colspec COLNUM="1" COLNAME="1" COLWIDTH=""/>
-                <tau:colspec COLNUM="2" COLNAME="2" COLWIDTH=""/>
-                <tau:colspec COLNUM="3" COLNAME="3" COLWIDTH=""/>
-                <tau:tbody VALIGN="TOP">
+              <tau:tgroup cols="3" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="1" colname="1" colwidth=""/>
+                <tau:colspec colnum="2" colname="2" colwidth=""/>
+                <tau:colspec colnum="3" colname="3" colwidth=""/>
+                <tau:tbody valign="top">
                   <tau:row>
                     <tau:entry>
                       <sis:KappaleKooste>Aineryhmä </sis:KappaleKooste>

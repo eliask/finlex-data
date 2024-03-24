@@ -20,9 +20,9 @@
       <saa:Johtolause>
         <saa:SaadosKappaleKooste>Maa- ja metsätalousministeriö on</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>muuttanut maitonäytteistä</saa:SaadosKursiiviKooste> 8 päivänä joulukuuta 1987 antamansa päätöksen (954/87) 4 §:n 1 b-, c- ja d-kohdan sekä 2 d-kohdan ja 3 c-kohdan, 5 §:n 2 e- ja 3 c-kohdan, 6 §:n, 7 §:n, 8 §:n 2 momentin b-kohdan ja 4 momentin sekä 9 §:n 1 momentin a-kohdan,</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>sellaisina kuin niistä ovat 6 § osittain muutettuna 16 päivänä marraskuuta 1990 annetulla päätöksellä (992/90) ja 7 § mainitussa 16 päivänä marraskuuta 1990 annetussa päätöksessä seuraavasti:</saa:SaadosKappaleKooste>
       </saa:Johtolause>
       <saa:Pykalisto>
-        <te>sellaisina kuin niistä ovat 6 § osittain muutettuna 16 päivänä marraskuuta 1990 annetulla päätöksellä (992/90) ja 7 § mainitussa 16 päivänä marraskuuta 1990 annetussa päätöksessä seuraavasti:</te>
         <saa:SaadosValiotsikkoKooste>Maidonjalostamon ottamien näytteiden tutkiminen ja arvostelu</saa:SaadosValiotsikkoKooste>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
           <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
@@ -36,7 +36,9 @@ b) bakteerien kokonaispesäkelukumäärän määritys vähintään kerran kuukau
 </saa:MomenttiAlakohtaKooste>
             </saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
-          <saa:MomenttiKooste>tulokset luokitellaan seuraavasti:</saa:MomenttiKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>tulokset luokitellaan seuraavasti:</saa:MomenttiJohdantoKooste>
+          </saa:KohdatMomentti>
           <tau:table>
             <tau:tgroup cols="3" colsep="0" rowsep="0" align="left">
               <tau:colspec colnum="1" colname="1" colwidth=""/>
@@ -101,10 +103,14 @@ b) bakteerien kokonaispesäkelukumäärän määritys vähintään kerran kuukau
               </tau:tbody>
             </tau:tgroup>
           </tau:table>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiKohtaKooste>
 c) solupitoisuusmääritys kaksi kertaa kuukaudessa;
 </saa:MomenttiKohtaKooste>
-          <saa:MomenttiKooste>tulokset luokitellaan geometrisen kuukausikeskiarvon perusteella seuraavasti:</saa:MomenttiKooste>
+          </saa:KohdatMomentti>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>tulokset luokitellaan geometrisen kuukausikeskiarvon perusteella seuraavasti:</saa:MomenttiJohdantoKooste>
+          </saa:KohdatMomentti>
           <tau:table>
             <tau:tgroup cols="3" colsep="0" rowsep="0" align="left">
               <tau:colspec colnum="1" colname="1" colwidth=""/>
@@ -169,25 +175,31 @@ c) solupitoisuusmääritys kaksi kertaa kuukaudessa;
               </tau:tbody>
             </tau:tgroup>
           </tau:table>
-          <saa:MomenttiKohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiKohtaKooste>
 d) lääkejäämämääritys vähintään neljä kertaa vuodessa; lääkejäämän estovaikutus ei saa olla mikrobiologisessa kasvunestotestissä suurempi kuin 0,004 æg/ml penisilliinipitoisuutta vastaava;
 </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
           <sis:Katkoviiva/>
-          <saa:MomenttiKohtaKooste>
-            <saa:MomenttiAlakohtaKooste>2) <saa:SaadosKursiiviKooste>kuljetuseränäytteistä ja raakamaitonäytteistä;</saa:SaadosKursiiviKooste></saa:MomenttiAlakohtaKooste>
-            <sis:Katkoviiva/>
-            <saa:MomenttiAlakohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiKohtaKooste>
+              <saa:MomenttiAlakohtaKooste>2) <saa:SaadosKursiiviKooste>kuljetuseränäytteistä ja raakamaitonäytteistä;</saa:SaadosKursiiviKooste></saa:MomenttiAlakohtaKooste>
+              <sis:Katkoviiva/>
+              <saa:MomenttiAlakohtaKooste>
 d) lääkejäämämääritys, joka arvostellaan edellä olevan 1 d-kohdan mukaisesti; sekä
 </saa:MomenttiAlakohtaKooste>
-          </saa:MomenttiKohtaKooste>
+            </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
           <sis:Katkoviiva/>
-          <saa:MomenttiKohtaKooste>
-            <saa:MomenttiAlakohtaKooste>3) <saa:SaadosKursiiviKooste>pastöroiduista kulutusmaitotuotenäytteistä:</saa:SaadosKursiiviKooste></saa:MomenttiAlakohtaKooste>
-            <sis:Katkoviiva/>
-            <saa:MomenttiAlakohtaKooste>
+          <saa:KohdatMomentti>
+            <saa:MomenttiKohtaKooste>
+              <saa:MomenttiAlakohtaKooste>3) <saa:SaadosKursiiviKooste>pastöroiduista kulutusmaitotuotenäytteistä:</saa:SaadosKursiiviKooste></saa:MomenttiAlakohtaKooste>
+              <sis:Katkoviiva/>
+              <saa:MomenttiAlakohtaKooste>
 c) lääkejäämämääritys, joka arvostellaan edellä olevan 1 d-kohdan mukaisesti; sekä
 </saa:MomenttiAlakohtaKooste>
-          </saa:MomenttiKohtaKooste>
+            </saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
           <sis:Katkoviiva/>
         </saa:Pykala>
         <saa:SaadosValiotsikkoKooste>Kunnallisten viranomaisten ottamien näytteiden tutkiminen ja arvostelu</saa:SaadosValiotsikkoKooste>
