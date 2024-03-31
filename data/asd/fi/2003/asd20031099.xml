@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2003-12-22" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -12,21 +12,19 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Sosiaali- ja terveysministeriön asetus</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>sosiaali- ja terveydenhuollon tuotevalvontakeskuksen maksullisista suoritteista annetun sosiaali- ja terveysministeriön asetuksen liitteen 2 muuttamisesta</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Sosiaali- ja terveysministeriö on</saa:SaadosKappaleKooste>
         <saa:SaadosKappaleKooste><saa:SaadosKursiiviKooste>muuttanut</saa:SaadosKursiiviKooste> sosiaali- ja terveydenhuollon tuotevalvontakeskuksen maksullisista suoritteista 20. joulukuuta 2001 annetun sosiaali- ja terveysministeriön asetuksen (1440/2001) liitteen 2 kohtia 5, 6 ja 7 seuraavasti:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
         <tau:table>
-          <tau:tgroup COLS="2" COLSEP="0" ROWSEP="0" ALIGN="left" SECURITY="u">
-            <tau:colspec COLNUM="1" COLNAME="1" COLWIDTH=""/>
-            <tau:colspec COLNUM="2" COLNAME="2" COLWIDTH=""/>
-            <tau:tbody VALIGN="TOP">
+          <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+            <tau:colspec colnum="1" colname="1" colwidth=""/>
+            <tau:colspec colnum="2" colname="2" colwidth=""/>
+            <tau:tbody valign="top">
               <tau:row>
                 <tau:entry>
                   <sis:KappaleKooste>
@@ -202,36 +200,24 @@
             </tau:tbody>
           </tau:tgroup>
         </tau:table>
-        <te>
-          <pl>7. Maksuja koskevat erinäiset säännökset</pl>
-        </te>
-        <te>Myönteisestä ja kielteisestä päätöksestä peritään saman suuruinen maksu.</te>
-        <te>Jos tuotevalvontakeskukselle toimitettu hakemus tai ilmoitus peruutetaan tai muutoin raukeaa ennen kuin asia on käsitelty loppuun, käsittelymaksu on 35 prosenttia siitä maksusta, joka hakijalta tai ilmoituksentekijältä olisi muutoin peritty.</te>
-        <te>Kohtien 4.1, 4.2 ja 5. mukaisesta biosidivalmisteiden uudelleen hyväksymistä tai rekisteröintiä koskevan hakemuksen käsittelystä peritään 50 prosenttia taulukon mukaisesta maksusta.</te>
-        <te>Edellä kohdissa 4.1 ja 4.2.1 - 4.2.4 tarkoitettujen hakemusten jättämisen sekä kohdassa 5.1 tarkoitetun lausuntopyynnön saapumisen yhteydessä peritään ennakkomaksu, jonka suuruus on 35 prosenttia taulukon mukaisesta maksusta.</te>
-        <te>Tuotevalvontakeskus voi alentaa kohdissa 4. ja 5. mainittua maksua 25 prosentilla, jos asian käsittelyn vaatima työmäärä alittaa suoritteen käsittelyyn tavanomaisesti käytettävän ajan vähintään 25 prosentilla. Vastaavasti Tuotevalvontakeskus voi korottaa maksua 25 prosentilla, jos asian käsittelyn vaatima työaika hakijan toimittamien selvitysten puutteellisuudesta johtuen tai muusta erityisestä syystä ylittää suoritteen käsittelyyn tavanomaisesti käytettävän ajan vähintään 25 prosentilla.</te>
-        <te>Tuotevalvontakeskus voi alentaa kohdissa 4.1 ja 5.1 mainittua maksua 50 prosentilla, jos asian käsittelyn vaatima työmäärä alittaa suoritteen käsittelyyn tavanomaisesti käytettävän ajan vähintään 50 prosentilla, ja korottaa maksua 50 prosentilla, jos asian käsittelyn vaatima työaika hakijan toimittamien selvitysten puutteellisuudesta johtuen tai muusta erityisestä syystä ylittää suoritteen käsittelyyn tavanomaisesti käytettävän ajan vähintään 50 prosentilla.</te>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala">
-          <saa:KohdatMomentti>
-            <saa:MomenttiJohdantoKooste>Edellä 4. ja 5. kohdissa tarkoitettujen päätösten muuttamista koskevien asioiden käsittelystä peritään maksut seuraavasti:</saa:MomenttiJohdantoKooste>
-            <saa:MomenttiKohtaKooste>
-- annetun päätöksen edellytysten uudelleenarviointia vaativan hakemuksen käsittelystä (olennainen muuttaminen) peritään 50 prosenttia taulukon mukaisesta maksusta; mikäli asian käsittelyn vaatima työmäärä on vähemmän kuin 25 prosenttia suoritteen käsittelyyn tavanomaisesti käytettävästä ajasta, peritään 25 prosenttia taulukon mukaisesta maksusta
-</saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-- hakemuksen käsittelystä, joka ei edellytä annetun päätöksen edellytysten uudelleen-arviointia (vähäinen muuttaminen), peritään 10 prosenttia taulukon mukaisesta maksusta
-</saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-- annetun päätöksen teknisestä tai muusta vastaavasta syystä aiheutuvasta muuttamisesta peritään 185 euroa.
-</saa:MomenttiKohtaKooste>
-          </saa:KohdatMomentti>
-        </saa:Pykala>
+        <saa:SaadosKappaleKooste>
+          <saa:SaadosKursiiviKooste>7. Maksuja koskevat erinäiset säännökset</saa:SaadosKursiiviKooste>
+        </saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Myönteisestä ja kielteisestä päätöksestä peritään saman suuruinen maksu.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Jos tuotevalvontakeskukselle toimitettu hakemus tai ilmoitus peruutetaan tai muutoin raukeaa ennen kuin asia on käsitelty loppuun, käsittelymaksu on 35 prosenttia siitä maksusta, joka hakijalta tai ilmoituksentekijältä olisi muutoin peritty.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Kohtien 4.1, 4.2 ja 5. mukaisesta biosidivalmisteiden uudelleen hyväksymistä tai rekisteröintiä koskevan hakemuksen käsittelystä peritään 50 prosenttia taulukon mukaisesta maksusta.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Edellä kohdissa 4.1 ja 4.2.1 - 4.2.4 tarkoitettujen hakemusten jättämisen sekä kohdassa 5.1 tarkoitetun lausuntopyynnön saapumisen yhteydessä peritään ennakkomaksu, jonka suuruus on 35 prosenttia taulukon mukaisesta maksusta.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Tuotevalvontakeskus voi alentaa kohdissa 4. ja 5. mainittua maksua 25 prosentilla, jos asian käsittelyn vaatima työmäärä alittaa suoritteen käsittelyyn tavanomaisesti käytettävän ajan vähintään 25 prosentilla. Vastaavasti Tuotevalvontakeskus voi korottaa maksua 25 prosentilla, jos asian käsittelyn vaatima työaika hakijan toimittamien selvitysten puutteellisuudesta johtuen tai muusta erityisestä syystä ylittää suoritteen käsittelyyn tavanomaisesti käytettävän ajan vähintään 25 prosentilla.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Tuotevalvontakeskus voi alentaa kohdissa 4.1 ja 5.1 mainittua maksua 50 prosentilla, jos asian käsittelyn vaatima työmäärä alittaa suoritteen käsittelyyn tavanomaisesti käytettävän ajan vähintään 50 prosentilla, ja korottaa maksua 50 prosentilla, jos asian käsittelyn vaatima työaika hakijan toimittamien selvitysten puutteellisuudesta johtuen tai muusta erityisestä syystä ylittää suoritteen käsittelyyn tavanomaisesti käytettävän ajan vähintään 50 prosentilla.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Edellä 4. ja 5. kohdissa tarkoitettujen päätösten muuttamista koskevien asioiden käsittelystä peritään maksut seuraavasti:</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>- annetun päätöksen edellytysten uudelleenarviointia vaativan hakemuksen käsittelystä (olennainen muuttaminen) peritään 50 prosenttia taulukon mukaisesta maksusta; mikäli asian käsittelyn vaatima työmäärä on vähemmän kuin 25 prosenttia suoritteen käsittelyyn tavanomaisesti käytettävästä ajasta, peritään 25 prosenttia taulukon mukaisesta maksusta</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>- hakemuksen käsittelystä, joka ei edellytä annetun päätöksen edellytysten uudelleen-arviointia (vähäinen muuttaminen), peritään 10 prosenttia taulukon mukaisesta maksusta</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>- annetun päätöksen teknisestä tai muusta vastaavasta syystä aiheutuvasta muuttamisesta peritään 185 euroa.</saa:SaadosKappaleKooste>
         <sis:Palstaviiva/>
-        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
-          <saa:MomenttiKooste>Tämä asetus tulee voimaan 1 päivänä tammikuuta 2004 ja se on voimassa 31.12.2004 saakka.</saa:MomenttiKooste>
-          <saa:MomenttiKooste>Ennen asetuksen voimaantuloa vireille tulleiden asioiden käsittelystä peritään maksu tuolloin voimassa olleiden säännösten mukaisesti.</saa:MomenttiKooste>
-        </saa:Pykala>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Tämä asetus tulee voimaan 1 päivänä tammikuuta 2004 ja se on voimassa 31.12.2004 saakka.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Ennen asetuksen voimaantuloa vireille tulleiden asioiden käsittelystä peritään maksu tuolloin voimassa olleiden säännösten mukaisesti.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 15 päivänä joulukuuta 2003</asi:PaivaysKooste>

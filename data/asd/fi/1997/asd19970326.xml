@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1997-04-23" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -30,13 +30,23 @@
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
         </saa:Pykala>
-        <saa:SaadosValiotsikkoKooste>Määritelmät</saa:SaadosValiotsikkoKooste>
-        <te>Tässä päätöksessä tarkoitetaan:</te>
-        <te>1) <saa:SaadosKursiiviKooste>mehiläistarhaajalla</saa:SaadosKursiiviKooste></te>
-        <te>a) luonnollista henkilöä, luonnollisten henkilöiden muodostamaa yhtymää tai jakamatonta kuolinpesää, joka harjoittaa mehiläistaloutta; tai</te>
-        <te>b) sellaista luonnollisten henkilöiden muodostamaa avointa yhtiötä, kommandiittiyhtiötä, osuuskuntaa tai osakeyhtiötä, jonka tarkoituksena on varsinaisen maatalouden tai erikoismaatalouden harjoittaminen ja joka harjoittaa mehiläistaloutta;</te>
-        <te>2) <saa:SaadosKursiiviKooste>mehiläisyhteiskunnalla</saa:SaadosKursiiviKooste> Suomessa sijaitsevan, kesyistä mehiläisistä (Apis mellifera) koostuvan emon, työmehiläisten, sikiöiden ja mehiläisten hoitamiseen tarvittavan pesäkaluston muodostamaa kokonaisuutta; sekä</te>
-        <te>3) <saa:SaadosKursiiviKooste>toimintapisteellä</saa:SaadosKursiiviKooste> rakennusta, rakennelmaa tai suojaa, jossa voidaan tehdä sadonkorjuutöitä ja kaluston kunnostustöitä tai varastoida satoa ja kalustoa.</te>
+        <ot>Määritelmät</ot>
+        <saa:Pykala>
+          <saa:KohdatMomentti>
+            <saa:MomenttiJohdantoKooste>Tässä päätöksessä tarkoitetaan:</saa:MomenttiJohdantoKooste>
+            <saa:MomenttiKohtaKooste>
+1) <saa:SaadosKursiiviKooste>mehiläistarhaajalla</saa:SaadosKursiiviKooste>
+<saa:MomenttiAlakohtaKooste>
+a) luonnollista henkilöä, luonnollisten henkilöiden muodostamaa yhtymää tai jakamatonta kuolinpesää, joka harjoittaa mehiläistaloutta; tai</saa:MomenttiAlakohtaKooste>
+<saa:MomenttiAlakohtaKooste>
+b) sellaista luonnollisten henkilöiden muodostamaa avointa yhtiötä, kommandiittiyhtiötä, osuuskuntaa tai osakeyhtiötä, jonka tarkoituksena on varsinaisen maatalouden tai erikoismaatalouden harjoittaminen ja joka harjoittaa mehiläistaloutta;</saa:MomenttiAlakohtaKooste>
+</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
+2) <saa:SaadosKursiiviKooste>mehiläisyhteiskunnalla</saa:SaadosKursiiviKooste> Suomessa sijaitsevan, kesyistä mehiläisistä (Apis mellifera) koostuvan emon, työmehiläisten, sikiöiden ja mehiläisten hoitamiseen tarvittavan pesäkaluston muodostamaa kokonaisuutta; sekä</saa:MomenttiKohtaKooste>
+            <saa:MomenttiKohtaKooste>
+3) <saa:SaadosKursiiviKooste>toimintapisteellä</saa:SaadosKursiiviKooste> rakennusta, rakennelmaa tai suojaa, jossa voidaan tehdä sadonkorjuutöitä ja kaluston kunnostustöitä tai varastoida satoa ja kalustoa.</saa:MomenttiKohtaKooste>
+          </saa:KohdatMomentti>
+        </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Mehiläisyhteiskuntien lukumäärään perustuvan tuen myöntämisen edellytykset</saa:SaadosOtsikkoKooste>

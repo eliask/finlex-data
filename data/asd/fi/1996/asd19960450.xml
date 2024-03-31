@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1996-06-26" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -12,17 +12,17 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Ilmoitus">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Maa- ja metsätalousministeriön ilmoitus</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>eräistä päätöksistä</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Maa- ja metsätalousministeriö ilmoittaa Suomen säädöskokoelmasta 17 päivänä lokakuuta 1980 annetun asetuksen (696/80) 2 b §:n nojalla, sellaisena kuin se on 22 päivänä joulukuuta 1993 annetussa asetuksessa (1364/93):</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
         <tau:table>
-          <tau:title>Maa- ja metsätalousministeriö on antanut seuraavan päätöksen:</tau:title>
+          <tau:title>
+            <sis:KappaleKooste>Maa- ja metsätalousministeriö on antanut seuraavan päätöksen:</sis:KappaleKooste>
+          </tau:title>
           <tau:tgroup cols="4" colsep="0" rowsep="0" align="left">
             <tau:colspec colnum="1" colname="col1" colwidth="11410*"/>
             <tau:colspec colnum="2" colname="col2" colwidth="5741*"/>
@@ -60,11 +60,9 @@
             </tau:tbody>
           </tau:tgroup>
         </tau:table>
-        <saa:Pykala>
-          <saa:MomenttiKooste>Edellä mainittu päätös on julkaistu maa- ja metsätalousministeriön määräyskokoelmassa. Päätös on saatavissa maa- ja metsätalousministeriön tietopalvelukeskuksesta, osoite Liisankatu 8, PL 250, 00171 Helsinki, puh. (90) 134 211.</saa:MomenttiKooste>
-        </saa:Pykala>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Edellä mainittu päätös on julkaistu maa- ja metsätalousministeriön määräyskokoelmassa. Päätös on saatavissa maa- ja metsätalousministeriön tietopalvelukeskuksesta, osoite Liisankatu 8, PL 250, 00171 Helsinki, puh. (90) 134 211.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 20 päivänä kesäkuuta 1996</asi:PaivaysKooste>
