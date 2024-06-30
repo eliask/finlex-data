@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Avfallsförordning</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Bilaga 20 till EES-avtalet: rådets direktiv (75/422/EEG), ändrat genom direktiv (91/156/EEG)</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Asetus">
@@ -319,10 +314,10 @@
             <saa:MomenttiKooste>De kostnader som ett avfallshanteringsarbete har förorsakat staten skall återkrävas av den som enligt avfallslagen är skyldig att rengöra området. Kostnaderna skall dock inte återkrävas, om återkrav är oskäligt, eller om det är sannolikt att medlen inte kan fås tillbaka eller om det av andra härmed jämförbara orsaker inte är ändamålsenligt att återkräva dem.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Om det innan avfallshanteringsarbetet inleds är uppenbart att kostnaderna skall återkrävas enligt 1 mom., får arbetet inte påbörjas om det inte föreligger ett lagakraftvunnet hot om tvångsutförande enligt avfallslagen eller lagen om avfallshantering (673/78) beträffande rengöringen av området eller en överenskommelse om betalning av kostnaderna inte har ingåtts med den som är skyldig att rengöra området. Arbetet får dock inledas om det är fråga om en situation som avses i 55 § 1 mom. avfallslagen.</saa:MomenttiKooste>
           </saa:Pykala>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="5 kap.">
-            <saa:PykalaTunnusKooste>5 kap.</saa:PykalaTunnusKooste>
-            <saa:SaadosOtsikkoKooste>Vissa myndigheter och deras uppgifter</saa:SaadosOtsikkoKooste>
-          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="5 kap.">
+          <saa:LukuTunnusKooste>5 kap.</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Vissa myndigheter och deras uppgifter</saa:SaadosOtsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="17 §">
             <saa:PykalaTunnusKooste>17 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Vatten- och miljöförvaltningens uppgifter</saa:SaadosOtsikkoKooste>
@@ -436,6 +431,9 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Bilaga 20 till EES-avtalet: rådets direktiv (75/422/EEG), ändrat genom direktiv (91/156/EEG)</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 22 december 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -453,9 +451,9 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga 1</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>AVFALLSKATEGORIER</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Som avfall klassificeras</sis:KappaleKooste>
       <sis:KappaleKooste>Q1 Produktions- och konsumtionsrester som inte individualiseras närmare nedan.</sis:KappaleKooste>
@@ -478,9 +476,9 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga 2</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>KATEGORIER ELLER ALLMÄNNA TYPER AV PROBLEMAVFALL, KATEGORISERADE EFTER AVFALLETS NATUR ELLER DEN VERKSAMHET DÄR DET HAR UPPKOMMIT*</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Bilaga 2 A.</sis:KappaleKooste>
       <sis:KappaleKooste>Avfall som företer en eller flera av de egenskaper som anges i bilaga 4 och som består av följande ämnen eller material:</sis:KappaleKooste>
@@ -531,9 +529,9 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga 3</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>BESTÅNDSDELAR SOM GÖR ATT I BILAGA 2 B UPPTAGNA AVFALL KLASSIFICERAS SOM PROBLEMAVFALL OM DET HAR EGENSKAPER BESKRIVNA I BILAGA 4*</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Avfall som innehåller följande ämnen:</sis:KappaleKooste>
       <sis:KappaleKooste>C1 Beryllium och berylliumföreningar.</sis:KappaleKooste>
@@ -592,9 +590,9 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga 4</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>EGENSKAPER SOM GÖR ATT AVFALL KLASSIFICERAS SOM PROBLEMAVFALL*</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste><sis1:KursiiviTeksti>H1 Explosiv</sis1:KursiiviTeksti> : ämnen och preparat som kan explodera vid kontakt med öppen eld eller som är mer känsliga för stötar eller friktion än dinitrobensen.</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:KursiiviTeksti>H2 Oxiderande</sis1:KursiiviTeksti> : ämnen och preparat som tillsammans med andra, särskilt med antändliga ämnen, kan orsaka en reaktion som kraftigt frigör värme.</sis:KappaleKooste>
@@ -627,9 +625,9 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga 5</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>ÅTERVINNINGSFÖRFARANDEN</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>R1 Tillvaratagande och regenerering av lösningsmedel.</sis:KappaleKooste>
       <sis:KappaleKooste>R2 Tillvaratagande och återvinning av organiska ämnen som inte används som lösningsmedel.</sis:KappaleKooste>
@@ -648,9 +646,9 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga 6</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>BEHANDLINGSFÖRFARANDEN</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>D1 Deponering på eller under markytan, t.ex. på avstjälpningsplatser.</sis:KappaleKooste>
       <sis:KappaleKooste>D2 Behandling i markbädd, t.ex. biologisk nedbrytning av flytande avfall eller slam i jord.</sis:KappaleKooste>

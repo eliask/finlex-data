@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om skydd för arbetstagare mot risker vid exponering för biologiska agenser i arbetet</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Bilaga XVIII till EES-avtalet: rådets direktiv (90/679/EEG).</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Päätös">
@@ -144,8 +139,8 @@
 </saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
         </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="10 §§">
-          <saa:PykalaTunnusKooste>10 §§</saa:PykalaTunnusKooste>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="10 §">
+          <saa:PykalaTunnusKooste>10 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Information till behörig myndighet</saa:SaadosOtsikkoKooste>
           <saa:KohdatMomentti>
             <saa:MomenttiJohdantoKooste>Om resultaten av bedömningen enligt 5 § ger vid handen en risk för arbetstagarnas hälsa och säkerhet, skall arbetsgivaren på begäran tillhandahålla den behöriga myndigheten tillfredsställande information angående</saa:MomenttiJohdantoKooste>
@@ -420,6 +415,9 @@ c) lagas eller byts ut innan den används igen, om fel hittas,
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Bilaga XVIII till EES-avtalet: rådets direktiv (90/679/EEG).</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 9 december 1993</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -447,18 +445,17 @@ c) lagas eller byts ut innan den används igen, om fel hittas,
       <sis:KappaleKooste>6. Arbete vid avfallsanläggningar</sis:KappaleKooste>
       <sis:KappaleKooste>7. Arbete vid reningsverk för avloppsvatten</sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-          <te>SYMBOL FÖR MIKROBIOLOGISK RISK</te>
-          <te>(9 § 2 mom. 5 punkten</te>
-        </sis:KuvaAsemointi>
+        <sis:KappaleKooste>SYMBOL FÖR MIKROBIOLOGISK RISK</sis:KappaleKooste>
+        <sis:KappaleKooste>(9 § 2 mom. 5 punkten</sis:KappaleKooste>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/varom/0684.gif"/>
       </sis:Kuva>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga III</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>EXEMPEL PÅ SKYDDSÅTGÄRDER OCH SKYDDSNIVÅER</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>(19 § 2 mom. och 20 § 1 mom. 1 och 2 punkten)</sis:KappaleKooste>
       <sis:KappaleKooste>
@@ -477,7 +474,7 @@ c) lagas eller byts ut innan den används igen, om fel hittas,
               <tau:entry>
                 <sis:KappaleKooste>Skyddsåtgärder</sis:KappaleKooste>
               </tau:entry>
-              <tau:entry namest="3" nameend="5">
+              <tau:entry nameend="5" namest="3">
                 <sis:KappaleKooste>B. Skyddsnivåer</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -743,9 +740,9 @@ c) lagas eller byts ut innan den används igen, om fel hittas,
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga IV</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>SKYDDSÅTGÄRDER VID INDUSTRIELLA PROCESSER</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>(7 § 1 mom. och 21 § 1 punkten)</sis:KappaleKooste>
       <sis:KappaleKooste>
@@ -762,10 +759,10 @@ c) lagas eller byts ut innan den används igen, om fel hittas,
           <tau:colspec colnum="5" colname="5" colwidth=""/>
           <tau:tbody valign="top">
             <tau:row>
-              <tau:entry namest="1" nameend="2">
+              <tau:entry nameend="2" namest="1">
                 <sis:KappaleKooste>Skyddsåtgärder</sis:KappaleKooste>
               </tau:entry>
-              <tau:entry namest="3" nameend="5">
+              <tau:entry nameend="5" namest="3">
                 <sis:KappaleKooste>Skyddsnivåer</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
