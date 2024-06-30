@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>maa- ja metsätalouden rakennepoliittisista toimenpiteistä</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 164/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>MmVM 16/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -280,10 +272,10 @@
             <saa:SaadosOtsikkoKooste>Suunnitelmaan sisällytettävät toimenpiteet</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Maaseutuelinkeinoviranomaiset ja metsälautakunnat voivat niiden valtion talousarvion hallinnonalalleen osoitettujen määrärahojen sekä maatilatalouden kehittämisrahaston varojen osalta, joita ei ole erikseen osoitettu alueiden kehittämisestä annetun lain (1135/93) 6 §:n 1 momentissa tarkoitetuiksi aluekehitysrahoiksi, osallistua mainitun lain 5 §:ssä tarkoitettuihin ohjelmiin tai vastaaviin muihin ohjelmiin tai suunnitelmiin. Edellytyksenä osallistumiselle tältä osin on, että suunnitelmassa, jonka toteuttamisesta on kysymys, on otettu huomioon myös tämän lain erityisesti maatilatalouden rakenteelle ja maataloustuotteiden markkinoinnin edistämiselle asetetut tavoitteet. Edellä sanottu koskee myös kauppa- ja teollisuusministeriön hallinnonalaa siltä osin, kuin on kysymys maa- ja metsätaloustuotteiden jalostuksesta ja markkinoinnista.</saa:MomenttiKooste>
           </saa:Pykala>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="9 luku">
-            <saa:PykalaTunnusKooste>9 luku</saa:PykalaTunnusKooste>
-            <saa:SaadosOtsikkoKooste>Erityiset säännökset</saa:SaadosOtsikkoKooste>
-          </saa:Pykala>
+        </saa:Luku>
+        <saa:Luku saa1:identifiointiTunnus="9 luku">
+          <saa:LukuTunnusKooste>9 luku</saa:LukuTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Erityiset säännökset</saa:SaadosOtsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="30  §">
             <saa:PykalaTunnusKooste>30  §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Tuettavien tilojen peltoala</saa:SaadosOtsikkoKooste>
@@ -454,6 +446,18 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940164.he">
+        <sis1:ViiteTeksti>HE 164/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940016.mmvm">
+        <sis1:ViiteTeksti>MmVM 16/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 22 päivänä joulukuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

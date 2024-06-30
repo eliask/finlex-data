@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Kiinteistönmuodostamislaki</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 227/94</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>MmVM 45/94</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -385,18 +377,16 @@
             <saa:MomenttiKooste>Jos sovintojaolla jaetun tilan halkomisessa on jakoperusteena osuudet ja osakas on sovintojaon kestäessä parantanut hallitsemiensa tilusten viljelyskuntoa tai muuten kohottanut niiden arvoa enemmän kuin muut osakkaat, ovat muut osakkaat jakoperusteensa mukaan velvolliset suorittamaan hänelle korvausta parantamistoimenpiteiden tuottamasta lisäarvosta.</saa:MomenttiKooste>
           </saa:Pykala>
         </saa:Luku>
-        <saa:Luku>
-          <oikaisu>
-            <uusi>
-              <nu>8 luku</nu>
-            </uusi>
-            <vanha>
-              <oikhuom>Merkitty kohta oikaistu (v. 1995), alkuperäinen sanamuoto kuului:</oikhuom>
-              <oikte>
-                <nu>28 luku</nu>
-              </oikte>
-            </vanha>
-          </oikaisu>
+        <saa:Luku saa1:identifiointiTunnus="&#10;&#10;8 luku&#10;&#10; Merkitty kohta oikaistu (v. 1995), alkuperäinen sanamuoto kuului:&#10; 28 luku&#10;&#10;&#10;">
+          <saa:LukuTunnusKooste>
+            <sdk:Oikaisu>
+              <sdk:Uusi>8 luku</sdk:Uusi>
+              <sdk:Vanha>
+                <sdk:Oikhuom>Merkitty kohta oikaistu (v. 1995), alkuperäinen sanamuoto kuului:</sdk:Oikhuom>
+                <sdk:Oikte>28 luku</sdk:Oikte>
+              </sdk:Vanha>
+            </sdk:Oikaisu>
+          </saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Tilusvaihto ja alueen siirtäminen</saa:SaadosOtsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="56  §">
             <saa:PykalaTunnusKooste>56  §</saa:PykalaTunnusKooste>
@@ -1953,6 +1943,18 @@ tissa säädettyjä vaatimuksia, toimitus on korjattava.</saa:MomenttiKohtaKoost
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940227.he">
+        <sis1:ViiteTeksti>HE 227/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="19940045.mmvm">
+        <sis1:ViiteTeksti>MmVM 45/94</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 12 päivänä huhtikuuta 1995</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

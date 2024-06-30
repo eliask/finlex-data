@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Terveydensuojeluasetus</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>ETA-sopimus Liite XX: Neuvoston direktiivi 80/778/ETY ja 81/858/ETY</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>ETA:n <saa:SaadosKursiiviKooste>sekakomitean päätös 21.3.1994 N:o 7/94. ETA-sopimuksen liite II:  93/43/ETY</saa:SaadosKursiiviKooste></sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus">
@@ -286,8 +278,8 @@ c) huvipuisto; sekä
         <saa:Luku saa1:identifiointiTunnus="3 luku">
           <saa:LukuTunnusKooste>3 luku</saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Talousvesi</saa:SaadosOtsikkoKooste>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §)">
-            <saa:PykalaTunnusKooste>7 §)</saa:PykalaTunnusKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="7 §">
+            <saa:PykalaTunnusKooste>7 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Vesilaitosilmoitus</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Toiminnanharjoittajan on tehtävä terveydensuojelulain 18 §:n mukainen ilmoitus kirjallisena sen kunnan terveydensuojeluviranomaiselle, jonka alueella laitoksella on kotipaikka.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Kunnan terveydensuojeluviranomaisen on lähetettävä ilmoitus tiedoksi ja mahdollista lausuntoa varten niiden kuntien terveydensuojeluviranomaisille, joiden alueelle vesi laitos toimittaa vettä tai joiden alueelta se ottaa vettä, sekä vastaavasti asianomaisille vesi- ja ympäristöpiireille ja lääninhallituksille.</saa:MomenttiKooste>
@@ -715,6 +707,10 @@ c) huvipuisto; sekä
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>ETA-sopimus Liite XX: Neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="380L0778"><sis1:ViiteTeksti>80/778/ETY</sis1:ViiteTeksti></sis:YleinenViite> ja <sis:YleinenViite sis1:viiteURL="381L0858"><sis1:ViiteTeksti>81/858/ETY</sis1:ViiteTeksti></sis:YleinenViite></sdk:EsityoViite>
+    <sdk:EsityoViite>ETA:n <saa:SaadosKursiiviKooste>sekakomitean päätös 21.3.1994 N:o 7/94. ETA-sopimuksen liite II:  93/43/ETY</saa:SaadosKursiiviKooste></sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 16 päivänä joulukuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
