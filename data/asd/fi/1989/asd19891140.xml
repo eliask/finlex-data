@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>asuntotuotantolain muuttamisesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Hallituksen esitys 194/89</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Toisen lakivaliok. miet. 12/89</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>Suuren valiok. miet. 208/89</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -153,17 +142,11 @@
           <saa:MomenttiKooste>Lainan myöntänyt luottolaitos on velvollinen antamaan ympäristöministeriön, valtiovarainministeriön ja asuntohallituksen valtuuttamille henkilöille sellaisia tietoja, jotka ovat tarpeen sen selvittämiseksi, onko lainan hakija ollut laissa tarkoitetun luoton tarpeessa, samoin kuin ne tiedot ja tarkastettavaksi ne asiakirjat, jotka tarvitaan sen toteamiseksi, onko lainaehtoja sekä tätä lakia ja sen nojalla annettuja määräyksiä muutoin noudatettu. Samassa tarkoituksessa saadaan sen mukaan kuin asetuksella säädetään, suorittaa tarkastuksia ja katselmuksia.</saa:MomenttiKooste>
         </saa:Pykala>
         <sis:Palstaviiva/>
-        <te>Tämä laki tulee voimaan 1 päivänä tammikuuta 1990.</te>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala">
-          <saa:KohdatMomentti>
-            <saa:MomenttiJohdantoKooste>Lain 7§:n 1 momenttia, 8§:n 1 ja 4 momenttia sekä 8 a, 11 a-11 c ja 11 e§:ää sovelletaan:</saa:MomenttiJohdantoKooste>
-            <saa:MomenttiKohtaKooste>
-1) niihin lain 6§:n 1 momentin 1 ja 3 kohdan mukaisiin asuntolainoihin, joita koskeva hakemus on jätetty kunnan viranomaiselle kesäkuun 1 päivänä 1989 tai sen jälkeen, ja laina myönnetään vuoden 1990 tai myöhemmästä myöntämisvaltuudesta; ja
-</saa:MomenttiKohtaKooste>
-            <saa:MomenttiKohtaKooste>
-2) lain 6§:n 1 momentin 4 ja 7 kohdan mukaisiin asuntolainoihin, jos asunto hankitaan maaliskuun 1 päivänä 1990 tai sen jälkeen.
-</saa:MomenttiKohtaKooste>
-          </saa:KohdatMomentti>
+        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
+          <saa:MomenttiKooste>Tämä laki tulee voimaan 1 päivänä tammikuuta 1990.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Lain 7§:n 1 momenttia, 8§:n 1 ja 4 momenttia sekä 8 a, 11 a-11 c ja 11 e§:ää sovelletaan:</saa:MomenttiKooste>
+          <saa:MomenttiKooste>1) niihin lain 6§:n 1 momentin 1 ja 3 kohdan mukaisiin asuntolainoihin, joita koskeva hakemus on jätetty kunnan viranomaiselle kesäkuun 1 päivänä 1989 tai sen jälkeen, ja laina myönnetään vuoden 1990 tai myöhemmästä myöntämisvaltuudesta; ja</saa:MomenttiKooste>
+          <saa:MomenttiKooste>2) lain 6§:n 1 momentin 4 ja 7 kohdan mukaisiin asuntolainoihin, jos asunto hankitaan maaliskuun 1 päivänä 1990 tai sen jälkeen.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Jos lainaa koskeva hakemus on jätetty aikaisemmin tai asunto on hankittu aikaisemmin kuin 2 momentissa on säädetty, sovelletaan asuntolainaan 7§:n 1 momentin, 8§:n 1 ja 4 momentin sekä 11§:n 1 momentin säännöksiä edelleen sellaisina kuin ne ovat ennen tämän lain voimaantuloa.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Lain 11 d§:ää sovelletaan vain jos talon rakentamista, laajentamista tai peruskorjausta varten myönnetty alkuperäinen laina on myönnetty tämän lain nojalla.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Valtion ensisijaisia lainoja voidaan myöntää vuoden 1993 loppuun saakka. Tällöin sovelletaan ensisijaisia lainoja koskevia tällä lailla kumottuja tai muutettuja säännöksiä edelleen sellaisina kuin ne ovat ennen tämän lain voimaantuloa.</saa:MomenttiKooste>
@@ -173,6 +156,11 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Hallituksen esitys 194/89</sdk:EsityoViite>
+    <sdk:EsityoViite>Toisen lakivaliok. miet. 12/89</sdk:EsityoViite>
+    <sdk:EsityoViite>Suuren valiok. miet. 208/89</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 15 päivänä joulukuuta 1989</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

@@ -10,14 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>rehuseoksista</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti><sis1:YlaindeksiTeksti>1</sis1:YlaindeksiTeksti> ETA-sopimuksen liite 1: neuvoston direktiivi 79/373/ETY, komission direktiivi 80/509 ETY, komission direktiivi80/511/ETY, komission direktiivi80/695/ETY, komission direktiivi82/475/ETY, komission direktiivi82/957/ETY, komission direktiivi86/174/ETY, neuvoston direktiivi 86/354/ETY, komission direktiivi87/235/ETY, neuvoston direktiivi 90/44/ETY, komission direktiivi91/334/ETY, neuvoston direktiivi 91/357/ETY, komission direktiivi 91/681 /ETY, komission direktiivi92/87/ETY ja komission päätös 92/508/ETY.</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti><sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> Ravintoaineiden sulavuusarvot julkaistu kirjassa Rehutaulukot ja ruokintanormit, toim. Salo, M-L &amp; al. Helsinki 1990.</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Päätös">
@@ -94,6 +86,10 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite><sis1:YlaindeksiTeksti>1</sis1:YlaindeksiTeksti> ETA-sopimuksen liite 1: neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="379L0373"><sis1:ViiteTeksti>79/373/ETY</sis1:ViiteTeksti></sis:YleinenViite>, komission direktiivi 80/509 ETY, komission direktiivi <sis:YleinenViite sis1:viiteURL="380L0511"><sis1:ViiteTeksti>80/511/ETY</sis1:ViiteTeksti></sis:YleinenViite>, komission direktiivi <sis:YleinenViite sis1:viiteURL="380L0695"><sis1:ViiteTeksti>80/695/ETY</sis1:ViiteTeksti></sis:YleinenViite>, komission direktiivi <sis:YleinenViite sis1:viiteURL="382L0475"><sis1:ViiteTeksti>82/475/ETY</sis1:ViiteTeksti></sis:YleinenViite>, komission direktiivi <sis:YleinenViite sis1:viiteURL="382L0957"><sis1:ViiteTeksti>82/957/ETY</sis1:ViiteTeksti></sis:YleinenViite>, komission direktiivi <sis:YleinenViite sis1:viiteURL="386L0174"><sis1:ViiteTeksti>86/174/ETY</sis1:ViiteTeksti></sis:YleinenViite>, neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="386L0354"><sis1:ViiteTeksti>86/354/ETY</sis1:ViiteTeksti></sis:YleinenViite>, komission direktiivi <sis:YleinenViite sis1:viiteURL="387L0235"><sis1:ViiteTeksti>87/235/ETY</sis1:ViiteTeksti></sis:YleinenViite>, neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="390L0044"><sis1:ViiteTeksti>90/44/ETY</sis1:ViiteTeksti></sis:YleinenViite>, komission direktiivi <sis:YleinenViite sis1:viiteURL="391L0334"><sis1:ViiteTeksti>91/334/ETY</sis1:ViiteTeksti></sis:YleinenViite>, neuvoston direktiivi <sis:YleinenViite sis1:viiteURL="391L0357"><sis1:ViiteTeksti>91/357/ETY</sis1:ViiteTeksti></sis:YleinenViite>, komission direktiivi 91/681 /ETY, komission direktiivi <sis:YleinenViite sis1:viiteURL="392L0087"><sis1:ViiteTeksti>92/87/ETY</sis1:ViiteTeksti></sis:YleinenViite> ja komission päätös <sis:YleinenViite sis1:viiteURL="392D0508"><sis1:ViiteTeksti>92/508/ETY</sis1:ViiteTeksti></sis:YleinenViite>.</sdk:EsityoViite>
+    <sdk:EsityoViite><sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> Ravintoaineiden sulavuusarvot julkaistu kirjassa Rehutaulukot ja ruokintanormit, toim. Salo, M-L &amp; al. Helsinki 1990.</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 1 päivänä maaliskuuta 1994</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -111,7 +107,7 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>Liite 1</ete>
+      <sis1:ValiotsikkoTeksti>Liite 1</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>REHUSEOKSISSA KIELLETYT REHUT JA AINEKSET</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Seuraavia aineksia ei saa sekoittaa rehuseoksiin:</sis:KappaleKooste>
       <sis:KappaleKooste>1) n-alkaaneilla kasvatetuista Candida-hiivoista valmistettuja valkuaistuotteita;</sis:KappaleKooste>
@@ -123,7 +119,7 @@
       <sis:KappaleKooste>7) kiinteää yhdyskuntajätettä, kuten kotitalousjätettä,</sis:KappaleKooste>
       <sis:KappaleKooste>8) käsittelemätöntä ruokajätettä, lukuunottamatta kasviperäisiä elintarvikkeita, jotka eivät ole riittävän tuoreita elintarvikekäyttöön, eikä</sis:KappaleKooste>
       <sis:KappaleKooste>9) maataloustuotteita jalostavasta elintarviketeollisuudesta peräisin olevia pakkauksia ja pakkausten osia.</sis:KappaleKooste>
-      <ete>Liite 2</ete>
+      <sis1:ValiotsikkoTeksti>Liite 2</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>MUIDEN ELÄINTEN KUIN LEMMIKKIELÄINTEN REHUSEOKSIIN KÄYTETTÄVIEN TAVALLISIMPIEN RAAKA-AINEIDEN AITOUSVAATIMUKSET</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>OSA A. YLEISIÄ MÄÄRÄYKSIÄ</sis1:LihavaTeksti>
@@ -166,17 +162,17 @@
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Valmistusprosessi</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Valmistusprosessi</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Määritelmä</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Määritelmä</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Yleisnimi/nimitys</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Yleisnimi/nimitys</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -364,17 +360,17 @@
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Numero</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Numero</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Nimi</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Nimi</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <saa:SaadosKursiiviKooste>Kuvaus</saa:SaadosKursiiviKooste>
+                  <sis1:KursiiviTeksti>Kuvaus</sis1:KursiiviTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -386,7 +382,7 @@
                 <sis:KappaleKooste>Kaura</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Kauran, <saa:SaadosKursiiviKooste>Avena sativa</saa:SaadosKursiiviKooste> L. ja muut yleisesti viljeltävät kauralajit, jyvät.</sis:KappaleKooste>
+                <sis:KappaleKooste>Kauran, <sis1:KursiiviTeksti>Avena sativa</sis1:KursiiviTeksti> L. ja muut yleisesti viljeltävät kauralajit, jyvät.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -430,7 +426,7 @@
                 <sis:KappaleKooste>Ohra</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Ohran, <saa:SaadosKursiiviKooste>Hordeum vulgare</saa:SaadosKursiiviKooste> L., jyvät.</sis:KappaleKooste>
+                <sis:KappaleKooste>Ohran, <sis1:KursiiviTeksti>Hordeum vulgare</sis1:KursiiviTeksti> L., jyvät.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -452,7 +448,7 @@
                 <sis:KappaleKooste>Rouhittu riisi</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Puhdistetun tai kiillotetun riisin, <saa:SaadosKursiiviKooste>Oryza sativa</saa:SaadosKursiiviKooste> L., myllytyksen sivutuote. Se koostuu pääasiassa alamittaisista ja/tai rikkoontuneista jyvistä.</sis:KappaleKooste>
+                <sis:KappaleKooste>Puhdistetun tai kiillotetun riisin, <sis1:KursiiviTeksti>Oryza sativa</sis1:KursiiviTeksti> L., myllytyksen sivutuote. Se koostuu pääasiassa alamittaisista ja/tai rikkoontuneista jyvistä.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -540,7 +536,7 @@
                 <sis:KappaleKooste>Hirssi</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Hirssin, <saa:SaadosKursiiviKooste>Panicum miliaceum</saa:SaadosKursiiviKooste> L., jyvät.</sis:KappaleKooste>
+                <sis:KappaleKooste>Hirssin, <sis1:KursiiviTeksti>Panicum miliaceum</sis1:KursiiviTeksti> L., jyvät.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -551,7 +547,7 @@
                 <sis:KappaleKooste>Ruis</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Rukiin, <saa:SaadosKursiiviKooste>Secale cereale</saa:SaadosKursiiviKooste> L., jyvät.</sis:KappaleKooste>
+                <sis:KappaleKooste>Rukiin, <sis1:KursiiviTeksti>Secale cereale</sis1:KursiiviTeksti> L., jyvät.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -595,7 +591,7 @@
                 <sis:KappaleKooste>Durra</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Durran, <saa:SaadosKursiiviKooste>Sorghum bicolor</saa:SaadosKursiiviKooste> (L.) Moench s.i., jyvät.</sis:KappaleKooste>
+                <sis:KappaleKooste>Durran, <sis1:KursiiviTeksti>Sorghum bicolor</sis1:KursiiviTeksti> (L.) Moench s.i., jyvät.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -606,7 +602,7 @@
                 <sis:KappaleKooste>Vehnä</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Vehnän, <saa:SaadosKursiiviKooste>Triticum aestivum</saa:SaadosKursiiviKooste> L., <saa:SaadosKursiiviKooste>Triticum durum</saa:SaadosKursiiviKooste> Desf ja muut yleisesti viljeltävät vehnälajit, jyvät.</sis:KappaleKooste>
+                <sis:KappaleKooste>Vehnän, <sis1:KursiiviTeksti>Triticum aestivum</sis1:KursiiviTeksti> L., <sis1:KursiiviTeksti>Triticum durum</sis1:KursiiviTeksti> Desf ja muut yleisesti viljeltävät vehnälajit, jyvät.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -694,7 +690,7 @@
                 <sis:KappaleKooste>Spelttivehnä</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Spelttivehnän, <saa:SaadosKursiiviKooste>Triticum spelta</saa:SaadosKursiiviKooste> L., <saa:SaadosKursiiviKooste>Triticum dioccum</saa:SaadosKursiiviKooste> Schrank ja <saa:SaadosKursiiviKooste>Triticum monococcum</saa:SaadosKursiiviKooste>, jyvät.</sis:KappaleKooste>
+                <sis:KappaleKooste>Spelttivehnän, <sis1:KursiiviTeksti>Triticum spelta</sis1:KursiiviTeksti> L., <sis1:KursiiviTeksti>Triticum dioccum</sis1:KursiiviTeksti> Schrank ja <sis1:KursiiviTeksti>Triticum monococcum</sis1:KursiiviTeksti>, jyvät.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -705,7 +701,7 @@
                 <sis:KappaleKooste>Triticale, ruisvehnä</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Triticalen, <saa:SaadosKursiiviKooste>Triticum X Secale</saa:SaadosKursiiviKooste> -hybridi, jyvät.</sis:KappaleKooste>
+                <sis:KappaleKooste>Triticalen, <sis1:KursiiviTeksti>Triticum X Secale</sis1:KursiiviTeksti> -hybridi, jyvät.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -716,7 +712,7 @@
                 <sis:KappaleKooste>Maissi</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Maissin, <saa:SaadosKursiiviKooste>Zea mays</saa:SaadosKursiiviKooste> L., jyvät.</sis:KappaleKooste>
+                <sis:KappaleKooste>Maissin, <sis1:KursiiviTeksti>Zea mays</sis1:KursiiviTeksti> L., jyvät.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -884,7 +880,7 @@
                 <sis:KappaleKooste>Maapähkinäkakku osaksi kuorituista pähkinöistä</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan osaksi kuorituista <saa:SaadosKursiiviKooste>Arachis hypogaea</saa:SaadosKursiiviKooste> L. ja muiden <saa:SaadosKursiiviKooste>Arachis</saa:SaadosKursiiviKooste>-lajien pähkinöistä puristamalla. (Raakakuitupitoisuus enintään 16% kuiva-aineesta.)</sis:KappaleKooste>
+                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan osaksi kuorituista <sis1:KursiiviTeksti>Arachis hypogaea</sis1:KursiiviTeksti> L. ja muiden <sis1:KursiiviTeksti>Arachis</sis1:KursiiviTeksti>-lajien pähkinöistä puristamalla. (Raakakuitupitoisuus enintään 16% kuiva-aineesta.)</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -928,7 +924,7 @@
                 <sis:KappaleKooste>Rypsinsiemenet <sis1:YlaindeksiTeksti>(5)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Rypsilajien <saa:SaadosKursiiviKooste>Brassica napus</saa:SaadosKursiiviKooste> L. ssp. <saa:SaadosKursiiviKooste>oleifera</saa:SaadosKursiiviKooste> (Metzg.) Sinsk., <saa:SaadosKursiiviKooste>Brassica napus</saa:SaadosKursiiviKooste> L. var. <saa:SaadosKursiiviKooste>Glauca</saa:SaadosKursiiviKooste> (Roxb.) O.E. Schulz ja <saa:SaadosKursiiviKooste>Brassica campestris</saa:SaadosKursiiviKooste> L. ssp. <saa:SaadosKursiiviKooste>oleifera</saa:SaadosKursiiviKooste> (Metzg.) Sinsk, siemenet. (Puhtaus vähintään 94%.)</sis:KappaleKooste>
+                <sis:KappaleKooste>Rypsilajien <sis1:KursiiviTeksti>Brassica napus</sis1:KursiiviTeksti> L. ssp. <sis1:KursiiviTeksti>oleifera</sis1:KursiiviTeksti> (Metzg.) Sinsk., <sis1:KursiiviTeksti>Brassica napus</sis1:KursiiviTeksti> L. var. <sis1:KursiiviTeksti>Glauca</sis1:KursiiviTeksti> (Roxb.) O.E. Schulz ja <sis1:KursiiviTeksti>Brassica campestris</sis1:KursiiviTeksti> L. ssp. <sis1:KursiiviTeksti>oleifera</sis1:KursiiviTeksti> (Metzg.) Sinsk, siemenet. (Puhtaus vähintään 94%.)</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -972,7 +968,7 @@
                 <sis:KappaleKooste>Safflorirouhe osaksi kuorituista siemenistä</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan osaksi kuorituista safflorin, <saa:SaadosKursiiviKooste>Carthamus tinctorius</saa:SaadosKursiiviKooste> L., siemenistä uuttamalla.</sis:KappaleKooste>
+                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan osaksi kuorituista safflorin, <sis1:KursiiviTeksti>Carthamus tinctorius</sis1:KursiiviTeksti> L., siemenistä uuttamalla.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -983,7 +979,7 @@
                 <sis:KappaleKooste>Kookoskakku</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan kookospähkinän, <saa:SaadosKursiiviKooste>Cocos nucifera</saa:SaadosKursiiviKooste> L., kuivatusta sydämestä ja uloimmasta peitteestä puristamalla.</sis:KappaleKooste>
+                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan kookospähkinän, <sis1:KursiiviTeksti>Cocos nucifera</sis1:KursiiviTeksti> L., kuivatusta sydämestä ja uloimmasta peitteestä puristamalla.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1005,7 +1001,7 @@
                 <sis:KappaleKooste>Palmukakku</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan puristamalla lajien <saa:SaadosKursiiviKooste>Elaeis guineensis</saa:SaadosKursiiviKooste> Jacq., <saa:SaadosKursiiviKooste>Corozo oleifera</saa:SaadosKursiiviKooste> (HBK) L.H. Bailey (<saa:SaadosKursiiviKooste>Elaeis melanococca auct.</saa:SaadosKursiiviKooste>) pähkinöistä, joista kova ulkokuori on mahdollisimman tarkkaan poistettu.</sis:KappaleKooste>
+                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan puristamalla lajien <sis1:KursiiviTeksti>Elaeis guineensis</sis1:KursiiviTeksti> Jacq., <sis1:KursiiviTeksti>Corozo oleifera</sis1:KursiiviTeksti> (HBK) L.H. Bailey (<sis1:KursiiviTeksti>Elaeis melanococca auct.</sis1:KursiiviTeksti>) pähkinöistä, joista kova ulkokuori on mahdollisimman tarkkaan poistettu.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1027,7 +1023,7 @@
                 <sis:KappaleKooste>Paahdetut soijapavut</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Lämpökäsitellyt soijan, <saa:SaadosKursiiviKooste>Glycine max.</saa:SaadosKursiiviKooste> L. Merr., pavut.</sis:KappaleKooste>
+                <sis:KappaleKooste>Lämpökäsitellyt soijan, <sis1:KursiiviTeksti>Glycine max.</sis1:KursiiviTeksti> L. Merr., pavut.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1093,7 +1089,7 @@
                 <sis:KappaleKooste>Puuvillansiemenet</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Puuvillan, <saa:SaadosKursiiviKooste>Gossypium</saa:SaadosKursiiviKooste> spp., siemenet, joista kuidut on poistettu.</sis:KappaleKooste>
+                <sis:KappaleKooste>Puuvillan, <sis1:KursiiviTeksti>Gossypium</sis1:KursiiviTeksti> spp., siemenet, joista kuidut on poistettu.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1126,7 +1122,7 @@
                 <sis:KappaleKooste>Niger-siemenkakku</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan Niger-kasvin, <saa:SaadosKursiiviKooste>Guizotia abyssinica</saa:SaadosKursiiviKooste> (Lf) Cass., siemenistä puristamalla.</sis:KappaleKooste>
+                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan Niger-kasvin, <sis1:KursiiviTeksti>Guizotia abyssinica</sis1:KursiiviTeksti> (Lf) Cass., siemenistä puristamalla.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1137,7 +1133,7 @@
                 <sis:KappaleKooste>Auringonkukansiemenet</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Auringonkukan, <saa:SaadosKursiiviKooste>Helianthus annuus</saa:SaadosKursiiviKooste> L., siemenet.</sis:KappaleKooste>
+                <sis:KappaleKooste>Auringonkukan, <sis1:KursiiviTeksti>Helianthus annuus</sis1:KursiiviTeksti> L., siemenet.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1170,7 +1166,7 @@
                 <sis:KappaleKooste>Pellavansiemen</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Pellavan, <saa:SaadosKursiiviKooste>Linum usitatissimum</saa:SaadosKursiiviKooste> L., siemenet. (Puhtaus vähintään 93%).</sis:KappaleKooste>
+                <sis:KappaleKooste>Pellavan, <sis1:KursiiviTeksti>Linum usitatissimum</sis1:KursiiviTeksti> L., siemenet. (Puhtaus vähintään 93%).</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1203,7 +1199,7 @@
                 <sis:KappaleKooste>Oliivirouhe</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan uuttamalla puristetuista oliiveista, <saa:SaadosKursiiviKooste>Olea europaea</saa:SaadosKursiiviKooste> L., joista ytimen palaset on mahdollisimman tarkkaan poistettu.</sis:KappaleKooste>
+                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan uuttamalla puristetuista oliiveista, <sis1:KursiiviTeksti>Olea europaea</sis1:KursiiviTeksti> L., joista ytimen palaset on mahdollisimman tarkkaan poistettu.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1214,7 +1210,7 @@
                 <sis:KappaleKooste>Seesaminsiemenkakku</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan seesamkasvin, <saa:SaadosKursiiviKooste>Sesamum indicum</saa:SaadosKursiiviKooste> L., siemenistä puristamalla.</sis:KappaleKooste>
+                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan seesamkasvin, <sis1:KursiiviTeksti>Sesamum indicum</sis1:KursiiviTeksti> L., siemenistä puristamalla.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1225,7 +1221,7 @@
                 <sis:KappaleKooste>Kaakaorouhe osaksi kuorituista pavuista</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan uuttamalla kuivatuista ja paahdetuista kaakaopavuista, <saa:SaadosKursiiviKooste>Theabroma cacao</saa:SaadosKursiiviKooste> L. , joista osa kuoresta on poistettu.</sis:KappaleKooste>
+                <sis:KappaleKooste>Kasviöljyteollisuuden sivutuote, joka saadaan uuttamalla kuivatuista ja paahdetuista kaakaopavuista, <sis1:KursiiviTeksti>Theabroma cacao</sis1:KursiiviTeksti> L. , joista osa kuoresta on poistettu.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
           </tau:tbody>
@@ -1261,7 +1257,7 @@
                 <sis:KappaleKooste>Kahviherne</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Kahviherneen, <saa:SaadosKursiiviKooste>Cicer arietinum</saa:SaadosKursiiviKooste> L., siemenet.</sis:KappaleKooste>
+                <sis:KappaleKooste>Kahviherneen, <sis1:KursiiviTeksti>Cicer arietinum</sis1:KursiiviTeksti> L., siemenet.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1272,7 +1268,7 @@
                 <sis:KappaleKooste>Guarkumirouhe</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste><saa:SaadosKursiiviKooste>Cyamopsis tetragonoloba</saa:SaadosKursiiviKooste> (L.) Taub. -hernekasvin siemenistä saatava sivutuote, joka jää jäljelle kumin uuttamisen jälkeen.</sis:KappaleKooste>
+                <sis:KappaleKooste><sis1:KursiiviTeksti>Cyamopsis tetragonoloba</sis1:KursiiviTeksti> (L.) Taub. -hernekasvin siemenistä saatava sivutuote, joka jää jäljelle kumin uuttamisen jälkeen.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1283,7 +1279,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste><saa:SaadosKursiiviKooste>Ervum ervilia</saa:SaadosKursiiviKooste> L.- lajin siemenet</sis:KappaleKooste>
+                <sis:KappaleKooste><sis1:KursiiviTeksti>Ervum ervilia</sis1:KursiiviTeksti> L.- lajin siemenet</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1294,7 +1290,7 @@
                 <sis:KappaleKooste>Peltonätkelmä <sis1:YlaindeksiTeksti>(6)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Lämpökäsitellyt peltonätkelmän, <saa:SaadosKursiiviKooste>Lathyrus sativus</saa:SaadosKursiiviKooste> L., siemenet.</sis:KappaleKooste>
+                <sis:KappaleKooste>Lämpökäsitellyt peltonätkelmän, <sis1:KursiiviTeksti>Lathyrus sativus</sis1:KursiiviTeksti> L., siemenet.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1305,7 +1301,7 @@
                 <sis:KappaleKooste>Linssi</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Linssin, <saa:SaadosKursiiviKooste>Lens culinaris a.o.</saa:SaadosKursiiviKooste> Medik., siemenet.</sis:KappaleKooste>
+                <sis:KappaleKooste>Linssin, <sis1:KursiiviTeksti>Lens culinaris a.o.</sis1:KursiiviTeksti> Medik., siemenet.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1316,7 +1312,7 @@
                 <sis:KappaleKooste>Makealupiini</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Makealupiinin, <saa:SaadosKursiiviKooste>Lupinus</saa:SaadosKursiiviKooste> spp., siemenet, jotka sisältävät vähän karvaita siemeniä.</sis:KappaleKooste>
+                <sis:KappaleKooste>Makealupiinin, <sis1:KursiiviTeksti>Lupinus</sis1:KursiiviTeksti> spp., siemenet, jotka sisältävät vähän karvaita siemeniä.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1327,7 +1323,7 @@
                 <sis:KappaleKooste>Paahdetut pavut</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Pavun, <saa:SaadosKursiiviKooste>Phaseolus</saa:SaadosKursiiviKooste> tai <saa:SaadosKursiiviKooste>Vigna</saa:SaadosKursiiviKooste> spp., siemenet, jotka on lämpökäsitelty lektiinien tuhoamiseksi.</sis:KappaleKooste>
+                <sis:KappaleKooste>Pavun, <sis1:KursiiviTeksti>Phaseolus</sis1:KursiiviTeksti> tai <sis1:KursiiviTeksti>Vigna</sis1:KursiiviTeksti> spp., siemenet, jotka on lämpökäsitelty lektiinien tuhoamiseksi.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1338,7 +1334,7 @@
                 <sis:KappaleKooste>Herne</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Herneen, <saa:SaadosKursiiviKooste>Pisum</saa:SaadosKursiiviKooste> spp., siemenet.</sis:KappaleKooste>
+                <sis:KappaleKooste>Herneen, <sis1:KursiiviTeksti>Pisum</sis1:KursiiviTeksti> spp., siemenet.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1371,7 +1367,7 @@
                 <sis:KappaleKooste>Härkäpapu</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Härkäpavun, <saa:SaadosKursiiviKooste>Vicia faba</saa:SaadosKursiiviKooste> L. ssp. <saa:SaadosKursiiviKooste>faba</saa:SaadosKursiiviKooste> var. <saa:SaadosKursiiviKooste>equina Pers.</saa:SaadosKursiiviKooste> ja var. <saa:SaadosKursiiviKooste>minuta</saa:SaadosKursiiviKooste> (Alef.) Mansf., siemenet.</sis:KappaleKooste>
+                <sis:KappaleKooste>Härkäpavun, <sis1:KursiiviTeksti>Vicia faba</sis1:KursiiviTeksti> L. ssp. <sis1:KursiiviTeksti>faba</sis1:KursiiviTeksti> var. <sis1:KursiiviTeksti>equina Pers.</sis1:KursiiviTeksti> ja var. <sis1:KursiiviTeksti>minuta</sis1:KursiiviTeksti> (Alef.) Mansf., siemenet.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1382,7 +1378,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste><saa:SaadosKursiiviKooste>Vicia monanthos</saa:SaadosKursiiviKooste> Desf.-lajin siemenet.</sis:KappaleKooste>
+                <sis:KappaleKooste><sis1:KursiiviTeksti>Vicia monanthos</sis1:KursiiviTeksti> Desf.-lajin siemenet.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1393,7 +1389,7 @@
                 <sis:KappaleKooste>Virnat</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste><saa:SaadosKursiiviKooste>Vicia sativa</saa:SaadosKursiiviKooste> L. var <saa:SaadosKursiiviKooste>sativa</saa:SaadosKursiiviKooste>-lajin ja muiden lajien siemenet.</sis:KappaleKooste>
+                <sis:KappaleKooste><sis1:KursiiviTeksti>Vicia sativa</sis1:KursiiviTeksti> L. var <sis1:KursiiviTeksti>sativa</sis1:KursiiviTeksti>-lajin ja muiden lajien siemenet.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
           </tau:tbody>
@@ -1428,7 +1424,7 @@
                 <sis:KappaleKooste>(Sokeri)juurikasleike</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Sokerinvalmistuksen sivutuote, joka koostuu kuivatusta, uutetusta sokerijuurikasmassasta, <saa:SaadosKursiiviKooste>Beta vulgaris</saa:SaadosKursiiviKooste> L. ssp <saa:SaadosKursiiviKooste>vulgaris</saa:SaadosKursiiviKooste> var. <saa:SaadosKursiiviKooste>altissima</saa:SaadosKursiiviKooste> Doell.</sis:KappaleKooste>
+                <sis:KappaleKooste>Sokerinvalmistuksen sivutuote, joka koostuu kuivatusta, uutetusta sokerijuurikasmassasta, <sis1:KursiiviTeksti>Beta vulgaris</sis1:KursiiviTeksti> L. ssp <sis1:KursiiviTeksti>vulgaris</sis1:KursiiviTeksti> var. <sis1:KursiiviTeksti>altissima</sis1:KursiiviTeksti> Doell.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1483,7 +1479,7 @@
                 <sis:KappaleKooste>Bataatti</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Bataatin, <saa:SaadosKursiiviKooste>Ipomoea batatis</saa:SaadosKursiiviKooste> (L.) Poir., juurimukulat olomuodosta riippumatta.</sis:KappaleKooste>
+                <sis:KappaleKooste>Bataatin, <sis1:KursiiviTeksti>Ipomoea batatis</sis1:KursiiviTeksti> (L.) Poir., juurimukulat olomuodosta riippumatta.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1494,7 +1490,7 @@
                 <sis:KappaleKooste>Maniokki</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Maniokin, <saa:SaadosKursiiviKooste>Manihot esculenta</saa:SaadosKursiiviKooste> Crantz, juuret olomuodosta riippumatta.</sis:KappaleKooste>
+                <sis:KappaleKooste>Maniokin, <sis1:KursiiviTeksti>Manihot esculenta</sis1:KursiiviTeksti> Crantz, juuret olomuodosta riippumatta.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1516,7 +1512,7 @@
                 <sis:KappaleKooste>Perunapulppa</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Peruna tärkkelyksen, <saa:SaadosKursiiviKooste>Solanum tuberosum</saa:SaadosKursiiviKooste> L., uuton sivutuote.</sis:KappaleKooste>
+                <sis:KappaleKooste>Peruna tärkkelyksen, <sis1:KursiiviTeksti>Solanum tuberosum</sis1:KursiiviTeksti> L., uuton sivutuote.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1573,7 +1569,7 @@
                 <sis:KappaleKooste>Johanneksenleipäpuun palot</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Johanneksenleipäpuun, <saa:SaadosKursiiviKooste>Ceratonia siliqua</saa:SaadosKursiiviKooste> L., hedelmistä (paloista), joista siemenet on poistettu, murskaamalla saatu tuote.</sis:KappaleKooste>
+                <sis:KappaleKooste>Johanneksenleipäpuun, <sis1:KursiiviTeksti>Ceratonia siliqua</sis1:KursiiviTeksti> L., hedelmistä (paloista), joista siemenet on poistettu, murskaamalla saatu tuote.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1584,7 +1580,7 @@
                 <sis:KappaleKooste>Sitrushedelmämassa</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Sivutuote, joka saadaan sitrusmehujen valmistuksen yhteydessä puristamalla sitrushedelmistä, <saa:SaadosKursiiviKooste>Citrus</saa:SaadosKursiiviKooste> spp.</sis:KappaleKooste>
+                <sis:KappaleKooste>Sivutuote, joka saadaan sitrusmehujen valmistuksen yhteydessä puristamalla sitrushedelmistä, <sis1:KursiiviTeksti>Citrus</sis1:KursiiviTeksti> spp.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1595,7 +1591,7 @@
                 <sis:KappaleKooste>Omenan puristemassa</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Sivutuote. joka saadaan omenamehun valmistuksen yhteydessä puristamalla omenoista, <saa:SaadosKursiiviKooste>Malus</saa:SaadosKursiiviKooste> spp.</sis:KappaleKooste>
+                <sis:KappaleKooste>Sivutuote. joka saadaan omenamehun valmistuksen yhteydessä puristamalla omenoista, <sis1:KursiiviTeksti>Malus</sis1:KursiiviTeksti> spp.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1606,7 +1602,7 @@
                 <sis:KappaleKooste>Tomaattimassa</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Sivutuote, joka saadaan tomaattimehun valmistuksen yhteydessä puristamalla tomaateista, <saa:SaadosKursiiviKooste>Solanum lycopersicum L. Karst.</saa:SaadosKursiiviKooste></sis:KappaleKooste>
+                <sis:KappaleKooste>Sivutuote, joka saadaan tomaattimehun valmistuksen yhteydessä puristamalla tomaateista, <sis1:KursiiviTeksti>Solanum lycopersicum L. Karst.</sis1:KursiiviTeksti></sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1617,7 +1613,7 @@
                 <sis:KappaleKooste>Viinirypälemassa</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Viinin valmistuksen sivutuote, joka jää jäljelle viinirypäleistä, <saa:SaadosKursiiviKooste>Vitis vinifera</saa:SaadosKursiiviKooste> L., kun mehu on puristettu pois.</sis:KappaleKooste>
+                <sis:KappaleKooste>Viinin valmistuksen sivutuote, joka jää jäljelle viinirypäleistä, <sis1:KursiiviTeksti>Vitis vinifera</sis1:KursiiviTeksti> L., kun mehu on puristettu pois.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1662,7 +1658,7 @@
                 <sis:KappaleKooste>Sinimailasjauho <sis1:YlaindeksiTeksti>(8)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Nuoresta sinimailasesta, <saa:SaadosKursiiviKooste>Medicago sativa</saa:SaadosKursiiviKooste> L. ja <saa:SaadosKursiiviKooste>Medigaco</saa:SaadosKursiiviKooste> var. <saa:SaadosKursiiviKooste>Martyn</saa:SaadosKursiiviKooste>., kuivaamalla ja jauhamalla saatu tuote. (Puhtaus vähintään 80%.)</sis:KappaleKooste>
+                <sis:KappaleKooste>Nuoresta sinimailasesta, <sis1:KursiiviTeksti>Medicago sativa</sis1:KursiiviTeksti> L. ja <sis1:KursiiviTeksti>Medigaco</sis1:KursiiviTeksti> var. <sis1:KursiiviTeksti>Martyn</sis1:KursiiviTeksti>., kuivaamalla ja jauhamalla saatu tuote. (Puhtaus vähintään 80%.)</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1695,7 +1691,7 @@
                 <sis:KappaleKooste>Apilajauho <sis1:YlaindeksiTeksti>(8)</sis1:YlaindeksiTeksti></sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Nuoresta apilasta, <saa:SaadosKursiiviKooste>Trifolium</saa:SaadosKursiiviKooste> ssp., kuivaamalla ja jauhamalla saatu tuote. (Puhtaus vähintään 80%.)</sis:KappaleKooste>
+                <sis:KappaleKooste>Nuoresta apilasta, <sis1:KursiiviTeksti>Trifolium</sis1:KursiiviTeksti> ssp., kuivaamalla ja jauhamalla saatu tuote. (Puhtaus vähintään 80%.)</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -1764,7 +1760,7 @@
                 <sis:KappaleKooste>Ruoko(sokeri)melassi</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Ruokosokerin, <saa:SaadosKursiiviKooste>Saccharum officinarum</saa:SaadosKursiiviKooste> L., valmistuksen yhteydessä talteen otettava siirappimainen jäännös.</sis:KappaleKooste>
+                <sis:KappaleKooste>Ruokosokerin, <sis1:KursiiviTeksti>Saccharum officinarum</sis1:KursiiviTeksti> L., valmistuksen yhteydessä talteen otettava siirappimainen jäännös.</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -2322,7 +2318,7 @@
         </tau:tgroup>
       </tau:table>
       <sis:KappaleKooste>(17) Suolan laatu voidaan ilmoittaa nimessä.</sis:KappaleKooste>
-      <ete>Liite 3</ete>
+      <sis1:ValiotsikkoTeksti>Liite 3</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>REHUSEOSTEN TUOTESELOSTE</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>A. YLEISET MERKINTÄVAATIMUKSET</sis1:LihavaTeksti>
@@ -2763,7 +2759,7 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="5">
+              <tau:entry nameend="5" namest="2">
                 <sis:KappaleKooste>Rehuvalmiste</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
@@ -3282,7 +3278,7 @@
       </tau:table>
       <sis:KappaleKooste><sis1:YlaindeksiTeksti>(1)</sis1:YlaindeksiTeksti> Liitteen 5 laskukaavan mukaan (EY:n laskutapa).</sis:KappaleKooste>
       <sis:KappaleKooste><sis1:YlaindeksiTeksti>(2)</sis1:YlaindeksiTeksti> Suomessa maa- ja metsätalousministeriön hyväksymän laskutavan mukaan, joka on julkaistu kirjassa: 'Rehutaulukot ja ruokintanormit', toim. Salo, M-L (Helsingin Yliopiston Kotieläintieteen laitos, Helsinki 1990). Mikäli tuoteseloslealueen ulkopuolella ilmoitetaan energia- ja valkuaisarvo <sis1:KursiiviTeksti>turkiseläimille</sis1:KursiiviTeksti>, se on laskettava mainitun rehutaulukon menetelmällä. Tuoteselostealueen ulkopuolella ilmoitettava energia <sis1:KursiiviTeksti>kaloille ja lemmikkieläimille</sis1:KursiiviTeksti> ilmoitetaan kokonaisenergiana.</sis:KappaleKooste>
-      <ete>Liite 4</ete>
+      <sis1:ValiotsikkoTeksti>Liite 4</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>
         <sis1:LihavaTeksti>REHUSEOSTEN TUOTESELOSTEESSA KÄYTETTÄVÄT RAAKA-AINEIDEN RYHMÄNIMET</sis1:LihavaTeksti>
       </sis:KappaleKooste>
@@ -3717,7 +3713,7 @@
           </tau:tbody>
         </tau:tgroup>
       </tau:table>
-      <ete>Liite 5</ete>
+      <sis1:ValiotsikkoTeksti>Liite 5</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>SIIPIKARJAN REHUSEOSTEN ENERGIA-ARVON LASKEMINEN</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Milloin siipikarjan rehuseosten energia-arvo ilmoitetaan, se tulee laskea alla olevalla tavalla eikä muita laskenta- eikä ilmoitustapoja saa käyttää.</sis:KappaleKooste>
       <sis:KappaleKooste>Enimmäispoikkeama tarkastustulosten perusteella lasketusta ja rehuseoksen valmistajan ilmoittamasta arvosta saa olla enintään niin paljon kuin seuraavassa on määrätty:</sis:KappaleKooste>

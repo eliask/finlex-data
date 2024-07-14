@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="1996-02-20" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="fi" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -131,12 +131,14 @@
           <sis:Katkoviiva/>
           <saa:MomenttiKooste>Edellä 2 momentissa tarkoitetut edellytykset täyttävälle henkilölle tai kyseiset edellytykset täyttäville henkilöille voidaan yksinäänkin myöntää investointiavustusta sekä muuta lainaa kuin maanostolainaa maatilan tai asuntotilan hankintaan, jos maatilan muut yhteisomistajat tai -haltijat antavat siihen suostumuksensa.</saa:MomenttiKooste>
         </saa:Pykala>
-        <saa:SaadosValiotsikkoKooste>21 §</saa:SaadosValiotsikkoKooste>
-        <saa:SaadosValiotsikkoKooste>Investointituki</saa:SaadosValiotsikkoKooste>
-        <te>Investointitukea yritystoiminnan laajentamiseen ja käyttöomaisuuden uudistamiseen voidaan myöntää vain, jos siten saavutetaan tuettavan yritystoiminnan tarjoamien työtilaisuuksien, tuotannon jalostusarvon tai palvelusten oleellinen lisäys.</te>
-        <te>Investointitukea voidaan kuitenkin myöntää pienyritystoiminnan ympäristönsuojelun tehostamiseen, vaikka hanke ei täytä 1 momentin mukaisia edellytyksiä.</te>
-        <te>Jos uudistettavan käyttöomaisuuden hankintaan on aikaisemmin myönnetty valtion varoista avustusta, lainaa tai korkotukea, investointitukea voidaan myöntää vain työtilaisuuksien, tuotannon jalostusarvon tai palvelusten lisäystä vastaavalta osin.</te>
-        <te>Mitä 15 §:ssä säädetään maatilojen investointien tuesta, sovelletaan myös pienyritystoiminnan investointeihin.</te>
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="21 §">
+          <saa:PykalaTunnusKooste>21 §</saa:PykalaTunnusKooste>
+          <saa:SaadosOtsikkoKooste>Investointituki</saa:SaadosOtsikkoKooste>
+          <saa:MomenttiKooste>Investointitukea yritystoiminnan laajentamiseen ja käyttöomaisuuden uudistamiseen voidaan myöntää vain, jos siten saavutetaan tuettavan yritystoiminnan tarjoamien työtilaisuuksien, tuotannon jalostusarvon tai palvelusten oleellinen lisäys.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Investointitukea voidaan kuitenkin myöntää pienyritystoiminnan ympäristönsuojelun tehostamiseen, vaikka hanke ei täytä 1 momentin mukaisia edellytyksiä.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Jos uudistettavan käyttöomaisuuden hankintaan on aikaisemmin myönnetty valtion varoista avustusta, lainaa tai korkotukea, investointitukea voidaan myöntää vain työtilaisuuksien, tuotannon jalostusarvon tai palvelusten lisäystä vastaavalta osin.</saa:MomenttiKooste>
+          <saa:MomenttiKooste>Mitä 15 §:ssä säädetään maatilojen investointien tuesta, sovelletaan myös pienyritystoiminnan investointeihin.</saa:MomenttiKooste>
+        </saa:Pykala>
         <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="22 §">
           <saa:PykalaTunnusKooste>22 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Pienyritystoiminnan investointien tukimuodot</saa:SaadosOtsikkoKooste>
@@ -198,36 +200,32 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="45 §">
             <saa:PykalaTunnusKooste>45 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Laina-aika</saa:SaadosOtsikkoKooste>
-            <saa:KohdatMomentti>
-              <saa:MomenttiJohdantoKooste>Valtionlainojen laina-aika porrastetaan investointikohteesta riippuen seuraavasti:</saa:MomenttiJohdantoKooste>
-              <saa:MomenttiKohtaKooste>
-                <tau:table>
-                  <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
-                    <tau:colspec colnum="1" colname="col1" colwidth="11520*"/>
-                    <tau:colspec colnum="2" colname="col2" colwidth="11520*"/>
-                    <tau:tbody valign="top">
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>1) tasingon maksu ja lakiosan täydennys</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>5―25 vuotta</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>2) lisäalueen hankinta</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>5―25 vuotta</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                    </tau:tbody>
-                  </tau:tgroup>
-                </tau:table>
-              </saa:MomenttiKohtaKooste>
-              <sis:Katkoviiva/>
-            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Valtionlainojen laina-aika porrastetaan investointikohteesta riippuen seuraavasti:</saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup cols="2" colsep="0" rowsep="0" align="left">
+                <tau:colspec colnum="1" colname="col1" colwidth="11520*"/>
+                <tau:colspec colnum="2" colname="col2" colwidth="11520*"/>
+                <tau:tbody valign="top">
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>1) tasingon maksu ja lakiosan täydennys</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5―25 vuotta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>2) lisäalueen hankinta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5―25 vuotta</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
+            <sis:Katkoviiva/>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="45 a §">
             <saa:PykalaTunnusKooste>45 a §</saa:PykalaTunnusKooste>
