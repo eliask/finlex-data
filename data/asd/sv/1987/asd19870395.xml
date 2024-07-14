@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Läkemedelslag</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Regeringens proposition 87/86</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Ekonomiutsk. bet. 13/86</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>Stora utsk. bet. 272/86</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Laki">
@@ -170,14 +159,14 @@
           <saa:LukuTunnusKooste>4 kap.</saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Försäljningstillstånd</saa:SaadosOtsikkoKooste>
           <saa:SaadosValiotsikkoKooste>
-            <oikaisu>
-              <uusi>Kapitlets tillämpningsområde</uusi>
-              <vanha>
-                <oikhuom>Den märkta texten har rättat (1996),
-                    Originaltexten lydde:</oikhuom>
-                <oikte>Tillämpningsområde för tillståndet</oikte>
-              </vanha>
-            </oikaisu>
+            <sdk:Oikaisu>
+              <sdk:Uusi>Kapitlets tillämpningsområde</sdk:Uusi>
+              <sdk:Vanha>
+                <sdk:Oikhuom>Den märkta texten har rättat (1996),
+                    Originaltexten lydde:</sdk:Oikhuom>
+                <sdk:Oikte>Tillämpningsområde för tillståndet</sdk:Oikte>
+              </sdk:Vanha>
+            </sdk:Oikaisu>
           </saa:SaadosValiotsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="20 §">
             <saa:PykalaTunnusKooste>20 §</saa:PykalaTunnusKooste>
@@ -693,47 +682,52 @@
         <saa:Luku saa1:identifiointiTunnus="12 kap.">
           <saa:LukuTunnusKooste>12 kap.</saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Ikraftträdande och övergångsstadganden</saa:SaadosOtsikkoKooste>
+          <saa:SaadosValiotsikkoKooste>Ikraftträdande</saa:SaadosValiotsikkoKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="104 §">
             <saa:PykalaTunnusKooste>104 §</saa:PykalaTunnusKooste>
+            <te>Denna lag träder i kraft den 1 januari 1988.</te>
+            <te>Genom denna lag upphävs lagen den 4 januari 1928 om apoteksväsendet (4/28) och apoteksvarulagen av den 5 december 1935 (374/35) jämte senare ändringar.</te>
+            <te>Åtgärder som behövs för verkställigheten av denna lag kan vidtas innan lagen träder i kraft.</te>
+          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Rättigheter och tillstånd som gäller när lagen träder i kraft</saa:SaadosValiotsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="105 §">
+            <saa:PykalaTunnusKooste>105 §</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>Den som när denna lag träder i kraft har tillstånd till fabriksmässig tillverkning av apoteksvaror för avsalu eller till handel med apoteksvaror har rätt att alltjämt utan ovan i denna lag stadgat tillstånd industriellt tillverka läkemedel i läkemedelsfabrik eller idka partihandel med läkemedel. Nya tillstånd som avses i 8 och 32 §§ skall dock sökas inom tre år från det denna lag trätt i kraft vid äventyr att det gamla tillståndet annars anses ha förfallit.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="106 §">
+            <saa:PykalaTunnusKooste>106 §</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>Den som vid denna lags ikraftträdande har rätt att idka apoteksrörelse på ett apotek eller filialapotek, har alltjämt samma rätt.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="107 §">
+            <saa:PykalaTunnusKooste>107 §</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>En kommun eller ett kommunalförbund som då denna lag träder i kraft har statsrådets tillstånd att vid ett sjukhus, som kommunen eller kommunalförbundet upprätthåller, hålla ett särskilt apotek har, utan särskilt tillstånd, rätt att fortfarande hålla sådant sjukhusapotek som avses i denna lag. En kommun eller ett kommunalförbund som då denna lag träder i kraft har tillstånd enligt lagen om apoteksväsendet att vid sjukhus eller hälsovårdscentral, som kommunen eller kommunalförbundet upprätthåller, på annat sätt tillverka eller därifrån distribuera läkemedel, får fortfarande utan hinder av vad som i denna lag stadgas om behörighetsvillkoren för föreståndare för läkemedelscentral, distribuera läkemedel från en läkemedelscentral som avses i denna lag. En privat sjukvårdsanstalt eller en anstalt för utvecklingsstörda, som vid denna lags ikraftträdande har ovan nämnt tillstånd att tillverka och distribuera läkemedel, får också i fortsättningen distribuera läkemedel från en läkemedelscentral som avses i denna lag.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="108 §">
+            <saa:PykalaTunnusKooste>108 §</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>Är tillstånd, som med stöd av apoteksvarulagen beviljats att sälja eller på annat sätt till förbrukning överlåta farmaceutiskt specialpreparat, gällande när denna lag träder i kraft, får preparatet i fortsättningen säljas eller på annat sätt överlåtas till förbrukning såsom läkemedelspreparat som avses i 20 §. På ett sådant preparat tillämpas även i övrigt stadgandena i denna lag.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="109 §">
+            <saa:PykalaTunnusKooste>109 §</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>Är ett tillstånd, som med stöd av 10 f § apoteksvarulagen beviljats att sälja eller eljest till förbrukning överlåta beredning, gällande när denna lag träder i kraft, får beredningen i fortsättningen säljas till allmänheten såsom en sådan produkt av läkemedelstyp som avses i denna lag. Detsamma gäller beredning, för vilken på det sätt om vilket stadgas särskilt har godkänts ett ändamål av samma art som för en produkt av läkemedelstyp.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:SaadosValiotsikkoKooste>Taxa, farmakop och läkemedelsförteckning som gäller när lagen träder i kraft</saa:SaadosValiotsikkoKooste>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="110 §">
+            <saa:PykalaTunnusKooste>110 §</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>Då denna lag träder i kraft skall alltjämt iakttas den för apoteken senast fastställda taxan och farmakopn, tills med stöd av denna lag har fastställts en ny läkemedelstaxa och farmakop. Medicinalstyrelsen skall inom ett år efter det denna lag trätt i kraft fastställa en läkemedelsförteckning. Till dess gäller apoteksvaruförteckningen enligt apoteksvarulagen.</saa:MomenttiKooste>
+          </saa:Pykala>
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="111 §">
+            <saa:PykalaTunnusKooste>111 §</saa:PykalaTunnusKooste>
+            <saa:MomenttiKooste>Då denna lag träder i kraft handläggs och avgörs ett ärende, som gjorts anhängigt vid länsstyrelsen, medicinalstyrelsen eller social- och hälsovårdsministeriet och som avses i lagen om apoteksväsendet eller apoteksvarulagen, enligt de stadganden som gäller vid lagens ikraftträdande.</saa:MomenttiKooste>
           </saa:Pykala>
         </saa:Luku>
-        <saa:SaadosValiotsikkoKooste>Ikraftträdande</saa:SaadosValiotsikkoKooste>
-        <te>Denna lag träder i kraft den 1 januari 1988.</te>
-        <te>Genom denna lag upphävs lagen den 4 januari 1928 om apoteksväsendet (4/28) och apoteksvarulagen av den 5 december 1935 (374/35) jämte senare ändringar.</te>
-        <te>Åtgärder som behövs för verkställigheten av denna lag kan vidtas innan lagen träder i kraft.</te>
-        <saa:SaadosValiotsikkoKooste>Rättigheter och tillstånd som gäller när lagen träder i kraft</saa:SaadosValiotsikkoKooste>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="105 §">
-          <saa:PykalaTunnusKooste>105 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Den som när denna lag träder i kraft har tillstånd till fabriksmässig tillverkning av apoteksvaror för avsalu eller till handel med apoteksvaror har rätt att alltjämt utan ovan i denna lag stadgat tillstånd industriellt tillverka läkemedel i läkemedelsfabrik eller idka partihandel med läkemedel. Nya tillstånd som avses i 8 och 32 §§ skall dock sökas inom tre år från det denna lag trätt i kraft vid äventyr att det gamla tillståndet annars anses ha förfallit.</saa:MomenttiKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:identifiointiTunnus="106 §">
-          <saa:PykalaTunnusKooste>106 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Den som vid denna lags ikraftträdande har rätt att idka apoteksrörelse på ett apotek eller filialapotek, har alltjämt samma rätt.</saa:MomenttiKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:identifiointiTunnus="107 §">
-          <saa:PykalaTunnusKooste>107 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>En kommun eller ett kommunalförbund som då denna lag träder i kraft har statsrådets tillstånd att vid ett sjukhus, som kommunen eller kommunalförbundet upprätthåller, hålla ett särskilt apotek har, utan särskilt tillstånd, rätt att fortfarande hålla sådant sjukhusapotek som avses i denna lag. En kommun eller ett kommunalförbund som då denna lag träder i kraft har tillstånd enligt lagen om apoteksväsendet att vid sjukhus eller hälsovårdscentral, som kommunen eller kommunalförbundet upprätthåller, på annat sätt tillverka eller därifrån distribuera läkemedel, får fortfarande utan hinder av vad som i denna lag stadgas om behörighetsvillkoren för föreståndare för läkemedelscentral, distribuera läkemedel från en läkemedelscentral som avses i denna lag. En privat sjukvårdsanstalt eller en anstalt för utvecklingsstörda, som vid denna lags ikraftträdande har ovan nämnt tillstånd att tillverka och distribuera läkemedel, får också i fortsättningen distribuera läkemedel från en läkemedelscentral som avses i denna lag.</saa:MomenttiKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:identifiointiTunnus="108 §">
-          <saa:PykalaTunnusKooste>108 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Är tillstånd, som med stöd av apoteksvarulagen beviljats att sälja eller på annat sätt till förbrukning överlåta farmaceutiskt specialpreparat, gällande när denna lag träder i kraft, får preparatet i fortsättningen säljas eller på annat sätt överlåtas till förbrukning såsom läkemedelspreparat som avses i 20 §. På ett sådant preparat tillämpas även i övrigt stadgandena i denna lag.</saa:MomenttiKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:identifiointiTunnus="109 §">
-          <saa:PykalaTunnusKooste>109 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Är ett tillstånd, som med stöd av 10 f § apoteksvarulagen beviljats att sälja eller eljest till förbrukning överlåta beredning, gällande när denna lag träder i kraft, får beredningen i fortsättningen säljas till allmänheten såsom en sådan produkt av läkemedelstyp som avses i denna lag. Detsamma gäller beredning, för vilken på det sätt om vilket stadgas särskilt har godkänts ett ändamål av samma art som för en produkt av läkemedelstyp.</saa:MomenttiKooste>
-        </saa:Pykala>
-        <saa:SaadosValiotsikkoKooste>Taxa, farmakop och läkemedelsförteckning som gäller när lagen träder i kraft</saa:SaadosValiotsikkoKooste>
-        <saa:Pykala saa1:identifiointiTunnus="110 §">
-          <saa:PykalaTunnusKooste>110 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Då denna lag träder i kraft skall alltjämt iakttas den för apoteken senast fastställda taxan och farmakopn, tills med stöd av denna lag har fastställts en ny läkemedelstaxa och farmakop. Medicinalstyrelsen skall inom ett år efter det denna lag trätt i kraft fastställa en läkemedelsförteckning. Till dess gäller apoteksvaruförteckningen enligt apoteksvarulagen.</saa:MomenttiKooste>
-        </saa:Pykala>
-        <saa:Pykala saa1:identifiointiTunnus="111 §">
-          <saa:PykalaTunnusKooste>111 §</saa:PykalaTunnusKooste>
-          <saa:MomenttiKooste>Då denna lag träder i kraft handläggs och avgörs ett ärende, som gjorts anhängigt vid länsstyrelsen, medicinalstyrelsen eller social- och hälsovårdsministeriet och som avses i lagen om apoteksväsendet eller apoteksvarulagen, enligt de stadganden som gäller vid lagens ikraftträdande.</saa:MomenttiKooste>
-        </saa:Pykala>
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Regeringens proposition 87/86</sdk:EsityoViite>
+    <sdk:EsityoViite>Ekonomiutsk. bet. 13/86</sdk:EsityoViite>
+    <sdk:EsityoViite>Stora utsk. bet. 272/86</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 10  april 1987</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
