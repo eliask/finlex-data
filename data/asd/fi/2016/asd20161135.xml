@@ -10,23 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Sähköturvallisuuslaki</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 116/2016</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>TaVM 24/2016</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>EV 152/2016</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-      <met:Muu4Viite>
-        <sis1:ViiteTeksti>Euroopan parlamentin ja neuvoston direktiivi 2014/30/EU (32014L0030) EUVL N:o L 96, 29.3.2014, s. 79</sis1:ViiteTeksti>
-      </met:Muu4Viite>
-      <met:Muu5Viite>
-        <sis1:ViiteTeksti>Euroopan parlamentin ja neuvoston direktiivi 2014/35/EU (32014L0035) EUVL  N:o L 96, 29.3.2014, s. 357</sis1:ViiteTeksti>
-      </met:Muu5Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -456,7 +439,7 @@
             <saa:MomenttiKooste>Sähkölaitteiston haltija on vastuussa laitteiston turvallisuudesta, sen ylläpitämiseksi tarvittavasta kunnossapidosta ja siitä, että laitteisto täyttää tämän lain vaatimukset. </saa:MomenttiKooste>
             <saa:MomenttiKooste>Sähkölaitteiston haltijan on huolehdittava siitä, että laitteiston kuntoa ja turvallisuutta tarkkaillaan ja että havaitut puutteet ja viat poistetaan riittävän nopeasti.</saa:MomenttiKooste>
           </saa:Pykala>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="48 §">
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="48 §">
             <saa:PykalaTunnusKooste>48 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Sähkölaitteiston huolto ja kunnossapito-ohjelma</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Sähkölaitteiston haltijan on huolehdittava siitä, että luokkien 2 ja 3 sähkölaitteistoille laaditaan sähköturvallisuuden ylläpitävä kunnossapito-ohjelma. Sähkölaitteiston haltija vastaa siitä, että kunnossapito-ohjelmaa noudatetaan. Kunnossapito-ohjelmaa laadittaessa tulee ottaa huomioon sähkölaitteiston käyttöympäristöstä aiheutuvat tarpeet. </saa:MomenttiKooste>
@@ -1063,7 +1046,7 @@ ja sähkötöiden johtajaa koskevat tiedot välittömästi julkisesta tietopalve
             <saa:MomenttiKooste>Työ- ja elinkeinoministeriön ja sähköturvallisuusviranomaisen apuna tämän lain sekä hissiturvallisuuslain säännösten kehittämistä ja seurantaa varten on valtioneuvoston kolmeksi vuodeksi asettama Sähkö- ja hissiturvallisuuden neuvottelukunta. </saa:MomenttiKooste>
             <saa:MomenttiKooste>Valtioneuvoston asetuksella säädetään tarkemmin neuvottelukunnan kokoonpanosta ja tehtävistä. </saa:MomenttiKooste>
           </saa:Pykala>
-          <saa:Pykala saa1:identifiointiTunnus="121 §">
+          <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="121 §">
             <saa:PykalaTunnusKooste>121 § </saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Voimaantulo</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Tämä laki tulee voimaan 1 päivänä tammikuuta 2017.</saa:MomenttiKooste>
@@ -1088,6 +1071,21 @@ ja sähkötöiden johtajaa koskevat tiedot välittömästi julkisesta tietopalve
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20160116.he">
+        <sis1:ViiteTeksti>HE 116/2016</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20160024.tavm">
+        <sis1:ViiteTeksti>TaVM 24/2016</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>EV 152/2016</sdk:EsityoViite>
+    <sdk:EsityoViite>Euroopan parlamentin ja neuvoston direktiivi 2014/30/EU <sis:YleinenViite sis1:viiteURL="32014L0030"><sis1:ViiteTeksti>(32014L0030)</sis1:ViiteTeksti></sis:YleinenViite> EUVL N:o L 96, 29.3.2014, s. 79</sdk:EsityoViite>
+    <sdk:EsityoViite>Euroopan parlamentin ja neuvoston direktiivi 2014/35/EU <sis:YleinenViite sis1:viiteURL="32014L0035"><sis1:ViiteTeksti>(32014L0035)</sis1:ViiteTeksti></sis:YleinenViite> EUVL  N:o L 96, 29.3.2014, s. 357</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 16 päivänä joulukuuta 2016</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
