@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>eläkesäätiöistä ja eläkekassoista</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 28/2021</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>StVM 19/2021</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>EV 123/2021 </sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -1504,7 +1493,7 @@ ja velkoja yhdessä pyytävät asian käsittelyn lykkäämistä.</saa:MomenttiKo
             </saa:KohdatMomentti>
             <saa:MomenttiKooste>Finanssivalvonta voi, jollei vakuutettuja etuuksia vaaranneta, pidentää 1 momentin 1 kohdassa tarkoitettua määräaikaa enintään vuodeksi ja hakemuksesta antaa mainitun momentin 3 kohdassa tarkoitetussa tapauksessa päätöksessä määräämiinsä ehdoin suostumuksen toiminnan jatkamiseen enintään viideksi vuodeksi kerrallaan.</saa:MomenttiKooste>
           </saa:Pykala>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="3 §">
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
             <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Päätös selvitystilaan asettamisesta</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Eläkesäätiön asettamisesta selvitystilaan päättää eläkesäätiön hallitus.</saa:MomenttiKooste>
@@ -1995,6 +1984,19 @@ ja velkoja yhdessä pyytävät asian käsittelyn lykkäämistä.</saa:MomenttiKo
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20210028.he">
+        <sis1:ViiteTeksti>HE 28/2021</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20210019.stvm">
+        <sis1:ViiteTeksti>StVM 19/2021</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>EV 123/2021 </sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 19.11.2021</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

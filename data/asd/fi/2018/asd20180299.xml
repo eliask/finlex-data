@@ -10,17 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>lentoliikenteestä Kuuban kanssa tehdystä sopimuksesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 187/2017</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>LiVM 2/2018</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>EV 10/2018</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -36,17 +25,30 @@
           <saa:PykalaTunnusKooste>1 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Lentoliikenteestä Suomen tasavallan hallituksen ja Kuuban tasavallan hallituksen välillä Havannassa 14 päivänä maaliskuuta 2017 tehdyn sopimuksen lainsäädännön alaan kuuluvat määräykset ovat lakina voimassa sellaisina kuin Suomi on niihin sitoutunut.</saa:MomenttiKooste>
         </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="2 §">
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="2 §">
           <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Sopimuksen muiden kuin lainsäädännön alaan kuuluvien määräysten voimaansaattamisesta säädetään valtioneuvoston asetuksella.</saa:MomenttiKooste>
         </saa:Pykala>
-        <saa:Pykala saa1:identifiointiTunnus="3 §">
+        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:MomenttiKooste>Tämän lain voimaantulosta säädetään valtioneuvoston asetuksella.</saa:MomenttiKooste>
         </saa:Pykala>
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20170187.he">
+        <sis1:ViiteTeksti>HE 187/2017</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20180002.livm">
+        <sis1:ViiteTeksti>LiVM 2/2018</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>EV 10/2018</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 4 päivänä toukokuuta 2018</asi:PaivaysKooste>
     <asi:Allekirjoittaja>

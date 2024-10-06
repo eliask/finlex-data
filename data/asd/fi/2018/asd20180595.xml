@@ -10,20 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>Liikesalaisuuslaki</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>HE 49/2018</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>TaVM 11/2018</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>EV 70/2018 </sis1:ViiteTeksti>
-      </met:Muu3Viite>
-      <met:Muu4Viite>
-        <sis1:ViiteTeksti>Euroopan parlamentin ja neuvoston direktiivi 2016/943/EU (32016L0943); EUVL L 157, 15.6.2016, s. 1</sis1:ViiteTeksti>
-      </met:Muu4Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Laki">
@@ -54,7 +40,7 @@
             <saa:MomenttiKohtaKooste>3) <saa:SaadosKursiiviKooste>liikesalaisuutta loukkaavalla tuotteella</saa:SaadosKursiiviKooste> tavaraa tai palvelua, jonka suunnittelussa, ominaisuuksissa, toiminnassa, tuotantoprosessissa tai markkinoinnissa saadaan merkittävää hyötyä oikeudettomasti hankitusta, käytetystä tai ilmaistusta liikesalaisuudesta.</saa:MomenttiKohtaKooste>
           </saa:KohdatMomentti>
         </saa:Pykala>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="3 §">
+        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="3 §">
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Liikesalaisuuden oikeudeton hankkiminen</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Liikesalaisuutta ei saa oikeudettomasti hankkia tai yrittää hankkia.</saa:MomenttiKooste>
@@ -199,7 +185,7 @@ suojaamiseksi tieto on määrätty salassa pidettäväksi.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Asiantuntijan on annettava kirjallinen lausunto käräjäoikeuden hänelle tekemistä kysymyksistä. Asiantuntijalla on oikeus tehdä kysymyksiä asianosaisille ja todistajille. Ennen asian ratkaisemista käräjäoikeuden on varattava asianosaisille tilaisuus lausua asiantuntijan lausunnosta.</saa:MomenttiKooste>
           <saa:MomenttiKooste>Asiantuntijan palkkioon sovelletaan, mitä tuomioistuinlain 17 luvun 22 §:ssä säädetään asiantuntijajäsenen palkkiosta.</saa:MomenttiKooste>
         </saa:Pykala>
-        <saa:Pykala saa1:identifiointiTunnus="20 §">
+        <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="20 §">
           <saa:PykalaTunnusKooste>20 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Voimaantulo ja siirtymäsäännös</saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Tämä laki tulee voimaan 15 päivänä elokuuta 2018.</saa:MomenttiKooste>
@@ -209,6 +195,20 @@ suojaamiseksi tieto on määrätty salassa pidettäväksi.</saa:MomenttiKooste>
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20180049.he">
+        <sis1:ViiteTeksti>HE 49/2018</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>
+      <sis:YleinenViite sis1:viiteURL="20180011.tavm">
+        <sis1:ViiteTeksti>TaVM 11/2018</sis1:ViiteTeksti>
+      </sis:YleinenViite>
+    </sdk:EsityoViite>
+    <sdk:EsityoViite>EV 70/2018 </sdk:EsityoViite>
+    <sdk:EsityoViite>Euroopan parlamentin ja neuvoston direktiivi 2016/943/EU <sis:YleinenViite sis1:viiteURL="32016L0943"><sis1:ViiteTeksti>(32016L0943)</sis1:ViiteTeksti></sis:YleinenViite>; EUVL L 157, 15.6.2016, s. 1</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Naantalissa 10 päivänä elokuuta 2018</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
