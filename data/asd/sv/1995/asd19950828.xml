@@ -10,11 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>om uppgifter som skall lämnas vid energimärkning av elektriska kylskåp, frysar och kombinationer av dessa för hushållsbruk</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Kommissionens direktiv94/2/EEG; EGT nr L 45/1, 17.2.1994, s. 1</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Päätös">
@@ -105,6 +100,9 @@
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Kommissionens direktiv<sis:YleinenViite sis1:viiteURL="394L0002"><sis1:ViiteTeksti>94/2/EEG</sis1:ViiteTeksti></sis:YleinenViite>; EGT nr L 45/1, 17.2.1994, s. 1</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 26 maj 1995</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
@@ -127,8 +125,7 @@
       <sis:KappaleKooste>Märkets utforming</sis:KappaleKooste>
       <sis:KappaleKooste>1. Märket skall utformas i enlighet med följande illustration:</sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaavio/1348.gif"/>
       </sis:Kuva>
       <sis1:ValiotsikkoTeksti>Anmärkningar till märket</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>2. I märket ges följande upplysningar:</sis:KappaleKooste>
@@ -148,8 +145,7 @@
       <sis:KappaleKooste>Tryckning</sis:KappaleKooste>
       <sis:KappaleKooste>3. Energimärket har följande mått och färger:</sis:KappaleKooste>
       <sis:Kuva>
-        <sis:KuvaAsemointi>
-</sis:KuvaAsemointi>
+        <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/mittap/1350.gif"/>
       </sis:Kuva>
       <sis:KappaleKooste>Färger:</sis:KappaleKooste>
       <sis:KappaleKooste>CMYK: cyan, magenta, gult, svart.</sis:KappaleKooste>
@@ -225,9 +221,9 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga 2</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>INFORMATIONSBLADET</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>Informationsbladet skall innehålla följande upplysningar. Upplysningarna kan antingen lämnas i form av en tabell som omfattar ett antal apparater från samma leverantör, varvid de skall lämnas i den angivna ordningen, eller lämnas i beskrivningen av apparaten.</sis:KappaleKooste>
       <sis:KappaleKooste>1) Leverantörens namn eller varumärke.</sis:KappaleKooste>
@@ -352,7 +348,7 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete><saa:SaadosKursiiviKooste>Bilaga</saa:SaadosKursiiviKooste> 3</ete>
+      <sis1:ValiotsikkoTeksti><saa:SaadosKursiiviKooste>Bilaga</saa:SaadosKursiiviKooste> 3</sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>POSTORDER OCH ANNAN DISTANSFÖRSÄLJNING</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>I postorderkataloger och annan distansförsäljning som avses i beslutets 7 § skall lämnas följande upplysningar i nedan angiven ordning:</sis:KappaleKooste>
       <sis:KappaleKooste>1) Energieffektivitetsklass (punkt 4 i bilaga 2).</sis:KappaleKooste>
@@ -367,9 +363,9 @@
   </asi:LiiteOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <ete>
+      <sis1:ValiotsikkoTeksti>
         <saa:SaadosKursiiviKooste>Bilaga 4</saa:SaadosKursiiviKooste>
-      </ete>
+      </sis1:ValiotsikkoTeksti>
       <sis1:ValiotsikkoTeksti>KATEGORIER</sis1:ValiotsikkoTeksti>
       <sis:KappaleKooste>De apparater som omfattas av detta beslut skall delas in i följande kategorier:</sis:KappaleKooste>
       <sis:KappaleKooste>1) Hushållskylskåp utan frysfack.</sis:KappaleKooste>
