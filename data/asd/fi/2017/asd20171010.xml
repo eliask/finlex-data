@@ -10,20 +10,6 @@
     <met:Nimeke>
       <met1:NimekeTeksti>uuden rakennuksen energiatehokkuudesta</met1:NimekeTeksti>
     </met:Nimeke>
-    <met:AsiakirjaViitteet>
-      <met:Muu1Viite>
-        <sis1:ViiteTeksti>Euroopan parlamentin ja neuvoston direktiivi 2015/1535/EU (32015L1535); EUVL L 241, 17.9.2015, s. 1</sis1:ViiteTeksti>
-      </met:Muu1Viite>
-      <met:Muu2Viite>
-        <sis1:ViiteTeksti>Euroopan parlamentin ja neuvoston direktiivi 2012/27/EU (32012L0027); EUVL L 315, 14.11.2012, s. 1</sis1:ViiteTeksti>
-      </met:Muu2Viite>
-      <met:Muu3Viite>
-        <sis1:ViiteTeksti>Euroopan parlamentin ja neuvoston direktiivi 2010/31/EU (32010L0031); EUVL L 153, 18.6.2010, s. 13</sis1:ViiteTeksti>
-      </met:Muu3Viite>
-      <met:Muu4Viite>
-        <sis1:ViiteTeksti>Euroopan parlamentin ja neuvoston direktiivi 2009/28/EY (32009L0028); EUVL L 140, 5.6.2009, s. 16</sis1:ViiteTeksti>
-      </met:Muu4Viite>
-    </met:AsiakirjaViitteet>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
     <saa:Saados met1:kieliKoodi="fi" saa1:saadostyyppiNimi="Asetus">
@@ -94,104 +80,127 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="4 §">
             <saa:PykalaTunnusKooste>4 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Laskennallisen energiatehokkuuden vertailuluvun vaatimustasot käyttötarkoitusluokittain</saa:SaadosOtsikkoKooste>
-            <saa:KohdatMomentti>
-              <saa:MomenttiJohdantoKooste>Laskennallinen energiatehokkuuden vertailuluku (<saa:SaadosKursiiviKooste>E-luku</saa:SaadosKursiiviKooste>), jonka yksikkönä käytetään kWh<sis1:AlaindeksiTeksti>E</sis1:AlaindeksiTeksti>/(m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> a), on energiamuotojen kertoimilla painotettu rakennuksen laskennallinen ostoenergiankulutus rakennuksen lämmitettyä nettoalaa kohden vuodessa. Rakennuksen käyttötarkoitusluokan mukaisesti laskettu E-luku ei saa ylittää seuraavia raja-arvoja:</saa:MomenttiJohdantoKooste>
-              <saa:MomenttiKohtaKooste>
-                <tau:table>
-                  <tau:tgroup colsep="1" cols="2" rowsep="1">
-                    <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-                    <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-                    <tau:tbody>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Käyttötarkoitusluokka</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>E-luvun raja-arvokWh<sis1:AlaindeksiTeksti>E</sis1:AlaindeksiTeksti>/(m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> a)</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 1) Pienet asuinrakennukset:a) Erillinen pientalo ja ketjutalon osana oleva rakennus, joidenlämmitetty nettoala (A<sis1:AlaindeksiTeksti>netto</sis1:AlaindeksiTeksti>) on 50–150 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>b) Erillinen pientalo ja ketjutalon osana oleva rakennus, joidenlämmitetty nettoala (A<sis1:AlaindeksiTeksti>netto</sis1:AlaindeksiTeksti>) on enemmän kuin 150 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> kuitenkin enintään 600 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>c) Erillinen pientalo ja ketjutalon osana oleva rakennus, joidenlämmitetty nettoala (A<sis1:AlaindeksiTeksti>netto</sis1:AlaindeksiTeksti>) on enemmän kuin 600 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>d) Rivitalo ja asuinkerrostalo, jossa on asuinkerroksia enintään kahdessa kerroksessa</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>200–0,6 A<sis1:AlaindeksiTeksti>netto</sis1:AlaindeksiTeksti>
-
-
-116–0,04 A<sis1:AlaindeksiTeksti>netto</sis1:AlaindeksiTeksti>
-92
-105</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 2) Asuinkerrostalo, jossa on asuinkerroksia vähintään kolmessa kerroksessa</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>90</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 3) Toimistorakennus, terveyskeskus</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>100</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 4) Liikerakennus, tavaratalo, kauppakeskus,myymälärakennus lukuun ottamatta päivittäistavarakaupan alle2000 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> yksikköä, myymälähalli, teatteri, ooppera-,konsertti- ja kongressitalo, elokuvateatteri, kirjasto, arkisto,museo, taidegalleria, näyttelyhalli</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>135</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 5) Majoitusliikerakennus, hotelli, asuntola, palvelutalo,vanhainkoti, hoitolaitos</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>160</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 6) Opetusrakennus ja päiväkoti</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>100</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 7) Liikuntahalli lukuun ottamatta uimahalliaja jäähallia</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>100</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 8) Sairaala</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>320</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 9) Muu rakennus, varastorakennus, liikenteen rakennus,uimahalli, jäähalli, päivittäistavarakaupan alle2000 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> yksikkö, siirtokelpoinen rakennus</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>ei raja-arvoa</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                    </tau:tbody>
-                  </tau:tgroup>
-                </tau:table>
-              </saa:MomenttiKohtaKooste>
-            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Laskennallinen energiatehokkuuden vertailuluku (<saa:SaadosKursiiviKooste>E-luku</saa:SaadosKursiiviKooste>), jonka yksikkönä käytetään kWh<sis1:AlaindeksiTeksti>E</sis1:AlaindeksiTeksti>/(m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> a), on energiamuotojen kertoimilla painotettu rakennuksen laskennallinen ostoenergiankulutus rakennuksen lämmitettyä nettoalaa kohden vuodessa. Rakennuksen käyttötarkoitusluokan mukaisesti laskettu E-luku ei saa ylittää seuraavia raja-arvoja:</saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup colsep="1" cols="2" rowsep="1">
+                <tau:colspec colnum="1" colname="1" colwidth="50*"/>
+                <tau:colspec colnum="2" colname="2" colwidth="50*"/>
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Käyttötarkoitusluokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>E-luvun raja-arvokWh<sis1:AlaindeksiTeksti>E</sis1:AlaindeksiTeksti>/(m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> a)</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 1) Pienet asuinrakennukset:</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>a) Erillinen pientalo ja ketjutalon osana oleva rakennus, joidenlämmitetty nettoala (A<sis1:AlaindeksiTeksti>netto</sis1:AlaindeksiTeksti>) on 50–150 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>200–0,6 A<sis1:AlaindeksiTeksti>netto</sis1:AlaindeksiTeksti></sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>b) Erillinen pientalo ja ketjutalon osana oleva rakennus, joidenlämmitetty nettoala (A<sis1:AlaindeksiTeksti>netto</sis1:AlaindeksiTeksti>) on enemmän kuin 150 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> kuitenkin enintään 600 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>116–0,04 A<sis1:AlaindeksiTeksti>netto</sis1:AlaindeksiTeksti></sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>c) Erillinen pientalo ja ketjutalon osana oleva rakennus, joidenlämmitetty nettoala (A<sis1:AlaindeksiTeksti>netto</sis1:AlaindeksiTeksti>) on enemmän kuin 600 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>92</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>d) Rivitalo ja asuinkerrostalo, jossa on asuinkerroksia enintään kahdessa kerroksessa</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>105</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 2) Asuinkerrostalo, jossa on asuinkerroksia vähintään kolmessa kerroksessa</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>90</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 3) Toimistorakennus, terveyskeskus</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>100</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 4) Liikerakennus, tavaratalo, kauppakeskus,myymälärakennus lukuun ottamatta päivittäistavarakaupan alle2000 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> yksikköä, myymälähalli, teatteri, ooppera-,konsertti- ja kongressitalo, elokuvateatteri, kirjasto, arkisto,museo, taidegalleria, näyttelyhalli</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>135</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 5) Majoitusliikerakennus, hotelli, asuntola, palvelutalo,vanhainkoti, hoitolaitos</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>160</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 6) Opetusrakennus ja päiväkoti</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>100</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 7) Liikuntahalli lukuun ottamatta uimahalliaja jäähallia</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>100</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 8) Sairaala</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>320</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 9) Muu rakennus, varastorakennus, liikenteen rakennus,uimahalli, jäähalli, päivittäistavarakaupan alle2000 m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> yksikkö, siirtokelpoinen rakennus</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>ei raja-arvoa</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Käyttötarkoitusluokan 6 rakennuksessa, jonka lämmitetty nettoala on enintään 1 000 neliömetriä, voidaan edellä 1 momentissa esitetty E-luvun raja-arvo ylittää 5 kWh<sis1:AlaindeksiTeksti>E</sis1:AlaindeksiTeksti>/(m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> a).</saa:MomenttiKooste>
             <saa:MomenttiKooste>Massiivipuurakennuksessa voidaan edellä 1 ja 2 momentissa esitetyt E-luvun raja-arvot ylittää käyttötarkoitusluokan 1a rakennuksessa 20 prosentilla, 1b–c rakennuksessa 15 prosentilla ja muussa käyttötarkoitusluokan 1d–8 rakennuksessa 10 prosentilla.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Käyttötarkoitusluokan 1d rakennuksessa voidaan 1 ja 3 momentissa esitetty E-luvun raja-arvo ylittää 5 kWh<sis1:AlaindeksiTeksti>E</sis1:AlaindeksiTeksti>/(m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> a), kun rakennus on kytketty lämmitysjärjestelmään, jossa lämpö johdetaan rakennuksen ulkopuolisilla lämpöputkilla yhteisestä lämmönsiirtimestä tai lämmöntuottolaitteesta kolmeen tai useampaan rakennukseen.</saa:MomenttiKooste>
@@ -223,7 +232,8 @@
               <saa:MomenttiKohtaKooste/>
             </saa:KohdatMomentti>
             <sis:Kuva>
-              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6788.gif"/>
+              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6788.gif">Kuva</sis:KuvaAsemointi>
+              <saa:SaadosKappaleKooste>Kuva</saa:SaadosKappaleKooste>
             </sis:Kuva>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>jossa:</saa:MomenttiJohdantoKooste>
@@ -276,161 +286,157 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="10 §">
             <saa:PykalaTunnusKooste>10 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Ulkoilmavirrat ja huonelämpötilat</saa:SaadosOtsikkoKooste>
-            <saa:KohdatMomentti>
-              <saa:MomenttiJohdantoKooste>E-luku on laskettava käyttäen seuraavia käyttöajan ulkoilmavirtoja sekä huonelämpötilan lämmitys- ja jäähdytysrajan lämpötiloja:</saa:MomenttiJohdantoKooste>
-              <saa:MomenttiKohtaKooste>
-                <tau:table>
-                  <tau:tgroup colsep="1" cols="4" rowsep="1">
-                    <tau:colspec colnum="1" colname="1" colwidth="25*"/>
-                    <tau:colspec colnum="2" colname="2" colwidth="25*"/>
-                    <tau:colspec colnum="3" colname="3" colwidth="25*"/>
-                    <tau:colspec colnum="4" colname="4" colwidth="25*"/>
-                    <tau:tbody>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Käyttötarkoitusluokka</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Ulkoilmavirta</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Lämmitysraja</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Jäähdytysraja</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste> </sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>dm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/(s m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>°C</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>°C</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 1)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>0,4</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>21</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>27</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 2)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>0,5</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>21</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>27</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 3)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>2</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>21</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>25</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 4)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>2</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>18</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>25</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 5)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>2</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>21</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>25</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 6)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>3</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>21</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>25</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 7)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>2</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>18</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>25</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 8)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>4</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>22</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>25</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                    </tau:tbody>
-                  </tau:tgroup>
-                </tau:table>
-              </saa:MomenttiKohtaKooste>
-            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>E-luku on laskettava käyttäen seuraavia käyttöajan ulkoilmavirtoja sekä huonelämpötilan lämmitys- ja jäähdytysrajan lämpötiloja:</saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup colsep="1" cols="4" rowsep="1">
+                <tau:colspec colnum="1" colname="1" colwidth="25*"/>
+                <tau:colspec colnum="2" colname="2" colwidth="25*"/>
+                <tau:colspec colnum="3" colname="3" colwidth="25*"/>
+                <tau:colspec colnum="4" colname="4" colwidth="25*"/>
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Käyttötarkoitusluokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Ulkoilmavirta</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Lämmitysraja</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Jäähdytysraja</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste> </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>dm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/(s m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>°C</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>°C</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 1)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>21</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>27</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 2)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>21</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>27</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 3)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>21</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 4)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>18</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 5)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>21</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 6)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>21</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 7)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>18</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 8)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>22</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>25</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Poistoilmavirrat on laskettava ulkoilmavirtaa vastaavilla arvoilla.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Muun kuin käyttötarkoitusluokan 1 ja 2 rakennuksen ilmanvaihdon ulkoilmavirtana on käytettävä laskennassa käyttöajan ulkopuolella vähintään 0,15 dm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/s neliömetrille.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Käyttötarkoitusluokan 2 rakennuksessa, jossa asukkaalla on mahdollisuus ohjata tulo- ja poistoilmavirtoja siten, että niitä voidaan huoneistokohtaisesti tehostaa vähintään 30 prosenttia ja pienentää vähintään 40 prosenttia suunnitellun käyttöajan ilmavirroista, rakennuksen ulkoilmavirtana voidaan käyttää 0,4 dm<sis1:YlaindeksiTeksti>3</sis1:YlaindeksiTeksti>/s neliömetrille.</saa:MomenttiKooste>
@@ -439,291 +445,288 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="11 §">
             <saa:PykalaTunnusKooste>11 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Rakennuksen vakioitu käyttö</saa:SaadosOtsikkoKooste>
-            <saa:KohdatMomentti>
-              <saa:MomenttiJohdantoKooste>E-luvun laskennassa käytettävä rakennuksen vuorokautinen ja viikoittainen käyttöaika, keskimääräinen valaistuksen, kuluttajalaitteiden ja ihmisten läsnäolon käyttöaste rakennuksen käyttöajan aikana sekä sisäiset lämpökuormat lämmitettyä nettoalaa kohti ovat seuraavat:</saa:MomenttiJohdantoKooste>
-              <saa:MomenttiKohtaKooste>
-                <tau:table>
-                  <tau:tgroup colsep="1" cols="5" rowsep="1">
-                    <tau:colspec colnum="1" colname="1" colwidth="20*"/>
-                    <tau:colspec colnum="2" colname="2" colwidth="20*"/>
-                    <tau:colspec colnum="3" colname="3" colwidth="20*"/>
-                    <tau:colspec colnum="4" colname="4" colwidth="20*"/>
-                    <tau:colspec colnum="5" colname="5" colwidth="20*"/>
-                    <tau:tbody>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Käyttötarkoitusluokka</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Kellonaika</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Käyttöaika </sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Käyttöaste</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Sisäinen lämpökuormalämmitettyä nettoalaa kohti</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                    </tau:tbody>
-                  </tau:tgroup>
-                  <tau:tgroup colsep="1" cols="8" rowsep="1">
-                    <tau:colspec colnum="1" colname="1" colwidth="12*"/>
-                    <tau:colspec colnum="2" colname="2" colwidth="12*"/>
-                    <tau:colspec colnum="3" colname="3" colwidth="12*"/>
-                    <tau:colspec colnum="4" colname="4" colwidth="12*"/>
-                    <tau:colspec colnum="5" colname="5" colwidth="12*"/>
-                    <tau:colspec colnum="6" colname="6" colwidth="12*"/>
-                    <tau:colspec colnum="7" colname="7" colwidth="12*"/>
-                    <tau:colspec colnum="8" colname="8" colwidth="12*"/>
-                    <tau:tbody>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste/>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste/>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Vuorokautinenh/24h</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Viikoittainend/7d</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>-</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>ValaistusW/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Kuluttaja-laitteetW/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>IhmisetW/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 1)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>00:00-24:00</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>24</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>7</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>valaistus 0,1muut 0,6</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>6</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>3</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>2</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 2</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>00:00-24:00</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>24</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>7</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>valaistus 0,1muut 0,6</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>9</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>4</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>3</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 3)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>07:00-18:00</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>11</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>5</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>0,65</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>10</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>12</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>5</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 4)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>08:00-21:00</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>13</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>6</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>1</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>19</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>1</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>2</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 5)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>00:00-24:00</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>24</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>7</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>0,3</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>11</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>4</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>4</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 6)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>08:00-16:00</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>8</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>5</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>0,6</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>14</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>8</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>14</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 7)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>08:00-22:00</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>14</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>7</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>0,5</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>10</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>0</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>5</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 8)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>00:00-24:00</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>24</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>7</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>0,6</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>7</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>9</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>8</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                    </tau:tbody>
-                  </tau:tgroup>
-                </tau:table>
-              </saa:MomenttiKohtaKooste>
-            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>E-luvun laskennassa käytettävä rakennuksen vuorokautinen ja viikoittainen käyttöaika, keskimääräinen valaistuksen, kuluttajalaitteiden ja ihmisten läsnäolon käyttöaste rakennuksen käyttöajan aikana sekä sisäiset lämpökuormat lämmitettyä nettoalaa kohti ovat seuraavat:</saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup colsep="1" cols="5" rowsep="1">
+                <tau:colspec colnum="1" colname="1" colwidth="20*"/>
+                <tau:colspec colnum="2" colname="2" colwidth="20*"/>
+                <tau:colspec colnum="3" colname="3" colwidth="20*"/>
+                <tau:colspec colnum="4" colname="4" colwidth="20*"/>
+                <tau:colspec colnum="5" colname="5" colwidth="20*"/>
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Käyttötarkoitusluokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Kellonaika</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Käyttöaika </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Käyttöaste</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Sisäinen lämpökuormalämmitettyä nettoalaa kohti</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+              <tau:tgroup colsep="1" cols="8" rowsep="1">
+                <tau:colspec colnum="1" colname="1" colwidth="12*"/>
+                <tau:colspec colnum="2" colname="2" colwidth="12*"/>
+                <tau:colspec colnum="3" colname="3" colwidth="12*"/>
+                <tau:colspec colnum="4" colname="4" colwidth="12*"/>
+                <tau:colspec colnum="5" colname="5" colwidth="12*"/>
+                <tau:colspec colnum="6" colname="6" colwidth="12*"/>
+                <tau:colspec colnum="7" colname="7" colwidth="12*"/>
+                <tau:colspec colnum="8" colname="8" colwidth="12*"/>
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Vuorokautinenh/24h</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Viikoittainend/7d</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>-</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>ValaistusW/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Kuluttaja-laitteetW/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>IhmisetW/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti></sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 1)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>00:00-24:00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>24</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>valaistus 0,1muut 0,6</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 2</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>00:00-24:00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>24</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>valaistus 0,1muut 0,6</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>3</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 3)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>07:00-18:00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>11</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,65</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>12</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 4)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>08:00-21:00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>13</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>19</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>1</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>2</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 5)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>00:00-24:00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>24</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,3</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>11</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 6)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>08:00-16:00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,6</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>14</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>14</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 7)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>08:00-22:00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>14</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,5</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>10</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>5</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 8)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>00:00-24:00</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>24</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>0,6</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>7</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>9</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>8</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>Valaistuksen, kuluttajalaitteiden ja ihmisten aiheuttama vuotuinen lämpökuorma Q (kWh/m2) on laskettava kaavalla:</saa:MomenttiJohdantoKooste>
               <saa:MomenttiKohtaKooste/>
             </saa:KohdatMomentti>
             <sis:Kuva>
-              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6790.gif"/>
+              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6790.gif">kuva</sis:KuvaAsemointi>
+              <saa:SaadosKappaleKooste>kuva</saa:SaadosKappaleKooste>
             </sis:Kuva>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>jossa:</saa:MomenttiJohdantoKooste>
@@ -739,96 +742,92 @@
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="12 §">
             <saa:PykalaTunnusKooste>12 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Lämpimän käyttöveden vakioitu käyttö</saa:SaadosOtsikkoKooste>
-            <saa:KohdatMomentti>
-              <saa:MomenttiJohdantoKooste>Lämpimän käyttöveden vakioidun käytön lämmitysenergian nettotarpeena on käytettävä seuraavia käyttötarkoitusluokittaisia lämmitysenergian nettotarpeita rakennuksen lämmitettyä nettoalaa kohden:</saa:MomenttiJohdantoKooste>
-              <saa:MomenttiKohtaKooste>
-                <tau:table>
-                  <tau:tgroup colsep="1" cols="2" rowsep="1">
-                    <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-                    <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-                    <tau:tbody>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Käyttötarkoitusluokka</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Lämpimän käyttöveden lämmitysenergian nettotarve vuodessakWh/(m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> a)</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste> </sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 1)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>35</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 2)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>35</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 3)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>6</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 4)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>4</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 5)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>40</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 6)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>11</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 7)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>20</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Luokka 8)</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>30</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                    </tau:tbody>
-                  </tau:tgroup>
-                </tau:table>
-              </saa:MomenttiKohtaKooste>
-            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Lämpimän käyttöveden vakioidun käytön lämmitysenergian nettotarpeena on käytettävä seuraavia käyttötarkoitusluokittaisia lämmitysenergian nettotarpeita rakennuksen lämmitettyä nettoalaa kohden:</saa:MomenttiKooste>
+            <tau:table>
+              <tau:tgroup colsep="1" cols="2" rowsep="1">
+                <tau:colspec colnum="1" colname="1" colwidth="50*"/>
+                <tau:colspec colnum="2" colname="2" colwidth="50*"/>
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Käyttötarkoitusluokka</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>Lämpimän käyttöveden lämmitysenergian nettotarve vuodessakWh/(m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> a)</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste> </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 1)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>35</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 2)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>35</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 3)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>6</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 4)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>4</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 5)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>40</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 6)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>11</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 7)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>20</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Luokka 8)</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>30</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
             <saa:MomenttiKooste>Luokassa 1 on lämpimän käyttöveden lämmitysenergian nettotarve kuitenkin enintään 4 200 kWh vuodessa asuntoa kohden.</saa:MomenttiKooste>
             <saa:MomenttiKooste>Lämpimän käyttöveden lämmitysenergian nettotarpeena voi laskennassa käyttää 15 prosenttia edellä mainittuja pienempiä arvoja, jos rakennuksen käyttövesiverkosto varustetaan vakiopaineventtiilillä tai muulla vastaavalla painetasoa säätävällä tekniikalla.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -864,7 +863,8 @@
               <saa:MomenttiKohtaKooste/>
             </saa:KohdatMomentti>
             <sis:Kuva>
-              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6792.gif"/>
+              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6792.gif">kuva</sis:KuvaAsemointi>
+              <saa:SaadosKappaleKooste>kuva</saa:SaadosKappaleKooste>
             </sis:Kuva>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>jossa:</saa:MomenttiJohdantoKooste>
@@ -924,7 +924,8 @@
               <saa:MomenttiKohtaKooste/>
             </saa:KohdatMomentti>
             <sis:Kuva>
-              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6794.gif"/>
+              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6794.gif">kuva</sis:KuvaAsemointi>
+              <saa:SaadosKappaleKooste>kuva</saa:SaadosKappaleKooste>
             </sis:Kuva>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>jossa:</saa:MomenttiJohdantoKooste>
@@ -980,7 +981,8 @@ maata vasten oleva rakennusosa 	0,24 W/(m<sis1:YlaindeksiTeksti>2</sis1:Ylaindek
               <saa:MomenttiKohtaKooste/>
             </saa:KohdatMomentti>
             <sis:Kuva>
-              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6796.gif"/>
+              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6796.gif">kuva</sis:KuvaAsemointi>
+              <saa:SaadosKappaleKooste>kuva</saa:SaadosKappaleKooste>
             </sis:Kuva>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>jossa:</saa:MomenttiJohdantoKooste>
@@ -1000,7 +1002,8 @@ maata vasten oleva rakennusosa 	0,24 W/(m<sis1:YlaindeksiTeksti>2</sis1:Ylaindek
               <saa:MomenttiKohtaKooste/>
             </saa:KohdatMomentti>
             <sis:Kuva>
-              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6798.gif"/>
+              <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/6798.gif">kuva</sis:KuvaAsemointi>
+              <saa:SaadosKappaleKooste>kuva</saa:SaadosKappaleKooste>
             </sis:Kuva>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>jossa:</saa:MomenttiJohdantoKooste>
@@ -1113,6 +1116,12 @@ maata vasten oleva rakennusosa 	0,24 W/(m<sis1:YlaindeksiTeksti>2</sis1:Ylaindek
       </saa:Pykalisto>
     </saa:Saados>
   </saa:SaadosOsa>
+  <sdk:EsityoOsa>
+    <sdk:EsityoViite>Euroopan parlamentin ja neuvoston direktiivi 2015/1535/EU <sis:YleinenViite sis1:viiteURL="32015L1535"><sis1:ViiteTeksti>(32015L1535)</sis1:ViiteTeksti></sis:YleinenViite>; EUVL L 241, 17.9.2015, s. 1</sdk:EsityoViite>
+    <sdk:EsityoViite>Euroopan parlamentin ja neuvoston direktiivi 2012/27/EU <sis:YleinenViite sis1:viiteURL="32012L0027"><sis1:ViiteTeksti>(32012L0027)</sis1:ViiteTeksti></sis:YleinenViite>; EUVL L 315, 14.11.2012, s. 1</sdk:EsityoViite>
+    <sdk:EsityoViite>Euroopan parlamentin ja neuvoston direktiivi 2010/31/EU <sis:YleinenViite sis1:viiteURL="32010L0031"><sis1:ViiteTeksti>(32010L0031)</sis1:ViiteTeksti></sis:YleinenViite>; EUVL L 153, 18.6.2010, s. 13</sdk:EsityoViite>
+    <sdk:EsityoViite>Euroopan parlamentin ja neuvoston direktiivi 2009/28/EY <sis:YleinenViite sis1:viiteURL="32009L0028"><sis1:ViiteTeksti>(32009L0028)</sis1:ViiteTeksti></sis:YleinenViite>; EUVL L 140, 5.6.2009, s. 16</sdk:EsityoViite>
+  </sdk:EsityoOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingissä 20 päivänä joulukuuta 2017</asi:PaivaysKooste>
     <asi:Allekirjoittaja>
