@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2002-03-11" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
+<vah:VahvistettavaLaki xmlns:vah="http://www.vn.fi/skeemat/vahvistettavalaki/2010/04/27" xmlns:sdk="http://www.finlex.fi/skeemat/edita/sdk/2010/04/27" xmlns:saa="http://www.vn.fi/skeemat/saadoskooste/2010/04/27" xmlns:saa1="http://www.vn.fi/skeemat/saadoselementit/2010/04/27" xmlns:met="http://www.vn.fi/skeemat/metatietokooste/2010/04/27" xmlns:met1="http://www.vn.fi/skeemat/metatietoelementit/2010/04/27" xmlns:asi="http://www.vn.fi/skeemat/asiakirjakooste/2010/04/27" xmlns:asi1="http://www.vn.fi/skeemat/asiakirjaelementit/2010/04/27" xmlns:org="http://www.vn.fi/skeemat/organisaatiokooste/2010/02/15" xmlns:org1="http://www.vn.fi/skeemat/organisaatioelementit/2010/02/15" xmlns:tau="http://www.vn.fi/skeemat/taulukkokooste/2010/04/27" xmlns:sis="http://www.vn.fi/skeemat/sisaltokooste/2010/04/27" xmlns:sis1="http://www.vn.fi/skeemat/sisaltoelementit/2010/04/27" met1:kieliKoodi="sv" met1:julkisuusKoodi="julkinen" met1:tilaKoodi="Valmis" met1:identifiointiTunnus="0000000000000000" met1:versioTeksti="1.0" met1:asiakirjatyyppiNimi="Vahvistettava laki" met1:laadintaPvm="2100-01-01" met1:rakennemaarittelyNimi="vahvistettavalaki.xsd">
   <asi:IdentifiointiOsa>
     <met1:AsiakirjatyyppiNimi>Vahvistettava laki</met1:AsiakirjatyyppiNimi>
     <asi:EduskuntaTunniste>
@@ -12,78 +12,70 @@
     </met:Nimeke>
   </asi:IdentifiointiOsa>
   <saa:SaadosOsa>
-    <saa:Saados met1:kieliKoodi="sv" saa1:saadostyyppiNimi="Päätös">
+    <saa:MuuSaados>
       <saa:SaadosNimeke>
         <saa:SaadostyyppiKooste>Statsrådets beslut</saa:SaadostyyppiKooste>
         <saa:SaadosNimekeKooste>om räddningsområden</saa:SaadosNimekeKooste>
       </saa:SaadosNimeke>
-      <saa:Johtolause>
+      <saa:SisaltoMuuSaados>
         <saa:SaadosKappaleKooste>Statsrådet har på föredragning från inrikesministeriet med stöd av 3 § lagen den 13 december 2001 om bildande av räddningsområden (1214/2001) beslutat som följer:</saa:SaadosKappaleKooste>
-      </saa:Johtolause>
-      <saa:Pykalisto>
         <saa:SaadosValiotsikkoKooste>Räddningsområden</saa:SaadosValiotsikkoKooste>
-        <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala">
-          <saa:KohdatMomentti>
-            <saa:MomenttiJohdantoKooste>Räddningsområden och kommunerna som hör till dem är:</saa:MomenttiJohdantoKooste>
-          </saa:KohdatMomentti>
-        </saa:Pykala>
+        <saa:SaadosKappaleKooste>Räddningsområden och kommunerna som hör till dem är:</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>1. Helsingfors</saa:SaadosValiotsikkoKooste>
-        <te>Helsingfors.</te>
+        <saa:SaadosKappaleKooste>Helsingfors.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>2. Västra Nyland</saa:SaadosValiotsikkoKooste>
-        <te>Esbo, Hangö, Ingå, Karis, Karislojo, Högfors, Grankulla, Kyrkslätt, Lojo, Nummi-Pusula, Pojo, Sammatti, Sjundeå, Ekenäs, Vichtis.</te>
+        <saa:SaadosKappaleKooste>Esbo, Hangö, Ingå, Karis, Karislojo, Högfors, Grankulla, Kyrkslätt, Lojo, Nummi-Pusula, Pojo, Sammatti, Sjundeå, Ekenäs, Vichtis.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>3. Mellersta Nyland</saa:SaadosValiotsikkoKooste>
-        <te>Hyvinge, Träskända, Kervo, Mäntsälä, Nurmijärvi, Borgnäs, Tusby, Vanda.</te>
+        <saa:SaadosKappaleKooste>Hyvinge, Träskända, Kervo, Mäntsälä, Nurmijärvi, Borgnäs, Tusby, Vanda.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>4. Östra Nyland</saa:SaadosValiotsikkoKooste>
-        <te>Askola, Lappträsk, Liljendal, Lovisa, Mörskom, Pernå, Borgå, Pukkila, Strömfors, Sibbo.</te>
+        <saa:SaadosKappaleKooste>Askola, Lappträsk, Liljendal, Lovisa, Mörskom, Pernå, Borgå, Pukkila, Strömfors, Sibbo.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>5. Egentliga Finland</saa:SaadosValiotsikkoKooste>
-        <te>Alastaro, Villnäs, Aura, Dragsfjärd, Halikko, Houtskär, Iniö, S:t Karins, Karinainen, Kimito, Kiikala, Kisko, Korpo, Koski Tl, Gustavs, Kuusjoki, Letala, Lemu, Lundo, Loimaa, Loimaa kommun, Marttila, Masku, Mellilä, Merimasku, Mietoinen, Muurla, Mynämäki, Nådendal, Nagu, Nousis, Oripää, Pemar, Pargas, Bjärnö, S:t Bertils, Pikis, Pyhäranta, Pöytyä, Reso, Rusko, Rimito, Salo, Sagu, Somero, Suomusjärvi, Finby, Tovsala, Tarvasjoki, Åbo, Nystad, Vahto, Vehmaa, Velkua, Västanfjärd, Yläne.</te>
+        <saa:SaadosKappaleKooste>Alastaro, Villnäs, Aura, Dragsfjärd, Halikko, Houtskär, Iniö, S:t Karins, Karinainen, Kimito, Kiikala, Kisko, Korpo, Koski Tl, Gustavs, Kuusjoki, Letala, Lemu, Lundo, Loimaa, Loimaa kommun, Marttila, Masku, Mellilä, Merimasku, Mietoinen, Muurla, Mynämäki, Nådendal, Nagu, Nousis, Oripää, Pemar, Pargas, Bjärnö, S:t Bertils, Pikis, Pyhäranta, Pöytyä, Reso, Rusko, Rimito, Salo, Sagu, Somero, Suomusjärvi, Finby, Tovsala, Tarvasjoki, Åbo, Nystad, Vahto, Vehmaa, Velkua, Västanfjärd, Yläne.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>6. Centrala Tavastland</saa:SaadosValiotsikkoKooste>
-        <te>Forssa, Hattula, Hauho, Hausjärvi, Humppila, Tavastehus, Janakkala, Jockis, Kalvola, Lammi, Loppi, Renko, Riihimäki, Tammela, Tuulos, Ypäjä.</te>
+        <saa:SaadosKappaleKooste>Forssa, Hattula, Hauho, Hausjärvi, Humppila, Tavastehus, Janakkala, Jockis, Kalvola, Lammi, Loppi, Renko, Riihimäki, Tammela, Tuulos, Ypäjä.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>7. Östra Tavastland</saa:SaadosValiotsikkoKooste>
-        <te>Artsjö, Asikkala, Hartola, Heinola, Hollola, Hämeenkoski, Kärkölä, Lahtis, Nastola, Orimattila, Padasjoki, Sysmä.</te>
+        <saa:SaadosKappaleKooste>Artsjö, Asikkala, Hartola, Heinola, Hollola, Hämeenkoski, Kärkölä, Lahtis, Nastola, Orimattila, Padasjoki, Sysmä.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>8. Kymmenedalen</saa:SaadosValiotsikkoKooste>
-        <te>Anjalankoski, Elimäki, Fredrikshamn, Iitti, Jaala, Kotka, Kouvola, Kuusankoski, Miehikkälä, Pyttis, Valkeala, Veckelax, Vederlax.</te>
+        <saa:SaadosKappaleKooste>Anjalankoski, Elimäki, Fredrikshamn, Iitti, Jaala, Kotka, Kouvola, Kuusankoski, Miehikkälä, Pyttis, Valkeala, Veckelax, Vederlax.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>9. Södra Karelen</saa:SaadosValiotsikkoKooste>
-        <te>Imatra, Joutseno, Villmanstrand, Lemi, Luumäki, Parikkala, Rautjärvi, Ruokolahti, Saari, Savitaipale, Suomenniemi, Taipalsaari, Uukuniemi, Ylämaa.</te>
+        <saa:SaadosKappaleKooste>Imatra, Joutseno, Villmanstrand, Lemi, Luumäki, Parikkala, Rautjärvi, Ruokolahti, Saari, Savitaipale, Suomenniemi, Taipalsaari, Uukuniemi, Ylämaa.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>10. Södra Savolax</saa:SaadosValiotsikkoKooste>
-        <te>Enonkoski, Haukivuori, Heinävesi, Hirvensalmi, Jorois, Juva, Jäppilä, Kangasniemi, Kerimäki, S:t Michel, Mäntyharju, Pertunmaa, Pieksämäki, Pieksämäki lk, Punkaharju, Puumala, Rantasalmi, Kristina, Nyslott, Savonranta, Sulkava, Virtasalmi.</te>
+        <saa:SaadosKappaleKooste>Enonkoski, Haukivuori, Heinävesi, Hirvensalmi, Jorois, Juva, Jäppilä, Kangasniemi, Kerimäki, S:t Michel, Mäntyharju, Pertunmaa, Pieksämäki, Pieksämäki lk, Punkaharju, Puumala, Rantasalmi, Kristina, Nyslott, Savonranta, Sulkava, Virtasalmi.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>11. Mellersta Finland</saa:SaadosValiotsikkoKooste>
-        <te>Hankasalmi, Joutsa, Jyväskylä, Jyväskylä lk, Jämsä, Jämsänkoski, Kannonkoski, Karstula, Keuruu, Kinnula, Kivijärvi, Konnevesi, Korpilahti, Kuhmoinen, Kyyjärvi, Laukaa, Leivonmäki, Luhanka, Multia, Muurame, Petäjävesi, Pihtipudas, Pylkönmäki, Saarijärvi, Sumiainen, Suolahti, Toivakka, Uurainen, Viitasaari, Äänekoski.</te>
+        <saa:SaadosKappaleKooste>Hankasalmi, Joutsa, Jyväskylä, Jyväskylä lk, Jämsä, Jämsänkoski, Kannonkoski, Karstula, Keuruu, Kinnula, Kivijärvi, Konnevesi, Korpilahti, Kuhmoinen, Kyyjärvi, Laukaa, Leivonmäki, Luhanka, Multia, Muurame, Petäjävesi, Pihtipudas, Pylkönmäki, Saarijärvi, Sumiainen, Suolahti, Toivakka, Uurainen, Viitasaari, Äänekoski.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>12. Birkaland</saa:SaadosValiotsikkoKooste>
-        <te>Tavastkyro, Ikalis, Juupajoki, Kangasala, Kihniö, Kuhmalahti, Kuru, Kylmäkoski, Lempäälä, Luopioinen, Längelmäki, Mouhijärvi, Mänttä, Nokia, Orivesi, Parkano, Birkala, Pälkäne, Ruovesi, Sahalahti, Suoden-niemi, Tammerfors, Toijala, Urjala, Valkeakoski, Vammala, Vesilahti, Viiala, Viljakkala, Vilppula, Virdois, Ylöjärvi, Äetsä.</te>
+        <saa:SaadosKappaleKooste>Tavastkyro, Ikalis, Juupajoki, Kangasala, Kihniö, Kuhmalahti, Kuru, Kylmäkoski, Lempäälä, Luopioinen, Längelmäki, Mouhijärvi, Mänttä, Nokia, Orivesi, Parkano, Birkala, Pälkäne, Ruovesi, Sahalahti, Suoden-niemi, Tammerfors, Toijala, Urjala, Valkeakoski, Vammala, Vesilahti, Viiala, Viljakkala, Vilppula, Virdois, Ylöjärvi, Äetsä.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>13. Satakunda</saa:SaadosValiotsikkoKooste>
-        <te>Eura, Euraåminne, Harjavalta, Honkajoki, Huittinen, Jämijärvi, Kankaanpää, Karvia, Kiikoinen, Kiukainen, Kodisjoki, Kumo, Kullaa, Kjulo, Lappi, Lavia, Luvia, Sastmola, Nakkila, Norrmark, Påmark, Björneborg, Punkalaidun, Raumo, Siikainen, Säkylä, Ulvsby, Vampula.</te>
+        <saa:SaadosKappaleKooste>Eura, Euraåminne, Harjavalta, Honkajoki, Huittinen, Jämijärvi, Kankaanpää, Karvia, Kiikoinen, Kiukainen, Kodisjoki, Kumo, Kullaa, Kjulo, Lappi, Lavia, Luvia, Sastmola, Nakkila, Norrmark, Påmark, Björneborg, Punkalaidun, Raumo, Siikainen, Säkylä, Ulvsby, Vampula.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>14. Södra Österbotten</saa:SaadosValiotsikkoKooste>
-        <te>Alahärmä, Alajärvi, Alavo, Evijärvi, Ilmola, Storå, Jalasjärvi, Jurva, Bötom, Kauhajoki, Kauhava, Kortesjärvi, Kuortane, Kurikka, Lappajärvi, Lappo, Lehtimäki, Nurmo, Peräseinäjoki, Seinäjoki, Soini, Teuva, Töysä, Vindala, Ylihärmä, Ylistaro, Etseri.</te>
+        <saa:SaadosKappaleKooste>Alahärmä, Alajärvi, Alavo, Evijärvi, Ilmola, Storå, Jalasjärvi, Jurva, Bötom, Kauhajoki, Kauhava, Kortesjärvi, Kuortane, Kurikka, Lappajärvi, Lappo, Lehtimäki, Nurmo, Peräseinäjoki, Seinäjoki, Soini, Teuva, Töysä, Vindala, Ylihärmä, Ylistaro, Etseri.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>15. Österbotten</saa:SaadosValiotsikkoKooste>
-        <te>Storkyro, Kaskö, Korsnäs, Kristinestad, Laihela, Malax, Maxmo, Korsholm, Närpes, Oravais, Pedersöre, Nykarleby, Vasa, Lillkyro, Vörå.</te>
+        <saa:SaadosKappaleKooste>Storkyro, Kaskö, Korsnäs, Kristinestad, Laihela, Malax, Maxmo, Korsholm, Närpes, Oravais, Pedersöre, Nykarleby, Vasa, Lillkyro, Vörå.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>16. Mellersta Österbotten</saa:SaadosValiotsikkoKooste>
-        <te>Halso, Himango, Kannus, Kaustby, Karleby, Kronoby, Kelviå, Lestijärvi, Larsmo, Lochteå, Perho, Jakobstad, Toholampi, Ullava, Vetil.</te>
+        <saa:SaadosKappaleKooste>Halso, Himango, Kannus, Kaustby, Karleby, Kronoby, Kelviå, Lestijärvi, Larsmo, Lochteå, Perho, Jakobstad, Toholampi, Ullava, Vetil.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>17. Norra Savolax</saa:SaadosValiotsikkoKooste>
-        <te>Idensalmi, Juankoski, Kaavi, Kangaslampi, Karttula, Keitele, Kiuruvesi, Kuopio, Lapinlahti, Leppävirta, Maaninka, Nilsiä, Pielavesi, Rautalampi, Rautavaara, Siilinjärvi, Sonkajärvi, Suonenjoki, Tervo, Tuusniemi, Varkaus, Varpaisjärvi, Vehmersalmi, Vesanto, Vieremä.</te>
+        <saa:SaadosKappaleKooste>Idensalmi, Juankoski, Kaavi, Kangaslampi, Karttula, Keitele, Kiuruvesi, Kuopio, Lapinlahti, Leppävirta, Maaninka, Nilsiä, Pielavesi, Rautalampi, Rautavaara, Siilinjärvi, Sonkajärvi, Suonenjoki, Tervo, Tuusniemi, Varkaus, Varpaisjärvi, Vehmersalmi, Vesanto, Vieremä.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>18. Norra Karelen</saa:SaadosValiotsikkoKooste>
-        <te>Eno, Ilomants, Joensuu, Juuka, Kesälahti, Kiihtelysvaara, Kitee, Kontiolahti, Lieksa, Libelits, Nurmes, Outokumpu, Polvijärvi, Pyhäselkä, Rääkkylä, Tohmajärvi, Tuupo-vaara, Valtimo, Värtsilä.</te>
+        <saa:SaadosKappaleKooste>Eno, Ilomants, Joensuu, Juuka, Kesälahti, Kiihtelysvaara, Kitee, Kontiolahti, Lieksa, Libelits, Nurmes, Outokumpu, Polvijärvi, Pyhäselkä, Rääkkylä, Tohmajärvi, Tuupo-vaara, Valtimo, Värtsilä.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>19. Ådalarna</saa:SaadosValiotsikkoKooste>
-        <te>Alavieska, Haapajärvi, Haapavesi, Kalajoki, Kestilä, Kärsämäki, Merijärvi, Nivala, Oulainen, Pattijoki, Piippola, Pulkkila, Pyhäjoki, Pyhäjärvi, Pyhäntä, Brahestad, Rantsila, Reisjärvi, Ruukki, Sievi, Siikajoki, Vihanti, Ylivieska.</te>
+        <saa:SaadosKappaleKooste>Alavieska, Haapajärvi, Haapavesi, Kalajoki, Kestilä, Kärsämäki, Merijärvi, Nivala, Oulainen, Pattijoki, Piippola, Pulkkila, Pyhäjoki, Pyhäjärvi, Pyhäntä, Brahestad, Rantsila, Reisjärvi, Ruukki, Sievi, Siikajoki, Vihanti, Ylivieska.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>20. Kajanaland</saa:SaadosValiotsikkoKooste>
-        <te>Hyrynsalmi, Kajana, Kuhmo, Puolanka, Paltamo, Ristijärvi, Sotkamo, Suomussalmi, Vaala, Vuolijoki.</te>
+        <saa:SaadosKappaleKooste>Hyrynsalmi, Kajana, Kuhmo, Puolanka, Paltamo, Ristijärvi, Sotkamo, Suomussalmi, Vaala, Vuolijoki.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>21. Uleåborg-Nordöstra Österbotten</saa:SaadosValiotsikkoKooste>
-        <te>Karlö, Haukipudas, Ii, Kempele, Kiiminki, Kuivaniemi, Kuusamo, Limingo, Lumijoki, Muhos, Uleåborg, Oulunsalo, Pudasjärvi, Taivalkoski, Tyrnävä, Utajärvi, Yli-Ii, Yli-kiiminki.</te>
+        <saa:SaadosKappaleKooste>Karlö, Haukipudas, Ii, Kempele, Kiiminki, Kuivaniemi, Kuusamo, Limingo, Lumijoki, Muhos, Uleåborg, Oulunsalo, Pudasjärvi, Taivalkoski, Tyrnävä, Utajärvi, Yli-Ii, Yli-kiiminki.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>22. Lappland</saa:SaadosValiotsikkoKooste>
-        <te>Enontekis, Enare, Kemi, Kemijärvi, Keminmaa, Kittilä, Kolari, Muonio, Pelkosenniemi, Pello, Posio, Ranua, Rovaniemi, Rovaniemen lk, Salla, Savukoski, Simo, Sodankylä, Tervola, Torneå, Utsjoki, Övertorneå.</te>
+        <saa:SaadosKappaleKooste>Enontekis, Enare, Kemi, Kemijärvi, Keminmaa, Kittilä, Kolari, Muonio, Pelkosenniemi, Pello, Posio, Ranua, Rovaniemi, Rovaniemen lk, Salla, Savukoski, Simo, Sodankylä, Tervola, Torneå, Utsjoki, Övertorneå.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>Språklig indelning</saa:SaadosValiotsikkoKooste>
-        <te>Västra Nylands, Östra Nylands, Mellersta Nylands och Kymmenedalens räddningsområden är finskspråkiga i fråga om de finskspråkiga kommunerna och tvåspråkiga i fråga om de tvåspråkiga kommunerna. Majoriteten av invånarna inom alla ovannämnda räddningsområdena är finskspråkig.</te>
-        <te>Egentliga Finlands, Österbottens och Mellersta Österbottens räddningsområden är finskspråkiga i fråga om de finskspråkiga kommunerna, svenskspråkiga i fråga om de svenskspråkiga kommunerna och tvåspråkiga i fråga om de tvåspråkiga kommunerna. Majoriteten av invånarna inom alla ovannämnda räddningsområdena är finskspråkig.</te>
-        <te>Helsingfors räddningsområde är tvåspråkig. Majoriteten av invånarna inom räddningsområdet är finskspråkig.</te>
-        <te>Andra räddningsområden än de som nämns i 1, 2 och 3 mom. är finskspråkiga.</te>
+        <saa:SaadosKappaleKooste>Västra Nylands, Östra Nylands, Mellersta Nylands och Kymmenedalens räddningsområden är finskspråkiga i fråga om de finskspråkiga kommunerna och tvåspråkiga i fråga om de tvåspråkiga kommunerna. Majoriteten av invånarna inom alla ovannämnda räddningsområdena är finskspråkig.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Egentliga Finlands, Österbottens och Mellersta Österbottens räddningsområden är finskspråkiga i fråga om de finskspråkiga kommunerna, svenskspråkiga i fråga om de svenskspråkiga kommunerna och tvåspråkiga i fråga om de tvåspråkiga kommunerna. Majoriteten av invånarna inom alla ovannämnda räddningsområdena är finskspråkig.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Helsingfors räddningsområde är tvåspråkig. Majoriteten av invånarna inom räddningsområdet är finskspråkig.</saa:SaadosKappaleKooste>
+        <saa:SaadosKappaleKooste>Andra räddningsområden än de som nämns i 1, 2 och 3 mom. är finskspråkiga.</saa:SaadosKappaleKooste>
         <saa:SaadosValiotsikkoKooste>Ikraftträdelse</saa:SaadosValiotsikkoKooste>
-        <saa:Pykala saa1:identifiointiTunnus="Voimaantulo" saa1:pykalaLuokitusKoodi="VoimaantuloSaannos">
-          <saa:MomenttiKooste>Denna beslut träder i kraft den 1 januari 2004.</saa:MomenttiKooste>
-          <saa:SaadosOtsikkoKooste>Besvärsanvisning</saa:SaadosOtsikkoKooste>
-          <saa:MomenttiKooste>Ändring i detta beslut får sökas hos högsta förvaltningsdomstolen. Ändring får sökas på den grunden att beslutet är lagstridigt. Besvärsskriften skall tillställas högsta förvaltningsdomstolens registratorskontor, Unionsgatan 16, 00130 Helsingfors, inom 30 dagar från det att beslutet publicerats i författningssamlingen. I besvärsskriften skall anges ändringssökandens namn, hemkommun och kontaktinformation samt det överklagade beslutet, den ändring som söks i beslutet och grunderna för den ändring som söks.</saa:MomenttiKooste>
-        </saa:Pykala>
-      </saa:Pykalisto>
-    </saa:Saados>
+        <saa:SaadosKappaleKooste>Denna beslut träder i kraft den 1 januari 2004.</saa:SaadosKappaleKooste>
+        <saa:SaadosValiotsikkoKooste>Besvärsanvisning</saa:SaadosValiotsikkoKooste>
+        <saa:SaadosKappaleKooste>Ändring i detta beslut får sökas hos högsta förvaltningsdomstolen. Ändring får sökas på den grunden att beslutet är lagstridigt. Besvärsskriften skall tillställas högsta förvaltningsdomstolens registratorskontor, Unionsgatan 16, 00130 Helsingfors, inom 30 dagar från det att beslutet publicerats i författningssamlingen. I besvärsskriften skall anges ändringssökandens namn, hemkommun och kontaktinformation samt det överklagade beslutet, den ändring som söks i beslutet och grunderna för den ändring som söks.</saa:SaadosKappaleKooste>
+      </saa:SisaltoMuuSaados>
+    </saa:MuuSaados>
   </saa:SaadosOsa>
   <asi:AllekirjoitusOsa>
     <asi:PaivaysKooste>Helsingfors den 7 mars 2002</asi:PaivaysKooste>
