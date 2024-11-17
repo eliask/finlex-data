@@ -30,18 +30,25 @@
           <saa:PykalaTunnusKooste>2 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Asunnon kohtuullinen enimmäishinta </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Vastaantulolaina tai osa siitä voidaan hyväksyä korkotukilainaksi vain, mikäli sillä hankittavan asunnon hinta ei ylitä seuraavaa asunnon sijaintikunnan ja koon mukaan määräytyvää enimmäishintaa:</saa:MomenttiKooste>
-          <tau:table>
-            <tau:tgroup cols="3" colsep="0" rowsep="0" align="left">
-              <tau:colspec colnum="1" colname="1" colwidth=""/>
-              <tau:colspec colnum="2" colname="2" colwidth=""/>
-              <tau:colspec colnum="3" colname="3" colwidth=""/>
-              <tau:tbody valign="top">
+          <tau:table frame="all" colsep="1" rowsep="1">
+            <tau:tgroup cols="4" colsep="1" rowsep="1">
+              <tau:colspec colnum="1" colname="1" colwidth="25*"/>
+              <tau:colspec colnum="2" colname="2" colwidth="25*"/>
+              <tau:colspec colnum="3" colname="3" colwidth="25*"/>
+              <tau:colspec colnum="4" colname="4" colwidth="25*"/>
+              <tau:tbody>
                 <tau:row>
                   <tau:entry>
                     <sis:KappaleKooste/>
                   </tau:entry>
-                  <tau:entry namest="2" nameend="4">
+                  <tau:entry>
                     <sis:KappaleKooste>Asunnon koko m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>   </sis:KappaleKooste>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
+                  </tau:entry>
+                  <tau:entry>
+                    <sis:KappaleKooste/>
                   </tau:entry>
                 </tau:row>
                 <tau:row>
@@ -122,12 +129,12 @@
           <saa:PykalaTunnusKooste>3 §</saa:PykalaTunnusKooste>
           <saa:SaadosOtsikkoKooste>Korkotukilainan enimmäismäärä </saa:SaadosOtsikkoKooste>
           <saa:MomenttiKooste>Korkotukilainaksi voidaan hyväksyä asunnon sijaintikunnan mukaan enintään seuraavan suuruinen osa vastaantulolainasta:</saa:MomenttiKooste>
-          <tau:table>
-            <tau:tgroup cols="3" colsep="0" rowsep="0" align="left">
-              <tau:colspec colnum="1" colname="1" colwidth=""/>
-              <tau:colspec colnum="2" colname="2" colwidth=""/>
-              <tau:colspec colnum="3" colname="3" colwidth=""/>
-              <tau:tbody valign="top">
+          <tau:table frame="all" colsep="1" rowsep="1">
+            <tau:tgroup cols="3" colsep="1" rowsep="1">
+              <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+              <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+              <tau:colspec colnum="3" colname="3" colwidth="33*"/>
+              <tau:tbody>
                 <tau:row>
                   <tau:entry>
                     <sis:KappaleKooste>Asunnon sijantikunta </sis:KappaleKooste>
