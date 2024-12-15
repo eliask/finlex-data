@@ -47,21 +47,26 @@
   </asi:AllekirjoitusOsa>
   <asi:LiiteOsa>
     <asi:SisaltoLiite>
-      <sis1:ValiotsikkoTeksti>
-        <saa:SaadosKursiiviKooste>Liite 1</saa:SaadosKursiiviKooste>
-      </sis1:ValiotsikkoTeksti>
-      <sis1:ValiotsikkoTeksti>Ulkomaanedustuksen asemapaikkojen kalleusluokat ja kalleusluokittain liukuvat kertoimet </sis1:ValiotsikkoTeksti>
-      <tau:table>
+      <sis:KappaleKooste>
+        <sis1:KursiiviTeksti>Liite 1</sis1:KursiiviTeksti>
+      </sis:KappaleKooste>
+      <sis:KappaleKooste>
+        <sis1:LihavaTeksti>Ulkomaanedustuksen asemapaikkojen kalleusluokat ja kalleusluokittain liukuvat kertoimet</sis1:LihavaTeksti>
+      </sis:KappaleKooste>
+      <tau:table frame="all" colsep="1" rowsep="1">
         <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:colspec colnum="1" colname="1" colwidth="33"/>
+          <tau:colspec colnum="2" colname="2" colwidth="33"/>
+          <tau:colspec colnum="3" colname="3" colwidth="33"/>
           <tau:tbody>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top"/>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Kalleus-</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Kalleus-</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -87,10 +92,8 @@
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -105,10 +108,8 @@
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -123,25 +124,21 @@
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>32</sis:KappaleKooste>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">4.429-4.649</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>4.429-4.649</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -156,10 +153,8 @@
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -174,10 +169,8 @@
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -192,10 +185,8 @@
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -213,55 +204,53 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Alger</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Alger</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Bern</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Bern</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Damaskus</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Damaskus</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Reykjavik</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Reykjavik</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Seoul</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Seoul</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Tripoli</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Tripoli</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -279,23 +268,21 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Oslo</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Oslo</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Riad</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Riad</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -313,31 +300,29 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Kuwait</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Kuwait</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">New York</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>New York</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Tel Aviv</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Tel Aviv</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -355,39 +340,37 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Dar es Salaam</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Dar es Salaam</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Hanoi</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Hanoi</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Los Angeles</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Los Angeles</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Washington</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Washington</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -405,143 +388,141 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Bogota</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Bogota</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Brasiilia</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Brasiilia</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Bukarest</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Bukarest</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Hongkong</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Hongkong</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Kairo</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Kairo</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Kööpenhamina</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Kööpenhamina</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Leningrad</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Leningrad</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Managua</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Managua</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Marseille</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Marseille</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Milano</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Milano</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Moskova</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Moskova</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Pariisi</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Pariisi</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">San José</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>San José</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Sofia</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Sofia</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Strasbourg</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Strasbourg</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Tukholma</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Tukholma</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Sydney</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Sydney</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -559,119 +540,117 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Bonn</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Bonn</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Bryssel</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Bryssel</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Chicago</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Chicago</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Frankfurt am Main</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Frankfurt am Main</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Göteborg</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Göteborg</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Haag</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Haag</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Hampuri</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Hampuri</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Houston</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Houston</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Lontoo</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Lontoo</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Länsi-Berliini</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Länsi-Berliini</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Müenchen</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Müenchen</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Rio de Janeiro</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Rio de Janeiro</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Rooma</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Rooma</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Wien</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Wien</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -689,135 +668,133 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Beograd</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Beograd</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Caracas</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Caracas</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Harare</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Harare</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Havanna</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Havanna</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Jakarta</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Jakarta</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Kuala Lumpur</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Kuala Lumpur</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Lima</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Lima</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Lusaka</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Lusaka</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Ottawa</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Ottawa</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Peking</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Peking</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Pjongjang</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Pjongjang</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Santiago de Chile</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Santiago de Chile</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Singapore</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Singapore</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Toronto</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Toronto</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Vancouver</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Vancouver</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Varsova</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Varsova</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -835,63 +812,61 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Madrid</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Madrid</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Manila</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Manila</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Mexico</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Mexico</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Nairobi</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Nairobi</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Praha</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Praha</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Pretoria</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Pretoria</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Rabat</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Rabat</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -909,39 +884,37 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Bangkok</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Bangkok</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Budapest</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Budapest</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Lissabon</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Lissabon</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">New Delhi</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>New Delhi</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -956,10 +929,8 @@
               </tau:entry>
             </tau:row>
             <tau:row>
-              <tau:entry namest="1" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">
-                  <sis:Katkoviiva/>
-                </sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -977,22 +948,21 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Las Palmas</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Las Palmas</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
-              <tau:entry namest="2" nameend="3">
-                <sis:KappaleKooste align="left" valign="top">Malaga</sis:KappaleKooste>
+              <tau:entry>
+                <sis:KappaleKooste>Malaga</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
           </tau:tbody>
         </tau:tgroup>
       </tau:table>
-      <sis:Katkoviiva/>
     </asi:SisaltoLiite>
   </asi:LiiteOsa>
 </vah:VahvistettavaLaki>
