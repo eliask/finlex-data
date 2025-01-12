@@ -76,8 +76,10 @@
         <sis1:LihavaTeksti>OFFENTLIGRÄTTSLIGA PRESTATIONER SOM MOTSVARAR SJÄLVKOSTNADSVÄRDET</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
           <tau:tbody>
             <tau:row>
               <tau:entry>
@@ -85,14 +87,10 @@
                   <sis1:LihavaTeksti>Luftfart</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -107,14 +105,10 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>1.1</sis:KappaleKooste>
@@ -131,7 +125,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>första registrering eller ägarbyte avgift för registerbehandling i fråga om högst två ägare, följande ägare, avgift/ägare	</sis:KappaleKooste>
+                <sis:KappaleKooste>- första registrering eller ägarbyte avgift för registerbehandling i fråga om högst två ägare, följande ägare, avgift/ägare	</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>35 euro</sis:KappaleKooste>
@@ -153,7 +147,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>interimistiskt registreringsbevis</sis:KappaleKooste>
+                <sis:KappaleKooste>- interimistiskt registreringsbevis</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -164,7 +158,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>bevis på grund av ägarens namn- eller adressbyte</sis:KappaleKooste>
+                <sis:KappaleKooste>- bevis på grund av ägarens namn- eller adressbyte</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -175,7 +169,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>bevis i stället för förkommet eller förstört original</sis:KappaleKooste>
+                <sis:KappaleKooste>- bevis i stället för förkommet eller förstört original</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -197,7 +191,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>fastställande, förnyelse eller dödande av inteckning</sis:KappaleKooste>
+                <sis:KappaleKooste>- fastställande, förnyelse eller dödande av inteckning</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -208,7 +202,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>ändring av inteckningars inbördes förmånsrätt</sis:KappaleKooste>
+                <sis:KappaleKooste>- ändring av inteckningars inbördes förmånsrätt</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -252,7 +246,18 @@
                 <sis:KappaleKooste>1.7</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Tilläggsavgift utöver tabellpriset för påskyndad behandling i fråga om beslut om registrering som avses i punkt 1.1. Påskyndad behandling förutsätter skriftlig förfrågan av sökanden. Förfrågningar tas emot beroende på arbetssituationen. Tilläggsavgift tas ut även om ingen registrering kan göras.  	</sis:KappaleKooste>
+                <sis:KappaleKooste>Tilläggsavgift utöver tabellpriset för påskyndad behandling i fråga om beslut om registrering som avses i punkt 1.1. Påskyndad behandling förutsätter skriftlig förfrågan av sökanden. Förfrågningar tas emot beroende på arbetssituationen.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Tilläggsavgift tas ut även om ingen registrering kan göras.  	</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>800 euro</sis:KappaleKooste>
@@ -317,9 +322,10 @@
         </tau:tgroup>
       </tau:table>
       <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
           <tau:tbody>
             <tau:row>
               <tau:entry>
@@ -332,14 +338,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till prov, certifikat och personbehörigheter</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -410,12 +412,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -427,14 +423,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till flygprov och kompetenskontroller</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -988,12 +980,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -1005,14 +991,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till flygverksamhet och bedrivande av trafik</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -1029,7 +1011,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Om en innehavare av ett drifttillstånd (AOC), ett drifttillstånd för specialiserad verksamhet med hög risk (high risk-SPO) och ett ATO-utbildningstillstånd har ett gemensamt förvaltningssystem för dessa funktioner, tas av tillståndshavaren ut hälften av årsavgifterna för det billigare tillståndet och/eller de billigare tillstånden. I fråga om AOC avses den sammanräknade årsavgiften i punkt 3.2, i fråga om high risk-SPO punkterna 3.6.1.2–3.6.1.4 (sammanräknade) och i fråga om ATO-utbildningstillståndet punkterna 4.2.3.1, 4.2.3.2,<sis:Rivivaihto/>4.2.4.1 ja 4.2.4.2 (sammanräknade).</sis:KappaleKooste>
+                <sis:KappaleKooste>Om en innehavare av ett drifttillstånd (AOC), ett drifttillstånd för specialiserad verksamhet med hög risk (high risk-SPO) och ett ATO-utbildningstillstånd har ett gemensamt förvaltningssystem för dessa funktioner, tas av tillståndshavaren ut hälften av årsavgifterna för det billigare tillståndet och/eller de billigare tillstånden. I fråga om AOC avses den sammanräknade årsavgiften i punkt 3.2, i fråga om high risk-SPO punkterna 3.6.1.2–3.6.1.4 (sammanräknade) och i fråga om ATO-utbildningstillståndet punkterna 4.2.3.1, 4.2.3.2, 4.2.4.1 ja 4.2.4.2 (sammanräknade).</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -1773,12 +1755,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -1790,14 +1766,10 @@
                   <sis1:LihavaTeksti>Ändring av drifttillstånd, deklarationer om flygverksamhet (del-NCC, del-SPO eller luftballonger) eller bruksflygtillstånd</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -2624,12 +2596,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -2641,14 +2607,10 @@
                   <sis1:LihavaTeksti>Godkännanden av flygsimulatorer och flygträningsanordningar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -2851,12 +2813,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -2865,13 +2821,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>3.9.1</sis:KappaleKooste>
@@ -2993,13 +2942,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -3026,12 +2968,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>3.10.1</sis:KappaleKooste>
@@ -3039,14 +2975,10 @@
               <tau:entry>
                 <sis:KappaleKooste>Teoriprov på internet</sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>3.10.1.1</sis:KappaleKooste>
@@ -3183,12 +3115,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -3196,14 +3122,10 @@
               <tau:entry>
                 <sis:KappaleKooste>Den första avgiften i fråga om de årsavgifter som avses i punkt 3.11 tas ut när godkännandet beviljas och den täcker det första året. Efter detta tas årsavgiften ut årligen. Årsavgiften innefattar tillsyn.</sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -3424,31 +3346,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -3464,13 +3361,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -3585,14 +3475,6 @@
                 <sis:KappaleKooste>250 euro</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-      </tau:table>
-      <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -3604,14 +3486,10 @@
                   <sis1:LihavaTeksti>Utbildningstillstånd för utbildningsorganisationer samt tillägg</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -3628,7 +3506,16 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>För ett första godkännande av en prestation som avses i 4.2.1 tas det ut en fast avgift för första godkännande när godkännandet beviljas och under de följande åren efter beviljandet av godkännandet tas det ut en årsavgift varje kalenderår. Årsavgiften innefattar tillsyn och årliga inspektioner (inbegripet handboksändringar).<sis:Rivivaihto/>Årsavgifterna i punkterna 4.2.3 och 4.2.4 tas ut årligen i en post. Den första årsavgiften tas ut när tillstånd beviljas och den täcker det första året. Det kan även krävas att den första årsavgiften betalas i sin helhet eller till en del på förhand efter att ansökan lämnats in. Därpå följande årsavgifter tas ut varje kalenderår. Årsavgiften innefattar tillsyn och årliga inspektioner (inbegripet handboksändringar).</sis:KappaleKooste>
+                <sis:KappaleKooste>För ett första godkännande av en prestation som avses i 4.2.1 tas det ut en fast avgift för första godkännande när godkännandet beviljas och under de följande åren efter beviljandet av godkännandet tas det ut en årsavgift varje kalenderår. Årsavgiften innefattar tillsyn och årliga inspektioner (inbegripet handboksändringar).</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Årsavgifterna i punkterna 4.2.3 och 4.2.4 tas ut årligen i en post. Den första årsavgiften tas ut när tillstånd beviljas och den täcker det första året. Det kan även krävas att den första årsavgiften betalas i sin helhet eller till en del på förhand efter att ansökan lämnats in. Därpå följande årsavgifter tas ut varje kalenderår. Årsavgiften innefattar tillsyn och årliga inspektioner (inbegripet handboksändringar).</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -3799,12 +3686,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -3816,14 +3697,10 @@
                   <sis1:LihavaTeksti>Deklarerade utbildningsorganisationer, utbildningstillstånd för sport-flygarcertifikat</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -3901,13 +3778,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -3923,13 +3793,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -4532,12 +4395,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -4549,14 +4406,10 @@
                   <sis1:LihavaTeksti>Allmänna prestationer i anslutning till tillstånd för organisationer </sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -4601,12 +4454,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -4618,14 +4465,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till flygtrafiktjänst och luftrumsplanering</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -4902,13 +4745,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -4924,13 +4760,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -5233,13 +5062,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -5255,13 +5077,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -5389,24 +5204,6 @@
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>10</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
@@ -5420,13 +5217,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -5541,13 +5331,6 @@
                 <sis:KappaleKooste>enligt antal rörelser enligt instrumentflygreglerna</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>10.1.2</sis:KappaleKooste>
@@ -5570,13 +5353,6 @@
                 <sis:KappaleKooste>enligt passagerarantal</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -5588,12 +5364,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -5601,14 +5371,10 @@
               <tau:entry>
                 <sis:KappaleKooste>De årsavgifter som avses i punkt 10.1.1 bestäms enligt följande:</sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -5914,15 +5680,6 @@
                 <sis:KappaleKooste>1 600 euro</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-      </tau:table>
-      <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>10.3.2</sis:KappaleKooste>
@@ -6000,13 +5757,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -6022,13 +5772,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -6088,8 +5831,10 @@
         </tau:tgroup>
       </tau:table>
       <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
           <tau:tbody>
             <tau:row>
               <tau:entry>
@@ -6097,19 +5842,13 @@
                   <sis1:LihavaTeksti>Sjöfart</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
-            </tau:row>
-            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -6125,13 +5864,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -6407,13 +6139,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -6429,13 +6154,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -6610,13 +6328,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -6632,13 +6343,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -6980,13 +6684,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -7002,13 +6699,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7097,12 +6787,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -7114,14 +6798,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till fartygsteknik, fartygscertifikat och hamnskyddsärenden</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7204,7 +6884,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>säkerhetscertifikat för fartyg</sis:KappaleKooste>
+                <sis:KappaleKooste>- säkerhetscertifikat för fartyg</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7215,7 +6895,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>radiosäkerhetscertifikat eller utrustningssäkerhetscertifikat för lastfartyg</sis:KappaleKooste>
+                <sis:KappaleKooste>- radiosäkerhetscertifikat eller utrustningssäkerhetscertifikat för lastfartyg</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7226,7 +6906,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>polarfartygscertifikat (Polar Ship Certificate)</sis:KappaleKooste>
+                <sis:KappaleKooste>- polarfartygscertifikat (Polar Ship Certificate)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7237,7 +6917,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>överensstämmelseintyg (redare)</sis:KappaleKooste>
+                <sis:KappaleKooste>- överensstämmelseintyg (redare)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7248,7 +6928,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>certifikat om godkänd säkerhetsorganisation (fartyg)</sis:KappaleKooste>
+                <sis:KappaleKooste>- certifikat om godkänd säkerhetsorganisation (fartyg)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7259,7 +6939,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Certificate of Compliance, fiskefartyg, 24 m eller mer</sis:KappaleKooste>
+                <sis:KappaleKooste>- Certificate of Compliance, fiskefartyg, 24 m eller mer</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7270,7 +6950,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>trafiktillstånd för höghastighetsfartyg</sis:KappaleKooste>
+                <sis:KappaleKooste>- trafiktillstånd för höghastighetsfartyg</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7281,7 +6961,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>fastställande av fartygs isklass</sis:KappaleKooste>
+                <sis:KappaleKooste>- fastställande av fartygs isklass</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7292,7 +6972,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>inspektion av modelltestrapporter avseende maskineffekt</sis:KappaleKooste>
+                <sis:KappaleKooste>- inspektion av modelltestrapporter avseende maskineffekt</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7303,7 +6983,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>inspektion av maskineffektkalkyler</sis:KappaleKooste>
+                <sis:KappaleKooste>- inspektion av maskineffektkalkyler</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7314,7 +6994,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>fastställande av den maskineffekt som krävs för fartygets isklass</sis:KappaleKooste>
+                <sis:KappaleKooste>- fastställande av den maskineffekt som krävs för fartygets isklass</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7325,7 +7005,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>miljöcertifikat (IAPP-, IOPP-, ISPP-, IEE-, NLS-, AFS-, IBWM-certifikat, certifikat för fartyg som transporterat INF-last, certifikat för transport av farligt gods eller försäkran om överensstämmelse enligt bilaga VI till MARPOL-konventionen i fråga om reglerna 27 och 28)</sis:KappaleKooste>
+                <sis:KappaleKooste>- miljöcertifikat (IAPP-, IOPP-, ISPP-, IEE-, NLS-, AFS-, IBWM-certifikat, certifikat för fartyg som transporterat INF-last, certifikat för transport av farligt gods eller försäkran om överensstämmelse enligt bilaga VI till MARPOL-konventionen i fråga om reglerna 27 och 28)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7336,7 +7016,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>godkännande av beräkning av måttlig hastighet för utsläpp av toalettavfall</sis:KappaleKooste>
+                <sis:KappaleKooste>- godkännande av beräkning av måttlig hastighet för utsläpp av toalettavfall</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7347,7 +7027,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>certifikat enligt IGC-, GC-, eGC-, IBC- eller BCH-koden</sis:KappaleKooste>
+                <sis:KappaleKooste>- certifikat enligt IGC-, GC-, eGC-, IBC- eller BCH-koden</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7358,7 +7038,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>certifikat enligt IMSBC-koden</sis:KappaleKooste>
+                <sis:KappaleKooste>- certifikat enligt IMSBC-koden</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7369,7 +7049,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>mätbrev</sis:KappaleKooste>
+                <sis:KappaleKooste>- mätbrev</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7380,7 +7060,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>lastlinjecertifikat</sis:KappaleKooste>
+                <sis:KappaleKooste>- lastlinjecertifikat</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7391,7 +7071,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>kontroll av fribordsberäkning och fastställande av fribord</sis:KappaleKooste>
+                <sis:KappaleKooste>- kontroll av fribordsberäkning och fastställande av fribord</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7402,7 +7082,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>ISSC-certifikat</sis:KappaleKooste>
+                <sis:KappaleKooste>- ISSC-certifikat</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7413,7 +7093,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>deklaration om överensstämmelse för hamnanläggning</sis:KappaleKooste>
+                <sis:KappaleKooste>- deklaration om överensstämmelse för hamnanläggning</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7424,7 +7104,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>befrielse från lämnande av uppgifter om skyddsåtgärder</sis:KappaleKooste>
+                <sis:KappaleKooste>- befrielse från lämnande av uppgifter om skyddsåtgärder</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7435,7 +7115,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>sjöarbetscertifikat (MLC)</sis:KappaleKooste>
+                <sis:KappaleKooste>- sjöarbetscertifikat (MLC)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7446,7 +7126,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>certifikat om ansvarsförsäkring (CLC-konventionen, CLB- konventionen, Atenförordningen och Nairobikonventionen)</sis:KappaleKooste>
+                <sis:KappaleKooste>- certifikat om ansvarsförsäkring (CLC-konventionen, CLB- konventionen, Atenförordningen och Nairobikonventionen)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7457,7 +7137,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>utlåtande om dubbelbotten i tankfartyg</sis:KappaleKooste>
+                <sis:KappaleKooste>- utlåtande om dubbelbotten i tankfartyg</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7468,7 +7148,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>inventeringsintyg (förteckning över farliga material som bilaga) för nytt fartyg</sis:KappaleKooste>
+                <sis:KappaleKooste>- inventeringsintyg (förteckning över farliga material som bilaga) för nytt fartyg</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7479,7 +7159,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>återvinningsintyg (förteckning över farliga material och återvinningsplan som bilaga)</sis:KappaleKooste>
+                <sis:KappaleKooste>- återvinningsintyg (förteckning över farliga material och återvinningsplan som bilaga)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7490,7 +7170,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>certifikat som påvisar särskilda stabilitetskrav för ro-ropassagerarfartyg</sis:KappaleKooste>
+                <sis:KappaleKooste>- certifikat som påvisar särskilda stabilitetskrav för ro-ropassagerarfartyg</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7534,7 +7214,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>fartygsdispenser och dispenscertifikat</sis:KappaleKooste>
+                <sis:KappaleKooste>- fartygsdispenser och dispenscertifikat</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7545,7 +7225,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>beslut om beviljande av undantag</sis:KappaleKooste>
+                <sis:KappaleKooste>- beslut om beviljande av undantag</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7556,7 +7236,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>ändring av giltighetstiden för undantag</sis:KappaleKooste>
+                <sis:KappaleKooste>- ändring av giltighetstiden för undantag</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7567,7 +7247,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>fartygsavfallsdispens</sis:KappaleKooste>
+                <sis:KappaleKooste>- fartygsavfallsdispens</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7578,7 +7258,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>dispens för transport av farligt gods</sis:KappaleKooste>
+                <sis:KappaleKooste>- dispens för transport av farligt gods</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7589,7 +7269,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>dispens för lastutrymme</sis:KappaleKooste>
+                <sis:KappaleKooste>- dispens för lastutrymme</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7633,7 +7313,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>godkännande av lastsäkringsmanual</sis:KappaleKooste>
+                <sis:KappaleKooste>- godkännande av lastsäkringsmanual</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7644,7 +7324,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>godkännande av lasthanteringsmanual</sis:KappaleKooste>
+                <sis:KappaleKooste>- godkännande av lasthanteringsmanual</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7655,7 +7335,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>godkännande av fartygsplan för nödåtgärder vid oljeförorening (SOPEP)</sis:KappaleKooste>
+                <sis:KappaleKooste>- godkännande av fartygsplan för nödåtgärder vid oljeförorening (SOPEP)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7666,7 +7346,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>godkännande av fartygsplan för nödåtgärder vid marin förorening (SMPEP)</sis:KappaleKooste>
+                <sis:KappaleKooste>- godkännande av fartygsplan för nödåtgärder vid marin förorening (SMPEP)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7677,7 +7357,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>godkännande av beredskapsplan för fartyg som transporterar INF-last</sis:KappaleKooste>
+                <sis:KappaleKooste>- godkännande av beredskapsplan för fartyg som transporterar INF-last</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7688,7 +7368,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>godkännande av skyddsplan för fartyg eller hamn</sis:KappaleKooste>
+                <sis:KappaleKooste>- godkännande av skyddsplan för fartyg eller hamn</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7699,7 +7379,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>godkännande av fartygsspecifik plan för energieffektivitetshantering (SEEMP del 2 eller del 3)</sis:KappaleKooste>
+                <sis:KappaleKooste>- godkännande av fartygsspecifik plan för energieffektivitetshantering (SEEMP del 2 eller del 3)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7710,7 +7390,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>godkännande av fartygs barlastvattenhanteringsplan</sis:KappaleKooste>
+                <sis:KappaleKooste>- godkännande av fartygs barlastvattenhanteringsplan</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7721,7 +7401,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>skyddsutredning för hamn</sis:KappaleKooste>
+                <sis:KappaleKooste>- skyddsutredning för hamn</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7732,7 +7412,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>godkännande av egenkontrollplan</sis:KappaleKooste>
+                <sis:KappaleKooste>- godkännande av egenkontrollplan</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7743,7 +7423,7 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>godkännande av programvara för elektroniska skeppsdagböcker</sis:KappaleKooste>
+                <sis:KappaleKooste>- godkännande av programvara för elektroniska skeppsdagböcker</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -7806,23 +7486,6 @@
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>6</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
@@ -7832,14 +7495,10 @@
                   <sis1:LihavaTeksti>Åtgärds- och årsavgifter som gäller fartygsteknik, fartygscertifikat, fartygstillsyn, båtteknik och marknadstillsyn över fritidsbåtar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -8007,24 +7666,6 @@
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>7</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
@@ -8038,13 +7679,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -8102,24 +7736,6 @@
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>8</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
@@ -8133,13 +7749,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -8228,20 +7837,6 @@
                 <sis:KappaleKooste>150 euro</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -8253,14 +7848,10 @@
                   <sis1:LihavaTeksti>Godkännande av sjöfartsutbildning och utbildningsanordnare</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -8338,13 +7929,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -8360,13 +7944,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -8587,13 +8164,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -8609,13 +8179,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -8717,34 +8280,6 @@
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>12</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
@@ -8754,14 +8289,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till förbuds- och begränsningsområden inom sjötrafik</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -8784,13 +8315,6 @@
                 <sis:KappaleKooste>570 euro</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -8806,13 +8330,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -8890,23 +8407,6 @@
                 <sis:KappaleKooste>630 euro</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -8966,8 +8466,10 @@
         </tau:tgroup>
       </tau:table>
       <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
           <tau:tbody>
             <tau:row>
               <tau:entry>
@@ -8975,14 +8477,13 @@
                   <sis1:LihavaTeksti>Spårtrafik</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -9016,13 +8517,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -9038,23 +8532,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>1.1             </sis:KappaleKooste>
@@ -9132,13 +8609,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -9154,13 +8624,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -9227,13 +8690,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -9249,13 +8705,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -9311,12 +8760,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -9328,14 +8771,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till tillstånd för järnvägsinfrastruktur och järnvägsmateriel</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -9534,13 +8973,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -9556,13 +8988,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -9651,12 +9076,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -9668,14 +9087,10 @@
                   <sis1:LihavaTeksti>Årsavgift för innehavare av säkerhetsintyg eller säkerhetstillstånd eller för anmälda förvaltare av privata spåranläggningar</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -9907,13 +9322,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -9929,13 +9337,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -9969,13 +9370,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -9991,13 +9385,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -10064,13 +9451,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -10086,13 +9466,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -10181,12 +9554,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -10198,14 +9565,10 @@
                   <sis1:LihavaTeksti>Prestationer i samband med transport och tillfällig förvaring av farliga ämnen</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -10272,13 +9635,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -10294,13 +9650,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -10356,13 +9705,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -10378,13 +9720,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -10442,13 +9777,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -10519,9 +9847,10 @@
         </tau:tgroup>
       </tau:table>
       <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
           <tau:tbody>
             <tau:row>
               <tau:entry>
@@ -10532,14 +9861,10 @@
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -10551,12 +9876,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -10568,14 +9887,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till fordonsregistrering och bilinteckning</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -11264,12 +10579,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -11281,14 +10590,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till förare, förarutbildning och yrkestrafik </sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -11752,12 +11057,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -11769,14 +11068,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till yrkeskompetensutbildning och yrkeskompetens för förare</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -11975,12 +11270,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -11992,14 +11281,10 @@
                   <sis1:LihavaTeksti>Prestationer gällande vägtransportledning för specialtransporter (EKL)</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -12173,12 +11458,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -12190,14 +11469,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till körtillstånd och utbildning för erhållande av ADR-körtillstånd, körtillstånd och prov för säkerhetsrådgivare</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -12411,12 +11686,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -12428,14 +11697,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till typgodkännande av fordon, system, komponenter, separata tekniska enheter, delar och utrustning samt enskilt EU-fordonsgodkännande och godkännande av modeller för alkolås</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -12612,13 +11877,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -12630,12 +11888,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -12647,14 +11899,10 @@
                   <sis1:LihavaTeksti>Registrering av fordons typuppgifter </sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -12721,13 +11969,6 @@
                 <sis:KappaleKooste>150 euro</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -12739,23 +11980,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -12767,14 +11991,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till förhandsanmälan </sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -12812,9 +12032,10 @@
         </tau:tgroup>
       </tau:table>
       <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
           <tau:tbody>
             <tau:row>
               <tau:entry>
@@ -12827,14 +12048,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till bedömning av produktionens överensstämmelse med kraven </sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -12934,12 +12151,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -12951,14 +12162,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till utbildning för besiktningsverksamhet och till prov för fordonsbesiktningspersonal och utförare av enskilt godkännande</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -13025,13 +12232,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -13047,13 +12247,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -13109,13 +12302,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -13131,13 +12317,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -13204,13 +12383,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -13226,13 +12398,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -13299,12 +12464,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -13316,14 +12475,10 @@
                   <sis1:LihavaTeksti>Prestationer i anslutning till tekniska tjänster och godkända sakkunniga</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -13467,12 +12622,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -13486,14 +12635,10 @@
                   <sis1:LihavaTeksti>(gäller till och med den 30 mars 2025)</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -13599,35 +12744,6 @@
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
                 <sis:KappaleKooste>12.1</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
@@ -13681,31 +12797,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -13721,13 +12812,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -13805,13 +12889,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -13827,13 +12904,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -13927,7 +12997,26 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>- tjänsteleverantör som bedriver godstrafik: registrering som idkare av godstrafik med ett fordon eller en fordonskombination vars totalmassa överstiger 2,5 t men inte överskrider 3,5 t<sis:Rivivaihto/>- tjänsteleverantör som bedriver taxitrafik: anmälan om bedrivande av taxitrafik med stöd av gods- eller persontrafiktillstånd<sis:Rivivaihto/>- tjänsteleverantör som tillhandahåller förmedlings- eller kombinationstjänster: anmälan om förmedlings- eller kombinationstjänster</sis:KappaleKooste>
+                <sis:KappaleKooste>- tjänsteleverantör som bedriver godstrafik: registrering som idkare av godstrafik med ett fordon eller en fordonskombination vars totalmassa överstiger 2,5 t men inte överskrider 3,5 t</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste>- tjänsteleverantör som bedriver taxitrafik: anmälan om bedrivande av taxitrafik med stöd av gods- eller persontrafiktillstånd</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>- tjänsteleverantör som tillhandahåller förmedlings- eller kombinationstjänster: anmälan om förmedlings- eller kombinationstjänster</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -13971,7 +13060,18 @@
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>Avgifterna i punkterna 14.1–14.5 tas ut även om det tillstånd eller intyg som ansökan gäller inte kan beviljas eller registeranteckning göras. För återkallande av tillstånd eller intyg eller strykande av registeranteckning tas ingen prestationsavgift ut.<sis:Rivivaihto/>Årsavgifterna i punkterna 14.6–14.7 omfattar ändringar som under tillståndets giltighetstid görs i tillståndshavarens uppgifter och i registeranteckningar som baserar sig på trafiktillståndet och på anmälningar, samt ersättande tillståndshandlingar som beviljas på grund av namn- eller adressändringar. Årsavgifterna omfattar dessutom tillsyn i anslutning till tillstånds- och anmälningspliktig verksamhet. Årsavgifterna tas ut kalenderårsvis av den aktör som den 1 januari är införd i registret. Årsavgiften i punkt 14.7 tas inte ut av den som innehar trafiktillstånd.</sis:KappaleKooste>
+                <sis:KappaleKooste>Avgifterna i punkterna 14.1–14.5 tas ut även om det tillstånd eller intyg som ansökan gäller inte kan beviljas eller registeranteckning göras. För återkallande av tillstånd eller intyg eller strykande av registeranteckning tas ingen prestationsavgift ut.</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>Årsavgifterna i punkterna 14.6–14.7 omfattar ändringar som under tillståndets giltighetstid görs i tillståndshavarens uppgifter och i registeranteckningar som baserar sig på trafiktillståndet och på anmälningar, samt ersättande tillståndshandlingar som beviljas på grund av namn- eller adressändringar. Årsavgifterna omfattar dessutom tillsyn i anslutning till tillstånds- och anmälningspliktig verksamhet. Årsavgifterna tas ut kalenderårsvis av den aktör som den 1 januari är införd i registret. Årsavgiften i punkt 14.7 tas inte ut av den som innehar trafiktillstånd.</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -13988,13 +13088,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -14010,13 +13103,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14105,12 +13191,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -14123,13 +13203,6 @@
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14185,13 +13258,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -14207,13 +13273,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14346,12 +13405,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="2" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -14363,14 +13416,10 @@
                   <sis1:LihavaTeksti>Prestationer som hänför sig till godkännande av utredningsplaner och vägplaner samt fastställande av en landsvägs funktionella klass</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14415,13 +13464,6 @@
                 <sis:KappaleKooste>1 000 euro</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>18.4</sis:KappaleKooste>
@@ -14444,13 +13486,6 @@
                 <sis:KappaleKooste>1 000 euro</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14510,13 +13545,6 @@
                 <sis:KappaleKooste>110 euro</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14543,13 +13571,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14587,8 +13608,10 @@
         </tau:tgroup>
       </tau:table>
       <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
           <tau:tbody>
             <tau:row>
               <tau:entry>
@@ -14596,14 +13619,10 @@
                   <sis1:LihavaTeksti>Trafikmedicin</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14659,13 +13678,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -14681,13 +13693,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14798,13 +13803,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -14820,13 +13818,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14871,25 +13862,19 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>Prestationer i anslutning till regleringsorganet för järnvägssektorn</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14901,13 +13886,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -14923,13 +13901,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -14976,16 +13947,6 @@
             </tau:row>
           </tau:tbody>
         </tau:tgroup>
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
       </tau:table>
       <tau:table frame="all" colsep="1" rowsep="1">
         <tau:tgroup cols="3" colsep="1" rowsep="1">
@@ -15006,34 +13967,17 @@
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>OFFENTLIGRÄTTSLIGA PRESTATIONER SOM AVVIKER FRÅN SJÄLVKOSTNADSVÄRDET</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -15045,13 +13989,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
@@ -15067,13 +14004,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -15208,24 +14138,6 @@
             </tau:row>
             <tau:row>
               <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-              <tau:entry>
-                <sis:KappaleKooste/>
-              </tau:entry>
-            </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
-            <tau:row>
-              <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>2</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
@@ -15239,13 +14151,6 @@
                 <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -15319,8 +14224,10 @@
         <sis1:LihavaTeksti>Förkortningar som används i bilagan</sis1:LihavaTeksti>
       </sis:KappaleKooste>
       <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
           <tau:tbody>
             <tau:row>
               <tau:entry>
@@ -15328,14 +14235,13 @@
                   <sis1:LihavaTeksti>LUFTFART</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>ACC3</sis:KappaleKooste>
@@ -15787,25 +14693,19 @@
                 <sis:KappaleKooste>visuellflygreglerna</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>SJÖFART</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>AFS</sis:KappaleKooste>
@@ -16096,8 +14996,10 @@
         </tau:tgroup>
       </tau:table>
       <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
+        <tau:tgroup cols="3" colsep="1" rowsep="1">
+          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
           <tau:tbody>
             <tau:row>
               <tau:entry>
@@ -16105,14 +15007,13 @@
                   <sis1:LihavaTeksti>JÄRNVÄGSTRAFIK</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>ECM</sis:KappaleKooste>
@@ -16157,25 +15058,19 @@
                 <sis:KappaleKooste>transport av farliga ämnen</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="1" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>VÄGTRAFIK</sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>ADR</sis:KappaleKooste>
