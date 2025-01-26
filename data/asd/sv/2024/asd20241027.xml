@@ -85,9 +85,7 @@ som har upptagits från atmosfären eller industrin och som är avsedd att vara 
             <saa:SaadosOtsikkoKooste>Beräkning av koldioxidfotavtryck </saa:SaadosOtsikkoKooste>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>Den som påbörjar ett byggprojekt ska se till att koldioxidfotavtrycket från en ny byggnads livscykel beräknas för klimatdeklarationen. Biogena och fossila växthusgasutsläpp (kgCO2e) som orsakas före, under och efter användningen av en byggnad samt upptaget av utsläpp räknas enligt formeln</saa:MomenttiJohdantoKooste>
-              <saa:MomenttiKohtaKooste/>
               <saa:MomenttiKohtaKooste>C<sis1:AlaindeksiTeksti>fotavtryck</sis1:AlaindeksiTeksti> = GWP<sis1:AlaindeksiTeksti>tillverkning</sis1:AlaindeksiTeksti> + GWP<sis1:AlaindeksiTeksti>utbyte</sis1:AlaindeksiTeksti> + GWP<sis1:AlaindeksiTeksti>avfallsbehandling</sis1:AlaindeksiTeksti> + GWP<sis1:AlaindeksiTeksti>bortskaffning</sis1:AlaindeksiTeksti> + GWP<sis1:AlaindeksiTeksti>transport</sis1:AlaindeksiTeksti> + GWP<sis1:AlaindeksiTeksti>byggarbetsplats</sis1:AlaindeksiTeksti> + GWP<sis1:AlaindeksiTeksti>driftsenergi</sis1:AlaindeksiTeksti></saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste/>
             </saa:KohdatMomentti>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>där</saa:MomenttiJohdantoKooste>
@@ -140,10 +138,12 @@ som har upptagits från atmosfären eller industrin och som är avsedd att vara 
             <saa:MomenttiKooste>Beräkningen av koldioxidfotavtrycket från transporter i byggfasen eller rivningsfasen (GWP<sis1:AlaindeksiTeksti>transport</sis1:AlaindeksiTeksti>) ska omfatta koldioxidfotavtrycket från alla transporter som behövs under byggnadens livscykel i anknytning till byggande, utbyte av byggnadsdelar och rivning samt till behandlingen av bygg- och rivningsavfallet. Beräkningen ska grunda sig antingen på tabellvärdena i den nationella utsläppsdatabasen eller alternativt på en projektspecifik kalkylering. </saa:MomenttiKooste>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>Om beräkningen görs projektspecifikt ska den grunda sig på en separat kalkyl för varje transport. Den projektspecifika kalkyleringen ska grunda sig på följande formel:</saa:MomenttiJohdantoKooste>
-              <sis:Kuva>
-                <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/8263.gif">8263</sis:KuvaAsemointi>
-                <saa:SaadosKappaleKooste>8263</saa:SaadosKappaleKooste>
-              </sis:Kuva>
+              <saa:MomenttiKohtaKooste>
+                <sis:Kuva>
+                  <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/8263.gif">8263</sis:KuvaAsemointi>
+                  <saa:SaadosKappaleKooste>8263</saa:SaadosKappaleKooste>
+                </sis:Kuva>
+              </saa:MomenttiKohtaKooste>
             </saa:KohdatMomentti>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>där</saa:MomenttiJohdantoKooste>
@@ -171,10 +171,12 @@ som har upptagits från atmosfären eller industrin och som är avsedd att vara 
             <saa:MomenttiKooste>Beräkningen av koldioxidfotavtrycket från verksamheten på byggarbetsplatsen ska grunda sig antingen på tabellvärdena i den nationella utsläppsdatabasen eller alternativt på en projektspecifik kalkylering. </saa:MomenttiKooste>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>Beräkningen av det projektspecifika koldioxidfotavtrycket från köpt energi och bränslen för verksamheten på byggarbetsplatsen ska grunda sig på en separat kalkyl för varje energiform. Den projektspecifika kalkylen ska grunda sig på följande formel: </saa:MomenttiJohdantoKooste>
-              <sis:Kuva>
-                <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/8265.gif">8265</sis:KuvaAsemointi>
-                <saa:SaadosKappaleKooste>8265</saa:SaadosKappaleKooste>
-              </sis:Kuva>
+              <saa:MomenttiKohtaKooste>
+                <sis:Kuva>
+                  <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/8265.gif">8265</sis:KuvaAsemointi>
+                  <saa:SaadosKappaleKooste>8265</saa:SaadosKappaleKooste>
+                </sis:Kuva>
+              </saa:MomenttiKohtaKooste>
             </saa:KohdatMomentti>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>där</saa:MomenttiJohdantoKooste>
@@ -189,18 +191,20 @@ som har upptagits från atmosfären eller industrin och som är avsedd att vara 
             <saa:SaadosOtsikkoKooste>Byggnadens energianvändning</saa:SaadosOtsikkoKooste>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>Beräkningen av koldioxidfotavtrycket från energiförbrukningen under byggnadens brukstid (GWPdriftsenergi) ska göras för beräkningsperioden på 50 år. Kalkyleringen av koldioxidfotavtrycket från energianvändningen ska grunda sig på den sammanlagda summan av koldioxidfotavtrycket från de olika energiformer som använts under beräkningsperiodens alla år enligt följande formel:</saa:MomenttiJohdantoKooste>
-              <sis:Kuva>
-                <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/8267.gif">8267</sis:KuvaAsemointi>
-                <saa:SaadosKappaleKooste>8267</saa:SaadosKappaleKooste>
-              </sis:Kuva>
-            </saa:KohdatMomentti>
-            <saa:KohdatMomentti>
-              <saa:MomenttiJohdantoKooste>där </saa:MomenttiJohdantoKooste>
-              <saa:MomenttiKohtaKooste>GWP<sis1:AlaindeksiTeksti>driftsenergi</sis1:AlaindeksiTeksti> är växthusgasutsläpp från användningen av energi under byggnadens brukstid,</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>E är byggnadens kalkylerade förbrukning av köpt energi för varje energiform som förbrukas i byggnaden, räknad enligt miljöministeriets förordning om nya byggnaders energiprestanda (1010/2017), kWh, </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>GWP<sis1:AlaindeksiTeksti>E,i</sis1:AlaindeksiTeksti> är specifika växthusgasutsläpp på årsnivå enligt den nationella utsläppsdatabasen och som uppkommer från förbrukningen av köpt energi och inbegriper den nationella utsläppsdatabasens presumtion om den framtida minskningen i utsläpp från energiformen i fråga, kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/kWh,</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>i är kalkyleringsåret,</saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>t är beräkningsperiodens längd.</saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <sis:Kuva>
+                  <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/8267.gif">8267</sis:KuvaAsemointi>
+                  <saa:SaadosKappaleKooste>8267</saa:SaadosKappaleKooste>
+                </sis:Kuva>
+              </saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>där </saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>GWP<sis1:AlaindeksiTeksti>driftsenergi</sis1:AlaindeksiTeksti> är växthusgasutsläpp från användningen av energi under byggnadens brukstid,</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>E är byggnadens kalkylerade förbrukning av köpt energi för varje energiform som förbrukas i byggnaden, räknad enligt miljöministeriets förordning om nya byggnaders energiprestanda (1010/2017), kWh, </saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>GWP<sis1:AlaindeksiTeksti>E,i</sis1:AlaindeksiTeksti> är specifika växthusgasutsläpp på årsnivå enligt den nationella utsläppsdatabasen och som uppkommer från förbrukningen av köpt energi och inbegriper den nationella utsläppsdatabasens presumtion om den framtida minskningen i utsläpp från energiformen i fråga, kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/kWh,</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>i är kalkyleringsåret,</saa:MomenttiAlakohtaKooste>
+                <saa:MomenttiAlakohtaKooste>t är beräkningsperiodens längd.</saa:MomenttiAlakohtaKooste>
+              </saa:MomenttiKohtaKooste>
             </saa:KohdatMomentti>
             <saa:MomenttiKooste>Byggnadens energianvändning ska beräknas börja det planerade ibruktagningsåret för byggnaden, dock senast inom fem år från ansökan om bygglov. Beräkningen av energianvändningen inbegriper dock inte retroaktivt tidigare energianvändning i byggnader som eventuellt rivs på byggplatsen.</saa:MomenttiKooste>
           </saa:Pykala>
@@ -242,14 +246,14 @@ genom karbonatisering (GWP<sis1:AlaindeksiTeksti>karbonatisering</sis1:Alaindeks
             <saa:SaadosOtsikkoKooste>Överskott av förnybar energi</saa:SaadosOtsikkoKooste>
             <saa:KohdatMomentti>
               <saa:MomenttiJohdantoKooste>Beräkningen av koldioxidhandavtrycket från byggnadens överskott av förnybar energi som producerats i byggnaden, på byggplatsen eller genom sådan energiproduktion i närheten av byggplatsen till vilken det finns en fast överföringsförbindelse ska grunda sig på en kalkylering enligt miljöministeriets förordning om nya byggnaders energiprestanda samt på uppgifter i den nationella utsläppsdatabasen eller på uppgifter som fastställts enligt en allmänt accepterad enhetlig metod samt på en kalkylering enligt formeln</saa:MomenttiJohdantoKooste>
-              <sis:Kuva>
-                <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/8269.gif">8269</sis:KuvaAsemointi>
-                <saa:SaadosKappaleKooste>8269</saa:SaadosKappaleKooste>
-              </sis:Kuva>
-            </saa:KohdatMomentti>
-            <saa:KohdatMomentti>
-              <saa:MomenttiJohdantoKooste>där</saa:MomenttiJohdantoKooste>
               <saa:MomenttiKohtaKooste>
+                <sis:Kuva>
+                  <sis:KuvaAsemointi sis1:kuvaTiedostoTeksti="https://www.finlex.fi/data/sdliite/kaava/8269.gif">8269</sis:KuvaAsemointi>
+                  <saa:SaadosKappaleKooste>8269</saa:SaadosKappaleKooste>
+                </sis:Kuva>
+              </saa:MomenttiKohtaKooste>
+              <saa:MomenttiKohtaKooste>
+                <saa:MomenttiAlakohtaKooste>där</saa:MomenttiAlakohtaKooste>
                 <saa:MomenttiAlakohtaKooste>GWP<sis1:AlaindeksiTeksti>förnybar energi</sis1:AlaindeksiTeksti> är växthusgasutsläpp som undvikits genom byggnadens överskott av förnybar energi,</saa:MomenttiAlakohtaKooste>
                 <saa:MomenttiAlakohtaKooste>E<sis1:AlaindeksiTeksti>levererad el</sis1:AlaindeksiTeksti> är mängden levererad förnybar överskottsel som överstiger byggnadens balansgräns, minskad med transformatorförlusterna inom byggnadens balansgräns, kWh,</saa:MomenttiAlakohtaKooste>
                 <saa:MomenttiAlakohtaKooste>GWP<sis1:AlaindeksiTeksti>levererad el</sis1:AlaindeksiTeksti> är växthusgasutsläpp från produktion av el som levereras till energinätet och som överstiger byggnadens balansgräns, kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/kWh,</saa:MomenttiAlakohtaKooste>
@@ -310,264 +314,303 @@ livslängd,</saa:MomenttiAlakohtaKooste>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="21 §">
             <saa:PykalaTunnusKooste>21 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Resultatframställning av beräkningen av koldioxidsnålhet i klimatdeklarationen</saa:SaadosOtsikkoKooste>
-            <saa:KohdatMomentti>
-              <saa:MomenttiJohdantoKooste>Klimatdeklarationen ska innehålla resultaten av beräkningen av koldioxidsnålhet separat fördelade på varje fas av en byggnads livscykel både för byggnaden och för byggplatsen enligt följande tabell: </saa:MomenttiJohdantoKooste>
-              <saa:MomenttiKohtaKooste>
-                <tau:table frame="all" colsep="1" rowsep="1">
-                  <tau:tgroup cols="2" colsep="1" rowsep="1">
-                    <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-                    <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-                    <tau:tbody>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste/>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Koldioxidfotavtryck</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                    </tau:tbody>
-                  </tau:tgroup>
-                  <tau:tgroup cols="3" colsep="1" rowsep="1">
-                    <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-                    <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-                    <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-                    <tau:tbody>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste/>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Byggnad</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Byggplats</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>A1–A3 Tillverkning av byggprodukter</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>A4 Transport</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>A5 Verksamhet på byggarbetsplatsen</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>B4 Utbyte av byggprodukter </sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>B6 Energianvändning</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>C1 Rivning</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>C2 Transport av rivningsavfall</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>C3 Behandling av rivningsavfall</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>C4 Bortskaffning av rivningsavfall</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry morerows="1">
-                          <sis:KappaleKooste>Koldioxidfotavtryckets slutsumma</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e sammanlagt</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e sammanlagt</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                    </tau:tbody>
-                  </tau:tgroup>
-                </tau:table>
-              </saa:MomenttiKohtaKooste>
-              <saa:MomenttiKohtaKooste>
-                <tau:table frame="all" colsep="1" rowsep="1">
-                  <tau:tgroup cols="2" colsep="1" rowsep="1">
-                    <tau:colspec colnum="1" colname="1" colwidth="50*"/>
-                    <tau:colspec colnum="2" colname="2" colwidth="50*"/>
-                    <tau:tbody>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste/>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Koldioxidhandavtryck</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                    </tau:tbody>
-                  </tau:tgroup>
-                  <tau:tgroup cols="3" colsep="1" rowsep="1">
-                    <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-                    <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-                    <tau:colspec colnum="3" colname="3" colwidth="33*"/>
-                    <tau:tbody>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste/>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Byggnad</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>Byggplats</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Återanvändning</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a </sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Återvinning</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a </sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Överskott av förnybar energi</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a </sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Produkternas påverkan på kollagren</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a </sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>Karbonatisering</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
-                        </tau:entry>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a </sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                    </tau:tbody>
-                  </tau:tgroup>
-                  <tau:tgroup cols="1" colsep="1" rowsep="1">
-                    <tau:colspec colnum="1" colname="1" colwidth="100*"/>
-                    <tau:tbody>
-                      <tau:row>
-                        <tau:entry>
-                          <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e avser växthusgaser uttryckta i kilogram koldioxidekvivalenter och avrundade symmetriskt med en decimals noggrannhet,m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> avser byggnadens uppvärmda nettoarea,a avser den 50 år långa beräkningsperiodens längd i år. Om någon av koldioxidhandavtryckets delfaktorer har bedömts sakna betydelse, lämnas fältet tomt.</sis:KappaleKooste>
-                        </tau:entry>
-                      </tau:row>
-                    </tau:tbody>
-                  </tau:tgroup>
-                </tau:table>
-              </saa:MomenttiKohtaKooste>
-            </saa:KohdatMomentti>
+            <saa:MomenttiKooste>Klimatdeklarationen ska innehålla resultaten av beräkningen av koldioxidsnålhet separat fördelade på varje fas av en byggnads livscykel både för byggnaden och för byggplatsen enligt följande tabell: </saa:MomenttiKooste>
+            <tau:table frame="all" colsep="1" rowsep="1">
+              <tau:tgroup cols="3" colsep="1" rowsep="1">
+                <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+                <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+                <tau:colspec colnum="3" colname="3" colwidth="33*"/>
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>
+                        <sis1:LihavaTeksti>Koldioxidfotavtryck</sis1:LihavaTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>
+                        <sis1:LihavaTeksti>Byggnad</sis1:LihavaTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>
+                        <sis1:LihavaTeksti>Byggplats</sis1:LihavaTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>A1–A3 Tillverkning av byggprodukter</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>A4 Transport</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>A5 Verksamhet på byggarbetsplatsen</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>B4 Utbyte av byggprodukter </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>B6 Energianvändning</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>C1 Rivning</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>C2 Transport av rivningsavfall</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>C3 Behandling av rivningsavfall</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>C4 Bortskaffning av rivningsavfall</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Koldioxidfotavtryckets slutsumma</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>
+                        <sis1:LihavaTeksti>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis1:LihavaTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>
+                        <sis1:LihavaTeksti>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis1:LihavaTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>
+                        <sis1:LihavaTeksti>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e sammanlagt</sis1:LihavaTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>
+                        <sis1:LihavaTeksti>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e sammanlagt</sis1:LihavaTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
+            <tau:table frame="all" colsep="1" rowsep="1">
+              <tau:tgroup cols="3" colsep="1" rowsep="1">
+                <tau:colspec colnum="1" colname="1" colwidth="33*"/>
+                <tau:colspec colnum="2" colname="2" colwidth="33*"/>
+                <tau:colspec colnum="3" colname="3" colwidth="33*"/>
+                <tau:tbody>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>
+                        <sis1:LihavaTeksti>Koldioxidhandavtryck</sis1:LihavaTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>
+                        <sis1:LihavaTeksti>Byggnad</sis1:LihavaTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>
+                        <sis1:LihavaTeksti>Byggplats</sis1:LihavaTeksti>
+                      </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Återanvändning</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Återvinning</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Överskott av förnybar energi</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Produkternas påverkan på kollagren</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Karbonatisering</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e/m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti>/a </sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>kgCO<sis1:AlaindeksiTeksti>2</sis1:AlaindeksiTeksti>e avser växthusgaser uttryckta i kilogram koldioxidekvivalenter och avrundade symmetriskt med en decimals noggrannhet,</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>m<sis1:YlaindeksiTeksti>2</sis1:YlaindeksiTeksti> avser byggnadens uppvärmda nettoarea,</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>a avser den 50 år långa beräkningsperiodens längd i år.</sis:KappaleKooste>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                    <tau:entry>
+                      <sis:KappaleKooste/>
+                    </tau:entry>
+                  </tau:row>
+                  <tau:row>
+                    <tau:entry>
+                      <sis:KappaleKooste>Om någon av koldioxidhandavtryckets delfaktorer har bedömts sakna betydelse, lämnas fältet tomt.</sis:KappaleKooste>
+                    </tau:entry>
+                  </tau:row>
+                </tau:tbody>
+              </tau:tgroup>
+            </tau:table>
           </saa:Pykala>
           <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="22 §">
             <saa:PykalaTunnusKooste>22 §</saa:PykalaTunnusKooste>
@@ -640,7 +683,7 @@ livslängd,</saa:MomenttiAlakohtaKooste>
         <saa:Luku saa1:identifiointiTunnus="6 kap.">
           <saa:LukuTunnusKooste>6 kap.</saa:LukuTunnusKooste>
           <saa:SaadosOtsikkoKooste>Ikraftträdande och övergångsbestämmelser</saa:SaadosOtsikkoKooste>
-          <saa:Pykala saa1:pykalaLuokitusKoodi="VoimaantuloPykala" saa1:identifiointiTunnus="27 §">
+          <saa:Pykala saa1:pykalaLuokitusKoodi="Pykala" saa1:identifiointiTunnus="27 §">
             <saa:PykalaTunnusKooste>27 §</saa:PykalaTunnusKooste>
             <saa:SaadosOtsikkoKooste>Ikraftträdande</saa:SaadosOtsikkoKooste>
             <saa:MomenttiKooste>Denna förordning träder i kraft den 1 januari 2026.</saa:MomenttiKooste>
@@ -672,10 +715,11 @@ livslängd,</saa:MomenttiAlakohtaKooste>
     <asi:SisaltoLiite>
       <sis1:ValiotsikkoTeksti>Bilaga 1</sis1:ValiotsikkoTeksti>
       <tau:table frame="all" colsep="1" rowsep="1">
-        <tau:tgroup cols="3" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="33*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="33*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="33*"/>
+        <tau:tgroup cols="4" colsep="1" rowsep="1">
+          <tau:colspec colnum="1" colname="1" colwidth="25*"/>
+          <tau:colspec colnum="2" colname="2" colwidth="25*"/>
+          <tau:colspec colnum="3" colname="3" colwidth="25*"/>
+          <tau:colspec colnum="4" colname="4" colwidth="25*"/>
           <tau:tbody>
             <tau:row>
               <tau:entry>
@@ -687,19 +731,14 @@ livslängd,</saa:MomenttiAlakohtaKooste>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
                 <sis:KappaleKooste>
                   <sis1:LihavaTeksti>Ingår inte i beräkningen av koldioxidsnålhet </sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
             </tau:row>
-          </tau:tbody>
-        </tau:tgroup>
-        <tau:tgroup cols="4" colsep="1" rowsep="1">
-          <tau:colspec colnum="1" colname="1" colwidth="25*"/>
-          <tau:colspec colnum="2" colname="2" colwidth="25*"/>
-          <tau:colspec colnum="3" colname="3" colwidth="25*"/>
-          <tau:colspec colnum="4" colname="4" colwidth="25*"/>
-          <tau:tbody>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste/>
@@ -728,13 +767,80 @@ livslängd,</saa:MomenttiAlakohtaKooste>
                 <sis:KappaleKooste> </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>– Markdelar <sis:Rivivaihto/>– Stöd <sis:Rivivaihto/>– Beläggningar<sis:Rivivaihto/>– Områdets 
-konstruktioner<sis:Rivivaihto/>– Röjningar<sis:Rivivaihto/>– 	Konstruktioner eller byggnader som rivs för ett nybygge</sis:KappaleKooste>
+                <sis:KappaleKooste>– Markdelar</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>– Schakt och kanaler <sis:Rivivaihto/>– Utrustning på området <sis:Rivivaihto/>– Produktförpackningar <sis:Rivivaihto/>– Tillfälliga utrymmen, 
-ställningar och skydd som behövs på byggarbetsplatsen<sis:Rivivaihto/>– Träd, annan växtlighet, 
-jordmån och vattendrag</sis:KappaleKooste>
+                <sis:KappaleKooste>– Schakt och kanaler</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Stöd</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Utrustning på området</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Beläggningar</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Produktförpackningar</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Områdets konstruktioner</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Tillfälliga utrymmen, ställningar och skydd som behövs på byggarbetsplatsen</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Röjningar</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Träd, annan växtlighet, jordmån och vattendrag</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Konstruktioner eller byggnader som rivs för ett nybygge</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -744,14 +850,69 @@ jordmån och vattendrag</sis:KappaleKooste>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>– Bottenbjälklag<sis:Rivivaihto/>– Stomme<sis:Rivivaihto/>– Fasader, dörrar och fönster <sis:Rivivaihto/>– Yttre plan och 
-balkonger <sis:Rivivaihto/>– Takkonstruktioner</sis:KappaleKooste>
+                <sis:KappaleKooste>– Bottenbjälklag</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>– Grunder</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>– Separata spikar, skruvar, lim, tätningar, fogningar och andra fästen som inte hör till produkterna<sis:Rivivaihto/>– Rökventilationskonstruktioner<sis:Rivivaihto/>– Produktförpackningar</sis:KappaleKooste>
+                <sis:KappaleKooste>– Separata spikar, skruvar, lim, tätningar, fogningar och andra fästen som inte hör till produkterna</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Stomme</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Rökventilationskonstruktioner</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Fasader, dörrar och fönster</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Produktförpackningar</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Yttre plan och balkonger</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Takkonstruktioner</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
             <tau:row>
@@ -761,38 +922,166 @@ balkonger <sis:Rivivaihto/>– Takkonstruktioner</sis:KappaleKooste>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>– Innerväggar 
-(mellanväggar, 
-dörrar, trappor)<sis:Rivivaihto/>– Rumsytor (golv, innertak, väggar) med ytbehandling<sis:Rivivaihto/>– Rumsutrustning (fasta inventarier)<sis:Rivivaihto/>– Rökkanaler och 
-eldstäder</sis:KappaleKooste>
+                <sis:KappaleKooste>– Innerväggar (mellanväggar, dörrar, trappor)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste/>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>– Lister och 
-hörnförstärkningar<sis:Rivivaihto/>– Räcken <sis:Rivivaihto/>– Rumsskyltar <sis:Rivivaihto/>– Separata spikar, skruvar, lim, tätningar, fogningar och andra fästen som inte hör till produkterna<sis:Rivivaihto/>– Produktförpackningar</sis:KappaleKooste>
+                <sis:KappaleKooste>– Lister och hörnförstärkningar</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Rumsytor (golv, innertak, väggar) med ytbehandling</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Räcken</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Rumsutrustning (fasta inventarier)</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Rumsskyltar</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Rökkanaler och eldstäder</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Separata spikar, skruvar, lim, tätningar, fogningar och andra fästen som inte hör till produkterna</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Produktförpackningar</sis:KappaleKooste>
               </tau:entry>
             </tau:row>
             <tau:row>
               <tau:entry>
                 <sis:KappaleKooste>
-                  <sis1:LihavaTeksti>Installations-</sis1:LihavaTeksti>
-                  <sis:Rivivaihto/>
-                  <sis1:LihavaTeksti>teknik </sis1:LihavaTeksti>
+                  <sis1:LihavaTeksti>Installationsteknik </sis1:LihavaTeksti>
                 </sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>– Värmesystemets huvuddelar<sis:Rivivaihto/>– Vatten- och 
-avloppssystemets huvuddelar<sis:Rivivaihto/>– Ventilationssystemets huvuddelar<sis:Rivivaihto/>– Kylsystemets huvuddelar<sis:Rivivaihto/>– Sprinklersystemets huvuddelar<sis:Rivivaihto/>– Elsystemets 
-huvuddelar<sis:Rivivaihto/>– Hissar och 
-rulltrappor</sis:KappaleKooste>
+                <sis:KappaleKooste>– Värmesystemets huvuddelar</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
                 <sis:KappaleKooste>– Sådana installationstekniska delar utanför byggnaden som inte betjänar byggnaden utan byggplatsen (t.ex. områdesbelysning eller elsystem för skyddstak utomhus)</sis:KappaleKooste>
               </tau:entry>
               <tau:entry>
-                <sis:KappaleKooste>– Datatekniska system<sis:Rivivaihto/>– System för husautomation<sis:Rivivaihto/>– Reservströmssystem<sis:Rivivaihto/>– Separata maskiner och anordningar<sis:Rivivaihto/>– Produkters och anordningars förpackningar</sis:KappaleKooste>
+                <sis:KappaleKooste>– Datatekniska system</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Vatten- och avloppssystemets huvuddelar</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– System för husautomation</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Ventilationssystemets huvuddelar</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Reservströmssystem</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Kylsystemets huvuddelar</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Separata maskiner och anordningar</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Sprinklersystemets huvuddelar</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Produkters och anordningars förpackningar</sis:KappaleKooste>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Elsystemets huvuddelar</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+            </tau:row>
+            <tau:row>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste>– Hissar och rulltrappor</sis:KappaleKooste>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
+              </tau:entry>
+              <tau:entry>
+                <sis:KappaleKooste/>
               </tau:entry>
             </tau:row>
           </tau:tbody>
